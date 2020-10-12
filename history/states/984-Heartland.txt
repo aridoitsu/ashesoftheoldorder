@@ -1,0 +1,20 @@
+state={
+	id=984
+	name="Heartland"
+	resources={
+		steel=110.000
+	}
+	history = {
+		owner = MNM
+		add_core_of = MNM
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		11667 12597 14276 14317 14363 
+	}
+	manpower=12035
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,25 @@
+state={
+	id=1157
+	name="Jiujinshan"
+	history={
+		owner = CHT
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		}
+
+		add_core_of = CHT
+
+		victory_points = {
+			13717 40
+		}
+	}
+	provinces={
+		13717
+	}
+	manpower=299363
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

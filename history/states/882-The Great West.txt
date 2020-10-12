@@ -1,0 +1,21 @@
+state={
+	id=882
+	name="Dinosaur"
+	history = {
+		owner = PRV
+		add_core_of = PRV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13757 1
+		}
+	}
+	provinces={
+		10535 13807 13757 1756 12633
+	}
+	manpower=98739
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

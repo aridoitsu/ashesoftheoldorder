@@ -1,0 +1,20 @@
+state={
+	id=1055
+	name="Huntington"
+	history = {
+		owner = APP
+		add_core_of = APP
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10441 5
+		}
+	}
+	provinces={
+		6971 10441
+	}
+	manpower=60125
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

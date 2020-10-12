@@ -1,0 +1,23 @@
+
+state={
+	id=381
+	name="Wyoming"
+
+	history={
+		owner = WYW
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = WYW
+
+	}
+
+	provinces={
+		12561 13889 13890 13891 13912 13919 13924 13868
+	}
+	manpower=23564
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

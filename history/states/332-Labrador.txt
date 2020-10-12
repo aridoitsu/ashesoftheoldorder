@@ -1,0 +1,32 @@
+
+state={
+	id=332
+	name="Northern Labrador"
+
+	history={
+		owner = QBC
+		buildings = {
+			infrastructure = 1
+			12503 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = QBC
+		victory_points = {
+			12503 15 
+		}
+		victory_points = {
+			1426 10 
+		}
+
+	}
+
+	provinces={
+		1426 15102 15127 15226 15308 15360 15445 
+	}
+	manpower=922179
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

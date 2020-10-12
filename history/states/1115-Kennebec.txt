@@ -1,0 +1,24 @@
+state={
+	id=1115
+	name="Kennebec"
+	manpower = 302745
+	state_category=rural
+	resources={
+		tungsten=12.000
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = MEM
+		add_core_of = CAN
+	}
+	provinces={
+		10318 12459 14040 14078 14096 14118
+	}
+	buildings_max_level_factor=1.000
+}

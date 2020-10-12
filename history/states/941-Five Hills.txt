@@ -1,0 +1,18 @@
+state={
+	id=941
+	name="Five Hills"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+		}
+	}
+	provinces={
+		14450 14451 14452 14508 14519 14546 14587 14588 
+	}
+	manpower=95478
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

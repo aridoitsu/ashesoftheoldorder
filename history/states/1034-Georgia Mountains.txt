@@ -1,0 +1,18 @@
+state={
+	id=1034
+	name="New Afrika"
+	history = {
+		owner = NAK
+		add_core_of = NAK
+		add_claim_by = CON
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		9949 10394 
+	}
+	manpower=20145
+	buildings_max_level_factor=1.000
+	state_category = town
+}

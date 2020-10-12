@@ -1,0 +1,27 @@
+state={
+	id=971
+	name="Timberlands"
+	history = {
+		owner = LOI
+		add_core_of = LOI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			7543 3
+		}
+		victory_points = {
+			13581 3
+		}
+		victory_points = {
+			13557 1
+		}
+	}
+	provinces={
+		1503 7485 7543 10355 12458 13557 13569 13581
+	}
+	manpower=57465
+	buildings_max_level_factor=1.000
+	state_category = town
+}

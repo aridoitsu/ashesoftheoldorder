@@ -1,0 +1,20 @@
+state={
+	id=969
+	name="Arkansas Delta"
+	history = {
+		owner = OZR
+		add_core_of = OZR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4625 3
+		}
+	}
+	provinces={
+		1646 4625 13613 13617 13644 7586
+	}
+	manpower=31205
+	buildings_max_level_factor=1.000
+	state_category = town
+}

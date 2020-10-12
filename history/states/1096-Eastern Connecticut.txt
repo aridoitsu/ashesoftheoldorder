@@ -1,0 +1,25 @@
+state={
+	id=1096
+	name="Connecticut"
+	manpower = 390713
+	state_category = large_town
+
+	history={
+		owner = CRA
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 3
+			9832 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = CRA
+	}
+
+	provinces={
+		9832 13932
+	}
+	buildings_max_level_factor=1.000
+}

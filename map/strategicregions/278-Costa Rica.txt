@@ -1,0 +1,9 @@
+strategic_region={
+	id=278
+	name="Costa Rica"
+	provinces={
+		12878 13087 13092 13280 13285 13290 13297 13299 
+	}
+	weather={
+	}
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=466
+	name="Nord-du-Québec"
+	resources={
+		aluminium=4.000
+		oil=11.000
+	}
+
+	history={
+		owner = QBC
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = QBC
+		victory_points = {
+			3208 5
+		}
+
+	}
+
+	provinces={
+		7364 12147 15231 15258 15273 15274 15279 15294 15295 15296 15301 15317 15318 15326 15335 15337 15340 15355 15363 15367 15375 15384 15385 15386 15391 15400 15407 15426 15430 15439 15443 15444 15463 15478 15487 15488 15496 15501 15523 15524 15557 15568 15570 15608 15676
+	}
+	manpower=318860
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

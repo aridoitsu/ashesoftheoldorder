@@ -1,0 +1,21 @@
+state={
+	id=917
+	name="Garden"
+	history = {
+		owner = WDC
+		add_core_of = WDC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			13744 1
+		}
+	}
+	provinces={
+		4871 10532 13744 13747 13791 13820
+	}
+	manpower=52147
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

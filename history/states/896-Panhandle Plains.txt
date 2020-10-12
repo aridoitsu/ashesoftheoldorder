@@ -1,0 +1,29 @@
+state={
+	id=896
+	name="Amarillo"
+	resources = {
+		oil = 15.000
+		aluminium = 50.000
+		steel = 12.000
+	}
+	history = {
+		owner = ALL
+		add_core_of = ALL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			3972 8
+		}
+		victory_points = {
+			2055 1
+		}
+	}
+	provinces={
+		2055 3875 3972 9908 12848 12893 13606 13625
+	}
+	manpower=824712
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

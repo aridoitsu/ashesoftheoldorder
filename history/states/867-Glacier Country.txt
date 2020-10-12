@@ -1,0 +1,22 @@
+state={
+	id=867
+	name="Glacier"
+	history = {
+		owner = GLR
+		add_core_of = GLR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			14245 3
+		}
+	}
+	provinces={
+		1854 4838 7779 12676 14179 14245 14345
+	}
+	manpower=214756
+	buildings_max_level_factor=1.000
+	state_category = town
+}

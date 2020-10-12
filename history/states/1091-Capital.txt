@@ -1,0 +1,26 @@
+state={
+	id=1091
+	name="Saratoga Springs"
+	manpower = 241376
+	state_category=town
+	resources = {
+		steel=10.00
+	}
+
+	history={
+		owner = NYN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = NYN
+		victory_points = {
+			11722 1
+		}
+	}
+	provinces={
+		3806 11722
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,257 @@
+### Florida Ideas ###
+### INDUSTRIAL EXPANSION COMING SOON!!!!!!! ###
+ideas = {
+	### Country ideas
+	country = {
+		### Internal Section ###
+		FLF_Open_Borders = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_prc_the_long_march2
+			modifier = {
+				monthly_population = 0.25
+				stability_factor = -0.05
+			}
+		}
+		## Democratic Section ###
+		FLF_Restoration_Projects = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_research_bonus
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		FLF_Working_Incentives = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_send_attache
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		FLF_Reignite_the_Republic = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_NewRepublic
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.10
+			}
+		}
+		### Fascist Section ###
+		FLF_South_Pride = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_FLF_Southern_Pride
+			modifier = {
+				conscription = 0.015
+				army_core_defence_factor = 0.02
+			}
+		}
+		FLF_Slavery_Again = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_generic_fascism_drift_2
+			modifier = {
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.25
+				monthly_population = -0.10
+				conscription_factor = -0.15
+			}
+		}
+		FLF_Offensive_Approach = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_hun_secret_rearmament
+			modifier = {
+				justify_war_goal_time = -0.25
+				conscription = 0.025
+				army_attack_factor = 0.1
+			}
+		}
+		### Authoritarian Section ###
+		FLF_Expanding_Influence = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_generic_constitutional_guarantee
+			modifier = {
+				conscription = 0.025
+				army_morale_factor = 0.02
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.02
+			}
+		}
+		### Left-Auth Section ###
+		FLF_Lenin = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = socialist_science_focus
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.10
+			}
+		}
+		FLF_Left_War_Plans = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_generic_communist_army
+			modifier = {
+				max_planning = 0.1
+				planning_speed = 0.1
+				encryption_factor = 0.15
+			}
+		}
+		FLF_Purged_Radicals = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = trotskyite_plot_purged
+			modifier = {
+				communism_drift = 0.25
+				stability_factor = 0.10
+			}
+		}
+		### LEFT ###
+		FLF_welfare_Program_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_gain = 0.15
+			}
+		}
+		### Military ###
+		FLF_Old_Tactics = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_hun_secret_rearmament
+			modifier = {
+				army_org_Factor = 0.02
+				army_morale_factor = 0.4
+			}
+		}
+		FLF_New_Tactics = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_hun_secret_rearmament
+			modifier = {
+				army_org_Factor = -0.05
+				army_morale_factor = 0.02
+				army_speed_factor = 0.03
+			}
+		}
+		FLF_Trench_Foot = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_ast_all_in
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_morale_factor = 0.03
+			}
+		}
+		FLF_Killing_Machines = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_chi_army_corruption3
+			modifier = {
+				army_org_Factor = 0.03
+				army_core_attack_factor = 0.05
+			}
+		}
+		FLF_Moral_Boost = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				army_org_Factor = 0.04
+				army_morale_factor = 0.02
+				army_core_attack_factor = 0.03
+				army_core_defence_factor = 0.02
+			}
+		}
+		#############################
+		#Industry UPDATE COMING SOON#
+		#############################
+
+		FLF_IntegratedEconomyIdea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		FLF_UnionsPleased = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = new_deal
+			modifier = {
+				political_power_gain = -0.2
+				production_speed_buildings_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.15
+				local_resources_factor = -0.15
+
+			}
+		}
+
+		FLF_MilitaryStrong = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_war_economy
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				local_resources_factor = 0.15
+				industrial_capacity_factory = 0.15
+
+
+			}
+		}
+
+		FLF_PermitMonopoly = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_generic_industrial_concern_1
+			modifier = {
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.10
+			}
+		}
+
+		FLF_MonopoliesBanned = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_FLF_MonopoliesBanned
+			modifier = {
+				consumer_goods_factor = 0.05
+				local_resources_factor = 0.25
+				industrial_capacity_factory = 0.05
+
+
+			}
+		}
+
+		FLF_alligatorbite = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = GFX_idea_eng_preparing_the_second_front
+			modifier = {
+				amphibious_invasion = 0.25
+				justify_war_goal_time = -0.2
+			}
+		}
+		FLF_ReinforceTheStateIdea= {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = idea_usa_desegregation_1
+			modifier = {
+				justify_war_goal_time = -0.35
+				conscription_factor = 0.-
+			}
+		}
+	}

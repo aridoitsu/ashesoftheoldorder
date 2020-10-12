@@ -1,0 +1,46 @@
+
+state={
+	id=367
+	name="Birmingham"
+	manpower=846247
+	state_category=city
+	resources={
+		steel=5
+		aluminium=5
+		oil=13.000
+	}
+	history={
+		owner = CON
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+
+		}
+		add_core_of = CON
+		victory_points = {
+			7422 10
+		}
+		victory_points = {
+			10192 3
+		}
+		victory_points = {
+			4622 1
+		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1587 4622 4756 7422 10192 12735 12803
+	}
+
+	buildings_max_level_factor=1.000
+
+}

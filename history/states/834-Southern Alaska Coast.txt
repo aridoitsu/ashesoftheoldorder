@@ -1,0 +1,22 @@
+state={
+	id=834
+	name="Juneau"
+	history = {
+		owner = CAN
+		add_core_of = AKA
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			15341 5
+		}
+	}
+	provinces={
+		10707 13202 13203 15341 
+	}
+	manpower=90125
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

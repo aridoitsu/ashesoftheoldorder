@@ -1,0 +1,20 @@
+state={
+	id=1138
+	name="Région de l'Abitibi-Temiscamingue"
+	history={
+		owner = QBC
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
+		}
+		add_core_of = QBC
+	}
+	provinces={
+		1764 7875 10249 11682 11902 12205 12276 14197 14225 14251 14289 14311 14314 14333 14334 14349 14350 14379 14389 14395 14404 14418 14428 14434 14438 14496 14506 14517 14557 14566 14621 14649
+	}
+	manpower=520981
+	buildings_max_level_factor=1.000
+	state_category = town
+}

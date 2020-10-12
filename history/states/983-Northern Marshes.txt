@@ -1,0 +1,20 @@
+state={
+	id=983
+	name="Marshes"
+	history = {
+		owner = MNM
+		add_core_of = MNM
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12588 3
+		}
+	}
+	provinces={
+		12588 14288 14355
+	}
+	manpower=34120
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

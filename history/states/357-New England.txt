@@ -1,0 +1,30 @@
+
+state={
+	id=357
+	name="Maine"
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+
+		}
+		add_core_of = CAN
+		add_core_of = MEM
+		victory_points = {
+			12459 1
+		}
+
+	}
+
+	provinces={
+		1338 1619 14060 14067 14075 14084 14085 14124
+	}
+	manpower=129543
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

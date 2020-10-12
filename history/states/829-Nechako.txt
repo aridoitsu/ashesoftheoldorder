@@ -1,0 +1,17 @@
+state={
+	id=829
+	name="Nechako"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1799 14924 15054 15128 15145 15184 15241 15297 15329 15369 15376 15388 15414 15448 15494 15514 15515 
+	}
+	manpower=12354
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

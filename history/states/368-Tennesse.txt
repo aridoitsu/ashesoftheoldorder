@@ -1,0 +1,29 @@
+
+state={
+	id=368
+	name="Clarksville"
+	resources={
+		steel=60.000
+	}
+
+	history={
+		owner = NSH
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = NSH
+		victory_points = {
+			12670 1
+		}
+
+	}
+
+	provinces={
+		10281 10824 12501 12670
+	}
+	manpower=216555
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

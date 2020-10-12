@@ -1,0 +1,709 @@
+﻿add_namespace = tex
+add_namespace = texasnews
+
+country_event = {
+  id = tex.0
+  title = tex.0.t
+  desc = tex.0.d
+  picture = GFX_report_event_molotov_ribentrop_handshake
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.0.a
+    TXT = {
+      transfer_state = 832
+    }
+  }
+}
+country_event = {
+  id = tex.1
+  title = tex.1.t
+  desc = tex.1.d
+  picture = GFX_report_event_molotov_ribentrop_handshake
+
+  is_triggered_only =  yes
+
+  option = {
+    name = tex.1.a
+    add_political_power = -50
+    add_stability = -0.05
+  }
+}
+country_event = {
+  id = tex.2
+  title = tex.2.t
+  desc = tex.2.d
+  picture = GFX_report_event_molotov_ribentrop_handshake
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.0.a
+    TXT = {
+      transfer_state = 893
+      transfer_state = 886
+      transfer_state = 892
+      transfer_state = 887
+      transfer_state = 891
+      transfer_state = 890
+    }
+  }
+}
+country_event = {
+  id = tex.3
+  title = tex.3.t
+  desc = tex.3.d
+  picture = GFX_report_event_molotov_ribentrop_handshake
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.3.a
+    TXT = {
+      transfer_state = 884
+      transfer_state = 885
+      transfer_state = 883
+    }
+  }
+}
+country_event = {
+
+	id = tex.4
+	title = tex.4.t
+	desc = tex.4.d
+	is_triggered_only = yes
+
+
+	option = {
+		name = tex.4.a
+		create_country_leader = {
+		name = "Leon Trotsky"
+		desc = POLITICS_TXT_LEON_TROTSKY
+		picture = "Portrait_Leon_Trotsky.dds"
+		expire = "1965.1.1"
+		ideology = leninism
+		traits = { permanent_revolutionary }
+		}
+	}
+}
+country_event = {
+  id = tex.5
+  title = tex.5.t
+  desc = tex.5.d
+  picture = GFX_report_event_generic_diplomacy
+  is_triggered_only = yes
+
+  option = {
+    name = tex.5.a
+    ai_chance = {
+      base = 10
+      modifier = {
+        factor = 30
+        has_government = democratic
+      }
+      modifier = {
+        factor = 30
+        strength_ratio = {
+          tag = FROM
+          ratio > 1.5
+        }
+      }
+    }
+    TXT = {
+      transfer_state = 893
+      transfer_state = 886
+      transfer_state = 892
+      transfer_state = 887
+      transfer_state = 891
+      transfer_state = 890
+      give_guarantee = NMN
+    }
+    889 = {
+      add_extra_state_shared_building_slots = 4
+      add_building_construction = {
+        type = industrial_complex
+        level = 4
+        instant_build = yes
+      }
+    }
+    894 = {
+      add_building_construction = {
+        type = industrial_complex
+        level = -4
+        instant_build = yes
+      }
+    }
+  }
+  option = {
+    name = tex.5.b
+    ai_chance = {
+      base = 90
+    }
+    TXT = {
+      country_event = tex.6
+    }
+  }
+}
+country_event = {
+  id = tex.6
+  title = tex.6.t
+  desc = tex.6.d
+  picture = GFX_report_event_chinese_soldiers_01
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.6.a
+    start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 898
+				num_provinces = 2
+				on_win = tex.2
+				on_lose = tex.1
+			}
+			defender = {
+				state = 891
+				num_provinces = 2
+			}
+		}
+  }
+  option = {
+    name = tex.6.b
+  }
+}
+country_event = {
+  id = tex.7
+  title = tex.7.t
+  desc = tex.7.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.7.a
+    ai_chance = {
+      base = 10
+      modifier = {
+        factor = 30
+        has_government = democratic
+      }
+      modifier = {
+        factor = 30
+        strength_ratio = {
+          tag = FROM
+          ratio > 1.5
+        }
+      }
+    }
+    TXT = {
+      transfer_state = 884
+      transfer_state = 885
+      transfer_state = 883
+      give_guarantee = COC
+      give_military_access = COC
+    }
+    879 = {
+      add_extra_state_shared_building_slots = 3
+      add_building_construction = {
+        type = industrial_complex
+        level = 3
+        instant_build = yes
+      }
+    }
+    375 = {
+      add_building_construction = {
+        type = industrial_complex
+        level = -3
+        instant_build = yes
+      }
+    }
+  }
+  option = {
+    name = tex.7.b
+    TXT = {
+      country_event = tex.8
+    }
+  }
+}
+country_event = {
+  id = tex.8
+  title = tex.8.t
+  desc = tex.8.d
+  picture = GFX_report_event_chinese_soldiers_01
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.8.a
+    start_border_war = {
+			change_state_after_war = no
+			attacker = {
+			  state = 893
+				num_provinces = 1
+				on_win = tex.3
+				on_lose = tex.1
+			}
+			defender = {
+				state = 885
+				num_provinces = 1
+			}
+		}
+  }
+}
+country_event = {
+  id = tex.9
+  title = tex.9.t
+  desc = tex.9.d
+  picture = GFX_report_event_generic_diplomacy
+  is_triggered_only = yes
+
+  option = {
+    name = tex.9.a
+    ai_chance = {
+      base = 10
+      modifier = {
+        factor = 30
+        has_government = democratic
+      }
+      modifier = {
+        factor = 30
+        strength_ratio = {
+          tag = FROM
+          ratio > 1.5
+        }
+      }
+    }
+    TXT = {
+      transfer_state = 907
+    }
+    374 = {
+      add_extra_state_shared_building_slots = 4
+      add_building_construction = {
+        type = industrial_complex
+        level = 2
+        instant_build = yes
+      }
+    }
+    895 = {
+      add_building_construction = {
+        type = industrial_complex
+        level = -2
+        instant_build = yes
+      }
+    }
+  }
+  option = {
+    name = tex.9.b
+    TXT = {
+      country_event = tex.10
+    }
+  }
+}
+country_event = {
+  id = tex.10
+  title = tex.10.t
+  desc = tex.10.d
+  picture = GFX_report_event_chinese_soldiers_01
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.10.a
+    start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 788
+				num_provinces = 2
+			  on_win = tex.0
+				on_lose = tex.1
+			}
+			defender = {
+				state = 898
+				num_provinces = 1
+			}
+		}
+  }
+}
+country_event = {
+  id = tex.11
+  title = tex.11.t
+  desc = tex.11.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.11.a
+    ai_chance = {
+      base = 50
+      modifier = {
+        factor = 30
+        has_government = democratic
+      }
+      modifier = {
+        factor = 30
+        strength_ratio = {
+          tag = FROM
+          ratio > 1.5
+        }
+      }
+    }
+    TXT = {
+      transfer_state = 381
+    }
+  }
+  option = {
+    name = tex.11.b
+    TXT = {
+      country_event = tex.12
+    }
+  }
+}
+country_event = {
+  id = tex.12
+  title = tex.12.t
+  desc = tex.12.d
+  picture = GFX_report_event_chinese_soldiers_01
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.12.a
+    start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 803
+				num_provinces = 1
+			  on_win = tex.13
+				on_lose = tex.1
+			}
+			defender = {
+				state = 883
+				num_provinces = 1
+			}
+		}
+  }
+}
+country_event = {
+  id = tex.13
+  title = tex.13.t
+  desc = tex.13.d
+  picture = GFX_report_event_molotov_ribentrop_handshake
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.13.a
+    TXT = {
+      transfer_state = 381
+    }
+  }
+}
+country_event = {
+  id = tex.14
+  title = tex.14.t
+  desc = tex.14.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.14.a
+    ai_chance = {
+      base = 50
+      modifier = {
+        factor = 30
+        has_government = democratic
+      }
+      modifier = {
+        factor = 30
+        strength_ratio = {
+          tag = FROM
+          ratio > 1.5
+        }
+      }
+    }
+    TXT = {
+      transfer_state = 919
+    }
+  }
+  option = {
+    name = tex.14.b
+    TXT = {
+      country_event = tex.15
+    }
+  }
+}
+country_event = {
+  id = tex.15
+  title = tex.15.t
+  desc = tex.15.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.15.a
+    start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 907
+				num_provinces = 1
+			  on_win = tex.16
+				on_lose = tex.1
+			}
+			defender = {
+				state = 919
+				num_provinces = 1
+			}
+		}
+  }
+}
+country_event = {
+  id = tex.16
+  title = tex.16.t
+  desc = tex.16.d
+  picture = GFX_report_event_molotov_ribentrop_handshake
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.16.a
+    TXT = {
+      transfer_state = 896
+    }
+  }
+}
+country_event = {
+  id = tex.17
+  title = tex.17.t
+  desc = tex.17.d
+  picture = GFX_report_event_generic_diplomacy
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.17.a
+    TXT = {
+      add_to_faction = ROOT
+    }
+  }
+  option = {
+    name = tex.17.b
+    TXT = {
+      country_event = tex.18
+    }
+  }
+}
+country_event = {
+  id = tex.18
+  title = tex.18.t
+  desc = tex.18.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.18.a
+  }
+}
+country_event = {
+  id = tex.19
+  title = tex.19.t
+  desc = tex.19.d
+  picture = GFX_report_event_british_artillery
+
+  is_triggered_only = yes
+
+  option = {
+    name = tex.19.a
+    hidden_effect = {
+      set_country_flag = TXT_fascistcivwar
+      start_civil_war = {
+        ideology = democratic
+        size = 0.5
+        states = {
+          896 905 906 895 899 900
+        }
+      }
+      random_other_country = {
+				limit = {
+					original_tag = TXT
+					has_government = democratic
+				}
+        set_capital = 895
+				load_oob = "TXT_dem_Civil_War"
+				set_equipment_fraction = 0.5
+				set_stability = 0.23
+				set_war_support = 0.8
+			}
+      TXT = {
+        load_oob = "TXT_fas_civil_war"
+        set_equipment_fraction = 0.5
+        set_stability = 0.23
+        set_war_support = 0.95
+        set_politics = {
+  				ruling_party = fascism
+  				elections_allowed = no
+  			}
+  			set_party_name = {
+  				ideology = fascism
+  				long_name = TXT_Fascism_party_ourown_long
+  				name = TXT_fascism_party_ourown
+  			}
+      }
+    }
+  }
+}
+country_event = {
+  id = tex.20
+  title = tex.20.t
+  desc = tex.20.d
+  picture = GFX_report_event_generic_sign_treaty2
+  fire_only_once = yes
+  trigger = {
+    has_country_flag = TXT_fascistcivwar
+    has_war = no
+  }
+
+  option = {
+    name = tex.20.a
+    add_ideas = {
+      TXT_idea_civwar
+      TXT_idea_broken_morale
+    }
+    delete_unit_template_and_units = {
+      division_template = "Civilian Militia"
+    }
+    hidden_effect = {
+      clr_country_flag = TXT_fascistcivwar
+    }
+  }
+}
+country_event = {
+  id = tex.21
+  title = tex.21.t
+  desc = tex.21.d
+  picture = GFX_revoltionary_direction
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+    name = tex.21.a
+    hidden_effect = {
+      set_country_flag = TXT_chose_stalin
+    }
+  }
+  option = {
+    name = tex.21.b
+    hidden_effect = {
+      set_country_flag = TXT_chose_trotsky
+    }
+  }
+}
+# [Country] Accepts
+  country_event = {
+    id = tex.22
+    title = tex.22.t
+    desc = tex.22.d
+    picture = GFX_report_event_soldiers_in_disunitedstates
+
+    is_triggered_only = yes
+
+    option = {
+      name = tex.22.a
+      effect_tooltip = {
+        add_to_faction = FROM
+      }
+    }
+  }
+
+  # [Country] Refuses
+  country_event = {
+    id = tex.23
+    title = tex.23.t
+    desc = tex.23.d
+    picture = GFX_report_event_finnish_letter
+
+    is_triggered_only = yes
+
+    option = {
+      name = tex.23.a
+    }
+  }
+  country_event = {
+    id = tex.24
+    title = tex.24.t
+    desc = tex.24.d
+    picture = GFX_report_event_worried_french
+
+    is_triggered_only = yes
+
+    option = {
+      name = tex.24.a
+      ai_chance = {
+        factor = 10
+        modifier = {
+          factor = 20
+          has_government = fascism
+        }
+        modifier = {
+          factor = 10
+          strength_ratio = {
+            tag = FROM
+            ratio > 0.5
+          }
+        }
+      }
+      TXT = {
+        country_event = tex.22
+        add_to_faction = ROOT
+      }
+      add_ai_strategy = {
+        type = alliance
+        id = "TXT"
+        value = 200
+      }
+    }
+    option = {
+      name = tex.24.b
+      ai_chance = {
+        factor = 90
+      }
+      TXT = {
+        country_event = tex.23
+      }
+    }
+  }
+
+##### News Events
+news_event = {
+  id = texasnews.5
+  title = texasnews.5.t
+  desc = texasnews.5.d
+  picture = GFX_news_event_capitol_stormed
+  is_triggered_only = yes
+
+  option = {
+    name = tex.5.a
+  }
+}
+news_event = {
+  id = texasnews.1
+  title = texasnews.1.t
+  desc = texasnews.1.d
+  picture = GFX_news_event_003
+  is_triggered_only = yes
+
+  option = {
+    name = texasnews.1.a
+  }
+}
+news_event = {
+  id = texasnews.2
+  title = texasnews.2.t
+  desc = texasnews.2.d
+  picture = GFX_news_event_003
+  is_triggered_only = yes
+
+  option = {
+    name = texasnews.2.a
+  }
+}

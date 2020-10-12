@@ -1,0 +1,10 @@
+﻿l_english:
+  CSA_VERSUS_UNION:0 "CSA v. Union"
+  RULE_OPTION_NOT_CW:0 "No Civil War"
+  RULE_OPTION_NOT_CW_DESC:0 "The Civil War does not make it's way into your game."
+  RULE_OPTION_DECENTRALIZED_CSAUNION:0 "Decentralized Civil War"
+  RULE_OPTION_DECENTRALIZED_CSAUNION_DESC:0 "The Civil War continues in the United States as nations form a loose federation of states rather than one nation. The CSA and Union will start as a faction. PLAY AS any state you desire."
+  RULE_OPTION_CENTRALIZED_CSAUNION:0 "Centralized Civil War"
+  RULE_OPTION_CENTRALIZED_CSAUNION_DESC:0 "The Civil War continues in the United States as two nations. The CSA and Union will start as united nations. PLAY AS South Carolina for the CSA or Maryland for the Union"
+  union:0 "Union"
+  confederacy:0 "Confederate States of America"

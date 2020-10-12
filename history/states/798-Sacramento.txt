@@ -1,0 +1,40 @@
+state={
+	id=798
+	name="Sacramento"
+	resources={
+		oil=20.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 6
+
+		}
+		add_core_of = CAL
+		victory_points = {
+			13760 25
+		}
+		victory_points = {
+			13756 5
+		}
+		victory_points = {
+			13779 5
+		}
+		victory_points = {
+			13773 5
+		}
+		victory_points = {
+			9713 5
+		}
+	}
+	provinces={
+		9713 13756 13760 13773 13779 13798
+	}
+	manpower=501901
+	buildings_max_level_factor=1.000
+	state_category = city
+}

@@ -1,0 +1,23 @@
+state={
+	id=1075
+	name="Harrisburg"
+	manpower=1948245
+	state_category=large_city
+
+	history={
+		owner = PHL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 2
+		}
+		add_core_of = PHL
+		victory_points = {
+			11785 5
+		}
+	}
+	provinces={
+		3824 6869 11785
+	}
+	buildings_max_level_factor=1.000
+}

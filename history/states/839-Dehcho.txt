@@ -1,0 +1,18 @@
+state={
+	id=839
+	name="Dehcho"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		7830 15583 15584 15585 15586 15587 15602 15610 15619 15622 15631 15638 15646 15647 15667 15672 15685 15691 15711 15720 15722 
+	}
+	manpower=10231
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

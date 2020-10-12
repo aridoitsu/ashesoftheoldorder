@@ -1,0 +1,21 @@
+state={
+	id=1050
+	name="Appalachian Viginia"
+	history = {
+		owner = APP
+		add_core_of = APP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			1506 1
+		}
+	}
+	provinces={
+		7558 9779 10439 1506
+	}
+	manpower=310214
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

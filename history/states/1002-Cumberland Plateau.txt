@@ -1,0 +1,21 @@
+state={
+	id=1002
+	name="Cumberland"
+	history = {
+		owner = NSH
+		add_core_of = NSH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			1758 1
+		}
+	}
+	provinces={
+		1758 10657
+	}
+	manpower=213485
+	buildings_max_level_factor=1.000
+	state_category = town
+}

@@ -1,0 +1,17 @@
+state={
+	id=1008
+	name="Kentucky Bend"
+	history = {
+		owner = MIS
+		add_core_of = MIS
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		10586 
+	}
+	manpower=80415
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

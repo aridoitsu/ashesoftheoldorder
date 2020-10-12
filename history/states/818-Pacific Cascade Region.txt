@@ -1,0 +1,26 @@
+state={
+	id=818
+	name="Pacific Cascade"
+	resources = {
+		chromium = 6.000
+	}
+	history = {
+		owner = OLY
+		add_core_of = OLY
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		}
+		victory_points = {
+			14129 15
+		}
+	}
+	provinces={
+		7255 10271 14129 14168 12155 14160 14171 10690
+	}
+	manpower=413395
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

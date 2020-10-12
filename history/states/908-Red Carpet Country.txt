@@ -1,0 +1,24 @@
+state={
+	id=908
+	name="Red Carpet"
+	history = {
+		owner = OKC
+		add_core_of = OKC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		victory_points = {
+			7904 5
+		}
+		victory_points = {
+			7762 3
+		}
+	}
+	provinces={
+		7762 7904 10798 11802 13640 13658 13675 13687 13690
+	}
+	manpower=442170
+	buildings_max_level_factor=1.000
+	state_category = town
+}

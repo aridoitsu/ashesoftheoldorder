@@ -1,0 +1,17 @@
+state={
+	id=994
+	name="South Superior"
+	history = {
+		owner = SUP
+		add_core_of = SUP
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		703 4738 
+	}
+	manpower=50124
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

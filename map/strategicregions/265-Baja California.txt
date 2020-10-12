@@ -1,0 +1,9 @@
+strategic_region={
+	id=265
+	name="Baja Ca;ifornia"
+	provinces={
+		1892 1904 7964 8119 12461 12736 12859 13215 13216 13395 13404 13419 13467 
+	}
+	weather={
+	}
+}

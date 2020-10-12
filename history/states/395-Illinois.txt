@@ -1,0 +1,35 @@
+
+state={
+	id=395
+	name="Springfield"
+	resources = {
+		steel = 32.000
+	}
+	history={
+		owner = SRF
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = SRF
+		victory_points = {
+			12697 15
+		}
+		victory_points = {
+			12497 15
+		}
+		victory_points = {
+			720 1
+		}
+
+	}
+
+	provinces={
+		720 10457 12497 12697
+	}
+	manpower=830651
+	buildings_max_level_factor=1.000
+	state_category=city
+}

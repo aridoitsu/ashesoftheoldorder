@@ -1,0 +1,25 @@
+state={
+	id=863
+	name="Apache"
+	resources={
+		chromium= 2.000
+		aluminium= 10.000
+	}
+	history={
+		owner = PNX
+		add_core_of = PNX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			7747 5 
+		}
+	}
+	provinces={
+		4796 7747 13550 13553 13583 13589 13594
+	}
+	manpower=159723
+	buildings_max_level_factor=1.000
+	state_category = town
+}

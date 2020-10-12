@@ -1,0 +1,30 @@
+state={
+	id=855
+	name="Salt Lake City"
+	history={
+		owner = SLC
+		add_core_of = SLC
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 4
+		}
+		victory_points = {
+			13873 20
+		}
+		victory_points = {
+			13866 10
+		}
+		victory_points = {
+			13878 5
+		}
+	}
+	provinces={
+		13866 13873 13878 13884
+	}
+	manpower=1001452
+	buildings_max_level_factor=1.000
+	state_category = city
+}

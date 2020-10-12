@@ -1,0 +1,25 @@
+state={
+	id=996
+	name="Rock River"
+	resources = {
+		oil = 21.000
+		steel = 42.000
+	}
+	history = {
+		owner = CGO
+		add_core_of = CGO
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+		victory_points = {
+			12312 5
+		}
+	}
+	provinces={
+		6737 11589 12312 12368
+	}
+	manpower=201432
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

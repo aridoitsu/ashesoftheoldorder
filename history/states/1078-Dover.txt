@@ -1,0 +1,30 @@
+state={
+	id=1078
+	name="Dover"
+	manpower = 309291
+	state_category = town
+
+	history = {
+		Owner = DEL
+		buildings = {
+		infrastructure = 4
+		industrial_complex = 2
+		arms_factory = 1
+		}
+		add_core_of = DEL
+		victory_points = {
+			13814 15
+		}
+		victory_points = {
+			13825 1
+		}
+		victory_points = {
+			13812 1
+		}
+	}
+
+	provinces={
+		13812 13814 13825
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=479
+	name="STATE_479"
+	resources={
+		oil=19.000
+		steel=25.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			4956 10 
+		}
+		victory_points = {
+			5015 5 
+		}
+
+	}
+
+	provinces={
+		1952 2083 4956 5015 5021 12721 13088 13388 13397 13398 
+	}
+	manpower=1432988
+	buildings_max_level_factor=1.000
+	state_category=town
+}

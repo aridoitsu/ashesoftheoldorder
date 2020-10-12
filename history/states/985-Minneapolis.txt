@@ -1,0 +1,34 @@
+state={
+	id=985
+	name="Minneapolis"
+	history = {
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		victory_points = {
+			14132 15
+		}
+		victory_points = {
+			14122 8
+		}
+		victory_points = {
+			14121 5
+		}
+		victory_points = {
+			14149 3
+		}
+		victory_points = {
+			14144 3
+		}
+	}
+	provinces={
+		14121 14122 14132 14144 14149 14109 1719
+	}
+	manpower=745628
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

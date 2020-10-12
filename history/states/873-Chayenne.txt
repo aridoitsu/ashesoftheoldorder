@@ -1,0 +1,30 @@
+state={
+	id=873
+	name="Cheyenne"
+	history={
+		owner = WDC
+		add_core_of = WDC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			13902 8
+		}
+		victory_points = {
+			13894 3
+		}
+		victory_points = {
+			13913 1
+		}
+		victory_points = {
+			13893 1
+		}
+	}
+	provinces={
+		13892 13893 13894 13902 13907 13913
+	}
+	manpower=225564
+	buildings_max_level_factor=1.000
+	state_category=city
+}

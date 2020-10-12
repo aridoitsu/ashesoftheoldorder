@@ -1,0 +1,24 @@
+state={
+	id=801
+	name="Mojave"
+	resources={
+		oil=15.000
+	}
+
+	history={
+		owner = MJV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 4
+		}
+		add_core_of = MJV
+	}
+	provinces={
+		823 4657 4727 7517 7986 11757 11795 12303 13564 13618 
+	}
+	manpower=1871365
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

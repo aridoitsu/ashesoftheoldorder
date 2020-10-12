@@ -1,0 +1,18 @@
+state={
+	id=1134
+	name="Région de la Côte Nord"
+	history={
+		owner = QBC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+		add_core_of = QBC
+	}
+	provinces={
+		4666 7683 7810 10534 10715 12600 14542 14584 14591 14592 14600 14609 14610 14638 14650 14657 14662 14663 14674 14691 14692 14705 14706 14716 14729 14741 14744 14745 14746 14753 14754 14755 14798 14811
+	}
+	manpower=92518
+	buildings_max_level_factor=1.000
+	state_category = town
+}

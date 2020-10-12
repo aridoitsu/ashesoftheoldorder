@@ -1,0 +1,21 @@
+state={
+	id=1052
+	name="Shenendoah"
+	history = {
+		owner = VAV
+		add_core_of = VAV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			11873 5
+		}
+	}
+	provinces={
+		951 10343 11873
+	}
+	manpower=130142
+	buildings_max_level_factor=1.000
+	state_category = town
+}

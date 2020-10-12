@@ -1,0 +1,25 @@
+state={
+	id=1053
+	name="Arlington"
+	history = {
+		owner = VAV
+		add_core_of = VAV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 2
+		}
+		victory_points = {
+			873 3
+		}
+		victory_points = {
+			865 3
+		}
+	}
+	provinces={
+		865 873 3823 6846
+	}
+	manpower=801326
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

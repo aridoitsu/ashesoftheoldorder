@@ -1,0 +1,22 @@
+state={
+	id=1031
+	name="Columbus"
+	history = {
+		owner = NAK
+		add_core_of = NAK
+		add_claim_by = CON
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			7583 10
+		}
+	}
+	provinces={
+		7583 10492 12384
+	}
+	manpower=102465
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

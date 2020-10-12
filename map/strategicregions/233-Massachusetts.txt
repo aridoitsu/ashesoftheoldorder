@@ -1,0 +1,9 @@
+strategic_region={
+	id=233
+	name="Massachusetts"
+	provinces={
+		715 718 905 908 3710 3906 6732 13908 13918 13948 13953 13960 13961 13963 13964 13969 
+	}
+	weather={
+	}
+}

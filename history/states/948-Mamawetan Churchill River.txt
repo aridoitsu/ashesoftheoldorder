@@ -1,0 +1,17 @@
+state={
+	id=948
+	name="Mamawetan Churchill River"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		736 3800 14971 14972 15007 15017 15020 15021 15048 15058 15073 15081 15101 15106 15124 15137 15143 15150 15159 15174 15185 15193 15221 15228 15235 15247 15248 15275 15276 15292 15315 15316 15333 15343 15351 15405 15410 15411 15436 15441 15457 
+	}
+	manpower=54124
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

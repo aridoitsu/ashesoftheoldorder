@@ -1,0 +1,43 @@
+state={
+	id=992
+	name="Milwaukee"
+	history = {
+		owner = CGO
+		add_core_of = CGO
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			9657 10
+		}
+		victory_points = {
+			14010 3
+		}
+		victory_points = {
+			14023 3
+		}
+		victory_points = {
+			14037 1
+		}
+		victory_points = {
+			14039 3
+		}
+		victory_points = {
+			14014 1
+		}
+		victory_points = {
+			13999 1
+		}
+		victory_points = {
+			13995 1
+		}
+	}
+	provinces={
+		9657 13995 13999 14010 14014 14023 14037 14039
+	}
+	manpower=904152
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

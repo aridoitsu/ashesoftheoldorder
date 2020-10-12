@@ -1,0 +1,28 @@
+state={
+	id=1010
+	name="Louisville"
+	history = {
+		owner = NSH
+		add_core_of = NSH
+		buildings= {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			6696 10
+		}
+		victory_points = {
+			4988 5
+		}
+		victory_points = {
+			12709 1
+		}
+	}
+	provinces={
+		1582 4988 6696 12568 12709
+	}
+	manpower=310246
+	buildings_max_level_factor=1.000
+	state_category = town
+}

@@ -1,0 +1,19 @@
+state={
+	id=923
+	name="Flint Hills"
+	history={
+		owner = WDC
+		add_core_of = WDC
+		add_core_of = SEQ
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		7892 13763 
+	}
+	manpower=188998
+	buildings_max_level_factor=1.000
+	state_category = town
+}

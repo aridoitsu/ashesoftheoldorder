@@ -1,0 +1,4 @@
+hical_culture = USA
+graphical_culture_2d = USA
+
+color = { 65 133 69 }

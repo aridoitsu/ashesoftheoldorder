@@ -1,0 +1,30 @@
+
+state={
+	id=370
+	name="Mississippi"
+
+	history={
+		owner = MIS
+		victory_points = {
+			4464 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = MIS
+		victory_points = {
+			7464 5
+		}
+
+	}
+
+	provinces={
+		4510 7464 10410 12328
+	}
+	manpower=200982
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,3142 @@
+#California Focus Tree by Lifey
+
+focus_tree = {
+	id = california_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 25
+			tag = CAC
+		}
+	}
+	continuous_focus_position = { x = 150 y = 2700 }
+	default = no
+
+	focus = {
+		id = CAC_politicalstate
+		icon = GFX_CAC_politicalstate
+		cost = 1.00
+		x = 19
+		y = 0
+		ai_will_do = {
+			factor = 75
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+			available = {
+					date > 1936.02.23
+				}
+			completion_reward = {
+					CAC = {
+							country_event = california.1
+						}
+					set_country_flag = CAC_electedpresident
+				}
+
+	}
+	focus = {
+		id = CAC_psadepartmentofdefense
+		icon = GFX_focus_usa_recruit_the_free_corps
+		cost = 7.25
+		x = 19
+		y = 13
+			available = {
+					has_completed_focus = CAC_formationofpsa
+				}
+			prerequisite = {
+				focus = CAC_formationofpsa
+			}
+			completion_reward = {
+					add_ideas = CAC_newlyformedarmedforces
+					add_ideas = CAC_newnavy
+					add_ideas = CAC_newlyformedairforce
+				}
+
+	}
+	focus = {
+		id = CAC_genericindustry1
+		icon = GFX_Generic_Industrialization
+		cost = 7.25
+		x = 5
+		y = 0
+		completion_reward = {
+					802 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_army1
+		icon = GFX_CAC_roar
+		cost = 5.00
+		x = 5
+		y = 7
+			available = {
+					has_country_flag = CAC_electedpresident
+				}
+			completion_reward = {
+					add_war_support = 0.05
+					add_command_power = 10.00
+				}
+
+	}
+	focus = {
+		id = CAC_genericindustry3
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry1
+		}
+		x = 3
+		y = 1
+			completion_reward = {
+					802 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					add_resource = {
+							type = tungsten
+							amount = 25
+							state = 802
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_genericindustry5
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry3
+		}
+		x = 2
+		y = 2
+			completion_reward = {
+					803 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_genericindustry10
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry5
+		}
+		x = 1
+		y = 3
+			completion_reward = {
+					378 = {
+							add_extra_state_shared_building_slots = 4
+						}
+					799 = {
+							add_extra_state_shared_building_slots = 4
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_army2
+		icon = GFX_goal_generic_defence
+		cost = 1.00
+		prerequisite = {
+			focus = CAC_army1
+		}
+		available = {
+			NOT = {
+				has_idea = CAC_unloyalarmy
+			}
+		}
+		x = 5
+		y = 8
+			completion_reward = {
+					country_event = california.16
+					army_experience = 25
+				}
+
+	}
+	focus = {
+		id = CAC_armylloydsway1
+		icon = GFX_CAC_lloyd
+		cost = 1.00
+		prerequisite = {
+			focus = CAC_army2
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		x = 2
+		y = 9
+			available = {
+					has_country_flag = lloydsway
+				}
+			bypass = {
+					has_country_flag = lloydsway
+				}
+			completion_reward = {
+					army_experience = 15
+				}
+
+	}
+	focus = {
+		id = CAC_armylloydsway2
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_armylloydsway1
+		}
+		x = 1
+		y = 10
+			completion_reward = {
+				add_tech_bonus = {
+						name = infantry_weapons
+						bonus = 0.75
+						uses = 1
+						category = infantry_weapons
+					}
+				add_tech_bonus = {
+						name = infantry_artillery_bonus
+						bonus = 0.5
+						uses = 2
+						category = artillery
+					}
+				}
+
+	}
+	focus = {
+		id = CAC_armylloydsway3
+		icon = GFX_goal_generic_army_artillery
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_armylloydsway1
+		}
+		x = 3
+		y = 10
+			completion_reward = {
+					add_tech_bonus = {
+							name = artillery
+							bonus = 0.75
+							uses = 2
+							category = support_tech
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_armylloydsway4
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_armylloydsway2
+			focus = CAC_armylloydsway3
+		}
+		x = 2
+		y = 11
+			completion_reward = {
+					add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 1.0
+							uses = 2
+							category = cat_superior_firepower
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_armylloydsway5
+		icon = GFX_CAC_SF
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_armylloydsway4
+		}
+		x = 3
+		y = 12
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus CAC_armylloydsway5"
+					custom_effect_tooltip = california_training_tech_effect
+					hidden_effect = {
+							set_technology = {
+									california_training_tech = 1
+								}
+						}
+					add_ideas = CAC_specialforcesenviromentaltraining
+				}
+
+	}
+	focus = {
+		id = CAC_genericindustry11
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry3
+		}
+		x = 4
+		y = 2
+			completion_reward = {
+					968 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_genericindustry6
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry5
+		}
+		x = 4
+		y = 3
+			completion_reward = {
+					add_resource = {
+							type = steel
+							amount = 30
+							state = 805
+						}
+					add_resource = {
+							type = oil
+							amount = -25
+							state = 805
+						}
+				}
+
+	}
+
+	focus = {
+		id = CAC_oilforfactories
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry6
+		}
+		mutually_exclusive = {
+			focus = CAC_oilforcivfactories
+		}
+		x = 3
+		y = 4
+			completion_reward = {
+					add_resource = {
+							type = oil
+							amount = -24
+							state = 801
+						}
+						801 = {
+								add_extra_state_shared_building_slots = 2
+								add_building_construction = {
+										type = arms_factory
+										level = 2
+										instant_build = yes
+									}
+							}
+				}
+
+	}
+	focus = {
+		id = CAC_oilforcivfactories
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry6
+		}
+		mutually_exclusive = {
+			focus = CAC_oilforfactories
+		}
+		x = 5
+		y = 4
+			completion_reward = {
+					add_resource = {
+							type = oil
+							amount = -24
+							state = 801
+						}
+						801 = {
+								add_extra_state_shared_building_slots = 2
+								add_building_construction = {
+										type = industrial_complex
+										level = 2
+										instant_build = yes
+									}
+							}
+				}
+
+	}
+	focus = {
+		id = CAC_genericindustry2
+		icon = GFX_Generic_Industry_Tanks
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry1
+		}
+		x = 5
+		y = 1
+			completion_reward = {
+					798 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_expandncrstates
+		icon = GFX_Generic_Liberty_Calling
+		cost = 14.30
+
+		available = {
+				has_completed_focus = CAC_localsecurity
+		}
+
+		prerequisite = {
+			focus = CAC_army2
+		}
+		x = 5
+		y = 9
+			completion_reward = {
+					add_timed_idea = {
+							idea = CAC_ncrrevanchism
+							days = 750
+						}
+					add_ideas = limited_conscription
+					add_state_claim = 807
+				}
+
+	}
+	focus = {
+		id = CAC_nevadawar
+		icon = GFX_CAC_freedom
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_expandncrstates
+		}
+		x = 5
+		y = 10
+		available = {
+			has_army_manpower = {
+				size > 125000
+			}
+		}
+			bypass = {
+					NVN = {
+							OR = {
+									exists = no
+									is_subject = yes
+									AND = {
+											is_subject = no
+											is_in_faction_with = ROOT
+										}
+								}
+						}
+				}
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = NVN
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_bajaexpedition
+		icon = GFX_CAC_Baja
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_nevadawar
+		}
+		x = 5
+		y = 11
+			bypass = {
+					BAJ = {
+							OR = {
+									exists = no
+									is_subject = yes
+									AND = {
+											is_subject = no
+											is_in_faction_with = ROOT
+										}
+								}
+						}
+				}
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = BAJ
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_arizonawargoal
+		icon = GFX_CAC_skewer_pheonix
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_bajaexpedition
+		}
+		x = 5
+		y = 12
+			bypass = {
+					AZA = {
+							OR = {
+									exists = no
+									is_subject = yes
+									AND = {
+											is_subject = no
+											is_in_faction_with = ROOT
+										}
+								}
+						}
+				}
+			available = {
+					controls_state = 807
+				}
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = AZA
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_assimilatenewlands
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_arizonawargoal
+		}
+		x = 5
+		y = 13
+			available = {
+					controls_state = 807
+					controls_state = 379
+					controls_state = 808
+					controls_state = 809
+					controls_state = 810
+					controls_state = 862
+					controls_state = 377
+					controls_state = 863
+					controls_state = 864
+					controls_state = 866
+					controls_state = 865
+					controls_state = 1155
+					controls_state = 484
+					controls_state = 1147
+				}
+			completion_reward = {
+				add_state_core = 807
+				add_state_core = 379
+				add_state_core = 808
+				add_state_core = 809
+				add_state_core = 810
+				add_state_core = 862
+				add_state_core = 377
+				add_state_core = 863
+				add_state_core = 864
+				add_state_core = 866
+				add_state_core = 865
+				add_state_core = 1155
+				add_state_core = 484
+				add_state_core = 1147
+			}
+
+	}
+	focus = {
+		id = CAC_recoveryfromwar
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_assimilatenewlands
+		}
+		x = 5
+		y = 14
+			completion_reward = {
+					add_timed_idea = {
+							idea = CAC_recoveryfromwar
+							days = 300
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_relievebaja
+		icon = GFX_CAC_relieve_states
+		cost = 6.50
+		prerequisite = {
+			focus = CAC_recoveryfromwar
+		}
+		x = 4
+		y = 15
+			available = {
+					controls_state = 484
+					controls_state = 1147
+				}
+			completion_reward = {
+					484 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					1147 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_relievearizona
+		icon = GFX_CAC_relieve_states
+		cost = 6.50
+		prerequisite = {
+			focus = CAC_recoveryfromwar
+		}
+		x = 5
+		y = 16
+			available = {
+					controls_state = 864
+					controls_state = 377
+				}
+			completion_reward = {
+					864 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					377 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					863 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_genericindustry4
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry1
+		}
+		x = 8
+		y = 1
+			completion_reward = {
+					378 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+					797 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+					806 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					799 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+					798 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+
+	focus = {
+		id = CAC_genericindustry12
+		icon = GFX_Generic_Naval_Industry
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry4
+		}
+		x = 8
+		y = 2
+			completion_reward = {
+					797 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+						}
+					800 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_genericindustry8
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry2
+			focus = CAC_genericindustry4
+		}
+		x = 6
+		y = 2
+			completion_reward = {
+					802 = {
+							add_building_construction = {
+									type = bunker
+									province = 13537
+									level = 2
+									instant_build = yes
+								}
+						}
+					802 = {
+							add_building_construction = {
+									type = bunker
+									province = 13540
+									level = 2
+									instant_build = yes
+								}
+						}
+					802 = {
+							add_building_construction = {
+									type = bunker
+									province = 13541
+									level = 2
+									instant_build = yes
+								}
+						}
+					801 = {
+							add_building_construction = {
+									type = bunker
+									province = 7986
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_genericindustry9
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry8
+		}
+		prerequisite = {
+			focus = CAC_genericindustry6
+		}
+		x = 7
+		y = 5
+			completion_reward = {
+					add_research_slot = 1
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
+		id = CAC_relievenevada
+		icon = GFX_CAC_relieve_states
+		cost = 6.50
+		prerequisite = {
+			focus = CAC_recoveryfromwar
+		}
+		x = 6
+		y = 15
+			available = {
+					controls_state = 807
+					controls_state = 810
+				}
+			completion_reward = {
+					807 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					810 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_armypattonsway1
+		icon = GFX_CAC_patton
+		cost = 1.00
+		prerequisite = {
+			focus = CAC_army2
+		}
+		x = 8
+		y = 9
+			available = {
+					has_country_flag = pattonsway
+				}
+			bypass = {
+					has_country_flag = pattonsway
+				}
+			completion_reward = {
+					army_experience = 15
+				}
+
+	}
+	focus = {
+		id = CAC_armypattonsway2
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_armypattonsway1
+		}
+		x = 7
+		y = 10
+			completion_reward = {
+					add_tech_bonus = {
+							name = motorized_bonus
+							bonus = 3.0
+							uses = 1
+							technology = motorised_infantry
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_armypattonsway3
+		icon = GFX_goal_generic_build_tank
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_armypattonsway1
+		}
+		x = 9
+		y = 10
+			completion_reward = {
+					add_tech_bonus = {
+							name = armor_bonus
+							bonus = 1.5
+							category = armor
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_armypattonsway4
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_armypattonsway3
+			focus = CAC_armypattonsway2
+		}
+		x = 8
+		y = 11
+			completion_reward = {
+					add_tech_bonus = {
+							name = land_doctrine
+							bonus = 1.0
+							uses = 2.0
+							category = cat_mobile_warfare
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_armypattonsway5
+		icon = GFX_goal_generic_air_doctrine
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_armypattonsway4
+		}
+		x = 7
+		y = 12
+			completion_reward = {
+					add_ideas = CAC_combinedarms
+				}
+
+	}
+	focus = {
+		id = CAC_JamesEDavis
+		icon = GFX_CAC_JamesEDavis
+		cost = 1.50
+		prerequisite = {
+			focus = CAC_politicalstate
+		}
+		mutually_exclusive = {
+			focus = CAC_frankmerriamsplans
+		}
+		x = 11
+		y = 2
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = yes
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "James E. Davis"
+						}
+				}
+			completion_reward = {
+					add_stability = -0.1
+				}
+
+	}
+	focus = {
+		id = CAC_rapidmilitarization
+		icon = GFX_Generic_Industry_Tanks
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_JamesEDavis
+		}
+		x = 9
+		y = 3
+			completion_reward = {
+					798 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_givethepolicemorepower
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_rapidmilitarization
+		}
+		x = 9
+		y = 4
+			completion_reward = {
+					country_event = california.14
+				}
+
+	}
+	focus = {
+		id = CAC_incorporatethepolice
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_givethepolicemorepower
+		}
+		x = 9
+		y = 5
+			completion_reward = {
+					add_ideas = CAC_anewmp
+				}
+
+	}
+	focus = {
+		id = CAC_armypattonsway6
+		icon = GFX_goal_generic_air_production
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_armypattonsway4
+		}
+		x = 9
+		y = 12
+			completion_reward = {
+					add_ideas = CAC_combinedarmsproduction
+				}
+
+	}
+	focus = {
+		id = CAC_statecontrolledmedia
+		icon = GFX_Generic_Film_Industry
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_JamesEDavis
+		}
+		x = 11
+		y = 3
+			completion_reward = {
+					add_ideas = CAC_fundrightwingnews
+					add_stability = 0.05
+				}
+
+	}
+
+	focus = {
+		id = CAC_amilitarizedstate
+		icon = GFX_Generic_Secret_Police
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_JamesEDavis
+		}
+		x = 13
+		y = 3
+			completion_reward = {
+				798 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+					}
+				}
+				add_ideas = CAC_policecorruption
+			}
+	}
+
+	focus = {
+		id = CAC_adailywellnesscheck
+		icon = GFX_Generic_Lookout
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_amilitarizedstate
+		}
+		mutually_exclusive = {
+			focus = CAC_encouragepolicecorruption
+		}
+		x = 13
+		y = 4
+			completion_reward = {
+				add_ideas = CAC_adailywellnesscheckidea
+			}
+	}
+
+	focus = {
+		id = CAC_encouragepolicecorruption
+		icon = GFX_Generic_Loadsamoney
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_amilitarizedstate
+		}
+		mutually_exclusive = {
+			focus = CAC_adailywellnesscheck
+		}
+		x = 15
+		y = 4
+			completion_reward = {
+				add_ideas = CAC_encouragedpolicecorruption
+				remove_ideas = CAC_policecorruption
+			}
+	}
+
+	focus = {
+		id = CAC_reformarmedforces
+		icon = GFX_goal_generic_small_arms
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_psadepartmentofdefense
+		}
+		x = 14
+		y = 14
+			completion_reward = {
+					add_war_support = 0.1
+				}
+
+	}
+	focus = {
+		id = CAC_researchartillery
+		icon = GFX_goal_generic_army_artillery2
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_reformarmedforces
+		}
+		x = 13
+		y = 15
+			completion_reward = {
+					army_experience = 10
+					add_tech_bonus = {
+							bonus = 1.0
+							uses = 1
+							category = artillery
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_motorized_focus
+		icon = GFX_goal_generic_army_motorized
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_researchartillery
+		}
+		x = 13
+		y = 16
+			completion_reward = {
+					army_experience = 5
+					add_ideas = FRA_motorized_focus
+				}
+
+	}
+	focus = {
+		id = CAC_army_tactics
+		icon = GFX_goal_generic_army_doctrines
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_reformarmedforces
+		}
+		x = 15
+		y = 15
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 1.0
+							uses = 1
+							category = land_doctrine
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_license_production
+		icon = GFX_focus_generic_license_production
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_army_tactics
+		}
+		x = 15
+		y = 16
+			completion_reward = {
+					add_ideas = YUG_tank_licenses
+					add_equipment_to_stockpile = {
+							type = light_tank_equipment
+							amount = 75
+							producer = USA
+						}
+					add_equipment_to_stockpile = {
+							type = light_tank_equipment
+							amount = 75
+							producer = ENG
+						}
+					add_equipment_to_stockpile = {
+							type = light_tank_equipment
+							amount = 75
+							producer = FRA
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_frankmerriamsplans
+		icon = GFX_CAC_frankmerriamsplans
+		cost = 1.50
+		prerequisite = {
+			focus = CAC_politicalstate
+		}
+		mutually_exclusive = {
+			focus = CAC_uptonsinclairsplan
+			focus = CAC_JamesEDavis
+		}
+
+		x = 19
+		y = 2
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = yes
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Frank Merriam"
+						}
+				}
+			completion_reward = {
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
+		id = CAC_economic_initiative
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_frankmerriamsplans
+		}
+		x = 17
+		y = 3
+			completion_reward = {
+					802 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_lesscorptax
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_economic_initiative
+		}
+		x = 17
+		y = 4
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = CAC_lesscorptaxidea
+					798 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_oilproduction
+		icon = GFX_Generic_Oil_Production
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_lesscorptax
+		}
+		x = 17
+		y = 5
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = yes
+			completion_reward = {
+					every_state = {
+							limit = {
+									OR = {
+											state = 801
+											state = 805
+											state = 798
+										}
+								}
+							add_resource = {
+									type = oil
+									amount = 8
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_newnavy
+		icon = GFX_goal_generic_navy_battleship
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_psadepartmentofdefense
+		}
+		x = 19
+		y = 14
+			completion_reward = {
+					navy_experience = 25
+				}
+
+	}
+	focus = {
+		id = CAC_navalrearmament
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_newnavy
+		}
+		x = 18
+		y = 15
+			completion_reward = {
+					803 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = dockyard
+									level = 3
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_naval_doctrine
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_navalrearmament
+		}
+		x = 18
+		y = 16
+			completion_reward = {
+					add_tech_bonus = {
+							name = uk_waves_focus
+							bonus = 1.0
+							uses = 2
+							category = naval_doctrine
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_militaryexpansionprogram
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_frankmerriamsplans
+		}
+		x = 19
+		y = 3
+			completion_reward = {
+					798 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = arms_factory
+									level = 3
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_defensiveprogram
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_militaryexpansionprogram
+		}
+		x = 19
+		y = 4
+			completion_reward = {
+					country_event = california.2
+				}
+
+	}
+	focus = {
+		id = CAC_militaryrnd
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_defensiveprogram
+		}
+		x = 19
+		y = 5
+			completion_reward = {
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = CAC_destroyer_focus
+		icon = GFX_focus_generic_destroyer
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_newnavy
+		}
+		x = 20
+		y = 15
+			completion_reward = {
+					add_tech_bonus = {
+							name = dd_bonus
+							bonus = 0.75
+							uses = 2
+							category = dd_tech
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_expand_the_refit_yards
+		icon = GFX_goal_generic_production
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_destroyer_focus
+		}
+		x = 20
+		y = 16
+			complete_tooltip = {
+					every_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									is_coastal = yes
+									free_building_slots = {
+											building = dockyard
+											size > 1
+											include_locked = yes
+										}
+									is_core_of = ROOT
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+						}
+					add_ideas = ENG_expand_the_repair_yards
+				}
+
+	}
+	focus = {
+		id = CAC_militarymodernization
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_frankmerriamsplans
+		}
+		x = 21
+		y = 3
+			completion_reward = {
+					add_tech_bonus = {
+							name = infantry_weapons
+							bonus = 0.25
+							uses = 1
+							category = infantry_weapons
+						}
+					add_tech_bonus = {
+							name = artillery
+							bonus = 0.25
+							uses = 1
+							category = artillery
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_dockyards1
+		icon = GFX_Generic_Espionage
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_militarymodernization
+		}
+		x = 21
+		y = 4
+			completion_reward = {
+					add_ideas = CAC_spyidea
+				}
+
+	}
+	focus = {
+		id = CAC_increasetradepower
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_dockyards1
+		}
+		x = 21
+		y = 5
+			completion_reward = {
+					add_ideas = { CAC_openrecruitmentcenters }
+				}
+
+	}
+
+	focus = {
+		id = CAC_localsecurity
+		icon = GFX_Generic_Blue_Democracy
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_oilproduction
+			focus = CAC_militaryrnd
+			focus = CAC_increasetradepower
+		}
+		x = 19
+		y = 6
+		ai_will_do = {
+			factor = 75
+		}
+
+		available = {
+			has_army_manpower = {
+				size > 95000
+			}
+			threat > 0.10
+		}
+
+
+		completion_reward = {
+			add_ideas = CAC_local_security
+			add_political_power = 120
+			set_rule = {
+				can_create_factions = yes
+				}
+			set_rule = {
+				can_send_volunteers = yes
+				}
+					create_faction = "california_democratic_faction"
+					hidden_effect = {
+						news_event = {
+							hours = 6
+							id = genericfocusnews.1
+							}
+						}
+			}
+
+	}
+	focus = {
+		id = CAC_militaryexpansion1
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = CAC_localsecurity
+		}
+		x = 17
+		y = 7
+			completion_reward = {
+					800 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = arms_factory
+									level = 3
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_civilianexpansion1
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10
+		prerequisite = {
+			focus = CAC_localsecurity
+		}
+		x = 21
+		y = 7
+			completion_reward = {
+					803 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 3
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_preservehawaii
+		icon = GFX_CAC_deal_hawaii
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_localsecurity
+		}
+		x = 19
+		y = 7
+			completion_reward = {
+					country_event = california.4
+				}
+	}
+
+	focus = {
+		id = CAC_buildhawaii2
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_preservehawaii
+		}
+		x = 22
+		y = 8
+			available = {
+					any_country = {
+							original_tag = HIH
+							is_in_faction_with = ROOT
+						}
+				}
+			completion_reward = {
+					629 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+					1153 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_autonomy_score = {
+							value = -350
+							localization = AST_adopt_westminster
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_buildhawaii
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_preservehawaii
+		}
+		x = 16
+		y = 8
+			available = {
+					any_country = {
+							original_tag = HIH
+							is_in_faction_with = ROOT
+						}
+				}
+			completion_reward = {
+					629 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					629 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_autonomy_score = {
+							value = -350
+							localization = AST_adopt_westminster
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_buildhawaii4
+		icon = GFX_focus_generic_air_defense
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_buildhawaii2
+		}
+		x = 22
+		y = 9
+			available = {
+					any_country = {
+							original_tag = HIH
+							is_in_faction_with = ROOT
+						}
+				}
+			completion_reward = {
+					629 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = anti_air_building
+									level = 2
+									instant_build = yes
+								}
+						}
+					1153 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = anti_air_building
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_autonomy_score = {
+							value = -250
+							localization = AST_adopt_westminster
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_reformedairforce
+		icon = GFX_goal_generic_build_airforce
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_psadepartmentofdefense
+		}
+		x = 24
+		y = 14
+			completion_reward = {
+					air_experience = 25
+				}
+
+	}
+	focus = {
+		id = CAC_strategic_bomber_effort
+		icon = GFX_goal_generic_air_bomber
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_reformedairforce
+		}
+		x = 23
+		y = 15
+			completion_reward = {
+					add_tech_bonus = {
+							name = op_dest_bonus
+							bonus = 1.0
+							uses = 1
+							category = battlefield_support_tree
+						}
+					add_tech_bonus = {
+							name = bomber_bonus
+							bonus = 0.75
+							uses = 1
+							category = tactical_bomber
+							category = cas_bomber
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_buyairplanes
+		icon = GFX_goal_generic_air_fighter
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_strategic_bomber_effort
+		}
+		x = 23
+		y = 16
+			completion_reward = {
+				add_tech_bonus = {
+					name = air_bonus
+					bonus = 1.0
+					uses = 1
+					ahead_reduction = 2.0
+					category = light_fighter
+				}
+					add_equipment_to_stockpile = {
+						type = fighter_equipment
+						amount = 250
+						producer = USA
+					}
+			}
+
+	}
+	focus = {
+		id = CAC_naval_air
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_reformedairforce
+		}
+		x = 25
+		y = 15
+			completion_reward = {
+					add_tech_bonus = {
+							name = nav_bomber_bonus
+							bonus = 1.0
+							uses = 2
+							category = naval_bomber
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_aircraftproductioneffort
+		icon = GFX_goal_generic_air_production
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_naval_air
+		}
+		x = 25
+		y = 16
+			completion_reward = {
+					add_ideas = british_fighter_discount
+				}
+
+	}
+	focus = {
+		id = CAC_uptonsinclairsplan
+		icon = GFX_CAC_uptonsinclairsplan
+		cost = 1.50
+		prerequisite = {
+			focus = CAC_politicalstate
+		}
+		mutually_exclusive = {
+			focus = CAC_frankmerriamsplans
+		}
+		x = 27
+		y = 2
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = yes
+			available = {
+					has_country_leader = {
+							ruling_only = yes
+							name = "Upton Sinclair"
+						}
+				}
+
+	}
+
+	focus = {
+		id = CAC_endpovertyincaliforniaplans
+		icon = GFX_Generic_Communist_Propaganda
+		cost = 3
+		prerequisite = {
+			focus = CAC_uptonsinclairsplan
+		}
+		x = 27
+		y = 3
+			completion_reward = {
+				add_political_power = 100
+				add_popularity = {
+    			ideology = communism
+    			popularity = 0.10
+				}
+			}
+	}
+
+	focus = {
+		id = CAC_publicworksprogram
+		icon = GFX_Generic_State_Socialism
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_endpovertyincaliforniaplans
+		}
+		x = 25
+		y = 4
+			completion_reward = {
+				add_political_power = -50
+				add_ideas = CAC_publicworksprogramidea
+			}
+	}
+
+	focus = {
+		id = CAC_sweepingtaxreforms
+		icon = GFX_Generic_Liberatian_Socialism
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_endpovertyincaliforniaplans
+		}
+		x = 27
+		y = 4
+			completion_reward = {
+				add_political_power = -50
+				add_ideas = CAC_sweepingtaxreformsidea
+			}
+	}
+
+	focus = {
+		id = CAC_guaranteedpensions
+		icon = GFX_Focus_SOV_To_Get_Rich
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_endpovertyincaliforniaplans
+		}
+		x = 29
+		y = 4
+			completion_reward = {
+				add_political_power = -50
+				add_ideas = CAC_guaranteedpensionsidea
+			}
+	}
+
+	focus = {
+		id = CAC_seizeidlefactories
+		icon = GFX_Generic_Industry02
+		cost = 10
+		prerequisite = {
+			focus = CAC_guaranteedpensions
+		}
+		prerequisite = {
+			focus = CAC_sweepingtaxreforms
+		}
+		prerequisite = {
+			focus = CAC_publicworksprogram
+		}
+		x = 26
+		y = 5
+			completion_reward = {
+				799 = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+							}
+					}
+				798 = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+							}
+					}
+			}
+	}
+
+	focus = {
+		id = CAC_collectivizefarmland
+		icon = GFX_Generic_Farming
+		cost = 10
+		prerequisite = {
+			focus = CAC_guaranteedpensions
+		}
+		prerequisite = {
+			focus = CAC_sweepingtaxreforms
+		}
+		prerequisite = {
+			focus = CAC_publicworksprogram
+		}
+		x = 28
+		y = 5
+			completion_reward = {
+				add_ideas = CAC_collectivizefarmlandidea
+			}
+	}
+
+	focus = {
+		id = CAC_finishtheplan
+		icon = GFX_Generic_Socialist_Man
+		cost = 10
+		prerequisite = {
+			focus = CAC_seizeidlefactories
+		}
+		prerequisite = {
+			focus = CAC_collectivizefarmland
+		}
+		x = 27
+		y = 6
+
+		completion_reward = {
+				add_ideas = CAC_agreatsocietyidea
+				remove_ideas = CAC_unstablepolitics
+		}
+
+	}
+
+	focus = {
+		id = CAC_establishthepeoplesarmy
+		icon = GFX_Generic_Socialist_Soldier
+		cost = 2
+		prerequisite = {
+			focus = CAC_finishtheplan
+		}
+		x = 25
+		y = 7
+
+		completion_reward = {
+				country_event = california.18
+		}
+	}
+
+	focus = {
+		id = CAC_citizenshipbyservicearmy
+		icon = GFX_Generic_Socialist_Volunteers
+		cost = 10
+
+		available = {
+			has_country_flag = CAC_citizenshipbyservice
+		}
+
+		mutually_exclusive = {
+			focus = CAC_aworkersarmy
+		}
+
+		prerequisite = {
+			focus = CAC_establishthepeoplesarmy
+		}
+		x = 24
+		y = 8
+
+		completion_reward = {
+			add_ideas = CAC_citizenshipbyserviceidea
+			remove_ideas = CAC_unloyalarmy
+		}
+	}
+
+	focus = {
+		id = CAC_aworkersarmy
+		icon = GFX_Generic_Army_Focus_Red02
+		cost = 10
+
+		available = {
+			has_country_flag = CAC_aworkersarmytooltip
+		}
+
+		mutually_exclusive = {
+			focus = CAC_citizenshipbyservicearmy
+		}
+
+		prerequisite = {
+			focus = CAC_establishthepeoplesarmy
+		}
+		x = 26
+		y = 8
+
+		completion_reward = {
+			add_ideas = CAC_aworkersarmyidea
+			remove_ideas = CAC_unloyalarmy
+		}
+	}
+
+	focus = {
+		id = CAC_establishaespionageforce
+		icon = GFX_Focus_Communist_Spy02
+		cost = 2
+
+
+		prerequisite = {
+			focus = CAC_finishtheplan
+		}
+
+		x = 29
+		y = 7
+
+		completion_reward = {
+			country_event = california.22
+		}
+	}
+
+	focus = {
+		id = CAC_themilitapartisans
+		icon = GFX_Generic_Spy_Communist
+		cost = 10
+
+		available = {
+			has_country_flag = CAC_militapartisans
+		}
+
+		prerequisite = {
+			focus = CAC_establishaespionageforce
+		}
+
+		mutually_exclusive = {
+			focus = CAC_thecaliforniacommunistspy
+		}
+
+		x = 28
+		y = 8
+
+		completion_reward = {
+			add_ideas = CAC_themilitapartisansidea
+		}
+	}
+
+	focus = {
+		id = CAC_thecaliforniacommunistspy
+		icon = GFX_Focus_Communist_Spy
+		cost = 10
+
+		available = {
+			has_country_flag = CAC_communistspys
+		}
+
+		prerequisite = {
+			focus = CAC_establishaespionageforce
+		}
+
+		mutually_exclusive = {
+			focus = CAC_themilitapartisans
+		}
+
+		x = 30
+		y = 8
+
+		completion_reward = {
+			add_ideas = CAC_thecaliforniacommunistspyidea
+		}
+	}
+
+	focus = {
+		id = CAC_foreignaffairs
+		icon = GFX_Generic_Legislation
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_finishtheplan
+		}
+
+		x = 27
+		y = 9
+
+		completion_reward = {
+			add_political_power = 50
+			add_war_support = 0.10
+		}
+	}
+
+	focus = {
+		id = CAC_agreatcalifornia
+		icon = GFX_Generic_Liberation
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_foreignaffairs
+		}
+
+		mutually_exclusive = {
+			focus = CAC_regionaldefense
+		}
+
+		x = 29
+		y = 10
+
+		completion_reward = {
+			add_war_support = 0.10
+		}
+	}
+
+	focus = {
+		id = CAC_prepareexpansion
+		icon = GFX_Generic_Infantry_Training
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_agreatcalifornia
+		}
+
+		mutually_exclusive = {
+			focus = CAC_regionaldefense
+		}
+
+		x = 29
+		y = 11
+
+		completion_reward = {
+			add_war_support = 0.10
+			add_ideas = CAC_prepareexpansionidea
+		}
+	}
+
+	focus = {
+		id = CAC_nevadawargoalcommunism
+		icon = GFX_Generic_Socialist_Volunteers
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_prepareexpansion
+		}
+
+		x = 29
+		y = 12
+
+		completion_reward = {
+			create_wargoal = {
+					type = annex_everything
+					target = NVN
+				}
+		}
+	}
+
+	focus = {
+		id = CAC_arizonawargoalcommunism
+		icon = GFX_Generic_Socialist_Volunteers
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_nevadawargoalcommunism
+		}
+
+		x = 28
+		y = 13
+
+		completion_reward = {
+			create_wargoal = {
+					type = annex_everything
+					target = AZA
+				}
+		}
+	}
+
+	focus = {
+		id = CAC_utahwargoalcommunism
+		icon = GFX_Generic_Socialist_Volunteers
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_nevadawargoalcommunism
+		}
+
+		x = 30
+		y = 13
+
+		completion_reward = {
+			create_wargoal = {
+					type = annex_everything
+					target = UTU
+				}
+		}
+	}
+
+	focus = {
+		id = CAC_mexicanpush
+		icon = GFX_Generic_Socialist_Volunteers
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_utahwargoalcommunism
+		}
+
+		prerequisite = {
+			 focus = CAC_arizonawargoalcommunism
+		}
+
+		x = 29
+		y = 14
+
+		completion_reward = {
+			create_wargoal = {
+					type = annex_everything
+					target = BAJ
+				}
+			create_wargoal = {
+					type = annex_everything
+					target = SON
+			}
+		}
+	}
+
+	focus = {
+		id = CAC_regionaldefense
+		icon = GFX_Generic_Soldiers_Defense
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_foreignaffairs
+		}
+
+		mutually_exclusive = {
+			focus = CAC_agreatcalifornia
+		}
+
+		mutually_exclusive = {
+			focus = CAC_prepareexpansion
+		}
+
+		x = 25
+		y = 10
+
+		completion_reward = {
+			create_faction = CAC_communistfaction
+			set_rule = {
+				can_create_factions = yes
+				}
+		}
+	}
+
+	focus = {
+		id = CAC_ideologyturmoil
+		icon = GFX_Generic_Militant_Socialism
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_regionaldefense
+		}
+
+		x = 25
+		y = 11
+
+		completion_reward = {
+			add_ideas = CAC_ideologyturmoilidea
+		}
+	}
+
+	focus = {
+		id = CAC_invitenevada
+		icon = GFX_Generic_Militant_Socialism
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_ideologyturmoil
+		}
+
+		available = {
+			NVN = {
+				has_government = communism
+			}
+		}
+
+		available = {
+			if = {
+				limit = {
+					NVN = {
+						has_government = communism
+					}
+				}
+			}
+		}
+
+		x = 23
+		y = 12
+
+		completion_reward = {
+			NVN = {
+				country_event = california.26
+			}
+		}
+	}
+
+	focus = {
+		id = CAC_invitearizona
+		icon = GFX_Generic_Militant_Socialism
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_ideologyturmoil
+		}
+		available = {
+			AZA = {
+				has_government = communism
+			}
+		}
+		x = 25
+		y = 12
+
+		completion_reward = {
+			AZA = {
+				country_event = california.23
+			}
+		}
+	}
+	focus = {
+		id = CAC_inviteoregon
+		icon = GFX_Generic_Militant_Socialism
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_ideologyturmoil
+		}
+		available = {
+			ORO = {
+				has_government = communism
+			}
+		}
+		x = 27
+		y = 12
+
+		completion_reward = {
+			ORO = {
+				country_event = california.29
+			}
+		}
+	}
+
+	focus = {
+		id = CAC_buildhawaii3
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_buildhawaii
+		}
+		x = 16
+		y = 9
+			available = {
+					any_country = {
+							original_tag = HIH
+							is_in_faction_with = ROOT
+						}
+				}
+			completion_reward = {
+					629 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					629 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_autonomy_score = {
+							value = -50
+							localization = AST_adopt_westminster
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_beginningofpsa
+		icon = GFX_CAC_mcga
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_preservehawaii
+		}
+		x = 19
+		y = 8
+		ai_will_do = {
+			factor = 15
+		}
+			completion_reward = {
+					country_event = california.7
+				}
+
+	}
+	focus = {
+		id = CAC_oregonpsa
+		icon = GFX_CAC_oregon
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_beginningofpsa
+		}
+		x = 17
+		y = 10
+			completion_reward = {
+					country_event = california.8
+				}
+
+	}
+	focus = {
+		id = CAC_washingtonpsa
+		icon = GFX_CAC_washington
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_beginningofpsa
+		}
+		x = 21
+		y = 10
+			completion_reward = {
+					country_event = california.9
+				}
+
+	}
+
+	focus = {
+		id = CAC_alaskapsa
+		icon = GFX_CAC_deal_alaska
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_beginningofpsa
+		}
+		x = 19
+		y = 9
+			completion_reward = {
+					country_event = california.19
+				}
+
+	}
+
+	focus = {
+		id = CAC_formationofpsa
+		icon = GFX_CAC_FPSA
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_washingtonpsa
+		}
+		prerequisite = {
+			focus = CAC_oregonpsa
+		}
+		prerequisite = {
+			focus = CAC_alaskapsa
+		}
+		x = 19
+		y = 11
+			available = {
+				controls_state = 802
+				controls_state = 803
+				controls_state = 800
+				controls_state = 798
+				controls_state = 814
+				controls_state = 821
+				controls_state = 463
+			}
+			completion_reward = {
+					unlock_decision_tooltip = {
+							decision = pacific_states_of_america
+							show_effect_tooltip = yes
+							show_modifiers = yes
+						}
+				}
+
+	}
+	focus = {
+		id = CAC_amilitarypowerhouse
+		icon = GFX_goal_generic_army_tanks
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_motorized_focus
+			focus = CAC_license_production
+		}
+		x = 14
+		y = 17
+			completion_reward = {
+					remove_ideas = CAC_newlyformedarmedforces
+					add_ideas = CAC_amilitarypowerhouse
+				}
+
+	}
+	focus = {
+		id = CAC_psanavy
+		icon = GFX_goal_generic_navy_carrier
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_naval_doctrine
+			focus = CAC_expand_the_refit_yards
+		}
+		x = 19
+		y = 17
+			completion_reward = {
+					remove_ideas = CAC_newnavy
+					add_ideas = CAC_psanavy
+				}
+
+	}
+	focus = {
+		id = CAC_newairforce
+		icon = GFX_goal_generic_air_fighter2
+		cost = 7.25
+		prerequisite = {
+			focus = CAC_aircraftproductioneffort
+			focus = CAC_buyairplanes
+		}
+		x = 24
+		y = 17
+			completion_reward = {
+					remove_ideas = CAC_newlyformedairforce
+					add_ideas = CAC_airforceofthepsa
+				}
+
+	}
+	focus = {
+		id = CAC_armylloydsway6
+		icon = GFX_Generic_Artillery_Barrel
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_armylloydsway4
+		}
+		x = 1
+		y = 12
+			completion_reward = {
+					add_ideas = CAC_advancedartillery
+				}
+
+	}
+
+	focus = {
+		id = CAC_airbaseexpansion
+		icon = GFX_goal_generic_air_production
+		cost = 10
+		prerequisite = {
+			focus = CAC_genericindustry10
+		}
+		x = 1
+		y = 4
+		completion_reward = {
+			797 = {
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = air_base
+						level = 3
+						instant_build = yes
+					}
+			}
+			797 = {
+				add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+			}
+	}
+	}
+
+
+	focus = {
+		id = CAC_militaryroads
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10
+		prerequisite = {
+			focus = CAC_airbaseexpansion
+		}
+		x = 1
+		y = 5
+
+		available = {
+			has_war = yes
+		}
+
+		completion_reward = {
+			805 = {
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+			}
+			800 = {
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+			}
+
+			799 = {
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+			}
+
+			798 = {
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+			}
+		}
+	}
+
+	focus = {
+		id = CAC_noopposition
+		icon = GFX_Generic_Ripping_Papers
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_statecontrolledmedia
+		}
+		available = {
+			fascism > 0.25
+			has_political_power > 100
+		}
+		x = 11
+		y = 4
+			completion_reward = {
+					remove_ideas = CAC_unstablepolitics
+					add_political_power = -100
+				}
+
+	}
+
+	focus = {
+		id = CAC_DavissMarch
+		icon = GFX_Generic_Revanchism02
+		cost = 15.00
+		prerequisite = {
+			focus = CAC_noopposition
+		}
+		x = 13
+		y = 5
+		bypass = {
+				NVN = {
+						OR = {
+								exists = no
+								AND = {
+										is_in_faction_with = ROOT
+									}
+							}
+					}
+			}
+			completion_reward = {
+				create_wargoal = {
+						type = annex_everything
+						target = NVN
+					}
+				}
+
+	}
+
+	focus = {
+		id = CAC_DavissMarch2
+		icon = GFX_Generic_Revanchism02
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_DavissMarch
+		}
+		x = 8
+		y = 6
+		bypass = {
+				UTU = {
+						OR = {
+								exists = no
+								AND = {
+										is_in_faction_with = ROOT
+									}
+							}
+					}
+			}
+			completion_reward = {
+				create_wargoal = {
+						type = annex_everything
+						target = UTU
+					}
+				}
+	}
+
+	focus = {
+		id = CAC_DavissMarch3
+		icon = GFX_Generic_Revanchism02
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_DavissMarch
+		}
+		x = 10
+		y = 6
+		bypass = {
+				WYW = {
+						OR = {
+								exists = no
+								AND = {
+										is_in_faction_with = ROOT
+									}
+							}
+					}
+			}
+			completion_reward = {
+				create_wargoal = {
+						type = annex_everything
+						target = WYW
+					}
+				}
+	}
+
+	focus = {
+		id = CAC_DavissMarch7
+		icon = GFX_Generic_Revanchism02
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_DavissMarch2
+		}
+		prerequisite = {
+			focus = CAC_DavissMarch3
+		}
+		x = 9
+		y = 7
+		bypass = {
+				TXT = {
+						OR = {
+								exists = no
+								AND = {
+										is_in_faction_with = ROOT
+									}
+							}
+					}
+			}
+			completion_reward = {
+				create_wargoal = {
+						type = annex_everything
+						target = TXT
+					}
+				}
+	}
+
+	focus = {
+		id = CAC_DavissMarch4
+		icon = GFX_Generic_Revanchism02
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_DavissMarch
+		}
+		x = 12
+		y = 6
+		bypass = {
+				COC = {
+						OR = {
+								exists = no
+								AND = {
+										is_in_faction_with = ROOT
+									}
+							}
+					}
+			}
+			completion_reward = {
+				create_wargoal = {
+						type = annex_everything
+						target = COC
+					}
+				}
+	}
+
+	focus = {
+		id = CAC_DavissMarch5
+		icon = GFX_Generic_Revanchism02
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_DavissMarch
+		}
+		bypass = {
+				AZA = {
+						OR = {
+								exists = no
+								AND = {
+										is_in_faction_with = ROOT
+									}
+							}
+					}
+			}
+		x = 14
+		y = 6
+			completion_reward = {
+				create_wargoal = {
+						type = annex_everything
+						target = AZA
+					}
+				}
+	}
+
+	focus = {
+		id = CAC_DavissMarch6
+		icon = GFX_Generic_Revanchism02
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_DavissMarch4
+		}
+		prerequisite = {
+			focus = CAC_DavissMarch5
+		}
+		bypass = {
+				NMN = {
+						OR = {
+								exists = no
+								AND = {
+										is_in_faction_with = ROOT
+									}
+							}
+					}
+			}
+		x = 13
+		y = 7
+			completion_reward = {
+				create_wargoal = {
+						type = annex_everything
+						target = NMN
+					}
+				}
+	}
+
+	focus = {
+		id = CAC_thetruesuccessortotheunitedstates
+		icon = GFX_Generic_Ultranationalist_Government
+		cost = 15.00
+		prerequisite = {
+			focus = CAC_DavissMarch3
+		}
+		prerequisite = {
+			focus = CAC_DavissMarch2
+		}
+		prerequisite = {
+			focus = CAC_DavissMarch6
+		}
+		prerequisite = {
+			focus = CAC_allignthearmy
+		}
+		x = 11
+		y = 8
+			completion_reward = {
+				add_ideas = CAC_internationalrecognitionidea
+				set_rule = {
+					can_create_factions = yes
+					}
+				}
+	}
+
+	focus = {
+		id = CAC_cooperationwithgermany
+		icon = GFX_focus_chi_mission_to_germany
+		cost = 15.00
+		prerequisite = {
+			focus = CAC_thetruesuccessortotheunitedstates
+		}
+		mutually_exclusive = {
+			focus = CAC_cooperationwithjapan
+		}
+		x = 10
+		y = 9
+			completion_reward = {
+				GER = {
+					country_event = generic.2
+				}
+			}
+	}
+
+	focus = {
+		id = CAC_cooperationwithjapan
+		icon = GFX_focus_chi_collaboration_with_the_japanese
+		cost = 15.00
+		prerequisite = {
+			focus = CAC_thetruesuccessortotheunitedstates
+		}
+		mutually_exclusive = {
+			focus = CAC_cooperationwithgermany
+		}
+		x = 12
+		y = 9
+			completion_reward = {
+					create_faction = CAC_japanalliancefaction
+					add_to_faction = JAP
+					}
+		}
+
+
+	focus = {
+		id = CAC_allignthearmy
+		icon = GFX_Generic_Coalition_Army
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_noopposition
+		}
+		x = 11
+		y = 5
+			completion_reward = {
+					add_ideas = CAC_allignthearmyidea
+					remove_ideas = CAC_unloyalarmy
+				}
+
+	}
+
+	focus = {
+		id = CAC_navalindustry1
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		x = 13
+		y = 10
+		available = {
+				has_country_flag = CAC_electedpresident
+			}
+		completion_reward = {
+			800 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes
+						}
+				}
+			803 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes
+						}
+				}
+			802 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes
+						}
+				}
+		}
+	}
+
+	focus = {
+		id = CAC_navalindustry2
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		x = 14
+		y = 11
+		prerequisite = {
+			focus = CAC_navalindustry1
+		}
+		mutually_exclusive = {
+			focus = CAC_navalindustry3
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_carrier_primacy
+				bonus = 0.75
+				uses = 2
+				category = cv_tech
+			}
+		}
+	}
+
+	focus = {
+		id = CAC_navalindustry3
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		x = 12
+		y = 11
+		prerequisite = {
+			focus = CAC_navalindustry1
+		}
+		mutually_exclusive = {
+			focus = CAC_navalindustry2
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_battleship_primacy
+				bonus = 0.75
+				uses = 2
+				category = bb_tech
+			}
+		}
+	}
+
+	focus = {
+		id = CAC_navalindustry4
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		x = 13
+		y = 12
+		prerequisite = {
+			focus = CAC_navalindustry2 focus = CAC_navalindustry3
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_expand_the_USMC
+				bonus = 1.0
+				uses = 1
+				technology = marines2
+				technology = marines3
+			}
+		}
+	}
+	focus = {
+		id = CAC_navalindustry7
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		x = 13
+		y = 13
+		prerequisite = {
+			focus = CAC_navalindustry4
+		}
+		completion_reward = {
+			add_ideas = CAC_intensemarinetraining
+		}
+	}
+	focus = {
+		id = CAC_navalindustry6
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		x = 15
+		y = 12
+		prerequisite = {
+			focus = CAC_navalindustry2 focus = CAC_navalindustry3
+		}
+			completion_reward = {
+				798 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+						}
+					}
+					378 = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = dockyard
+							level = 2
+							instant_build = yes
+							}
+						}
+					800 = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = dockyard
+							level = 2
+							instant_build = yes
+							}
+						}
+				}
+	}
+	focus = {
+		id = CAC_navalindustry5
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		x = 11
+		y = 12
+		prerequisite = {
+			focus = CAC_navalindustry2 focus = CAC_navalindustry3
+		}
+		completion_reward = {
+						add_tech_bonus = {
+							name = USA_fleet_submarines
+							bonus = 0.50
+							uses = 2
+							category = ss_tech
+						}
+						add_ideas = CAC_submarinewarfare
+						if = {
+							limit = {
+								has_dlc = "Man the Guns"
+							}
+							set_technology = { cruiser_submarines = 1 }
+						}
+				}
+		}
+	}
+
+	#ending focus tree bracket DO NOT put focuses past this line
+}

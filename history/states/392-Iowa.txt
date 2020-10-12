@@ -1,0 +1,30 @@
+
+state={
+	id=392
+	name="Iowan Plains"
+
+	history={
+		owner = DMO
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+		}
+		add_core_of = DMO
+		victory_points = {
+			7306 3
+		}
+		victory_points = {
+			11971 3
+		}
+		victory_points = {
+			4691 1
+		}
+	}
+
+	provinces={
+		4691 7306 7458 7539 11971 12418
+	}
+	manpower=130938
+	buildings_max_level_factor=1.000
+	state_category=city
+}

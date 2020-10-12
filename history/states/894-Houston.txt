@@ -1,0 +1,37 @@
+state={
+	id=894
+	name="Houston"
+	history={
+		owner = TEX
+		add_core_of = TEX
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			dockyard = 4
+			10337 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			13447 15
+		}
+		victory_points = {
+			10337 3
+		}
+		victory_points = {
+			13451 3
+		}
+		victory_points = {
+			13468 1
+		}
+		victory_points = {
+			13460 1
+		}
+	}
+	provinces={
+		10337 13447 13451 13460 13468
+	}
+	manpower=1756500
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

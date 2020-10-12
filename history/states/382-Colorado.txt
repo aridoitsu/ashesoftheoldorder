@@ -1,0 +1,33 @@
+
+state={
+	id=382
+	name="Colorado Plains"
+	resources={
+		oil=40.000
+	}
+
+	history={
+		owner = WDC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = WDC
+		victory_points = {
+			7780 10
+		}
+		victory_points = {
+			1809 3
+		}
+		victory_points = {
+			13741 3
+		}
+	}
+
+	provinces={
+		1809 7780 11772 12570 12642 13741 13857
+	}
+	manpower=1035790
+	buildings_max_level_factor=1.000
+	state_category=town
+}

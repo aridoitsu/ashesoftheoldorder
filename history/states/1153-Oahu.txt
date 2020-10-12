@@ -1,0 +1,22 @@
+state={
+	id=1153
+	name="Oahu"
+	history = {
+		owner = UPI
+		add_core_of = UPI
+		add_core_of = HIH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			4180 15
+		}
+	}
+	provinces={
+		4180 
+	}
+	manpower=82013
+	buildings_max_level_factor=1.000
+	state_category = town
+}

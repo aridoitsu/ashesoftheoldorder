@@ -1,0 +1,28 @@
+state={
+	id=887
+	name="Albuquerque"
+	history = {
+		owner = EPS
+		add_core_of = EPS
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			13599 10
+		}
+		victory_points = {
+			13612 1
+		}
+		victory_points = {
+			13595 1
+		}
+	}
+	provinces={
+		13595 13599 13612
+	}
+	manpower=342081
+	buildings_max_level_factor=1.000
+	state_category = city
+}

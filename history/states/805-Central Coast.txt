@@ -1,0 +1,30 @@
+state={
+	id=805
+	name="Pfeiffer"
+	resources = {
+		oil = 20.000
+		tungsten = 7.000
+	}
+	history={
+		owner = CCI
+		buildings ={
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = CCI
+		victory_points = {
+			6881 5
+		}
+		victory_points = {
+			11859 10
+		}
+	}
+	provinces={
+		986 3784 3840 6861 6881 11859 11876 9637 3677
+	}
+	manpower=797248
+	buildings_max_level_factor=1.000
+	state_category = town
+}

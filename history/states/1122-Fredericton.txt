@@ -1,0 +1,21 @@
+state={
+	id=1122
+	name="Fredericton"
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		victory_points = {
+			14166 20
+		}
+	}
+	provinces={
+		634 14158 14165 14166 14188 14209
+	}
+	manpower=248392
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

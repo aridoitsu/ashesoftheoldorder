@@ -1,0 +1,18 @@
+state={
+	id=1143
+	name="Southern Labrador"
+	history = {
+		owner = QBC
+		add_core_of = QBC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		4720 4787 14799 14800 14801 14831 14832 14833 14846 14851 14852 14884 14889 14940 
+	}
+	manpower=54121
+	buildings_max_level_factor=1.000
+	state_category = town
+}

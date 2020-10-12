@@ -1,0 +1,31 @@
+state={
+	id=1081
+	name="Atlantic City"
+	manpower=1394031
+	state_category=city
+	resources = {
+		oil=4.000
+	}
+
+	history={
+		owner = PHL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 4
+			9801 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = PHL
+		victory_points = {
+			9864 15
+		}
+	}
+
+	provinces={
+		9801 9864 11740
+	}
+	buildings_max_level_factor=1.000
+}

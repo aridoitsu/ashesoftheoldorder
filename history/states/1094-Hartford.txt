@@ -1,0 +1,43 @@
+state={
+	id=1094
+	name="Hartford"
+	manpower = 1014133
+	state_category=metropolis
+	resources={
+		steel=12.000
+		chromium=5.000
+	}
+
+	history={
+		owner = CRA
+ 		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = CRA
+		victory_points = {
+			13926 10
+		}
+		victory_points = {
+			13931 1
+		}
+		victory_points = {
+			13917 3
+		}
+		victory_points = {
+			13914 1
+		}
+		victory_points = {
+			13921 1
+		}
+		victory_points = {
+			13934 1
+		}
+
+	}
+	provinces={
+		13914 13917 13921 13926 13931 13934
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=1020
+	name="Huron Valley"
+	history = {
+		owner = INI
+		add_core_of = INI
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			11685 3
+		}
+	}
+	provinces={
+		691 695 9684 11641 11685
+	}
+	manpower=401231
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

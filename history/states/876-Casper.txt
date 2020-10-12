@@ -1,0 +1,30 @@
+state={
+	id=876
+	name="Casper"
+	history={
+		owner = WDC
+		add_core_of = WDC
+		add_core_of = LAK
+		#add_core_of = WYW
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+	}
+		victory_points = {
+			13967 10
+		}
+		victory_points = {
+			12561 5
+		}
+		victory_points = {
+			4610 3
+		}
+	}
+	provinces={
+		4610 4794 4820 7814 13950 13967 13973 14005 14057
+	}
+	manpower=50148
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

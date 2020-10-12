@@ -1,0 +1,33 @@
+
+state={
+	id=858
+	name="Wasatch"
+	history = {
+		owner = PRV
+		add_core_of = PRV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+		}
+		victory_points = {
+			13800 3
+		}
+		victory_points = {
+			13838 5
+		}
+		victory_points = {
+			4865 15
+		}
+		victory_points = {
+			13743 3
+		}
+
+	}
+	provinces={
+		10662 13743 13750 13800 4865 13838
+	}
+	manpower=46456
+	buildings_max_level_factor=1.000
+	state_category = city
+}

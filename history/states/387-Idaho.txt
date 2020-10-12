@@ -1,0 +1,31 @@
+
+state={
+	id=387
+	name="Lincon"
+	resources={
+		steel=18.000
+		chromium=5.000
+		tungsten=18.000
+	}
+
+	history={
+		owner = SPK
+		add_core_of = SPK
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			4778 5
+		}
+		victory_points = {
+			12124 5
+		}
+	}
+
+	provinces={
+		1832 3781 4778 12124 14244
+	}
+	manpower=445031
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

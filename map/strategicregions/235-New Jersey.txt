@@ -1,0 +1,9 @@
+strategic_region={
+	id=235
+	name="New Jersey"
+	provinces={
+		3693 3863 6882 9801 9864 11740 11782 11900 13869 13875 13882 13886 
+	}
+	weather={
+	}
+}

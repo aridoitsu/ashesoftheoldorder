@@ -1,0 +1,123 @@
+division_template = {
+	name = "Los Angeles Police Department"
+	is_locked = yes
+	division_names_group = CAC_POLICE_LA
+  regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Sacremento Police Department"
+	is_locked = yes
+	division_names_group = CAC_POLICE_SO
+  regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "San Francisco Police Department"
+	is_locked = yes
+	division_names_group = CAC_POLICE_SA
+  regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "LA Police Unit 1"
+		location = 9814  # Los Angeles
+		division_template = "Los Angeles Police Department"
+    start_experience_factor = 0.6
+    start_equipment_factor = 1
+	}
+  division = {
+    name = "LA Police Unit 2"
+    location = 9814  # Los Angeles
+    division_template = "Los Angeles Police Department"
+    start_experience_factor = 0.6
+    start_equipment_factor = 1
+  }
+  division = {
+    name = "LA Police Unit 3"
+    location = 9814  # Los Angeles
+    division_template = "Los Angeles Police Department"
+    start_experience_factor = 0.6
+    start_equipment_factor = 1
+  }
+	division = {
+		name = "SA Police Unit 1"
+		location = 9713  # Sacremento
+		division_template = "Sacremento Police Department"
+    start_experience_factor = 0.6
+    start_equipment_factor = 1
+	}
+  division = {
+    name = "SA Police Unit 2"
+    location = 9713  # Sacremento
+    division_template = "Sacremento Police Department"
+    start_experience_factor = 0.6
+    start_equipment_factor = 1
+  }
+  division = {
+    name = "SF Police Unit 1"
+    location = 9671  # San Francisco
+    division_template = "San Francisco Police Department"
+    start_experience_factor = 0.6
+    start_equipment_factor = 1
+  }
+  division = {
+    name = "SF Police Unit 2"
+    location = 9671  # San Francisco
+    division_template = "San Francisco Police Department"
+    start_experience_factor = 0.6
+    start_equipment_factor = 1
+  }
+}

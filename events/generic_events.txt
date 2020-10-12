@@ -1,0 +1,78 @@
+add_namespace = GEN
+
+country_event = {
+  id = GEN.1
+  title = GEN.1.t
+  desc = GEN.1.d
+  picture = GFX_report_event_election_vote
+
+  is_triggered_only = yes
+
+  option = {
+    name = GEN.1.a
+    hidden_effect = {
+      set_country_flag = conservatism_won
+    }
+  }
+  option = {
+    name = GEN.1.b
+    hidden_effect = {
+      set_country_flag = liberalism_won
+    }
+  }
+  option = {
+    name = GEN.1.c
+    hidden_effect = {
+      set_country_flag = dem_socialism_won
+    }
+  }
+}
+country_event = {
+  id = GEN.2
+  title = GEN.2.t
+  desc = GEN.2.d
+  picture = GFX_report_event_generic_sign_treaty2
+
+  is_triggered_only = yes
+
+  option = {
+    ai_chance = {
+      factor = 40
+    }
+    name = GEN.2.a
+    FROM = {
+      add_to_faction = ROOT
+    }
+  }
+  option = {
+    ai_chance = {
+      factor = 60
+    }
+    name = GEN.2.b
+    FROM = {
+      country_event = GEN.3
+    }
+  }
+}
+country_event = {
+  id = GEN.3
+  title = GEN.3.t
+  desc = GEN.3.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = GEN.3.a
+  }
+}
+country_event = {
+  id = GEN.4
+  title = GEN.4.t
+  desc = GEN.4.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = GEN.4.a
+  }
+}

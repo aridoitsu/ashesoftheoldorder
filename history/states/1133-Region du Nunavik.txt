@@ -1,0 +1,22 @@
+
+state={
+	id=1133
+	name="Région du Nunavik"
+	history={
+		owner = QBC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			15191 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = QBC
+	}
+	provinces={
+		15224 3208 6740 10176 13196 14838 14845 14857 14860 14865 14866 14888 14902 14903 14912 14913 14916 14917 14927 14933 14962 14963 14967 14968 14991 14992 14999 15003 15016 15023 15041 15063 15064 15069 15070 15080 15082 15083 15093 15100 15134 15135 15141 15171 15182 15183 15191 15192 15195 15200 15225 15257 15266
+	}
+	manpower=50482
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

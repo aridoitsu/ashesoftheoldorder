@@ -1,0 +1,26 @@
+state=
+{
+	id=630
+	name="STATE_630"
+	manpower = 900
+	resources = {
+		rubber = 3.000
+		steel = 1.000
+	}
+	state_category = tiny_island
+
+	history = {
+		owner = UPI
+		add_core_of = UPI
+		buildings = {
+			infrastructure = 1
+			13051 = {
+				naval_base = 4
+			}
+		}
+		}
+	
+	provinces={
+		13051 	
+	}
+}

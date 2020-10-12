@@ -1,0 +1,21 @@
+state={
+	id=913
+	name="Frontier"
+	history = {
+		owner = SEQ
+		add_core_of = SEQ
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			5103 3
+		}
+	}
+	provinces={
+		1618 5103 13642 13646
+	}
+	manpower=214530
+	buildings_max_level_factor=1.000
+	state_category = town
+}

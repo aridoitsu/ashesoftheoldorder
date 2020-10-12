@@ -1,0 +1,21 @@
+state={
+	id=884
+	name="Pikes Peak"
+	history={
+		owner = COC
+		add_core_of = COC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			13751 5
+		}
+	}
+	provinces={
+		868 13726 13729 13730 13734 13739 13751 13754 1658 13788 13740 12627
+	}
+	manpower=75210
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

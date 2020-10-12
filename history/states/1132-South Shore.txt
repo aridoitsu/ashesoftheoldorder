@@ -1,0 +1,18 @@
+state={
+	id=1132
+	name="South Shore"
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 6
+			dockyard = 3
+		}
+	}
+	provinces={
+		14047 14063
+	}
+	manpower=157382
+	buildings_max_level_factor=1.000
+	state_category = town
+}

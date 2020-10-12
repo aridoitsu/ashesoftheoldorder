@@ -1,0 +1,30 @@
+
+state={
+	id=366
+	name="Tampa"
+	manpower = 1468210
+	resources = {
+		oil = 12.000
+	}
+	state_category = town
+
+	history={
+		owner = MIA
+		add_core_of = MIA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		victory_points = {
+			12752 3
+		}
+		victory_points = {
+			7388 5
+		}
+	}
+
+	provinces={
+		12752 7388 866 10489
+	}
+
+}

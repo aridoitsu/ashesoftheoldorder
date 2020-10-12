@@ -1,0 +1,21 @@
+state={
+	id=1040
+	name="Metrolina"
+	resources = {
+		steel = 23.000
+	}
+	history = {
+		owner = CRN
+		add_core_of = CRN
+		buildings = {
+			infrastructure = 2
+			#industrial_complex = 1
+		}
+	}
+	provinces={
+		7138 10096 10495 13621
+	}
+	manpower=201540
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

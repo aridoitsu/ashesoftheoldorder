@@ -1,0 +1,24 @@
+state={
+	id=1025
+	name="Gainsville"
+	resources = {
+		oil = 23.000
+	}
+	history = {
+		owner = CON
+		add_core_of = CON
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			1556 3
+		}
+	}
+	provinces={
+		1556 12353 12381
+	}
+	manpower=521341
+	buildings_max_level_factor=1.000
+	state_category = city
+}

@@ -1,0 +1,21 @@
+state={
+	id=841
+	name="Sahtu"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			15806 15
+		}
+	}
+	provinces={
+		10527 15749 15806 15824 15831 
+	}
+	manpower=90124
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

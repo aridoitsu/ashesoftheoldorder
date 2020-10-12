@@ -1,0 +1,227 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#CSA v. Union
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = csa_versus_union
+						option = CENTRALIZED_CSAUNION
+					}
+				}
+				SCS = {
+					set_cosmetic_tag = CSA
+					annex_country = {
+						target = LAL
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = ARA
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = ARA
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = MSM
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = ALA
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = FLF
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = GAG
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = TXT
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = TNT
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = NCN
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = VAV
+						transfer_troops = yes
+					}
+					transfer_state = 891
+					transfer_state = 890
+					transfer_state = 888
+					transfer_state = 865
+					transfer_state = 1155
+					set_capital = 362
+					every_controlled_state = {
+						add_core_of = SCS
+					}
+				}
+				MDM = {
+					set_cosmetic_tag = USA
+					annex_country = {
+						target = MEM
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = NHN
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = VTV
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = MAM
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = RIR
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = CTC
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = KSK
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = OHO
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = PAP
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = NJN
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = INI
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = ILI
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = MIM
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = WIW
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = MNM
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = IAI
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = CAC
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = NVN
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = ORO
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = DCD
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = DED
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = WVW
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = KYK
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = MOM
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = NYN
+						transfer_troops = yes
+					}
+					set_capital = 1070
+					every_controlled_state = {
+						add_core_of = MDM
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = csa_versus_union
+						option = DECENTRALIZED_CSAUNION
+					}
+				}
+				DCD = {
+					create_faction = union
+					add_to_faction = MEM
+					add_to_faction = NHN
+					add_to_faction = VTV
+					add_to_faction = MAM
+					add_to_faction = RIR
+					add_to_faction = CTC
+					add_to_faction = KSK
+					add_to_faction = OHO
+					add_to_faction = PAP
+					add_to_faction = NJN
+					add_to_faction = INI
+					add_to_faction = ILI
+					add_to_faction = MIM
+					add_to_faction = WIW
+					add_to_faction = MNM
+					add_to_faction = IAI
+					add_to_faction = CAC
+					add_to_faction = NVN
+					add_to_faction = ORO
+					add_to_faction = MDM
+					add_to_faction = DED
+					add_to_faction = WVW
+					add_to_faction = KYK
+					add_to_faction = MOM
+					add_to_faction = NYN
+				}
+				VAV = {
+					create_faction = confederacy
+					add_to_faction = NCN
+					add_to_faction = SCS
+					add_to_faction = GAG
+					add_to_faction = FLF
+					add_to_faction = TNT
+					add_to_faction = ALA
+					add_to_faction = MSM
+					add_to_faction = ARA
+					add_to_faction = LAL
+					add_to_faction = TXT
+				}
+			}
+		}
+	}
+}

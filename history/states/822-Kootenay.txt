@@ -1,0 +1,18 @@
+
+state={
+	id=822
+	name="Kootenay"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		7820 12578 14446 14486 14497 14498 14543 14544 14585 14586 14623 
+	}
+	manpower=60124
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

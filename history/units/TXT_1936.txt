@@ -1,0 +1,409 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Infantry Division"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "National Guard Division"  	# Standard formation for NG divisions through late 1940
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "Cavalry Division"  		# 1st Cavalry Division only
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+	}
+}
+division_template = {
+	name = "Garrison Brigade"  		# used for island defense (older equipment, lower experience)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	### 1st Army -- note: Armies only paper organizations in 1936 ###
+	# I Army Corps #
+	division= {
+		name = "1st Texan National Guard"
+		location = 10337
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "2nd Texan National Guard"
+		location = 10337
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "3rd Texan National Guard"
+		location = 3960
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "4th Texan National Guard"
+		location = 3960
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+		division= {
+		name = "1st 'Indianhead' Division"
+		location = 12782
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		name = "1st Cavalry 'The 1st Team' Division"
+		location = 12782
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	if = {
+		limit = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
+		navy = {
+			name = "Texan Fleet"
+			base = 10337
+			location = 10337 # Place
+			ship = {
+				name = "TXS Archer"
+				definition = carrier
+				equipment = {
+					carrier_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "TXT" amount = 9 }
+					cv_nav_bomber_equipment_1 =  { owner = "TXT" amount = 24 }
+				}
+			}
+			ship = {
+				name = "TXS Dallas"
+				definition = battleship
+				equipment = {
+					battleship_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Austin"
+				definition = battleship
+				equipment = {
+					battleship_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Houston"
+				definition = battleship
+				equipment = {
+					battleship_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS El Paso"
+				definition = heavy_cruiser
+				equipment = {
+					heavy_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS San Antonio"
+				definition = heavy_cruiser
+				equipment = {
+					heavy_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Archer"
+				definition = heavy_cruiser
+				equipment = {
+					heavy_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Zavala"
+				definition = heavy_cruiser
+				equipment = {
+					heavy_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Potomac"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS San Jacinto"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS San Bernard"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Wharton"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Louisville"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Baytown"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Wichita"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Corpus Christi"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Lubbock"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Odessa"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Pecos"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Laredo"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS McAllen"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Brownsville"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS San Marcos"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Abeline"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Waco"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Tyler"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Beaumont" 
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+		}
+	}
+}

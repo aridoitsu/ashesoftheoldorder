@@ -1,0 +1,21 @@
+state={
+	id=825
+	name="Victoria"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+		}
+		victory_points = {
+			14387 20
+		}
+	}
+	provinces={
+		14376 14383 14387 14397
+	}
+	manpower=921425
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

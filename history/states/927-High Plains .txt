@@ -1,0 +1,23 @@
+state={
+	id=927
+	name="High Plains"
+	history = {
+		owner = WDC
+		add_core_of = WDC
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13895 5
+		}
+		victory_points = {
+			4760 3
+		}
+	}
+	provinces={
+		4760 13895
+	}
+	manpower=21045
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

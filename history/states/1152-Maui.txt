@@ -1,0 +1,18 @@
+state={
+	id=1152
+	name="Maui"
+	history = {
+		owner = UPI
+		add_core_of = HIH
+		add_core_of = UPI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		7195 
+	}
+	manpower=65741
+	buildings_max_level_factor=1.000
+	state_category = town
+}

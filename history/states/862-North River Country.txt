@@ -1,0 +1,24 @@
+state={
+	id=862
+	name="Kingman"
+	resources={
+		steel=20.000
+	}
+	history={
+		owner = PNX
+		add_core_of = PNX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			11814 5
+		}
+	}
+	provinces={
+		1793 11814 13598 13600 13622 13638
+	}
+	manpower=113234
+	buildings_max_level_factor=1.000
+	state_category = town
+}

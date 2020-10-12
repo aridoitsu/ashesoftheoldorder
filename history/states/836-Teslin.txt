@@ -1,0 +1,18 @@
+state={
+	id=836
+	name="Teslin"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	provinces={
+		15567 15578 15625 15666
+	}
+	manpower=36212
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

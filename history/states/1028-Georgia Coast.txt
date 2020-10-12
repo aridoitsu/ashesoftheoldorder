@@ -1,0 +1,23 @@
+state={
+	id=1028
+	name="Savannah"
+	history = {
+		owner = NAK
+		add_core_of = NAK
+		add_claim_by = CON
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			11975 3
+		}
+	}
+	provinces={
+		1480 11975
+	}
+	manpower=340122
+	buildings_max_level_factor=1.000
+	state_category = city
+}

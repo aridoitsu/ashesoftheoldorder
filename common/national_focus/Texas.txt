@@ -1,0 +1,2500 @@
+focus_tree = {
+	id = texas_focus
+	continuous_focus_position = { x = 20 y = 2000 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 25
+			tag = TXT
+		}
+	}
+	default = no
+	focus = {
+		id = TXT_texaswillagainraiseitshead
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		x = 18
+		y = 0
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	################Fascism
+
+
+	focus = {
+		id = TXT_lonestar
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = TXT_texaswillagainraiseitshead
+		}
+		mutually_exclusive = {
+			focus = TXT_redstar
+			focus = TXT_theoldrepublic
+		}
+		x = 6
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = fascist_influence
+				days = 150
+			}
+		}
+	}
+	##########Aggressive Fascism
+	focus = {
+		id = TXT_forgeourownpath
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = {
+			focus = TXT_lonestar
+		}
+
+		mutually_exclusive = {
+			focus = TXT_subversive_takeover
+		}
+
+		cost = 5.00
+
+		x = 3
+		y = 2
+
+		completion_reward = {
+			country_event = tex.19
+		}
+	}
+	focus = {
+		id = TXT_begin_reconstruction
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = TXT_forgeourownpath
+		}
+		available = {
+			has_war = no
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_STABILITY
+		}
+
+		cost = 10
+
+		x = 2
+		y = 3
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TXT_idea_reconstruction
+				days = 365
+			}
+			999 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_stability = 0.03
+		}
+	}
+	focus = {
+		id = TXT_state_railroad_project
+		icon = GFX_Generic_Railroads
+		prerequisite = {
+			focus = TXT_begin_reconstruction
+		}
+
+		cost = 10
+
+		x = 2
+		y = 4
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TXT_idea_state_railroad
+				days = 730
+			}
+		}
+	}
+	focus = {
+		id = TXT_eliminate_threats
+		icon = GFX_Generic_Arrests
+		prerequisite = {
+			focus = TXT_state_railroad_project
+		}
+		prerequisite = {
+			focus = TXT_austin_railroad_hub
+		}
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+
+		cost = 10
+
+		x = 3
+		y = 5
+
+		completion_reward = {
+			add_ideas = {
+				TXT_idea_public_arrests
+			}
+			add_timed_idea = {
+				idea = TXT_idea_purged
+				days = 365
+			}
+			add_stability = -0.05
+		}
+	}
+	focus = {
+		id = TXT_rebuild_austin
+		icon = GFX_Generic_Railroads
+		prerequisite = {
+			focus = TXT_forgeourownpath
+		}
+		available = {
+			has_war = no
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_STABILITY
+		}
+
+		cost = 10
+
+		x = 5
+		y = 3
+
+		completion_reward = {
+			375 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = TXT_improve_austin
+		icon = GFX_Generic_Industry
+		prerequisite = {
+			focus = TXT_rebuild_austin
+		}
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		cost = 10
+
+		x = 7
+		y = 4
+
+		completion_reward = {
+			375 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = TXT_small_arms_austin
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = {
+			focus = TXT_improve_austin
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_STABILITY
+		}
+
+		cost = 10
+
+		x = 8
+		y = 5
+
+		completion_reward = {
+			375 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_stability = 0.01
+		}
+	}
+	focus = {
+		id = TXT_subsizide_austin
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = TXT_improve_austin
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_STABILITY
+		}
+
+		cost = 10
+
+		x = 6
+		y = 5
+
+		completion_reward = {
+			375 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_stability = 0.06
+			add_ideas = TXT_idea_subsidized_factories
+		}
+	}
+	focus = {
+		id = TXT_austin_railroad_hub
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = TXT_rebuild_austin
+		}
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		cost = 5
+
+		x = 4
+		y = 4
+
+		completion_reward = {
+			375 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_stability = 0.03
+		}
+	}
+	focus = {
+		id = TXT_civil_war_recovery
+		icon = GFX_Generic_State_Socialism
+		prerequisite = {
+			focus = TXT_eliminate_threats
+		}
+		prerequisite = {
+			focus = TXT_subsizide_austin
+		}
+
+		cost = 2
+
+		x = 5
+		y = 6
+
+		completion_reward = {
+			remove_ideas = {
+				TXT_idea_civwar
+			}
+		}
+	}
+	focus = {
+		id = TXT_from_the_grave
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = {
+			focus = TXT_civil_war_recovery
+		}
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+
+		cost = 10
+
+		x = 5
+		y = 7
+
+		completion_reward = {
+			add_stability = 0.15
+			add_political_power = 400
+		}
+	}
+	focus = {
+		id = TXT_resuscitate_the_army
+		icon = GFX_Generic_Army_Focus_Red02
+		prerequisite = {
+			focus = TXT_eliminate_threats
+		}
+
+		cost = 10
+
+		x = 2
+		y = 6
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TXT_idea_broken_morale
+				add_idea = TXT_idea_lowered_morale
+			}
+		}
+	}
+	focus = {
+		id = TXT_extensive_consctriptionF
+		icon = GFX_Generic_Outside_Aid
+		prerequisite = {
+			focus = TXT_resuscitate_the_army
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		bypass = {
+			has_idea = extensive_conscription
+		}
+
+		cost = 10
+
+		x = 1
+		y = 7
+
+		completion_reward = {
+			add_ideas = extensive_conscription
+		}
+	}
+	focus = {
+		id = TXT_extensive_trainingF
+		icon = GFX_Generic_Crouched_Soldier
+		prerequisite = {
+			focus = TXT_resuscitate_the_army
+		}
+
+		cost = 10
+
+		x = 3
+		y = 7
+
+		completion_reward = {
+			add_ideas = TXT_idea_extensive_training
+		}
+	}
+	focus = {
+		id = TXT_our_grand_army
+		icon = GFX_Generic_Coalition_Army
+		prerequisite = {
+			focus = TXT_extensive_trainingF
+		}
+		prerequisite = {
+			focus = TXT_extensive_consctriptionF
+		}
+
+		cost = 10
+
+		x = 2
+		y = 8
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TXT_idea_lowered_morale
+				add_idea = TXT_idea_grand_army
+			}
+		}
+	}
+	focus = {
+		id = TXT_our_new_empire
+		icon = GFX_Generic_Ultranationalist_Government
+		prerequisite = {
+			focus = TXT_our_grand_army
+			focus = TXT_from_the_grave
+		}
+
+		cost = 10
+
+		x = 4
+		y = 9
+
+		completion_reward = {
+			add_ideas = {
+				TXT_idea_our_new_empire
+			}
+		}
+	}
+	focus = {
+		id = TXT_reclaim_lands
+		icon = GFX_Generic_German_Soldiers2
+		prerequisite = {
+			focus = TXT_our_new_empire
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+
+		will_lead_to_war_with = NMN
+
+		cost = 10
+
+		x = 5
+		y = 10
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = NMN
+			}
+		}
+	}
+	focus = {
+		id = TXT_exploit_resources
+		icon = GFX_focus_generic_steel
+		prerequisite = {
+			focus = TXT_reclaim_lands
+		}
+		available = {
+			owns_state = 886
+		}
+
+		cost = 5
+
+		x = 5
+		y = 11
+
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 30
+				state = 886
+			}
+		}
+	}
+	focus = {
+		id = TXT_military_youthF
+		icon = GFX_Generic_Autonomy
+		prerequisite = {
+			focus = TXT_our_new_empire
+		}
+
+		cost = 10
+
+		x = 3
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+
+		completion_reward = {
+			add_ideas = {
+				TXT_idea_military_youth
+			}
+		}
+	}
+	focus = {
+		id = TXT_our_natural_borders
+		icon = GFX_Generic_Draw_Up_Plans
+		prerequisite = {
+			focus = TXT_our_new_empire
+		}
+
+		will_lead_to_war_with = ARA
+		will_lead_to_war_with = LAL
+
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+
+		cost = 10
+
+		x = 1
+		y = 10
+
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = LAL
+				generator = {
+					834 835 371
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ARA
+			}
+		}
+	}
+	focus = {
+		id = TXT_fortify_mississippi
+		icon = GFX_goal_generic_construct_military
+
+		prerequisite = {
+			focus = TXT_our_natural_borders
+		}
+
+		available = {
+			owns_state = 960
+			owns_state = 959
+			owns_state = 958
+			owns_state = 371
+		}
+
+		cost = 10
+
+		x = 1
+		y = 11
+
+		completion_reward = {
+			960 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 12398
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 4535
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13465
+					instant_build = yes
+				}
+			}
+			371 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 1559
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13507
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 7599
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_fortify_mississippi2
+		icon = GFX_goal_generic_construction
+
+		prerequisite = {
+			focus = TXT_our_natural_borders
+		}
+
+		available = {
+			has_completed_focus = TXT_fortify_mississippi
+			owns_state = 971
+			owns_state = 969
+		}
+
+		cost = 10
+
+		x = 3
+		y = 11
+
+		completion_reward = {
+			971 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 10355
+					instant_build = yes
+				}
+			}
+			969 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 1646
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 4625
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13617
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+  ##################Diplomatic Fascism
+	focus = {
+		id = TXT_subversive_takeover
+		icon = GFX_focus_generic_military_mission
+		cost = 5.00
+		prerequisite = {
+			focus = TXT_lonestar
+		}
+		mutually_exclusive = {
+			focus = TXT_forgeourownpath
+		}
+		x = 10
+		y = 2
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = .10
+			}
+		}
+	}
+	focus = {
+		id = TXT_promote_riots
+		icon = GFX_goal_generic_small_arms
+		prerequisite = {
+			focus = TXT_subversive_takeover
+		}
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		cost = 5
+
+		x = 9
+		y = 3
+
+		completion_reward = {
+			add_stability = -0.15
+		}
+	}
+	focus = {
+		id = TXT_radio_broadcasts
+		icon = GFX_Generic_Radio_Broadcast
+		prerequisite = {
+			focus = TXT_subversive_takeover
+		}
+
+		cost = 5
+
+		x = 11
+		y = 3
+
+		completion_reward = {
+			add_ideas = TXT_idea_fascist_propaganda
+		}
+	}
+	focus = {
+		id = TXT_gain_support_of_generals
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = {
+			focus = TXT_radio_broadcasts
+		}
+
+		cost = 10
+
+		x = 11
+		y = 4
+
+		completion_reward = {
+			custom_effect_tooltip = TXT_generalsupport
+			hidden_effect = {
+				army_experience = 50
+				add_ideas = TXT_idea_high_command_support
+			}
+		}
+	}
+	focus = {
+		id = TXT_gain_support_of_the_army
+		icon = GFX_Generic_Army_Focus_Red02
+		prerequisite = {
+			focus = TXT_promote_riots
+		}
+
+		cost = 10
+
+		x = 9
+		y = 4
+
+		completion_reward = {
+			custom_effect_tooltip = TXT_army_support
+			hidden_effect = {
+				army_experience = 50
+				add_ideas = TXT_idea_army_support
+			}
+		}
+	}
+	focus = {
+		id = TXT_storm_the_capitol
+		icon = GFX_Generic_Barricade
+		prerequisite = {
+			focus = TXT_gain_support_of_the_army
+		}
+		prerequisite = {
+			focus = TXT_gain_support_of_generals
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		cost = 7.2
+
+		x = 10
+		y = 5
+
+		completion_reward = {
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			news_event = texasnews.5
+		}
+	}
+	focus = {
+		id = TXT_rebuild_the_capitol
+		icon = GFX_Generic_Construction
+		prerequisite = {
+			focus = TXT_storm_the_capitol
+		}
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		cost = 10
+
+		x = 10
+		y = 6
+
+		completion_reward = {
+			375 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_stability = 0.10
+		}
+	}
+	focus = {
+		id = TXT_influence
+		icon = GFX_goal_generic_military_deal
+		cost = 10.00
+		prerequisite = {
+			focus = TXT_storm_the_capitol
+		}
+		x = 12
+		y = 6
+		completion_reward = {
+			every_neighbor_country = {
+				add_timed_idea = {
+					idea = fascist_influence
+					days = 365
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_tradepower
+		text = TXT_tradepower
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = TXT_storm_the_capitol
+		}
+		x = 8
+		y = 6
+		completion_reward = {
+			add_ideas = TXT_idea_tradepower
+		}
+	}
+	focus = {
+		id = TXT_naxis
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = TXT_influence
+		}
+		prerequisite = {
+			focus = TXT_tradepower
+		}
+		x = 10
+		y = 7
+		completion_reward = {
+			every_neighbor_country = {
+				if = {
+					limit = {
+						has_government = fascism
+					}
+					country_event = disunitedstates.5
+				}
+			}
+			create_faction = north_american_axis
+		}
+	}
+	focus = {
+		id = TXT_weaker_neighbors
+		icon = GFX_Generic_Ultranationalist_Volunteers
+		prerequisite = {
+			focus = TXT_naxis
+		}
+		cost = 1
+
+		x = 10
+		y = 8
+
+		completion_reward = {
+			custom_effect_tooltip = TXT_weaker_allies
+		}
+	}
+	focus = {
+		id = TXT_into_the_chihuahuan
+		icon = GFX_Generic_War_Propaganda04
+		prerequisite = {
+			focus = TXT_weaker_neighbors
+		}
+		bypass = {
+			NOT = {
+				country_exists = NMN
+			}
+			NMN = {
+				is_puppet_of = TXT
+			}
+		}
+
+		cost = 10
+
+		x = 8
+		y = 9
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = NMN
+			}
+		}
+	}
+	focus = {
+		id = TXT_arms_in_new_mexico
+		icon = GFX_Generic_Industry_Tanks
+		prerequisite = {
+			focus = TXT_into_the_chihuahuan
+		}
+		available = {
+			NMN = {
+				is_puppet_of = TXT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+
+		cost = 10
+
+		x = 7
+		y = 10
+
+		completion_reward = {
+			886 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			NMN = {
+				add_autonomy_score = {
+					value = -250
+					localization = TXT_military_development
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_amentities_in_new_mexico
+		icon = GFX_Generic_Industry
+		prerequisite = {
+			focus = TXT_into_the_chihuahuan
+		}
+		available = {
+			NMN = {
+				is_puppet_of = TXT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+
+		cost = 10
+
+		x = 9
+		y = 10
+
+		completion_reward = {
+			886 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			NMN = {
+				add_autonomy_score = {
+					value = -250
+					localization = TXT_civilian_development
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_santa_fe_austin_railway
+		icon = GFX_Generic_Railroads
+		prerequisite = {
+			focus = TXT_into_the_chihuahuan
+		}
+		available = {
+			NMN = {
+				is_puppet_of = TXT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+
+		cost = 10
+
+		x = 8
+		y = 11
+
+		completion_reward = {
+			886 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			375 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			905 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			896 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			893 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			886 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			NMN = {
+				add_autonomy_score = {
+					value = -150
+					localization = TXT_infra_development
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_to_tulsa
+		icon = GFX_Generic_Army_Focus_Red02
+		prerequisite = {
+			focus = TXT_weaker_neighbors
+		}
+		bypass = {
+			NOT = {
+				country_exists = OKO
+			}
+			OKO = {
+				is_puppet_of = TXT
+			}
+		}
+
+		cost = 10
+
+		x = 10
+		y = 11
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = OKO
+			}
+		}
+	}
+	focus = {
+		id = TXT_arms_in_oklahoma
+		icon = GFX_Generic_Industry_Tanks
+		prerequisite = {
+			focus = TXT_to_tulsa
+		}
+		available = {
+			OKO = {
+				is_puppet_of = TXT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+
+		cost = 10
+
+		x = 9
+		y = 12
+
+		completion_reward = {
+			374 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			OKO = {
+				add_autonomy_score = {
+					value = -250
+					localization = TXT_military_development
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_amentities_in_oklahoma
+		icon = GFX_Generic_Industry
+		prerequisite = {
+			focus = TXT_to_tulsa
+		}
+		available = {
+			OKO = {
+				is_puppet_of = TXT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+
+		cost = 10
+
+		x = 11
+		y = 12
+
+		completion_reward = {
+			374 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			OKO = {
+				add_autonomy_score = {
+					value = -250
+					localization = TXT_civilian_development
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_OK_city_austin
+		icon = GFX_Generic_Railroads
+		prerequisite = {
+			focus = TXT_to_tulsa
+		}
+		available = {
+			OKO = {
+				is_puppet_of = TXT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+
+		cost = 10
+
+		x = 10
+		y = 13
+
+		completion_reward = {
+			374 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			905 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			895 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			375 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			906 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			909 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			OKO = {
+				add_autonomy_score = {
+					value = -150
+					localization = TXT_infra_development
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_to_baton_rouge
+		icon = GFX_Generic_Crouched_Soldier
+		prerequisite = {
+			focus = TXT_weaker_neighbors
+		}
+		bypass = {
+			NOT = {
+				country_exists = LAL
+			}
+			LAL = {
+				is_puppet_of = TXT
+			}
+		}
+
+		cost = 10
+
+		x = 12
+		y = 9
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = LAL
+			}
+		}
+	}
+	focus = {
+		id = TXT_arms_in_louisiana
+		icon = GFX_Generic_Industry_Tanks
+		prerequisite = {
+			focus = TXT_to_baton_rouge
+		}
+		available = {
+			OKO = {
+				is_puppet_of = TXT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+
+		cost = 10
+
+		x = 11
+		y = 10
+
+		completion_reward = {
+			961 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			LAL = {
+				add_autonomy_score = {
+					value = -250
+					localization = TXT_military_development
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_amentities_in_louisiana
+		icon = GFX_Generic_Industry
+		prerequisite = {
+			focus = TXT_to_baton_rouge
+		}
+		available = {
+			LAL = {
+				is_puppet_of = TXT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+
+		cost = 10
+
+		x = 13
+		y = 10
+
+		completion_reward = {
+			961 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			LAL = {
+				add_autonomy_score = {
+					value = -250
+					localization = TXT_military_development
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_baton_rouge_to_austin
+		icon = GFX_Generic_Railroads
+		prerequisite = {
+			focus = TXT_to_baton_rouge
+		}
+		available = {
+			LAL = {
+				is_puppet_of = TXT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+
+		cost = 10
+
+		x = 12
+		y = 11
+
+		completion_reward = {
+			375 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			904 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			899 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			958 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			959 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			960 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			961 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			LAL = {
+				add_autonomy_score = {
+					value = -150
+					localization = TXT_infra_development
+				}
+			}
+		}
+	}
+
+
+	###########Democratic Path
+
+
+	focus = {
+		id = TXT_theoldrepublic
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = TXT_texaswillagainraiseitshead
+		}
+		mutually_exclusive = {
+			focus = TXT_lonestar
+			focus = TXT_redstar
+		}
+		x = 16
+		y = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = democratic_influence
+				days = 150
+			}
+		}
+	}
+	focus = {
+		id = TXT_democratic_coalition
+		icon = GFX_Generic_Coalition_Army
+		cost = 10
+		prerequisite = {
+			focus = TXT_theoldrepublic
+		}
+
+		x = 16
+		y = 2
+
+		completion_reward = {
+			news_event = texasnews.1
+		}
+	}
+	focus = {
+		id = TXT_defend_democracy
+		icon = GFX_Generic_Blue_Democracy
+		prerequisite = {
+			focus = TXT_democratic_coalition
+		}
+		cost = 10
+
+		x = 15
+		y = 3
+
+		completion_reward = {
+			add_ideas = {
+				TXT_idea_defend_democracy
+			}
+		}
+	}
+	focus = {
+		id = TXT_democratic_interventionism
+		icon = GFX_Generic_Army_Focus_Red02
+		prerequisite = {
+			focus = TXT_democratic_coalition
+		}
+		cost = 10
+
+		x = 17
+		y = 3
+
+		completion_reward = {
+			set_rule = {
+				can_send_volunteers = yes
+			}
+		}
+	}
+	focus = {
+		id = TXT_hope_for_the_republic
+		icon = GFX_Generic_Bell_Tolls
+		prerequisite = {
+			focus = TXT_democratic_interventionism
+		}
+		prerequisite = {
+			focus = TXT_defend_democracy
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_MANPOWER
+		}
+
+		cost = 10
+
+		x = 16
+		y = 4
+
+		completion_reward = {
+			add_ideas = {
+				TXT_idea_hope_for_republic
+			}
+		}
+	}
+	focus = {
+		id = TXT_aid_for_eastNM
+		icon = GFX_CAC_relieve_states
+		cost = 10
+		prerequisite = {
+			focus = TXT_hope_for_the_republic
+		}
+		bypass = {
+			TXT = {
+				controls_state = 792
+				controls_state = 793
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_ANNEXATION
+		}
+
+		x = 14
+		y = 5
+
+		completion_reward = {
+			NMN = {
+				country_event = tex.5
+			}
+		}
+	}
+	focus = {
+		id = TXT_aid_for_panhandle
+		icon = GFX_Generic_Outside_Aid
+		cost = 10
+		prerequisite = {
+			focus = TXT_hope_for_the_republic
+		}
+		bypass = {
+			TXT = {
+				controls_state = 832
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+			FOCUS_FILTER_POLITICAL
+		}
+
+		x = 16
+		y = 6
+
+		completion_reward = {
+			OKO = {
+				country_event = tex.9
+			}
+		}
+	}
+	focus = {
+		id = TXT_aid_for_centralCO
+		icon = GFX_Generic_Factory_Complex
+		cost = 10
+		prerequisite = {
+			focus = TXT_hope_for_the_republic
+		}
+		available = {
+			OR ={
+				controls_state = 907
+				controls_state = 893
+			}
+		}
+		bypass = {
+			TXT = {
+				controls_state = 885
+				controls_state = 884
+				controls_state = 883
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+
+		x = 18
+		y = 5
+
+		completion_reward = {
+			COC = {
+				country_event = tex.7
+			}
+		}
+	}
+	focus = {
+		id = TXT_demand_southeast_wyoming
+		icon = GFX_Generic_Liberation
+		cost = 5
+		prerequisite = {
+			focus = TXT_aid_for_centralCO
+		}
+		available = {
+			TXT = {
+				controls_state = 883
+			}
+		}
+		bypass = {
+			TXT = {
+				controls_state = 381
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+
+		x = 18
+		y = 6
+
+		completion_reward = {
+			WYW = {
+				country_event = tex.11
+			}
+		}
+	}
+	focus = {
+		id = TXT_demand_southwest_kansas
+		icon = GFX_goal_demand_sudetenland
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		cost = 5
+		prerequisite = {
+			focus = TXT_aid_for_eastNM
+		}
+		available = {
+			controls_state = 907
+		}
+		bypass = {
+			TXT = {
+				controls_state = 919
+			}
+		}
+
+		x = 14
+		y = 6
+
+		completion_reward = {
+			KSK = {
+				country_event = tex.14
+			}
+		}
+	}
+	focus = {
+		id = TXT_proclaim_republic
+		icon = GFX_goal_generic_propaganda
+		cost = 1
+		prerequisite = {
+			focus = TXT_demand_southwest_kansas
+		}
+		prerequisite = {
+			focus = TXT_demand_southeast_wyoming
+		}
+		prerequisite = {
+			focus = TXT_aid_for_panhandle
+		}
+		available = {
+			controls_state = 891
+			controls_state = 890
+			controls_state = 887
+			controls_state = 892
+			controls_state = 893
+			controls_state = 886
+			controls_state = 907
+			controls_state = 919
+			controls_state = 885
+			controls_state = 884
+			controls_state = 883
+			controls_state = 381
+		}
+
+		x = 16
+		y = 7
+
+		completion_reward = {
+			set_cosmetic_tag = OTR
+			hidden_effect = {
+				891 = {
+					add_core_of = TXT
+				}
+				890 = {
+					add_core_of = TXT
+				}
+				887 = {
+					add_core_of = TXT
+				}
+				892 = {
+					add_core_of = TXT
+				}
+				893 = {
+					add_core_of = TXT
+				}
+				886 = {
+					add_core_of = TXT
+				}
+				907 = {
+					add_core_of = TXT
+				}
+				919 = {
+					add_core_of = TXT
+				}
+				885 = {
+					add_core_of = TXT
+				}
+				884 = {
+					add_core_of = TXT
+				}
+				883 = {
+					add_core_of = TXT
+				}
+				381 = {
+					add_core_of = TXT
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_republics
+		icon = GFX_goal_generic_major_alliance
+		cost = 10
+		prerequisite = {
+			focus = TXT_proclaim_republic
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		x = 16
+		y = 8
+
+		completion_reward = {
+			every_neighbor_country = {
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					country_event = tex.17
+				}
+			}
+			create_faction = indrepame
+		}
+	}
+	focus = {
+		id = TXT_prepare_for_the_worst
+		icon = GFX_Generic_Break_Free
+		cost = 7.2
+		prerequisite = {
+			focus = TXT_republics
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		x = 16
+		y = 9
+
+		completion_reward = {
+			375 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_defense_of_austin
+		icon = GFX_Generic_Soldiers_Defense
+		cost = 7.2
+		prerequisite = {
+			focus = TXT_prepare_for_the_worst
+		}
+
+		x = 15
+		y = 10
+		completion_reward = {
+			375 = {
+				add_building_construction = {
+					type = bunker
+					province = 13511
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13504
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13495
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13508
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13503
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_defense_of_dfw
+		icon = GFX_goal_generic_fortify_city
+		cost = 7.2
+		prerequisite = {
+			focus = TXT_prepare_for_the_worst
+		}
+
+		x = 17
+		y = 10
+
+		completion_reward = {
+			895 = {
+				add_building_construction = {
+					type = bunker
+					province = 13535
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13539
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13544
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13511
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_defense_of_SA
+		icon = GFX_goal_generic_fortify_city
+		cost = 7.2
+		prerequisite = {
+			focus = TXT_prepare_for_the_worst
+		}
+
+		x = 19
+		y = 10
+
+		completion_reward = {
+			375 = {
+				add_building_construction = {
+					type = bunker
+					province = 13469
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_increase_mil_products
+		icon = GFX_Generic_Industry_Tanks
+		cost = 7.2
+		prerequisite = {
+			focus = TXT_defense_of_SA
+		}
+		prerequisite = {
+			focus = TXT_defense_of_dfw
+		}
+		prerequisite = {
+			focus = TXT_defense_of_austin
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		x = 16
+		y = 11
+
+		completion_reward = {
+			375 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_increase_civ_products
+		icon = GFX_Generic_Industry02
+		cost = 7.2
+		prerequisite = {
+			focus = TXT_defense_of_SA
+		}
+		prerequisite = {
+			focus = TXT_defense_of_dfw
+		}
+		prerequisite = {
+			focus = TXT_defense_of_austin
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		x = 18
+		y = 11
+
+		completion_reward = {
+			894 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_general_rearmament
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = {
+			focus = TXT_republics
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+			FOCUS_FILTER_INDUSTRY
+		}
+		cost = 10.00
+		x = 21
+		y = 9
+		completion_reward = {
+			add_ideas = TXT_idea_general_rearm
+		}
+	}
+	focus = {
+		id = TXT_increaseconscripts
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = TXT_general_rearmament
+		}
+		bypass = {
+			has_idea = limited_conscription
+			has_idea = extensive_conscription
+			has_idea = all_adults_serve
+			has_idea = scraping_the_barrel
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		x = 21
+		y = 10
+		completion_reward = {
+			add_ideas = limited_conscription
+		}
+	}
+	focus = {
+		id = TXT_nationalism
+		icon = GFX_goal_generic_propaganda
+		cost = 10.00
+		prerequisite = {
+			focus = TXT_general_rearmament
+		}
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 23
+		y = 10
+		completion_reward = {
+			add_ideas = TXT_idea_democratic_nationalism
+			add_war_support = 0.10
+		}
+	}
+	focus = {
+		id = TXT_military_rd
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = TXT_nationalism
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		cost = 10
+
+		x = 23
+		y = 11
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = TXT_military_youth
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = TXT_increaseconscripts
+		}
+		x = 21
+		y = 11
+		completion_reward = {
+			add_ideas = TXT_military_academies
+		}
+	}
+	focus = {
+		id = TXT_great_struggle
+		icon = GFX_Generic_Mutual_Cooperation
+		prerequisite = {
+			focus = TXT_military_rd
+		}
+		prerequisite = {
+			focus = TXT_military_youth
+		}
+		prerequisite = {
+			focus = TXT_increase_mil_products
+		}
+		prerequisite = {
+			focus = TXT_increase_civ_products
+		}
+		cost = 10
+		x = 18
+		y = 12
+		completion_reward = {
+			add_ideas = {
+				TXT_idea_democratic_struggle
+			}
+		}
+	}
+
+	##################Communism
+	focus = {
+		id = TXT_redstar
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = TXT_texaswillagainraiseitshead
+		}
+
+		mutually_exclusive = {
+			focus = TXT_lonestar
+			focus = TXT_theoldrepublic
+		}
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		x = 26
+		y = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			add_ideas = {
+				TXT_idea_low_government_support
+			}
+			add_ideas = {
+				TXT_democratic_threat_5
+			}
+			add_ideas = {
+				TXT_idea_confused_army_3
+			}
+		}
+	}
+	focus = {
+		id = TXT_remove_state_enemies
+		icon = GFX_Generic_Arrests
+		cost = 10
+		prerequisite = {
+			focus = TXT_redstar
+		}
+		bypass = {
+
+		}
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		x = 24
+		y = 2
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TXT_democratic_threat_5
+				add_idea = TXT_democratic_threat_4
+			}
+		}
+	}
+	focus = {
+		id = TXT_proletarian_diplomacy
+		icon = GFX_Focus_Communist_Spy02
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_remove_state_enemies
+		}
+
+		x = 25
+		y = 3
+
+		completion_reward = {
+			every_country = {
+				if = {
+					limit = {
+						has_government = communism
+					}
+				}
+				add_opinion_modifier = {
+					target = TXT
+					modifier = huge_increase
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_citizen_revolutionaries
+		icon = GFX_Generic_Radio_Broadcast
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_remove_state_enemies
+		}
+
+		x = 23
+		y = 3
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TXT_idea_citizen_revolutionaries
+				days = 730
+			}
+		}
+	}
+	focus = {
+		id = TXT_ban_opposition
+		icon = GFX_Generic_Political_Killing
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_citizen_revolutionaries
+		}
+
+		prerequisite = {
+			focus = TXT_proletarian_diplomacy
+		}
+
+		available = {
+			fascism < 0.20
+			democratic < 0.20
+		}
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		x = 24
+		y = 4
+
+		completion_reward = {
+			activate_targeted_decision = {
+				target = TXT
+				decision = ban_fascist_party
+			}
+			activate_targeted_decision = {
+				target = TXT
+				decision = ban_democratic_party
+			}
+		}
+	}
+
+	focus = {
+		id = TXT_newdoctrine
+		icon = GFX_Generic_Soldier_Aiming
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_redstar
+		}
+
+		x = 28
+		y = 2
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_commie_doctrine
+				bonus = 1.0
+				uses = 2
+				category = cat_mass_assault
+			}
+			swap_ideas = {
+				remove_idea = TXT_idea_confused_army_3
+				add_idea = TXT_idea_confused_army_2
+			}
+		}
+	}
+
+	focus = {
+		id = TXT_cavcharges
+		icon = GFX_Focus_Commie_Cowboys
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_newdoctrine
+		}
+
+		x = 29
+		y = 3
+
+		completion_reward = {
+			add_ideas = {
+				TXT_idea_rangers
+			}
+		}
+	}
+
+	focus = {
+		id = TXT_moderninfantry
+		icon = GFX_Generic_Crouched_Soldier_German
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_cavcharges
+		}
+
+		x = 29
+		y = 4
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_modernizeinfantry
+				bonus = 1.0
+				uses = 2
+				category = artillery
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = TXT_sovietschooling
+		icon = GFX_Generic_Autonomy
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_newdoctrine
+		}
+
+		x = 27
+		y = 3
+
+		completion_reward = {
+			add_research_slot = 1
+			add_ideas = {
+				TXT_idea_sovietschooling
+			}
+		}
+	}
+	focus = {
+		id = TXT_mandatory_service
+		icon = GFX_Generic_German_Soldier
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_sovietschooling
+		}
+
+		x = 27
+		y = 4
+
+		completion_reward = {
+			add_ideas = {
+				extensive_conscription
+			}
+		}
+	}
+
+	####Path of the Revolution
+	focus = {
+		id = TXT_pathofrevolution
+		icon = GFX_Generic_Socialist_Revolution
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		cost = 3
+
+		prerequisite = {
+			focus = TXT_redstar
+		}
+
+		x = 26
+		y = 5
+
+		completion_reward = {
+			country_event = tex.21
+		}
+	}
+
+	####Path of Trotskyism
+	focus = {
+		id = TXT_trotskyism
+		icon = GFX_Generic_Trotsky
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		allow_branch = {
+			has_dlc = "La Resistance"
+		}
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_pathofrevolution
+		}
+
+		available = {
+			has_country_flag = TXT_chose_trotsky
+		}
+
+		x = 26
+		y = 6
+
+		completion_reward = {
+			add_ideas = TXT_idea_trotskyism
+		}
+	}
+	focus = {
+		id = TXT_expand_intellegence
+		icon = GFX_Generic_Spy_Communist
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_trotskyism
+		}
+
+		x = 26
+		y = 7
+
+		completion_reward = {
+			add_ideas = TXT_idea_expand_intel
+		}
+	}
+
+	####Path of Stalinism
+	focus = {
+		id = TXT_stalinism
+		icon = GFX_Focus_Stalin
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		offset = {
+			x = -7
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_pathofrevolution
+		}
+
+		available = {
+			has_country_flag = TXT_chose_stalin
+		}
+
+		x = 33
+		y = 6
+
+		completion_reward = {
+			add_ideas = TXT_idea_stalinism
+		}
+	}
+	focus = {
+		id = TXT_replicate_five_year
+		icon = GFX_Generic_Industry02
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -7
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_stalinism
+		}
+
+		x = 33
+		y = 7
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TXT_five_year_plan
+				days = 1825
+			}
+		}
+	}
+	focus = {
+		id = TXT_destroy_american_dream
+		icon = GFX_Focus_Down_in_Flames
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -7
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_replicate_five_year
+		}
+
+		x = 35
+		y = 8
+
+		completion_reward = {
+			add_ideas = TXT_kill_dream
+		}
+	}
+
+}

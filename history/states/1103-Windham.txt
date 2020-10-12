@@ -1,0 +1,25 @@
+state={
+	id=1103
+	name="Windham"
+	manpower=98679
+	state_category=rural
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = VTV
+		victory_points = {
+			9675 1
+		}
+	}
+
+	provinces={
+		9675 13982 13986
+	}
+	buildings_max_level_factor=1.000
+}

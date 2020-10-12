@@ -1,0 +1,33 @@
+
+state={
+	id=385
+	name="Willowa"
+	resources={
+		tungsten=9.000
+		steel=11.000
+	}
+
+	history={
+		owner = SNK
+		add_core_of = SNK
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			12553 3
+		}
+		victory_points = {
+			14069 3
+		}
+		victory_points = {
+			10687 5
+		}
+	}
+
+	provinces={
+  		12553 14069 7865 10687
+	}
+	manpower=323783
+	buildings_max_level_factor=1.000
+	state_category=town
+}

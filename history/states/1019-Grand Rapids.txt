@@ -1,0 +1,22 @@
+state={
+	id=1019
+	name="Lakeshore"
+	history = {
+		owner = DET
+		add_core_of = DET
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			11714 3
+		}
+	}
+	provinces={
+		6782 9747 11714
+	}
+	manpower=301240
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

@@ -1,0 +1,21 @@
+state={
+	id=981
+	name="Iowa"
+	history = {
+		owner = IAI
+		add_core_of = IAI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			12646 8
+		}
+	}
+	provinces={
+		10666 12646
+	}
+	manpower=125405
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

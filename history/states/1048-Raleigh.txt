@@ -1,0 +1,37 @@
+state={
+	id=1048
+	name="Raleigh"
+	history = {
+		owner = CRN
+		add_core_of = CRN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			13654 20
+		}
+		victory_points = {
+			13660 3
+		}
+		victory_points = {
+			13653 3
+		}
+		victory_points = {
+			13667 1
+		}
+		victory_points = {
+			13661 1
+		}
+		victory_points = {
+			13655 1
+		}
+	}
+	provinces={
+		11783 13654 13655 13660 13661 13667
+	}
+	manpower=1320547
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

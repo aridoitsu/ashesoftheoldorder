@@ -1,0 +1,27 @@
+
+state={
+	id=386
+	name="North Washington"
+	manpower=863395
+	state_category=large_town
+	resources={
+		steel=7.000
+		tungsten=2.000
+	}
+	history={
+		owner = SEA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 5
+		}
+		add_core_of = SEA
+	}
+	provinces={
+		1320 10198 14323 14332
+	}
+
+	buildings_max_level_factor=1.000
+
+}

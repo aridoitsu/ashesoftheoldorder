@@ -1,0 +1,9 @@
+strategic_region={
+	id=275
+	name="El Salvador"
+	provinces={
+		12823 13093 13312 13318 
+	}
+	weather={
+	}
+}

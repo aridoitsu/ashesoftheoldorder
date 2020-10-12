@@ -1,0 +1,423 @@
+﻿add_namespace = disunitedstates
+
+##Event: North Carolina Wants Us!
+country_event = {
+	id = disunitedstates.1
+	title = disunitedstates.1.title
+	desc = disunitedstates.1.desc
+	picture = GFX_report_event_pla_in_beijing
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = disunitedstates.1.a
+		ai_chance = { factor = 65}
+		NCN = { annex_country= {
+			target = ROOT
+			transfer_troops = yes
+			}
+		}
+
+	}
+	option = {
+		name = disunitedstates.1.b
+		ai_chance = { factor = 35}
+		NCN = {
+		create_wargoal = {
+		type = annex_everything
+		target = ROOT
+			}
+		}
+	}
+}
+	#############################################
+	######Invite to Texas Faction################
+	#############################################
+	country_event = {
+		id = disunitedstates.2
+		title = disunitedstates.2.t
+		desc = disunitedstates.2.d
+		picture = GFX_report_event_worried_french
+
+		is_triggered_only = yes
+
+		option = {
+			name = disunitedstates.2.a
+			ai_chance = { factor = 30
+			modifier = {
+			factor = 40
+			has_government = communism
+			}
+			modifier = {
+			factor = 30
+			strength_ratio = {tag = FROM ratio > 0.5 }
+			}
+			}
+			TXT = {
+				country_event = disunitedstates.3
+				add_to_faction = ROOT
+			}
+			add_ai_strategy = {
+				type = alliance
+				id = "TXT"
+				value = 200
+			}
+		}
+
+		option = {
+			name = disunitedstates.2.b
+			ai_chance = { factor = 70 }
+			TXT = { country_event = disunitedstates.4 }
+		}
+	}
+
+	# [Country] Accepts
+	country_event = {
+		id = disunitedstates.3
+		title = disunitedstates.3.t
+		desc = disunitedstates.3.d
+		picture = GFX_report_event_soldiers_in_disunitedstates
+
+		is_triggered_only = yes
+
+		option = {
+			name = disunitedstates.3.a
+			effect_tooltip = {
+				add_to_faction = FROM
+			}
+		}
+	}
+
+	# [Country] Refuses
+	country_event = {
+		id = disunitedstates.4
+		title = disunitedstates.4.t
+		desc = disunitedstates.4.d
+		picture = GFX_report_event_finnish_letter
+
+		is_triggered_only = yes
+
+		option = {
+			name = disunitedstates.4.a
+		}
+	}
+	country_event = {
+		id = disunitedstates.5
+		title = disunitedstates.5.t
+		desc = disunitedstates.5.d
+		picture = GFX_report_event_worried_french
+
+		is_triggered_only = yes
+
+		option = {
+			name = disunitedstates.5.a
+			ai_chance = {
+				factor = 10
+				modifier = {
+					factor = 20
+					has_government = fascism
+				}
+				modifier = {
+					factor = 10
+					strength_ratio = {
+						tag = FROM
+						ratio > 0.5
+					}
+				}
+			}
+			TXT = {
+				country_event = disunitedstates.3
+				add_to_faction = ROOT
+			}
+			add_ai_strategy = {
+				type = alliance
+				id = "TXT"
+				value = 200
+			}
+		}
+		option = {
+			name = disunitedstates.5.b
+			ai_chance = {
+				factor = 90
+			}
+			TXT = {
+				country_event = disunitedstates.4
+			}
+		}
+	}
+
+
+
+#hawaii accepts or refuses from california
+
+	country_event = {
+		id = disunitedstates.6
+		title = disunitedstates.6.t
+		desc = disunitedstates.6.d
+		#picture =
+		is_triggered_only = yes
+
+		option = {
+			name = disunitedstates.6.a
+			ai_chance = {
+				factor = 40
+				modifier = {
+					factor = 40
+					strength_ratio = {
+						tag = FROM
+						ratio > 0.4
+					}
+				}
+				modifier = {
+					factor = 70
+					has_government = democratic
+				}
+			}
+			CAC = {
+				country_event = california.6
+				puppet = HIH
+			}
+		}
+
+		option = {
+			name = disunitedstates.6.b
+			ai_chance = {factor = 60}
+			CAC = {
+				country_event = california.5
+			}
+		}
+	}
+
+#oregon event with california
+
+	country_event = {
+		id = disunitedstates.7
+		title = disunitedstates.7.t
+		desc = disunitedstates.7.d
+		picture = GFX_report_event_molotov_ribentrop_handshake
+		is_triggered_only = yes
+
+		option = {
+			name = disunitedstates.7.a
+			ai_chance = {
+				factor = 40
+				modifier = {
+					factor = 30
+					strength_ratio = {
+						tag = FROM
+						ratio > 0.5
+					}
+				}
+			}
+			CAC = {
+				annex_country = {
+					target = ROOT
+					transfer_troops = yes
+				}
+			}
+
+			CAC = {
+				country_event = california.10
+			}
+		}
+
+		option = {
+			name = disunitedstates.7.b
+			ai_chance = {
+				factor = 60
+			}
+			add_war_support = 0.15
+			CAC = {
+				country_Event = california.11
+			}
+		}
+	}
+
+
+
+#washington event with california
+	country_event = {
+		id = disunitedstates.8
+		title = disunitedstates.8.t
+		desc = disunitedstates.8.d
+		picture = GFX_report_event_molotov_ribentrop_handshake
+		is_triggered_only = yes
+
+		option = {
+			name = disunitedstates.8.a
+			ai_chance = {
+				factor = 60
+				modifier = {
+					factor = 30
+					strength_ratio = {
+						tag = FROM
+						ratio > 0.5
+					}
+				}
+			}
+			CAC = {
+				annex_country = {
+					target = ROOT
+					transfer_troops = yes
+				}
+			}
+			CAC = {
+				country_Event = california.12
+			}
+		}
+
+
+		option = {
+			name = disunitedstates.8.b
+			ai_chance = {
+				factor = 40
+			}
+			add_war_support = 0.15
+			CAC = {
+				country_Event = california.13
+			}
+		}
+	}
+
+	#alaska gets offer from california
+	country_event = {
+		id = disunitedstates.13
+		title = disunitedstates.13.t
+		desc = disunitedstates.13.d
+		picture = GFX_report_event_molotov_ribentrop_handshake
+		is_triggered_only = yes
+
+		option = {
+			name = disunitedstates.13.a
+			ai_chance = {
+				factor = 60
+				modifier = {
+					factor = 30
+					strength_ratio = {
+						tag = FROM
+						ratio > 0.5
+					}
+				}
+			}
+			CAC = {
+				annex_country = {
+					target = ROOT
+					transfer_troops = yes
+				}
+			}
+			CAC = {
+				country_Event = california.20
+			}
+		}
+
+
+		option = {
+			name = disunitedstates.8.b
+			ai_chance = {
+				factor = 40
+			}
+			add_war_support = 0.15
+			CAC = {
+				country_Event = california.21
+			}
+		}
+	}
+
+
+#AZ
+country_event = {
+		id = disunitedstates.9
+		title = disunitedstates.9.t
+		desc = disunitedstates.9.d
+		picture = GFX_report_event_pla_in_beijing
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+			name = disunitedstates.9.a
+			ai_chance = {
+				factor = 30
+			}
+			AZA = {
+				annex_country = {
+					target = ROOT
+					transfer_troops = yes
+				}
+			}
+		}
+		option = {
+			name = disunitedstates.9.b
+			ai_chance = { factor = 70}
+
+			AZA = {
+				create_wargoal = {
+					type = annex_everything
+					target = ROOT
+				}
+			}
+		}
+	}
+	#NEVADA ANSCHLUSS and NEVADA PUPPET
+	country_event = {
+		id = disunitedstates.11
+		title = disunitedstates.11.title
+		desc = disunitedstates.11.desc
+		picture = GFX_report_event_pla_in_beijing
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+			name = disunitedstates.11.a
+			ai_chance = { factor = 65}
+			NVN = { annex_country= {
+				target = ROOT
+				transfer_troops = yes
+				}
+			}
+
+		}
+		option = {
+			name = disunitedstates.11.b
+			ai_chance = { factor = 45}
+			NVN = {
+			create_wargoal = {
+			type = annex_everything
+			target = ROOT
+				}
+			}
+		}
+	}
+	country_event = {
+		id = disunitedstates.12
+		title = disunitedstates.12.title
+		desc = disunitedstates.12.desc
+		#picture =
+		is_triggered_only = yes
+
+		option = {
+			name = disunitedstates.12.a
+			ai_chance = {
+				factor = 40
+				modifier = {
+					factor = 40
+					strength_ratio = {
+						tag = FROM
+						ratio > 0.4
+					}
+				}
+				modifier = {
+					factor = 70
+					has_government = democratic
+				}
+			}
+			NVN = {
+				country_event = nevada.1
+				puppet = UTU
+			}
+		}
+
+		option = {
+			name = disunitedstates.12.b
+			ai_chance = {factor = 60}
+			NVN = {
+				country_event = nevada.2
+			}
+		}
+	}

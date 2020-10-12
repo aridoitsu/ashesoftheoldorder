@@ -1,0 +1,28 @@
+
+state={
+	id=365
+	name="Augusta"
+	resources={
+		steel=25
+		aluminium=15
+	}
+	history={
+		owner = NAK
+		add_core_of = NAK
+		add_claim_by = CON
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		victory_points = {
+			7118 5
+		}
+	}
+
+	provinces={
+		7118 10437 10465
+	}
+	manpower=1408504
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,40 @@
+state={
+	id=802
+	name="San Diego"
+	history={
+		owner = MJV
+		buildings = {
+			infrastructure = 7
+			dockyard = 2
+			arms_factory = 1
+			1562 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = MJV
+		victory_points = {
+			1562 20
+		}
+		victory_points = {
+			7517 5
+		}
+		victory_points = {
+			12374 3
+		}
+		victory_points = {
+			13560 1
+		}
+		victory_points = {
+			13559 1
+		}
+		victory_points = {
+			13537 5
+		}
+	}
+	provinces={
+		1562 12374 13537 13540 13541 13547 13559 13560
+	}
+	manpower = 2171365
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

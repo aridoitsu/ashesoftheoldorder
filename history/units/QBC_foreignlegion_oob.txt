@@ -1,0 +1,32 @@
+﻿
+
+units = {
+	##### Royal Canadian Army #####
+	## 4th Miltary District ##
+	division= {	
+		name = "3rd Foreign Infantry Regiment 3ème REI"
+		location = 4345 # Montreal
+		division_template = "Quebecois Guard" 
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.4
+
+	}
+	division= {	
+		name = " 2nd Foreign Infantry Regiment 2ème REI"
+		location = 4345 # Montreal
+		division_template = "Cavalry Militia" 
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = " 1st Foreign Infantry Regiment 1er REI"
+		location = 4345 # Montreal
+		division_template = "Cavalry Militia" 
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.2
+
+	}
+
+}
+

@@ -1,0 +1,9 @@
+strategic_region={
+	id=237
+	name="REPOSITION"
+	provinces={
+		9786
+	}
+	weather={
+	}
+}

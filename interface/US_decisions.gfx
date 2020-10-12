@@ -1,0 +1,7 @@
+spriteTypes = {
+  #Washington
+  spriteType = {
+		name = "GFX_WAW_decision_resource_full"
+		texturefile = "gfx/interface/decisions/WAW_decision_resource_full.dds"
+	}
+}

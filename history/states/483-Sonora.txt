@@ -1,0 +1,40 @@
+
+state={
+	id=483
+	name="Gadsen Area"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			2069 = {
+				bunker = 1
+
+			}
+			8012 = {
+				bunker = 1
+
+			}
+			12833 = {
+				bunker = 1
+
+			}
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			8012 5 
+		}
+
+	}
+
+	provinces={
+		2069 5071 8012 12833 13473 13491 
+	}
+	manpower=103987
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

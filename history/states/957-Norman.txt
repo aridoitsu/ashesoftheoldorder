@@ -1,0 +1,17 @@
+state={
+	id=957
+	name="Norman"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		12636 14792 14804 14879 14941 14944 14973 
+	}
+	manpower=20140
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

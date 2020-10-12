@@ -1,0 +1,44 @@
+state={
+	id=1108
+	name="Manchester and Concord"
+	manpower=945833
+	state_category=metropolis
+	resources={
+		oil=6.000
+		steel=8.000
+	}
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 4
+		}
+		add_core_of = NHN
+		victory_points = {
+			13988 3
+		}
+		victory_points = {
+			733 10
+		}
+		victory_points = {
+			14016 1
+		}
+		victory_points = {
+			14007 1
+		}
+		victory_points = {
+			13997 1
+		}
+		victory_points = {
+			13989 1
+		}
+	}
+	provinces={
+		733 13983 13988 13989 13996 13997 14001 14007 14016
+	}
+	buildings_max_level_factor=1.000
+}

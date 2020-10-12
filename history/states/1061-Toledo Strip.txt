@@ -1,0 +1,21 @@
+state={
+	id=1061
+	name="Toledo"
+	history = {
+		owner = DET
+		add_core_of = DET
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			13925 3
+		}
+	}
+	provinces={
+		13923 13925 689
+	}
+	manpower=301424
+	buildings_max_level_factor=1.000
+	state_category = city
+}

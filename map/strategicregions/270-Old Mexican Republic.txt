@@ -1,0 +1,9 @@
+strategic_region={
+	id=270
+	name="Old Mexican Republic"
+	provinces={
+		1965 2008 2011 7913 12755 13357 13359 13362 13366 13367 13369 13372 13373 13377 13381 13385 
+	}
+	weather={
+	}
+}

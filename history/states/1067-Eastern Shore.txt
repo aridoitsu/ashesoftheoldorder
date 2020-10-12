@@ -1,0 +1,25 @@
+state={
+	id=1067
+	name="Delmarva"
+	manpower=389621
+	state_category = rural
+
+	history = {
+		owner = DEL
+
+		buildings = {
+			infrastructure = 2
+			dockyard = 2
+		}
+		add_core_of = DEL
+		victory_points = {
+			9758 3
+		}
+	}
+
+	provinces={
+		3917 6892 9758 13753
+	}
+
+	buildings_max_level_factor=1.000
+}

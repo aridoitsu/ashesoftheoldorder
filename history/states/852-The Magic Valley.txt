@@ -1,0 +1,26 @@
+state={
+	id=852
+	name="Snake"
+	resources={
+		steel=18.000
+		chromium=12.000
+		tungsten=18.000
+	}
+	history = {
+		owner = SNK
+		add_core_of = SNK
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+		victory_points = {
+			13941 10
+		}
+	}
+	provinces={
+		9695 12607 13941 13940 7721 13991 13977 13976 13990
+	}
+	manpower=25412
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

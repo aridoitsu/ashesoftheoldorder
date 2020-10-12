@@ -1,0 +1,20 @@
+state={
+	id=1015
+	name="Evansville"
+	history = {
+		owner = SRF
+		add_core_of = SRF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			11635 5
+		}
+	}
+	provinces={
+		11621 11635
+	}
+	manpower=102340
+	buildings_max_level_factor=1.000
+	state_category = town
+}

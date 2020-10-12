@@ -1,0 +1,114 @@
+﻿add_namespace = kansas
+
+# Earl Browder
+country_event = {
+	id = kansas.1
+	title = kansas.1.t
+	desc = kansas.1.d
+	picture = GFX_report_event_browder_elected.dds
+
+	is_triggered_only = no
+	fire_only_once = yes
+
+	trigger = {
+		tag = KSK
+		date > 1936.1.25
+		has_government = communism
+
+		}
+
+
+
+	mean_time_to_happen = {days = 7
+	}
+
+	option = {
+		name = kansas.1.a
+		ai_chance = { factor = 90}
+		create_country_leader = {
+				name = "Earl Browder"
+				desc = "POLITICS_EARL_BROWDER_DESC"
+				picture = "Portrait_USA_Earl_Browder.dds"
+				expire = "1965.1.1"
+				ideology = marxism
+				traits = {
+						triumphant_revolutionary
+				}
+		}
+	}
+	option = {
+		name = kansas.1.b
+		ai_chance = { factor = 10}
+		add_political_power = 100
+	}
+}
+
+	country_event = {
+			id = kansas.2
+			title = kansas.2.t
+			desc = kansas.2.d
+			picture = GFX_report_event_battle_of_kansas.dds
+
+			is_triggered_only = yes
+
+			option = {
+						name = kansas.2.a
+
+			915 = {
+					add_manpower = -1000}
+			976 = {
+					add_manpower = -1500 }
+
+			army_experience = 50
+			add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					category = land_doctrine
+			}
+
+		}
+	}
+
+	country_event = {
+		id = kansas.3
+		title = kansas.3.t
+		desc = kansas.3.d
+		picture = GFX_report_event_battle_of_kansas.dds
+
+
+		is_triggered_only = yes
+
+		option = {
+					name = kansas.3.a
+					MOM = {
+							army_experience = 50
+							add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							category = land_doctrine
+							}
+					}
+					976 = {
+							add_manpower = -1500
+					}
+					915 = {
+					add_manpower = -1000
+					}
+		}
+
+	}
+
+		country_event = {
+			id = kansas.4
+			title = kansas.4.t
+			desc = kansas.4.d
+			picture = GFX_report_event_police_join.dds
+
+			is_triggered_only = yes
+
+			option = {
+				name = kansas.4.a
+				load_oob = KSK_Police_Units
+				add_ideas = { KSK_police }
+			}
+		}

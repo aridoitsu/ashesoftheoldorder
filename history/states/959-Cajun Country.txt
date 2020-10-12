@@ -1,0 +1,31 @@
+state={
+	id=959
+	name="Cajun"
+	history={
+		owner = NEO
+		add_core_of = NEO
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			dockyard = 1
+		}
+		victory_points = {
+			4507 5
+		}
+		victory_points = {
+			12313 3
+		}
+		victory_points = {
+			1643 1
+		}
+		victory_points = {
+			13448 1
+		}
+	}
+	provinces={
+		1643 4507 12313 13448 13453 13480
+	}
+	manpower=405124
+	buildings_max_level_factor=1.000
+	state_category = city
+}

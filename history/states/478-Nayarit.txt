@@ -1,0 +1,35 @@
+
+state={
+	id=478
+	name="Jalisco"
+	resources={
+		tungsten=8.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			13089 10 
+		}
+		victory_points = {
+			10172 5 
+		}
+		victory_points = {
+			12746 10 
+		}
+
+	}
+
+	provinces={
+		2051 5052 10172 12746 12873 13089 13364 13380 13382 13386 
+	}
+	manpower=1270875
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,9 @@
+strategic_region={
+	id=283
+	name="Puerto Rico & Antilles"
+	provinces={
+		177 379 1440 3284 4155 4450 7123 9377 11106 11350 13009 13012 13084 13350 
+	}
+	weather={
+	}
+}

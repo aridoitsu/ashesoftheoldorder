@@ -1,0 +1,29 @@
+state={
+	id=865
+	name="Tuscon"
+	resources={
+		steel=20.000
+		aluminium=8.000
+	}
+	history={
+		owner = TCN
+		add_core_of = TCN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			3834 15
+		}
+		victory_points = {
+			13506 3
+		}
+	}
+	provinces={
+		3834 7920 13506 13510 13520 13522 13528 13534
+	}
+	manpower=215612
+	buildings_max_level_factor=1.000
+	state_category = town
+}

@@ -1,0 +1,9 @@
+strategic_region={
+	id=268
+	name="Tamaulipas"
+	provinces={
+		1952 2083 4956 5015 5021 12721 13088 13388 13397 13398 
+	}
+	weather={
+	}
+}

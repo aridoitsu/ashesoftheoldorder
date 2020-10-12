@@ -1,0 +1,24 @@
+state={
+	id=815
+	name="Willamette Valley"
+	resources = {
+		chromium = 3.000
+	}
+	history={
+		owner = PRT
+		add_core_of = PRT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			4328 15
+		}
+	}
+	provinces={
+		4328 7398 14079 14083 
+	}
+	manpower=953785
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

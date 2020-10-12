@@ -1,0 +1,9 @@
+strategic_region={
+	id=219
+	name="Belize"
+	provinces={
+		2077 13339 13345 
+	}
+	weather={
+	}
+}

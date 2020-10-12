@@ -1,0 +1,24 @@
+state={
+	id=999
+	name="Kankakee"
+	resources = {
+		oil = 22.000
+	}
+	history = {
+		owner = CGO
+		add_core_of = CGO
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		victory_points = {
+			9682 3
+		}
+	}
+	provinces={
+		1655 4508 7611 9682 10461
+	}
+	manpower=352104
+	buildings_max_level_factor=1.000
+	state_category = city
+}

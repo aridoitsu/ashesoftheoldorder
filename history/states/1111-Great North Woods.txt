@@ -1,0 +1,25 @@
+state={
+	id=1111
+	name="Great Woods"
+	manpower=89545
+	state_category=rural
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = NHN
+	}
+	provinces={
+		10481 14054
+	}
+
+	buildings_max_level_factor=1.000
+}

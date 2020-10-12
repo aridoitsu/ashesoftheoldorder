@@ -1,0 +1,22 @@
+state={
+	id=998
+	name="Wabash"
+	history = {
+		owner = SRF
+		add_core_of = SRF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			12305 3
+		}
+	}
+	provinces={
+		954 1604 7626 7831 12305
+	}
+	manpower=350142
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

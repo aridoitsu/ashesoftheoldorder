@@ -1,0 +1,23 @@
+
+state={
+	id=866
+	name="Kofa"
+
+	history={
+		owner = PNX
+		add_core_of = PNX
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		853 8115 13563 13565 13566 13575 13576 
+	}
+	manpower=75572
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

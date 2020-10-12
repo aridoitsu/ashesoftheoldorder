@@ -1,0 +1,29 @@
+state={
+	id=936
+	name="Dickinson"
+	history={
+		owner = WDC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = WDC
+		add_core_of = SOI
+		victory_points = {
+			14224 8
+		}
+		victory_points = {
+			14205 3
+		}
+		victory_points = {
+			6722 1
+		}
+	}
+	provinces={
+		6722 7877 12566 14161 14162 14205 14224 14262
+	}
+	manpower=124550
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

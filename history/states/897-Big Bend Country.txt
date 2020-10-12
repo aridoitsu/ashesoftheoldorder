@@ -1,0 +1,41 @@
+state={
+	id=897
+	name="Trans-Pecos"
+	resources = {
+		aluminium = 19.000
+		oil = 97.000
+		steel = 11.000
+	}
+	history = {
+		owner = EPS
+		add_core_of = EPS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			10740 15
+		}
+		victory_points = {
+			13474 3
+		}
+		victory_points = {
+			13445 3
+		}
+		victory_points = {
+			5038 1
+		}
+		victory_points = {
+			13471 5
+		}
+		victory_points = {
+			10894 1
+		}
+	}
+	provinces={
+		1954 5038 10740 10894 13445 13471 13474 13488
+	}
+	manpower=524712
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

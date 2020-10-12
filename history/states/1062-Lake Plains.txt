@@ -1,0 +1,20 @@
+state={
+	id=1062
+	name="Sandusky"
+	history = {
+		owner = OHO
+		add_core_of = OHO
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			3685 3
+		}
+	}
+	provinces={
+		659 3685 3872 11791
+	}
+	manpower=301540
+	buildings_max_level_factor=1.000
+	state_category = city
+}

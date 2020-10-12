@@ -1,0 +1,9 @@
+strategic_region={
+	id=282
+	name="Haiti & Dominican Republic"
+	provinces={
+		1594 1635 3721 4598 4641 7632 10484 13347 13352 13353 13354 13355 13356 13358 13361 13363 13371 
+	}
+	weather={
+	}
+}

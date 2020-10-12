@@ -1,0 +1,9 @@
+strategic_region={
+	id=234
+	name="Connecticut & Rhode Island"
+	provinces={
+		6909 9832 9847 9850 11830 13909 13914 13917 13921 13926 13931 13932 13934 
+	}
+	weather={
+	}
+}

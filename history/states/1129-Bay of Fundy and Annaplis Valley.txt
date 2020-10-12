@@ -1,0 +1,18 @@
+state={
+	id=1129
+	name="Bay of Fundy and Annapolis Valley"
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		7304 14068 14076 14080 14086 14097 14119 14126
+	}
+	manpower=273743
+	buildings_max_level_factor=1.000
+	state_category = city
+}

@@ -1,0 +1,28 @@
+state={
+	id=1070
+	name="Washington D.C."
+	manpower = 1568212
+	state_category=megalopolis
+
+	resources={
+		steel = 17.000
+		aluminium=7.000
+	}
+
+	history={
+		owner = EDC
+		buildings = {
+			infrastructure = 10
+			industrial_complex = 6
+			arms_factory = 4
+		}
+		victory_points = {
+			13794 50
+		}
+		add_core_of = EDC
+	}
+	provinces={
+		13794
+	}
+	buildings_max_level_factor=1.000
+}

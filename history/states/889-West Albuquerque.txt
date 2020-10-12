@@ -1,0 +1,24 @@
+state={
+	id=889
+	name="Western Albuquerque"
+	history = {
+		owner = TCN
+		add_core_of = TCN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		victory_points = {
+			13593 1
+		}
+		victory_points = {
+			13610 3
+		}
+	}
+	provinces={
+		13593 13610 13590
+	}
+	manpower=323514
+	buildings_max_level_factor=1.000
+	state_category = city
+}

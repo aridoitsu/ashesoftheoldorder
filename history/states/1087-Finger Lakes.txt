@@ -1,0 +1,27 @@
+state={
+	id=1087
+	name="Rochester"
+	manpower=406981
+	state_category=town
+
+	history = {
+		owner = PEN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			3733 3
+		}
+		victory_points = {
+			3747 5
+		}
+	add_core_of = PEN
+	}
+
+
+	provinces={
+		3702 3733 3747 11650 11680
+	}
+	buildings_max_level_factor=1.000
+}

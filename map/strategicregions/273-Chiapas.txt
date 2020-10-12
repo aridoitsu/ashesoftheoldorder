@@ -1,0 +1,9 @@
+strategic_region={
+	id=273
+	name="Chiapas"
+	provinces={
+		1900 12753 12867 13333 13335 13338 13346 
+	}
+	weather={
+	}
+}

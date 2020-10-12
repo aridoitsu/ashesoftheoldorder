@@ -1,0 +1,216 @@
+factions = {
+  democratic_faction = {
+    icon = generic_form_nation
+
+    allowed = {
+
+    }
+
+    cancel_if_not_visible = yes
+
+    visible = {
+
+    }
+
+    available = {
+      has_government = democratic
+      is_in_faction = no
+    }
+    fixed_random_seed = no
+
+    cost = 10
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 10
+    }
+
+    complete_effect = {
+      if = {
+        limit = {
+          NOT = {
+              has_global_flag = created_democraticfac
+          }
+        }
+        create_faction = democraticfac
+            set_global_flag = created_democraticfac
+            every_neighbor_country = {
+              limit = {
+                has_government = democratic
+                is_in_faction = no
+              }
+              country_event = GEN.2
+            }
+        }
+      else_if = {
+        limit = {
+            has_global_flag = created_democraticfac
+          NOT = {
+              has_global_flag = created_democraticfac1
+          }
+        }
+        create_faction = democraticfac1
+        set_global_flag = created_democraticfac1
+        every_neighbor_country = {
+          limit = {
+            has_government = democratic
+            is_in_faction = no
+          }
+          country_event = GEN.2
+        }
+      }
+      else_if = {
+        limit = {
+          AND = {
+            has_global_flag = created_democraticfac
+            has_global_flag = created_democraticfac1
+          }
+          NOT = {
+            has_global_flag = created_democraticfac2
+          }
+        }
+        create_faction = democraticfac2
+        set_global_flag = created_democraticfac2
+        every_neighbor_country = {
+          limit = {
+            has_government = democratic
+            is_in_faction = no
+          }
+          country_event = GEN.2
+        }
+      }
+      else_if = {
+        limit = {
+          AND = {
+            has_global_flag = created_democraticfac
+            has_global_flag = created_democraticfac1
+            has_global_flag = created_democraticfac2
+          }
+          NOT = {
+              has_global_flag = created_democraticfac3
+          }
+        }
+        create_faction = democraticfac3
+        set_global_flag = created_democraticfac3
+        every_neighbor_country = {
+          limit = {
+            has_government = democratic
+            is_in_faction = no
+          }
+          country_event = GEN.2
+        }
+      }
+      else = {
+        add_political_power = 250
+      }
+    }
+  }
+  communist_faction = {
+    icon = generic_form_nation
+
+    allowed = {
+
+    }
+
+    cancel_if_not_visible = yes
+
+    visible = {
+
+    }
+
+    available = {
+      has_government = communism
+      is_in_faction = no
+    }
+    fixed_random_seed = no
+
+    cost = 10
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 10
+    }
+
+    complete_effect = {
+      if = {
+        limit = {
+          NOT = {
+              has_global_flag = created_communistfac
+          }
+        }
+        create_faction = communistfac
+            set_global_flag = created_communistfac
+            every_neighbor_country = {
+              limit = {
+                has_government = communism
+                is_in_faction = no
+              }
+              country_event = GEN.2
+            }
+        }
+      else_if = {
+        limit = {
+            has_global_flag = created_communistfac
+          NOT = {
+              has_global_flag = created_communistfac1
+          }
+        }
+        create_faction = communistfac1
+        set_global_flag = created_communistfac1
+        every_neighbor_country = {
+          limit = {
+            has_government = communism
+            is_in_faction = no
+          }
+          country_event = GEN.2
+        }
+      }
+      else_if = {
+        limit = {
+          AND = {
+            has_global_flag = created_communistfac
+            has_global_flag = created_communistfac1
+          }
+          NOT = {
+              has_global_flag = created_communistfac2
+          }
+        }
+        create_faction = communistfac2
+        set_global_flag = created_communistfac2
+        every_neighbor_country = {
+          limit = {
+            has_government = communism
+            is_in_faction = no
+          }
+          country_event = GEN.2
+        }
+      }
+      else_if = {
+        limit = {
+          AND = {
+            has_global_flag = created_communistfac
+            has_global_flag = created_communistfac1
+            has_global_flag = created_communistfac2
+          }
+          NOT = {
+              has_global_flag = created_communistfac3
+          }
+        }
+        create_faction = communistfac3
+        set_global_flag = created_communistfac3
+        every_neighbor_country = {
+          limit = {
+            has_government = communism
+            is_in_faction = no
+          }
+          country_event = GEN.2
+        }
+      }
+      else = {
+        add_political_power = 250
+      }
+    }
+  }
+}

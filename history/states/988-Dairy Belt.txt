@@ -1,0 +1,33 @@
+state={
+	id=988
+	name="Dairy Belt"
+	resources={
+		chromium=15.000
+		steel = 25.000
+	}
+	history = {
+		owner = MNM
+		add_core_of = MNM
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			14101 5
+		}
+		victory_points = {
+			9880 1
+		}
+		victory_points = {
+			10719 1
+		}
+		victory_points = {
+			10615 1
+		}
+	}
+	provinces={
+		1866 6752 9880 10618 10719 12693 14101 14104 14202 14207 14264
+	}
+	manpower=20513
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,24 @@
+state={
+	id=883
+	name="Colorado"
+	history={
+		owner = COC
+		add_core_of = COC
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+		victory_points = {
+			13787 5
+		}
+		victory_points = {
+			13766 10
+		}
+	}
+	provinces={
+		3869 6887 13786 13787 13801 13830 13831 13839 13840 13851 13852 13864 13867 13766
+	}
+	manpower=70210
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

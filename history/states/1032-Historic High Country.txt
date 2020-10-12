@@ -1,0 +1,18 @@
+state={
+	id=1032
+	name="Upper New Afrika"
+	history = {
+		owner = NAK
+		add_core_of = NAK
+		add_claim_by = CON
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		968 5090 9996 
+	}
+	manpower=21040
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=373
+	name="Osage Plains"
+	resources={
+		aluminium=12.000
+		oil=4.000
+	}
+
+	history={
+		owner = MOM
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+
+		}
+		add_core_of = MOM
+		victory_points = {
+			4569 10 
+		}
+		victory_points = {
+			10370 1 
+		}
+
+	}
+
+	provinces={
+		1564 12361 13759 
+	}
+	manpower=1029365
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

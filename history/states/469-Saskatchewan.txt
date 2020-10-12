@@ -1,0 +1,36 @@
+
+state={
+	id=469
+	name="Saskatchewan"
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		add_core_of = CAN
+		victory_points = {
+			3498 6 
+		}
+		victory_points = {
+			736 10 
+		}
+		victory_points = {
+			11440 4 
+		}
+
+	}
+
+	provinces={
+		3481 14787 14791 14818 14823 14840 14861 
+	}
+	manpower=1865605
+	buildings_max_level_factor=1.000
+	state_category=town
+}

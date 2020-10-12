@@ -1,0 +1,41 @@
+state={
+	id=375
+	name="Austin"
+	resources={
+		oil=25.000
+		aluminium=50.000
+	}
+
+	history={
+		owner = TEX
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 3
+
+		}
+		add_core_of = TEX
+		victory_points = {
+			13495 10
+		}
+		victory_points = {
+			13504 3
+		}
+		victory_points = {
+			7836 3
+		}
+		victory_points = {
+			13511 1
+		}
+		victory_points = {
+			13508 1
+		}
+	}
+	provinces={
+		7836 13495 13503 13504 13508 13511
+	}
+	manpower=1124712
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

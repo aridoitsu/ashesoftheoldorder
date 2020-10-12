@@ -1,0 +1,31 @@
+state={
+	id=870
+	name="Russel"
+	resources = {
+		tungsten = 11.000
+	}
+	history = {
+		owner = WDC
+		add_core_of = WDC
+		add_core_of = HEL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			14308 3
+		}
+		victory_points = {
+			10593 1
+		}
+		victory_points = {
+			14223 1
+		}
+	}
+	provinces={
+		1857 10593 11712 12572 14218 14219 14223 14275 14308 14326 14346
+	}
+	manpower=125436
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

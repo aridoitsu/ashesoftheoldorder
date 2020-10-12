@@ -1,0 +1,29 @@
+state={
+	id=376
+	name="Navajo Desert"
+	resources={
+		oil=14.000
+		aluminium=30.000
+	}
+
+	history={
+		owner = NVJ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = NVJ
+		victory_points = {
+			13670 5
+		}
+		victory_points = {
+			1972 5
+		}
+	}
+	provinces={
+		1972 10645 12552 13670 13674
+	}
+	manpower=53316
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

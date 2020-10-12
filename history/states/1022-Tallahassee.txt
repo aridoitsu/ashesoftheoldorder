@@ -1,0 +1,34 @@
+state={
+	id=1022
+	name="Tallahassee"
+	history = {
+		owner = CON
+		add_core_of = CON
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			13470 = {
+				naval_base = 7
+			}
+		}
+		victory_points = {
+			13476 15
+		}
+		victory_points = {
+			13477 1
+		}
+		victory_points = {
+			13483 3
+		}
+		victory_points = {
+			13470 1
+		}
+	}
+	provinces={
+		10407 13470 13476 13477 13483 13484
+	}
+	manpower=1021403
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

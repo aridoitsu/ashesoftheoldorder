@@ -1,0 +1,791 @@
+﻿add_namespace = california
+
+# Election Of California
+country_event = {
+    id = california.1
+    title = california.1.t
+    desc = california.1.d
+    picture = GFX_report_event_election_vote
+    is_triggered_only = yes
+
+    option = {
+		name = california.1.a
+		ai_chance = { base = 25 }
+
+      create_country_leader = {
+        name = "James E. Davis"
+          desc = ""
+          picture = "Portrait_CAC_James E Davis.dds"
+          expire = "1965.1.1"
+          ideology = rexism
+			traits = {
+
+            }
+        }
+
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+        }
+
+    add_ideas = { CAC_unstablepolitics }
+    add_ideas = { CAC_unloyalarmy}
+    remove_ideas = { CAC_aloyaldemocraticarmy}
+
+    add_popularity = {
+      ideology = fascism
+      popularity = 0.05
+      }
+
+
+    }
+
+
+    option = {
+		name = california.1.b
+		ai_chance = { base = 50 }
+		add_political_power = 75
+		add_stability = 0.05
+
+		add_ideas = { CAC_republican }
+    }
+
+
+    option = {
+		name = california.1.c
+		ai_chance = { base = 25 }
+		add_stability = -0.10
+		add_political_power = -50
+
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+		}
+
+    add_ideas = { CAC_unstablepolitics }
+    add_ideas = { CAC_unloyalarmy }
+    remove_ideas = { CAC_aloyaldemocraticarmy}
+
+    add_popularity = {
+      ideology = communism
+      popularity = 0.05
+      }
+
+
+		create_country_leader = {
+			name = "Upton Sinclair"
+			desc = ""
+			picture = "Portrait_CAC_Upton_Sinclair.dds"
+			expire = "1965.1.1"
+			ideology = leninism
+
+			traits = {
+			}
+      }
+    }
+  }
+
+############# END OF ELECTIONS EVENT ################
+
+#Fort focus for either arizona and mexico border or nevada and oregon
+country_event = {
+  id = california.2
+  title = california.2.t
+  desc = california.2.d
+  picture = GFX_report_event_bunker_01
+  is_triggered_only = yes
+
+    option = {
+      name = california.2.a
+
+		973 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+      		}
+		}
+    974 = {
+		add_building_construction = {
+			type = bunker
+        level = 3
+        instant_build = yes
+          province = {
+				     all_provinces = yes
+             limit_to_border = yes
+           }
+      }
+    }
+  }
+
+    option = {
+      name = california.2.b
+
+		798 = {
+			add_building_construction = {
+				type = bunker
+                level = 2
+                instant_build = yes
+                province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+			}
+		}
+
+		799 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+                province = {
+                    all_provinces = yes
+                    limit_to_border = yes
+				}
+			}
+		}
+
+		967 = {
+            add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+                province = {
+					all_provinces = yes
+                    limit_to_border = yes
+				}
+			}
+		}
+
+
+		797 = {
+            add_building_construction = {
+                type = bunker
+                level = 2
+                instant_build = yes
+                province = {
+                    all_provinces = yes
+                    limit_to_border = yes
+				}
+			}
+		}
+
+		378 = {
+            add_building_construction = {
+                type = bunker
+                level = 2
+                instant_build = yes
+                province = {
+                    all_provinces = yes
+                    limit_to_border = yes
+				}
+			}
+		}
+
+
+
+    }
+}
+
+
+
+#NCR vs Nevada Event
+#Will allow NCR to declare war on nevada if they go non democratic, if NCR is democratic
+
+country_event = {
+		id = california.3
+		title = california.3.t
+		desc = california.3.d
+		picture = GFX_report_event_generic_panzer_attack
+
+    is_triggered_only = no
+    fire_only_once = yes
+
+  trigger = {
+		tag = CAC
+		has_government = democratic
+    NVN = {
+      exists = yes
+    }
+    OR = {
+  		NVN = {
+    		has_government = fascism
+  		}
+  		NVN = {
+    		has_government = communism
+  		}
+		}
+  }
+
+  mean_time_to_happen = {
+    days = 120
+  }
+
+	option = {
+			name = california.3.a
+
+			declare_war_on = {
+				target = NVN
+				type = annex_everything
+			}
+			add_war_support = 0.1
+		}
+	option = {
+			name = california.3.b
+			add_stability = 0.1
+			add_political_power = 25
+			add_war_support = -0.1
+		}
+}
+#Focus Tree "An Offer To Hawaii" Californian Offer To Hawaii Event
+
+	country_event = {
+		id = california.4
+		title = california.4.t
+		desc = california.4.d
+		picture = GFX_report_event_usa_heavy_cruiser
+
+		is_triggered_only = yes
+
+		option = {
+			name = california.4.a
+			add_political_power = 50
+			add_opinion_modifier = {
+				target = JAP
+				modifier = large_increase
+			}
+		}
+
+		option = {
+			name = california.4.b
+			HIH = {
+				country_event = disunitedstates.6
+			}
+		}
+	}
+
+
+
+#Hawaii Accepts
+	country_event = {
+		id = california.6
+		title = california.6.t
+		desc = california.6.d
+		picture = GFX_report_event_usa_destroyers
+
+		is_triggered_only = yes
+
+		option = {
+			name = california.6.a
+		}
+	}
+
+#Hawaii Refuses
+	country_event = {
+		id = california.5
+		title = california.5.t
+		desc = california.5.d
+		picture = GFX_report_event_usa_destroyers
+
+		is_triggered_only = yes
+
+		option = {
+			name = california.5.a
+		}
+
+
+		option = {
+			name = california.5.b
+			declare_war_on = {
+				target = HIH
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+
+
+
+#Beginning Of PSA
+  country_event = {
+    id = california.7
+    title = california.7.t
+    desc = california.7.d
+    picture = GFX_report_event_us_panay_demands
+
+    is_triggered_only = yes
+
+    option = {
+      name = california.7.a
+      add_political_power = 50
+      add_war_support = 0.05
+    }
+  }
+
+
+#Oregon Meeting for PSA
+  country_event = {
+    id =  california.8
+    title = california.8.t
+    desc = california.8.d
+    picture = GFX_report_event_molotov_ribentrop_handshake
+
+    is_triggered_only = yes
+
+    option = {
+    name = california.8.a
+    add_political_power = -1
+    ORO = {
+      country_event = disunitedstates.7
+    }
+    }
+  }
+
+
+#Oregon Says Yes
+  country_event = {
+    id = california.10
+    title = california.10.t
+    desc = california.10.d
+    picture = GFX_report_event_molotov_ribentrop_handshake
+
+    is_triggered_only = yes
+
+    option = {
+      name = california.10.a
+      add_political_power = 10
+    }
+  }
+
+#Oregon Refuses
+  country_event = {
+    id = california.11
+    title = california.11.t
+    desc = california.11.d
+    picture = GFX_report_event_molotov_ribentrop_handshake
+
+    is_triggered_only = yes
+
+    option = {
+      name = california.11.a
+      create_wargoal = {
+      type = annex_everything
+      target = ORO
+        }
+    }
+
+    option = {
+      name = california.11.b
+      add_political_power = -50
+    }
+  }
+
+#Washington Meeting for PSA
+country_event = {
+  id = california.9
+  title = california.9.t
+  desc = california.9.d
+  picture = GFX_report_event_molotov_ribentrop_handshake
+
+  is_triggered_only = yes
+
+  option = {
+  name = california.9.a
+  WAW = {
+    country_event = disunitedstates.8
+  }
+  }
+}
+
+#Washington Accepts
+  country_event = {
+    id = california.12
+    title = california.12.t
+    desc = california.12.d
+    picture = GFX_report_event_molotov_ribentrop_handshake
+
+    is_triggered_only = yes
+
+    option = {
+      name = california.12.a
+      add_political_power = 10
+    }
+  }
+
+
+#Washington Refuses
+  country_event = {
+    id = california.13
+    title = california.13.t
+    desc = california.13.d
+    picture = GFX_report_event_molotov_ribentrop_handshake
+
+    is_triggered_only = yes
+
+    option = {
+      name = california.13.a
+      create_wargoal = {
+      type = annex_everything
+      target = WAW
+        }
+    }
+
+    option = {
+      name = california.13.b
+      add_political_power = -50
+    }
+  }
+
+#Give The Police More Power
+  country_event = {
+    id = california.14
+    title = california.14.t
+    desc = california.14.d
+    picture = GFX_report_event_degaulle_inspect_troops
+
+    is_triggered_only = yes
+
+    option = {
+      name = california.14.a
+      add_ideas = CAC_policeforceempowered
+      set_technology = {
+        motorised_infantry = 1
+      }
+      load_oob = "CAC_Police_Units"
+    }
+  }
+
+#Army Debate
+  country_event = {
+    id = california.16
+    title = california.16.t
+    desc = california.16.d
+    picture = GFX_report_event_generic_military_parade
+
+    is_triggered_only = yes
+
+    option = {
+      name = california.16.a
+      custom_effect_tooltip = lloydsway
+      set_country_flag = lloydsway
+    }
+    option = {
+      name = california.16.b
+      custom_effect_tooltip = pattonsway
+      set_country_flag = pattonsway
+    }
+  }
+
+
+
+#Alaska PSA offer
+  country_event = {
+    id = california.19
+    title = california.19.t
+    desc = california.19.d
+    picture = GFX_report_event_molotov_ribentrop_handshake
+
+    is_triggered_only = yes
+
+    option = {
+      name = california.19.a
+      AKA = {
+        country_event = disunitedstates.13
+      }
+    }
+  }
+
+  #Alaska accepts!
+  country_event = {
+    id = california.20
+    title = california.20.t
+    desc = california.20.d
+    picture = GFX_report_event_molotov_ribentrop_handshake
+
+    is_triggered_only = yes
+
+    option = {
+      name = california.20.a
+      add_political_power = 10
+    }
+  }
+
+  #Alaska declines!
+  country_event = {
+    id = california.21
+    title = california.21.t
+    desc = california.21.d
+    picture = GFX_report_event_molotov_ribentrop_handshake
+
+    is_triggered_only = yes
+
+    option = {
+      name = california.21.a
+      create_wargoal = {
+      type = annex_everything
+      target = AKA
+        }
+    }
+
+    option = {
+      name = california.21.b
+      add_political_power = -50
+    }
+  }
+
+
+#California Army Option Communist
+country_event = {
+  id = california.18
+  title = california.18.t
+  desc = california.18.d
+  picture = GFX_report_event_generic_military_parade
+
+  is_triggered_only = yes
+  fire_only_once = yes
+
+  option = {
+      name = california.18.a
+      hidden_effect = {
+        set_country_flag = CAC_citizenshipbyservice
+      }
+  }
+  option = {
+      name = california.18.b
+      hidden_effect = {
+        set_country_flag = CAC_aworkersarmytooltip
+      }
+  }
+}
+
+#California communist spy
+
+country_event = {
+  id = california.22
+  title = california.22.t
+  desc = california.22.d
+  picture = GFX_report_event_generic_military_parade
+
+  is_triggered_only = yes
+  fire_only_once = yes
+
+  option = {
+      name = california.22.a
+      hidden_effect = {
+        set_country_flag = CAC_militapartisans
+      }
+  }
+  option = {
+      name = california.22.b
+      hidden_effect = {
+        set_country_flag = CAC_communistspys
+      }
+  }
+}
+#Invite Arizona
+country_event = {
+  id = california.23
+  title = california.23.t
+  desc = california.23.d
+  picture = GFX_report_event_worried_french
+
+  is_triggered_only = yes
+
+  option = { #Country Accepts
+    name = california.23.a
+    ai_chance = {
+      factor = 30
+      modifier = {
+        factor = 40
+        has_government = communism
+      }
+      modifier = {
+        factor = 30
+        strength_ratio = {
+          tag = FROM ratio > 0.5
+        }
+      }
+    }
+    CAC = {
+      country_event = california.24
+      add_to_faction = AZA
+    }
+  }
+
+  option = { #Country Refuses
+    name = california.23.b
+    ai_chance = {
+      factor = 70
+      modifier = {
+        factor = 30
+        has_government = fascism
+      }
+    }
+    CAC = { country_event = california.25 }
+  }
+}
+country_event = {
+  id = california.24
+  title = california.24.t
+  desc = california.24.d
+  picture = GFX_report_event_pla_in_beijing
+
+  is_triggered_only = yes
+
+  option = {
+    name = california.24.a
+  }
+}
+country_event = {
+  id = california.25
+  title = california.25.t
+  desc = california.25.d
+  picture = GFX_report_event_finnish_letter
+
+  is_triggered_only = yes
+
+  option = {
+    name = california.25.a
+    create_wargoal = {
+      type = puppet_wargoal_focus
+      target = AZA
+    }
+  }
+}
+#Invite Nevada
+country_event = {
+  id = california.26
+  title = california.26.t
+  desc = california.26.d
+  picture = GFX_report_event_worried_french
+
+  is_triggered_only = yes
+
+  option = { #Country Accepts
+    name = california.26.a
+    ai_chance = {
+      factor = 30
+      modifier = {
+        factor = 40
+        has_government = communism
+      }
+      modifier = {
+        factor = 30
+        strength_ratio = {
+          tag = FROM ratio > 0.5
+        }
+      }
+    }
+    CAC = {
+      country_event = california.27
+      add_to_faction = NVN
+    }
+  }
+
+  option = { #Country Refuses
+    name = california.26.b
+    ai_chance = {
+      factor = 70
+    }
+    CAC = { country_event = california.28 }
+  }
+}
+country_event = {
+  id = california.27
+  title = california.27.t
+  desc = california.27.d
+  picture = GFX_report_event_pla_in_beijing
+
+  is_triggered_only = yes
+
+  option = {
+    name = california.27.a
+  }
+}
+country_event = {
+  id = california.28
+  title = california.28.t
+  desc = california.28.d
+  picture = GFX_report_event_finnish_letter
+
+  is_triggered_only = yes
+
+  option = {
+    name = california.28.a
+    create_wargoal = {
+      type = puppet_wargoal_focus
+      target = NVN
+    }
+  }
+}
+#Invite Oregon
+country_event = {
+  id = california.29
+  title = california.29.t
+  desc = california.29.d
+  picture = GFX_report_event_worried_french
+
+  is_triggered_only = yes
+
+  option = { #Country Accepts
+    name = california.29.a
+    ai_chance = {
+      factor = 30
+      modifier = {
+        factor = 40
+        has_government = communism
+      }
+      modifier = {
+        factor = 30
+        strength_ratio = {
+          tag = FROM ratio > 0.5
+        }
+      }
+    }
+    CAC = {
+      country_event = california.30
+      add_to_faction = ORO
+    }
+  }
+
+  option = { #Country Refuses
+    name = california.29.b
+    ai_chance = {
+      factor = 70
+    }
+    CAC = { country_event = california.31 }
+  }
+}
+country_event = {
+  id = california.30
+  title = california.30.t
+  desc = california.30.d
+  picture = GFX_report_event_pla_in_beijing
+
+  is_triggered_only = yes
+
+  option = {
+    name = california.30.a
+  }
+}
+country_event = {
+  id = california.31
+  title = california.31.t
+  desc = california.31.d
+  picture = GFX_report_event_finnish_letter
+
+  is_triggered_only = yes
+
+  option = {
+    name = california.31.a
+    create_wargoal = {
+      type = puppet_wargoal_focus
+      target = ORO
+      }
+    }
+
+  }

@@ -1,0 +1,429 @@
+spriteTypes = {
+
+
+
+#Virginia
+	spriteType = {
+		name = "GFX_idea_VAV_idea_eboom"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VAV_idea_fully_developed_roads"
+		texturefile = "gfx/interface/ideas/idea_generic_build_infrastructure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VAV_idea_navy_discount"
+		texturefile = "gfx/interface/ideas/liberty_ships_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VAV_idea_expand_industry"
+		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VAV_idea_brokenecon"
+		texturefile = "gfx/interface/ideas/idea_usa_great_depression_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VAV_idea_industrial_powerhouse"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VAV_idea_pentagon"
+		texturefile = "gfx/interface/ideas/idea_generic_army_war_college.dds"
+	}
+
+
+#New York
+	spriteType = {
+		name = "GFX_idea_NYN_idea_wintersoldiers"
+		texturefile = "gfx/interface/ideas/idea_eng_imperial_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NYN_idea_navyboost"
+		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NYN_idea_prepareforwar"
+		texturefile = "gfx/interface/ideas/idea_generic_communist_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NYN_idea_sovietacademy"
+		texturefile = "gfx/interface/ideas/idea_generic_army_war_college.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NYN_idea_socalistscience"
+		texturefile = "gfx/interface/ideas/GFX_idea_generic_research_bonus"
+	}
+
+
+#Flordia
+	spriteType = {
+		name = "GFX_idea_FLF_welfare_Program_idea"
+		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Reignite_the_Republic"
+		texturefile = "gfx/interface/ideas/GFX_NewRepublic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Restoration_Projects"
+		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Open_Borders"
+		texturefile = "gfx/interface/ideas/idea_prc_the_long_march2.dds"
+	}
+	spriteType = {
+		name = "GFX_FLF_South_Pride"
+		texturefile = "gfx/interface/ideas/idea_send_attache.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Working_Incentives"
+		texturefile = "gfx/interface/ideas/idea_send_attache.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Slavery_Again"
+		texturefile = "gfx/interface/ideas/GFX_FLF_Slavery_Again.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Left_War_Plans"
+		texturefile = "gfx/interface/ideas/idea_generic_communist_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Expanding_Influence"
+		texturefile = "gfx/interface/ideas/idea_generic_constitutional_guarantee.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Old_Tactics"
+		texturefile = "gfx/interface/ideas/idea_hun_secret_rearmament.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Purged_Radicals"
+		texturefile = "gfx/interface/ideas/trotskyite_plot_purged.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_New_Tactics"
+		texturefile = "gfx/interface/ideas/idea_hun_secret_rearmament.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Trench_Foot"
+		texturefile = "gfx/interface/ideas/idea_ast_all_in.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Killing_Machines"
+		texturefile = "gfx/interface/ideas/idea_chi_army_corruption3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Moral_Boost"
+		texturefile = "gfx/interface/ideas/FRA_national_mobilization_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Offensive_Approach"
+		texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_South_Pride"
+		texturefile = "gfx/interface/ideas/FLF_South_Pride.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_MonopoliesBanned"
+		texturefile = "gfx/interface/ideas/FLF_MonopoliesBanned.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_Monopolies_Allowed"
+		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FLF_MilitaryStrong"
+		texturefile = "gfx/interface/ideas/idea_war_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_FLF_UnionsPleased"
+		texturefile = "gfx/interface/ideas/new_deal.dds"
+	}
+	spriteType = {
+		name = "GFX_FLF_IntegratedEconomyIdea"
+		texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"
+	}
+
+
+#Kansas
+	spriteType = {
+		name = "GFX_idea_KSK_realpolitik"
+		texturefile = "gfx/interface/ideas/idea_chi_wargaming_division.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_beacon"
+		texturefile = "gfx/interface/ideas/generic_democratic_drift_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_integration"
+		texturefile = "gfx/interface/ideas/idea_usa_desegregation_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_commissars"
+		texturefile = "gfx/interface/ideas/nkvd_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_defense"
+		texturefile = "gfx/interface/ideas/idea_generic_communist_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_five_year_plan"
+		texturefile = "gfx/interface/ideas/idea_man_five_year_plan_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_finished_five_year_plan"
+		texturefile = "gfx/interface/ideas/idea_eng_spirit_of_the_industrial_revolution.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_legionaires_integrated"
+		texturefile = "gfx/interface/ideas/generic_infantry_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_police"
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_boy_scouts"
+		texturefile = "gfx/interface/ideas/idea_generic_reserve_divisions.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_bund"
+		texturefile = "gfx/interface/ideas/idea_general_staff.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_war_readiness"
+		texturefile = "gfx/interface/ideas/idea_generic_central_management.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_corporations"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_capital.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_spiritual_awakening"
+		texturefile = "gfx/interface/ideas/idea_MEX_church_power_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KSK_spiritual_fanaticism"
+		texturefile = "gfx/interface/ideas/idea_MEX_church_power_5.dds"
+	}
+
+
+#California
+	spriteType = {
+		name = "GFX_idea_CAC_republican"
+		texturefile = "gfx/interface/ideas/CAC_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAC_newlyformedarmedforces"
+		texturefile = "gfx/interface/ideas/CAC_newlyformedarmedforces.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAC_lesscorptaxidea"
+		texturefile = "gfx/interface/ideas/CAC_lesscorptaxidea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAC_local_security"
+		texturefile = "gfx/interface/ideas/CAC_local_securitypsd.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAC_die_for_the_bear"
+		texturefile = "gfx/interface/ideas/CAC_die_for_the_bear.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAC_flag"
+		texturefile = "gfx/interface/ideas/CAC_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAC_Rev"
+		texturefile = "gfx/interface/ideas/CAC_Rev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAC_burning"
+		texturefile = "gfx/interface/ideas/CAC_burning.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAC_broken_gun"
+		texturefile = "gfx/interface/ideas/CAC_broken_gun.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAC_dust_bowl_migration"
+		texturefile = "gfx/interface/ideas/CAC_dust_bowl_migration.dds"
+	}
+
+#Ohio
+	spriteType = {
+		name = "GFX_idea_worse_depression"
+		texturefile = "gfx/interface/ideas/worse_depression.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_agricultural_industry"
+		texturefile = "gfx/interface/ideas/largeagriculture.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_agricultural__industry"
+		texturefile = "gfx/interface/ideas/largeagriculture.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO_ford"
+		texturefile = "gfx/interface/ideas/henry_ford.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO_natsj"
+		texturefile = "gfx/interface/ideas/OHO_natsj.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO_antisemeticviews"
+		texturefile = "gfx/interface/ideas/OHO_antisemeticviews.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO_shiftextremeright"
+		texturefile = "gfx/interface/ideas/OHO_shiftextremeright.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO_coughlinbroadcasts"
+		texturefile = "gfx/interface/ideas/OHO_coughlinbroadcasts.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO_isolationism"
+		texturefile = "gfx/interface/ideas/OHO_isolationism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO__isolationism"
+		texturefile = "gfx/interface/ideas/OHO_isolationism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO_fpbolton"
+		texturefile = "gfx/interface/ideas/OHO_fpbolton.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO_haroldburton"
+		texturefile = "gfx/interface/ideas/OHO_haroldburton.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO_jamescox"
+		texturefile = "gfx/interface/ideas/OHO_jamescox.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OHO_roberttaft"
+		texturefile = "gfx/interface/ideas/OHO_roberttaft.dds"
+	}
+
+#Washington
+	spriteType = {
+		name = "GFX_WAW_resist_the_bear_idea"
+		texturefile = "gfx/interface/ideas/OHO_isolationism.dds"
+	}
+	spriteType = {
+		name = "GFX_WAW_idea_local_security"
+		texturefile = "gfx/interface/ideas/CAC_local_securitypsd.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAW_crippled_economy"
+		texturefile = "gfx/interface/ideas/WAW_idea_crippled_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAW_emigrating_workforce"
+		texturefile = "gfx/interface/ideas/WAW_emigrating_workforce.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAW_industrial_reforms"
+		texturefile = "gfx/interface/ideas/WAW_industrial_reforms.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAW_trade_reforms"
+		texturefile = "gfx/interface/ideas/WAW_trade_reforms.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAW_unfunded_military"
+		texturefile = "gfx/interface/ideas/WAW_unfunded_military.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAW_boeing"
+		texturefile = "gfx/interface/ideas/WAW_boeing.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAW_female_pilots"
+		texturefile = "gfx/interface/ideas/WAW_female_pilots.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAW_power_factories"
+		texturefile = "gfx/interface/ideas/WAW_power_factories.dds"
+	}
+
+	#Utah
+	spriteType = {
+		name = "GFX_idea_UTU_mormonchurch"
+		texturefile = "gfx/interface/ideas/UTU_mormonchurch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UTU_turntochurch"
+		texturefile = "gfx/interface/ideas/UTU_turntochurch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UTU_churchschool"
+		texturefile = "gfx/interface/ideas/UTU_churchschool.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UTU_educationreform"
+		texturefile = "gfx/interface/ideas/UTU_educationreform.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UTU_antichurch"
+		texturefile = "gfx/interface/ideas/UTU_antichurch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_democratdonkey"
+		texturefile = "gfx/interface/ideas/democratdonkey.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UTU_economicboom"
+		texturefile = "gfx/interface/ideas/UTU_economicboom.dds"
+	}
+
+
+
+
+#Unmarked/Generic
+	spriteType = {
+		name = "GFX_idea_thetredegarironworks"
+		texturefile = "gfx/interface/ideas/idea_generic_artillery_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_norfolknavalyard"
+		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kenneth_spencer"
+		texturefile = "gfx/interface/ideas/idea_kenneth_spencer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_robert_bobbitt"
+		texturefile = "gfx/interface/ideas/idea_robert_bobbitt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_harry_darby"
+		texturefile = "gfx/interface/ideas/idea_harry_darby.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_arthur_capper"
+		texturefile = "gfx/interface/ideas/idea_arthur_capper.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ALL_idea_fascist"
+		texturefile = "gfx/interface/ideas/generic_fascism_drift_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ALL_idea_communist"
+		texturefile = "gfx/interface/ideas/generic_communism_drift_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ALL_idea_democratic"
+		texturefile = "gfx/interface/ideas/generic_democratic_drift_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_walt_disney"
+		texturefile = "gfx/interface/ideas/idea_CAC_walt_disney.dds"
+	}
+}

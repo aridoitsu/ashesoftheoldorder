@@ -1,0 +1,19 @@
+state={
+	id=925
+	name="Sand Hills"
+	history = {
+		owner = WDC
+		add_core_of = WDC
+		add_core_of = NEB
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+	}
+	provinces={
+		7840 12516 
+	}
+	manpower=34029
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

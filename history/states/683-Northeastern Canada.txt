@@ -1,0 +1,29 @@
+
+state={
+	id=683
+	name="Nunavut"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = CAN
+		victory_points = {
+			7813 20
+		}
+	}
+
+	provinces={
+		1712 7813 3691
+	}
+	manpower=446135
+	buildings_max_level_factor=1.000
+	state_category=town
+}

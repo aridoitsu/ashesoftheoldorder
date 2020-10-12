@@ -1,0 +1,28 @@
+state={
+	id=979
+	name="Paleozoic"
+	resources = {
+		steel = 29.000
+	}
+	history={
+		owner = DMO
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			9910 3
+		}
+		victory_points = {
+			10478 3
+		}
+		add_core_of = DMO
+	}
+	provinces={
+		1831 9910 10478
+	}
+	manpower=45213
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

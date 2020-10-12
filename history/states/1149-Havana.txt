@@ -1,0 +1,21 @@
+state={
+	id=1149
+	name="Havana"
+	resources = {
+		steel = 112.000
+	}
+	history = {
+		owner = CUB
+		add_core_of = CUB
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	provinces={
+		4600 7622 10498 13391 13392 13393 
+	}
+	manpower=1423151
+	buildings_max_level_factor=1.000
+	state_category = large_city 
+}

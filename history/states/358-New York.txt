@@ -1,0 +1,28 @@
+
+state={
+	id=358
+	name="Upstate"
+	resources={
+		steel=13.000
+	}
+
+	history={
+		owner = NYN
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 10
+
+		}
+		add_core_of = NYN
+
+	}
+
+	provinces={
+		1436 6717 9708 9721
+	}
+	manpower=2088061
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

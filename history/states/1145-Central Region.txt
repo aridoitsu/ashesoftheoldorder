@@ -1,0 +1,17 @@
+state={
+	id=1145
+	name="Central Region"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		7758 12680 14261 14312 14315 14322 14338 14354 14358 14362 14382 14386 14396 14406 14419 14423 14469 
+	}
+	manpower=85324
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

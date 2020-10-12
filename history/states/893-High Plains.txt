@@ -1,0 +1,25 @@
+state={
+	id=893
+	name="Dry Plains"
+	history={
+		owner = SFE
+		add_core_of = SFE
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+		}
+		victory_points = {
+			13605 3
+		}
+		victory_points = {
+			13604 1
+		}
+	}
+
+	provinces={
+		2102 10642 12684 13604 13605 13639 13677 13691
+	}
+	manpower=623316
+	buildings_max_level_factor=1.000
+	state_category = town
+}

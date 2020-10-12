@@ -1,0 +1,27 @@
+
+state={
+	id=467
+	name="Manitoba"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			4872 20
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		4790 4872 12688 14460 14461 14487 14495 14521 14537 14569 14604
+	}
+	manpower=951071
+	buildings_max_level_factor=1.000
+	state_category=city
+}

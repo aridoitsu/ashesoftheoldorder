@@ -1,0 +1,18 @@
+state={
+	id=843
+	name="Red Deer"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		10684 14545 14601 14602 14632 14664 14675 14717 14732 
+	}
+	manpower=91254
+	buildings_max_level_factor=1.000
+	state_category = town
+}

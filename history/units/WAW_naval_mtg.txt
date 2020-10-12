@@ -1,0 +1,28 @@
+units = {
+  fleet = {
+    name = "Washington Coast Guard"
+    naval_base = 7315
+    task_force = {
+      name = "Coast Guard Fleet I"
+      location = 7315
+      ship = { name = "WSS Olympia" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = WAW version_name = "Olympia Class I" } } }
+      ship = { name = "WSS La Push" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = WAW version_name = "Olympia Class I" } } }
+      ship = { name = "WSS Seattle" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WAW version_name = "Seattle Class I" } } }
+      ship = { name = "WSS Tacoma" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WAW version_name = "Seattle Class I" } } }
+      ship = { name = "WSS Purdy" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WAW version_name = "Seattle Class I" } } }
+      ship = { name = "WSS Kent" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Yakima" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Castle Rock" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Richland" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Walla" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Colville" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Richardson" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Nicholas" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Scott" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Dailey" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Thomas" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Ryan" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+      ship = { name = "WSS Cameron" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = WAW version_name = "Kent Class I" } } }
+    }
+  }
+}

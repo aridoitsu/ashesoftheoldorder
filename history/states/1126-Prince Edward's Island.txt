@@ -1,0 +1,23 @@
+state={
+	id=1126
+	name="Prince Edward's Island"
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
+		}
+		victory_points = {
+			14185 15
+		}
+	}
+	provinces={
+		4360 14183 14185 14194 14195 14217
+	}
+	manpower=248721
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

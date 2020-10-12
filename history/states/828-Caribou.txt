@@ -1,0 +1,17 @@
+state={
+	id=828
+	name="Caribou"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1323 1411 1737 4870 7761 10273 10644 12571 14643 14683 14700 14765 14773 14777 14778 14853 14868 14871 14877 14900 14948 14995 15009 15010 15047 15055 15088 15118 15123 
+	}
+	manpower=21342
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

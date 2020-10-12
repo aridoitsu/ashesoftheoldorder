@@ -1,0 +1,32 @@
+
+state={
+	id=390
+	name="South Dakota"
+	resources={
+		steel=20.000
+	}
+
+	history={
+		owner = DAK
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = DAK
+		victory_points = {
+			10595 10
+		}
+		victory_points = {
+			14036 3
+		}
+		victory_points = {
+			14074 3
+		}
+	}
+	provinces={
+		4880 10595 12667 13970 14036 14074 14093
+	}
+	manpower=692849
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

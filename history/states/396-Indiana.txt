@@ -1,0 +1,29 @@
+
+state={
+	id=396
+	name="Northern Indiana"
+	resources={
+		steel=15.000
+	}
+
+	history={
+		owner = INI
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+
+		}
+		add_core_of = INI
+		victory_points = {
+			9654 1
+		}
+
+	}
+
+	provinces={
+		870 9653 9654 11637
+	}
+	manpower=2038501
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,104 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Utahn Ground Units"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "Utahn National Guard"  	# Standard formation for NG divisions through late 1940
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "Pioneer Units"  		# 1st Cavalry Division only
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+	}
+}
+division_template = {
+	name = "Wasatch Brigade"  		# used for island defense (older equipment, lower experience)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	### 1st Army -- note: Armies only paper organizations in 1936 ###
+	# I Army Corps #
+	division = {
+		name = "1st Utahn National Guard"
+		location = 4865
+		division_template = "Utahn National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "2nd Utahn National Guard"
+		location = 12699
+		division_template = "Utahn National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		name = "3rd Utahn National Guard"
+		location = 1756
+		division_template = "Utahn National Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "1st Pioneer Division"
+		location = 10582
+		division_template = "Pioneer Units"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}

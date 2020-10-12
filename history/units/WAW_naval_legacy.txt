@@ -1,0 +1,27 @@
+units = {
+  fleet = {
+    name = "Washington Coast Guard"
+    naval_base = 7315
+    task_force = {
+      location = 7315
+		  ship = { name = "WSS Olympia" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.15 equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS La Push" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Seattle" definition = light_cruiser start_experience_factor = 0.15 equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Tacoma" definition = light_cruiser start_experience_factor = 0.15 equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Purdy" definition = light_cruiser start_experience_factor = 0.15 equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Kent" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Yakima" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Castle Rock" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Richland" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Walla" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Colville" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Richardson" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Nicholas" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Scott" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Dailey" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Thomas" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Ryan" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		  ship = { name = "WSS Cameron" definition = destroyer start_experience_factor = 0.15 equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+    }
+  }
+}

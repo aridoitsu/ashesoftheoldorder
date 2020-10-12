@@ -1,0 +1,20 @@
+state={
+	id=1079
+	name="Rehoboth"
+	manpower = 149008
+	state_category = rural
+
+	history = {
+		Owner = DEL
+		buildings = {
+		infrastructure = 2
+		industrial_complex = 1
+		}
+		add_core_of = DEL
+	}
+
+	provinces={
+		9786
+	}
+	buildings_max_level_factor=1.000
+}

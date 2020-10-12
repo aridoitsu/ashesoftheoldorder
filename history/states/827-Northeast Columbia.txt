@@ -1,0 +1,17 @@
+state={
+	id=827
+	name="Northeast Columbia"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		917 1872 4678 12508 15172 15197 15227 15232 15242 15259 15269 15302 15330 15364 15365 15377 15389 15409 15415 15449 15450 15461 15464 15468 15469 15472 15510 
+	}
+	manpower=21042
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

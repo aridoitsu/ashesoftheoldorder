@@ -1,0 +1,33 @@
+
+state={
+	id=277
+	name="Mexico City"
+	resources={
+		steel=16.000
+		oil=10.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			2011 20
+		}
+
+	}
+
+	provinces={
+		1965 2008 2011 7913 12755 13357 13359 13362 13366 13367 13369 13372 13373 13377 13381 13385 
+	}
+	manpower=1424403
+	buildings_max_level_factor=1.000
+	state_category=city
+}

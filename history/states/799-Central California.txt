@@ -1,0 +1,32 @@
+state={
+	id=799
+	name="Central Valley"
+	resources={
+		oil=10.000
+		aluminium=11.000
+		steel=16.000
+	}
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 1
+		}
+		victory_points = {
+			1601 1
+		}
+		victory_points = {
+			4607 10
+		}
+		add_core_of = CAL
+	}
+
+	provinces={
+		710 1601 6694 6699 6876 13709 13765 4607 13761
+	}
+	manpower=677248
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

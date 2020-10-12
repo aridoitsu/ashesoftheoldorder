@@ -1,0 +1,27 @@
+state={
+	id=1051
+	name="Bluridge"
+	resources = {
+		chromium = 6.000
+	}
+	history = {
+		owner = VAV
+		add_core_of = VAV
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+		}
+		victory_points = {
+			9931 1
+		}
+		victory_points = {
+			10412 1
+		}
+	}
+	provinces={
+		3925 10412 11841 9931
+	}
+	manpower=315410
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=872
+	name="Helena"
+	resources={
+		chromium= 5.000
+		tungsten=11.000
+		steel=15.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = WDC
+		add_core_of = WDC
+		add_core_of = HEL
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		victory_points = {
+			14250 15
+		}
+		victory_points = {
+			14213 3
+		}
+		victory_points = {
+			14212 5
+		}
+		victory_points = {
+			14249 3
+		}
+		victory_points = {
+			14274 1
+		}
+	}
+	provinces={
+		4860 14212 14213 14249 14250 14274
+	}
+	manpower=1037605
+	buildings_max_level_factor=1.000
+	state_category = city
+}

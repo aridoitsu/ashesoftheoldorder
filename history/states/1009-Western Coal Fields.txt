@@ -1,0 +1,21 @@
+state={
+	id=1009
+	name="Owensboro"
+	history = {
+		owner = NSH
+		add_core_of = NSH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			10727 3
+		}
+	}
+	provinces={
+		4402 6974 10727
+	}
+	manpower=102345
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

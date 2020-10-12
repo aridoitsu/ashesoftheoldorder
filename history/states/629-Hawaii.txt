@@ -1,0 +1,32 @@
+
+state={
+	id=629
+	name="Hawaii"
+
+	history={
+		owner = UPI
+		add_core_of = HIH
+		add_core_of = UPI
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+			10048 = {
+				naval_base = 7
+			}
+		}
+		victory_points = {
+			4180 15 
+		}
+		victory_points = {
+			12021 3 
+		}
+
+	}
+
+	provinces={
+		10048 12021 
+	}
+	manpower=368336
+	buildings_max_level_factor=1.000
+	state_category=town
+}

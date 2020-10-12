@@ -1,0 +1,47 @@
+state={
+	id=895
+	name="Dallas"
+	history={
+		owner = TEX
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			air_base = 3
+			arms_factory = 2
+		}
+		add_core_of = TEX
+		victory_points = {
+			13535 20
+		}
+		victory_points = {
+			13538 10
+		}
+		victory_points = {
+			13539 5
+		}
+		victory_points = {
+			13529 1
+		}
+		victory_points = {
+			3960 1
+		}
+		victory_points = {
+			13555 1
+		}
+		victory_points = {
+			13544 3
+		}
+		victory_points = {
+			9920 3
+		}
+		victory_points = {
+			13551 1
+		}
+	}
+	provinces={
+		3960 9920 13529 13535 13538 13539 13544 13551 13555
+	}
+	manpower= 3457890
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

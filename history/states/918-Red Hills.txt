@@ -1,0 +1,18 @@
+state={
+	id=918
+	name="Red Hills"
+	history = {
+		owner = OKC
+		add_core_of = OKC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		4740 10340 13715 13721 
+	}
+	manpower=62524
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

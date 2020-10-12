@@ -1,0 +1,18 @@
+state={
+	id=920
+	name="River Lowlands"
+	history = {
+		owner = WDC
+		add_core_of = WDC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		13708 13714 13725 
+	}
+	manpower=880998
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

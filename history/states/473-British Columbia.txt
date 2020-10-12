@@ -1,0 +1,46 @@
+
+state={
+	id=473
+	name="South British Columbia"
+	resources={
+		oil=1.000
+		chromium=6.000
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 3
+			1408 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = CAN
+		victory_points = {
+			1408 15 
+		}
+		victory_points = {
+			7853 5 
+		}
+		victory_points = {
+			7820 4 
+		}
+		victory_points = {
+			4877 4 
+		}
+
+	}
+
+	provinces={
+		4343 4877 7677 14444 14445 14492 14518 14536 14581 14593 14629 14658 14684 14701 14766 
+	}
+	manpower=438165
+	buildings_max_level_factor=1.000
+	state_category=city
+}

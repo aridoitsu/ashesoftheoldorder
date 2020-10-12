@@ -1,0 +1,18 @@
+state={
+	id=940
+	name="Cypress"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+	}
+	provinces={
+	 3769 10552 14447 14448 14449 14483 14499 14514 14568 14617 
+	}
+	manpower=80214
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

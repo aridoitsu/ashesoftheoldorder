@@ -1,0 +1,21 @@
+state={
+	id=844
+	name="North Alberta"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			14896 20
+		}
+	}
+	provinces={
+		515 3706 4765 6726 7787 14562 14630 14631 14693 14707 14731 14756 14771 14774 14779 14817 14839 14847 14854 14858 14878 14896 14905 14914 14929 
+	}
+	manpower=142510
+	buildings_max_level_factor=1.000
+	state_category = town
+}

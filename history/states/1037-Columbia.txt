@@ -1,0 +1,34 @@
+state={
+	id=1037
+	name="Columbia"
+	history = {
+		owner = CRN
+		add_core_of = CRN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			13591 10
+		}
+		victory_points = {
+			13587 3
+		}
+		victory_points = {
+			4491 3
+		}
+		victory_points = {
+			13579 1
+		}
+		victory_points = {
+			13602 1
+		}
+	}
+	provinces={
+		13578 13579 13587 13591 13602 4491
+	}
+	manpower=531431
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

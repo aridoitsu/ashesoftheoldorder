@@ -1,0 +1,24 @@
+state={
+	id=1000
+	name="Memphis"
+	history = {
+		owner = MIS
+		add_core_of = MIS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			10615 5
+		}
+		victory_points = {
+			7797 15
+		}
+	}
+	provinces={
+		1987 7615 7797 10615
+	}
+	manpower=102540
+	buildings_max_level_factor=1.000
+	state_category = town
+}

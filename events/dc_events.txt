@@ -1,0 +1,203 @@
+add_namespace = dc
+
+# Preamble
+country_event = {
+  id = dc.1
+  title = dc.1.t
+  desc = dc.1.d
+  picture = GFX_DCD_constitution
+
+  is_triggered_only = yes
+
+  option = {
+    name = dc.1.a
+    ai_chance = { factor = 33 }
+    add_ideas = { DC_preambled }
+    country_event = dc.2
+  }
+  option = {
+    name = dc.1.b
+    ai_chance = { factor = 33 }
+    add_ideas = { DC_preamblec }
+    country_event = dc.2
+  }
+  option = {
+    name = dc.1.c
+    ai_chance = { factor = 33 }
+    add_ideas = { DC_preamblef }
+    country_event = dc.2
+  }
+}
+
+# 1st Amendment
+country_event = {
+  id = dc.2
+  title = dc.2.t
+  desc = dc.2.d
+  picture = GFX_report_event_iww_demonstration
+
+  is_triggered_only = yes
+
+  option = {
+    name = dc.2.a
+    ai_chance = { factor = 33 }
+    add_stability = 0.1
+    country_event = dc.3
+  }
+  option = {
+    name = dc.2.b
+    ai_chance = { factor = 33 }
+    add_ideas = { DC_firstc }
+    country_event = dc.3
+  }
+  option = {
+    name = dc.2.c
+    ai_chance = { factor = 33 }
+    add_ideas = { DC_firstf }
+    country_event = dc.3
+  }
+}
+
+# 2nd Amendment
+country_event = {
+  id = dc.3
+  title = dc.3.t
+  desc = dc.3.d
+  picture = GFX_report_event_spain_civil_war_soldiers
+
+  is_triggered_only = yes
+
+  option = {
+    name = dc.3.a
+    ai_chance = { factor = 33 }
+    add_ideas = { DC_secondd }
+    country_event = dc.4
+  }
+  option = {
+    name = dc.3.b
+    ai_chance = { factor = 33 }
+    add_ideas = { DC_secondc }
+    country_event = dc.4
+  }
+  option = {
+    name = dc.3.c
+    ai_chance = { factor = 33 }
+    add_ideas = { DC_secondf }
+    country_event = dc.4
+  }
+}
+
+# 3rd Amendment
+country_event = {
+  id = dc.4
+  title = dc.4.t
+  desc = dc.4.d
+  picture = GFX_report_event_soldiers_marching
+
+  is_triggered_only = yes
+
+  option = {
+    name = dc.4.a
+    ai_chance = { factor = 33 }
+    add_stability = 0.05
+  }
+  option = {
+    name = dc.4.b
+    ai_chance = { factor = 33 }
+    add_ideas = { DC_thirdc }
+  }
+  option = {
+    name = dc.4.c
+    ai_chance = { factor = 33 }
+    add_ideas = { DC_thirdf }
+  }
+}
+
+# 2nd Constitutional Convention
+country_event = {
+  id = dc.5
+  title = dc.5.t
+  desc = dc.5.d
+  picture = GFX_report_event_generic_usa_treaty
+
+  is_triggered_only = yes
+
+  option = {
+    name = dc.5.a
+    ai_chance = { factor = 100 }
+    country_event = dc.1
+  }
+}
+
+# An offer to Maryland
+country_event = {
+  id = dc.6
+  title = dc.6.t
+  desc = dc.6.d
+  picture = GFX_report_event_generic_usa_treaty
+
+  is_triggered_only = yes
+
+  option = {
+    name = dc.6.a
+    ai_chance = { factor = 50 }
+    MDM = {
+      every_unit_leader = {
+        set_unit_leader_flag = flag_former_maryland_general
+        set_nationality = DCD
+      }
+    }
+    DCD = {
+      country_event = dc.8
+      annex_country = { target = MDM transfer_troops = yes }
+      add_state_core = 971
+      add_state_core = 908
+      add_state_core = 909
+      add_state_core = 361
+    }
+  }
+  option = {
+    name = dc.6.b
+    ai_chance = { factor = 50 }
+    DCD = {
+      country_event = dc.7
+    }
+  }
+}
+# Maryland refuses
+
+country_event = {
+  id = dc.7
+  title = dc.7.t
+  desc = dc.7.d
+  picture = GFX_report_event_soldiers_marching
+
+  is_triggered_only = yes
+
+  option = {
+    name = dc.7.a
+    ai_chance = { factor = 1 }
+    DCD = {
+      create_wargoal = {
+        type = annex_everything
+        target = MDM
+      }
+    }
+  }
+}
+
+# Maryland Accepts
+
+country_event = {
+  id = dc.8
+  title = dc.8.t
+  desc = dc.8.d
+  picture = GFX_DCD_soldiers_flag
+
+  is_triggered_only = yes
+
+  option = {
+    name = dc.8.a
+    ai_chance = { factor = 1 }
+  }
+}

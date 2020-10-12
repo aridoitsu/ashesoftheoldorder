@@ -1,0 +1,21 @@
+state={
+	id=1155
+	name="Yuma"
+	history = {
+		owner = TCN
+		add_core_of = TCN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			10783 5
+		}
+	}
+	provinces={
+		10783 13512 13533
+	}
+	manpower=30124
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

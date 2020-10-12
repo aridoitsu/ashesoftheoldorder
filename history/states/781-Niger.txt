@@ -1,0 +1,23 @@
+
+state={
+	id=781
+	name="STATE_781" # Niger
+	manpower = 543817
+
+	state_category = pastoral
+
+	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+		owner = NGR
+		add_core_of = NGR
+		victory_points = {
+			2056 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		1975 2056 12707
+	}
+}

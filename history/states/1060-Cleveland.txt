@@ -1,0 +1,22 @@
+state={
+	id=1060
+	name="Cleveland"
+	history = {
+		owner = OHO
+		add_core_of = OHO
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 4
+		}
+		victory_points = {
+			6890 20
+		}
+	}
+	provinces={
+		6890
+	}
+	manpower=1240214
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

@@ -1,0 +1,33 @@
+state={
+	id=901
+	name="Gulf Coast"
+	resources={
+		oil=96.000
+		aluminium=50.000
+	}
+	history={
+		owner = MTX
+		add_core_of = MTX
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+		}
+		victory_points = {
+			12369 3
+		}
+		victory_points = {
+			13409 3
+		}
+		victory_points = {
+			6785 5
+		}
+	}
+	provinces={
+		2042 4884 6785 12369 12410 13409 13413 13421 13431 13436 13441
+	}
+	manpower=1124712
+	buildings_max_level_factor=1.000
+	state_category = city
+}

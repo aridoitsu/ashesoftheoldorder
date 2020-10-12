@@ -1,0 +1,24 @@
+state={
+	id=1100
+	name="South Boston"
+	manpower = 348752
+	state_category = town
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = CRA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		}
+		add_core_of = CRA
+	}
+	provinces={
+		3906 13918 13948
+	}
+	buildings_max_level_factor=1.000
+}

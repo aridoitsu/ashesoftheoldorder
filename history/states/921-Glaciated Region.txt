@@ -1,0 +1,18 @@
+state={
+	id=921
+	name="South Nebraska"
+	history = {
+		owner = NEB
+		add_core_of = NEB
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	provinces={
+		4757 12513 13809 13833 13789 13793
+	}
+	manpower=31245
+	buildings_max_level_factor=1.000
+	state_category = town
+}

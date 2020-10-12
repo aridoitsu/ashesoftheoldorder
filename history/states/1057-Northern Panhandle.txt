@@ -1,0 +1,27 @@
+state={
+	id=1057
+	name="Clarksburg"
+	resources = {
+		steel = 21.000
+	}
+	history = {
+		owner = APP
+		add_core_of = APP
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			3975 3
+		}
+		victory_points = {
+			801 3
+		}
+	}
+	provinces={
+		801 3975
+	}
+	manpower=102104
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

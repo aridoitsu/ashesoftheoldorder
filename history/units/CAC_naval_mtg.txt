@@ -1,0 +1,181 @@
+units = {
+  fleet = {
+  name = "First Pacific Fleet"
+  naval_base = 1562
+    task_force = {
+    name = "Battleships, Battle Force"
+    location = 1562 # San Diego
+    ### Battleship Division 1 ###
+    ship = { name = "NCS Nevada" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+    ship = { name = "NCS Arizona" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+    ship = { name = "NCS Merriam" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+    }
+    task_force = {
+      name = "Cruisers, Battle Force"
+      location = 1562 # San Diego
+      # Cruiser Division 2 #
+      ship = { name = "NCS Omaha" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+      ship = { name = "NCS Milwaukee" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+      ship = { name = "NCS Cincinnati" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+      # Cruiser Division 6 #
+      ship = { name = "NCS New Orleans" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+      ship = { name = "NCS Astoria" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+      ship = { name = "NCS Minneapolis" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+      ship = { name = "NCS Indianapolis" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+    }
+    task_force = {
+			name = "Destroyer Flotilla 1"
+			location = 1562 # San Diego
+			ship = { name = "NCS Raleigh" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			### Destroyer Squadron 1 ###
+			# 1st Destroyer Division
+			ship = { name = "NCS Dewey" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "NCS Hull" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "NCS MacDonough" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "NCS Worden" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			# 2nd Destroyer Division
+			ship = { name = "NCS Farragut" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "NCS Dale" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "NCS Monaghan" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "NCS Aylwin" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			### Destroyer Squadron 9 ###
+			# 17th Destroyer Division
+			ship = { name = "NCS Hatfield" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Brooks" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Fox" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Kane" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			# 19th Destroyer Division
+			ship = { name = "NCS Rathburne" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Talbot" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Waters" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Dent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			### Destroyer Squadron 11 ###
+			ship = { name = "NCS MacLeish" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			# 25th Destroyer Division
+			ship = { name = "NCS McCormick" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Sturtevant" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Overton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Bainbridge" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			# 26th Destroyer Division
+			ship = { name = "NCS King" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Sands" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Lawrence" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Humphreys" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+		}
+  }
+
+  fleet = {
+    name = "Second Pacific Fleet"
+    naval_base = 9814
+    task_force = {
+			name = "Carrier Division, Battle Force"
+			location = 9814 # Los Angeles
+			ship = { name = "NCS Ranger" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Ranger Class" } }
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "USA" amount = 36 } # historical: 36
+					cv_CAS_equipment_1 =  { owner = "USA" amount = 12 } # historical: 15
+					cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 12 } # historical: 12
+				}
+			}
+			ship = { name = "NCS Lexington" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = USA version_name = "Lexington Class" } }
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "USA" amount = 16 } # historical: 16
+					cv_CAS_equipment_1 =  { owner = "USA" amount = 30 } # historical: 30
+					cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 12 } # historical: 12
+				}
+			}
+    }
+    task_force = {
+      name = "Battleship Squadron 1"
+      location = 9814 # Los Angeles
+      ### Battleship Division 2 ###
+			ship = { name = "NCS Oklahoma" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+			ship = { name = "NCS Tennessee" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+			ship = { name = "NCS California" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+			### Battleship Division 3 ###
+			ship = { name = "NCS New Mexico" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+			ship = { name = "NCS Mississippi" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+			ship = { name = "NCS Idaho" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+    }
+    task_force = {
+			name = "Cruisers, Battle Force"
+			location = 9814 # Los Angeles
+			# Cruiser Division 2 #
+			ship = { name = "NCS Omaha" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			ship = { name = "NCS Milwaukee" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			ship = { name = "NCS Cincinnati" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			# Cruiser Division 6 #
+			ship = { name = "NCS New Orleans" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+			ship = { name = "NCS Astoria" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+			ship = { name = "NCS Minneapolis" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+			ship = { name = "NCS Indianapolis" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+    }
+    task_force = {
+			name = "Destroyer Flotilla 2"
+			location = 9814 # Los Angeles
+			ship = { name = "NCS Detroit" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			### Destroyer Squadron 7 ###
+			# 24th Destroyer Division
+			ship = { name = "NCS Zane" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Wasmuth" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Trever" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Perry" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			# 28th Destroyer Division
+			ship = { name = "NCS Chandler" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Southard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Hovey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Long" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			### Destroyer Squadron 8 ###
+			ship = { name = "NCS Dallas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			# 9th Destroyer Division
+			ship = { name = "NCS Reuben James" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Goff" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Barry" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Hopkins" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			# 10th Destroyer Division
+			ship = { name = "NCS Broome" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Borie" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Simpson" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "NCS Truxtun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+		}
+  }
+    fleet = {
+      name = "Submarine Packs"
+      naval_base = 610
+      task_force = {
+        name = "4th Submarine Squadron"
+        location = 610 # Northwest California
+        ship = { name = "NCS Argonaut" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
+        # 7th Submarine Division
+        ship = { name = "NCS S-1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
+        ship = { name = "NCS S-18" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
+        ship = { name = "NCS S-23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
+        ship = { name = "NCS S-27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
+        ship = { name = "NCS S-28" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
+        ship = { name = "NCS S-34" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
+        ship = { name = "NCS S-35" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
+        # 16th Submarine Division
+        ship = { name = "NCS S-31" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
+        ship = { name = "NCS S-32" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
+        ship = { name = "NCS S-33" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
+      }
+      task_force = {
+        name = "6th Submarine Squadron"
+        location = 610 # Northwest California
+        # 12th Submarine Division
+        ship = { name = "NCS Barracuda" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
+        ship = { name = "NCS Bass" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
+        ship = { name = "NCS Bonita" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
+        ship = { name = "NCS Narwhal" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
+        ship = { name = "NCS Dolphin" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
+        # 13th Submarine Division
+        ship = { name = "NCS Nautilus" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
+        ship = { name = "NCS Cachalot" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
+        ship = { name = "NCS Cuttlefish" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
+        ship = { name = "NCS Porpoise" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
+        ship = { name = "NCS Pike" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
+        ship = { name = "NCS Shark" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=877
+	name="Lander"
+
+	history={
+		owner = WDC
+		add_core_of = WDC
+		add_core_of = WYW
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			1815 3
+		}
+	}
+
+	provinces={
+		1815 7660 10711 13998
+	}
+	manpower=20145
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,19 @@
+state={
+	id=1140
+	name="Région de l'Outaouais"
+	history={
+		owner = QBC
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 2
+		}
+		add_core_of = QBC
+	}
+	provinces={
+		1341 7435 10700 14172 14266 14290
+	}
+	manpower= 1092812
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

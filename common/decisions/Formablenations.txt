@@ -1,0 +1,2812 @@
+form_nation = {
+#Thirteen Colonies
+  thirteen_colonies = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+      or = {
+        original_tag = VAV
+        original_tag = WVW
+        original_tag = MDM
+        original_tag = DED
+        original_tag = NJN
+        original_tag = PAP
+        original_tag = NCN
+        original_tag = SCS
+        original_tag = GAG
+        original_tag = NYN
+        original_tag = RIR
+        original_tag = MAM
+        original_tag = CTC
+        original_tag = VTV
+        original_tag = NHN
+        original_tag = MEM
+        }
+      }
+
+    available = {
+      is_subject = no
+      controls_state = 1112
+      controls_state = 1108
+      controls_state = 1105
+      controls_state = 1102
+      controls_state = 1094
+      controls_state = 1097
+      controls_state = 1090
+      controls_state = 1084
+      controls_state = 1083
+      controls_state = 1077
+      controls_state = 1072
+      controls_state = 1066
+      controls_state = 1078
+      controls_state = 362
+      controls_state = 1056
+      controls_state = 1048
+      controls_state = 1041
+      controls_state = 1037
+      controls_state = 1038
+      controls_state = 1030
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      set_cosmetic_tag = TTC
+      set_capital = 1077
+      add_stability = 0.20
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #Maine
+        1116 = { add_core_of = ROOT }
+        357 = { add_core_of = ROOT }
+        1115 = { add_core_of = ROOT }
+        1114 = { add_core_of = ROOT }
+        1113 = { add_core_of = ROOT }
+        1112 = { add_core_of = ROOT }
+      #New Hampshire
+        1111 = { add_core_of = ROOT }
+        1110 = { add_core_of = ROOT }
+        1108 = { add_core_of = ROOT }
+        1109 = { add_core_of = ROOT }
+        1107 = { add_core_of = ROOT }
+      #Vermont
+        1106 = { add_core_of = ROOT }
+        1105 = { add_core_of = ROOT }
+        1104 = { add_core_of = ROOT }
+        1103 = { add_core_of = ROOT }
+      #Massachusetts
+        1102 = { add_core_of = ROOT }
+        1100 = { add_core_of = ROOT }
+        1099 = { add_core_of = ROOT }
+        1098 = { add_core_of = ROOT }
+        1101 = { add_core_of = ROOT }
+      #Rhode Island
+        1097 = { add_core_of = ROOT }
+      #Connecticut
+        1096 = { add_core_of = ROOT }
+        1094 = { add_core_of = ROOT }
+        1095 = { add_core_of = ROOT }
+      #New York
+        1092 = { add_core_of = ROOT }
+        1093 = { add_core_of = ROOT }
+        1091 = { add_core_of = ROOT }
+        1090 = { add_core_of = ROOT }
+        358 = { add_core_of = ROOT }
+        1087 = { add_core_of = ROOT }
+        1088 = { add_core_of = ROOT }
+        1098 = { add_core_of = ROOT }
+        1086 = { add_core_of = ROOT }
+        1084 = { add_core_of = ROOT }
+        1085 = { add_core_of = ROOT }
+        1089 = { add_core_of = ROOT }
+      #New Jersey
+    		1083 = { add_core_of = ROOT }
+    		1082 = { add_core_of = ROOT }
+    		359 = { add_core_of = ROOT }
+    		1081 = { add_core_of = ROOT }
+      #Pennsylvania
+    		1076 = { add_core_of = ROOT }
+    		1075 = { add_core_of = ROOT }
+    		1077 = { add_core_of = ROOT }
+    		971 = { add_core_of = ROOT }
+    		1074 = { add_core_of = ROOT }
+    		360 = { add_core_of = ROOT }
+    		1071 = { add_core_of = ROOT }
+    		1072 = { add_core_of = ROOT }
+    		1073 = { add_core_of = ROOT }
+      #Delaware
+    		1080 = { add_core_of = ROOT }
+    		1078 = { add_core_of = ROOT }
+        1079 = { add_core_of = ROOT }
+      #Maryland
+    		1067 = { add_core_of = ROOT }
+        1068 = { add_core_of = ROOT }
+    		361 = { add_core_of = ROOT }
+        1066 = { add_core_of = ROOT }
+    		1069 = { add_core_of = ROOT }
+      #West Virginia
+        1057 = { add_core_of = ROOT }
+    		1058 = { add_core_of = ROOT }
+        1055 = { add_core_of = ROOT }
+    		1056 = { add_core_of = ROOT }
+        1054 = { add_core_of = ROOT }
+      #Virginia
+    		1052 = { add_core_of = ROOT }
+        1053 = { add_core_of = ROOT }
+    		362 = { add_core_of = ROOT }
+        1051 = { add_core_of = ROOT }
+    		1049 = { add_core_of = ROOT }
+        1050 = { add_core_of = ROOT }
+      #North Carolina
+        363 = { add_core_of = ROOT }
+        1048 = { add_core_of = ROOT }
+        1047 = { add_core_of = ROOT }
+        1046 = { add_core_of = ROOT }
+        1045 = { add_core_of = ROOT }
+        1044 = { add_core_of = ROOT }
+        1043 = { add_core_of = ROOT }
+        1041 = { add_core_of = ROOT }
+        1040 = { add_core_of = ROOT }
+        1042 = { add_core_of = ROOT }
+      #South Carolina
+    		364 = { add_core_of = ROOT }
+        1039 = { add_core_of = ROOT }
+        1036 = { add_core_of = ROOT }
+        1037 = { add_core_of = ROOT }
+        1035 = { add_core_of = ROOT }
+        1038 = { add_core_of = ROOT }
+      #Georgia
+        1034 = { add_core_of = ROOT }
+        365 = { add_core_of = ROOT }
+        1033 = { add_core_of = ROOT }
+        1028 = { add_core_of = ROOT }
+        1032 = { add_core_of = ROOT }
+        1031 = { add_core_of = ROOT }
+        1029 = { add_core_of = ROOT }
+        1030 = { add_core_of = ROOT }
+      }
+     }
+    }
+#New England
+  new_england = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+      or = {
+        original_tag = NHN
+        original_tag = RIR
+        original_tag = CTC
+        original_tag = MEM
+      	original_tag = VTV
+      	original_tag = MAM
+        }
+      }
+
+    available = {
+      is_subject = no
+      controls_state = 1112
+      controls_state = 1108
+      controls_state = 1105
+      controls_state = 1102
+      controls_state = 1094
+      controls_state = 1097
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      set_capital = 889
+      set_cosmetic_tag = NEC
+      add_stability = 0.20
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+        #Maine
+          1116 = { add_core_of = ROOT }
+          357 = { add_core_of = ROOT }
+          1115 = { add_core_of = ROOT }
+          1114 = { add_core_of = ROOT }
+          1113 = { add_core_of = ROOT }
+          1112 = { add_core_of = ROOT }
+        #New Hampshire
+          1111 = { add_core_of = ROOT }
+          1110 = { add_core_of = ROOT }
+          1108 = { add_core_of = ROOT }
+          1109 = { add_core_of = ROOT }
+          1107 = { add_core_of = ROOT }
+        #Vermont
+          1106 = { add_core_of = ROOT }
+          1105 = { add_core_of = ROOT }
+          1104 = { add_core_of = ROOT }
+          1103 = { add_core_of = ROOT }
+        #Massachusetts
+          1102 = { add_core_of = ROOT }
+          1100 = { add_core_of = ROOT }
+          1099 = { add_core_of = ROOT }
+          1098 = { add_core_of = ROOT }
+          1101 = { add_core_of = ROOT }
+        #Rhode Island
+          1097 = { add_core_of = ROOT }
+        #Connecticut
+          1096 = { add_core_of = ROOT }
+          1094 = { add_core_of = ROOT }
+          1095 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Confederate States of America
+  confederate_states = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+        or = {
+          original_tag = SCS
+          original_tag = NCN
+          original_tag = TNT
+          original_tag = VAV
+          original_tag = TXT
+          original_tag = GAG
+          original_tag = ALA
+          original_tag = MSM
+          original_tag = ARA
+          original_tag = LAL
+          has_completed_focus = FLF_anothercsa
+        }
+      }
+
+    available = {
+      is_subject = no
+      controls_state = 362
+      controls_state = 1048
+      controls_state = 1041
+      controls_state = 1037
+      controls_state = 1038
+      controls_state = 1030
+      controls_state = 1001
+      controls_state = 1024
+      controls_state = 1022
+      controls_state = 1004
+      controls_state = 965
+      controls_state = 961
+      controls_state = 968
+      controls_state = 894
+      controls_state = 375
+    }
+
+    cost = 100
+
+    ai_will_do = {
+    factor = 50
+    }
+
+    complete_effect = {
+      set_capital = 362
+      set_cosmetic_tag = CSA
+      add_stability = 0.20
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #Virginia
+      	1052 = { add_core_of = ROOT }
+        1053 = { add_core_of = ROOT }
+      	362 = { add_core_of = ROOT }
+        1051 = { add_core_of = ROOT }
+      	1049 = { add_core_of = ROOT }
+        1050 = { add_core_of = ROOT }
+      #North Carolina
+        363 = { add_core_of = ROOT }
+        1048 = { add_core_of = ROOT }
+        1047 = { add_core_of = ROOT }
+        1046 = { add_core_of = ROOT }
+        1045 = { add_core_of = ROOT }
+        1044 = { add_core_of = ROOT }
+        1043 = { add_core_of = ROOT }
+        1041 = { add_core_of = ROOT }
+        1040 = { add_core_of = ROOT }
+        1042 = { add_core_of = ROOT }
+      #South Carolina
+      	364 = { add_core_of = ROOT }
+        1039 = { add_core_of = ROOT }
+        1036 = { add_core_of = ROOT }
+        1037 = { add_core_of = ROOT }
+        1035 = { add_core_of = ROOT }
+        1038 = { add_core_of = ROOT }
+      #Georgia
+        1034 = { add_core_of = ROOT }
+        365 = { add_core_of = ROOT }
+        1033 = { add_core_of = ROOT }
+        1028 = { add_core_of = ROOT }
+        1032 = { add_core_of = ROOT }
+        1031 = { add_core_of = ROOT }
+        1029 = { add_core_of = ROOT }
+        1030 = { add_core_of = ROOT }
+      #Florida
+        1027 = { add_core_of = ROOT }
+        366 = { add_core_of = ROOT }
+        1026 = { add_core_of = ROOT }
+        1024 = { add_core_of = ROOT }
+        1025 = { add_core_of = ROOT }
+        1022 = { add_core_of = ROOT }
+        1023 = { add_core_of = ROOT }
+      #Tennessee
+        1003 = { add_core_of = ROOT }
+        1002 = { add_core_of = ROOT }
+        1001 = { add_core_of = ROOT }
+        368 = { add_core_of = ROOT }
+        1000 = { add_core_of = ROOT }
+      #Alabama
+        1007 = { add_core_of = ROOT }
+        367 = { add_core_of = ROOT }
+        1006 = { add_core_of = ROOT }
+        1005 = { add_core_of = ROOT }
+        1004 = { add_core_of = ROOT }
+      #Mississippi
+        967 = { add_core_of = ROOT }
+        966 = { add_core_of = ROOT }
+        964 = { add_core_of = ROOT }
+        963 = { add_core_of = ROOT }
+        965 = { add_core_of = ROOT }
+        370 = { add_core_of = ROOT }
+      #Arkansas
+        372 = { add_core_of = ROOT }
+        969 = { add_core_of = ROOT }
+        970 = { add_core_of = ROOT }
+        968 = { add_core_of = ROOT }
+        972 = { add_core_of = ROOT }
+        971 = { add_core_of = ROOT }
+      #Louisiana
+        962 = { add_core_of = ROOT }
+        961 = { add_core_of = ROOT }
+        960 = { add_core_of = ROOT }
+        959 = { add_core_of = ROOT }
+        958 = { add_core_of = ROOT }
+        371 = { add_core_of = ROOT }
+      #Texas
+        899 = { add_core_of = ROOT }
+        900 = { add_core_of = ROOT }
+        894 = { add_core_of = ROOT }
+        906 = { add_core_of = ROOT }
+        895 = { add_core_of = ROOT }
+        904 = { add_core_of = ROOT }
+        905 = { add_core_of = ROOT }
+        375 = { add_core_of = ROOT }
+        903 = { add_core_of = ROOT }
+        896 = { add_core_of = ROOT }
+        898 = { add_core_of = ROOT }
+        897 = { add_core_of = ROOT }
+        902 = { add_core_of = ROOT }
+        901 = { add_core_of = ROOT }
+      #Oklahoma
+        907 = { add_core_of = ROOT }
+        908 = { add_core_of = ROOT }
+        909 = { add_core_of = ROOT }
+        374 = { add_core_of = ROOT }
+        912 = { add_core_of = ROOT }
+        910 = { add_core_of = ROOT }
+        913 = { add_core_of = ROOT }
+        911 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Greater Virginia
+  greater_virginia_ALL = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+        or = {
+        original_tag = VAV
+        original_tag = WVW
+      }
+    }
+
+    available = {
+      is_subject = no
+        controls_state = 1056
+        controls_state = 362
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      add_stability = 0.20
+      set_cosmetic_tag = GRV
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+        #West Virginia
+          1057 = { add_core_of = ROOT }
+      		1058 = { add_core_of = ROOT }
+          1055 = { add_core_of = ROOT }
+      		1056 = { add_core_of = ROOT }
+          1054 = { add_core_of = ROOT }
+        #Virginia
+      		1052 = { add_core_of = ROOT }
+          1053 = { add_core_of = ROOT }
+      		362 = { add_core_of = ROOT }
+          1051 = { add_core_of = ROOT }
+      		1049 = { add_core_of = ROOT }
+          1050 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Deseret
+  new_deseret = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+        original_tag = UTU
+    	original_tag = AZA
+    	original_tag = NVN
+      }
+
+    available = {
+      is_subject = no
+      controls_state = 855
+      controls_state = 810
+      controls_state = 807
+      controls_state = 802
+      controls_state = 864
+      controls_state = 889
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      set_cosmetic_tag = DES
+      add_stability = 0.20
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #Utah
+        856 = { add_core_of = ROOT }
+        380 = { add_core_of = ROOT }
+        855 = { add_core_of = ROOT }
+        857 = { add_core_of = ROOT }
+        858 = { add_core_of = ROOT }
+        861 = { add_core_of = ROOT }
+        860 = { add_core_of = ROOT }
+        859 = { add_core_of = ROOT }
+      #West Colorado
+        882 = { add_core_of = ROOT }
+        881 = { add_core_of = ROOT }
+      #Southwest Wyoming
+        875 = { add_core_of = ROOT }
+      #Northern Arizona
+        377 = { add_core_of = ROOT }
+        862 = { add_core_of = ROOT }
+        863 = { add_core_of = ROOT }
+        864 = { add_core_of = ROOT }
+      #Southern California
+        804 = { add_core_of = ROOT }
+        801 = { add_core_of = ROOT }
+        802 = { add_core_of = ROOT }
+      #Western New Mexico
+        376 = { add_core_of = ROOT }
+        889 = { add_core_of = ROOT }
+        888 = { add_core_of = ROOT }
+      #Nevada
+        807 = { add_core_of = ROOT }
+        379 = { add_core_of = ROOT }
+        808 = { add_core_of = ROOT }
+        809 = { add_core_of = ROOT }
+        810 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Greater Canada
+  greater_canada = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+        or = {
+        original_tag = CTC
+        original_tag = RIR
+        original_tag = MAM
+        original_tag = NHN
+        original_tag = VTV
+        original_tag = MEM
+        original_tag = NBN
+        original_tag = NSN
+        original_tag = PEP
+        original_tag = QBC
+        original_tag = NLN
+        original_tag = ONO
+        original_tag = NUN
+        original_tag = MBM
+        original_tag = SKS
+        original_tag = ABA
+        original_tag = BCB
+        original_tag = YTY
+        original_tag = NTN
+        original_tag = AKA
+      }
+    }
+
+    available = {
+      is_subject = no
+      controls_state = 824
+      controls_state = 825
+      controls_state = 463
+      controls_state = 942
+      controls_state = 467
+      controls_state = 1135
+      controls_state = 1139
+      controls_state = 1136
+      controls_state = 1124
+      controls_state = 1126
+      controls_state = 1128
+      controls_state = 1142
+      controls_state = 1146
+      controls_state = 1112
+      controls_state = 1108
+      controls_state = 1105
+      controls_state = 1102
+      controls_state = 1097
+      controls_state = 1094
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      set_cosmetic_tag = GCA
+      set_capital = 1135
+      add_stability = 0.20
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #British Columbia
+        825 = { add_core_of = ROOT }
+        824 = { add_core_of = ROOT }
+        740 = { add_core_of = ROOT }
+        823 = { add_core_of = ROOT }
+        473 = { add_core_of = ROOT }
+        822 = { add_core_of = ROOT }
+        826 = { add_core_of = ROOT }
+        828 = { add_core_of = ROOT }
+        827 = { add_core_of = ROOT }
+        829 = { add_core_of = ROOT }
+      #Alaska
+        463 = { add_core_of = ROOT }
+        830 = { add_core_of = ROOT }
+        831 = { add_core_of = ROOT }
+        832 = { add_core_of = ROOT }
+        835 = { add_core_of = ROOT }
+        832 = { add_core_of = ROOT }
+        833 = { add_core_of = ROOT }
+        834 = { add_core_of = ROOT }
+      #Yukon
+        838 = { add_core_of = ROOT }
+        471 = { add_core_of = ROOT }
+        836 = { add_core_of = ROOT }
+        837 = { add_core_of = ROOT }
+        1151 = { add_core_of = ROOT }
+      #Northwest Territories
+        472 = { add_core_of = ROOT }
+        839 = { add_core_of = ROOT }
+        841 = { add_core_of = ROOT }
+        842 = { add_core_of = ROOT }
+        840 = { add_core_of = ROOT }
+      #Alberta
+        470 = { add_core_of = ROOT }
+        843 = { add_core_of = ROOT }
+        844 = { add_core_of = ROOT }
+        846 = { add_core_of = ROOT }
+        845 = { add_core_of = ROOT }
+        847 = { add_core_of = ROOT }
+        848 = { add_core_of = ROOT }
+      #Sasketchewan
+        940 = { add_core_of = ROOT }
+        941 = { add_core_of = ROOT }
+        939 = { add_core_of = ROOT }
+        945 = { add_core_of = ROOT }
+        944 = { add_core_of = ROOT }
+        942 = { add_core_of = ROOT }
+        943 = { add_core_of = ROOT }
+        469 = { add_core_of = ROOT }
+        946 = { add_core_of = ROOT }
+        948 = { add_core_of = ROOT }
+        947 = { add_core_of = ROOT }
+        949 = { add_core_of = ROOT }
+      #Manitoba
+        954 = { add_core_of = ROOT }
+        467 = { add_core_of = ROOT }
+        953 = { add_core_of = ROOT }
+        956 = { add_core_of = ROOT }
+        955 = { add_core_of = ROOT }
+        957 = { add_core_of = ROOT }
+        951 = { add_core_of = ROOT }
+      #Nunavut
+        950 = { add_core_of = ROOT }
+        683 = { add_core_of = ROOT }
+      #Ontario
+        1118 = { add_core_of = ROOT }
+        1117 = { add_core_of = ROOT }
+        1119 = { add_core_of = ROOT }
+        1120 = { add_core_of = ROOT }
+        682 = { add_core_of = ROOT }
+        276 = { add_core_of = ROOT }
+        1135 = { add_core_of = ROOT }
+      #Quebec
+        1138 = { add_core_of = ROOT }
+        1140 = { add_core_of = ROOT }
+        1139 = { add_core_of = ROOT }
+        468 = { add_core_of = ROOT }
+        1136 = { add_core_of = ROOT }
+        1137 = { add_core_of = ROOT }
+        1134 = { add_core_of = ROOT }
+        1133 = { add_core_of = ROOT }
+        466 = { add_core_of = ROOT }
+      #Labrador
+        332 = { add_core_of = ROOT }
+        1144 = { add_core_of = ROOT }
+        1143 = { add_core_of = ROOT }
+        1142 = { add_core_of = ROOT }
+      #Newfoundland
+        331 = { add_core_of = ROOT }
+        1145 = { add_core_of = ROOT }
+        1146 = { add_core_of = ROOT }
+      #New Brunswick
+        1121 = { add_core_of = ROOT }
+        1125 = { add_core_of = ROOT }
+        1124 = { add_core_of = ROOT }
+        1122 = { add_core_of = ROOT }
+        465 = { add_core_of = ROOT }
+        1123 = { add_core_of = ROOT }
+      #Prince Edward's Island
+        1126 = { add_core_of = ROOT }
+      #Nova Scotia
+        1130 = { add_core_of = ROOT }
+        1127 = { add_core_of = ROOT }
+        1131 = { add_core_of = ROOT }
+        1129 = { add_core_of = ROOT }
+        1128 = { add_core_of = ROOT }
+        1132 = { add_core_of = ROOT }
+        464 = { add_core_of = ROOT }
+      #Maine
+        1116 = { add_core_of = ROOT }
+        357 = { add_core_of = ROOT }
+        1115 = { add_core_of = ROOT }
+        1114 = { add_core_of = ROOT }
+        1113 = { add_core_of = ROOT }
+        1112 = { add_core_of = ROOT }
+      #New Hampshire
+        1111 = { add_core_of = ROOT }
+        1110 = { add_core_of = ROOT }
+        1108 = { add_core_of = ROOT }
+        1109 = { add_core_of = ROOT }
+        1107 = { add_core_of = ROOT }
+      #Vermont
+        1106 = { add_core_of = ROOT }
+        1105 = { add_core_of = ROOT }
+        1104 = { add_core_of = ROOT }
+        1103 = { add_core_of = ROOT }
+      #Massachusetts
+        1102 = { add_core_of = ROOT }
+        1100 = { add_core_of = ROOT }
+        1099 = { add_core_of = ROOT }
+        1098 = { add_core_of = ROOT }
+        1101 = { add_core_of = ROOT }
+      #Rhode Island
+        1097 = { add_core_of = ROOT }
+      #Connecticut
+        1096 = { add_core_of = ROOT }
+        1094 = { add_core_of = ROOT }
+        1095 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Canada
+  canada = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+        or = {
+        original_tag = CTC
+        original_tag = RIR
+        original_tag = MAM
+        original_tag = NHN
+        original_tag = VTV
+        original_tag = MEM
+        original_tag = NBN
+        original_tag = NSN
+        original_tag = PEP
+        original_tag = QBC
+        original_tag = NLN
+        original_tag = ONO
+        original_tag = NUN
+        original_tag = MBM
+        original_tag = SKS
+        original_tag = ABA
+        original_tag = BCB
+        original_tag = YTY
+        original_tag = NTN
+        original_tag = AKA
+      }
+    }
+
+    available = {
+      is_subject = no
+      controls_state = 824
+      controls_state = 825
+      controls_state = 463
+      controls_state = 942
+      controls_state = 467
+      controls_state = 1135
+      controls_state = 1139
+      controls_state = 1136
+      controls_state = 1124
+      controls_state = 1126
+      controls_state = 1128
+      controls_state = 1142
+      controls_state = 1146
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      set_cosmetic_tag = CAN
+      set_capital = 276
+      add_stability = 0.20
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #British Columbia
+        825 = { add_core_of = ROOT }
+        824 = { add_core_of = ROOT }
+        740 = { add_core_of = ROOT }
+        823 = { add_core_of = ROOT }
+        473 = { add_core_of = ROOT }
+        822 = { add_core_of = ROOT }
+        826 = { add_core_of = ROOT }
+        828 = { add_core_of = ROOT }
+        827 = { add_core_of = ROOT }
+        829 = { add_core_of = ROOT }
+      #Alaska
+        463 = { add_core_of = ROOT }
+        830 = { add_core_of = ROOT }
+        831 = { add_core_of = ROOT }
+        832 = { add_core_of = ROOT }
+        835 = { add_core_of = ROOT }
+        832 = { add_core_of = ROOT }
+        833 = { add_core_of = ROOT }
+        834 = { add_core_of = ROOT }
+      #Yukon
+        838 = { add_core_of = ROOT }
+        471 = { add_core_of = ROOT }
+        836 = { add_core_of = ROOT }
+        837 = { add_core_of = ROOT }
+        1151 = { add_core_of = ROOT }
+      #Northwest Territories
+        472 = { add_core_of = ROOT }
+        839 = { add_core_of = ROOT }
+        841 = { add_core_of = ROOT }
+        842 = { add_core_of = ROOT }
+        840 = { add_core_of = ROOT }
+      #Alberta
+        470 = { add_core_of = ROOT }
+        843 = { add_core_of = ROOT }
+        844 = { add_core_of = ROOT }
+        846 = { add_core_of = ROOT }
+        845 = { add_core_of = ROOT }
+        847 = { add_core_of = ROOT }
+        848 = { add_core_of = ROOT }
+      #Sasketchewan
+        940 = { add_core_of = ROOT }
+        941 = { add_core_of = ROOT }
+        939 = { add_core_of = ROOT }
+        945 = { add_core_of = ROOT }
+        944 = { add_core_of = ROOT }
+        942 = { add_core_of = ROOT }
+        943 = { add_core_of = ROOT }
+        469 = { add_core_of = ROOT }
+        946 = { add_core_of = ROOT }
+        948 = { add_core_of = ROOT }
+        947 = { add_core_of = ROOT }
+        949 = { add_core_of = ROOT }
+      #Manitoba
+        954 = { add_core_of = ROOT }
+        467 = { add_core_of = ROOT }
+        953 = { add_core_of = ROOT }
+        956 = { add_core_of = ROOT }
+        955 = { add_core_of = ROOT }
+        957 = { add_core_of = ROOT }
+        951 = { add_core_of = ROOT }
+      #Nunavut
+        950 = { add_core_of = ROOT }
+        683 = { add_core_of = ROOT }
+      #Ontario
+        1118 = { add_core_of = ROOT }
+        1117 = { add_core_of = ROOT }
+        1119 = { add_core_of = ROOT }
+        1120 = { add_core_of = ROOT }
+        682 = { add_core_of = ROOT }
+        276 = { add_core_of = ROOT }
+        1135 = { add_core_of = ROOT }
+      #Quebec
+        1138 = { add_core_of = ROOT }
+        1140 = { add_core_of = ROOT }
+        1139 = { add_core_of = ROOT }
+        468 = { add_core_of = ROOT }
+        1136 = { add_core_of = ROOT }
+        1137 = { add_core_of = ROOT }
+        1134 = { add_core_of = ROOT }
+        1133 = { add_core_of = ROOT }
+        466 = { add_core_of = ROOT }
+      #Labrador
+        332 = { add_core_of = ROOT }
+        1144 = { add_core_of = ROOT }
+        1143 = { add_core_of = ROOT }
+        1142 = { add_core_of = ROOT }
+      #Newfoundland
+        331 = { add_core_of = ROOT }
+        1145 = { add_core_of = ROOT }
+        1146 = { add_core_of = ROOT }
+      #New Brunswick
+        1121 = { add_core_of = ROOT }
+        1125 = { add_core_of = ROOT }
+        1124 = { add_core_of = ROOT }
+        1122 = { add_core_of = ROOT }
+        465 = { add_core_of = ROOT }
+        1123 = { add_core_of = ROOT }
+      #Prince Edward's Island
+        1126 = { add_core_of = ROOT }
+      #Nova Scotia
+        1130 = { add_core_of = ROOT }
+        1127 = { add_core_of = ROOT }
+        1131 = { add_core_of = ROOT }
+        1129 = { add_core_of = ROOT }
+        1128 = { add_core_of = ROOT }
+        1132 = { add_core_of = ROOT }
+        464 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Montezuma
+  montezuma = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+        or = {
+        original_tag = AZA
+        original_tag = NMN
+      }
+    }
+
+    available = {
+      is_subject = no
+      controls_state = 886
+      controls_state = 887
+      controls_state = 889
+      controls_state = 864
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      add_stability = 0.20
+      set_cosmetic_tag = MTZ
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #New Mexico
+        893 = { add_core_of = ROOT }
+        886 = { add_core_of = ROOT }
+        892 = { add_core_of = ROOT }
+        891 = { add_core_of = ROOT }
+        890 = { add_core_of = ROOT }
+        887 = { add_core_of = ROOT }
+        376 = { add_core_of = ROOT }
+        888 = { add_core_of = ROOT }
+        889 = { add_core_of = ROOT }
+      #Arizona
+        377 = { add_core_of = ROOT }
+        862 = { add_core_of = ROOT }
+        863 = { add_core_of = ROOT }
+        864 = { add_core_of = ROOT }
+        865 = { add_core_of = ROOT }
+        866 = { add_core_of = ROOT }
+        1155 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Texlahoma
+  texlahoma = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+        or = {
+        original_tag = TXT
+        original_tag = OKO
+      }
+    }
+
+    available = {
+      is_subject = no
+      controls_state = 374
+      controls_state = 895
+      controls_state = 375
+      controls_state = 894
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      add_stability = 0.20
+      set_cosmetic_tag = TLH
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #Texas
+        899 = { add_core_of = ROOT }
+        900 = { add_core_of = ROOT }
+        894 = { add_core_of = ROOT }
+        906 = { add_core_of = ROOT }
+        895 = { add_core_of = ROOT }
+        904 = { add_core_of = ROOT }
+        905 = { add_core_of = ROOT }
+        375 = { add_core_of = ROOT }
+        903 = { add_core_of = ROOT }
+        896 = { add_core_of = ROOT }
+        898 = { add_core_of = ROOT }
+        897 = { add_core_of = ROOT }
+        902 = { add_core_of = ROOT }
+        901 = { add_core_of = ROOT }
+      #Oklahoma
+        907 = { add_core_of = ROOT }
+        908 = { add_core_of = ROOT }
+        909 = { add_core_of = ROOT }
+        374 = { add_core_of = ROOT }
+        912 = { add_core_of = ROOT }
+        910 = { add_core_of = ROOT }
+        913 = { add_core_of = ROOT }
+        911 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Pacific States Of America
+  pacific_states_of_america = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+      has_completed_focus = CAC_formationofpsa
+      or = {
+        original_tag = CAC
+        original_tag = ORO
+        original_tag = WAW
+        original_tag = AKA
+        }
+      }
+
+    available = {
+      is_subject = no
+      controls_state = 802
+      controls_state = 803
+      controls_state = 800
+      controls_state = 798
+      controls_state = 814
+      controls_state = 821
+      controls_state = 463
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      set_cosmetic_tag = PSA
+      set_capital = 798
+      add_stability = 0.15
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #California
+        378 = { add_core_of = ROOT }
+        797 = { add_core_of = ROOT }
+        798 = { add_core_of = ROOT }
+        799 = { add_core_of = ROOT }
+        800 = { add_core_of = ROOT }
+        805 = { add_core_of = ROOT }
+        806 = { add_core_of = ROOT }
+        804 = { add_core_of = ROOT }
+        803 = { add_core_of = ROOT }
+        801 = { add_core_of = ROOT }
+        802 = { add_core_of = ROOT }
+      #Oregon
+        813 = { add_core_of = ROOT }
+        812 = { add_core_of = ROOT }
+        815 = { add_core_of = ROOT }
+        814 = { add_core_of = ROOT }
+        816 = { add_core_of = ROOT }
+        811 = { add_core_of = ROOT }
+        385 = { add_core_of = ROOT }
+      #Washington
+        821 = { add_core_of = ROOT }
+        386 = { add_core_of = ROOT }
+        817 = { add_core_of = ROOT }
+        820 = { add_core_of = ROOT }
+        818 = { add_core_of = ROOT }
+        819 = { add_core_of = ROOT }
+      #Alaska
+        831 = { add_core_of = ROOT }
+        830 = { add_core_of = ROOT }
+        463 = { add_core_of = ROOT }
+        832 = { add_core_of = ROOT }
+        833 = { add_core_of = ROOT }
+        835 = { add_core_of = ROOT }
+        834 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Combined Syndicates of America
+  combined_syndicates = {
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+      or = {
+        original_tag = WIW
+        original_tag = MIM
+        original_tag = ILI
+        original_tag = INI
+        original_tag = ILI
+        original_tag = OHO
+        original_tag = WVW
+        original_tag = PAP
+        }
+      }
+
+    available = {
+      is_subject = no
+      controls_state = 261
+      controls_state = 1060
+      controls_state = 1012
+      controls_state = 1017
+      controls_state = 992
+      controls_state = 1056
+      controls_state = 1072
+      controls_state = 1077
+    }
+
+    cost = 50
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      set_cosmetic_tag = SYA
+      set_capital = 995
+      add_stability = 0.15
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #Ohio
+        1064 = { add_core_of = ROOT }
+        1060 = { add_core_of = ROOT }
+        1065 = { add_core_of = ROOT }
+        1059 = { add_core_of = ROOT }
+        261 = { add_core_of = ROOT }
+        1063 = { add_core_of = ROOT }
+        1062 = { add_core_of = ROOT }
+        1061 = { add_core_of = ROOT }
+      #Michigan
+        1017 = { add_core_of = ROOT }
+        1018 = { add_core_of = ROOT }
+        1020 = { add_core_of = ROOT }
+        1019 = { add_core_of = ROOT }
+        393 = { add_core_of = ROOT }
+        1021 = { add_core_of = ROOT }
+      #Indiana
+        396 = { add_core_of = ROOT }
+        1014 = { add_core_of = ROOT }
+        1013 = { add_core_of = ROOT }
+        1012 = { add_core_of = ROOT }
+        1016 = { add_core_of = ROOT }
+        1015 = { add_core_of = ROOT }
+      #Illinois
+        995 = { add_core_of = ROOT }
+        996 = { add_core_of = ROOT }
+        999 = { add_core_of = ROOT }
+        997 = { add_core_of = ROOT }
+        395 = { add_core_of = ROOT }
+        998 = { add_core_of = ROOT }
+      #Wisconsin
+        993 = { add_core_of = ROOT }
+        992 = { add_core_of = ROOT }
+        991 = { add_core_of = ROOT }
+        994 = { add_core_of = ROOT }
+        990 = { add_core_of = ROOT }
+        394 = { add_core_of = ROOT }
+      #Pennsylvania
+    		1076 = { add_core_of = ROOT }
+    		1075 = { add_core_of = ROOT }
+    		1077 = { add_core_of = ROOT }
+    		971 = { add_core_of = ROOT }
+    		1074 = { add_core_of = ROOT }
+    		360 = { add_core_of = ROOT }
+    		1071 = { add_core_of = ROOT }
+    		1072 = { add_core_of = ROOT }
+    		1073 = { add_core_of = ROOT }
+      #West Virginia
+        1057 = { add_core_of = ROOT }
+    		1058 = { add_core_of = ROOT }
+        1055 = { add_core_of = ROOT }
+    		1056 = { add_core_of = ROOT }
+        1054 = { add_core_of = ROOT }
+      }
+    }
+  }
+#American Union State
+  american_union = {
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+      or = {
+        original_tag = SCS
+        original_tag = NCN
+        original_tag = TNT
+        original_tag = TXT
+        original_tag = GAG
+        original_tag = ALA
+        original_tag = MSM
+        original_tag = FLF
+        original_tag = ARA
+        original_tag = LAL
+        }
+      }
+
+    available = {
+      is_subject = no
+      controls_state = 1048
+      controls_state = 1041
+      controls_state = 1037
+      controls_state = 1038
+      controls_state = 1030
+      controls_state = 1024
+      controls_state = 1022
+      controls_state = 1027
+      controls_state = 1004
+      controls_state = 965
+      controls_state = 961
+      controls_state = 968
+    }
+
+    cost = 100
+
+    ai_will_do = {
+    factor = 50
+    }
+
+    complete_effect = {
+      set_capital = 961
+      set_cosmetic_tag = ASU
+      add_stability = 0.20
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #Alabama
+        1007 = { add_core_of = ROOT }
+        367 = { add_core_of = ROOT }
+        1006 = { add_core_of = ROOT }
+        1005 = { add_core_of = ROOT }
+        1004 = { add_core_of = ROOT }
+      #Mississippi
+        967 = { add_core_of = ROOT }
+        966 = { add_core_of = ROOT }
+        964 = { add_core_of = ROOT }
+        963 = { add_core_of = ROOT }
+        965 = { add_core_of = ROOT }
+        370 = { add_core_of = ROOT }
+      #Arkansas
+        372 = { add_core_of = ROOT }
+        969 = { add_core_of = ROOT }
+        970 = { add_core_of = ROOT }
+        968 = { add_core_of = ROOT }
+        972 = { add_core_of = ROOT }
+        971 = { add_core_of = ROOT }
+      #Louisiana
+        962 = { add_core_of = ROOT }
+        961 = { add_core_of = ROOT }
+        960 = { add_core_of = ROOT }
+        959 = { add_core_of = ROOT }
+        958 = { add_core_of = ROOT }
+        371 = { add_core_of = ROOT }
+      #North Carolina
+        363 = { add_core_of = ROOT }
+        1048 = { add_core_of = ROOT }
+        1047 = { add_core_of = ROOT }
+        1046 = { add_core_of = ROOT }
+        1045 = { add_core_of = ROOT }
+        1044 = { add_core_of = ROOT }
+        1043 = { add_core_of = ROOT }
+        1041 = { add_core_of = ROOT }
+        1040 = { add_core_of = ROOT }
+        1042 = { add_core_of = ROOT }
+      #South Carolina
+        364 = { add_core_of = ROOT }
+        1039 = { add_core_of = ROOT }
+        1036 = { add_core_of = ROOT }
+        1037 = { add_core_of = ROOT }
+        1035 = { add_core_of = ROOT }
+        1038 = { add_core_of = ROOT }
+      #Georgia
+        1034 = { add_core_of = ROOT }
+        365 = { add_core_of = ROOT }
+        1033 = { add_core_of = ROOT }
+        1028 = { add_core_of = ROOT }
+        1032 = { add_core_of = ROOT }
+        1031 = { add_core_of = ROOT }
+        1029 = { add_core_of = ROOT }
+        1030 = { add_core_of = ROOT }
+      #Florida
+        1027 = { add_core_of = ROOT }
+        366 = { add_core_of = ROOT }
+        1026 = { add_core_of = ROOT }
+        1024 = { add_core_of = ROOT }
+        1025 = { add_core_of = ROOT }
+        1022 = { add_core_of = ROOT }
+        1023 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Colonial Louisiana
+  Great_Louisiana = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+        original_tag = LAL
+      }
+
+		available = {
+			is_subject = no
+			controls_state = 968
+			controls_state = 374
+			controls_state = 906
+			controls_state = 896
+			controls_state = 975
+			controls_state = 976
+			controls_state = 915
+			controls_state = 914
+			controls_state = 897
+			controls_state = 873
+			controls_state = 930
+      controls_state = 985
+      controls_state = 934
+      controls_state = 935
+      controls_state = 872
+      controls_state = 899
+    }
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+		  factor = 1
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GRL
+			set_capital = 956
+			add_stability = 0.20
+			custom_effect_tooltip = core_land_usa
+			hidden_effect = {
+      #Louisiana
+        962 = { add_core_of = ROOT }
+        961 = { add_core_of = ROOT }
+        960 = { add_core_of = ROOT }
+        959 = { add_core_of = ROOT }
+        958 = { add_core_of = ROOT }
+        371 = { add_core_of = ROOT }
+      #Arkansas
+        372 = { add_core_of = ROOT }
+        969 = { add_core_of = ROOT }
+        970 = { add_core_of = ROOT }
+        968 = { add_core_of = ROOT }
+        972 = { add_core_of = ROOT }
+        971 = { add_core_of = ROOT }
+      #Oklahoma
+        907 = { add_core_of = ROOT }
+        908 = { add_core_of = ROOT }
+        909 = { add_core_of = ROOT }
+        374 = { add_core_of = ROOT }
+        912 = { add_core_of = ROOT }
+        910 = { add_core_of = ROOT }
+        913 = { add_core_of = ROOT }
+        911 = { add_core_of = ROOT }
+      #Missouri
+				973 = { add_core_of = ROOT }
+				974 = { add_core_of = ROOT }
+				373 = { add_core_of = ROOT }
+				975 = { add_core_of = ROOT }
+				977 = { add_core_of = ROOT }
+				373 = { add_core_of = ROOT }
+				976 = { add_core_of = ROOT }
+				977 = { add_core_of = ROOT }
+				978 = { add_core_of = ROOT }
+      #Kansas
+				915 = { add_core_of = ROOT }
+				921 = { add_core_of = ROOT }
+				922 = { add_core_of = ROOT }
+				918 = { add_core_of = ROOT }
+				914 = { add_core_of = ROOT }
+				923 = { add_core_of = ROOT }
+				916 = { add_core_of = ROOT }
+				383 = { add_core_of = ROOT }
+				917 = { add_core_of = ROOT }
+				920 = { add_core_of = ROOT }
+				919 = { add_core_of = ROOT }
+      #Colorado
+				382 = { add_core_of = ROOT }
+				879 = { add_core_of = ROOT }
+				880 = { add_core_of = ROOT }
+				885 = { add_core_of = ROOT }
+				884 = { add_core_of = ROOT }
+				883 = { add_core_of = ROOT }
+				882 = { add_core_of = ROOT }
+				881 = { add_core_of = ROOT }
+      #Iowa
+				979 = { add_core_of = ROOT }
+				392 = { add_core_of = ROOT }
+				980 = { add_core_of = ROOT }
+				982 = { add_core_of = ROOT }
+				981 = { add_core_of = ROOT }
+      #Nebraska
+				384 = { add_core_of = ROOT }
+				930 = { add_core_of = ROOT }
+				929 = { add_core_of = ROOT }
+				928 = { add_core_of = ROOT }
+				924 = { add_core_of = ROOT }
+				925 = { add_core_of = ROOT }
+				926 = { add_core_of = ROOT }
+				927 = { add_core_of = ROOT }
+      #Wyoming
+				873 = { add_core_of = ROOT }
+				874 = { add_core_of = ROOT }
+				876 = { add_core_of = ROOT }
+				877 = { add_core_of = ROOT }
+				878 = { add_core_of = ROOT }
+				875 = { add_core_of = ROOT }
+				381 = { add_core_of = ROOT }
+      #Minnesota
+				391 = { add_core_of = ROOT }
+				986 = { add_core_of = ROOT }
+				985 = { add_core_of = ROOT }
+				989 = { add_core_of = ROOT }
+				987 = { add_core_of = ROOT }
+				988 = { add_core_of = ROOT }
+				983 = { add_core_of = ROOT }
+				984 = { add_core_of = ROOT }
+      #South Dakota
+				390 = { add_core_of = ROOT }
+				931 = { add_core_of = ROOT }
+				933 = { add_core_of = ROOT }
+				934 = { add_core_of = ROOT }
+				932 = { add_core_of = ROOT }
+      #North Dakota
+				935 = { add_core_of = ROOT }
+				389 = { add_core_of = ROOT }
+        938 = { add_core_of = ROOT }
+				937 = { add_core_of = ROOT }
+        936 = { add_core_of = ROOT }
+      #Montana
+				388 = { add_core_of = ROOT }
+        871 = { add_core_of = ROOT }
+				869 = { add_core_of = ROOT }
+        870 = { add_core_of = ROOT }
+				872 = { add_core_of = ROOT }
+        867 = { add_core_of = ROOT }
+				868 = { add_core_of = ROOT }
+			}
+			add_war_support = 0.1
+		}
+  }
+#Lakotah
+  Republic_of_Lakotah = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+        or = {
+          original_tag = NEN
+  		    original_tag = WYW
+  		    original_tag = SDS
+          original_tag = NDN
+          original_tag = MTM
+  		  }
+      }
+
+		available = {
+			is_subject = no
+			controls_state = 933
+			controls_state = 934
+			controls_state = 932
+      controls_state = 936
+      controls_state = 871
+      controls_state = 878
+      controls_state = 877
+      controls_state = 876
+      controls_state = 926
+      controls_state = 925
+      controls_state = 924
+      controls_state = 384
+    }
+
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+		  factor = 1
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ROL
+			set_capital = 934
+			add_stability = 0.20
+			custom_effect_tooltip = core_land_usa
+			hidden_effect = {
+				933 = { add_core_of = ROOT }
+				934 = { add_core_of = ROOT }
+				932 = { add_core_of = ROOT }
+				936 = { add_core_of = ROOT }
+				871 = { add_core_of = ROOT }
+				878 = { add_core_of = ROOT }
+				877 = { add_core_of = ROOT }
+				876 = { add_core_of = ROOT }
+				926 = { add_core_of = ROOT }
+				925 = { add_core_of = ROOT }
+				924 = { add_core_of = ROOT }
+        384 = { add_core_of = ROOT }
+				add_war_support = 0.1
+			}
+		}
+	}
+#Colonial Carolina
+  Colonial_Carolina = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+			or = {
+				original_tag = NCN
+				original_tag = SCS
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 1048
+			controls_state = 1041
+			controls_state = 1037
+			controls_state = 1038
+      controls_state = 1001
+    }
+
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+		  factor = 1
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ECC
+			set_capital = 963
+			add_stability = 0.10
+			custom_effect_tooltip = core_land_usa
+			hidden_effect = {
+			#North Carolina
+        363 = { add_core_of = ROOT }
+        1048 = { add_core_of = ROOT }
+        1047 = { add_core_of = ROOT }
+        1046 = { add_core_of = ROOT }
+        1045 = { add_core_of = ROOT }
+        1044 = { add_core_of = ROOT }
+        1043 = { add_core_of = ROOT }
+        1041 = { add_core_of = ROOT }
+        1040 = { add_core_of = ROOT }
+        1042 = { add_core_of = ROOT }
+      #South Carolina
+    		364 = { add_core_of = ROOT }
+        1039 = { add_core_of = ROOT }
+        1036 = { add_core_of = ROOT }
+        1037 = { add_core_of = ROOT }
+        1035 = { add_core_of = ROOT }
+        1038 = { add_core_of = ROOT }
+      #Tennessee
+        1003 = { add_core_of = ROOT }
+        1002 = { add_core_of = ROOT }
+        1001 = { add_core_of = ROOT }
+        368 = { add_core_of = ROOT }
+        1000 = { add_core_of = ROOT }
+				add_war_support = 0.1
+			}
+		}
+  }
+#Colonial Georgia
+  Colonial_Georgia = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+			or = {
+				original_tag = GAG
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 1005
+			controls_state = 1006
+			controls_state = 367
+			controls_state = 1007
+      controls_state = 964
+			controls_state = 966
+			controls_state = 965
+			controls_state = 370
+      controls_state = 967
+    }
+
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+		  factor = 1
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = CGE
+			set_capital = 960
+			add_stability = 0.10
+			custom_effect_tooltip = core_land_usa
+			hidden_effect = {
+			#Georgia
+        1034 = { add_core_of = ROOT }
+        365 = { add_core_of = ROOT }
+        1033 = { add_core_of = ROOT }
+        1028 = { add_core_of = ROOT }
+        1032 = { add_core_of = ROOT }
+        1031 = { add_core_of = ROOT }
+        1029 = { add_core_of = ROOT }
+        1030 = { add_core_of = ROOT }
+      #Alabama
+        1007 = { add_core_of = ROOT }
+        367 = { add_core_of = ROOT }
+        1006 = { add_core_of = ROOT }
+        1005 = { add_core_of = ROOT }
+      #Mississippi
+        967 = { add_core_of = ROOT }
+        966 = { add_core_of = ROOT }
+        964 = { add_core_of = ROOT }
+        965 = { add_core_of = ROOT }
+        370 = { add_core_of = ROOT }
+				add_war_support = 0.1
+			}
+		}
+  }
+#Nation of the Great Plains
+  Nation_of_Great_Plains = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+  			or = {
+  				original_tag = OKO
+  				original_tag = KSK
+  				original_tag = NEN
+  				original_tag = COC
+  				original_tag = NMN
+  				original_tag = WYW
+  				original_tag = MTM
+  				original_tag = NDN
+  				original_tag = SDS
+  				original_tag = MNM
+  				original_tag = IAI
+  				original_tag = MOM
+  			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 375
+			controls_state = 891
+			controls_state = 893
+			controls_state = 374
+			controls_state = 382
+			controls_state = 879
+			controls_state = 922
+			controls_state = 930
+			controls_state = 873
+			controls_state = 874
+			controls_state = 877
+			controls_state = 876
+			controls_state = 934
+			controls_state = 935
+			controls_state = 938
+			controls_state = 936
+      controls_state = 937
+			controls_state = 871
+			controls_state = 388
+      controls_state = 869
+			controls_state = 870
+			controls_state = 872
+      controls_state = 939
+			controls_state = 942
+			controls_state = 469
+      controls_state = 944
+			controls_state = 941
+			controls_state = 940
+      controls_state = 945
+			controls_state = 470
+			controls_state = 843
+      controls_state = 844
+    }
+
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+		  factor = 1
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GPN
+			set_capital = 949
+			add_stability = 0.10
+			custom_effect_tooltip = core_land_usa
+			hidden_effect = {
+			#Texas
+        904 = { add_core_of = ROOT }
+        903 = { add_core_of = ROOT }
+        375 = { add_core_of = ROOT }
+        905 = { add_core_of = ROOT }
+        895 = { add_core_of = ROOT }
+        906 = { add_core_of = ROOT }
+        898 = { add_core_of = ROOT }
+        896 = { add_core_of = ROOT }
+      #Oklahoma
+        907 = { add_core_of = ROOT }
+        908 = { add_core_of = ROOT }
+        909 = { add_core_of = ROOT }
+        374 = { add_core_of = ROOT }
+        912 = { add_core_of = ROOT }
+        910 = { add_core_of = ROOT }
+        913 = { add_core_of = ROOT }
+        911 = { add_core_of = ROOT }
+      #New Mexico
+        891 = { add_core_of = ROOT }
+        893 = { add_core_of = ROOT }
+      #Colorado
+        382 = { add_core_of = ROOT }
+        879 = { add_core_of = ROOT }
+      #Arkansas
+        372 = { add_core_of = ROOT }
+        972 = { add_core_of = ROOT }
+        968 = { add_core_of = ROOT }
+        970 = { add_core_of = ROOT }
+      #Missouri
+        978 = { add_core_of = ROOT }
+        976 = { add_core_of = ROOT }
+        373 = { add_core_of = ROOT }
+        974 = { add_core_of = ROOT }
+      #Kansas
+        919 = { add_core_of = ROOT }
+        918 = { add_core_of = ROOT }
+        920 = { add_core_of = ROOT }
+        917 = { add_core_of = ROOT }
+        383 = { add_core_of = ROOT }
+        916 = { add_core_of = ROOT }
+        923 = { add_core_of = ROOT }
+        914 = { add_core_of = ROOT }
+        922 = { add_core_of = ROOT }
+        921 = { add_core_of = ROOT }
+        915 = { add_core_of = ROOT }
+      #Iowa
+        982 = { add_core_of = ROOT }
+        981 = { add_core_of = ROOT }
+        392 = { add_core_of = ROOT }
+        980 = { add_core_of = ROOT }
+      #Nebraska
+        929 = { add_core_of = ROOT }
+        930 = { add_core_of = ROOT }
+        384 = { add_core_of = ROOT }
+        928 = { add_core_of = ROOT }
+        924 = { add_core_of = ROOT }
+        925 = { add_core_of = ROOT }
+        926 = { add_core_of = ROOT }
+        927 = { add_core_of = ROOT }
+      #South Dakota
+        932 = { add_core_of = ROOT }
+        934 = { add_core_of = ROOT }
+        933 = { add_core_of = ROOT }
+        931 = { add_core_of = ROOT }
+        390 = { add_core_of = ROOT }
+      #Wyoming
+        876 = { add_core_of = ROOT }
+        874 = { add_core_of = ROOT }
+        873 = { add_core_of = ROOT }
+        877 = { add_core_of = ROOT }
+      #North Dakota
+        936 = { add_core_of = ROOT }
+        937 = { add_core_of = ROOT }
+        938 = { add_core_of = ROOT }
+      #Montana
+        871 = { add_core_of = ROOT }
+        388 = { add_core_of = ROOT }
+        869 = { add_core_of = ROOT }
+        870 = { add_core_of = ROOT }
+        872 = { add_core_of = ROOT }
+      #Sasketchewan
+        939 = { add_core_of = ROOT }
+        942 = { add_core_of = ROOT }
+        469 = { add_core_of = ROOT }
+        941 = { add_core_of = ROOT }
+        944 = { add_core_of = ROOT }
+        940 = { add_core_of = ROOT }
+        945 = { add_core_of = ROOT }
+      #Alberta
+        843 = { add_core_of = ROOT }
+        470 = { add_core_of = ROOT }
+				add_war_support = 0.1
+			}
+		}
+  }
+#Four Corners Nation
+  The_Pact_of_the_Four = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+			or = {
+				original_tag = AZA
+				original_tag = NMN
+				original_tag = UTU
+				original_tag = COC
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 802
+			controls_state = 950
+			controls_state = 795
+			controls_state = 839
+    }
+
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+		  factor = 1
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = POF
+			set_capital = 800
+			add_stability = 0.10
+			custom_effect_tooltip = core_land_usa
+			hidden_effect = {
+			#Arizona
+        377 = { add_core_of = ROOT }
+        862 = { add_core_of = ROOT }
+        863 = { add_core_of = ROOT }
+        865 = { add_core_of = ROOT }
+        864 = { add_core_of = ROOT }
+        866 = { add_core_of = ROOT }
+        1155 = { add_core_of = ROOT }
+      #New Mexico
+        893 = { add_core_of = ROOT }
+        886 = { add_core_of = ROOT }
+        892 = { add_core_of = ROOT }
+        891 = { add_core_of = ROOT }
+        890 = { add_core_of = ROOT }
+        887 = { add_core_of = ROOT }
+        376 = { add_core_of = ROOT }
+        888 = { add_core_of = ROOT }
+        889 = { add_core_of = ROOT }
+      #Utah
+        859 = { add_core_of = ROOT }
+        860 = { add_core_of = ROOT }
+        858 = { add_core_of = ROOT }
+        861 = { add_core_of = ROOT }
+        857 = { add_core_of = ROOT }
+        855 = { add_core_of = ROOT }
+        856 = { add_core_of = ROOT }
+        380 = { add_core_of = ROOT }
+      #Colorado
+        882 = { add_core_of = ROOT }
+        883 = { add_core_of = ROOT }
+        884 = { add_core_of = ROOT }
+        881 = { add_core_of = ROOT }
+        885 = { add_core_of = ROOT }
+        880 = { add_core_of = ROOT }
+        879 = { add_core_of = ROOT }
+        382 = { add_core_of = ROOT }
+				add_war_support = 0.1
+			}
+		}
+  }
+#East Coast Union
+  east_coast = {
+
+    icon = generic_form_nation
+
+      allowed = {
+
+      }
+
+      visible = {
+      or = {
+        original_tag = VAV
+        original_tag = WVW
+        original_tag = MDM
+        original_tag = DED
+        original_tag = NJN
+        original_tag = PAP
+        original_tag = NCN
+        original_tag = SCS
+        original_tag = GAG
+        original_tag = NYN
+        original_tag = RIR
+        original_tag = MAM
+        original_tag = CTC
+        original_tag = VTV
+        original_tag = NHN
+        original_tag = MEM
+        original_tag = FLF
+        }
+      }
+
+    available = {
+      is_subject = no
+      controls_state = 1112
+      controls_state = 1108
+      controls_state = 1102
+      controls_state = 1097
+      controls_state = 1094
+      controls_state = 1090
+      controls_state = 1083
+      controls_state = 1077
+      controls_state = 1078
+      controls_state = 1066
+      controls_state = 1070
+      controls_state = 362
+      controls_state = 1056
+      controls_state = 1048
+      controls_state = 1037
+      controls_state = 1030
+      controls_state = 1022
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      set_cosmetic_tag = EAC
+      set_capital = 884
+      add_stability = 0.20
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #Virginia
+      	1052 = { add_core_of = ROOT }
+        1053 = { add_core_of = ROOT }
+      	362 = { add_core_of = ROOT }
+        1051 = { add_core_of = ROOT }
+      	1049 = { add_core_of = ROOT }
+        1050 = { add_core_of = ROOT }
+      #North Carolina
+        363 = { add_core_of = ROOT }
+        1048 = { add_core_of = ROOT }
+        1047 = { add_core_of = ROOT }
+        1046 = { add_core_of = ROOT }
+        1045 = { add_core_of = ROOT }
+        1044 = { add_core_of = ROOT }
+        1043 = { add_core_of = ROOT }
+        1041 = { add_core_of = ROOT }
+        1040 = { add_core_of = ROOT }
+        1042 = { add_core_of = ROOT }
+      #South Carolina
+      	364 = { add_core_of = ROOT }
+        1039 = { add_core_of = ROOT }
+        1036 = { add_core_of = ROOT }
+        1037 = { add_core_of = ROOT }
+        1035 = { add_core_of = ROOT }
+        1038 = { add_core_of = ROOT }
+      #Georgia
+        1034 = { add_core_of = ROOT }
+        365 = { add_core_of = ROOT }
+        1033 = { add_core_of = ROOT }
+        1028 = { add_core_of = ROOT }
+        1032 = { add_core_of = ROOT }
+        1031 = { add_core_of = ROOT }
+        1029 = { add_core_of = ROOT }
+        1030 = { add_core_of = ROOT }
+      #Florida
+        1027 = { add_core_of = ROOT }
+        366 = { add_core_of = ROOT }
+        1026 = { add_core_of = ROOT }
+        1024 = { add_core_of = ROOT }
+        1025 = { add_core_of = ROOT }
+        1022 = { add_core_of = ROOT }
+        1023 = { add_core_of = ROOT }
+      #Maine
+        1116 = { add_core_of = ROOT }
+        357 = { add_core_of = ROOT }
+        1115 = { add_core_of = ROOT }
+        1114 = { add_core_of = ROOT }
+        1113 = { add_core_of = ROOT }
+        1112 = { add_core_of = ROOT }
+      #New Hampshire
+        1111 = { add_core_of = ROOT }
+        1110 = { add_core_of = ROOT }
+        1108 = { add_core_of = ROOT }
+        1109 = { add_core_of = ROOT }
+        1107 = { add_core_of = ROOT }
+      #Vermont
+        1106 = { add_core_of = ROOT }
+        1105 = { add_core_of = ROOT }
+        1104 = { add_core_of = ROOT }
+        1103 = { add_core_of = ROOT }
+      #Massachusetts
+        1102 = { add_core_of = ROOT }
+        1100 = { add_core_of = ROOT }
+        1099 = { add_core_of = ROOT }
+        1098 = { add_core_of = ROOT }
+        1101 = { add_core_of = ROOT }
+      #Rhode Island
+        1097 = { add_core_of = ROOT }
+      #Connecticut
+        1096 = { add_core_of = ROOT }
+        1094 = { add_core_of = ROOT }
+        1095 = { add_core_of = ROOT }
+      #New York
+        1092 = { add_core_of = ROOT }
+        1093 = { add_core_of = ROOT }
+        1091 = { add_core_of = ROOT }
+        1090 = { add_core_of = ROOT }
+        358 = { add_core_of = ROOT }
+        1087 = { add_core_of = ROOT }
+        1088 = { add_core_of = ROOT }
+        1098 = { add_core_of = ROOT }
+        1086 = { add_core_of = ROOT }
+        1084 = { add_core_of = ROOT }
+        1085 = { add_core_of = ROOT }
+        1089 = { add_core_of = ROOT }
+      #New Jersey
+    		1083 = { add_core_of = ROOT }
+    		1082 = { add_core_of = ROOT }
+    		359 = { add_core_of = ROOT }
+    		1081 = { add_core_of = ROOT }
+      #Pennsylvania
+    		1076 = { add_core_of = ROOT }
+    		1075 = { add_core_of = ROOT }
+    		1077 = { add_core_of = ROOT }
+    		971 = { add_core_of = ROOT }
+    		1074 = { add_core_of = ROOT }
+    		360 = { add_core_of = ROOT }
+    		1071 = { add_core_of = ROOT }
+    		1072 = { add_core_of = ROOT }
+    		1073 = { add_core_of = ROOT }
+      #Delaware
+    		1080 = { add_core_of = ROOT }
+    		1078 = { add_core_of = ROOT }
+        1079 = { add_core_of = ROOT }
+      #Maryland
+    		1067 = { add_core_of = ROOT }
+        1068 = { add_core_of = ROOT }
+    		361 = { add_core_of = ROOT }
+        1066 = { add_core_of = ROOT }
+    		1069 = { add_core_of = ROOT }
+      #West Virginia
+        1057 = { add_core_of = ROOT }
+    		1058 = { add_core_of = ROOT }
+        1055 = { add_core_of = ROOT }
+    		1056 = { add_core_of = ROOT }
+        1054 = { add_core_of = ROOT }
+      }
+    }
+  }
+#Great Lakes Nation
+  great_lakes = {
+
+    icon = generic_form_nation
+
+    allowed = {
+
+    }
+
+    visible = {
+    	or = {
+    		original_tag = OHO
+    	}
+    }
+
+    available = {
+    	is_subject = no
+      controls_state = 1014
+      controls_state = 995
+      controls_state = 992
+      controls_state = 993
+      controls_state = 991
+      controls_state = 994
+      controls_state = 1021
+      controls_state = 394
+      controls_state = 931
+      controls_state = 1118
+      controls_state = 1119
+      controls_state = 1120
+      controls_state = 682
+      controls_state = 276
+      controls_state = 1135
+      controls_state = 1093
+      controls_state = 1097
+      controls_state = 1088
+      controls_state = 1073
+      controls_state = 882
+      controls_state = 1060
+      controls_state = 1065
+      controls_state = 1062
+      controls_state = 1061
+      controls_state = 1018
+      controls_state = 1017
+      controls_state = 393
+      controls_state = 1019
+      controls_state = 1020
+    }
+
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+    	factor = 1
+    }
+
+    complete_effect = {
+    	set_cosmetic_tag = GLN
+    	add_stability = 0.10
+    	hidden_effect = {
+        add_state_core = 1014
+        add_state_core = 995
+        add_state_core = 992
+        add_state_core = 993
+        add_state_core = 991
+        add_state_core = 994
+        add_state_core = 1021
+        add_state_core = 394
+        add_state_core = 931
+        add_state_core = 1118
+        add_state_core = 1119
+        add_state_core = 1120
+        add_state_core = 682
+        add_state_core = 276
+        add_state_core = 1135
+        add_state_core = 1093
+        add_state_core = 1097
+        add_state_core = 1088
+        add_state_core = 1073
+        add_state_core = 882
+        add_state_core = 1060
+        add_state_core = 1065
+        add_state_core = 1062
+        add_state_core = 1061
+        add_state_core = 1018
+        add_state_core = 1017
+        add_state_core = 393
+        add_state_core = 1019
+        add_state_core = 1020
+    		add_war_support = 0.1
+    	}
+    }
+  }
+#United Dakota
+  United_Dakota = {
+
+    icon = generic_form_nation
+
+    allowed = {
+
+    }
+
+    visible = {
+      or = {
+        original_tag = SDS
+        original_tag = NDN
+      }
+    }
+
+    available = {
+      is_subject = no
+      controls_state = 935
+      controls_state = 934
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    complete_effect = {
+      set_cosmetic_tag = UDU
+      set_capital = 934
+      add_stability = 0.10
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #North Dakota
+        936 = { add_core_of = ROOT }
+        937 = { add_core_of = ROOT }
+        938 = { add_core_of = ROOT }
+        389 = { add_core_of = ROOT }
+        935 = { add_core_of = ROOT }
+      #South Dakota
+        932 = { add_core_of = ROOT }
+        934 = { add_core_of = ROOT }
+        933 = { add_core_of = ROOT }
+        931 = { add_core_of = ROOT }
+        390 = { add_core_of = ROOT }
+        add_war_support = 0.1
+      }
+    }
+  }
+#United States of America
+  united_states_america = {
+    icon = generic_form_nation
+    allowed = {
+
+    }
+    visible = {
+      or = {
+        original_tag = ALA
+        original_tag = AKA
+        original_tag = AZA
+        original_tag = ARA
+        original_tag = CAC
+        original_tag = COC
+        original_tag = CTC
+        original_tag = DED
+        original_tag = DCD
+        original_tag = FLF
+        original_tag = GAG
+        original_tag = HIH
+        original_tag = IDI
+        original_tag = ILI
+        original_tag = INI
+        original_tag = IAI
+        original_tag = KSK
+        original_tag = KYK
+        original_tag = LAL
+        original_tag = MEM
+        original_tag = MDM
+        original_tag = MAM
+        original_tag = MIM
+        original_tag = MNM
+        original_tag = MSM
+        original_tag = MOM
+        original_tag = MTM
+        original_tag = NEN
+        original_tag = NVN
+        original_tag = NHN
+        original_tag = NJN
+        original_tag = NMN
+        original_tag = NYN
+        original_tag = NCN
+        original_tag = NCN
+        original_tag = NDN
+        original_tag = OHO
+        original_tag = OKO
+        original_tag = ORO
+        original_tag = PAP
+        original_tag = RIR
+        original_tag = SCS
+        original_tag = TNT
+        original_tag = TXT
+        original_tag = VTV
+        original_tag = VAV
+        original_tag = WAW
+        original_tag = WVW
+        original_tag = WIW
+        original_tag = WYW
+        original_tag = UTU
+      }
+    }
+    available = {
+      is_subject = no
+      controls_state = 1114
+      controls_state = 1108
+      controls_state = 1105
+      controls_state = 1102
+      controls_state = 1097
+      controls_state = 1094
+      controls_state = 1090
+      controls_state = 359
+      controls_state = 1077
+      controls_state = 1078
+      controls_state = 1066
+      controls_state = 1070
+      controls_state = 1056
+      controls_state = 362
+      controls_state = 1048
+      controls_state = 1038
+      controls_state = 1030
+      controls_state = 1022
+      controls_state = 1004
+      controls_state = 261
+      controls_state = 369
+      controls_state = 1012
+      controls_state = 1018
+      controls_state = 395
+      controls_state = 992
+      controls_state = 1001
+      controls_state = 965
+      controls_state = 962
+      controls_state = 968
+      controls_state = 974
+      controls_state = 980
+      controls_state = 985
+      controls_state = 936
+      controls_state = 933
+      controls_state = 930
+      controls_state = 922
+      controls_state = 374
+      controls_state = 375
+      controls_state = 886
+      controls_state = 879
+      controls_state = 873
+      controls_state = 872
+      controls_state = 850
+      controls_state = 855
+      controls_state = 864
+      controls_state = 810
+      controls_state = 798
+      controls_state = 815
+      controls_state = 820
+    }
+
+    cost = 100
+
+    fire_only_once = yes
+
+    ai_will_do = {
+      factor = 100
+    }
+
+    complete_effect = {
+      set_cosmetic_tag = USA
+      set_capital = 1070
+      add_stability = 0.10
+      custom_effect_tooltip = core_land_usa
+      hidden_effect = {
+      #Maine
+        1116 = { add_core_of = ROOT }
+        357 = { add_core_of = ROOT }
+        1115 = { add_core_of = ROOT }
+        1114 = { add_core_of = ROOT }
+        1113 = { add_core_of = ROOT }
+        1112 = { add_core_of = ROOT }
+      #New Hampshire
+        1111 = { add_core_of = ROOT }
+        1110 = { add_core_of = ROOT }
+        1108 = { add_core_of = ROOT }
+        1109 = { add_core_of = ROOT }
+        1107 = { add_core_of = ROOT }
+      #Vermont
+        1106 = { add_core_of = ROOT }
+        1105 = { add_core_of = ROOT }
+        1104 = { add_core_of = ROOT }
+        1103 = { add_core_of = ROOT }
+      #Massachusetts
+        1102 = { add_core_of = ROOT }
+        1100 = { add_core_of = ROOT }
+        1099 = { add_core_of = ROOT }
+        1098 = { add_core_of = ROOT }
+        1101 = { add_core_of = ROOT }
+      #Rhode Island
+        1097 = { add_core_of = ROOT }
+      #Connecticut
+        1096 = { add_core_of = ROOT }
+        1094 = { add_core_of = ROOT }
+        1095 = { add_core_of = ROOT }
+      #New York
+        1092 = { add_core_of = ROOT }
+        1093 = { add_core_of = ROOT }
+        1091 = { add_core_of = ROOT }
+        1090 = { add_core_of = ROOT }
+        358 = { add_core_of = ROOT }
+        1087 = { add_core_of = ROOT }
+        1088 = { add_core_of = ROOT }
+        1098 = { add_core_of = ROOT }
+        1086 = { add_core_of = ROOT }
+        1084 = { add_core_of = ROOT }
+        1085 = { add_core_of = ROOT }
+        1089 = { add_core_of = ROOT }
+      #New Jersey
+      	1083 = { add_core_of = ROOT }
+      	1082 = { add_core_of = ROOT }
+      	359 = { add_core_of = ROOT }
+      	1081 = { add_core_of = ROOT }
+      #Pennsylvania
+      	1076 = { add_core_of = ROOT }
+      	1075 = { add_core_of = ROOT }
+      	1077 = { add_core_of = ROOT }
+      	971 = { add_core_of = ROOT }
+      	1074 = { add_core_of = ROOT }
+      	360 = { add_core_of = ROOT }
+      	1071 = { add_core_of = ROOT }
+      	1072 = { add_core_of = ROOT }
+      	1073 = { add_core_of = ROOT }
+      #Delaware
+      	1080 = { add_core_of = ROOT }
+      	1078 = { add_core_of = ROOT }
+        1079 = { add_core_of = ROOT }
+      #Maryland
+      	1067 = { add_core_of = ROOT }
+        1068 = { add_core_of = ROOT }
+      	361 = { add_core_of = ROOT }
+        1066 = { add_core_of = ROOT }
+      	1069 = { add_core_of = ROOT }
+      #West Virginia
+        1057 = { add_core_of = ROOT }
+      	1058 = { add_core_of = ROOT }
+        1055 = { add_core_of = ROOT }
+      	1056 = { add_core_of = ROOT }
+        1054 = { add_core_of = ROOT }
+      #Virginia
+        1052 = { add_core_of = ROOT }
+        1053 = { add_core_of = ROOT }
+        362 = { add_core_of = ROOT }
+        1051 = { add_core_of = ROOT }
+      	1049 = { add_core_of = ROOT }
+        1050 = { add_core_of = ROOT }
+      #North Carolina
+        363 = { add_core_of = ROOT }
+        1048 = { add_core_of = ROOT }
+      	1047 = { add_core_of = ROOT }
+        1046 = { add_core_of = ROOT }
+      	1045 = { add_core_of = ROOT }
+        1044 = { add_core_of = ROOT }
+        1043 = { add_core_of = ROOT }
+        1041 = { add_core_of = ROOT }
+      	1040 = { add_core_of = ROOT }
+        1042 = { add_core_of = ROOT }
+      #South Carolina
+        364 = { add_core_of = ROOT }
+        1039 = { add_core_of = ROOT }
+        1036 = { add_core_of = ROOT }
+        1037 = { add_core_of = ROOT }
+        1035 = { add_core_of = ROOT }
+        1038 = { add_core_of = ROOT }
+      #Georgia
+        1034 = { add_core_of = ROOT }
+        365 = { add_core_of = ROOT }
+        1033 = { add_core_of = ROOT }
+        1028 = { add_core_of = ROOT }
+        1032 = { add_core_of = ROOT }
+        1031 = { add_core_of = ROOT }
+        1029 = { add_core_of = ROOT }
+        1030 = { add_core_of = ROOT }
+      #Florida
+        1027 = { add_core_of = ROOT }
+        366 = { add_core_of = ROOT }
+        1026 = { add_core_of = ROOT }
+        1024 = { add_core_of = ROOT }
+        1025 = { add_core_of = ROOT }
+        1022 = { add_core_of = ROOT }
+        1023 = { add_core_of = ROOT }
+      #Tennessee
+        1003 = { add_core_of = ROOT }
+        1002 = { add_core_of = ROOT }
+        1001 = { add_core_of = ROOT }
+        368 = { add_core_of = ROOT }
+        1000 = { add_core_of = ROOT }
+      #Alabama
+        1007 = { add_core_of = ROOT }
+        367 = { add_core_of = ROOT }
+        1006 = { add_core_of = ROOT }
+        1005 = { add_core_of = ROOT }
+        1004 = { add_core_of = ROOT }
+      #Mississippi
+        967 = { add_core_of = ROOT }
+        966 = { add_core_of = ROOT }
+        964 = { add_core_of = ROOT }
+        963 = { add_core_of = ROOT }
+        965 = { add_core_of = ROOT }
+        370 = { add_core_of = ROOT }
+      #Arkansas
+        372 = { add_core_of = ROOT }
+        969 = { add_core_of = ROOT }
+        970 = { add_core_of = ROOT }
+        968 = { add_core_of = ROOT }
+        972 = { add_core_of = ROOT }
+        971 = { add_core_of = ROOT }
+      #Louisiana
+        962 = { add_core_of = ROOT }
+        961 = { add_core_of = ROOT }
+        960 = { add_core_of = ROOT }
+        959 = { add_core_of = ROOT }
+        958 = { add_core_of = ROOT }
+        371 = { add_core_of = ROOT }
+      #Texas
+        899 = { add_core_of = ROOT }
+        900 = { add_core_of = ROOT }
+        894 = { add_core_of = ROOT }
+        906 = { add_core_of = ROOT }
+        895 = { add_core_of = ROOT }
+        904 = { add_core_of = ROOT }
+        905 = { add_core_of = ROOT }
+        375 = { add_core_of = ROOT }
+        903 = { add_core_of = ROOT }
+        896 = { add_core_of = ROOT }
+        898 = { add_core_of = ROOT }
+        897 = { add_core_of = ROOT }
+        902 = { add_core_of = ROOT }
+        901 = { add_core_of = ROOT }
+      #Oklahoma
+        907 = { add_core_of = ROOT }
+        908 = { add_core_of = ROOT }
+        909 = { add_core_of = ROOT }
+        374 = { add_core_of = ROOT }
+        912 = { add_core_of = ROOT }
+        910 = { add_core_of = ROOT }
+        913 = { add_core_of = ROOT }
+        911 = { add_core_of = ROOT }
+      #Arizona
+        377 = { add_core_of = ROOT }
+        862 = { add_core_of = ROOT }
+        863 = { add_core_of = ROOT }
+        865 = { add_core_of = ROOT }
+        864 = { add_core_of = ROOT }
+        866 = { add_core_of = ROOT }
+        1155 = { add_core_of = ROOT }
+      #New Mexico
+        893 = { add_core_of = ROOT }
+        886 = { add_core_of = ROOT }
+        892 = { add_core_of = ROOT }
+        891 = { add_core_of = ROOT }
+        890 = { add_core_of = ROOT }
+        887 = { add_core_of = ROOT }
+        376 = { add_core_of = ROOT }
+        888 = { add_core_of = ROOT }
+        889 = { add_core_of = ROOT }
+      #Utah
+        859 = { add_core_of = ROOT }
+        860 = { add_core_of = ROOT }
+        858 = { add_core_of = ROOT }
+        861 = { add_core_of = ROOT }
+        857 = { add_core_of = ROOT }
+        855 = { add_core_of = ROOT }
+        856 = { add_core_of = ROOT }
+        380 = { add_core_of = ROOT }
+      #Colorado
+        882 = { add_core_of = ROOT }
+        883 = { add_core_of = ROOT }
+        884 = { add_core_of = ROOT }
+        881 = { add_core_of = ROOT }
+        885 = { add_core_of = ROOT }
+        880 = { add_core_of = ROOT }
+        879 = { add_core_of = ROOT }
+        382 = { add_core_of = ROOT }
+      #Kansas
+        919 = { add_core_of = ROOT }
+        918 = { add_core_of = ROOT }
+        920 = { add_core_of = ROOT }
+        917 = { add_core_of = ROOT }
+        383 = { add_core_of = ROOT }
+        916 = { add_core_of = ROOT }
+        923 = { add_core_of = ROOT }
+        914 = { add_core_of = ROOT }
+        922 = { add_core_of = ROOT }
+        921 = { add_core_of = ROOT }
+        915 = { add_core_of = ROOT }
+      #Iowa
+        982 = { add_core_of = ROOT }
+        981 = { add_core_of = ROOT }
+        392 = { add_core_of = ROOT }
+        980 = { add_core_of = ROOT }
+        979 = { add_core_of = ROOT }
+      #Nebraska
+        929 = { add_core_of = ROOT }
+        930 = { add_core_of = ROOT }
+        384 = { add_core_of = ROOT }
+        928 = { add_core_of = ROOT }
+        924 = { add_core_of = ROOT }
+        925 = { add_core_of = ROOT }
+        926 = { add_core_of = ROOT }
+        927 = { add_core_of = ROOT }
+      #North Dakota
+        936 = { add_core_of = ROOT }
+        937 = { add_core_of = ROOT }
+        938 = { add_core_of = ROOT }
+        389 = { add_core_of = ROOT }
+        935 = { add_core_of = ROOT }
+      #South Dakota
+        932 = { add_core_of = ROOT }
+        934 = { add_core_of = ROOT }
+        933 = { add_core_of = ROOT }
+        931 = { add_core_of = ROOT }
+        390 = { add_core_of = ROOT }
+      #Wyoming
+  			873 = { add_core_of = ROOT }
+  			874 = { add_core_of = ROOT }
+  			876 = { add_core_of = ROOT }
+  			877 = { add_core_of = ROOT }
+  			878 = { add_core_of = ROOT }
+  			875 = { add_core_of = ROOT }
+  			381 = { add_core_of = ROOT }
+      #Minnesota
+  			391 = { add_core_of = ROOT }
+  			986 = { add_core_of = ROOT }
+  			985 = { add_core_of = ROOT }
+  			989 = { add_core_of = ROOT }
+  			987 = { add_core_of = ROOT }
+  			988 = { add_core_of = ROOT }
+  			983 = { add_core_of = ROOT }
+  			984 = { add_core_of = ROOT }
+      #Missouri
+  			973 = { add_core_of = ROOT }
+  			974 = { add_core_of = ROOT }
+  			373 = { add_core_of = ROOT }
+  			975 = { add_core_of = ROOT }
+  			977 = { add_core_of = ROOT }
+  			373 = { add_core_of = ROOT }
+  			976 = { add_core_of = ROOT }
+  			977 = { add_core_of = ROOT }
+  			978 = { add_core_of = ROOT }
+      #Arkansas
+        372 = { add_core_of = ROOT }
+        969 = { add_core_of = ROOT }
+        970 = { add_core_of = ROOT }
+        968 = { add_core_of = ROOT }
+        972 = { add_core_of = ROOT }
+        971 = { add_core_of = ROOT }
+      #Ohio
+        1064 = { add_core_of = ROOT }
+        1060 = { add_core_of = ROOT }
+        1065 = { add_core_of = ROOT }
+        1059 = { add_core_of = ROOT }
+        261 = { add_core_of = ROOT }
+        1063 = { add_core_of = ROOT }
+        1062 = { add_core_of = ROOT }
+        1061 = { add_core_of = ROOT }
+      #Michigan
+        1017 = { add_core_of = ROOT }
+        1018 = { add_core_of = ROOT }
+        1020 = { add_core_of = ROOT }
+        1019 = { add_core_of = ROOT }
+        393 = { add_core_of = ROOT }
+        1021 = { add_core_of = ROOT }
+      #Indiana
+        396 = { add_core_of = ROOT }
+        1014 = { add_core_of = ROOT }
+        1013 = { add_core_of = ROOT }
+        1012 = { add_core_of = ROOT }
+        1016 = { add_core_of = ROOT }
+        1015 = { add_core_of = ROOT }
+      #Illinois
+        995 = { add_core_of = ROOT }
+        996 = { add_core_of = ROOT }
+        999 = { add_core_of = ROOT }
+        997 = { add_core_of = ROOT }
+        395 = { add_core_of = ROOT }
+        998 = { add_core_of = ROOT }
+      #Wisconsin
+        993 = { add_core_of = ROOT }
+        992 = { add_core_of = ROOT }
+        991 = { add_core_of = ROOT }
+        994 = { add_core_of = ROOT }
+        990 = { add_core_of = ROOT }
+        394 = { add_core_of = ROOT }
+      #California
+        378 = { add_core_of = ROOT }
+        797 = { add_core_of = ROOT }
+        798 = { add_core_of = ROOT }
+        799 = { add_core_of = ROOT }
+        800 = { add_core_of = ROOT }
+        805 = { add_core_of = ROOT }
+        806 = { add_core_of = ROOT }
+        804 = { add_core_of = ROOT }
+        803 = { add_core_of = ROOT }
+        801 = { add_core_of = ROOT }
+        802 = { add_core_of = ROOT }
+      #Oregon
+        813 = { add_core_of = ROOT }
+        812 = { add_core_of = ROOT }
+        815 = { add_core_of = ROOT }
+        814 = { add_core_of = ROOT }
+        816 = { add_core_of = ROOT }
+        811 = { add_core_of = ROOT }
+        385 = { add_core_of = ROOT }
+      #Washington
+        821 = { add_core_of = ROOT }
+        386 = { add_core_of = ROOT }
+        817 = { add_core_of = ROOT }
+        820 = { add_core_of = ROOT }
+        818 = { add_core_of = ROOT }
+        819 = { add_core_of = ROOT }
+      #Alaska
+        831 = { add_core_of = ROOT }
+        830 = { add_core_of = ROOT }
+        463 = { add_core_of = ROOT }
+        832 = { add_core_of = ROOT }
+        833 = { add_core_of = ROOT }
+        835 = { add_core_of = ROOT }
+        834 = { add_core_of = ROOT }
+      #Nevada
+        807 = { add_core_of = ROOT }
+        379 = { add_core_of = ROOT }
+        808 = { add_core_of = ROOT }
+        809 = { add_core_of = ROOT }
+        810 = { add_core_of = ROOT }
+      #Montana
+  			388 = { add_core_of = ROOT }
+        871 = { add_core_of = ROOT }
+  			869 = { add_core_of = ROOT }
+        870 = { add_core_of = ROOT }
+  			872 = { add_core_of = ROOT }
+        867 = { add_core_of = ROOT }
+  			868 = { add_core_of = ROOT }
+      #Idaho
+        387 = { add_core_of = ROOT }
+        849 = { add_core_of = ROOT }
+  			850 = { add_core_of = ROOT }
+        851 = { add_core_of = ROOT }
+  			854 = { add_core_of = ROOT }
+        853 = { add_core_of = ROOT }
+  			852 = { add_core_of = ROOT }
+      #Kentucky
+        1011 = { add_core_of = ROOT }
+        369 = { add_core_of = ROOT }
+  			1010 = { add_core_of = ROOT }
+        1009 = { add_core_of = ROOT }
+  			1008 = { add_core_of = ROOT }
+      #Hawaii
+        629 = { add_core_of = ROOT }
+        1152 = { add_core_of = ROOT }
+  			1153 = { add_core_of = ROOT }
+        1154 = { add_core_of = ROOT } 
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=391
+	name="Arrowhead"
+	resources={
+		steel=110.000
+	}
+
+	history={
+		owner = MIN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+
+		}
+		add_core_of = MIN
+		victory_points = {
+			1734 1
+		}
+		victory_points = {
+			14237 1
+		}
+	}
+	provinces={
+		1734 6767 7896 14237
+	}
+	manpower=163952
+	buildings_max_level_factor=1.000
+	state_category=city
+}

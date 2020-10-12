@@ -1,0 +1,31 @@
+state={
+	id=849
+	name="Nez Pierce"
+	resources = {
+		chromium = 10.000
+		steel = 5.000
+	}
+	history = {
+		owner = BOI
+		add_core_of BOI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			14064 3
+		}
+		victory_points = {
+			14071 1
+		}
+		victory_points = {
+			14107 3
+		}
+	}
+	provinces={
+		7845 14053 14064 14071 14107 14108
+	}
+	manpower=52146
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

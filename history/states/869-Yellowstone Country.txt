@@ -1,0 +1,22 @@
+
+state={
+	id=869
+	name="Upper Yellowstone"
+	history = {
+		owner = WDC
+		add_core_of = WDC
+		add_core_of = YWS
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			12585 5
+		}
+	}
+	provinces={
+		1851 4741 4857 7760 12585 14087 14114 14127
+	}
+	manpower=21456
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

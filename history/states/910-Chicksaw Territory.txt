@@ -1,0 +1,21 @@
+state={
+	id=910
+	name="Ardmore"
+	history = {
+		owner = OKC
+		add_core_of = OKC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			8025 1
+		}
+	}
+	provinces={
+		8025 13601
+	}
+	manpower=35214
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

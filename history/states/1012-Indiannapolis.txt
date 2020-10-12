@@ -1,0 +1,35 @@
+state={
+	id=1012
+	name="Indiannapolis"
+	history = {
+		owner = INI
+		add_core_of = INI
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			13836 10
+		}
+		victory_points = {
+			13824 3
+		}
+		victory_points = {
+			13827 3
+		}
+		victory_points = {
+			13835 1
+		}
+		victory_points = {
+			1595 1
+		}
+
+	}
+	provinces={
+		1595 13823 13824 13827 13835 13836 13842
+	}
+	manpower=1204510
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

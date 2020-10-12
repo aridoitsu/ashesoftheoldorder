@@ -1,0 +1,23 @@
+state={
+	id=1099
+	name="Pioneer"
+	manpower= 543231
+	state_category=rural
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = CRA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			#industrial_complex = 1
+		}
+		add_core_of = CRA
+	}
+	provinces={
+		715 3710 13953 13963
+	}
+	buildings_max_level_factor=1.000
+}

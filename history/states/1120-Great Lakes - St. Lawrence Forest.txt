@@ -1,0 +1,18 @@
+state={
+	id=1120
+	name="Great Lakes - St. Lawrence Forest"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		602 1299 4784 4869 12582 14180 14204 14215 14230 14246 14253 14265 14269 14283 14300 14301 14303 14310 14313 14330 14331 14340 14341 14368 14371 14372 14417 14479 
+	}
+	manpower=142319
+	buildings_max_level_factor=1.000
+	state_category = town
+}

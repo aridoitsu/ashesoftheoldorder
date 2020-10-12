@@ -1,0 +1,26 @@
+state={
+	id=964
+	name="Pine Belt"
+	resources={
+		oil=5
+		aluminium=5
+	}
+	history={
+		owner = CON
+		add_core_of = CON
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 3
+		}
+		victory_points = {
+			1615 3
+		}
+	}
+	provinces={
+		1615 4650 10449
+	}
+	manpower=211410
+	buildings_max_level_factor=1.000
+	state_category = town
+}

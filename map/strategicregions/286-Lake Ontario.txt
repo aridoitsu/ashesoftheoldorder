@@ -1,0 +1,10 @@
+strategic_region={
+	id=286
+	name="Lake Ontario"
+	provinces={
+		13157 
+	}
+	naval_terrain=water_shallow_sea
+	weather={
+	}
+}

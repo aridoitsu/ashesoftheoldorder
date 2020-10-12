@@ -1,0 +1,21 @@
+state={
+	id=966
+	name="Meridian"
+	history={
+		owner = CON
+		add_core_of = CON
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+		victory_points = {
+			12429 1
+		}
+	}
+	provinces={
+		8110 12429
+	}
+	manpower=301245
+	buildings_max_level_factor=1.000
+	state_category = town
+}

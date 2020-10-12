@@ -1,0 +1,23 @@
+state={
+	id=1124
+	name="Bathurst"
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
+			14285 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		4432 14232 14233 14248 14255 14268 14285 14305
+	}
+	manpower= 598193
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

@@ -1,0 +1,18 @@
+state={
+	id=955
+	name="Parkland"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		4218 14603 14659 14665 14671 14696 14708 14734 14736 14737 
+	}
+	manpower=35210
+	buildings_max_level_factor=1.000
+	state_category = town
+}

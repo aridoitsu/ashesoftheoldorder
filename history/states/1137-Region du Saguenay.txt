@@ -1,0 +1,19 @@
+state={
+	id=1137
+	name="Région du Sanguenay"
+	history={
+		owner = QBC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			}
+		add_core_of = QBC
+	}
+	provinces={
+		490 1657 3911 4769 7807 7893 14429 14435 14439 14472 14480 14481 14482 14502 14503 14512 14529 14530 14541 14549 14550 14558 14590 14597 14598 14599 14622 14636 14637 14656 14661 14681 14682 14704 14728 14748 14749 14750 14752 14797 14814 14821 14830 14836 14837
+	}
+	manpower=289732
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

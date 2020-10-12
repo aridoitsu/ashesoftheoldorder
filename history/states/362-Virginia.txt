@@ -1,0 +1,41 @@
+
+state={
+	id=362
+	name="Richmond"
+	resources={
+		steel=14.000
+	}
+
+	history={
+		owner = VAV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 3
+			air_base = 6
+		}
+		add_core_of = VAV
+		victory_points = {
+			13746 15
+		}
+		victory_points = {
+			13752 1
+		}
+		victory_points = {
+			13737 1
+		}
+		victory_points = {
+			13732 1
+		}
+		victory_points = {
+			13736 1
+		}
+	}
+
+	provinces={
+		13732 13736 13737 13746 13752
+	}
+	manpower=2551054
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

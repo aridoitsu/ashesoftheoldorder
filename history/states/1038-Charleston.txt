@@ -1,0 +1,31 @@
+state={
+	id=1038
+	name="Charleston"
+	history = {
+		owner = CON
+		add_core_of = CON
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			13548 20
+		}
+		victory_points = {
+			13556 1
+		}
+		victory_points = {
+			13546 5
+		}
+		victory_points = {
+			13558 1
+		}
+	}
+	provinces={
+		13546 13548 13556 13558 7202
+	}
+	manpower=1423014
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

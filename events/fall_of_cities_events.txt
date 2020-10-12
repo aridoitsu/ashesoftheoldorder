@@ -1,0 +1,575 @@
+﻿add_namespace = fallofcities
+
+#Fall Of Kansas City (Kansas takes over missouri)
+news_event = {
+  id = fallofcities.500
+  title = fallofcities.500.t
+  desc = fallofcities.500.d
+  picture = GFX_news_event_KC
+
+  major = yes
+
+  trigger = {
+    903 = { is_controlled_by = KSK}
+    903 = { is_owned_by = MOM }
+    KSK = { has_war_with = MOM}
+    NOT = { has_global_flag = fall_of_kc_kansas }
+  }
+
+  immediate = {
+		set_global_flag = fall_of_kc_kansas
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.500.a
+    trigger = {
+      NOT = {
+        TAG = KSK
+        TAG = MOM
+      }
+    }
+  }
+  option = {
+    name = fallofcities.500.b
+    trigger = { TAG = KSK }
+  }
+  option = {
+    name = fallofcities.500.c
+    trigger = { TAG = MOM}
+  }
+}
+
+#Fall Of Kansas City (Missouri Takes over Kansas)
+news_event = {
+  id = fallofcities.506
+  title = fallofcities.506.t
+  desc = fallofcities.506.d
+  picture = GFX_news_event_KC
+
+  major = yes
+
+  trigger = {
+    902 = { is_controlled_by = MOM}
+    902 = { is_owned_by = KSK }
+    MOM = { has_war_with = KSK}
+    NOT = { has_global_flag = fall_of_kc_missouri }
+  }
+
+  immediate = {
+		set_global_flag = fall_of_kc_missouri
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.506.a
+    trigger = { TAG = MOM}
+  }
+  option = {
+    name = fallofcities.506.b
+    trigger = { TAG = KSK }
+  }
+  option = {
+    name = fallofcities.506.c
+    trigger = {
+      NOT = {
+        TAG = KSK
+        TAG = MOM
+      }
+    }
+  }
+}
+
+#Fall Of Las Vegas (Cali takes Las Vegas)
+news_event = {
+  id = fallofcities.501
+  title = fallofcities.501.t
+  desc = fallofcities.501.d
+  picture = GFX_news_event_polish_resistance_warsaw
+
+  major = yes
+
+  trigger = {
+    975 = { is_controlled_by = CAC}
+    975 = { is_owned_by = NVN }
+    CAC = { has_war_with = NVN}
+    NOT = { has_global_flag = fall_of_las_vegas }
+  }
+
+  immediate = {
+		set_global_flag = fall_of_las_vegas
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.501.a
+    trigger = {
+      NOT = {
+        TAG = CAC
+        TAG = NVN
+      }
+    }
+  }
+  option = {
+    name = fallofcities.501.b
+    trigger = { TAG = CAC }
+  }
+  option = {
+    name = fallofcities.501.c
+    trigger = { TAG = NVN}
+  }
+}
+
+#Fall Of Los Angeles (Kansas takes over L.A.)
+news_event = {
+  id = fallofcities.502
+  title = fallofcities.502.t
+  desc = fallofcities.502.d
+  picture = GFX_news_event_LA
+
+  major = yes
+
+  trigger = {
+    798 = { is_controlled_by = KSK}
+    798 = { is_owned_by = CAC }
+    KSK = { has_war_with = CAC}
+    NOT = { has_global_flag = fall_of_la_kansas }
+  }
+
+  immediate = {
+		set_global_flag = fall_of_la_kansas
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.502.a
+    trigger = { TAG = KSK }
+  }
+  option = {
+    name = fallofcities.502.b
+    trigger = { TAG = CAC }
+  }
+  option = {
+    name = fallofcities.502.c
+    trigger = {
+      NOT = {
+        TAG = KSK
+        TAG = CAC
+      }
+    }
+  }
+}
+
+#Fall Of Sacramento (Kansas takes over Sacramento)
+news_event = {
+  id = fallofcities.503
+  title = fallofcities.503.t
+  desc = fallofcities.503.d
+  picture = GFX_news_event_sacramento
+
+  major = yes
+
+  trigger = {
+    967 = { is_controlled_by = KSK}
+    967 = { is_owned_by = CAC }
+    KSK = { has_war_with = CAC}
+    NOT = { has_global_flag = fall_of_sacramento_kansas }
+  }
+
+  immediate = {
+		set_global_flag = fall_of_sacramento_kansas
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.503.a
+    trigger = { TAG = KSK }
+  }
+  option = {
+    name = fallofcities.503.b
+    trigger = { TAG = CAC }
+  }
+  option = {
+    name = fallofcities.503.c
+    trigger = {
+      NOT = {
+        TAG = KSK
+        TAG = CAC
+      }
+    }
+  }
+}
+
+#Fall Of Sacramento (Kansas takes over Sacramento)
+news_event = {
+  id = fallofcities.504
+  title = fallofcities.504.t
+  desc = fallofcities.504.d
+  picture = GFX_news_event_san_francisco
+
+  major = yes
+
+  trigger = {
+    968 = { is_controlled_by = KSK}
+    968 = { is_owned_by = CAC }
+    KSK = { has_war_with = CAC}
+    NOT = { has_global_flag = fall_of_San_Francisco_kansas }
+  }
+
+  immediate = {
+		set_global_flag = fall_of_San_Francisco_kansas
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.504.a
+    trigger = { TAG = KSK }
+  }
+  option = {
+    name = fallofcities.504.b
+    trigger = { TAG = CAC }
+  }
+  option = {
+    name = fallofcities.504.c
+    trigger = {
+      NOT = {
+        TAG = KSK
+        TAG = CAC
+      }
+    }
+  }
+}
+
+#Fall Of Denver (Kansas takes over Denver)
+news_event = {
+  id = fallofcities.505
+  title = fallofcities.505.t
+  desc = fallofcities.505.d
+  picture = GFX_news_event_denver
+
+  major = yes
+
+  trigger = {
+    802 = { is_controlled_by = KSK}
+    802 = { is_owned_by = COC }
+    KSK = { has_war_with = COC}
+    NOT = { has_global_flag = fall_of_Denver_kansas }
+  }
+
+  immediate = {
+		set_global_flag = fall_of_Denver_kansas
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.505.a
+    trigger = { TAG = KSK }
+  }
+  option = {
+    name = fallofcities.505.b
+    trigger = { TAG = COC }
+  }
+  option = {
+    name = fallofcities.505.c
+    trigger = {
+      NOT = {
+        TAG = KSK
+        TAG = CAC
+      }
+    }
+  }
+}
+
+#Fall Of Dallas (Kansas takes over Dallas)
+news_event = {
+  id = fallofcities.507
+  title = fallofcities.507.t
+  desc = fallofcities.507.d
+  picture = GFX_news_event_dallas
+
+  major = yes
+
+  trigger = {
+    898 = { is_controlled_by = KSK}
+    898 = { is_owned_by = TXT }
+    KSK = { has_war_with = TXT}
+    NOT = { has_global_flag = fall_of_Dallas_kansas }
+  }
+
+  immediate = {
+		set_global_flag = fall_of_Dallas_kansas
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.507.a
+    trigger = { TAG = KSK }
+  }
+  option = {
+    name = fallofcities.507.b
+    trigger = { TAG = TXT }
+  }
+  option = {
+    name = fallofcities.507.c
+    trigger = {
+      NOT = {
+        TAG = KSK
+        TAG = TXT
+      }
+    }
+  }
+}
+
+#Fall Of Houston (Kansas takes over Houston)
+news_event = {
+  id = fallofcities.508
+  title = fallofcities.508.t
+  desc = fallofcities.508.d
+  picture = GFX_news_event_houston
+
+  major = yes
+
+  trigger = {
+    790 = { is_controlled_by = KSK}
+    790 = { is_owned_by = TXT }
+    KSK = { has_war_with = TXT}
+    NOT = { has_global_flag = fall_of_Houston_kansas }
+  }
+
+  immediate = {
+		set_global_flag = fall_of_Houston_kansas
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.508.a
+    trigger = { TAG = KSK }
+  }
+  option = {
+    name = fallofcities.508.b
+    trigger = { TAG = TXT }
+  }
+  option = {
+    name = fallofcities.508.c
+    trigger = {
+      NOT = {
+        TAG = KSK
+        TAG = TXT
+      }
+    }
+  }
+}
+
+#Fall Of Austin (Kansas takes over Austin)
+news_event = {
+  id = fallofcities.509
+  title = fallofcities.509.t
+  desc = fallofcities.509.d
+  picture = GFX_news_event_austin
+
+  major = yes
+
+  trigger = {
+    375 = { is_controlled_by = KSK}
+    375 = { is_owned_by = TXT }
+    KSK = { has_war_with = TXT}
+    NOT = { has_global_flag = fall_of_Austin_kansas }
+  }
+
+  immediate = {
+		set_global_flag = fall_of_Austin_kansas
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.509.a
+    trigger = { TAG = KSK }
+  }
+  option = {
+    name = fallofcities.509.b
+    trigger = { TAG = TXT }
+  }
+  option = {
+    name = fallofcities.509.c
+    trigger = {
+      NOT = {
+        TAG = KSK
+        TAG = TXT
+      }
+    }
+  }
+}
+
+
+
+#Fall Of Phoneix (Cali takes Phoneix)
+news_event = {
+  id = fallofcities.510
+  title = fallofcities.510.t
+  desc = fallofcities.510.d
+  picture = GFX_news_event_phoenix
+
+  major = yes
+
+  trigger = {
+    795 = { is_controlled_by = CAC}
+    795 = { is_owned_by = AZA }
+    CAC = { has_war_with = AZA}
+    NOT = { has_global_flag = fall_of_Phoneix_california}
+  }
+
+  immediate = {
+		set_global_flag = fall_of_Phoneix_california
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.510.a
+    trigger = { TAG = CAC }
+  }
+  option = {
+    name = fallofcities.510.b
+    trigger = { TAG = AZA }
+  }
+  option = {
+    name = fallofcities.510.c
+    trigger = {
+      NOT = {
+        TAG = CAC
+        TAG = AZA
+      }
+    }
+  }
+}
+
+#Fall Of Topeka (Cali Takes Topeka)
+news_event = {
+  id = fallofcities.511
+  title = fallofcities.511.t
+  desc = fallofcities.511.d
+  picture = GFX_news_event_topeka
+
+  major = yes
+
+  trigger = {
+    831 = { is_controlled_by = CAC}
+    831 = { is_owned_by = KSK }
+    CAC = { has_war_with = KSK}
+    NOT = { has_global_flag = fall_of_topeka_california}
+  }
+
+  immediate = {
+		set_global_flag = fall_of_topeka_california
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.511.a
+    trigger = { TAG = CAC }
+  }
+  option = {
+    name = fallofcities.511.b
+    trigger = { TAG = KSK }
+  }
+  option = {
+    name = fallofcities.511.c
+    trigger = {
+      NOT = {
+        TAG = CAC
+        TAG = KSK
+      }
+    }
+  }
+}
+
+#Fall Of Austin (Cali takes austin)
+news_event = {
+  id = fallofcities.512
+  title = fallofcities.512.t
+  desc = fallofcities.512.d
+  picture = GFX_news_event_austin
+
+  major = yes
+
+  trigger = {
+    1002 = { is_controlled_by = CAC}
+    1002 = { is_owned_by = TXT }
+    CAC = { has_war_with = TXT }
+    NOT = { has_global_flag = fall_of_austin_california}
+  }
+
+  immediate = {
+		set_global_flag = fall_of_austin_california
+	}
+
+  mean_time_to_happen = {
+		days = 2
+	}
+
+
+  option = {
+    name = fallofcities.512.a
+    trigger = { TAG = CAC }
+  }
+  option = {
+    name = fallofcities.512.b
+    trigger = { TAG = TXT }
+  }
+  option = {
+    name = fallofcities.512.c
+    trigger = {
+      NOT = {
+        TAG = CAC
+        TAG = TXT
+      }
+    }
+  }
+}

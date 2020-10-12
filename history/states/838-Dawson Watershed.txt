@@ -1,0 +1,22 @@
+
+state={
+	id=838
+	name="Dawson Watershed"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			15617 15
+		}
+	}
+	provinces={
+		15569 15574 15609 15613 15617 15637 15690 15702 15710 
+	}
+	manpower=90120
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

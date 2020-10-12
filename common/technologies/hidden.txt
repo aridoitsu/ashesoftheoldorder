@@ -1,0 +1,28 @@
+technologies = {
+
+	california_training_tech = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech california_training_tech"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#If you change these
+		#Change the custom tooltip too: california_training_tech_effect
+		infantry = {
+			desert = {
+				attack = 0.075
+				defence = 0.075
+				movement = 0.1
+			}
+			mountain = {
+				attack = 0.075
+				defence = 0.075
+				movement = 0.1
+			}
+		}
+	}

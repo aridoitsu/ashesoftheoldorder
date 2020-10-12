@@ -1,0 +1,28 @@
+
+state={
+	id=384
+	name="Omaha"
+
+	history={
+		owner = NEB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = NEB
+		victory_points = {
+			12586 12
+		}
+		victory_points = {
+			13904 3
+		}
+	}
+
+	provinces={
+		1683 12586 13929 13904 13943
+	}
+	manpower=377962
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

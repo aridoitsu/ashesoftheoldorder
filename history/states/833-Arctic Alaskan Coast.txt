@@ -1,0 +1,22 @@
+state={
+	id=833
+	name="Anchorage"
+	history = {
+		owner = CAN
+		add_core_of = AKA
+		add_core_of = CAN
+		victory_points = {
+			13091 10
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+		}
+	}
+	provinces={
+		4833 4848 13091 15565 15573 15576 15577 15615 15665 15679 15714 
+	}
+	manpower=52410
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

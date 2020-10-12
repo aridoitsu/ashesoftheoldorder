@@ -1,0 +1,19 @@
+state={
+	id=1123
+	name="Moncton"
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		4285 12289 14105 14125 14135 14141 14167 14176 14178 14189
+	}
+	manpower=383729
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

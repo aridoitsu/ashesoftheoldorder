@@ -1,0 +1,23 @@
+state={
+	id=1029
+	name="Confederate Georgia"
+	history = {
+		owner = CON
+		add_core_of = CON
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1433 1
+		}
+		victory_points = {
+			12498 3
+		}
+	}
+	provinces={
+		1433 12325 12470 12498
+	}
+	manpower=50124
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

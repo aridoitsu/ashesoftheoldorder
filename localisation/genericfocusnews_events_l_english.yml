@@ -1,0 +1,9 @@
+﻿l_english:
+  genericfocusnews.1.t:0 "California passes the Defense of Democracy Act!"
+  genericfocusnews.1.d:0 "In light of the recent fracture of the United States of America, the New California Republic has pledged to protect any remnants of democracy. Remaining stoic in the face of rapidly changing ideological beliefs, NCR President Frank Merriam delivered an address in Sacramento, vowing to stifle any communist elements within the government. Additionally, to "protect the ideals of democracy as enshrined by our forefathers", President Merriam has ordered large-scale military exercises along the borders of California. Several sources within the Californian Armed Forces has claimed that this will act as a deterrent to any radical nations wishing to spread their virulent ideologies in California. Their neighbors, however, have reacted with concern, and it seems that these exercises could lead to an arms race."
+  genericfocusnews.1.a:0 "This is escalating..."
+  genericfocusnews.1.b:0 "We must protect our old values!"
+  genericfocusnews.2.t:0 "The Formation of the Pacific States of America"
+  genericfocusnews.2.d:0 "At [GetDateText], NCR President [CAC.GetLeader] held a speech at the San Francisco City Hall that would be broadcasted to almost all of America. He announced the formation of the Pacific States of America. A federation under California that would uphold democracy in America and protect other states outside of it from the ideals of fascism and communism. The federation would include California, Oregon, Washington State and Alaska. The federation includes a federalized political system and a unified armed forces."
+  genericfocusnews.2.a:0 "It seems the Bear is expanding under the name of "liberty""
+  genericfocusnews.2.b:0 "We have safeguarded democracy!"

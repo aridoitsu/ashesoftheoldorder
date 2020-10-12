@@ -1,0 +1,19 @@
+state={
+	id=1121
+	name="Edmundston"
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		4362 14231 14260 14273 14295 14296 14304 14306 14319
+	}
+	manpower= 129432
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

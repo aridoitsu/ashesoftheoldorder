@@ -1,0 +1,21 @@
+state={
+	id=1014
+	name="Gary"
+	history = {
+		owner = CGO
+		add_core_of = CGO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			6713 1
+		}
+	}
+	provinces={
+		4437 6713
+	}
+	manpower=90124
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

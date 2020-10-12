@@ -1,0 +1,33 @@
+state={
+	id=1077
+	name="Philadelphia"
+	manpower = 2990121
+	state_category=metropolis
+
+	resources = {
+		steel=20.000
+		oil=10.000
+	}
+
+	history={
+		owner = PHL
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 1
+			dockyard = 2
+			13848 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = PHL
+		victory_points = {
+			13848 20
+		}
+	}
+
+	provinces={
+		6845 13847 13848 13859 13861
+	}
+	buildings_max_level_factor=1.000
+}

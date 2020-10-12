@@ -1,0 +1,1903 @@
+focus_tree = {
+	id = Flo
+	country = {
+		factor = 0
+		modifier = {
+			add = 25
+			tag = FLF
+		}
+	}
+	default = no
+	focus = {
+		id = FLF_militaryexpansion
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		x = 4
+		y = 0
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					air_experience = 15
+					navy_experience = 35
+					army_experience = 50
+				}
+
+	}
+	focus = {
+		id = FLF_anewgovernment
+		icon = GFX_focus_generic_treaty
+		cost = 4.00
+		x = 22
+		y = 0
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_political_power = 100
+				}
+
+	}
+	focus = {
+		id = FLF_reconstructtheeconomy
+		icon = GFX_goal_continuous_repairments
+		cost = 5.00
+		x = 11
+		y = 0
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 1
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_coastalsecurity
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10.00
+		x = 36
+		y = 0
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					navy_experience = 25
+					366 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+							}
+						}
+					961 = {
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_coastal = yes
+							}
+							level = 3
+							instant_build = yes
+						}
+					}
+					983 = {
+						add_building_construction = {
+							type = coastal_bunker
+							province = 1843
+							level = 3
+							instant_build = yes
+							}
+					}
+					366 = {
+						add_building_construction = {
+							type = coastal_bunker
+							province = 7388
+							level = 3
+							instant_build = yes
+							}
+					}
+					867 = {
+						add_building_construction = {
+							type = coastal_bunker
+							province = 12381
+							province = 1572
+							level = 3
+							instant_build = yes
+							}
+					}
+		}
+	}
+	focus = {
+		id = FLF_oldtactics
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_militaryexpansion
+		}
+		mutually_exclusive = {
+			focus = FLF_newtactics
+		}
+		x = 2
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_ideas = FLF_Old_Tactics
+				}
+
+	}
+	focus = {
+		id = flequipment_effort
+		icon = GFX_goal_generic_small_arms
+		cost = 5.00
+		prerequisite = {
+			focus = FLF_oldtactics
+		}
+		x = 1
+		y = 2
+			available_if_capitulated = yes
+			completion_reward = {
+					add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 1000
+							producer = ENG
+						}
+					add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 1.0
+							uses = 1
+							category = infantry_weapons
+							category = artillery
+						}
+				}
+
+	}
+	focus = {
+		id = flequipment_effort_2
+		icon = GFX_goal_generic_army_artillery
+		cost = 5.00
+		prerequisite = {
+			focus = flequipment_effort
+		}
+		x = 1
+		y = 3
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 1.0
+							uses = 1
+							category = infantry_weapons
+							category = artillery
+						}
+				}
+
+	}
+	focus = {
+		id = flfequipment_effort_3
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10.00
+		prerequisite = {
+			focus = flequipment_effort
+		}
+		x = 3
+		y = 3
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = infantry_artillery_bonus
+							ahead_reduction = 2
+							uses = 1
+							category = infantry_weapons
+							category = artillery
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_militarytraining
+		icon = GFX_goal_generic_propaganda
+		cost = 10.00
+		prerequisite = {
+			focus = flfequipment_effort_3
+		}
+		prerequisite = {
+			focus = flequipment_effort_2
+		}
+		x = 3
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_political_power = 50
+					army_experience = 25
+				}
+
+	}
+	focus = {
+		id = FLF_newtactics
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_militaryexpansion
+		}
+		mutually_exclusive = {
+			focus = FLF_oldtactics
+		}
+		x = 6
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_ideas = FLF_New_Tactics
+				}
+
+	}
+	focus = {
+		id = flfarm_ourselves
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_newtactics
+			focus = FLF_oldtactics
+		}
+		x = 4
+		y = 2
+			available_if_capitulated = yes
+			completion_reward = {
+					add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 2000
+							producer = ITA
+						}
+					add_equipment_to_stockpile = {
+							type = support_equipment_1
+							amount = 250
+							producer = FRA
+						}
+					add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 1.0
+							uses = 1
+							category = infantry_weapons
+							category = artillery
+						}
+				}
+
+	}
+	focus = {
+		id = flbike_effort
+		icon = GFX_goal_generic_build_tank
+		cost = 2.00
+		prerequisite = {
+			focus = FLF_newtactics
+		}
+		x = 7
+		y = 2
+			available_if_capitulated = yes
+			completion_reward = {
+					set_technology = {
+							bicycle_infantry = 1
+						}
+				}
+
+	}
+	focus = {
+		id = flarmor_effort
+		icon = GFX_goal_generic_army_tanks
+		cost = 5.00
+		prerequisite = {
+			focus = flbike_effort
+		}
+		x = 5
+		y = 3
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = armor_bonus
+							bonus = 1.5
+							uses = 2
+							category = armor
+						}
+				}
+
+	}
+	focus = {
+		id = flmotorization_effort
+		icon = GFX_goal_generic_army_motorized
+		cost = 5.00
+		prerequisite = {
+			focus = flbike_effort
+		}
+		x = 7
+		y = 3
+			bypass = {
+					has_tech = motorised_infantry
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = motorized_bonus
+							bonus = 3.0
+							technology = motorised_infantry
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_floridamachines
+		icon = GFX_goal_rhineland
+		cost = 10.00
+		prerequisite = {
+			focus = flarmor_effort
+		}
+		prerequisite = {
+			focus = flmotorization_effort
+		}
+		x = 5
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_ideas = FLF_Killing_Machines
+				}
+
+	}
+	focus = {
+		id = FLF_boostthesoldiersmoods
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_militarytraining
+			focus = FLF_floridamachines
+		}
+		x = 4
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_ideas = FLF_Moral_Boost
+				}
+
+	}
+	focus = {
+		id = FLF_growingcivilianexports
+		icon = GFX_goal_generic_production2
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_reconstructtheeconomy
+		}
+		x = 10
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 1
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_industrialexpansion
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_growingcivilianexports
+		}
+		mutually_exclusive = {
+			focus = FLF_militaryproductionincreased
+		}
+		x = 9
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_militaryproductionincreased
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_growingcivilianexports
+		}
+		mutually_exclusive = {
+			focus = FLF_industrialexpansion
+		}
+		x = 11
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_industrialexpansionii
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_militaryproductionincreased
+			focus = FLF_industrialexpansion
+		}
+		x = 10
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_themilitaryacademy
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_reconstructtheeconomy
+		}
+		x = 12
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_productionstreamlined
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_themilitaryacademy
+		}
+		x = 13
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_ExpansiveSpending
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_productionstreamlined
+		}
+		x = 12
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					867 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					866 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					366 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_StateWideProduction
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_ExpansiveSpending
+			focus = FLF_industrialexpansionii
+		}
+		x = 11
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					867 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					866 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					366 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = fltung_add
+		icon = GFX_focus_generic_tungsten
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_StateWideProduction
+		}
+		mutually_exclusive = {
+			focus = flalu_add
+		}
+		x = 10
+		y = 5
+			available_if_capitulated = yes
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_resource = {
+									type = tungsten
+									amount = 8
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = flalu_add
+		icon = GFX_focus_generic_industry_2
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_StateWideProduction
+		}
+		mutually_exclusive = {
+			focus = fltung_add
+		}
+		x = 12
+		y = 5
+			available_if_capitulated = no
+			completion_reward = {
+					random_owned_controlled_state = {
+							prioritize = { 43 }
+							limit = {
+									ROOT = {
+											has_full_control_of_state = PREV
+										}
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_resource = {
+									type = chromium
+									amount = 8
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_patrioticrestoration
+		icon = GFX_goal_support_democracy
+		cost = 1.00
+		prerequisite = {
+			focus = FLF_anewgovernment
+		}
+		mutually_exclusive = {
+			focus = FLF_acallforsomethinggreater
+			focus = FLF_aunitedright
+			focus = FLF_asocialistnation
+			focus = flmonarchy_ethos
+		}
+		x = 16
+		y = 1
+			available_if_capitulated = yes
+			available = {
+					has_government = democratic
+				}
+			completion_reward = {
+					add_popularity = {
+							ideology = democratic
+							popularity = 0.5
+						}
+					add_political_power = 20
+				}
+
+	}
+	focus = {
+		id = FLF_reignitetheeconomy
+		icon = GFX_focus_generic_concessions
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_patrioticrestoration
+		}
+		x = 16
+		y = 2
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = FLF_Reignite_the_Republic
+				}
+
+	}
+	focus = {
+		id = FLF_restorationprojects
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_reignitetheeconomy
+		}
+		x = 15
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_ideas = FLF_Restoration_Projects
+				}
+
+	}
+	focus = {
+		id = FLF_asocialistnation
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5.00
+		prerequisite = {
+			focus = FLF_anewgovernment
+		}
+		mutually_exclusive = {
+			focus = FLF_patrioticrestoration
+			focus = FLF_aunitedright
+			focus = FLF_acallforsomethinggreater
+			focus = flmonarchy_ethos
+		}
+		x = 18
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 10
+
+				}
+			completion_reward = {
+					set_politics = {
+							ruling_party = democratic
+							elections_allowed = yes
+						}
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.10
+					}
+				}
+
+	}
+	focus = {
+		id = FLF_welfareprogram
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_asocialistnation
+		}
+		x = 18
+		y = 2
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = FLF_welfare_Program_idea
+				}
+
+	}
+	focus = {
+		id = FLF_focusontheinterior
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_reignitetheeconomy
+			focus = FLF_welfareprogram
+		}
+		x = 17
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_political_power = 10
+					add_stability = 0.25
+				}
+
+	}
+	focus = {
+		id = FLF_noreligionoveranother
+		icon = GFX_goal_generic_propaganda
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_welfareprogram
+		}
+		x = 19
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_stability = -0.05
+					add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_economicincentives
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_noreligionoveranother
+		}
+		x = 19
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_stability = -0.05
+					add_ideas = FLF_Working_Incentives
+				}
+
+	}
+	focus = {
+		id = flmonarchy_ethos
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 5.00
+		prerequisite = {
+			focus = FLF_anewgovernment
+		}
+		mutually_exclusive = {
+			focus = FLF_patrioticrestoration
+			focus = FLF_asocialistnation
+			focus = FLF_acallforsomethinggreater
+			focus = FLF_aunitedright
+		}
+		x = 22
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 8
+				}
+			completion_reward = {
+					set_politics = {
+							ruling_party = neutrality
+							elections_allowed = no
+						}
+					set_political_party = {
+							ideology = neutrality
+							popularity = 26
+						}
+					set_political_party = {
+							ideology = communism
+							popularity = 5
+						}
+					set_political_party = {
+							ideology = fascism
+							popularity = 5
+						}
+					set_political_party = {
+							ideology = neutrality
+							popularity = 64
+						}
+				}
+
+	}
+	focus = {
+		id = flempower_king
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		prerequisite = {
+			focus = flmonarchy_ethos
+		}
+		mutually_exclusive = {
+			focus = flenforce_king
+		}
+		x = 21
+		y = 2
+			available_if_capitulated = yes
+			completion_reward = {
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.15
+						}
+					add_stability = 0.05
+					add_political_power = 150
+				}
+
+	}
+	focus = {
+		id = flking_and_country
+		icon = GFX_focus_eng_god_save_the_king
+		cost = 10.00
+		prerequisite = {
+			focus = flempower_king
+		}
+		x = 21
+		y = 4
+			available_if_capitulated = yes
+			completion_reward = {
+					add_war_support = 0.10
+					if = {
+							limit = {
+									has_idea = neutrality_idea
+								}
+							remove_ideas = neutrality_idea
+						}
+					add_ideas = militarism_focus
+					army_experience = 25
+					set_rule = {
+							can_send_volunteers = yes
+						}
+				}
+
+	}
+	focus = {
+		id = flenforce_king
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = flmonarchy_ethos
+		}
+		mutually_exclusive = {
+			focus = flempower_king
+		}
+		x = 23
+		y = 2
+			available = {
+					OR = {
+							threat > 0.10
+						}
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
+		id = flgod_given_ruler
+		icon = GFX_focus_generic_self_management
+		cost = 2.00
+		prerequisite = {
+			focus = flenforce_king
+		}
+		x = 23
+		y = 3
+			available_if_capitulated = yes
+			completion_reward = {
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.10
+							add_war_support = 0.05
+							add_stability = 0.05
+						}
+				}
+
+	}
+	focus = {
+		id = flgod_father
+		icon = GFX_goal_generic_major_war
+		cost = 5.00
+		prerequisite = {
+			focus = flgod_given_ruler
+		}
+		x = 23
+		y = 4
+			available_if_capitulated = yes
+			completion_reward = {
+					add_political_power = 70
+				}
+
+	}
+	focus = {
+		id = flaristocrat_generals
+		icon = GFX_focus_eng_the_kings_party
+		cost = 10.00
+		prerequisite = {
+			focus = flgod_father
+			focus = flking_and_country
+		}
+		x = 22
+		y = 5
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = CZE_war_college_idea
+				}
+
+	}
+	focus = {
+		id = FLF_acallforsomethinggreater
+		icon = GFX_goal_support_communism
+		cost = 5.00
+		prerequisite = {
+			focus = FLF_anewgovernment
+		}
+		mutually_exclusive = {
+			focus = FLF_patrioticrestoration
+			focus = FLF_asocialistnation
+			focus = flmonarchy_ethos
+			focus = FLF_aunitedright
+		}
+		x = 26
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 6
+					modifier = {
+							factor = 2
+							any_neighbor_country = {
+									is_major = yes
+									has_government = communism
+								}
+						}
+				}
+			completion_reward = {
+					add_timed_idea = {
+							idea = internationalism
+							days = 720
+						}
+					set_politics = {
+							ruling_party = communism
+							elections_allowed = yes
+						}
+					set_political_party = {
+							ideology = democratic
+							popularity = 1
+						}
+					set_political_party = {
+							ideology = communism
+							popularity = 98
+						}
+					set_political_party = {
+							ideology = fascism
+							popularity = 1
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_promoteleninistteachings
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_acallforsomethinggreater
+		}
+		x = 26
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_stability = 0.15
+					add_popularity = {
+							ideology = communism
+							popularity = 0.15
+						}
+					add_ideas = FLF_Lenin
+				}
+
+	}
+	focus = {
+		id = FLF_lessonsfromthesovietunion
+		icon = GFX_focus_YUG_pan_slavic_congress
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_promoteleninistteachings
+		}
+		x = 25
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_ideas = FLF_Left_War_Plans
+				}
+
+	}
+	focus = {
+		id = FLF_aunitedright
+		icon = GFX_goal_support_fascism
+		cost = 5.00
+		prerequisite = {
+			focus = FLF_anewgovernment
+		}
+		mutually_exclusive = {
+			focus = FLF_patrioticrestoration
+			focus = FLF_asocialistnation
+			focus = flmonarchy_ethos
+			focus = FLF_acallforsomethinggreater
+		}
+		x = 28
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 7
+					modifier = {
+							factor = 3
+							any_neighbor_country = {
+									is_major = yes
+									has_government = fascism
+								}
+						}
+				}
+			completion_reward = {
+					add_timed_idea = {
+							idea = nationalism
+							days = 720
+						}
+					set_politics = {
+							ruling_party = fascism
+							elections_allowed = yes
+						}
+					set_political_party = {
+							ideology = democratic
+							popularity = 1
+						}
+					set_political_party = {
+							ideology = communism
+							popularity = 0
+						}
+					set_political_party = {
+							ideology = fascism
+							popularity = 99
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_promoteorder
+		icon = GFX_focus_ger_reichskommisariats
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_aunitedright
+		}
+		x = 28
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_stability = 0.10
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = FLF_reinforcethestate
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_promoteorder
+			focus = FLF_promoteleninistteachings
+		}
+		x = 27
+		y = 3
+			available_if_capitulated = yes
+
+		completion_reward = {
+				add_ideas = FLF_ReinforceTheStateIdea
+		}
+
+	}
+	focus = {
+		id = FLF_southernpride
+		icon = GFX_FLF_Southern_Pride
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_promoteorder
+		}
+		x = 29
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_stability = 0.10
+					add_ideas = FLF_South_Pride
+				}
+
+	}
+	focus = {
+		id = FLF_anothercsa
+		icon = GFX_FLF_Southern_Pride
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_southernpride
+		}
+		x = 31
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+				unlock_decision_tooltip = confederate_states
+				add_war_support = 0.05
+				create_wargoal = {
+					type = annex_everything
+					target = ALA
+					}
+				}
+
+	}
+	focus = {
+		id = FLF_tothenorth
+		icon = GFX_Generic_Tank_through_Wall
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_anothercsa
+		}
+		x = 31
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+				create_wargoal = {
+					type = annex_everything
+					target = ALA
+					}
+				create_wargoal = {
+					type = annex_everything
+					target = GAG
+					}
+				}
+
+	}
+	focus = {
+		id = FLF_eastwardswego
+		icon = GFX_Generic_Ultranationalist_Volunteers
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_tothenorth
+		}
+		x = 33
+		y = 6
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+				create_wargoal = {
+					type = annex_everything
+					target = NCN
+					}
+				create_wargoal = {
+					type = annex_everything
+					target = SCS
+					}
+				}
+
+	}
+	focus = {
+		id = FLF_westwardswego
+		icon = GFX_Generic_Ultranationalist_Volunteers
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_tothenorth
+		}
+		x = 29
+		y = 6
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+				create_wargoal = {
+					type = annex_everything
+					target = MSM
+					}
+				create_wargoal = {
+					type = annex_everything
+					target = LAL
+					}
+				}
+
+	}
+	focus = {
+		id = FLF_reintroduceslavery
+		icon = GFX_FLF_focus_ReintroduceSlavery
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_southernpride
+		}
+		x = 29
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_ideas = FLF_Slavery_Again
+				}
+
+	}
+	focus = {
+		id = FLF_offensiveplans
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_reintroduceslavery
+		}
+		x = 29
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_ideas = FLF_Offensive_Approach
+				}
+
+	}
+	focus = {
+		id = FLF_flexiblenavy
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_coastalsecurity
+		}
+		mutually_exclusive = {
+			focus = FLF_largenavy
+		}
+		x = 33
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = sub_op_bonus
+							bonus = 1.0
+							uses = 2
+							technology = convoy_interdiction_ti
+							technology = unrestricted_submarine_warfare
+							technology = wolfpacks
+							technology = advanced_submarine_warfare
+							technology = combined_operations_raiding
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_destroyereffort
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_flexiblenavy
+		}
+		x = 32
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = dd_bonus
+							bonus = 1.0
+							ahead_reduction = 2
+							uses = 1
+							category = dd_tech
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_submarineeffort
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_flexiblenavy
+		}
+		x = 34
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = ss_bonus
+							bonus = 1.0
+							ahead_reduction = 2
+							uses = 1
+							category = ss_tech
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_dockyardexpansion
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 20
+		prerequisite = {
+			focus = FLF_coastalsecurity
+		}
+		x = 36
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					navy_experience = 50
+					867 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = dockyard
+									level = 3
+									instant_build = yes
+								}
+						}
+					866 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = dockyard
+									level = 3
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_largenavy
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_coastalsecurity
+		}
+		mutually_exclusive = {
+			focus = FLF_flexiblenavy
+		}
+		x = 39
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = fleet_in_being_bonus
+							bonus = 1.0
+							uses = 2
+							category = fleet_in_being_tree
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_cruisereffort
+		icon = GFX_goal_continuous_naval_production
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_largenavy
+		}
+		x = 38
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = cr_bonus
+							bonus = 1.0
+							ahead_reduction = 2
+							uses = 1
+							category = cl_tech
+							category = ca_tech
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_nationalizetheinstituteoftechnology
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = flalu_add
+			focus = fltung_add
+		}
+		x = 11
+		y = 6
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = FLF_combinedresearchefforts
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_acalltothepeople
+		}
+		x = 15
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = FLF_purgetheradicals
+		icon = GFX_FLF_Purge_Radicals
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_lessonsfromthesovietunion
+		}
+		x = 25
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_stability = 0.25
+					add_ideas = FLF_Purged_Radicals
+				}
+
+	}
+	focus = {
+		id = FLF_savetheproletariat
+		icon = GFX_Generic_Army_Focus_Red02
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_purgetheradicals
+		}
+		x = 25
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+				create_wargoal = {
+					type = annex_everything
+					target = ALA
+					}
+				create_wargoal = {
+					type = annex_everything
+					target = GAG
+					}
+				}
+
+	}
+	focus = {
+		id = FLF_acalltothepeople
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_restorationprojects
+		}
+		x = 15
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_manpower = 15000
+					add_stability = 0.10
+					add_war_support = 0.01
+				}
+
+	}
+	focus = {
+		id = FLF_expandingourinfluence
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_renouncedemocracy
+		}
+		x = 27
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_ideas = FLF_Expanding_Influence
+				}
+
+	}
+	focus = {
+		id = FLF_renouncedemocracy
+		icon = GFX_focus_generic_strike_at_democracy3
+		cost = 7.25
+		prerequisite = {
+			focus = FLF_reinforcethestate
+		}
+		x = 27
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_popularity = {
+							ideology = democratic
+							popularity = -0.50
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_opentheborders
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_focusontheinterior
+		}
+		x = 17
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_war_support = -0.05
+					add_ideas = FLF_Open_Borders
+				}
+
+	}
+	focus = {
+		id = FLF_aprosperousstate
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_opentheborders
+		}
+		x = 17
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_stability = 0.15
+					add_war_support = 0.08
+				}
+
+	}
+	focus = {
+		id = FLF_capitalshipeffort
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_largenavy
+		}
+		x = 40
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					navy_experience = 25
+					add_tech_bonus = {
+							name = capital_ships_bonus
+							bonus = 1.0
+							ahead_reduction = 2
+							uses = 1
+							category = bc_tech
+							category = bb_tech
+							category = cv_tech
+						}
+				}
+
+	}
+	focus = {
+		id = FLF_alligatorbite
+		icon = GFX_goal_generic_occupy_states_coastal
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_submarineeffort
+			focus = FLF_destroyereffort
+			focus = FLF_cruisereffort
+			focus = FLF_capitalshipeffort
+		}
+		prerequisite = {
+			focus = FLF_dockyardexpansion
+		}
+		x = 36
+		y = 3
+
+		completion_reward = {
+			add_ideas = FLF_alligatorbite
+			add_war_support = 0.2
+		}
+
+	}
+	focus = {
+		id = FLF_cubawar
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_alligatorbite
+		}
+		x = 36
+		y = 4
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = CUB
+			}
+		}
+
+	}
+	focus = {
+		id = FLF_hispaniola
+		icon = GFX_goal_generic_occupy_start_war
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_alligatorbite
+		}
+		x = 34
+		y = 4
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = DOM
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = HAI
+			}
+		}
+
+	}
+	focus = {
+		id = FLF_canal
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_alligatorbite
+		}
+		x = 38
+		y = 4
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = PCP
+			}
+		}
+	}
+	focus = {
+		id = FLF_carribeandominance
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = FLF_cubawar
+		}
+		prerequisite = {
+			focus = FLF_canal
+		}
+		prerequisite = {
+			focus = FLF_hispaniola
+		}
+		x = 36
+		y = 5
+
+		completion_reward = {
+			add_stability = 0.25
+		}
+	}
+}

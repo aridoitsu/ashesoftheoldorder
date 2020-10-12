@@ -1,0 +1,26 @@
+state={
+	id=819
+	name="Olympic"
+	resources = {
+		chromium = 8.000
+	}
+	history = {
+		owner = OLY
+		add_core_of = OLY
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			4296 5
+		}
+		victory_points = {
+			4398 3
+		}
+	}
+	provinces={
+		4296 10242 7386 4398
+	}
+	manpower=120351
+	buildings_max_level_factor=1.000
+	state_category = town
+}

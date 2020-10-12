@@ -1,0 +1,41 @@
+state={
+	id=864
+	name="Phoenix"
+	resources={
+		steel=20.000
+		aluminium=8.000
+	}
+	history={
+		owner = PNX
+		add_core_of = PNX
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			13568 20
+		}
+		victory_points = {
+			13577 10
+		}
+		victory_points = {
+			13567 10
+		}
+		victory_points = {
+			13549 5
+		}
+		victory_points = {
+			13552 5
+		}
+		victory_points = {
+			13561 5
+		}
+	}
+	provinces={
+		13549 13552 13561 13567 13568 13577
+	}
+	manpower=1626021
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

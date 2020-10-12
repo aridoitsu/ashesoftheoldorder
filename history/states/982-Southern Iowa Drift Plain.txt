@@ -1,0 +1,17 @@
+state={
+	id=982
+	name="Iowa Drift"
+	history = {
+		owner = IAI
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		1586 1678 1770 9892 
+	}
+	manpower=130938
+	buildings_max_level_factor=1.000
+	state_category = town
+}

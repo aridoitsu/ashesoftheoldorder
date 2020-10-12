@@ -1,0 +1,19 @@
+
+state={
+	id=1059
+	name="Appalachian Plateau"
+	history = {
+		owner = OHO
+		add_core_of = OHO
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+	}
+	provinces={
+		827 971 3829 7528 9760 
+	}
+	manpower=102340
+	buildings_max_level_factor=1.000
+	state_category = town
+}

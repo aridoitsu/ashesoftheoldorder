@@ -1,0 +1,33 @@
+
+state={
+	id=372
+	name="Ozarks"
+	resources={
+		aluminium=14.000
+	}
+
+	history={
+		owner = OZR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = OZR
+		victory_points = {
+			4567 5
+		}
+		victory_points = {
+			13643 3
+		}
+		victory_points = {
+			13635 5
+		}
+	}
+
+	provinces={
+		4567 4597 10477 13626 13635 13643 13665
+	}
+	manpower=254481
+	buildings_max_level_factor=1.000
+	state_category=town
+}

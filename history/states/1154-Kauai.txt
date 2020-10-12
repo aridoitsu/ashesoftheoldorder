@@ -1,0 +1,19 @@
+state={
+	id=1154
+	name="Kauai"
+	history = {
+		owner = UPI
+		add_core_of = HIH
+		add_core_of = UPI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	provinces={
+		7112 
+	}
+	manpower=74621
+	buildings_max_level_factor=1.000
+	state_category = town
+}

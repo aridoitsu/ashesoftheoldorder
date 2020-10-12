@@ -1,0 +1,19 @@
+state={
+	id=824
+	name="Vancouver"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 3
+		}
+	}
+	provinces={
+		4428 14441 14442 14443 14474 
+	}
+	manpower=1204231
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

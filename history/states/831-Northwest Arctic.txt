@@ -1,0 +1,19 @@
+state={
+	id=831
+	name="Alaskan Arctic"
+	history = {
+		owner = CAN
+		add_core_of = AKA
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		7855 15507 15525 15526 15562 15575 15611 15612 15655 15664 15670 15671 15695 15699 15706 15713 15728 15744 15754 15776 15791 15846 15852 
+	}
+	manpower=80141
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

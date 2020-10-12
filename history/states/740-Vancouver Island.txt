@@ -1,0 +1,26 @@
+
+state={
+	id=740
+	name="STATE_740"
+	resources={
+		tungsten=15.000
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		1214 1420 7259 12259 12272 14401 
+	}
+	manpower=259612
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

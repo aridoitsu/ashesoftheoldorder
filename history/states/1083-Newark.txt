@@ -1,0 +1,44 @@
+state={
+	id=1083
+	name="Newark"
+	manpower = 1590192
+	state_category = metropolis
+	resources = {
+		steel=15.000
+	}
+
+	history={
+		owner = NYC
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			air_base = 2
+			arms_factory = 3
+			dockyard = 2
+		}
+		add_core_of = NYC
+		victory_points = {
+			13882 5
+		}
+		victory_points = {
+			13875 15
+		}
+		victory_points = {
+			13869 3
+		}
+		victory_points = {
+			6882 3
+		}
+		victory_points = {
+			13886 1
+		}
+
+	}
+
+
+
+	provinces={
+		6882 13869 13875 13882 13886
+	}
+	buildings_max_level_factor=1.000
+}

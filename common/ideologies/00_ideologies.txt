@@ -1,0 +1,395 @@
+ideologies = {
+	#Ultranationalism
+	ultranationalism = {
+
+		types = {
+			nationalism_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ULTRANATIONALISM_1"
+			"FACTION_NAME_ULTRANATIONALISM_2"
+			"FACTION_NAME_ULTRANATIONALISM_3"
+			"FACTION_NAME_ULTRANATIONALISM_4"
+			"FACTION_NAME_ULTRANATIONALISM_5"
+		}
+
+		color = { 0 0 0 }
+
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 1.0
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		ai_neutral = yes
+	}
+	#Fascism
+	fascism = {
+
+		types = {
+			fascism_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_FASCIST_4"
+			"FACTION_NAME_FASCIST_5"
+		}
+
+		color = { 92 49 6 }
+
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 1.0
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		ai_neutral = yes
+	}
+	#Despotism
+	neutrality = {
+
+		types = {
+			neutrality_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
+		}
+
+		color = { 45 45 45 }
+
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes
+	}
+	#AuthDem
+	authdem = {
+
+		types = {
+			authdem_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHDEM_1"
+			"FACTION_NAME_AUTHDEM_2"
+			"FACTION_NAME_AUTHDEM_3"
+			"FACTION_NAME_AUTHDEM_4"
+			"FACTION_NAME_AUTHDEM_5"
+		}
+
+		color = { 125 125 125 }
+
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		faction_modifiers = {
+		}
+
+		ai_neutral = yes
+	}
+	#Democratic ideologies
+	#ConDem
+	democratic = {
+
+		types = {
+			democratic_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+
+		color = { 0 83 207 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_neutral = yes
+	}
+	#LibDem
+	liberal = {
+
+		types = {
+			liberal_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_1"
+			"FACTION_NAME_LIBERAL_2"
+			"FACTION_NAME_LIBERAL_3"
+			"FACTION_NAME_LIBERAL_4"
+			"FACTION_NAME_LIBERAL_5"
+			"FACTION_NAME_LIBERAL_6"
+		}
+
+		color = { 0 131 207 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_neutral = yes
+	}
+	#ProDem
+	prodem = {
+
+		types = {
+			prodem_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_PRODEM_1"
+			"FACTION_NAME_PRODEM_2"
+			"FACTION_NAME_PRODEM_3"
+			"FACTION_NAME_PRODEM_4"
+			"FACTION_NAME_PRODEM_5"
+			"FACTION_NAME_PRODEM_6"
+		}
+
+		color = { 109 57 143 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_neutral = yes
+	}
+	#SocDem
+	demsoc = {
+
+		types = {
+			demsoc_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMSOC_1"
+			"FACTION_NAME_DEMSOC_2"
+			"FACTION_NAME_DEMSOC_3"
+			"FACTION_NAME_DEMSOC_4"
+			"FACTION_NAME_DEMSOC_5"
+			"FACTION_NAME_DEMSOC_6"
+		}
+
+		color = { 170 25 80 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_neutral = yes
+	}
+	#LibSoc
+	libsoc = {
+
+		types = {
+			libsoc_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBSOC_1"
+			"FACTION_NAME_LIBSOC_2"
+			"FACTION_NAME_LIBSOC_3"
+			"FACTION_NAME_LIBSOC_4"
+			"FACTION_NAME_LIBSOC_5"
+			"FACTION_NAME_LIBSOC_6"
+		}
+
+		color = { 250 53 53 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_neutral = yes
+	}
+
+	communism = {
+		types = {
+
+			communism_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+
+		color = { 166 20 20 }
+
+		war_impact_on_world_tension = 0.75
+		faction_impact_on_world_tension = 0.5
+
+		ai_neutral = yes
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		faction_modifiers = {
+
+		}
+
+	}
+	#AnarchySocialism
+	anarchy = {
+
+		types = {
+			anarchy_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHY_1"
+			"FACTION_NAME_ANARCHY_2"
+			"FACTION_NAME_ANARCHY_3"
+			"FACTION_NAME_ANARCHY_4"
+			"FACTION_NAME_ANARCHY_5"
+			"FACTION_NAME_ANARCHY_6"
+		}
+
+		color = { 110 0 0 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_neutral = yes
+	}
+	#Utopian
+	totalsoc = {
+
+		types = {
+			totalsoc_subtype = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_TOTALSOC_1"
+			"FACTION_NAME_TOTALSOC_2"
+			"FACTION_NAME_TOTALSOC_3"
+			"FACTION_NAME_TOTALSOC_4"
+			"FACTION_NAME_TOTALSOC_5"
+			"FACTION_NAME_TOTALSOC_6"
+		}
+
+		color = { 240 240 240 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_neutral = yes
+	}
+}

@@ -1,0 +1,28 @@
+state={
+	id=1074
+	name="Williamsport"
+	manpower=356382
+	state_category=rural
+	resources={
+		tungsten=15.000
+		steel=18.000
+	}
+
+	history={
+		owner = PEN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = PEN
+		victory_points = {
+			11817 3
+		}
+	}
+
+	provinces={
+		702 862 3697 3880 9836 11817
+	}
+	buildings_max_level_factor=1.000
+}

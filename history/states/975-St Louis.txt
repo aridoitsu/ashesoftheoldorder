@@ -1,0 +1,19 @@
+state={
+	id=975
+	name="St. Louis"
+	history = {
+		owner = MOM
+		add_core_of = MOM
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		4569 
+	}
+	manpower=724567
+	buildings_max_level_factor=1.000
+	state_category = city
+}

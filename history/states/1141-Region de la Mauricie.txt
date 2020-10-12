@@ -1,0 +1,19 @@
+state={
+	id=1141
+	name="Région de la Mauricie"
+	history={
+		owner = QBC
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 4
+		}
+		add_core_of = QBC
+	}
+	provinces={
+		983 1356 4419 7291 9601 12149 12223 14174 14198 14247 14254 14267 14270 14278 14279 14291 14292 14293 14294 14342 14408
+	}
+	manpower=494838
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

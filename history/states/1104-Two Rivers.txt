@@ -1,0 +1,28 @@
+state={
+	id=1104
+	name="Two Rivers"
+	manpower=120545
+	state_category=city
+	resources={
+		steel=6.000
+		oil=10.000
+	}
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = VTV
+		victory_points = {
+			14041 3
+		}
+	}
+	provinces={
+		4445 14006 14041
+	}
+	buildings_max_level_factor=1.000
+}

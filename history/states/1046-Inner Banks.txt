@@ -1,0 +1,25 @@
+state={
+	id=1046
+	name="Greenville"
+	resources = {
+		steel = 12.000
+		oil = 2.000
+	}
+	history = {
+		owner = CRN
+		add_core_of = CRN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			4168 1
+		}
+	}
+	provinces={
+		4168 6943
+	}
+	manpower=102457
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

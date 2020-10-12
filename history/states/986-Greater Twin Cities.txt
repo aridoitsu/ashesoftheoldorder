@@ -1,0 +1,22 @@
+state={
+	id=986
+	name="Greater Twin Cities Area"
+	history = {
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			14131 3
+		}
+	}
+	provinces={
+		6827 12550 14152 14131
+	}
+	manpower=401246
+	buildings_max_level_factor=1.000
+	state_category = city
+}

@@ -1,0 +1,9 @@
+strategic_region={
+	id=269
+	name="Nayarit and Jalisco"
+	provinces={
+		2051 5052 10172 12746 12873 13089 13364 13380 13382 13386 
+	}
+	weather={
+	}
+}

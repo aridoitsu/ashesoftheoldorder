@@ -1,0 +1,22 @@
+state={
+	id=810
+	name="Reno"
+	history={
+		owner = JEF
+		add_core_of = JEF
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			13834 10
+		}
+	}
+	provinces={
+		10422 13834 13896 12134 10305 10625
+	}
+	manpower=1222179
+	state_category = city
+	buildings_max_level_factor=1.000
+}

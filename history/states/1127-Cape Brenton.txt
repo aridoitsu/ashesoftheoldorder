@@ -1,0 +1,19 @@
+state={
+	id=1127
+	name="Cape Breton"
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+		}
+	}
+	provinces={
+		4430 14147 14159 14196
+	}
+	manpower=132339
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

@@ -1,0 +1,23 @@
+state={
+	id=1058
+	name="Appalachia"
+	resources = {
+		steel = 24.000
+	}
+	history = {
+		owner = APP
+		add_core_of = APP
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9923 1
+		}
+	}
+	provinces={
+		3941 6958 9923 6823
+	}
+	manpower=60124
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

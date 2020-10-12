@@ -1,0 +1,25 @@
+state={
+	id=907
+	name="Guymon"
+	resources={
+		oil=20.000
+		aluminium=15.000
+	}
+	history={
+		owner = ALL
+		add_core_of = ALL
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		victory_points = {
+			12624 1
+		}
+	}
+	provinces={
+		12624 13692
+	}
+	manpower=116039
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

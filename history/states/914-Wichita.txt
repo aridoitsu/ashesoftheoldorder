@@ -1,0 +1,33 @@
+state={
+	id=914
+	name="Wichita"
+	history = {
+		owner = SEQ
+		add_core_of = SEQ
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+		victory_points = {
+			13724 10
+		}
+		victory_points = {
+			13727 3
+		}
+		victory_points = {
+			13716 3
+		}
+		victory_points = {
+			13719 1
+		}
+		victory_points = {
+			13731 1
+		}
+	}
+	provinces={
+		13716 13719 13724 13727 13731
+	}
+	manpower=390691
+	buildings_max_level_factor=1.000
+	state_category = city
+}

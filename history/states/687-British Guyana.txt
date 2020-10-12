@@ -1,0 +1,32 @@
+
+state={
+	id=687
+	name="STATE_687"
+	resources={
+		aluminium=64.000
+	}
+
+	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+		add_core_of = GYA
+		owner = GYA
+		victory_points = {
+			4982 1
+		}
+		buildings = {
+			infrastructure = 2
+			4982 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4982 8107 12716 13241 13249 13253 13267
+	}
+	manpower=309000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

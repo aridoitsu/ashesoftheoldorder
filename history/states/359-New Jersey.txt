@@ -1,0 +1,28 @@
+
+state={
+	id=359
+	name="Trenton"
+	manpower=3041332
+	state_category=large_city
+
+	history={
+		owner = PHL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 1
+		}
+		add_core_of = PHL
+		victory_points = {
+			11782 10
+		}
+	}
+
+	provinces={
+		11900 11782
+	}
+
+	buildings_max_level_factor=1.000
+
+}

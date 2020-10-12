@@ -1,0 +1,18 @@
+state={
+	id=1044
+	name="Middle Carolina"
+	history = {
+		owner = CRN
+		add_core_of = CRN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1019 1132 
+	}
+	manpower=45103
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

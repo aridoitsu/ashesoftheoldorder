@@ -1,0 +1,81 @@
+division_template = {
+  name = "Civilian Militia"
+  is_locked = yes
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+  }
+}
+
+units = {
+  division = {
+    name = "Civilian Militia El Paso"
+    location = 10740
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia San Antonio"
+    location = 12782
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia Austin"
+    location = 13504
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia Houston"
+    location = 13451
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian El Paso"
+    location = 10740
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia San Antonio"
+    location = 12782
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia Austin"
+    location = 13504
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia Houston"
+    location = 13451
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+}

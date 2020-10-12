@@ -1,0 +1,31 @@
+state={
+	id=938
+	name="Glaciated Plains"
+	resources = {
+		steel = 23.000
+		chromium = 19.000
+	}
+	history = {
+		owner= DAK
+		add_core_of = DAK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			14206 3
+		}
+		victory_points = {
+			14200 3
+		}
+		victory_points = {
+			14220 1
+		}
+	}
+	provinces={
+		1836 4772 10685 14163 14200 14201 14206 14220
+	}
+	manpower=51423
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

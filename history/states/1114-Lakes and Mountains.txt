@@ -1,0 +1,27 @@
+state={
+	id=1114
+	name="Lakes and Mountains"
+	manpower = 173985
+	state_category=rural
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+
+		}
+		add_core_of = MEM
+		add_core_of = CAN
+		victory_points = {
+			7462 5
+		}
+	}
+	provinces={
+		6719 7462 12202 14055 14070 14077 14117
+	}
+	buildings_max_level_factor=1.000
+}

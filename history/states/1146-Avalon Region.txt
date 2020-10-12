@@ -1,0 +1,21 @@
+state={
+	id=1146
+	name="Avalon Region"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			14282 15
+		}
+	}
+	provinces={
+		12505 14243 14256 14280 14282 14286 
+	}
+	manpower=67854
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

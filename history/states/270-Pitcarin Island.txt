@@ -1,0 +1,21 @@
+state=
+{
+	id=270
+	name="STATE_270"
+	manpower = 140
+	state_category = enclave
+	
+	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+		owner = UPI
+		add_core_of = UPI
+		buildings = {
+			infrastructure = 1
+			1280 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		1280
+	}
+}

@@ -1,0 +1,17 @@
+state={
+	id=946
+	name="Prince Albert Parkland & Praire North"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		14803 14828 14869 14874 14890 14909 14922 14943 14954 14977 15004 15052 
+	}
+	manpower=54214
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

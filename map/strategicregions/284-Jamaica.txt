@@ -1,0 +1,9 @@
+strategic_region={
+	id=284
+	name="Jamaica"
+	provinces={
+		12304 12477 
+	}
+	weather={
+	}
+}

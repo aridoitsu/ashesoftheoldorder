@@ -1,0 +1,24 @@
+state={
+	id=885
+	name="Canyon Plains"
+	history={
+		owner = SFE
+		add_core_of = SFE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			13718 3
+		}
+		victory_points = {
+			13704 3
+		}
+	}
+	provinces={
+		1738 13703 13704 13705 13713 13718 13720 13710
+	}
+	manpower=66790
+	buildings_max_level_factor=1.000
+	state_category = town
+}

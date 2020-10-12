@@ -1,0 +1,34 @@
+state={
+	id=1017
+	name="Detroit"
+	history = {
+		owner = DET
+		add_core_of = DET
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 4
+		}
+		victory_points = {
+			13962 20
+		}
+		victory_points = {
+			13968 3
+		}
+		victory_points = {
+			6710 3
+		}
+		victory_points = {
+			13957 1
+		}
+		victory_points = {
+			13947 1
+		}
+	}
+	provinces={
+		6710 13947 13957 13962 13968
+	}
+	manpower=1820342
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

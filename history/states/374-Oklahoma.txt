@@ -1,0 +1,41 @@
+
+state={
+	id=374
+	name="Oklahoma"
+	manpower=896039
+
+	resources={
+		oil=60.000
+		aluminium=20.000
+	}
+
+	history={
+		owner = OKC
+		add_core_of = OKC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 2
+		}
+		victory_points = {
+			13641 15
+		}
+		victory_points = {
+			13651 3
+		}
+		victory_points = {
+			13650 3
+		}
+		victory_points = {
+			13636 3
+		}
+		victory_points = {
+			13634 3
+		}
+	}
+	provinces={
+		13634 13636 13641 13650 13651
+	}
+	buildings_max_level_factor=1.000
+	state_category=city
+}

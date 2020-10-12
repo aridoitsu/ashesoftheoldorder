@@ -1,0 +1,27 @@
+state={
+	id=1071
+	name="Laurel"
+	manpower = 791482
+	state_category=city
+	resources={
+		steel=10.00
+	}
+
+	history={
+		owner = PIT
+		victory_points = {
+			6850 1
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+		}
+		add_core_of = PIT
+	}
+	provinces={
+		880 3802 9789 11789 6850
+	}
+	buildings_max_level_factor=1.000
+}

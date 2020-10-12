@@ -1,0 +1,24 @@
+state={
+	id=811
+	name="Malheur"
+	history = {
+		owner = DUG
+		add_core_of = DUG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			14003 5
+		}
+		victory_points = {
+			13971 3
+		}
+	}
+	provinces={
+		13965 13971 14003 14013 4274
+	}
+	manpower=256829
+	buildings_max_level_factor=1.000
+	state_category = town
+}

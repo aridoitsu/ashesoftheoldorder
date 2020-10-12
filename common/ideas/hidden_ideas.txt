@@ -1,0 +1,32 @@
+ideas = {
+  hidden_ideas = {
+    AAA_idea_wasteland = {
+      modifier = {
+        conscription = -1
+        consumer_goods_factor = 1
+        foreign_subversive_activites = 100
+        subversive_activites_upkeep = 100
+        join_faction_tension = 100
+        guarantee_cost = 100
+        production_speed_buildings_factor = -100
+        research_speed_factor	= -100
+        production_factory_max_efficiency_factor = -100
+        ai_desired_divisions_factor = -100
+        ai_get_ally_desire_factor = -100
+        enemy_justify_war_goal_time = 100
+        justify_war_goal_time = 10
+        trade_opinion_factor = -100
+        local_resources_factor = -1
+        production_factory_start_efficiency_factor = -50
+        production_factory_efficiency_gain_factor = -50
+        resistance_target = -1
+      }
+    }
+    ALL_ai_stuff = {
+      modifier = {
+        ai_desired_divisions_factor = -0.15
+        ai_get_ally_desire_factor = -60
+      }
+    }
+  }
+}

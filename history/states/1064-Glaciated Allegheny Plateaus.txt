@@ -1,0 +1,23 @@
+state={
+	id=1064
+	name="Youngstown"
+	history = {
+		owner = PIT
+		add_core_of = PIT
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			4442 3
+		}
+		victory_points = {
+			6874 1
+		}
+	}
+	provinces={
+		882 4442 6874 9808
+	}
+	manpower=301241
+	buildings_max_level_factor=1.000
+	state_category = city
+}

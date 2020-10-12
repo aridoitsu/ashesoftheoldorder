@@ -1,0 +1,21 @@
+state={
+	id=871
+	name="Custer"
+	history = {
+		owner = WDC
+		add_core_of = WDC
+		add_core_of = SOI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			14151 3
+		}
+	}
+	provinces={
+		1767 10587 14088 14151 14190
+	}
+	manpower=35261
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

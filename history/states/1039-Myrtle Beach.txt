@@ -1,0 +1,21 @@
+state={
+	id=1039
+	name="Myrtle Beach"
+	history = {
+		owner = CRN
+		add_core_of = CRN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			11927 1
+		}
+	}
+	provinces={
+		10047 11927
+	}
+	manpower=105426
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

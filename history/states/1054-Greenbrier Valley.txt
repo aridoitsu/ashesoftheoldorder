@@ -1,0 +1,23 @@
+state={
+	id=1054
+	name="Greenbrier"
+	history = {
+		owner = APP
+		add_core_of = APP
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7466 3
+		}
+		victory_points = {
+			7588 1
+		}
+	}
+	provinces={
+		4627 7466 7588 7646
+	}
+	manpower=804130
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

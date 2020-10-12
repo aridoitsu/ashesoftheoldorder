@@ -1,0 +1,24 @@
+state={
+	id=1106
+	name="North Vermont"
+	manpower=172432
+	state_category=rural
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = VTV
+		victory_points = {
+			14062 1
+		}
+	}
+	provinces={
+		7629 14045 14062 14065
+	}
+	manpower=421035
+	buildings_max_level_factor=1.000
+}

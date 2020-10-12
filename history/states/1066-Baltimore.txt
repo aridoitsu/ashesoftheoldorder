@@ -1,0 +1,38 @@
+state={
+	id=1066
+	name="Baltimore"
+	manpower=1923156
+	state_category=metropolis
+
+	history={
+		owner = EDC
+		buildings = {
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 5
+
+		}
+		add_core_of = EDC
+		victory_points = {
+			13797 5
+		}
+		victory_points = {
+			13805 10
+		}
+		victory_points = {
+			3957 1
+		}
+		victory_points = {
+			13804 1
+		}
+		victory_points = {
+			13811 1
+		}
+
+	}
+
+	provinces={
+		3957 13797 13804 13805 13811
+	}
+	buildings_max_level_factor=1.000
+}

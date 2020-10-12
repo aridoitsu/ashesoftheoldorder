@@ -1,0 +1,21 @@
+state={
+	id=958
+	name="Shreveport"
+	history={
+		owner = LOI
+		add_core_of = LOI
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		victory_points = {
+			13518 10
+		}
+	}
+	provinces={
+		1528 12401 13486 13518
+	}
+	manpower=924512
+	buildings_max_level_factor=1.000
+	state_category = town
+}

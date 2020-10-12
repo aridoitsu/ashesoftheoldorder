@@ -1,0 +1,18 @@
+state={
+	id=730
+	name="St. Pierre and Miquelon"
+	manpower=3426
+	state_category = tiny_island
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+			373 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={ 373 }
+}

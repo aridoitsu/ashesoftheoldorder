@@ -1,0 +1,23 @@
+state={
+	id=1139
+	name="Montréal"
+	history={
+		owner = QBC
+		buildings = {
+			infrastructure = 10
+			arms_factory = 4
+			industrial_complex = 6
+			air_base = 8
+		}
+		victory_points = {
+			14240 20
+		}
+		add_core_of = QBC
+	}
+	provinces={
+		4345 14115 14145 14146 14153 14154 14156 14164 14173 14181
+	}
+	manpower=2493821
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

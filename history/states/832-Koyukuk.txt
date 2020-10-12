@@ -1,0 +1,20 @@
+state={
+	id=832
+	name="Koyukuk"
+	history = {
+		owner = CAN
+		add_core_of = AKA
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	provinces={
+		15624 15656 15683 15688 15700 15709 15721 15724 15731 15745 15755 15756 15762 15780 15787 15805 15810 15816 15822 15839 15844 15857 
+	}
+	manpower=32102
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

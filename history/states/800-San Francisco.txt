@@ -1,0 +1,29 @@
+state={
+	id=800
+	name="South Bay"
+	history={
+		owner = SBY
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 10
+		}
+
+		add_core_of = SBY
+
+		victory_points = {
+			13711 8
+		}
+		victory_points = {
+			9671 15
+		}
+	}
+	provinces={
+		3678 9671 13711
+	}
+	manpower=584363
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

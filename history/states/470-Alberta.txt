@@ -1,0 +1,36 @@
+
+state={
+	id=470
+	name="South Alberta"
+	resources={
+		chromium=6.000
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			4765 7 
+		}
+		victory_points = {
+			1262 4 
+		}
+		victory_points = {
+			7718 4 
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		1262 7718 14467 14505 14513 14551 14552 14567 
+	}
+	manpower=690800
+	buildings_max_level_factor=1.000
+	state_category=town
+}

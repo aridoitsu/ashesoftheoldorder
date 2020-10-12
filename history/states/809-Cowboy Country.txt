@@ -1,0 +1,37 @@
+state={
+	id=809
+	name="Elko"
+	resources={
+		steel=70.000
+		tungsten=32.000
+		aluminium=25.000
+	}
+	history={
+		owner = NEV
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = NEV
+		victory_points = {
+			7756 5
+		}
+		victory_points = {
+			4736 1
+		}
+		victory_points = {
+			7827 1
+		}
+		victory_points = {
+			13849 3
+		}
+		victory_points = {
+			13860 10
+		}
+	}
+	provinces={
+		1862 4736 7756 7827 13849 13855 13856 13860 13877 13883 13897 13900 13906
+	}
+	manpower=31057
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

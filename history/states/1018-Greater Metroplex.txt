@@ -1,0 +1,28 @@
+state={
+	id=1018
+	name="Lansing"
+	history = {
+		owner = DET
+		add_core_of = DET
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			6769 5
+		}
+		victory_points = {
+			9724 3
+		}
+		victory_points = {
+			11669 1
+		}
+	}
+	provinces={
+		6769 9724 9746 11656 11669
+	}
+	manpower=701234
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

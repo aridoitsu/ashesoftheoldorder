@@ -1,0 +1,19 @@
+state={
+	id=1125
+	name="Campbellton"
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	provinces={
+		7379 14297 14307 14325
+	}
+	manpower=248271
+	buildings_max_level_factor=1.000
+	state_category = city
+}

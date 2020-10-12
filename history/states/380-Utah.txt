@@ -1,0 +1,29 @@
+
+state={
+	id=380
+	name="STATE_380"
+	resources={
+		tungsten=76.000
+	}
+
+	history={
+		owner = SLC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = SLC
+		victory_points = {
+			1663 1 
+		}
+
+	}
+
+	provinces={
+		1663 10651 13819 13863 
+	}
+	manpower=207846
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

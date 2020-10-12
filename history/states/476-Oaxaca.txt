@@ -1,0 +1,29 @@
+
+state={
+	id=476
+	name="STATE_476"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			8236 8
+		}
+
+	}
+
+	provinces={
+		8236 10773 12712 13337 13343 
+	}
+	manpower=127331
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

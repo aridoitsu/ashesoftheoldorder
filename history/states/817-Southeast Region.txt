@@ -1,0 +1,29 @@
+state={
+	id=817
+	name="Spokane"
+	history={
+		owner = SPK
+		add_core_of = SPK
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 5
+		}
+		victory_points = {
+			4747 5
+		}
+		victory_points = {
+			1690 10
+		}
+		victory_points = {
+			14222 5
+		}
+	}
+	provinces={
+		4747 10327 12673 14211 14222 10693 1690
+	}
+	manpower=233295
+	buildings_max_level_factor=1.000
+	state_category = town
+}

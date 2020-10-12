@@ -1,0 +1,18 @@
+state={
+	id=997
+	name="Spoon Lamoine"
+	history = {
+		owner = SRF
+		add_core_of = SRF
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1527 4590 10339 10393 12365 
+	}
+	manpower=204147
+	buildings_max_level_factor=1.000
+	state_category = city
+}

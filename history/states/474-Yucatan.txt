@@ -1,0 +1,31 @@
+
+state={
+	id=474
+	name="STATE_474"
+	resources={
+		rubber=11.000
+		steel=2.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 2
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			12715 10 
+		}
+
+	}
+
+	provinces={
+		4904 4965 12715 13348 13349 13368 13375 13378 
+	}
+	manpower=2400289
+	buildings_max_level_factor=1.000
+	state_category=city
+}

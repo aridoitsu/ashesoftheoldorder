@@ -1,0 +1,20 @@
+state={
+	id=960
+	name="Plantation"
+	history={
+		owner = NEO
+		add_core_of = NEO
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 3
+			air_base = 5
+		}
+	}
+	provinces={
+		4535 12398 13438 13443 13465 
+	}
+	manpower=1001592
+	buildings_max_level_factor=1.000
+	state_category = town
+}
