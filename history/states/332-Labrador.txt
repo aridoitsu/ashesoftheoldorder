@@ -3,7 +3,7 @@ state={
 	id=332
 	name="Northern Labrador"
 
-	history={
+	history = {
 		owner = QBC
 		buildings = {
 			infrastructure = 1

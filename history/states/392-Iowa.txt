@@ -3,7 +3,7 @@ state={
 	id=392
 	name="Iowan Plains"
 
-	history={
+	history = {
 		owner = DMO
 		buildings = {
 			infrastructure = 6

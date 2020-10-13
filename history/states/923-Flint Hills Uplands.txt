@@ -1,7 +1,7 @@
 state={
 	id=923
 	name="Flint Hills"
-	history={
+	history = {
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = SEQ

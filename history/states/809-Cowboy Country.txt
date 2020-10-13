@@ -6,7 +6,7 @@ state={
 		tungsten=32.000
 		aluminium=25.000
 	}
-	history={
+	history = {
 		owner = NEV
 		buildings = {
 			infrastructure = 4

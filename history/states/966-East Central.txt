@@ -1,7 +1,7 @@
 state={
 	id=966
 	name="Meridian"
-	history={
+	history = {
 		owner = CON
 		add_core_of = CON
 		buildings = {

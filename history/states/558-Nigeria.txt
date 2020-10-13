@@ -8,7 +8,7 @@ state={
 	resources={
 		rubber=2 # was: 3
 	}
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = NGA
 		add_core_of = NGA
 		buildings = {

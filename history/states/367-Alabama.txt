@@ -9,7 +9,7 @@ state={
 		aluminium=5
 		oil=13.000
 	}
-	history={
+	history = {
 		owner = CON
 		buildings = {
 			infrastructure = 5

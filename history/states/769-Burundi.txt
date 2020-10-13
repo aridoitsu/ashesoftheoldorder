@@ -4,7 +4,7 @@ state={
 
 	state_category = pastoral
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = BRD
 		add_core_of = BRD
 		victory_points = {

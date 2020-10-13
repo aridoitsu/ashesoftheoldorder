@@ -7,7 +7,7 @@ state={
 		tungsten=10.000
 		chromium=3.000
 	}
-	history={
+	history = {
 		owner = EPS
 		buildings = {
 			infrastructure = 4

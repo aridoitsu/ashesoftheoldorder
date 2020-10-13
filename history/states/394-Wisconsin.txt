@@ -6,7 +6,7 @@ state={
 		steel=53.000
 	}
 
-	history={
+	history = {
 		owner = MIN
 		buildings = {
 			infrastructure = 6

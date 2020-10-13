@@ -10,7 +10,7 @@ state={
 		steel=21 # was: 36
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		add_core_of = SCO
 		owner = ENG
 		victory_points = {

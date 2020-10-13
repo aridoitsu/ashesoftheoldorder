@@ -6,7 +6,7 @@ state={
 		aluminium=30.000
 		chromium=4.000
 	}
-	history={
+	history = {
 		owner = TCN
 		buildings = {
 			infrastructure = 3

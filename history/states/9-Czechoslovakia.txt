@@ -5,10 +5,10 @@ state={
 	resources={
 		steel=5 # was: 8
 	}
-	
+
 	state_category = large_city
-	
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+
+	history= {
 		owner = CZE
 		victory_points = { 11542 30 }
 		victory_points = { 6418 5 }
@@ -23,13 +23,9 @@ state={
 		}
 		add_core_of = CZE
 
-		1939.3.14 = {
-			owner = GER
-			controller = GER
-		}
 	}
 
 	provinces={
-		445 494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556 
+		445 494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556
 	}
 }

@@ -10,7 +10,7 @@ state={
 		aluminium=3 # was: 4
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		add_core_of = SCO
 		owner = ENG
 		buildings = {

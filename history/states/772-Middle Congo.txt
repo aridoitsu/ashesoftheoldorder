@@ -8,7 +8,7 @@ state={
 	resources={
 		rubber=1 # was: 1
 	}
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = RCG
 		add_core_of = RCG
 		victory_points = {

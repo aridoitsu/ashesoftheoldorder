@@ -6,7 +6,7 @@ state={
 		oil=25.000
 	}
 
-	history={
+	history = {
 		owner = CAN
 		buildings = {
 			infrastructure = 1

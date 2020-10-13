@@ -11,7 +11,7 @@ state={
 		steel=23 # was: 20 . Changed to 23 (from 15) due to Portugal Setup
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = MOR
 		add_core_of = MOR
 		victory_points = {

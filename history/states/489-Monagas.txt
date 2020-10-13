@@ -6,7 +6,7 @@ state={
 		oil=35.000
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= {
 		owner = VEN
 		buildings = {
 			infrastructure = 4
@@ -25,7 +25,7 @@ state={
 	}
 
 	provinces={
-		1944 1997 2052 4526 5088 10855 12772 13271 13272 13278 13282 13286 13287 13292 13296 13298 13300 13301
+		1944 1997 2052 4526 5088 10855 12772 13271 13272 13278 13282 13286 13287 13292 13296 13298 13300 13301 4892 5000
 	}
 	manpower=1576373
 	buildings_max_level_factor=1.000

@@ -5,7 +5,7 @@ state={
 		oil=5
 		aluminium=5
 	}
-	history={
+	history = {
 		owner = CON
 		add_core_of = CON
 		buildings = {

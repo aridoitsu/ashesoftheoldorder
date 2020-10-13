@@ -5,7 +5,7 @@ state={
 		aluminium=5.000
 		steel=12.000
 	}
-	history={
+	history = {
 		owner = SFE
 		add_core_of = SFE
 		buildings = {

@@ -1,7 +1,7 @@
 state={
 	id=883
 	name="Colorado"
-	history={
+	history = {
 		owner = COC
 		add_core_of = COC
 		buildings = {

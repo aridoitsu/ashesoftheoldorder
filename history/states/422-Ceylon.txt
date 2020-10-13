@@ -10,7 +10,7 @@ state=
 		rubber=60 # was: 116
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		add_core_of = SRL
 		owner = SRL
 		victory_points = {

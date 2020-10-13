@@ -7,7 +7,7 @@ state={
 		steel=40.000
 	}
 
-	history={
+	history = {
 		owner = NSH
 		buildings = {
 			infrastructure = 5

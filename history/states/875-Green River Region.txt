@@ -1,7 +1,7 @@
 state={
 	id=875
 	name="Green River Region"
-	history={
+	history = {
 		owner = WYW
 		add_core_of = WYW
 		buildings = {

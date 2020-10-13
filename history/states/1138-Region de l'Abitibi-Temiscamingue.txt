@@ -1,7 +1,7 @@
 state={
 	id=1138
 	name="Région de l'Abitibi-Temiscamingue"
-	history={
+	history = {
 		owner = QBC
 		buildings = {
 			infrastructure = 5

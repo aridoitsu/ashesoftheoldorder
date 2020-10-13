@@ -7,7 +7,7 @@ state={
 		steel=2 # was: 3
 	}
 	state_category = town
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = EST
 		victory_points = {
 			3152 5 

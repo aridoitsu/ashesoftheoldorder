@@ -7,7 +7,7 @@ state={
 		steel=10.00
 	}
 
-	history={
+	history = {
 		owner = PIT
 		victory_points = {
 			6850 1

@@ -5,7 +5,7 @@ state={
 		oil=20.000
 		aluminium=15.000
 	}
-	history={
+	history = {
 		owner = ALL
 		add_core_of = ALL
 		buildings = {

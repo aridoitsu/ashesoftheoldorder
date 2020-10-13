@@ -11,7 +11,7 @@ state={
 	
 	state_category = large_city
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = GER
 		victory_points = { 3561 5 }
 		victory_points = { 425 3 }

@@ -2,7 +2,7 @@ state={
 	id=621
 	name="STATE_621"
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = PRC
 		add_core_of = PRC
 		add_core_of = CHI

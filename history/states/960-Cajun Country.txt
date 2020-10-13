@@ -1,7 +1,7 @@
 state={
 	id=960
 	name="Plantation"
-	history={
+	history = {
 		owner = NEO
 		add_core_of = NEO
 		buildings = {

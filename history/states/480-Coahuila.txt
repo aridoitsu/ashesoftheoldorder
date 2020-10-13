@@ -7,7 +7,7 @@ state={
 		rubber=8.000
 	}
 
-	history={
+	history = {
 		owner = MEX
 		buildings = {
 			infrastructure = 4

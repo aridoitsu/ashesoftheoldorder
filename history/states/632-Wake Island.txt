@@ -9,7 +9,7 @@ state={
 	}
 	state_category = tiny_island
 
-	history={
+	history = {
 		owner = UPI
 		add_core_of = UPI
 		buildings = {

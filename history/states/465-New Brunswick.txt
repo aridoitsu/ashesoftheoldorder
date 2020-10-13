@@ -3,7 +3,7 @@ state={
 	id=465
 	name="New Brunswick"
 
-	history={
+	history = {
 		owner = CAN
 		buildings = {
 			infrastructure = 5

@@ -5,7 +5,7 @@ state={
 		steel=20.000
 		aluminium=8.000
 	}
-	history={
+	history = {
 		owner = TCN
 		add_core_of = TCN
 		buildings = {

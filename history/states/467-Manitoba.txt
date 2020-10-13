@@ -3,7 +3,7 @@ state={
 	id=467
 	name="Manitoba"
 
-	history={
+	history = {
 		owner = CAN
 		buildings = {
 			infrastructure = 4

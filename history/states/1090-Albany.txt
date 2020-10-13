@@ -4,7 +4,7 @@ state={
 	manpower=732093
 	state_category = metropolis
 
-	history={
+	history = {
 		owner = NYN
 		buildings = {
 			infrastructure = 9

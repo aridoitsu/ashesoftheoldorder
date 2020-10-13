@@ -2,7 +2,7 @@ state={
 	id=231
 	name="STATE_231"
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = GEO
 		victory_points = {
 			1599 5 

@@ -3,7 +3,7 @@ state={
 	id=331
 	name="Western Newfoundland"
 
-	history={
+	history = {
 		owner = CAN
 		buildings = {
 			infrastructure = 3

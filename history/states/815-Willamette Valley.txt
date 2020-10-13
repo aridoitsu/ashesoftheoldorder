@@ -4,7 +4,7 @@ state={
 	resources = {
 		chromium = 3.000
 	}
-	history={
+	history = {
 		owner = PRT
 		add_core_of = PRT
 		buildings = {

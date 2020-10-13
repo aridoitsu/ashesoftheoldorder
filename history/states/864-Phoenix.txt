@@ -5,7 +5,7 @@ state={
 		steel=20.000
 		aluminium=8.000
 	}
-	history={
+	history = {
 		owner = PNX
 		add_core_of = PNX
 		buildings = {

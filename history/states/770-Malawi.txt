@@ -2,7 +2,7 @@ state={
 	id=770
 	name="STATE_770"
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = MLW
 		add_core_of = MLW
 		victory_points = {

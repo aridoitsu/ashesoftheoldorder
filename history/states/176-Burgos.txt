@@ -2,7 +2,7 @@ state={
 	id=176
 	name="STATE_176"
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = SPR
 		buildings = {
 			infrastructure = 6

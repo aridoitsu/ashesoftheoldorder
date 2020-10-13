@@ -6,7 +6,7 @@ state={
 		steel=14.000
 	}
 
-	history={
+	history = {
 		owner = VAV
 		buildings = {
 			infrastructure = 6

@@ -1,7 +1,7 @@
 state={
 	id=1130
 	name="Northumberland Shore"
-	history={
+	history = {
 		owner = CAN
 		add_core_of = CAN
 		buildings = {

@@ -1,7 +1,7 @@
 state={
 	id=1160
 	name="San Marino"
-	history={
+	history = {
 		owner = SMN
 		buildings = {
 			infrastructure = 9

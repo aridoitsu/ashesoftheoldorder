@@ -6,7 +6,7 @@ state={
 		chromium=10.000
 		tungsten=12.000
 	}
-	history={
+	history = {
 		owner = BOI
 		add_core_of = BOI
 		buildings = {

@@ -1,7 +1,7 @@
 state={
 	id=1122
 	name="Fredericton"
-	history={
+	history = {
 		owner = CAN
 		add_core_of = CAN
 		buildings = {

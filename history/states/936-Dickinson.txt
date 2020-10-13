@@ -1,7 +1,7 @@
 state={
 	id=936
 	name="Dickinson"
-	history={
+	history = {
 		owner = WDC
 		buildings = {
 			infrastructure = 4

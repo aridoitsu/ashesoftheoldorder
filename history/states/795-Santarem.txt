@@ -4,7 +4,7 @@ state={
 	resources={
 		chromium=20.000 #added due to portugal setup
 	}
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = POR
 		victory_points = {
 			9869 1 

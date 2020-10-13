@@ -8,7 +8,7 @@ state={
 	resources={
 		tungsten = 120 
 	}
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		add_core_of = BRM
 		owner = BRM
 		buildings = {

@@ -11,7 +11,7 @@ state={
 	}
 
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = SWE
 		victory_points = {
 			11380 1 

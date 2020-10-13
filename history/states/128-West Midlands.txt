@@ -9,7 +9,7 @@ state={
 		steel=27 # was: 48
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = ENG
 		buildings = {
 			infrastructure = 8

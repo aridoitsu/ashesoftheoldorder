@@ -1,7 +1,7 @@
 state={
 	id=976
 	name="East Kansas City"
-	history={
+	history = {
 		owner = MOM
 		add_core_of = MOM
 		buildings = {

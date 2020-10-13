@@ -6,7 +6,7 @@ state={
 		steel=22.000
 		oil=11.000
 	}
-	history={
+	history = {
 		owner = PEN
 		buildings = {
 			infrastructure = 2

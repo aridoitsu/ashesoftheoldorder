@@ -6,10 +6,10 @@ state= {
 		steel=3 # was: 4
 		chromium=90 # was: 160
 	}
-	
+
 	state_category = town
 
-	history= {
+	history = {
 		owner = CUB
 		buildings = {
 			infrastructure = 4
@@ -25,7 +25,7 @@ state= {
 		}
 		add_core_of = CUB
 		victory_points = {
-			7622 5 
+			7622 5
 		}
 		victory_points = {
 			7590 1

@@ -6,7 +6,7 @@ state={
 	
 	state_category = large_town
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = POR
 		victory_points = {
 			9817 10

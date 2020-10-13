@@ -9,7 +9,7 @@ state={
 		aluminium=20.000
 	}
 
-	history={
+	history = {
 		owner = OKC
 		add_core_of = OKC
 		buildings = {

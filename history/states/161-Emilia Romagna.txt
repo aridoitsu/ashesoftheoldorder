@@ -10,7 +10,7 @@ state={
 		aluminium=9 # was: 16
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = ITA
 		victory_points = {
 			6606 3 

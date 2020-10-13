@@ -1,7 +1,7 @@
 state={
 	id=1159
 	name="Vatican City"
-	history={
+	history = {
 		owner = VAT
 		buildings = {
 			infrastructure = 9

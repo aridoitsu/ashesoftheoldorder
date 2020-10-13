@@ -3,7 +3,7 @@ state={
 	id=370
 	name="Mississippi"
 
-	history={
+	history = {
 		owner = MIS
 		victory_points = {
 			4464 1

@@ -1,7 +1,7 @@
 state={
 	id=873
 	name="Cheyenne"
-	history={
+	history = {
 		owner = WDC
 		add_core_of = WDC
 		buildings = {

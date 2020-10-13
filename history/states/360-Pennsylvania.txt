@@ -9,7 +9,7 @@ state={
 		aluminium=14.000
 	}
 
-	history={
+	history = {
 		owner = PEN
 		buildings = {
 			infrastructure = 4

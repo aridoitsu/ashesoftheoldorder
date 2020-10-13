@@ -7,7 +7,7 @@ state={
 		oil=4.000
 	}
 
-	history={
+	history = {
 		owner = MOM
 		buildings = {
 			infrastructure = 5

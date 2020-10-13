@@ -1,7 +1,7 @@
 state={
 	id=1123
 	name="Moncton"
-	history={
+	history = {
 		owner = CAN
 		add_core_of = CAN
 		buildings = {

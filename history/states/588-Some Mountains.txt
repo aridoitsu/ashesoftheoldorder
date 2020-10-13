@@ -8,7 +8,7 @@ state={
 		chromium=16 # was: 22.000
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = KAZ
 		add_core_of = KAZ
 		buildings = {

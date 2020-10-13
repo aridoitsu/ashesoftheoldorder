@@ -2,7 +2,7 @@
 state={
 	id=1133
 	name="Région du Nunavik"
-	history={
+	history = {
 		owner = QBC
 		buildings = {
 			infrastructure = 3

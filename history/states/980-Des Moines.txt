@@ -1,7 +1,7 @@
 state={
 	id=980
 	name="Des Moines"
-	history={
+	history = {
 		owner = DMO
 		add_core_of = DMO
 		buildings = {

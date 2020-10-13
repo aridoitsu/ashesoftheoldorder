@@ -9,7 +9,7 @@ state={
 		chromium=12 # was: 24
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = RUS
 		victory_points = {
 			3134 5 

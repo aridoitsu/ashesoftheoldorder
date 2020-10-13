@@ -5,7 +5,7 @@ state={
 		oil=96.000
 		aluminium=50.000
 	}
-	history={
+	history = {
 		owner = MTX
 		add_core_of = MTX
 		buildings = {

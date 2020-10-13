@@ -7,7 +7,7 @@ state={
 		oil=4.000
 	}
 
-	history={
+	history = {
 		owner = PHL
 		buildings = {
 			infrastructure = 7

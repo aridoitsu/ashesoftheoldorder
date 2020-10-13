@@ -8,7 +8,7 @@ state={
 		steel=6 # was: 8
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = TUN
 		add_core_of = TUN
 		victory_points = {

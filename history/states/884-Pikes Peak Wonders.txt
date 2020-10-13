@@ -1,7 +1,7 @@
 state={
 	id=884
 	name="Pikes Peak"
-	history={
+	history = {
 		owner = COC
 		add_core_of = COC
 		buildings = {

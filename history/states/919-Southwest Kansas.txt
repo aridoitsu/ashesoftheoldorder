@@ -1,7 +1,7 @@
 state={
 	id=919
 	name="Southwest Kansas"
-	history={
+	history = {
 		owner = ALL
 		add_core_of = ALL
 		buildings = {

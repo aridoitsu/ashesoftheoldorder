@@ -6,7 +6,7 @@ state={
 		chromium=5.000
 	}
 
-	history={
+	history = {
 		owner = CAN
 		buildings = {
 			infrastructure = 1

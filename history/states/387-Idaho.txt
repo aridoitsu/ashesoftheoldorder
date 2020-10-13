@@ -8,7 +8,7 @@ state={
 		tungsten=18.000
 	}
 
-	history={
+	history = {
 		owner = SPK
 		add_core_of = SPK
 		buildings = {

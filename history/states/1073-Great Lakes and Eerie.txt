@@ -7,7 +7,7 @@ state={
 		oil=8.00
 	}
 
-	history={
+	history = {
 		owner = PIT
 		buildings = {
 			infrastructure = 4

@@ -7,7 +7,7 @@ state={
 		steel=12.000
 	}
 
-	history={
+	history = {
 		owner = CRA
 		buildings = {
 			infrastructure = 4

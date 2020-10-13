@@ -6,7 +6,7 @@ state={
 		oil=5.000
 
 	}
-	history={
+	history = {
 		owner = IRN
 		add_core_of = IRN
 		buildings = {

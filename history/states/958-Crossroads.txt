@@ -1,7 +1,7 @@
 state={
 	id=958
 	name="Shreveport"
-	history={
+	history = {
 		owner = LOI
 		add_core_of = LOI
 		buildings = {

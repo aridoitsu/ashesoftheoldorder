@@ -9,7 +9,7 @@ state={
 		steel = 6.000
 	}
 
-	history={
+	history = {
 		owner = WDC
 		buildings = {
 			infrastructure = 4

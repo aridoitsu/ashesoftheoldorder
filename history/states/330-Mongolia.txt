@@ -6,7 +6,7 @@ state={
 		chromium=3.000
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = MON
 		victory_points = {
 			4801 5 

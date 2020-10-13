@@ -11,7 +11,7 @@ state={
 		tungsten = 15 # was: 20
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = NOR
 		buildings = {
 			infrastructure = 3

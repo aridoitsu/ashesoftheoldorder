@@ -10,7 +10,7 @@ state={
 		oil=3 # was: 4
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = IND
 		victory_points = {
 			9975 1 

@@ -1,7 +1,7 @@
 state={
 	id=1134
 	name="Région de la Côte Nord"
-	history={
+	history = {
 		owner = QBC
 		buildings = {
 			infrastructure = 4

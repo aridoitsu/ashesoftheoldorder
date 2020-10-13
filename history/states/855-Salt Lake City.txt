@@ -1,7 +1,7 @@
 state={
 	id=855
 	name="Salt Lake City"
-	history={
+	history = {
 		owner = SLC
 		add_core_of = SLC
 

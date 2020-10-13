@@ -6,7 +6,7 @@ state={
 		chromium=4.000
 	}
 
-	history={
+	history = {
 		owner = GUA
 		buildings = {
 			infrastructure = 4

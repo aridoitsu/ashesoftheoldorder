@@ -1,7 +1,7 @@
 state={
 	id=1139
 	name="Montréal"
-	history={
+	history = {
 		owner = QBC
 		buildings = {
 			infrastructure = 10

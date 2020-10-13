@@ -4,7 +4,7 @@ state={
 	manpower = 251045
 	state_category=city
 
-	history={
+	history = {
 		owner=EDC
 		buildings = {
 			infrastructure = 7

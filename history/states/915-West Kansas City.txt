@@ -1,7 +1,7 @@
 state={
 	id=915
 	name="West Missouri City"
-	history={
+	history = {
 		owner = MOM
 		add_core_of = MOM
 		buildings = {

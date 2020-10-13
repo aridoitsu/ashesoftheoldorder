@@ -1,7 +1,7 @@
 state={
 	id=965
 	name="Jackson"
-	history={
+	history = {
 		owner = MIS
 		add_core_of = MIS
 		buildings = {

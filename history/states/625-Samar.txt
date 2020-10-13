@@ -4,7 +4,7 @@ state=
 	name="STATE_625"
 	manpower = 1138724
 	
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = PHI
 		buildings = {
 			infrastructure = 3

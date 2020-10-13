@@ -1,7 +1,7 @@
 state={
 	id=895
 	name="Dallas"
-	history={
+	history = {
 		owner = TEX
 		buildings = {
 			infrastructure = 6

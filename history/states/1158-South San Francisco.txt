@@ -1,7 +1,7 @@
 state={
 	id=1158
 	name="South San Francisco"
-	history={
+	history = {
 		owner = FSC
 		buildings = {
 			infrastructure = 5

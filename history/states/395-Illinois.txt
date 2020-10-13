@@ -5,7 +5,7 @@ state={
 	resources = {
 		steel = 32.000
 	}
-	history={
+	history = {
 		owner = SRF
 		buildings = {
 			infrastructure = 7

@@ -4,7 +4,7 @@ state={
 	manpower = 5947163
 	state_category = megalopolis
 
-	history={
+	history = {
 		owner = NYC
 		buildings = {
 			infrastructure = 10

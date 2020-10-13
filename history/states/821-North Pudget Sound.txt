@@ -1,7 +1,7 @@
 state={
 	id=821
 	name="Seattle"
-	history={
+	history = {
 		owner = SEA
 		add_core_of = SEA
 		buildings = {

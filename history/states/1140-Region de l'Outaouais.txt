@@ -1,7 +1,7 @@
 state={
 	id=1140
 	name="Région de l'Outaouais"
-	history={
+	history = {
 		owner = QBC
 		buildings = {
 			infrastructure = 7

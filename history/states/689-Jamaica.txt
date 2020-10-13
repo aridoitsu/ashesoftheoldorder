@@ -5,7 +5,7 @@ state={
 	
 	state_category = town
 
-	history={ 1936.1.3 = {owner = JAM controller = JAM  }
+	history = { 1936.1.3 = {owner = JAM controller = JAM  }
 		add_core_of = JAM
 		owner = JAM
 		victory_points = {

@@ -1,7 +1,7 @@
 state={
 	id=1129
 	name="Bay of Fundy and Annapolis Valley"
-	history={
+	history = {
 		owner = CAN
 		add_core_of = CAN
 		buildings = {

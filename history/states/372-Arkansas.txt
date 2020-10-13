@@ -6,7 +6,7 @@ state={
 		aluminium=14.000
 	}
 
-	history={
+	history = {
 		owner = OZR
 		buildings = {
 			infrastructure = 4

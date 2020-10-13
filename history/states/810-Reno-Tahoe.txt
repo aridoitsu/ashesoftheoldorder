@@ -1,7 +1,7 @@
 state={
 	id=810
 	name="Reno"
-	history={
+	history = {
 		owner = JEF
 		add_core_of = JEF
 		buildings = {

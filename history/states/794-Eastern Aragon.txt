@@ -2,7 +2,7 @@ state={
 	id=794
 	name="STATE_794"
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = SPR
 		victory_points = {
 			3954 1 

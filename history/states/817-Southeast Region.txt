@@ -1,7 +1,7 @@
 state={
 	id=817
 	name="Spokane"
-	history={
+	history = {
 		owner = SPK
 		add_core_of = SPK
 		buildings = {

@@ -2,7 +2,7 @@ state={
 	id=587
 	name="STATE_587"
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = KAZ
 		add_core_of = KAZ
 		buildings = {

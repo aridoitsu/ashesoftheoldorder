@@ -7,7 +7,7 @@ state={
 		steel=16.000
 	}
 
-	history={
+	history = {
 		owner = CAL
 		buildings = {
 			infrastructure = 6

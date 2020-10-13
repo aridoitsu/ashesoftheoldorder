@@ -6,7 +6,7 @@ state={
 	
 	state_category = town
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = BRA
 		buildings = {
 			infrastructure = 5

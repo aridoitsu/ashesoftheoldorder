@@ -10,7 +10,7 @@ state={
 		chromium=90 # was: 168
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = BOT
 		buildings = {
 			infrastructure = 1

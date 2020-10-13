@@ -8,7 +8,7 @@ state={
 	resources={
 		rubber=5 # was: 5
 	}
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = COG
 		buildings = {
 			infrastructure = 1

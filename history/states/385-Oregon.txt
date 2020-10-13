@@ -7,7 +7,7 @@ state={
 		steel=11.000
 	}
 
-	history={
+	history = {
 		owner = SNK
 		add_core_of = SNK
 		buildings = {

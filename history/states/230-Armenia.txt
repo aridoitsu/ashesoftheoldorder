@@ -2,7 +2,7 @@ state={
 	id=230
 	name="STATE_230"
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = ARM
 		victory_points = {
 			12320 1 

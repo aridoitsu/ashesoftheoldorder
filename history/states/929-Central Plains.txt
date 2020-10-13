@@ -1,7 +1,7 @@
 state={
 	id=929
 	name="Central Plains"
-	history={
+	history = {
 		owner = NEB
 		add_core_of = NEB
 		buildings = {

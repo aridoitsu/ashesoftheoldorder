@@ -9,7 +9,7 @@ state={
 
 	state_category = city
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= { 
 		owner = ROM
 		victory_points = { 9617 20 }
 		victory_points = { 3663 5 }

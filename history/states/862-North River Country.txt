@@ -4,7 +4,7 @@ state={
 	resources={
 		steel=20.000
 	}
-	history={
+	history = {
 		owner = PNX
 		add_core_of = PNX
 		buildings = {

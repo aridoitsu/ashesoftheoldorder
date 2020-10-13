@@ -4,7 +4,7 @@ state={
 	resources = {
 		chromium = 13.000
 	}
-	history={
+	history = {
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = LAK

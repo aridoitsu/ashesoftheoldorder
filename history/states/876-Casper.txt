@@ -1,7 +1,7 @@
 state={
 	id=876
 	name="Casper"
-	history={
+	history = {
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = LAK

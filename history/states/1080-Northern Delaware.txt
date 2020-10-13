@@ -8,7 +8,7 @@ state={
 		chromium=5.000
 	}
 
-	history={
+	history = {
 		owner = DEL
 		buildings = {
 			infrastructure = 4

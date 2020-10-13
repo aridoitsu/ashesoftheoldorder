@@ -4,7 +4,7 @@ state={
 	resources={
 		chromium= 5.000
 	}
-	history={
+	history = {
 		owner = YWS
 		add_core_of = YWS
 		buildings = {

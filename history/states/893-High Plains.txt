@@ -1,7 +1,7 @@
 state={
 	id=893
 	name="Dry Plains"
-	history={
+	history = {
 		owner = SFE
 		add_core_of = SFE
 		buildings = {

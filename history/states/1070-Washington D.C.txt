@@ -9,7 +9,7 @@ state={
 		aluminium=7.000
 	}
 
-	history={
+	history = {
 		owner = EDC
 		buildings = {
 			infrastructure = 10

@@ -5,7 +5,7 @@ state={
 	resources={
 		oil=9.000
 	}
-	history={
+	history = {
 		owner = LOI
 		add_core_of = LOI
 		buildings = {

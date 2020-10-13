@@ -6,7 +6,7 @@ state={
 		chromium=1.000
 	}
 
-	history={
+	history = {
 		owner = NIC
 		buildings = {
 			infrastructure = 4

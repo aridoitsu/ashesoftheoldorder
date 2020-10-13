@@ -3,22 +3,22 @@ state={
 	id=152
 	name="STATE_152"
 	manpower = 2275377
-	
+
 	state_category = city
-	
+
 	resources={
 		steel=5 # was: 8
 		aluminium=1 # was: 1
 	}
 
-	history={ 1936.1.3 = {owner = AAA controller = AAA  }
+	history= {
 		owner = AUS
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
 		}
 		victory_points = {
-			688 10 
+			688 10
 		}
 		victory_points = {
 			3673 3
@@ -34,11 +34,6 @@ state={
 		#}
 		add_core_of = AUS
 
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-		}
 	}
 
 	provinces={

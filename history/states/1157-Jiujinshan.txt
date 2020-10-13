@@ -1,7 +1,7 @@
 state={
 	id=1157
 	name="Jiujinshan"
-	history={
+	history = {
 		owner = CHT
 		buildings = {
 			infrastructure = 7

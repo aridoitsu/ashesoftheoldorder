@@ -3,7 +3,7 @@ state={
 	id=629
 	name="Hawaii"
 
-	history={
+	history = {
 		owner = UPI
 		add_core_of = HIH
 		add_core_of = UPI

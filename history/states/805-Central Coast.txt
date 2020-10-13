@@ -5,7 +5,7 @@ state={
 		oil = 20.000
 		tungsten = 7.000
 	}
-	history={
+	history = {
 		owner = CCI
 		buildings ={
 			infrastructure = 6
