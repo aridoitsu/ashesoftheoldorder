@@ -5,5 +5,8 @@ tags={
 	"Map"
 	"Gameplay"
 }
+replace_path="history/states"
+replace_path="gfx/loadingscreens"
+replace_path="map/strategicregions"
 name="Ashes of the Old Order"
-supported_version="1.9.3"
+supported_version="1.10.*"
