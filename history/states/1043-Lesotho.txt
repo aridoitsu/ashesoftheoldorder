@@ -1,17 +1,18 @@
 state={
 	id=1043
-	name="REMOVE_STATE"
+	name="Lesotho"
 	history = {
-		owner = CRN
-		add_core_of = CRN
+		owner = LES
+		add_core_of = LES
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
+			industrial_complex = 2
 		}
 	}
 	provinces={
-		7083 10051 
+		4556
 	}
-	manpower=30124
+	manpower=2108142
 	buildings_max_level_factor=1.000
 	state_category = town
 }

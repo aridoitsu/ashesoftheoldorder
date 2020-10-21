@@ -1,0 +1,24 @@
+state={
+	id=1068
+	name="Juba"
+	manpower = 10985637
+	state_category=town
+
+	history = {
+		owner=SSD
+		victory_points = {
+			2096 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = SSD
+	}
+
+	provinces={
+		12800 10877 2096 10859 10908 4033 10857 10764 1953 7996
+	}
+	buildings_max_level_factor=1.000
+}

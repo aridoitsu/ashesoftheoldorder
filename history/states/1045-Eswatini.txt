@@ -1,17 +1,18 @@
 state={
 	id=1045
-	name="Outer Banks"
+	name="Eswatini"
 	history = {
-		owner = CRN
-		add_core_of = CRN
+		owner = EWT
+		add_core_of = EWT
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
 		}
 	}
 	provinces={
-		1077 1163 9876
+		7900
 	}
-	manpower=302153
+	manpower=1136284
 	buildings_max_level_factor=1.000
 	state_category = town
 }

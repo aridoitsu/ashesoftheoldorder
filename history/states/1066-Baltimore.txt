@@ -1,7 +1,7 @@
 state={
 	id=1066
 	name="Baltimore"
-	manpower=1923156
+	manpower=2723156
 	state_category=metropolis
 
 	history = {
@@ -10,6 +10,9 @@ state={
 			infrastructure = 8
 			arms_factory = 4
 			industrial_complex = 5
+			6984 = {
+				naval_base=3
+			}
 
 		}
 		add_core_of = EDC
@@ -32,7 +35,7 @@ state={
 	}
 
 	provinces={
-		3957 13797 13804 13805 13811
+		3957 13797 13804 13805 13811 6984
 	}
 	buildings_max_level_factor=1.000
 }

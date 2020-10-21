@@ -1,18 +1,18 @@
 state={
 	id=1044
-	name="Middle Carolina"
+	name="Halayib Triangle"
 	history = {
-		owner = CRN
-		add_core_of = CRN
+		owner = EGY
+		add_core_of = EGY
+		add_core_of = SUD
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
 		}
 	}
 	provinces={
-		1019 1132 
+		15558 1977
 	}
-	manpower=45103
+	manpower=8008
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category = wasteland
 }

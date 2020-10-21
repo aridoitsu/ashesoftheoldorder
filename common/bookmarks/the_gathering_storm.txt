@@ -14,7 +14,7 @@ bookmarks = {
 
 			}
 			focuses = {
-				
+				#
 			}
 		}
 
@@ -22,10 +22,10 @@ bookmarks = {
 			history = "CAL_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				
+				#
 			}
 			focuses = {
-				
+				#
 			}
 		}
 
@@ -37,7 +37,7 @@ bookmarks = {
 				#
 			}
 			focuses = {
-				
+				#
 			}
 		}
 		"CON"={
@@ -47,7 +47,17 @@ bookmarks = {
 				#
 			}
 			focuses = {
-				
+				#
+			}
+		}
+		"CGO"={
+			history = "CGO_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
 			}
 		}
 		"CAN"={

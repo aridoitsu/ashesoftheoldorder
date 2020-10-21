@@ -1,8 +1,8 @@
 strategic_region={
 	id=237
-	name="REPOSITION"
+	name="Delmarva"
 	provinces={
-		9786
+		9786 13066
 	}
 	weather={
 	}
