@@ -58,7 +58,26 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	democratic = 75
-	communism = 23
-	fascism = 2
+	democratic = 44
+	neutrality = 0
+	authdem = 0
+	liberal = 36
+	demsoc = 5
+	prodem = 0
+	communism = 0
+	totalsoc = 0
+	libsoc = 5
+	anarchy = 0
+	fascism = 10
+	ultranationalism = 0
+}
+create_country_leader = {
+	name = "Russell M. Nelson"
+	desc = "POLITICS_RUSSEL_M_NELSON_DESC"
+	picture = "Portrait_PRV_RM_Nelson.dds"
+	expire = "2040.1.1"
+	ideology = theodemocratic
+	traits = {
+		popular_figurehead
+	}
 }

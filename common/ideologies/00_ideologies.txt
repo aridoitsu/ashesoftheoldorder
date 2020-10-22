@@ -3,7 +3,8 @@ ideologies = {
 	ultranationalism = {
 
 		types = {
-			nationalism_subtype = {}
+			nationalist = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -34,7 +35,8 @@ ideologies = {
 	fascism = {
 
 		types = {
-			fascism_subtype = {}
+			neofascism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -65,7 +67,12 @@ ideologies = {
 	neutrality = {
 
 		types = {
-			neutrality_subtype = {}
+			monarchist = {
+			}
+			junta = {
+			}
+			despot = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -100,7 +107,8 @@ ideologies = {
 	authdem = {
 
 		types = {
-			authdem_subtype = {}
+			reactionary = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -136,7 +144,10 @@ ideologies = {
 	democratic = {
 
 		types = {
-			democratic_subtype = {}
+			theodemocratic = {
+			}
+			conservative = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -168,7 +179,12 @@ ideologies = {
 	liberal = {
 
 		types = {
-			liberal_subtype = {}
+			theoliberal = {
+			}
+			sociallib = {
+			}
+			marketlib = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -200,7 +216,10 @@ ideologies = {
 	prodem = {
 
 		types = {
-			prodem_subtype = {}
+			green = {
+			}
+			green = {
+			}
 		}
 
 		dynamic_faction_names = {
