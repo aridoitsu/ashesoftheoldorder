@@ -336,6 +336,8 @@ ideologies = {
 		types = {
 			stalinist = {
 			}
+			authsoc = {
+			}
 			technocrat = {
 			}
 		}
