@@ -3744,8 +3744,7 @@
    NEO_democratic_ADJ:0 "Orleanian"
    NEO_ultranationalism_ADJ:0 "Orleanian"
 
-   CGO_authdem:0 "Chicago"
-   CGO_authdem_DEF:0 "Chicago"
+   CGO:0 "Chicago"
    CGO_democratic:0 "Chicago"
    CGO_democratic_DEF:0 "Chicago"
    CGO_communism:0 "Chicago"

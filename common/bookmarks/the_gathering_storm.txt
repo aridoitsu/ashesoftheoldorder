@@ -60,6 +60,16 @@ bookmarks = {
 				#
 			}
 		}
+		"PRV"={
+			history = "PRV_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
 		"CAN"={
 			history = "CAN_GATHERING_STORM_DESC"
 			ideology = liberal

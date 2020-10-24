@@ -71,3 +71,13 @@ set_popularities = {
 	fascism = 5
 	ultranationalism = 15
 }
+create_country_leader = {
+	name = "Vladimir Putin"
+	desc = "POLITICS_VLADIMIR_PUTIN_DESC"
+	picture = "Portrait_RUS_Putin.dds"
+	expire = "2040.1.1"
+	ideology = semi_dictator
+	traits = {
+		#
+	}
+}

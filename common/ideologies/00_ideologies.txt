@@ -5,6 +5,8 @@ ideologies = {
 		types = {
 			nationalist = {
 			}
+			ultra_natsoc = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -35,7 +37,13 @@ ideologies = {
 	fascism = {
 
 		types = {
-			neofascism = {
+			nazism = {
+			}
+			pan_europe = {
+			}
+			national_socialism = {
+			}
+			theodictator = {
 			}
 		}
 
@@ -108,6 +116,10 @@ ideologies = {
 
 		types = {
 			reactionary = {
+			}
+			semi_dictator = {
+			}
+			new_democracy = {
 			}
 		}
 
@@ -218,7 +230,9 @@ ideologies = {
 		types = {
 			green = {
 			}
-			green = {
+			techno = {
+			}
+			progressive = {
 			}
 		}
 
@@ -251,7 +265,10 @@ ideologies = {
 	demsoc = {
 
 		types = {
-			demsoc_subtype = {}
+			churchsoc = {
+			}
+			socialism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -283,7 +300,10 @@ ideologies = {
 	libsoc = {
 
 		types = {
-			libsoc_subtype = {}
+			part_techno_soc = {
+			}
+			leninist = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -314,8 +334,10 @@ ideologies = {
 
 	communism = {
 		types = {
-
-			communism_subtype = {}
+			stalinist = {
+			}
+			technocrat = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -351,7 +373,12 @@ ideologies = {
 	anarchy = {
 
 		types = {
-			anarchy_subtype = {}
+			total_anarchy = {
+			}
+			anarchy_commune = {
+			}
+			anti_technocrat = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -383,7 +410,12 @@ ideologies = {
 	totalsoc = {
 
 		types = {
-			totalsoc_subtype = {}
+			vietnamese_utopia = {
+			}
+			japanese_utopia = {
+			}
+			chicago_utopia = {
+			}
 		}
 
 		dynamic_faction_names = {
