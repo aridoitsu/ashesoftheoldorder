@@ -3,7 +3,9 @@ state={
 	name="New York City"
 	manpower = 5947163
 	state_category = megalopolis
-
+	resources = {
+		steel = 25.00
+	}
 	history = {
 		owner = NYC
 		buildings = {
@@ -11,7 +13,10 @@ state={
 			arms_factory = 1
 			industrial_complex = 5
 			dockyard = 2
+			859 = {
+				naval_base = 6
 			}
+		}
 		add_core_of = NYC
 		victory_points = {
 			3878 30
@@ -28,10 +33,13 @@ state={
 		victory_points = {
 			13872 5
 		}
+		victory_points = {
+			859 1
+		}
 	}
 
 	provinces={
-		3878 13870 13872 13876 13887
+		3878 13870 13872 13876 13887 859
 	}
 	buildings_max_level_factor=1.000
 }

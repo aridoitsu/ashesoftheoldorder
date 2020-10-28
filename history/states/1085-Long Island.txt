@@ -1,30 +1,22 @@
 state={
 	id=1085
-	name="Long Island"
-	manpower = 1178432
+	name="EU Headquarters"
+	manpower = 751
 	state_category = town
-	resources = {
-		steel = 25.00
-	}
 
 	history = {
-		owner = NYC
+		owner = EUQ
 		buildings = {
 			infrastructure = 4
-			arms_factory = 1
-			#industrial_complex = 1
-			dockyard = 3
-			859 = {
-				naval_base = 6
-			}
+			industrial_complex = 1
 		}
-		add_core_of = NYC
 		victory_points = {
-			859 1
+			14199 50
 		}
+		add_core_of = EUQ
 	}
 	provinces={
-		859
+		14199
 	}
 	buildings_max_level_factor=1.000
 }
