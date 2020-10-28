@@ -362,3 +362,8 @@ PHL = "countries/Philadelphia.txt"
 SSD = "countries/South Sudan.txt"
 EWT = "countries/Eswatini.txt"
 LES = "countries/Lesotho.txt"
+
+MCO = "countries/Monaco.txt"
+ADD = "countries/Andorra.txt"
+EUQ = "countries/European Union.txt"
+UNQ = "countries/UN Headquarters.txt"

@@ -71,3 +71,13 @@ set_popularities = {
 	fascism = 0
 	ultranationalism = 0
 }
+create_country_leader = {
+	name = "Xi Jinping"
+	desc = "POLITICS_XI_JING_DESC"
+	picture = "Portrait_PRC_Xi_Jing.dds"
+	expire = "2040.1.1"
+	ideology = authsoc
+	traits = {
+		#
+	}
+}

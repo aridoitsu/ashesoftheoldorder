@@ -1,6 +1,6 @@
 state={
 	id=1051
-	name="Bluridge"
+	name="Blueridge"
 	resources = {
 		chromium = 6.000
 	}
@@ -10,6 +10,9 @@ state={
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
+			788 = {
+				naval_base = 5
+			}
 		}
 		victory_points = {
 			9931 1
@@ -17,9 +20,12 @@ state={
 		victory_points = {
 			10412 1
 		}
+		victory_points = {
+			788 3
+		}
 	}
 	provinces={
-		3925 10412 11841 9931
+		3925 10412 11841 9931 788 11738
 	}
 	manpower=315410
 	buildings_max_level_factor=1.000

@@ -4,6 +4,7 @@ state={
 	name="Northern Carolina"
 	resources = {
 		aluminium = 4.000
+		steel = 23.000
 	}
 	history = {
 		owner = CRN
@@ -21,7 +22,7 @@ state={
 	}
 
 	provinces={
-		10081 10468 12445
+		10081 10468 12445 7138 10096 10495 13621
 	}
 	manpower=2057491
 	buildings_max_level_factor=1.000

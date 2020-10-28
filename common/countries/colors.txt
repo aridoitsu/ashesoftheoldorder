@@ -592,8 +592,8 @@ DDR = {
     color_ui = rgb { 150 180 120 }
 }
 KOR = {
-	color = rgb { 255  240  195 }
-	color_ui = rgb { 255 248 229 }
+	color = rgb { 171 36 74 }
+	color_ui = rgb { 171 36 74 }
 }
 ISR = {
 	color = rgb { 29 105 219 }
@@ -1530,4 +1530,20 @@ PHL = {
 SSD = {
 	color = rgb { 96 133 76 }
 	color_ui = rgb { 96 133 76 }
+}
+MCO = {
+	color = rgb { 168 50 168 }
+	color_ui = rgb { 168 50 168 }
+}
+ADD = {
+	color = rgb { 222 224 157 }
+	color_ui = rgb { 222 224 157 }
+}
+EUQ = {
+	color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}
+UNQ = {
+	color = rgb { 91 146 229 }
+	color_ui = rgb { 91 146 229 }
 }

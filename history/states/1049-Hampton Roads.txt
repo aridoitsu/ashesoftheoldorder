@@ -1,24 +1,21 @@
 state={
 	id=1049
-	name="Hampton Roads"
+	name="Monaco"
 	history = {
-		owner = VAV
-		add_core_of = VAV
+		owner = MCO
+		add_core_of = MCO
 		buildings = {
-			infrastructure = 5
-			dockyard = 3
-			788 = {
-				naval_base = 5
+			infrastructure = 8
+			dockyard = 1
+			14294 = {
+				naval_base = 8
 			}
-		}
-		victory_points = {
-			788 5
 		}
 	}
 	provinces={
-		788 11738
+		14294
 	}
-	manpower=142031
+	manpower=38682
 	buildings_max_level_factor=1.000
 	state_category = city
 }

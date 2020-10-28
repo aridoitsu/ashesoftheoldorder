@@ -1,21 +1,19 @@
 state={
 	id=1040
-	name="Metrolina"
-	resources = {
-		steel = 23.000
-	}
+	name="Aksai Chin"
 	history = {
-		owner = CRN
-		add_core_of = CRN
+		owner = PRC
+		add_core_of = IND
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			#industrial_complex = 1
 		}
 	}
 	provinces={
-		7138 10096 10495 13621
+		13058 5042
 	}
-	manpower=201540
+	manpower=20153
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category = wasteland
 }

@@ -4163,6 +4163,26 @@
    LES_democratic_ADJ:0 "Lesothoan"
    LES_prodem_ADJ:0 "Lesothoan"
 
+   MCO:0 "Monaco"
+   MCO_DEF:0 "Monaco"
+   ###############################
+   MCO_ADJ:0 "Monacoan"
+
+   ADD:0 "Andorra"
+   ADD_DEF:0 "Andorra"
+   ###############################
+   ADD_ADJ:0 "Andorran"
+
+   EUQ:0 "European Union"
+   EUQ_DEF:0 "European Union"
+   ###############################
+   EUQ_ADJ:0 "European"
+
+   UNQ:0 "United Nations"
+   UNQ_DEF:0 "United Nations"
+   ###############################
+   UNQ_ADJ:0 "United Nation's"
+
     CAN_liberal:0 "Canada"
     CAN_liberal_DEF:0 "Canada"
     CAN_democratic:0 "Canada"

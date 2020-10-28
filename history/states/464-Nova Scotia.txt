@@ -1,14 +1,13 @@
 
 state={
 	id=464
-	name="Yarmouth & Acadian Shores"
+	name="Yarmouth"
 
 	history = {
 		owner = CAN
 		buildings = {
-			infrastructure = 5
+			infrastructure = 2
 			industrial_complex = 1
-			arms_factory = 1
 			air_base = 3
 			7361 = {
 				naval_base = 4
@@ -18,22 +17,22 @@ state={
 		}
 		add_core_of = CAN
 		victory_points = {
-			7361 15
+			7361 3
 		}
 		victory_points = {
-			4430 7
+			4430 1
 		}
 		victory_points = {
-			10244 8
+			10244 1
 		}
 		victory_points = {
-			1354 4
+			1354 1
 		}
 
 	}
 
 	provinces={
-		1354 4623 14012 14018 14029 14056 
+		1354 4623 14012 14018 14029 
 	}
 	manpower=990912
 	buildings_max_level_factor=1.000
