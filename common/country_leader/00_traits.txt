@@ -4821,4 +4821,11 @@ leader_traits = {
 	}
 		
 		}
+	
+	vietnam_war_veteran = {
+		random = no
+		experience_gain_army_factor = 0.1
+		army_org_regain = 0.20
+		war_support_factor = -0.1
+		}
 }

@@ -78,4 +78,5 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = new_democracy
 	traits = { father_of_the_deitsch }
+	traits = { vietnam_war_veteran }
 }
