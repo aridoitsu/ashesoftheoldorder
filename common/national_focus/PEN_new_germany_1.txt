@@ -1,0 +1,269 @@
+focus_tree = {
+	id = new_germany_1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PEN
+		}
+	}
+	#Focus for Entice Investors
+	focus = {
+		id = PEN_entice_investors
+		icon = GFX_focus_mex_privatisation
+		x = 5
+		y = 4
+		cost = 6
+		mutually_exclusive = { focus = PEN_operation_uproot }
+		prerequisite = { focus = PEN_rurals_and_remnants }
+		prerequisite = { focus = PEN_the_reformer }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for The Next Step
+	focus = {
+		id = PEN_the_next_step
+		icon = GFX_focus_generic_self_management
+		x = 8
+		y = 6
+		cost = 5
+		prerequisite = { focus = PEN_fan_the_flames_of_irredentism OR = PEN_peace_and_prosperity }
+		prerequisite = { focus = PEN_home_workshops OR = PEN_our_overseas_brothers }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Overseas Brothers
+	focus = {
+		id = PEN_our_overseas_brothers
+		icon = GFX_goal_generic_trade
+		x = 5
+		y = 5
+		cost = 5
+		prerequisite = { focus = PEN_entice_investors OR = PEN_operation_uproot }
+		mutually_exclusive = { focus = PEN_home_workshops }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for Home Workshops
+	focus = {
+		id = PEN_home_workshops
+		icon = GFX_focus_generic_industry_3
+		x = 3
+		y = 5
+		cost = 5
+		prerequisite = { focus = PEN_operation_uproot OR = PEN_entice_investors }
+		mutually_exclusive = { focus = PEN_our_overseas_brothers }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for Fan the Flames of Irredentism
+	focus = {
+		id = PEN_fan_the_flames_of_irredentism
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 5
+		cost = 5
+		prerequisite = { focus = PEN_the_imitator }
+		mutually_exclusive = { focus = PEN_peace_and_prosperity }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for Operation Uproot
+	focus = {
+		id = PEN_operation_uproot
+		icon = GFX_goal_generic_construction2
+		x = 3
+		y = 4
+		cost = 5
+		prerequisite = { focus = PEN_rurals_and_remnants }
+		mutually_exclusive = { focus = PEN_entice_investors }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for The Mobilization Act
+	focus = {
+		id = PEN_the_mobilization_act
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 8
+		y = 2
+		cost = 5
+		prerequisite = { focus = PEN_rurals_and_remnants }
+		prerequisite = { focus = PEN_the_commander }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_MANPOWER } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for The Commander
+	focus = {
+		id = PEN_the_commander
+		icon = GFX_focus_generic_military_mission
+		x = 12
+		y = 1
+		cost = 5
+		prerequisite = { focus = PEN_only_up }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for The Reformer
+	focus = {
+		id = PEN_the_reformer
+		icon = GFX_goal_generic_major_alliance
+		x = 10
+		y = 3
+		cost = 5
+		prerequisite = { focus = PEN_the_commander }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for The Imitator
+	focus = {
+		id = PEN_the_imitator
+		icon = GFX_goal_support_fascism
+		x = 14
+		y = 3
+		cost = 5
+		prerequisite = { focus = PEN_the_commander }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for The Anti-Militant Act
+	focus = {
+		id = PEN_the_antimilitant_act
+		icon = GFX_goal_generic_secret_weapon
+		x = 12
+		y = 4
+		cost = 4
+		prerequisite = { focus = PEN_the_imitator }
+		prerequisite = { focus = PEN_the_reformer }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for Peace and Prosperity
+	focus = {
+		id = PEN_peace_and_prosperity
+		icon = GFX_goal_generic_national_unity
+		x = 10
+		y = 5
+		cost = 5
+		prerequisite = { focus = PEN_the_reformer }
+		mutually_exclusive = { focus = PEN_fan_the_flames_of_irredentism }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for Only Up
+	focus = {
+		id = PEN_only_up
+		icon = GFX_goal_generic_demand_territory
+		x = 9
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for Rurals and Remnants
+	focus = {
+		id = PEN_rurals_and_remnants
+		icon = GFX_goal_unknown 
+		x = 4
+		y = 1
+		cost = 5
+		prerequisite = { focus = PEN_only_up }
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+#End of focuses 
+ }
