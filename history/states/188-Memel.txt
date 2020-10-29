@@ -20,11 +20,6 @@ state=
 			}
 		}
 		add_core_of = LIT
-
-		1939.3.22 = {
-			owner = GER
-			controller = GER
-		}
 	}
 	provinces={
 		3288 	

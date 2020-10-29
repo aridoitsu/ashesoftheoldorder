@@ -58,16 +58,25 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	democratic = 0
-	neutrality = 20
-	authdem = 25
+	democratic = 9
+	neutrality = 0
+	authdem = 43
 	liberal = 5
 	demsoc = 0
 	prodem = 0
-	communism = 0
+	communism = 11
 	totalsoc = 0
 	libsoc = 0
 	anarchy = 0
-	fascism = 50
+	fascism = 32
 	ultranationalism = 0
+}
+create_country_leader = {
+	name = "Norman Schwarzkopf Jr."
+	desc = "POLITICS_NORMAN_SCHWARZKOPF_DESC"
+	picture = "Portrait_PEN_Norman_Schwarzkopf_Jr.dds"
+	expire = "2040.1.1"
+	ideology = new_democracy
+	traits = {
+	}
 }

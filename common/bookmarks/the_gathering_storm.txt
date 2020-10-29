@@ -40,9 +40,9 @@ bookmarks = {
 				#
 			}
 		}
-		"CON"={
-			history = "CON_GATHERING_STORM_DESC"
-			ideology = democratic
+		"PEN"={
+			history = "PEN_GATHERING_STORM_DESC"
+			ideology = authdem
 			ideas = {
 				#
 			}
