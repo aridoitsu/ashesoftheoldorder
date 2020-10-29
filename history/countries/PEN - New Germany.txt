@@ -77,6 +77,5 @@ create_country_leader = {
 	picture = "Portrait_PEN_Norman_Schwarzkopf_Jr.dds"
 	expire = "2040.1.1"
 	ideology = new_democracy
-	traits = {
-	}
+	traits = { father_of_the_deitsch }
 }
