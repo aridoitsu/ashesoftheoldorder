@@ -23,7 +23,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 25
 			custom_effect_tooltip = PEN_ei_focustip
 		}
 		
@@ -60,7 +60,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 25
 			custom_effect_tooltip = PEN_oob_focustip
 		}
 		
@@ -81,7 +81,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 25
 			custom_effect_tooltip = PEN_hw_focustip
 		}
 		
@@ -180,8 +180,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 25
-			set_country_flag = PEN_ou
+			add_command_power = 25
 			custom_effect_tooltip = PEN_ou_focustip
 		}
 		
@@ -423,14 +422,18 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		x = 8
 		y = 0
-		cost = 5
+		cost = 4
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 15
+			add_command_power = 25
+			country_event = {
+				id = PEN_only_up_event
+				}
 		}
 	}
 

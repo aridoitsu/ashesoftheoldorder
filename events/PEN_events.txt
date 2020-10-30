@@ -1,0 +1,57 @@
+add_namespace = deitscherei
+
+
+#event that goes to canada for request
+country_event = {
+    id = deitscherei.1
+    title = deitscherei.1.t
+    desc = deitscherei.1.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		name = deitscherei.1.a
+		ai_chance = { base = 100 }
+		
+		PEN = { country_event = { id = deitscherei.2 hours = 1 } }
+	}
+	
+	option = {
+		name = deitscherei.1.b
+		ai_chance = { base = 0 }
+		
+		PEN = { country_event = { id = deitscherei.3 hours = 1 } }
+		
+	}
+}
+
+#canada agrees event
+country_event = {
+    id = deitscherei.2
+    title = deitscherei.2.t
+    desc = deitscherei.2.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		name = deitscherei.2.a
+		ai_chance = { base = 100 }
+		
+		set_country_flag = PEN.canada.agrees
+	}
+}
+ 
+#canada disagrees event
+country_event = {
+    id = deitscherei.3
+    title = deitscherei.3.t
+    desc = deitscherei.3.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		name = deitscherei.3.a
+		ai_chance = { base = 100 }
+		
+	}
+}

@@ -10,3 +10,17 @@ PEN_reconstruction = {
 		has_idea = PEN_the_reconstruction_of_rochester
 	}
 }
+
+PEN_mobilization = {
+	icon = generic_research
+	allowed = {
+		original_tag = PEN
+		}
+}
+
+PEN_international_trade = {
+	icon = generic_research
+	allowed = {
+		original_tag = PEN
+		}
+}

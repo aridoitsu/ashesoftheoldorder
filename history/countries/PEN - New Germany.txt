@@ -62,7 +62,7 @@ add_ideas = {
 	PEN_state_of_our_mobilization5
 }
 set_popularities = {
-	democratic = 5
+	democratic = 3
 	neutrality = 0
 	authdem = 43
 	liberal = 13
@@ -72,8 +72,8 @@ set_popularities = {
 	totalsoc = 0
 	libsoc = 0
 	anarchy = 0
-	fascism = 32
-	ultranationalism = 0
+	fascism = 29
+	ultranationalism = 5
 }
 create_country_leader = {
 	name = "Norman Schwarzkopf Jr."

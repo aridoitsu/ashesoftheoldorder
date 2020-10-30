@@ -57,8 +57,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				war_support_weekly_factor = 0.00
-				stability_weekly_factor = 0.00
+				war_support_weekly = 0.00
+				stability_weekly = 0.00
 			}
 		}
 		PEN_state_of_our_mobilization4 = {
@@ -67,8 +67,8 @@ ideas = {
 				always = yes
 				}
 			modifier = {
-				war_support_weekly_factor = -0.02
-				stability_weekly_factor = 0.02
+				war_support_weekly = -0.02
+				stability_weekly = 0.02
 				}
 		}
 		PEN_state_of_our_mobilization3 = {
@@ -77,8 +77,8 @@ ideas = {
 				always = yes
 				}
 			modifier = {
-				war_support_weekly_factor = -0.04
-				stability_weekly_factor = 0.04
+				war_support_weekly = -0.04
+				stability_weekly = 0.04
 				}
 		}
 		PEN_state_of_our_mobilization2 = {
@@ -87,8 +87,8 @@ ideas = {
 				always = yes
 				}
 			modifier = {
-				war_support_weekly_factor = -0.06
-				stability_weekly_factor = 0.06
+				war_support_weekly = -0.06
+				stability_weekly = 0.06
 				}
 		}
 		PEN_state_of_our_mobilization1 = {
@@ -97,8 +97,8 @@ ideas = {
 				always = yes
 				}
 			modifier = {
-				war_support_weekly_factor = -0.08
-				stability_weekly_factor = 0.08
+				war_support_weekly = -0.08
+				stability_weekly = 0.08
 				}
 		}
 		PEN_state_of_our_mobilization6 = {
@@ -107,8 +107,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				war_support_weekly_factor = 0.02
-				stability_weekly_factor = -0.02
+				war_support_weekly = 0.02
+				stability_weekly = -0.02
 			}
 		}
 		PEN_state_of_our_mobilization7 = {
@@ -117,8 +117,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				war_support_weekly_factor = 0.04
-				stability_weekly_factor = -0.04
+				war_support_weekly = 0.04
+				stability_weekly = -0.04
 			}
 		}
 		PEN_state_of_our_mobilization8 = {
@@ -127,8 +127,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				war_support_weekly_factor = 0.06
-				stability_weekly_factor = -0.06
+				war_support_weekly = 0.06
+				stability_weekly = -0.06
 			}
 		}
 		PEN_state_of_our_mobilization9 = {
@@ -137,8 +137,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				war_support_weekly_factor = 0.08
-				stability_weekly_factor = -0.08
+				war_support_weekly = 0.08
+				stability_weekly = -0.08
 			}
 		}
 	}

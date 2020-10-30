@@ -49,7 +49,120 @@ PEN_reconstruction = {
 		}
 		complete_effect = {
 			hidden_effect = { add_command_power = -25 }					
+		}
+	}
+}
+#TODO: other decisions lol and also use the flag PEN_ou
+
+PEN_mobilization = {
+
+	PEN_revoke_defense_act = {
+		allowed = { tag = PEN }
+		fire_only_once = yes
+		cost = 25
+		visible = {
+			has_completed_focus = PEN_the_mobilization_act
+			}
+		days_remove = 30
+		remove_effect = {
+			remove_ideas = PEN_the_mobilization_act
+			if = {
+		limit = { has_idea = PEN_state_of_our_mobilization2	}	
+			swap_ideas = {
+				remove_idea = PEN_state_of_our_mobilization2
+				add_idea = PEN_state_of_our_mobilization1
+				}
+			}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization3	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization3
+					add_idea = PEN_state_of_our_mobilization2
+						}
+					}	
+		else_if = { 
+			limit = { has_idea = PEN_state_of_our_mobilization4	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization4
+					add_idea = PEN_state_of_our_mobilization3
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization5	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization5
+					add_idea = PEN_state_of_our_mobilization4
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization6	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization6
+					add_idea = PEN_state_of_our_mobilization5
+							}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization7	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization7
+					add_idea = PEN_state_of_our_mobilization6
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization8	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization8
+					add_idea = PEN_state_of_our_mobilization7
+						}
+					}
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization9	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization9
+					add_idea = PEN_state_of_our_mobilization8
+						}
+					}
+			}
+		complete_effect = {
+			add_stability = -0.1
+			}
 	}
 }
 
-#TODO: other decisions lol and also use the flag PEN_ou
+PEN_international_trade = {
+	
+	PEN_reach_out_to_the_canadians = {
+		allowed = { tag = PEN }
+		fire_only_once = yes
+		cost = 25
+		visible = {
+			has_completed_focus = PEN_rurals_and_remnants
+			}
+		days_remove = 7
+		remove_effect = {
+			CAN = { country_event = { id = deitscherei.1 hours = 1 } }
+		}
+		
+		}
+	PEN_men_for_mortar = {
+		allowed = { tag = PEN }
+		visible = {
+			has_country_flag = PEN.canada.agrees
+			}
+		days_re_enable = 2
+		custom_cost_trigger = {
+			has_manpower > 1000
+			}  
+		custom_cost_text = manpower_more_than_1000
+		days_remove = 14
+		remove_effect = {
+			add_days_mission_timeout = {
+				mission = PEN_rebuilding_Rochester
+				days = -21
+					}
+				}
+			complete_effect = {
+				hidden_effect = { add_manpower = -1000 }					
+					}
+	}
+}
