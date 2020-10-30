@@ -103,6 +103,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = PEN_flames_of_irredentism
+			custom_effect_tooltip = PEN_mob_up
+			hidden_effect = {
 			if = {
 		limit = { has_idea = PEN_state_of_our_mobilization1	}	
 			swap_ideas = {
@@ -159,6 +161,7 @@ focus_tree = {
 					add_idea = PEN_state_of_our_mobilization9
 						}
 					}
+			}
 		}
 	}
 
@@ -199,6 +202,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = PEN_the_mobilization_act
+			custom_effect_tooltip = PEN_mob_up
+			hidden_effect = {
 			if = {
 		limit = { has_idea = PEN_state_of_our_mobilization1	}	
 			swap_ideas = {
@@ -255,6 +260,7 @@ focus_tree = {
 					add_idea = PEN_state_of_our_mobilization9
 						}
 					}
+				}
 		}
 	}
  
@@ -348,7 +354,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = PEN_peace_and_prosperity
-			if = {
+			custom_effect_tooltip = PEN_mob_down
+			hidden_effect = { 
+				if = {
 		limit = { has_idea = PEN_state_of_our_mobilization2	}	
 			swap_ideas = {
 				remove_idea = PEN_state_of_our_mobilization2
@@ -404,8 +412,9 @@ focus_tree = {
 					add_idea = PEN_state_of_our_mobilization8
 						}
 					}
-		}
-	}
+				}
+			}
+	}		
  
 	#Focus for Only Up
 	focus = {
