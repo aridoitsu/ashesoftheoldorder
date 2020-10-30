@@ -1,0 +1,50 @@
+PEN_reconstruction = { 
+	
+	PEN_rebuilding_rochester = {
+		
+		
+		
+		visible = {
+		tag = PEN
+		}
+		icon = GFX_decision_icon_default
+		
+		days_mission_timeout = 1090
+		is_good = yes
+		available = {
+			always = no
+		}
+		fire_only_once = yes
+		visible = {
+		}
+		timeout_effect = {
+			remove_ideas = PEN_the_reconstruction_of_rochester
+			add_stability = 0.1
+		}
+	}
+	
+	PEN_utilize_the_armed_guard = {
+		
+		allowed = {
+			has_completed_focus = PEN_operation_uproot
+		}
+		
+		visible = {
+			has_completed_focus = PEN_operation_uproot
+		}
+		
+		days_re_enable = 2
+		custom_cost_trigger = {
+		command_power > 25
+		}
+		custom_cost_text = command_power_more_than_25
+		is_good = yes
+		days_remove = 14
+		remove_effect = {
+			add_days_mission_timeout = {
+				mission = PEN_rebuilding_Rochester
+				days = -21
+			}
+		}
+	}
+} 

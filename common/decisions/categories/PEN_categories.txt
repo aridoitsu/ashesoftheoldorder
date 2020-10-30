@@ -1,0 +1,12 @@
+PEN_reconstruction = {
+	icon = generic_research
+	visible = {
+
+	}
+	available = {
+		
+	}
+	allowed = {
+		has_idea = PEN_the_reconstruction_of_rochester
+	}
+}

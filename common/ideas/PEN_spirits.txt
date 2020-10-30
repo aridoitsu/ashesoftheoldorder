@@ -3,9 +3,6 @@ ideas = {
 	country = {
 		PEN_the_reconstruction_of_rochester = {
 			picture = spr_relocate_the_gold_reserves
-			allowed = {
-				tag = PEN
-			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -18,9 +15,6 @@ ideas = {
 		}
 		PEN_agrarian_society = {
 			picture = generic_agrarian_society
-			allowed = {
-				tag = PEN
-			}
 			allowed_civil_war = {
 				always = yes
 			}
