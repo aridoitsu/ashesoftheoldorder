@@ -51,3 +51,5 @@ PEN_reconstruction = {
 			hidden_effect = { add_command_power = -25 }					
 	}
 }
+
+#TODO: other decisions lol and also use the flag PEN_ou

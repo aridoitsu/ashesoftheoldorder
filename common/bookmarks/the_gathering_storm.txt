@@ -44,7 +44,8 @@ bookmarks = {
 			history = "PEN_GATHERING_STORM_DESC"
 			ideology = authdem
 			ideas = {
-				#
+				PEN_the_reconstruction_of_rochester
+				PEN_agrarian_society
 			}
 			focuses = {
 				#

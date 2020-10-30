@@ -63,3 +63,7 @@
  PEN_ei_focustip:0 "§HUnlocks decisions to use grants to build civilian and military industry."
  PEN_mob_up:0 "§RThis will increase our mobilization!"
  PEN_mob_down:0 "§GThis will decrease our mobilization!"
+ 
+ ##leader descriptions
+ POLITICS_NORMAN_SCHWARZKOPF_DESC:0 "A former major, colonel, commander, and general in the US military, Norman Schwarzkopf was quite accustomed to leadership and taking risks to save the people around him. Disgruntled by the US’s actions in Vietnam, he stayed in the military for some years, slowly rising up the ranks. Most of his work was helping protect local communities and dealing with general domestic terror, whilst also helping with planning and foreign policy federally. Schwarzkopf would finally leave the military during the 2nd American Civil War, after he had realized that all sides had forgotten their humanity and had no intention of caring for their citizenry. He later revolted alongside his brigade and created the state of Deitscherei, a state of German-Pennsylvanians and Americans, and a state of discipline and honor. §OThough, his brave leadership may be on track to end soon..."
+
