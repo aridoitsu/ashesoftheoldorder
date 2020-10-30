@@ -47,7 +47,8 @@ set_technology = {
 	fighter1 = 1
 }
 
-set_stability = 0.50
+set_stability = 0.15
+set_war_support = 0.15
 
 set_politics = {
 	ruling_party = authdem
@@ -56,15 +57,17 @@ set_politics = {
 	elections_allowed = no
 }
 add_ideas = {
+	PEN_the_reconstruction_of_rochester
+	PEN_agrarian_society
 }
 set_popularities = {
-	democratic = 9
+	democratic = 5
 	neutrality = 0
 	authdem = 43
-	liberal = 5
+	liberal = 13
 	demsoc = 0
 	prodem = 0
-	communism = 11
+	communism = 7
 	totalsoc = 0
 	libsoc = 0
 	anarchy = 0

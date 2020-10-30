@@ -11,8 +11,8 @@ focus_tree = {
 	focus = {
 		id = PEN_entice_investors
 		icon = GFX_focus_mex_privatisation
-		x = 5
-		y = 4
+		x = 8
+		y = 3
 		cost = 6
 		mutually_exclusive = { focus = PEN_operation_uproot }
 		prerequisite = { focus = PEN_rurals_and_remnants }
@@ -47,8 +47,8 @@ focus_tree = {
 	focus = {
 		id = PEN_our_overseas_brothers
 		icon = GFX_goal_generic_trade
-		x = 5
-		y = 5
+		x = 7
+		y = 4
 		cost = 5
 		prerequisite = { focus = PEN_entice_investors OR = PEN_operation_uproot }
 		mutually_exclusive = { focus = PEN_home_workshops }
@@ -66,8 +66,8 @@ focus_tree = {
 	focus = {
 		id = PEN_home_workshops
 		icon = GFX_focus_generic_industry_3
-		x = 3
-		y = 5
+		x = 4
+		y = 4
 		cost = 5
 		prerequisite = { focus = PEN_operation_uproot OR = PEN_entice_investors }
 		mutually_exclusive = { focus = PEN_our_overseas_brothers }
@@ -85,8 +85,8 @@ focus_tree = {
 	focus = {
 		id = PEN_fan_the_flames_of_irredentism
 		icon = GFX_goal_generic_major_war
-		x = 14
-		y = 5
+		x = 11
+		y = 4
 		cost = 5
 		prerequisite = { focus = PEN_the_imitator }
 		mutually_exclusive = { focus = PEN_peace_and_prosperity }
@@ -104,8 +104,8 @@ focus_tree = {
 	focus = {
 		id = PEN_operation_uproot
 		icon = GFX_goal_generic_construction2
-		x = 3
-		y = 4
+		x = 5
+		y = 3
 		cost = 5
 		prerequisite = { focus = PEN_rurals_and_remnants }
 		mutually_exclusive = { focus = PEN_entice_investors }
@@ -123,7 +123,7 @@ focus_tree = {
 	focus = {
 		id = PEN_the_mobilization_act
 		icon = GFX_goal_generic_axis_build_infantry
-		x = 8
+		x = 7
 		y = 2
 		cost = 5
 		prerequisite = { focus = PEN_rurals_and_remnants }
@@ -142,7 +142,7 @@ focus_tree = {
 	focus = {
 		id = PEN_the_commander
 		icon = GFX_focus_generic_military_mission
-		x = 12
+		x = 10
 		y = 1
 		cost = 5
 		prerequisite = { focus = PEN_only_up }
@@ -160,8 +160,8 @@ focus_tree = {
 	focus = {
 		id = PEN_the_reformer
 		icon = GFX_goal_generic_major_alliance
-		x = 10
-		y = 3
+		x = 9
+		y = 2
 		cost = 5
 		prerequisite = { focus = PEN_the_commander }
 		available_if_capitulated = yes
@@ -178,8 +178,8 @@ focus_tree = {
 	focus = {
 		id = PEN_the_imitator
 		icon = GFX_goal_support_fascism
-		x = 14
-		y = 3
+		x = 11
+		y = 2
 		cost = 5
 		prerequisite = { focus = PEN_the_commander }
 		available_if_capitulated = yes
@@ -196,8 +196,8 @@ focus_tree = {
 	focus = {
 		id = PEN_the_antimilitant_act
 		icon = GFX_goal_generic_secret_weapon
-		x = 12
-		y = 4
+		x = 10
+		y = 3
 		cost = 4
 		prerequisite = { focus = PEN_the_imitator }
 		prerequisite = { focus = PEN_the_reformer }
@@ -215,8 +215,8 @@ focus_tree = {
 	focus = {
 		id = PEN_peace_and_prosperity
 		icon = GFX_goal_generic_national_unity
-		x = 10
-		y = 5
+		x = 9
+		y = 4
 		cost = 5
 		prerequisite = { focus = PEN_the_reformer }
 		mutually_exclusive = { focus = PEN_fan_the_flames_of_irredentism }
@@ -234,7 +234,7 @@ focus_tree = {
 	focus = {
 		id = PEN_only_up
 		icon = GFX_goal_generic_demand_territory
-		x = 9
+		x = 8
 		y = 0
 		cost = 5
 		available_if_capitulated = yes
@@ -251,7 +251,7 @@ focus_tree = {
 	focus = {
 		id = PEN_rurals_and_remnants
 		icon = GFX_goal_unknown 
-		x = 4
+		x = 6
 		y = 1
 		cost = 5
 		prerequisite = { focus = PEN_only_up }
