@@ -23,5 +23,123 @@ ideas = {
 				local_building_slots_factor = -0.10
 				}
 		}
+		PEN_the_mobilization_act = {
+			picture = generic_morale_bonus
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				weekly_manpower = 200
+				command_power_gain_mult = 0.25
+				}
+		}
+		PEN_flames_of_irredentism = {
+			picture = FRA_scw_intervention_republicans_focus
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+
+				}
+		}
+		PEN_peace_and_prosperity = {
+			picture = air_support_focus
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+
+				}
+		}
+		PEN_state_of_our_mobilization5 = {
+			picture = chi_hyper_inflation3
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				war_support_weekly_factor = 0.00
+				stability_weekly_factor = 0.00
+			}
+		}
+		PEN_state_of_our_mobilization4 = {
+			picture = chi_hyper_inflation3
+			allowed_civil_war = {
+				always = yes
+				}
+			modifier = {
+				war_support_weekly_factor = -0.02
+				stability_weekly_factor = 0.02
+				}
+		}
+		PEN_state_of_our_mobilization3 = {
+			picture = chi_hyper_inflation2
+			allowed_civil_war = {
+				always = yes
+				}
+			modifier = {
+				war_support_weekly_factor = -0.04
+				stability_weekly_factor = 0.04
+				}
+		}
+		PEN_state_of_our_mobilization2 = {
+			picture = chi_hyper_inflation2
+			allowed_civil_war = {
+				always = yes
+				}
+			modifier = {
+				war_support_weekly_factor = -0.06
+				stability_weekly_factor = 0.06
+				}
+		}
+		PEN_state_of_our_mobilization1 = {
+			picture = chi_hyper_inflation1
+			allowed_civil_war = {
+				always = yes
+				}
+			modifier = {
+				war_support_weekly_factor = -0.08
+				stability_weekly_factor = 0.08
+				}
+		}
+		PEN_state_of_our_mobilization6 = {
+			picture = chi_hyper_inflation3
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				war_support_weekly_factor = 0.02
+				stability_weekly_factor = -0.02
+			}
+		}
+		PEN_state_of_our_mobilization7 = {
+			picture = chi_hyper_inflation4
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				war_support_weekly_factor = 0.04
+				stability_weekly_factor = -0.04
+			}
+		}
+		PEN_state_of_our_mobilization8 = {
+			picture = chi_hyper_inflation4
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				war_support_weekly_factor = 0.06
+				stability_weekly_factor = -0.06
+			}
+		}
+		PEN_state_of_our_mobilization9 = {
+			picture = chi_hyper_inflation5
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				war_support_weekly_factor = 0.08
+				stability_weekly_factor = -0.08
+			}
+		}
 	}
 }

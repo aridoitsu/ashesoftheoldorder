@@ -2,8 +2,9 @@ PEN_reconstruction = {
 	
 	PEN_rebuilding_rochester = {
 		
-		
-		
+		activation = {
+		has_completed_focus = PEN_rurals_and_remnants
+		}
 		visible = {
 		tag = PEN
 		}
@@ -26,7 +27,7 @@ PEN_reconstruction = {
 	PEN_utilize_the_armed_guard = {
 		
 		allowed = {
-			has_completed_focus = PEN_operation_uproot
+			tag = PEN
 		}
 		
 		visible = {
@@ -46,5 +47,7 @@ PEN_reconstruction = {
 				days = -21
 			}
 		}
+		complete_effect = {
+			hidden_effect = { add_command_power = -25 }					
 	}
-} 
+}

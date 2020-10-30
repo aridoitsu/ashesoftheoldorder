@@ -59,6 +59,7 @@ set_politics = {
 add_ideas = {
 	PEN_the_reconstruction_of_rochester
 	PEN_agrarian_society
+	PEN_state_of_our_mobilization5
 }
 set_popularities = {
 	democratic = 5
