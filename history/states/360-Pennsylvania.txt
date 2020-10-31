@@ -1,6 +1,6 @@
 state={
 	id=360
-	name="New Germany"
+	name="Deitscherei"
 	manpower=631346
 	state_category=town
 	resources={
@@ -23,10 +23,13 @@ state={
 		victory_points = {
 			3850 8
 		}
+		victory_points = {
+			11888 3
+		}
 	}
 
 	provinces={
-		 822 847 3847 3850 6872 6885 11758 11769 12405 9804
+		 822 847 3847 3850 6872 6885 11758 11769 12405 9804 6929
 	}
 
 	buildings_max_level_factor=1.000

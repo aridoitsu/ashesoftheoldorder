@@ -5,9 +5,8 @@ state={
 	manpower = 207733
 
 	state_category = wasteland
-	impassable = yes
 
-	history= { 
+	history= {
 		owner = ALG
 		add_core_of = ALG
 		buildings = {

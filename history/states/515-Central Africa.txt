@@ -3,9 +3,8 @@ state={
 	name="STATE_515"
 
 	state_category = pastoral
-	impassable = yes
 
-	history= { 
+	history= {
 		owner = NGR
 		add_core_of = NGR
 		buildings = {
