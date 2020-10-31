@@ -55,3 +55,86 @@ country_event = {
 		
 	}
 }
+
+#only up event
+country_event = {
+    id = deitscherei.4
+    title = deitscherei.4.t
+    desc = deitscherei.4.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		name = deitscherei.4.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+#rurals and remnants event
+country_event = {
+    id = deitscherei.5
+    title = deitscherei.5.t
+    desc = deitscherei.5.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		name = deitscherei.5.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+#the commander event
+country_event = {
+    id = deitscherei.6
+    title = deitscherei.6.t
+    desc = deitscherei.6.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		name = deitscherei.6.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+#the reformer event
+country_event = {
+    id = deitscherei.7
+    title = deitscherei.7.t
+    desc = deitscherei.7.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		name = deitscherei.7.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+#the imitator event
+country_event = {
+    id = deitscherei.8
+    title = deitscherei.8.t
+    desc = deitscherei.8.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		name = deitscherei.8.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+
+
+
+
+
+
+
