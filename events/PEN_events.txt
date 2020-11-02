@@ -263,6 +263,148 @@ country_event = {
 	}
 }
 
+#the 22nd security council convention
+country_event = {
+    id = deitscherei.15
+    title = deitscherei.15.t
+    desc = deitscherei.15.d
+    picture = GFX_event_test
+    is_triggered_only = yes
 
+	#the national defense act
+    option = {
+		name = deitscherei.15.a
+		ai_chance = { base = 50 }
+
+		add_ideas = PEN_the_mobilization_act1
+		custom_effect_tooltip = PEN_mob_up
+			hidden_effect = {
+			if = {
+		limit = { has_idea = PEN_state_of_our_mobilization1	}	
+			swap_ideas = {
+				remove_idea = PEN_state_of_our_mobilization1
+				add_idea = PEN_state_of_our_mobilization2
+				}
+			}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization2	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization2
+					add_idea = PEN_state_of_our_mobilization3
+						}
+					}	
+		else_if = { 
+			limit = { has_idea = PEN_state_of_our_mobilization3	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization3
+					add_idea = PEN_state_of_our_mobilization4
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization4	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization4
+					add_idea = PEN_state_of_our_mobilization5
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization5	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization5
+					add_idea = PEN_state_of_our_mobilization6
+							}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization6	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization6
+					add_idea = PEN_state_of_our_mobilization7
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization7	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization7
+					add_idea = PEN_state_of_our_mobilization8
+						}
+					}
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization8	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization8
+					add_idea = PEN_state_of_our_mobilization9
+						}
+					}
+				}
+			
+			}
+	
+	#the olive branch proprosal
+	option = {
+		name = deitscherei.15.b
+		ai_chance = { base = 50 }
+		
+		add_ideas = PEN_the_olive_branch
+		custom_effect_tooltip = PEN_mob_down
+			hidden_effect = { 
+				if = {
+		limit = { has_idea = PEN_state_of_our_mobilization2	}	
+			swap_ideas = {
+				remove_idea = PEN_state_of_our_mobilization2
+				add_idea = PEN_state_of_our_mobilization1
+				}
+			}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization3	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization3
+					add_idea = PEN_state_of_our_mobilization2
+						}
+					}	
+		else_if = { 
+			limit = { has_idea = PEN_state_of_our_mobilization4	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization4
+					add_idea = PEN_state_of_our_mobilization3
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization5	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization5
+					add_idea = PEN_state_of_our_mobilization4
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization6	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization6
+					add_idea = PEN_state_of_our_mobilization5
+							}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization7	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization7
+					add_idea = PEN_state_of_our_mobilization6
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization8	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization8
+					add_idea = PEN_state_of_our_mobilization7
+						}
+					}
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization9	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization9
+					add_idea = PEN_state_of_our_mobilization8
+						}
+					}
+				}
+	}
+}
 
 

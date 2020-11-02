@@ -64,13 +64,13 @@ focus_tree = {
 			custom_effect_tooltip = PEN_oob_focustip
 		}
 		
-	}
+	} 
 
 	#Focus for Home Workshops
 	focus = {
 		id = PEN_home_workshops
 		icon = GFX_focus_generic_industry_3
-		x = 4
+		x = 5
 		y = 4
 		cost = 5
 		prerequisite = { focus = PEN_operation_uproot OR = PEN_entice_investors }
@@ -146,7 +146,7 @@ focus_tree = {
 					remove_idea = PEN_state_of_our_mobilization6
 					add_idea = PEN_state_of_our_mobilization7
 						}
-					}	
+					}
 		else_if = {
 			limit = { has_idea = PEN_state_of_our_mobilization7	}	
 				swap_ideas = {
@@ -169,7 +169,7 @@ focus_tree = {
 	focus = {
 		id = PEN_operation_uproot
 		icon = GFX_goal_generic_construction2
-		x = 4
+		x = 5
 		y = 3
 		cost = 5
 		prerequisite = { focus = PEN_rurals_and_remnants }
@@ -185,7 +185,7 @@ focus_tree = {
 		}
 		
 	}
-
+ 
 	#Focus for The Mobilization Act
 	focus = {
 		id = PEN_the_mobilization_act
@@ -195,76 +195,16 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PEN_rurals_and_remnants }
 		prerequisite = { focus = PEN_the_commander }
-		mutually_exclusive = { focus = PEN_mutual_act }
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_MANPOWER } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = PEN_the_mobilization_act
-			custom_effect_tooltip = PEN_mob_up
-			hidden_effect = {
-			if = {
-		limit = { has_idea = PEN_state_of_our_mobilization1	}	
-			swap_ideas = {
-				remove_idea = PEN_state_of_our_mobilization1
-				add_idea = PEN_state_of_our_mobilization2
-				}
-			}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization2	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization2
-					add_idea = PEN_state_of_our_mobilization3
-						}
-					}	
-		else_if = { 
-			limit = { has_idea = PEN_state_of_our_mobilization3	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization3
-					add_idea = PEN_state_of_our_mobilization4
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization4	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization4
-					add_idea = PEN_state_of_our_mobilization5
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization5	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization5
-					add_idea = PEN_state_of_our_mobilization6
-							}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization6	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization6
-					add_idea = PEN_state_of_our_mobilization7
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization7	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization7
-					add_idea = PEN_state_of_our_mobilization8
-						}
-					}
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization8	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization8
-					add_idea = PEN_state_of_our_mobilization9
-						}
-					}
-				}
+			country_event = { id = deitscherei.15 }
 		}
-	}
- 
+	} 
+
 	#Focus for The Commander
 	focus = {
 		id = PEN_the_commander
@@ -375,7 +315,7 @@ focus_tree = {
 				remove_idea = PEN_state_of_our_mobilization2
 				add_idea = PEN_state_of_our_mobilization1
 				}
-			}	
+			}
 		else_if = {
 			limit = { has_idea = PEN_state_of_our_mobilization3	}	
 				swap_ideas = {
@@ -471,82 +411,5 @@ focus_tree = {
 		}
 	}
 	
-	#Focus for The Mutual Reciprocation Act
-	focus = {
-		id = PEN_mutual_act
-		icon = GFX_goal_unknown 
-		x = 5
-		y = 2
-		cost = 5
-		prerequisite = { focus = PEN_rurals_and_remnants }
-		mutually_exclusive = { focus = PEN_the_mobilization_act }
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_ideas = PEN_mutual_act
-			custom_effect_tooltip = PEN_mob_down
-			hidden_effect = { 
-				if = {
-		limit = { has_idea = PEN_state_of_our_mobilization2	}	
-			swap_ideas = {
-				remove_idea = PEN_state_of_our_mobilization2
-				add_idea = PEN_state_of_our_mobilization1
-				}
-			}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization3	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization3
-					add_idea = PEN_state_of_our_mobilization2
-						}
-					}	
-		else_if = { 
-			limit = { has_idea = PEN_state_of_our_mobilization4	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization4
-					add_idea = PEN_state_of_our_mobilization3
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization5	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization5
-					add_idea = PEN_state_of_our_mobilization4
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization6	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization6
-					add_idea = PEN_state_of_our_mobilization5
-							}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization7	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization7
-					add_idea = PEN_state_of_our_mobilization6
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization8	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization8
-					add_idea = PEN_state_of_our_mobilization7
-						}
-					}
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization9	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization9
-					add_idea = PEN_state_of_our_mobilization8
-						}
-					}
-				}
-		}
-	}
 #End of focuses 
  }

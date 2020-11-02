@@ -23,7 +23,7 @@ ideas = {
 				local_building_slots_factor = -0.10
 				}
 		}
-		PEN_the_mobilization_act = {
+		PEN_the_mobilization_act1 = {
 			picture = generic_morale_bonus
 			allowed_civil_war = {
 				always = yes
@@ -31,6 +31,9 @@ ideas = {
 			modifier = {
 				weekly_manpower = 200
 				command_power_gain_mult = 0.25
+				political_advisor_cost_factor = 0.5
+				trade_laws_cost_factor = 0.5	
+				economy_cost_factor = -0.5
 				}
 		}
 		PEN_flames_of_irredentism = {
@@ -177,6 +180,19 @@ ideas = {
 				authdem_drift = 0.05
 				liberal_drift = 0.02
 			}
+		}
+		PEN_the_olive_branch = {
+			picture = generic_morale_bonus
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				opinion_gain_monthly_factor = 0.15
+				trade_opinion_factor = 0.25
+				political_advisor_cost_factor = -0.5
+				trade_laws_cost_factor = -0.5	
+				economy_cost_factor = 0.5
+				}
 		}
 	}
 }

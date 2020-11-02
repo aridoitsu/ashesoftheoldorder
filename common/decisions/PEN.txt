@@ -51,6 +51,67 @@ PEN_reconstruction = {
 			hidden_effect = { add_command_power = -25 }					
 		}
 	}
+	PEN_heavy_industry_grant = {
+		allowed = { tag = PEN }
+		days_re_enable = 4
+		cost = 100
+		visible = {
+			has_completed_focus = PEN_entice_investors
+			}
+			
+		available = {
+			NOT = {
+				has_country_flag = PEN_current_construction
+				}
+			}
+		
+		complete_effect = {
+			set_country_flag = PEN_current_construction
+			}
+		
+		days_remove = 70
+		remove_effect = {
+			
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+					}
+				clr_country_flag = PEN_current_construction
+				}
+			}
+	}
+	PEN_light_industry_grant = {
+		allowed = { tag = PEN }
+		days_re_enable = 4
+		cost = 125
+		visible = {
+			has_completed_focus = PEN_entice_investors
+			}
+		days_remove = 70
+		
+		available = {
+			NOT = {
+				has_country_flag = PEN_current_construction
+				}
+			}
+		
+		complete_effect = {
+			set_country_flag = PEN_current_construction
+			}
+		
+		remove_effect = {
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+					}
+				}
+			clr_country_flag = PEN_current_construction
+			}
+	}
 }
 #TODO: other decisions lol and also use the flag PEN_ou
 
@@ -61,11 +122,17 @@ PEN_mobilization = {
 		fire_only_once = yes
 		cost = 25
 		visible = {
-			has_completed_focus = PEN_the_mobilization_act
+			has_idea = PEN_the_mobilization_act1
+			}
+		available = {
+			NOT = {
+				has_country_flag = PEN_removing_act
+				}
 			}
 		days_remove = 30
 		remove_effect = {
-			remove_ideas = PEN_the_mobilization_act
+		clr_country_flag = PEN_removing_act
+			remove_ideas = PEN_the_mobilization_act1
 			if = {
 		limit = { has_idea = PEN_state_of_our_mobilization2	}	
 			swap_ideas = {
@@ -125,6 +192,85 @@ PEN_mobilization = {
 			}
 		complete_effect = {
 			add_stability = -0.1
+			set_country_flag = PEN_removing_act
+			}
+	}
+	PEN_revoke_olive_branch = {
+		allowed = { tag = PEN }
+		fire_only_once = yes
+		cost = 25
+		visible = {
+			has_idea = PEN_the_olive_branch
+			}
+		available = {
+			NOT = {
+				has_country_flag = PEN_removing_act
+				}
+			}
+		days_remove = 30
+		remove_effect = { 
+			clr_country_flag = PEN_removing_act
+			remove_ideas = PEN_the_olive_branch
+			if = {
+		limit = { has_idea = PEN_state_of_our_mobilization1	}	
+			swap_ideas = {
+				remove_idea = PEN_state_of_our_mobilization1
+				add_idea = PEN_state_of_our_mobilization2
+				}
+			}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization2	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization2
+					add_idea = PEN_state_of_our_mobilization3
+						}
+					}	
+		else_if = { 
+			limit = { has_idea = PEN_state_of_our_mobilization3	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization3
+					add_idea = PEN_state_of_our_mobilization4
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization4	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization4
+					add_idea = PEN_state_of_our_mobilization5
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization5	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization5
+					add_idea = PEN_state_of_our_mobilization6
+							}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization6	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization6
+					add_idea = PEN_state_of_our_mobilization7
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization7	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization7
+					add_idea = PEN_state_of_our_mobilization8
+						}
+					}
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization8	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization8
+					add_idea = PEN_state_of_our_mobilization9
+						}
+					}
+			}
+		complete_effect = {
+			add_stability = -0.1
+			set_country_flag = PEN_removing_act
 			}
 	}
 }
@@ -179,36 +325,5 @@ PEN_international_trade = {
 			FRA = { country_event = { id = deitscherei.12 hours = 1 } }
 				}
 	}
-	PEN_heavy_industry_grant = {
-		allowed = { tag = PEN }
-		days_re_enable = 4
-		cost = 100
-		visible = {
-			has_completed_focus = PEN_entice_investors
-			}
-		days_remove = 70
-		remove_effect = {
-			add_building_construction = {
-				type = arms_factory
-				level = 5
-				instant_build = yes
-				}
-			}
-	}
-	PEN_light_industry_grant = {
-		allowed = { tag = PEN }
-		days_re_enable = 4
-		cost = 125
-		visible = {
-			has_completed_focus = PEN_entice_investors
-			}
-		days_remove = 70
-		remove_effect = {
-			add_building_construction = {
-				type = industrial_complex
-				level = 5
-				instant_build = yes
-				}
-			}
-	}
+	
 }
