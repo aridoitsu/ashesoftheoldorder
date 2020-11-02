@@ -74,6 +74,10 @@
  PEN_suppressing_fascism:0 "Currently dealing with a far-right group"
  PEN_go_back_on_policies_of_peace:0 "Go Back on Policies of Peace"
  PEN_go_back_on_irredentism:0 "Go Back on Policies of Irredentism"
+ PEN_english_finance_teams:0 "English Finance Teams"
+ PEN_german_manufacturers:0  "German Mnufacturers"
+ PEN_french_machinists:0 "French Machinists"
+ PEN_currently_trading:0 "Currently trading"
  
  command_power_more_than_25_blocked:0 "§R25§!£command_power"
  command_power_more_than_25:0 "§H25§!£command_power"

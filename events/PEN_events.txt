@@ -176,7 +176,7 @@ country_event = {
 		name = deitscherei.10.a
 		ai_chance = { base = 100 }
 		PEN = { country_event = { id = deitscherei.13 hours = 1 } }
-		set_country_flag = PEN_germany_agrees
+		PEN = { set_country_flag = PEN_germany_agrees }
 	}
 	
 	#germany refuses
@@ -200,7 +200,7 @@ country_event = {
 		name = deitscherei.11.a
 		ai_chance = { base = 100 }
 		PEN = { country_event = { id = deitscherei.13 hours = 1 } }
-		set_country_flag = PEN_england_agrees
+		PEN = { set_country_flag = PEN_england_agrees }
 	}
 	
 	#england refuses
@@ -224,7 +224,7 @@ country_event = {
 		name = deitscherei.12.a
 		ai_chance = { base = 100 }
 		PEN = { country_event = { id = deitscherei.13 hours = 1 } }
-		set_country_flag = PEN_france_agrees
+		PEN = { set_country_flag = PEN_france_agrees }
 	}
 	
 	#france refuses

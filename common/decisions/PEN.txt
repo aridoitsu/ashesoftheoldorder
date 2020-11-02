@@ -457,14 +457,21 @@ PEN_international_trade = {
 			}  
 		custom_cost_text = manpower_more_than_1000
 		days_remove = 14
+		available = {
+			NOT = {
+				has_country_flag = PEN_currently_trading
+				}
+			}
 		remove_effect = {
 			add_days_mission_timeout = {
 				mission = PEN_rebuilding_Rochester
 				days = -21
 					}
+			clr_country_flag = PEN_currently_trading
 				}
 			complete_effect = {
-				hidden_effect = { add_manpower = -1000 }					
+				hidden_effect = { add_manpower = -1000 }	
+				set_country_flag = PEN_currently_trading
 					}
 	}
 	PEN_reach_out_to_europe = {
@@ -481,7 +488,89 @@ PEN_international_trade = {
 			FRA = { country_event = { id = deitscherei.12 hours = 1 } }
 				}
 	}
-	
+	PEN_english_finance_teams = {
+		allowed = { 
+		tag = PEN 
+			}
+		visible = {
+			has_country_flag = PEN_england_agrees 
+			}
+		days_re_enable = 7
+		cost = 25
+		days_remove = 14
+		available = {
+			NOT = {
+				has_country_flag = PEN_currently_trading
+				}
+			}
+		modifier = {
+			political_power_factor = 0.1
+			}
+		complete_effect = {
+			set_country_flag = PEN_currently_trading
+			}
+		remove_effect = {
+			clr_country_flag = PEN_currently_trading
+			add_days_mission_timeout = {
+				mission = PEN_rebuilding_Rochester
+				days = -21
+			}
+		}
+	}
+	PEN_german_manufacturers = {
+		allowed = { tag = PEN }
+		visible = {
+			has_country_flag = PEN_germany_agrees
+			}
+		days_re_enable = 7
+		cost = 25
+		days_remove = 14
+		available = {
+			NOT = {
+				has_country_flag = PEN_currently_trading
+				}
+			}
+		modifier = {
+			production_factory_efficiency_gain_factor = 0.15
+			}
+		complete_effect = {
+			set_country_flag = PEN_currently_trading
+			}
+		remove_effect = {
+			clr_country_flag = PEN_currently_trading
+			add_days_mission_timeout = {
+				mission = PEN_rebuilding_Rochester
+				days = -21
+			}
+		}
+	}
+	PEN_french_machinists = {
+		allowed = { tag = PEN }
+		visible = {
+			has_country_flag = PEN_france_agrees
+			}
+		days_re_enable = 7
+		cost = 25
+		days_remove = 14
+		available = {
+			NOT = {
+				has_country_flag = PEN_currently_trading
+				}
+			}
+		modifier = {
+			production_factory_max_efficiency_factor = 0.25
+			}
+		complete_effect = {
+			set_country_flag = PEN_currently_trading
+			}
+		remove_effect = {
+			clr_country_flag = PEN_currently_trading
+			add_days_mission_timeout = {
+				mission = PEN_rebuilding_Rochester
+				days = -21
+			}
+		}
+	}
 }
 
 PEN_suppress_paramilitaries = {
