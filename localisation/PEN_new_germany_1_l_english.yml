@@ -23,8 +23,8 @@
  PEN_the_imitator_desc:0 ""
  PEN_the_antimilitant_act:0 "The Anti-Militant Act"
  PEN_the_antimilitant_act_desc:0 ""
- PEN_peace_and_prosperity:0 "Peace and Prosperity"
- PEN_peace_and_prosperity_desc:0 ""
+ PEN_looking_outwards:0 "Looking Outwards"
+ PEN_looking_outwards_desc:0 ""
  PEN_only_up:0 "Only Up"
  PEN_only_up_desc:0 "blablabla"
  PEN_rurals_and_remnants:0 "Rurals and Remnants"
@@ -50,6 +50,7 @@
  PEN_paramilitaries_banned:0 "Paramilitaries Banned"
  PEN_the_olive_branch:0 "The Olive Branch"
  PEN_the_mobilization_act1:0 "The National Defense Act"
+ PEN_peace_and_prosperity:0 "Peace and Prosperity"
  
  ##decisions
  PEN_reconstruction:0 "Reconstruction"
@@ -66,6 +67,13 @@
  PEN_current_construction:0 "Currently using grant decision"
  PEN_removing_act:0 "Currenlty going back on mobilization law"
  PEN_revoke_olive_branch:0 "Go Back on the Olive Branch Proprosal"
+ PEN_suppress_paramilitaries:0 "Suppress Far-Right Groups"
+ PEN_end_the_national_soc_mov_in_williamsport:0 "End the National Socialist Movement in Williamsport"
+ PEN_end_the_all_white_mov_in_rochester:0 "End the All White Movement in Rochester"
+ PEN_end_keystone_united_in_altoona:0 "End Keystone United in Altoona"
+ PEN_suppressing_fascism:0 "Currently dealing with a far-right group"
+ PEN_go_back_on_policies_of_peace:0 "Go Back on Policies of Peace"
+ PEN_go_back_on_irredentism:0 "Go Back on Policies of Irredentism"
  
  command_power_more_than_25_blocked:0 "§R25§!£command_power"
  command_power_more_than_25:0 "§H25§!£command_power"
@@ -147,7 +155,12 @@
  deitscherei.14.d:0 "TODO"
  deitscherei.14.a:0 "Damnit all."
  
- deitscherei.15.t:0 "SC.22 - On Matters of Foreign Policy"
+ deitscherei.15.t:0 "SC.22 - On Matters of National Defense"
  deitscherei.15.d:0 "TODO"
  deitscherei.15.a:0 "Ratify the National Defense Act."
  deitscherei.15.b:0 "Accept the Olive Branch Proprosal."
+ 
+ deitscherei.16.t:0 "SC.24 - On Matters of Foreign Policy"
+ deitscherei.16.d:0 "TODO"
+ deitscherei.16.a:0 "Our people shall be protected by the nations around us."
+ deitscherei.16.b:0 "We shall protect all of our people, for our neighbors are not to be trusted."

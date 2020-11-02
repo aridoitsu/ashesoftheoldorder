@@ -273,6 +273,162 @@ PEN_mobilization = {
 			set_country_flag = PEN_removing_act
 			}
 	}
+	PEN_go_back_on_irredentism = {
+		allowed = { tag = PEN }
+		fire_only_once = yes
+		cost = 25
+		visible = {
+			has_idea = PEN_flames_of_irredentism
+			}
+		available = {
+			NOT = {
+				has_country_flag = PEN_removing_act
+				}
+			}
+		days_remove = 30
+		remove_effect = {
+		clr_country_flag = PEN_removing_act
+			remove_ideas = PEN_flames_of_irredentism
+			if = {
+		limit = { has_idea = PEN_state_of_our_mobilization2	}	
+			swap_ideas = {
+				remove_idea = PEN_state_of_our_mobilization2
+				add_idea = PEN_state_of_our_mobilization1
+				}
+			}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization3	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization3
+					add_idea = PEN_state_of_our_mobilization2
+						}
+					}	
+		else_if = { 
+			limit = { has_idea = PEN_state_of_our_mobilization4	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization4
+					add_idea = PEN_state_of_our_mobilization3
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization5	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization5
+					add_idea = PEN_state_of_our_mobilization4
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization6	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization6
+					add_idea = PEN_state_of_our_mobilization5
+							}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization7	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization7
+					add_idea = PEN_state_of_our_mobilization6
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization8	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization8
+					add_idea = PEN_state_of_our_mobilization7
+						}
+					}
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization9	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization9
+					add_idea = PEN_state_of_our_mobilization8
+						}
+					}
+			}
+		complete_effect = {
+			add_stability = -0.1
+			set_country_flag = PEN_removing_act
+			}
+		}
+	PEN_go_back_on_policies_of_peace = {
+		allowed = { tag = PEN }
+		fire_only_once = yes
+		cost = 25
+		visible = {
+			has_idea = PEN_peace_and_prosperity
+			}
+		available = {
+			NOT = {
+				has_country_flag = PEN_removing_act
+				}
+			}
+		days_remove = 30
+		remove_effect = { 
+			clr_country_flag = PEN_removing_act
+			remove_ideas = PEN_peace_and_prosperity
+			if = {
+		limit = { has_idea = PEN_state_of_our_mobilization1	}	
+			swap_ideas = {
+				remove_idea = PEN_state_of_our_mobilization1
+				add_idea = PEN_state_of_our_mobilization2
+				}
+			}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization2	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization2
+					add_idea = PEN_state_of_our_mobilization3
+						}
+					}	
+		else_if = { 
+			limit = { has_idea = PEN_state_of_our_mobilization3	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization3
+					add_idea = PEN_state_of_our_mobilization4
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization4	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization4
+					add_idea = PEN_state_of_our_mobilization5
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization5	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization5
+					add_idea = PEN_state_of_our_mobilization6
+							}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization6	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization6
+					add_idea = PEN_state_of_our_mobilization7
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization7	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization7
+					add_idea = PEN_state_of_our_mobilization8
+						}
+					}
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization8	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization8
+					add_idea = PEN_state_of_our_mobilization9
+						}
+					}
+			}
+		complete_effect = {
+			add_stability = -0.1
+			set_country_flag = PEN_removing_act
+			}
+	}
 }
 
 PEN_international_trade = {
@@ -325,5 +481,127 @@ PEN_international_trade = {
 			FRA = { country_event = { id = deitscherei.12 hours = 1 } }
 				}
 	}
+	
+}
+
+PEN_suppress_paramilitaries = {
+	
+	PEN_end_the_national_soc_mov_in_williamsport = {
+		
+		icon = GFX_decision_icon_default
+		on_map_mode = map_only
+		highlight_states = { state = 1074 }
+		allowed = {
+			has_idea = PEN_paramilitaries_banned
+			NOT = {
+				has_country_flag = PEN_elections
+			}
+		}
+		available = {
+			NOT = {
+				has_country_flag = PEN_suppressing_fascism
+				}
+			has_equipment = { infantry_equipment > 199 }
+			}
+		visible = {
+			has_idea = PEN_paramilitaries_banned
+			}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 7
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -200
+				producer = PEN
+					}
+			set_country_flag = PEN_suppressing_fascism
+			}
+		remove_effect = {
+			clr_country_flag = PEN_suppressing_fascism
+			add_stability = 0.05
+			set_country_flag = PEN_williamsport_suppressed
+			}
+		
+		
+		}
+	PEN_end_the_all_white_mov_in_rochester = {
+		
+		icon = GFX_decision_icon_default
+		on_map_mode = map_only
+		highlight_states = { state = 1087 }
+		allowed = {
+			has_idea = PEN_paramilitaries_banned
+			NOT = {
+				has_country_flag = PEN_elections
+			}
+		}
+		available = {
+			NOT = {
+				has_country_flag = PEN_suppressing_fascism
+				}
+			has_equipment = { infantry_equipment > 199 }
+			}
+		visible = {
+			has_idea = PEN_paramilitaries_banned
+			}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 7
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -200
+				producer = PEN
+					}
+			set_country_flag = PEN_suppressing_fascism
+			}
+		remove_effect = {
+			clr_country_flag = PEN_suppressing_fascism
+			add_stability = 0.05
+			set_country_flag = PEN_rochester_suppressed
+			}
+		
+		
+		}
+	PEN_end_keystone_united_in_altoona = {
+		
+		icon = GFX_decision_icon_default
+		on_map_mode = map_only
+		highlight_states = { state = 360 }
+		allowed = {
+			has_idea = PEN_paramilitaries_banned
+			NOT = {
+				has_country_flag = PEN_elections
+			}
+		}
+		available = {
+			NOT = {
+				has_country_flag = PEN_suppressing_fascism
+				}
+			has_equipment = { infantry_equipment > 199 }
+			}
+		visible = {
+			has_idea = PEN_paramilitaries_banned
+			}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 7
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -200
+				producer = PEN
+					}
+			set_country_flag = PEN_suppressing_fascism
+			}
+		remove_effect = {
+			clr_country_flag = PEN_suppressing_fascism
+			add_stability = 0.05
+			set_country_flag = PEN_altoona_suppressed
+			}
+		
+		
+		}
 	
 }

@@ -24,3 +24,10 @@ PEN_international_trade = {
 		original_tag = PEN
 		}
 }
+
+PEN_suppress_paramilitaries = {
+	icon = generic_research
+	allowed = {
+		original_tag = PEN
+		}
+}

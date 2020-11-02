@@ -36,7 +36,7 @@ focus_tree = {
 		x = 8
 		y = 6
 		cost = 5
-		prerequisite = { focus = PEN_fan_the_flames_of_irredentism OR = PEN_peace_and_prosperity }
+		prerequisite = { focus = PEN_looking_outwards }
 		prerequisite = { focus = PEN_home_workshops OR = PEN_our_overseas_brothers }
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -85,84 +85,6 @@ focus_tree = {
 			custom_effect_tooltip = PEN_hw_focustip
 		}
 		
-	}
-
-	#Focus for Fan the Flames of Irredentism
-	focus = {
-		id = PEN_fan_the_flames_of_irredentism
-		icon = GFX_goal_generic_major_war
-		x = 11
-		y = 4
-		cost = 5
-		prerequisite = { focus = PEN_the_imitator }
-		mutually_exclusive = { focus = PEN_peace_and_prosperity }
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_ideas = PEN_flames_of_irredentism
-			custom_effect_tooltip = PEN_mob_up
-			hidden_effect = {
-			if = {
-		limit = { has_idea = PEN_state_of_our_mobilization1	}	
-			swap_ideas = {
-				remove_idea = PEN_state_of_our_mobilization1
-				add_idea = PEN_state_of_our_mobilization2
-				}
-			}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization2	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization2
-					add_idea = PEN_state_of_our_mobilization3
-						}
-					}	
-		else_if = { 
-			limit = { has_idea = PEN_state_of_our_mobilization3	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization3
-					add_idea = PEN_state_of_our_mobilization4
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization4	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization4
-					add_idea = PEN_state_of_our_mobilization5
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization5	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization5
-					add_idea = PEN_state_of_our_mobilization6
-							}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization6	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization6
-					add_idea = PEN_state_of_our_mobilization7
-						}
-					}
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization7	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization7
-					add_idea = PEN_state_of_our_mobilization8
-						}
-					}
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization8	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization8
-					add_idea = PEN_state_of_our_mobilization9
-						}
-					}
-			}
-		}
 	}
 
 	#Focus for Operation Uproot
@@ -270,7 +192,7 @@ focus_tree = {
 				}
 		}
 	}
-
+ 
 	#Focus for The Anti-Militant Act
 	focus = {
 		id = PEN_the_antimilitant_act
@@ -291,81 +213,21 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Peace and Prosperity
+	#Focus for Looking Outwards
 	focus = {
-		id = PEN_peace_and_prosperity
+		id = PEN_looking_outwards
 		icon = GFX_goal_generic_national_unity
-		x = 9
+		x = 10
 		y = 4
 		cost = 5
-		prerequisite = { focus = PEN_the_reformer }
-		mutually_exclusive = { focus = PEN_fan_the_flames_of_irredentism }
+		prerequisite = { focus = PEN_the_antimilitant_act }
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_STABILITY } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = PEN_peace_and_prosperity
-			custom_effect_tooltip = PEN_mob_down
-			hidden_effect = { 
-				if = {
-		limit = { has_idea = PEN_state_of_our_mobilization2	}	
-			swap_ideas = {
-				remove_idea = PEN_state_of_our_mobilization2
-				add_idea = PEN_state_of_our_mobilization1
-				}
-			}
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization3	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization3
-					add_idea = PEN_state_of_our_mobilization2
-						}
-					}	
-		else_if = { 
-			limit = { has_idea = PEN_state_of_our_mobilization4	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization4
-					add_idea = PEN_state_of_our_mobilization3
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization5	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization5
-					add_idea = PEN_state_of_our_mobilization4
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization6	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization6
-					add_idea = PEN_state_of_our_mobilization5
-							}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization7	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization7
-					add_idea = PEN_state_of_our_mobilization6
-						}
-					}	
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization8	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization8
-					add_idea = PEN_state_of_our_mobilization7
-						}
-					}
-		else_if = {
-			limit = { has_idea = PEN_state_of_our_mobilization9	}	
-				swap_ideas = {
-					remove_idea = PEN_state_of_our_mobilization9
-					add_idea = PEN_state_of_our_mobilization8
-						}
-					}
-				}
+			country_event = { id = deitscherei.16 }
 			}
 	}		
  
@@ -393,9 +255,9 @@ focus_tree = {
 	#Focus for Rurals and Remnants
 	focus = {
 		id = PEN_rurals_and_remnants
-		icon = GFX_goal_unknown 
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 6
-		y = 1
+		y = 1 
 		cost = 5
 		prerequisite = { focus = PEN_only_up }
 		available_if_capitulated = yes

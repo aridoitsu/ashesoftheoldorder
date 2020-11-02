@@ -405,6 +405,154 @@ country_event = {
 					}
 				}
 	}
+	
 }
+
+#looking outwards (sc.24)
+country_event = {
+    id = deitscherei.16 
+    title = deitscherei.16.t
+    desc = deitscherei.16.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+	#peace and prosperity
+    option = {
+		name = deitscherei.16.a
+		ai_chance = { base = 50 }
+
+		add_ideas = PEN_peace_and_prosperity
+		custom_effect_tooltip = PEN_mob_down
+			hidden_effect = { 
+				if = {
+		limit = { has_idea = PEN_state_of_our_mobilization2	}	
+			swap_ideas = {
+				remove_idea = PEN_state_of_our_mobilization2
+				add_idea = PEN_state_of_our_mobilization1
+				}
+			}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization3	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization3
+					add_idea = PEN_state_of_our_mobilization2
+						}
+					}	
+		else_if = { 
+			limit = { has_idea = PEN_state_of_our_mobilization4	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization4
+					add_idea = PEN_state_of_our_mobilization3
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization5	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization5
+					add_idea = PEN_state_of_our_mobilization4
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization6	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization6
+					add_idea = PEN_state_of_our_mobilization5
+							}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization7	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization7
+					add_idea = PEN_state_of_our_mobilization6
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization8	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization8
+					add_idea = PEN_state_of_our_mobilization7
+						}
+					}
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization9	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization9
+					add_idea = PEN_state_of_our_mobilization8
+						}
+					}
+				}
+			
+			}
+	
+	#fan the flames of irredentism
+	option = {
+		name = deitscherei.16.b
+		ai_chance = { base = 50 }
+		
+		add_ideas = PEN_flames_of_irredentism
+		custom_effect_tooltip = PEN_mob_up
+			hidden_effect = {
+			if = {
+		limit = { has_idea = PEN_state_of_our_mobilization1	}	
+			swap_ideas = {
+				remove_idea = PEN_state_of_our_mobilization1
+				add_idea = PEN_state_of_our_mobilization2
+				}
+			}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization2	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization2
+					add_idea = PEN_state_of_our_mobilization3
+						}
+					}	
+		else_if = { 
+			limit = { has_idea = PEN_state_of_our_mobilization3	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization3
+					add_idea = PEN_state_of_our_mobilization4
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization4	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization4
+					add_idea = PEN_state_of_our_mobilization5
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization5	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization5
+					add_idea = PEN_state_of_our_mobilization6
+							}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization6	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization6
+					add_idea = PEN_state_of_our_mobilization7
+						}
+					}	
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization7	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization7
+					add_idea = PEN_state_of_our_mobilization8
+						}
+					}
+		else_if = {
+			limit = { has_idea = PEN_state_of_our_mobilization8	}	
+				swap_ideas = {
+					remove_idea = PEN_state_of_our_mobilization8
+					add_idea = PEN_state_of_our_mobilization9
+						}
+					}
+				}
+	}
+	
+}
+
+
 
 

@@ -42,8 +42,11 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-
-				}
+				opinion_gain_monthly_factor = -0.25
+				resistance_growth_on_our_occupied_states = 0.35
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				army_org_factor = 0.1
+				} 
 		}
 		PEN_peace_and_prosperity = {
 			picture = air_support_focus
@@ -51,7 +54,10 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-
+				ai_focus_peaceful_factor = 0.25
+				political_power_factor = 0.25
+				command_power_gain = 0.1
+				surrender_limit = 0.1
 				}
 		}
 		PEN_state_of_our_mobilization5 = {
