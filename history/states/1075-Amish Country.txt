@@ -1,23 +1,24 @@
 state={
 	id=1075
-	name="Harrisburg"
-	manpower=1948245
+	name="Jerusalem"
+	manpower=879186
 	state_category=large_city
 
 	history = {
-		owner = PHL
+		owner = UNQ
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 5
-			arms_factory = 2
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 1
 		}
-		add_core_of = PHL
 		victory_points = {
-			11785 5
+			15866 25
 		}
+		add_core_of = PAL
+		add_core_of = ISR
 	}
 	provinces={
-		3824 6869 11785
+		15866
 	}
 	buildings_max_level_factor=1.000
 }

@@ -1,28 +1,26 @@
 state={
 	id=1080
-	name="Wilmington"
+	name="Palestine"
 	manpower=249008
-	state_category = rural
+	state_category = city
 	resources={
 		rubber=4.000
 		chromium=5.000
 	}
 
 	history = {
-		owner = DEL
+		owner = PAL
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			#industrial_complex = 1
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 1
 		}
-		add_core_of = DEL
-		victory_points = {
-			13806 3
-		}
+		add_core_of = PAL
+		add_core_of = ISR
 	}
 
 	provinces={
-		13806 13837
+		15865 15867 15868 7107 1086
 	}
 	buildings_max_level_factor=1.000
 }

@@ -1,20 +1,22 @@
 state={
 	id=1079
-	name="Rehoboth"
-	manpower = 149008
+	name="Gaza"
+	manpower = 1998925
 	state_category = rural
 
 	history = {
-		Owner = DEL
+		Owner = PAL
 		buildings = {
-		infrastructure = 2
+		infrastructure = 4
 		industrial_complex = 1
+		arms_factory = 2
 		}
-		add_core_of = DEL
+		add_core_of = PAL
+		add_core_of = ISR
 	}
 
 	provinces={
-		9786 13066
+		15864
 	}
 	buildings_max_level_factor=1.000
 }

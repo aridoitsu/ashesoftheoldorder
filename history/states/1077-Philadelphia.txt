@@ -24,10 +24,13 @@ state={
 		victory_points = {
 			13848 20
 		}
+		victory_points = {
+			11785 3
+		}
 	}
 
 	provinces={
-		6845 13847 13848 13859 13861
+		6845 13847 13848 13859 13861 3824 6869 11785
 	}
 	buildings_max_level_factor=1.000
 }
