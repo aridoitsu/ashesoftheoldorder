@@ -165,4 +165,50 @@ PEN_international_trade = {
 				hidden_effect = { add_manpower = -1000 }					
 					}
 	}
+	PEN_reach_out_to_europe = {
+		allowed = { tag = PEN }
+		fire_only_once = yes
+		cost = 35
+		visible = {
+			has_completed_focus = PEN_our_overseas_brothers
+			}
+		days_remove = 21
+		remove_effect = {
+			GER = { country_event = { id = deitscherei.10 hours = 1 } }
+			ENG = { country_event = { id = deitscherei.11 hours = 1 } }
+			FRA = { country_event = { id = deitscherei.12 hours = 1 } }
+				}
+	}
+	PEN_heavy_industry_grant = {
+		allowed = { tag = PEN }
+		days_re_enable = 4
+		cost = 100
+		visible = {
+			has_completed_focus = PEN_entice_investors
+			}
+		days_remove = 70
+		remove_effect = {
+			add_building_construction = {
+				type = arms_factory
+				level = 5
+				instant_build = yes
+				}
+			}
+	}
+	PEN_light_industry_grant = {
+		allowed = { tag = PEN }
+		days_re_enable = 4
+		cost = 125
+		visible = {
+			has_completed_focus = PEN_entice_investors
+			}
+		days_remove = 70
+		remove_effect = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+				}
+			}
+	}
 }

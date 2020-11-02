@@ -195,6 +195,7 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = PEN_rurals_and_remnants }
 		prerequisite = { focus = PEN_the_commander }
+		mutually_exclusive = { focus = PEN_mutual_act }
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_MANPOWER } 
 		ai_will_do = {
@@ -345,7 +346,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = deitscherei.9 }
 			
 		}
 	}

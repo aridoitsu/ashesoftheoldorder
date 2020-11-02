@@ -1,5 +1,7 @@
 capital = 360
 
+oob = "PEN_1936"
+
 set_research_slots = 3
 
 set_technology = {
@@ -59,6 +61,7 @@ set_politics = {
 add_ideas = {
 	PEN_the_reconstruction_of_rochester
 	PEN_agrarian_society
+	PEN_paramilitaries
 	PEN_state_of_our_mobilization5
 }
 set_popularities = {
@@ -82,5 +85,5 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = new_democracy
 	traits = { father_of_the_deitsch }
-	traits = { vietnam_war_veteran }
+	traits = { the_bear }
 }

@@ -45,6 +45,9 @@
  PEN_state_of_our_mobilization7:0 "State of our Mobilization - High"
  PEN_state_of_our_mobilization8:0 "State of our Mobilization - High"
  PEN_state_of_our_mobilization9:0 "State of our Mobilization - Very High"
+ PEN_paramilitaries:0 "Right-Wing Paramilitaries"
+ PEN_paramilitaries_allowed:0 "Paramilitaries Allowed"
+ PEN_paramilitaries_banned:0 "Paramilitaries Banned"
  
  ##decisions
  PEN_reconstruction:0 "Reconstruction"
@@ -55,6 +58,7 @@
  PEN_reach_out_to_the_canadians:0 "Reach Out to the Canadians"
  PEN_international_trade:0 "International Trade"
  PEN_men_for_mortar:0 "Men for Mortar"
+ PEN_reach_out_to_europe:0 "Reach Out to the Europeans"
  
  command_power_more_than_25_blocked:0 "§R25§!£command_power"
  command_power_more_than_25:0 "§H25§!£command_power"
@@ -87,4 +91,51 @@
  deitscherei.3.t:0 "Canada Refuses!"
  deitscherei.3.d:0 "bruh"
  deitscherei.3.a:0 "bruh"
+ 
+ deitscherei.4.t:0 "The State of Deitscherei"
+ deitscherei.4.d:0 "TODO"
+ deitscherei.4.a:0 "We can only go up from here."
+ 
+ deitscherei.5.t:0 "The State of Our Economy"
+ deitscherei.5.d:0 "TODO"
+ deitscherei.5.a:0 "todo"
+ 
+ deitscherei.6.t:0 "The Commander"
+ deitscherei.6.d:0 "TODO"
+ deitscherei.6.a:0 "The reign of The Bear shall be remembered for as long as Deitscherei."
+ 
+ deitscherei.7.t:0 "The Reformer"
+ deitscherei.7.d:0 "TODO"
+ deitscherei.7.a:0 "A Pennsylvanian in the land of Germany."
+ 
+ deitscherei.8.t:0 "The Imitator"
+ deitscherei.8.d:0 "TODO"
+ deitscherei.8.a:0 "A sheep in wolf's clothing."
+ 
+ deitscherei.9.t:0 "SC.23 - The Anti-Militant Act of 2018"
+ deitscherei.9.d:0 "TODO"
+ deitscherei.9.a:0 "We cannot let our new democracy be under threat by tyranny."
+ deitscherei.9.b:0 "It is not the place of the government to prevent free speech."
+ 
+ deitscherei.10.t:0 "A Diplomat from the American Wastes"
+ deitscherei.10.d:0 "TODO"
+ deitscherei.10.a:0 "Sure, it's our job to pick up what the Americans dropped."
+ deitscherei.10.b:0 "Get this nonsense out of my office."
 
+ deitscherei.11.t:0 "A Diplomat from the American Wastes"
+ deitscherei.11.d:0 "TODO"
+ deitscherei.11.a:0 "Sure, it's our job to pick up what the Americans dropped."
+ deitscherei.11.b:0 "Get this nonsense out of my office."
+ 
+ deitscherei.12.t:0 "A Diplomat from the American Wastes"
+ deitscherei.12.d:0 "TODO"
+ deitscherei.12.a:0 "Sure, it's our job to pick up what the Americans dropped."
+ deitscherei.12.b:0 "Get this nonsense out of my office."
+ 
+ deitscherei.13.t:0 "Trade Agreement Accepted."
+ deitscherei.13.d:0 "TODO"
+ deitscherei.13.a:0 "Perfect."
+ 
+ deitscherei.14.t:0 "Trade Agreement Declined"
+ deitscherei.14.d:0 "TODO"
+ deitscherei.14.a:0 "Damnit all."

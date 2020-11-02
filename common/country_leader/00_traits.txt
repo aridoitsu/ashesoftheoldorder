@@ -4813,7 +4813,7 @@ leader_traits = {
 	
 	father_of_the_deitsch = {
 		random = no
-		stability_weekly = 0.05
+		stability_weekly = 0.02
 		stability_factor = 0.20
 		political_power_gain = 0.25
 		ai_will_do = {
@@ -4822,7 +4822,7 @@ leader_traits = {
 		
 		}
 	
-	vietnam_war_veteran = {
+	the_bear = {
 		random = no
 		experience_gain_army_factor = 0.1
 		army_org_regain = 0.20

@@ -39,3 +39,8 @@
  liberal_desc:0 "Liberal Democratic Administration"
  demsoc_desc:0 "Social Democratic Administration"
  prodem_desc:0 "Progressive Democratic Administration"
+ 
+ #no idea where to put this so putting it here - ditto
+ ultranationalism_drift:0 "Daily Ultranationalism Support"
+ authdem_drift:0 "Daily Authoritarian Democracy Support"
+ liberal_drift:0 "Daily Liberal Democracy Support"

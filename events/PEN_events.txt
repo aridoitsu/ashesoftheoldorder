@@ -131,9 +131,137 @@ country_event = {
 	}
 }
 
+#the anti-militant act event
+country_event = {
+    id = deitscherei.9
+    title = deitscherei.9.t
+    desc = deitscherei.9.d
+    picture = GFX_event_test
+    is_triggered_only = yes
 
+	#act passes
+    option = {
+		name = deitscherei.9.a
+		ai_chance = { base = 50 }
+		
+		set_country_flag = PEN_paramilitaries_banned
+		swap_ideas = {
+			remove_idea = PEN_paramilitaries
+			add_idea = PEN_paramilitaries_banned
+			}
+	}
+	
+	#act fails
+	option = {
+		name = deitscherei.9.b
+		ai_chance = { base = 50 }
+		
+		swap_ideas = {
+			remove_idea = PEN_paramilitaries
+			add_idea = PEN_paramilitaries_allowed
+			}
+	}
+}
 
+#event to germany for trade
+country_event = {
+    id = deitscherei.10
+    title = deitscherei.10.t
+    desc = deitscherei.10.d
+    picture = GFX_event_test
+    is_triggered_only = yes
 
+	#germany agrees
+    option = {
+		name = deitscherei.10.a
+		ai_chance = { base = 100 }
+		PEN = { country_event = { id = deitscherei.13 hours = 1 } }
+		set_country_flag = PEN_germany_agrees
+	}
+	
+	#germany refuses
+	option = {
+		name = deitscherei.10.b
+		ai_chance = { base = 0 }
+		PEN = { country_event = { id = deitscherei.14 hours = 1 } }
+	}
+}
+
+#event to england for trade
+country_event = {
+    id = deitscherei.11
+    title = deitscherei.11.t
+    desc = deitscherei.11.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+	#england agrees
+    option = {
+		name = deitscherei.11.a
+		ai_chance = { base = 100 }
+		PEN = { country_event = { id = deitscherei.13 hours = 1 } }
+		set_country_flag = PEN_england_agrees
+	}
+	
+	#england refuses
+	option = {
+		name = deitscherei.11.b
+		ai_chance = { base = 0 }
+		PEN = { country_event = { id = deitscherei.14 hours = 1 } }
+	}
+}
+
+#event to france for trade
+country_event = {
+    id = deitscherei.12
+    title = deitscherei.12.t
+    desc = deitscherei.12.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+	#france agrees
+    option = {
+		name = deitscherei.12.a
+		ai_chance = { base = 100 }
+		PEN = { country_event = { id = deitscherei.13 hours = 1 } }
+		set_country_flag = PEN_france_agrees
+	}
+	
+	#france refuses
+	option = {
+		name = deitscherei.12.b
+		ai_chance = { base = 0 }
+		PEN = { country_event = { id = deitscherei.14 hours = 1 } }
+	}
+}
+
+#european country agrees event
+country_event = {
+    id = deitscherei.13
+    title = deitscherei.13.t
+    desc = deitscherei.13.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		name = deitscherei.13.a
+		ai_chance = { base = 100 }
+	}
+}
+
+#european country disagrees event
+country_event = {
+    id = deitscherei.14
+    title = deitscherei.14.t
+    desc = deitscherei.14.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		name = deitscherei.14.a
+		ai_chance = { base = 100 }
+	}
+}
 
 
 

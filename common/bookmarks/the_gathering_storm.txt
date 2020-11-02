@@ -46,6 +46,7 @@ bookmarks = {
 			ideas = {
 				PEN_the_reconstruction_of_rochester
 				PEN_agrarian_society
+				PEN_paramilitaries
 			}
 			focuses = {
 				#

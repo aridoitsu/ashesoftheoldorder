@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		PEN_the_reconstruction_of_rochester = {
-			picture = spr_relocate_the_gold_reserves
+			picture = generic_production_bonus
 			allowed_civil_war = {
 				always = yes
 			}
@@ -139,6 +139,43 @@ ideas = {
 			modifier = {
 				war_support_weekly = 0.08
 				stability_weekly = -0.08
+			}
+		}
+		PEN_paramilitaries = {
+			picture = generic_purge
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+				stability_weekly = -0.01
+				trade_opinion_factor = -0.25
+				fascism_drift = 0.03
+				ultranationalism_drift = 0.01
+			}
+		}
+		PEN_paramilitaries_allowed = {
+			picture = generic_deal_with_the_devil
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_weekly = -0.02
+				trade_opinion_factor = -0.5
+				weekly_manpower = 200
+				fascism_drift = 0.05
+				ultranationalism_drift = 0.02
+			}
+		}
+		PEN_paramilitaries_banned = {
+			picture = mex_revolutionary_army
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.1
+				authdem_drift = 0.05
+				liberal_drift = 0.02
 			}
 		}
 	}
