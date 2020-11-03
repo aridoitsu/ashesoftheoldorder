@@ -2,11 +2,11 @@ state={
 	id=405
 	name="STATE_405"
 
-	history= { 
+	history= {
 		owner = UZB
 		add_core_of = UZB
 		victory_points = {
-			1459 3 
+			1459 3
 		}
 		buildings = {
 			infrastructure = 5
@@ -25,9 +25,9 @@ state={
 	}
 
 	provinces={
-		1459 1573 4629 7639 7682 7775 10205 10488 10671 11687 12239 12722 
+		1459 1573 4629 7639 7682 7775 10205 10488 10671 11687 12239 12722
 	}
-	manpower=6275820
+	manpower=25743921
 	buildings_max_level_factor=1.000
 	state_category=city
 }

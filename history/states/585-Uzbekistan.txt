@@ -2,20 +2,20 @@ state={
 	id=585
 	name="STATE_585"
 
-	history= { 
+	history= {
 		add_core_of = UZB
 		owner = UZB
 		buildings = {
 			infrastructure = 3
-
+			arms_factory = 1
 		}
 
 	}
 
 	provinces={
-		1479 1532 1554 1576 1614 1623 1721 4488 4499 4618 7501 7507 7541 10348 10395 10420 10435 10470 12161 12233 12324 12454 12465 12471 12474 13207
+		1479 1532 1554 1576 1614 1623 4488 4499 4618 7501 7507 10420 10470 12161 12471 15870
 	}
-	manpower=1033721
+	manpower=1843554
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
