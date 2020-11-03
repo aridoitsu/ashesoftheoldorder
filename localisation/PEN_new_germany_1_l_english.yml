@@ -52,6 +52,7 @@
  PEN_the_mobilization_act1:0 "The National Defense Act"
  PEN_peace_and_prosperity:0 "Peace and Prosperity"
  PEN_home_workshops1:0 "Home Workshops"
+ PEN_agrarian_society_tt:0 "§HWill be removed if Deitscherei owns 20 or more factories.§!"
  
  ##decisions
  PEN_reconstruction:0 "Reconstruction"
