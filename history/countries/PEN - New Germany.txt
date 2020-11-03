@@ -58,6 +58,19 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+set_party_name = { 
+    ideology = authdem 
+    long_name = PEN_authdem_party_long
+    name = PEN_authdem_party_short
+}
+
+set_party_name = { 
+    ideology = liberal 
+    long_name = PEN_libdem_party_long
+    name = PEN_libdem_party_short
+}
+
 add_ideas = {
 	PEN_the_reconstruction_of_rochester
 	PEN_agrarian_society

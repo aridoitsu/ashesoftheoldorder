@@ -14,11 +14,11 @@
  PEN_operation_uproot:0 "Operation Uproot"
  PEN_operation_uproot_desc:0 ""
  PEN_the_mobilization_act:0 "The 22nd Security Council Convention"
- PEN_the_mobilization_act_desc:0 ""
+ PEN_the_mobilization_act_desc:0 "The Security Council has approached Schwarzkopf with two opposing proprosals, both concerning our policy surrounding mobilization. Whilst most of the Security Council is pushing for increased mobilization, reformers are pushing to divert money spent on the military towards helping the public, although Schwarzkopf has the final say on the matter."
  PEN_the_commander:0 "The Commander"
- PEN_the_commander_desc:0 "Formerly in the United States Armed Forces, Norman Schwarzkopf finds himself a mostly apolitical leader, only finding himself doing what he thinks will be best for the greatest number of people. However despite his apolitical nature, he has made many rivals during his stay in office, or rather, many have made him their rival. It seems nobody except him and the public are in support of him, however his greatest enemy is time itself."
+ PEN_the_commander_desc:0 "Norman Schwarzkopf finds himself a mostly apolitical leader, only finding himself doing what he thinks will be best for the greatest number of people. However despite his apolitical nature, he has made many rivals during his stay in office, or rather, many have made him their rival. It seems nobody except him and the public are in support of him, however his greatest enemy is time itself."
  PEN_the_reformer:0 "The Reformer"
- PEN_the_reformer_desc:0 ""
+ PEN_the_reformer_desc:0 "Whilst most of the ex-Pennsylvanians in Deitscherei have accepted a Pennsilfaanisch-Deitsche identity, there still remains a minority of people who see themselves as American Pennsylvanians, and the person heading this movement is the politician Mike Stack of the Reformer Party. Running on a platform of a return to the status quo, it is yet to be seen if Stack has what it takes to win the election."
  PEN_the_imitator:0 "The Imitator"
  PEN_the_imitator_desc:0 ""
  PEN_the_antimilitant_act:0 "The Anti-Militant Act"
@@ -38,7 +38,7 @@
  PEN_flames_of_irredentism:0 "Flames of Irredentism"
  PEN_state_of_our_mobilization1:0 "State of our Mobilization - Very Low"
  PEN_state_of_our_mobilization2:0 "State of our Mobilization - Low"
- PEN_state_of_our_mobilization3:0 "State of our Mobilization - Low"
+ PEN_state_of_our_mobilization3:0 "State of our Mobilization - Low
  PEN_state_of_our_mobilization4:0 "State of our Mobilization - Medium"
  PEN_state_of_our_mobilization5:0 "State of our Mobilization - Medium"
  PEN_state_of_our_mobilization6:0 "State of our Mobilization - Medium"
@@ -124,8 +124,8 @@
  deitscherei.5.a:0 "todo"
  
  deitscherei.6.t:0 "The Commander"
- deitscherei.6.d:0 "TODO"
- deitscherei.6.a:0 "The reign of The Bear shall be remembered for as long as Deitscherei."
+ deitscherei.6.d:0 "The clacking of Schwarzkopf’s shoes could be heard echoing throughout the hall, seemingly reverberating into every corner and into every ear of the immense crowd, only furthering their palpable anticipation for what was about to commence. As Schwarzkopf’s bulky figure appeared on stage, all the quiet murmurs and whispers ended, and his speech began.\n\n“Look at how far we’ve come. We have shown the outside world that we stand against the rampant disregard for the happiness of our people that our American ancestors fell into, and have shown that our nation is not one which exists to help those at the top, but to help all of our people. I have a question for you though, my fellow Deitsch.” He addressed the onlooking crowd, “What do you look for in a leader? Is it the populism of late America? Is it a willingness to give into every corporate whim for their own profit? Or even, is it the submission to one of America’s past greatest enemies we were united against?”\n\nThe crowd’s opinion on Schwarzkopf’s questions was quite evident from the shouting and booing filling up the air. Schwarzkopf paused for a moment, allowing the hall to settle down, and continued again once the silence had returned.\n\n“Or perhaps, it’s a rejection of the phony populism, it’s a rejection of what became America’s downfall, and it’s a rejection of the ideology of hate that has spread across America in the last decade. It’s a strong leader, and one who doesn’t compromise on doing what he thinks is best for the greatest number of people. Wouldn’t you think so?”\n\nAll at once, a booming roar of clapping and cheering could be heard from Schwarzkopf’s onlookers, filling the hall for what felt like an hour, whilst Schwarzkopf could be seen smiling back at his envigored supporters as they cheered on."
+ deitscherei.6.a:0 "Smiling onwards to hope."
  
  deitscherei.7.t:0 "The Reformer"
  deitscherei.7.d:0 "TODO"
@@ -172,3 +172,10 @@
  deitscherei.16.d:0 "TODO"
  deitscherei.16.a:0 "Our people shall be protected by the nations around us."
  deitscherei.16.b:0 "We shall protect all of our people, for our neighbors are not to be trusted."
+ 
+ #political parties
+ PEN_authdem_party_long:0 "Pennsilfaanisch-Deitsch Pardei"
+ PEN_authdem_party_short:0 "PDP"
+ 
+ PEN_libdem_party_long:0 "Pennsylvania Reformer Party"
+ PEN_libdem_party_short:0 "PRP"

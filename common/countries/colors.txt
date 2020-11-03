@@ -1436,8 +1436,8 @@ UPI = {
 	color_ui = rgb { 135 181 255 }
 }
 INI = {
-	color = rgb { 232 207 16 }
-	color_ui = rgb { 232 207 16 }
+	color = rgb { 180 153 0 }
+	color_ui = rgb { 180 153 0 }
 }
 DET = {
 	color = rgb { 161 63 21 }
@@ -1488,8 +1488,8 @@ MIA = {
 	color_ui = rgb { 133 194 43 }
 }
 APP = {
-	color = rgb { 226 100 62 }
-	color_ui = rgb { 226 100 62 }
+	color = rgb { 128 119 135 }
+	color_ui = rgb { 129 119 135 }
 }
 IND = {
 	color = rgb { 199 128 58 }
@@ -1504,8 +1504,8 @@ CRA = {
 	color_ui = rgb { 156 56 39 }
 }
 VAV = {
-	color = rgb { 143 166 191 }
-	color_ui = rgb { 143 166 191 }
+	color = rgb { 172 188 122 }
+	color_ui = rgb { 172 188 122 }
 }
 NYN = {
 	color = rgb { 181 141 101 }
