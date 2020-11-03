@@ -16,7 +16,7 @@
  PEN_the_mobilization_act:0 "The 22nd Security Council Convention"
  PEN_the_mobilization_act_desc:0 ""
  PEN_the_commander:0 "The Commander"
- PEN_the_commander_desc:0 ""
+ PEN_the_commander_desc:0 "Formerly in the United States Armed Forces, Norman Schwarzkopf finds himself a mostly apolitical leader, only finding himself doing what he thinks will be best for the greatest number of people. However despite his apolitical nature, he has made many rivals during his stay in office, or rather, many have made him their rival. It seems nobody except him and the public are in support of him, however his greatest enemy is time itself."
  PEN_the_reformer:0 "The Reformer"
  PEN_the_reformer_desc:0 ""
  PEN_the_imitator:0 "The Imitator"
@@ -26,9 +26,9 @@
  PEN_looking_outwards:0 "Looking Outwards"
  PEN_looking_outwards_desc:0 ""
  PEN_only_up:0 "Only Up"
- PEN_only_up_desc:0 "blablabla"
+ PEN_only_up_desc:0 "The newborn state of Deitscherei is home to many things - but one of them is not fear to lose what we have in hopes of making ourselves better. We need to evaluate what we have and build ourselves up from there."
  PEN_rurals_and_remnants:0 "Rurals and Remnants"
- PEN_rurals_and_remnants_desc:0 ""
+ PEN_rurals_and_remnants_desc:0 "Compared to the warlord states around us, are economic siutation is not the worst. However, we still have little to no industrial base and a massive drain on our economy in the form of our reconstruction efforts in Rochester."
  
  ##national spirits
  PEN_the_reconstruction_of_rochester:0 "The Reconstruction of Rochester"
@@ -116,8 +116,8 @@
  deitscherei.3.a:0 "bruh"
  
  deitscherei.4.t:0 "The State of Deitscherei"
- deitscherei.4.d:0 "TODO"
- deitscherei.4.a:0 "We can only go up from here."
+ deitscherei.4.d:0 "Cleansed from the dirt of its American ancestor, forged from the smithery of Schwarzkopf's disciplined rule, and hardened from years of barely getting by, the Deitsch state and its people are prepared to reclaim what has been taken from them by America's ideological squabbles and eventual war to the death. Though, there are many obstacles in the way for Deitscherei's path to a life worth living to all.\n\nSpread out across Deitscherei there are multiple far-right organizations looking to usurp the seat of leader by any means necessary to try and turn this state made out of necessity back into a state in the darkness of the American anarchy, however Schwarzkopf sees little threat from these group as he sees from other matters.\n\nIn the south of Deitscherei lays no more than farmers and their down-trodden families, and in the north lay the ruins of Rochester, torn apart by the Americans' own greed. Recently though, the rebuilding of Rochester is seeming to be picking up steam, with state employees and non-state actors both chipping in their all to the behemoth of a project, inspiring hope in its many onlookers."
+ deitscherei.4.a:0 "May our state prosper, for the wellbeing of our citizens."
  
  deitscherei.5.t:0 "The State of Our Economy"
  deitscherei.5.d:0 "TODO"
