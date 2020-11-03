@@ -112,8 +112,43 @@ PEN_reconstruction = {
 			clr_country_flag = PEN_current_construction
 			}
 	}
+	PEN_start_up_home_workshops = {
+		allowed = { tag = PEN }
+		days_re_enable = 0
+		cost = 0
+		visible = {
+			has_completed_focus = PEN_home_workshops
+			NOT = {
+				has_country_flag = PEN_home_workshops_start
+				}
+			}
+		complete_effect = {
+			set_country_flag = PEN_home_workshops_start
+			add_offsite_building = {
+				type = arms_factory
+				level = 3
+				}
+			add_ideas = PEN_home_workshops1
+			}
+		}
+	PEN_close_down_home_workshops = {
+		allowed = { tag = PEN }
+		days_re_enable = 0
+		cost = 0
+		visible = {
+			has_completed_focus = PEN_home_workshops
+			has_country_flag = PEN_home_workshops_start
+			}
+		complete_effect = {
+			clr_country_flag = PEN_home_workshops_start
+			remove_ideas = PEN_home_workshops1
+			add_offsite_building = {
+				type = arms_factory
+				level = -3
+				}
+			}
+		}
 }
-#TODO: other decisions lol and also use the flag PEN_ou
 
 PEN_mobilization = {
 

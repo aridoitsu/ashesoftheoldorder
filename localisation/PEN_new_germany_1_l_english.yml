@@ -51,6 +51,7 @@
  PEN_the_olive_branch:0 "The Olive Branch"
  PEN_the_mobilization_act1:0 "The National Defense Act"
  PEN_peace_and_prosperity:0 "Peace and Prosperity"
+ PEN_home_workshops1:0 "Home Workshops"
  
  ##decisions
  PEN_reconstruction:0 "Reconstruction"
@@ -75,9 +76,11 @@
  PEN_go_back_on_policies_of_peace:0 "Go Back on Policies of Peace"
  PEN_go_back_on_irredentism:0 "Go Back on Policies of Irredentism"
  PEN_english_finance_teams:0 "English Finance Teams"
- PEN_german_manufacturers:0  "German Mnufacturers"
+ PEN_german_manufacturers:0  "German Manufacturers"
  PEN_french_machinists:0 "French Machinists"
  PEN_currently_trading:0 "Currently trading"
+ PEN_close_down_home_workshops:0 "Close Down Home Workshops"
+ PEN_start_up_home_workshops:0 "Start Up Home Workshops"
  
  command_power_more_than_25_blocked:0 "§R25§!£command_power"
  command_power_more_than_25:0 "§H25§!£command_power"

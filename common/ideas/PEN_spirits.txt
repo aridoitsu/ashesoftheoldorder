@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		PEN_the_reconstruction_of_rochester = {
-			picture = generic_production_bonus
+			picture = ger_rebuild_the_nation
 			allowed_civil_war = {
 				always = yes
 			}
@@ -177,7 +177,7 @@ ideas = {
 			}
 		}
 		PEN_paramilitaries_banned = {
-			picture = mex_revolutionary_army
+			picture = generic_oppression
 			allowed_civil_war = {
 				always = yes
 			}
@@ -200,5 +200,16 @@ ideas = {
 				economy_cost_factor = 0.5
 				}
 		}
+		PEN_home_workshops1 = {
+			picture = man_five_year_plan_industry
+			allowed_civil_war = {
+				always = yes
+				}
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				production_lack_of_resource_penalty_factor = 0.25
+				line_change_production_efficiency_factor = -0.1
+				}
+			}
 	}
 }

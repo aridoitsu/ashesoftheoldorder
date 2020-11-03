@@ -197,7 +197,7 @@ focus_tree = {
 	focus = {
 		id = PEN_the_antimilitant_act
 		icon = GFX_goal_generic_secret_weapon
-		x = 10
+		x = 10 
 		y = 3
 		cost = 4
 		prerequisite = { focus = PEN_the_imitator }
