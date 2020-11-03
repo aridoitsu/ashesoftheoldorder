@@ -15868,9 +15868,14 @@
 15867;157;130;106;land;false;plains;7
 15868;198;234;248;land;true;plains;7
 15869;222;109;55;land;false;desert;2
-
 15870;235;222;247;land;false;desert;6
 15871;211;190;190;land;false;desert;6
 15872;211;181;124;land;false;desert;6
 15873;209;146;83;land;false;desert;6
 15874;163;176;255;lake;false;desert;6
+15875;165;82;130;land;true;desert;6
+15876;165;165;130;land;true;desert;6
+15877;165;149;149;land;true;desert;6
+15878;137;115;196;land;true;desert;6
+15879;165;167;213;land;true;desert;6
+15880;165;167;130;land;true;desert;6

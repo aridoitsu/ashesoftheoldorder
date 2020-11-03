@@ -2,14 +2,14 @@ state={
 	id=656
 	name="STATE_656"
 	manpower = 80000
-	
+
 	state_category = rural
-	
-	history= { 
+
+	history= {
 		add_core_of = KUW
 		owner = KUW
 		victory_points = {
-			8085 1 
+			8085 5
 		}
 		buildings = {
 			infrastructure = 4
@@ -20,6 +20,6 @@ state={
 
 	}
 	provinces={
-		8085
+		8085 15880 15879
 	}
 }

@@ -1,23 +1,26 @@
 state={
 	id=1089
-	name="Catskills"
-	manpower=378532
+	name="East Turkmenistan"
+	manpower=2448830
 	state_category=town
 	resources = {
-		steel=12.000
+		steel=8.000
 	}
 
 	history = {
-		owner = NYN
+		owner = TMS
 		buildings = {
-			infrastructure = 5
+			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = NYN
+		victory_points = {
+			4482 1
+		}
+		add_core_of = TMS
 	}
 
 	provinces={
-		706 9673 9774 11660
+		756 4958 7560 10357 5003 4482 10414 1649 7924 10742 4549 9605 1632
 	}
 	buildings_max_level_factor=1.000
 }

@@ -3,13 +3,13 @@ state={
 	id=765
 	name="STATE_765"
 	manpower = 51600
-	state_category = pastoral
+	state_category = rural
 
-	history= { 
+	history= {
 		add_core_of = QAT
 		owner = QAT
 		victory_points = {
-			8051 1
+			8051 3
 		}
 		buildings = {
 			infrastructure = 2
@@ -20,6 +20,6 @@ state={
 	}
 
 	provinces={
-		8051
+		8051 15876 15875 15877
 	}
 }
