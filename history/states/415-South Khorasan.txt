@@ -2,22 +2,26 @@
 state={
 	id=415
 	name="STATE_415" # Herat
-	manpower = 1632860
-	
-	state_category = rural
+	manpower = 9198420
 
-	history= { 
+	state_category = town
+
+	history= {
 		owner = AFG
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
 		}
 		victory_points = {
-			4893 1 
+			4893 5
+		}
+		victory_points = {
+			2078 1
 		}
 		add_core_of = AFG
 	}
 
 	provinces={
-		1948 1995 2017 2062 2078 2101 4893 4949 5020 5064 8053 8090 10789 12788 12871 
+		1948 1995 2017 2062 2078 2101 4893 8053 12788 12871
 	}
 }

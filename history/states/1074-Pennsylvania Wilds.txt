@@ -1,7 +1,7 @@
 state={
 	id=1074
-	name="Williamsport"
-	manpower=356382
+	name="Kandahar"
+	manpower=6304707
 	state_category=rural
 	resources={
 		tungsten=15.000
@@ -9,20 +9,23 @@ state={
 	}
 
 	history = {
-		owner = PEN
+		owner = AFG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
-			arms_factory = 1
+			#arms_factory = 1
 		}
-		add_core_of = PEN
 		victory_points = {
-			11817 3
+			5064 5
 		}
+		victory_points = {
+			10789 1
+		}
+		add_core_of = AFG
 	}
 
 	provinces={
-		702 862 3697 3880 9836 11817
+		5082 12769 10789 8090 5020 5064 4949
 	}
 	buildings_max_level_factor=1.000
 }

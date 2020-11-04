@@ -12,17 +12,20 @@ state={
 			arms_factory = 1
 		}
 		victory_points = {
-			3733 3
+			3733 5
 		}
 		victory_points = {
-			3747 5
+			3747 3
+		}
+		victory_points = {
+			11817 1
 		}
 	add_core_of = PEN
 	}
 
 
 	provinces={
-		3702 3733 3747 11650 11680
+		3702 3733 3747 11650 11680 9836 3697 11817 862 
 	}
 	buildings_max_level_factor=1.000
 }

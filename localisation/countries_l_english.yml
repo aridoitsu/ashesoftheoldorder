@@ -3234,7 +3234,7 @@
   NEV_neutrality_DEF:0 "Sierra"
   NEV_ultranationalism:0 "Sierra"
   NEV_ultranationalism_DEF:0 "Sierra"
-  
+
   NEV_neutrality_ADJ:0 "Sierrian"
   NEV_fascism_ADJ:0 "Sierrian"
   NEV_democratic_ADJ:0 "Sierrian"
@@ -4187,6 +4187,11 @@
    UNQ_DEF:0 "United Nations"
    ###############################
    UNQ_ADJ:0 "United Nation's"
+
+   BRN:0 "Bahrain"
+   BRN_DEF:0 "Bahrain"
+   ###############################
+   BRN_ADJ:0 "Bahranian"
 
     CAN_liberal:0 "Canada"
     CAN_liberal_DEF:0 "Canada"

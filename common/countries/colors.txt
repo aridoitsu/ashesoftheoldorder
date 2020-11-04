@@ -1547,3 +1547,7 @@ UNQ = {
 	color = rgb { 91 146 229 }
 	color_ui = rgb { 91 146 229 }
 }
+BRN = {
+	color = rgb { 201 183 81 }
+	color_ui = rgb { 201 183 81 }
+}

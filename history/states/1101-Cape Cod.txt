@@ -1,23 +1,26 @@
 state={
 	id=1101
-	name="Cape Cod"
-	manpower=478422
+	name="Bahrain"
+	manpower=1569446
 	state_category=city
 	resources={
-		oil=10.000
+		oil=16.000
 	}
 
 	history = {
-		owner = CRA
+		owner = BRN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-			dockyard = 2
+			dockyard = 1
 		}
-		add_core_of = CRA
+		victory_points = {
+			15877 5
+		}
+		add_core_of = BRN
 	}
 	provinces={
-		905 13908
+		15877
 	}
 	buildings_max_level_factor=1.000
 }
