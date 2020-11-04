@@ -54,8 +54,8 @@ set_war_support = 0.15
 
 set_politics = {
 	ruling_party = authdem
-	last_election = "2018.1.1"
-	election_frequency = 36
+	last_election = "2016.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
 
