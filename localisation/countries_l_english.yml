@@ -4013,8 +4013,10 @@
    PEN_authdem_DEF:0 "Deitscherei"
    PEN_democratic:0 "Deitscherei"
    PEN_democratic_DEF:0 "Deitscherei"
-   PEN_fascism:0 "Neues Deutschland"
-   PEN_fascism_DEF:0 "Neues Deutschland"
+   PEN_ultranationalism:0 "Nei Deitsch Reich"
+   PEN_ultranationalism_DEF:0 "Nei Deitsch Reich"
+   PEN_fascism:0 "Nei Deitschland"
+   PEN_fascism_DEF:0 "Nei Deitschland"
    PEN_neutrality:0 "Deitscherei"
    PEN_neutrality_DEF:0 "Deitscherei"
    ###############################

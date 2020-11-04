@@ -21,7 +21,7 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = -0.20
 				local_building_slots_factor = -0.10
-				custom_modifier_tooltip = PEN_agrarian_society_tt
+				custom_modifier_tooltip = PEN_agrarian_society_tt 
 				}
 			cancel = { num_of_factories > 19 }
 		}

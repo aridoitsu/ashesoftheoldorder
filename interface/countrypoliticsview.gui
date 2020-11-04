@@ -140,9 +140,9 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ruling_party_info"
-			position = { x = 88 y = 305 }
-			size = { width = 255 height = 60 }
-			clipping = no
+			position = { x = 88 y = 295 } 
+			size = { width = 255 height = 100 }
+			clipping = yes
 					
 #			instantTextboxType = {
 #				name = "party"
@@ -164,7 +164,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 9 y = 34 }
+				position = { x = 9 y = 43 }
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
@@ -505,7 +505,7 @@ guiTypes = {
 		iconType ={
 			name ="politics_bottom"
 			spriteType = "GFX_main_screens_bottom"
-			position = { x = -2 y = 383 }
+			position = { x = -16 y = 383 }
 			Orientation = "UPPER_LEFT"
 			scale = 1.02
 		}

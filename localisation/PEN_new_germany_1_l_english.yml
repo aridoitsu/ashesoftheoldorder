@@ -20,7 +20,7 @@
  PEN_the_reformer:0 "The Reformer"
  PEN_the_reformer_desc:0 "Whilst most of the ex-Pennsylvanians in Deitscherei have accepted a Pennsilfaanisch-Deitsche identity, there still remains a minority of people who see themselves as American Pennsylvanians, and the person heading this movement is the politician Mike Stack of the Reformer Party. Running on a platform of a return to the status quo, it is yet to be seen if Stack has what it takes to win the election."
  PEN_the_imitator:0 "The Imitator"
- PEN_the_imitator_desc:0 ""
+ PEN_the_imitator_desc:0 "Popular in the basements of blown out buildings in which new and aspiring paramilitary groups meet, and completely unknown to the wider public, Elliot Kline (also going under the alias Eli Mosley) is a former member of the Pennsylvanian National Guard but was never deployed during the 2nd American Civil War, however, he would tell the contrary. Helping organize fascist rallies and writing for anti-semetic causes, Elliot is something of a folk hero among the far-right and seeks to eventually become leader of Deitscherei."
  PEN_the_antimilitant_act:0 "The Anti-Militant Act"
  PEN_the_antimilitant_act_desc:0 ""
  PEN_looking_outwards:0 "Looking Outwards"
@@ -56,12 +56,17 @@
  
  ##decisions
  PEN_reconstruction:0 "Reconstruction"
+ PEN_reconstruction_desc:0 "Though our nation was not hit as hard as many of the countries around us, our main industrial base of Rochester was reduced to its foundations and what remains elsewhere is nothing more than tiny farming communities and small towns. We need to reorganize our economy and industrialize if we want to be self-sufficient."
  PEN_rebuilding_rochester:0 "Rebuilding Rochester"
- PEN_utilize_the_armed_guard:0 "Utilize the Armed Guard"
+ PEN_rebuilding_rochester_desc:0 "Reconstruction efforts have been going on for months upon months in Rochester without much progress being made on the daunting project, however recently it seems the reconstruction is starting to pick up speed and the notion of Rochester being rebuilt soon is becoming more and more prevalent in the local population."
+ PEN_utilize_the_armed_guard:0 "Utilize the Armed Guard" 
+ PEN_utilize_the_armed_guard_desc:0 "Our current reconstruction efforts are simply not coming about fast enough. We need to employ our generally dormant military and get them working on our city."
  PEN_mobilization:0 "Mobilization"
+ PEN_mobilization_desc:0 "In case we accidentally passed an act which in hindsight is crippling our nation, we can revoke our policy at the cost of our stability for our rapid changes."
  PEN_revoke_defense_act:0 "Revoke the National Defense Act"
  PEN_reach_out_to_the_canadians:0 "Reach Out to the Canadians"
  PEN_international_trade:0 "International Trade"
+ PEN_international_trade_desc:0 "We simply do not have the resources, nor the manpower, nor the industry to rebuild and industrialize a nation of our size. We need to reach out across our border to get aid in our journey to becoming a true nation."
  PEN_men_for_mortar:0 "Men for Mortar"
  PEN_reach_out_to_europe:0 "Reach Out to the Europeans"
  PEN_heavy_industry_grant:0 "Heavy Industry Grant"
@@ -175,7 +180,7 @@
  
  #political parties
  PEN_authdem_party_long:0 "Pennsilfaanisch-Deitsch Pardei"
- PEN_authdem_party_short:0 "PDP"
+ PEN_authdem_party_short:0 "Pennsilfaanisch-Deitsch Pardei"
  
  PEN_libdem_party_long:0 "Pennsylvania Reformer Party"
- PEN_libdem_party_short:0 "PRP"
+ PEN_libdem_party_short:0 "Pennsylvania Reformer Party"
