@@ -610,45 +610,6 @@ PEN_international_trade = {
 
 PEN_suppress_paramilitaries = {
 	
-	PEN_end_the_national_soc_mov_in_williamsport = {
-		
-		icon = GFX_decision_icon_default
-		on_map_mode = map_only
-		highlight_states = { state = 1074 }
-		allowed = {
-			has_idea = PEN_paramilitaries_banned
-			NOT = {
-				has_country_flag = PEN_elections
-			}
-		}
-		available = {
-			NOT = {
-				has_country_flag = PEN_suppressing_fascism
-				}
-			has_equipment = { infantry_equipment > 199 }
-			}
-		visible = {
-			has_idea = PEN_paramilitaries_banned
-			}
-		cost = 0
-		fire_only_once = yes
-		days_remove = 7
-		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -200
-				producer = PEN
-					}
-			set_country_flag = PEN_suppressing_fascism
-			}
-		remove_effect = {
-			clr_country_flag = PEN_suppressing_fascism
-			add_stability = 0.05
-			set_country_flag = PEN_williamsport_suppressed
-			}
-		
-		
-		}
 	PEN_end_the_all_white_mov_in_rochester = {
 		
 		icon = GFX_decision_icon_default
