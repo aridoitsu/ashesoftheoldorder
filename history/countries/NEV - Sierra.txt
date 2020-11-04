@@ -47,18 +47,29 @@ set_technology = {
 	fighter1 = 1
 }
 
-set_stability = 0.57
+set_stability = 0.25
+set_war_support = 0.34
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = ultranationalism
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 add_ideas = {
 }
 set_popularities = {
-	neutrality = 75
-	democratic = 23
-	fascism = 2
+	democratic = 26
+	authdem = 15
+	liberal = 6
+	fascism = 16
+	ultranationalism = 37
+}
+
+create_country_leader = {
+	name = "Joseph Heck"
+	desc = "POLITICS_JOSEPH_HECK_DESC"
+	picture = "Portrait_NEV_Joseph_Heck.dds"
+	expire = "2040.1.1"
+	ideology = spartanist
 }

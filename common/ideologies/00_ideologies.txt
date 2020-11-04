@@ -7,6 +7,8 @@ ideologies = {
 			}
 			ultra_natsoc = {
 			}
+			spartanist = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -91,7 +93,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 45 45 45 }
+		color = { 70 70 70 }
 
 
 		war_impact_on_world_tension = 0.25

@@ -1436,16 +1436,16 @@ UPI = {
 	color_ui = rgb { 135 181 255 }
 }
 INI = {
-	color = rgb { 180 153 0 }
-	color_ui = rgb { 180 153 0 }
+	color = rgb { 95 71 106 }
+	color_ui = rgb { 95 71 106 }
 }
 DET = {
 	color = rgb { 161 63 21 }
 	color_ui = rgb { 161 63 21 }
 }
 OHO = {
-	color = rgb { 186 11 11 }
-	color_ui = rgb { 186 11 11 }
+	color = rgb { 196 93 93 }
+	color_ui = rgb { 196 93 93 }
 }
 PIT = {
 	color = rgb { 76 117 65 }
