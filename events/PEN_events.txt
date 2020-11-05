@@ -491,6 +491,23 @@ country_event = {
 		
 		add_ideas = PEN_flames_of_irredentism
 		custom_effect_tooltip = PEN_mob_up
+		custom_effect_tooltip = PEN_gain_irredentist_claim_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						has_state_flag = PEN_irredentist_claim
+						NOT = { is_controlled_by = PEN }
+						}
+					if = {
+						limit = {
+							NOT = { is_core_of = PEN }
+							}
+						add_core_of = PEN
+						}
+					remove_core_of = controller
+					start_resistance = PEN
+					}
+				}
 			hidden_effect = {
 			if = {
 		limit = { has_idea = PEN_state_of_our_mobilization1	}	

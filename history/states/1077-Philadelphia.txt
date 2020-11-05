@@ -21,6 +21,8 @@ state={
 			}
 		}
 		add_core_of = PHL
+		add_claim_by = PEN
+		set_state_flag = PEN_irredentist_claim
 		victory_points = {
 			13848 20
 		}

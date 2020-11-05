@@ -1,4 +1,38 @@
 division_template = {
+	name = "American Infantry"				
+
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 0 y = 5 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+		infantry = { x = 1 y = 5 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+		mechanized = { x = 3 y = 0 }
+		cavalry = { x = 3 y = 1 }
+		
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+        signal_company = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
 	name = "Militia"				
 
 	division_names_group = BRA_INF_01
@@ -11,7 +45,7 @@ division_template = {
 		cavalry = { x = 1 y = 1 }
 		cavalry = { x = 1 y = 2 }
 	}
-	priority = 2
+	priority = 1
 }
 
 units = {
@@ -21,10 +55,11 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		name = "1st Militia"
+		name = "9th Infantry Division"
 		location = 3733
-		division_template = "Militia"
-		start_experience_factor = 0.3
+		division_template = "American Infantry"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.3
 	}
 	#2nd
 	division = {
@@ -32,10 +67,11 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		name = "2nd Militia"
+		name = "1st Pennsilfaanisch-Deitsch Defense Force"
 		location = 11817
 		division_template = "Militia"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	#3rd
 	division = {
@@ -43,10 +79,11 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		name = "3rd Militia"
+		name = "2nd Pennsilfaanisch-Deitsch Defense Force"
 		location = 3850
 		division_template = "Militia"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 }
 

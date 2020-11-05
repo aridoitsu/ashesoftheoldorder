@@ -17,9 +17,11 @@ state={
 		victory_points = {
 			11799 3
 		}
+		add_claim_by = PEN
 		victory_points = {
 			9820 1
 		}
+		set_state_flag = PEN_irredentist_claim
 	}
 	provinces={
 		891 894 3897 9820 11799

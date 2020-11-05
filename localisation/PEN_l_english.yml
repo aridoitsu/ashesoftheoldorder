@@ -22,7 +22,7 @@
  PEN_the_imitator:0 "The Imitator"
  PEN_the_imitator_desc:0 "Popular in the basements of blown out buildings in which new and aspiring paramilitary groups meet, and completely unknown to the wider public, Elliot Kline (also going under the alias Eli Mosley) is a former member of the Pennsylvanian National Guard but was never deployed during the 2nd American Civil War, however, he would tell the contrary. Helping organize fascist rallies and writing for anti-semetic causes, Elliot is something of a folk hero among the far-right and seeks to eventually become leader of Deitscherei."
  PEN_the_antimilitant_act:0 "The Anti-Militant Act"
- PEN_the_antimilitant_act_desc:0 ""
+ PEN_the_antimilitant_act_desc:0 "Far-right militancy has been an issue since the inception of the Deitsch state, however recently it’s gotten quite bad. Reports have been coming in from Rochester and the surrounding areas that paramilitaries have been threatening local communities and even state groups, delaying reconstruction. Something needs to be done."
  PEN_looking_outwards:0 "Looking Outwards"
  PEN_looking_outwards_desc:0 ""
  PEN_only_up:0 "Only Up"
@@ -103,6 +103,7 @@
  PEN_mob_up:0 "§RThis will increase our mobilization!§!"
  PEN_mob_down:0 "§GThis will decrease our mobilization!§!"
  PEN_next_step_tt:0 "We have restored our country to a certain extent, it's now time to prepare the first Deitscherei election! §RUnless, of course, if something was to disrupt our preparation...§!"
+ PEN_gain_irredentist_claim_tt:0 "§GWe will gain cores on Poconos and Philadelphia!§!"
  
  ##leader descriptions
  POLITICS_NORMAN_SCHWARZKOPF_DESC:0 "A former major, colonel, commander, and general in the US military, Norman Schwarzkopf was quite accustomed to leadership and taking risks to save the people around him. Disgruntled by the US’s actions in Vietnam, he stayed in the military for some years, slowly rising up the ranks. Most of his work was helping protect local communities and dealing with general domestic terror, whilst also helping with planning and foreign policy federally. Schwarzkopf would finally leave the military during the 2nd American Civil War, after he had realized that all sides had forgotten their humanity and had no intention of caring for their citizenry. He later revolted alongside his brigade and created the state of Deitscherei, a state of German-Pennsylvanians and Americans, and a state of discipline and honor. §OThough, his brave leadership may be on track to end soon...§!"
@@ -142,7 +143,7 @@
  deitscherei.8.a:0 "The mold of hate only spreads over time."
  
  deitscherei.9.t:0 "SC.23 - The Anti-Militant Act of 2018"
- deitscherei.9.d:0 "TODO"
+ deitscherei.9.d:0 "“Sir, permission to speak?” \n\n“Of course, go ahead.”\n\nHagemeister darted his eyes from one end of the room to the next, expressing an anxiety that was rarely seen in his old age. "I'm sure you've seen the reports. Something has to be done about these far-right death squads roaming the streets. They're terrorizing our citizenry and destabilizing us. Where will our citizens turn to when we leave them behind to get threatened by paramilitaries?"\n\n"Oh please. 'Far-right death sqauds,'" Fleshman let out an audible snicker, "I know back in America we had a period of troubles where far-right groups did some awful things, but we are not America. Dealing with these groups of kids would just be a waste of our time and resources. What are they gonna do, steal some food from a grocery store? Maybe set off a firecracker? Pfft."\n\n"We need to take these groups seriously! Hitler started with less than 60 guys. We need to nip these groups in the bud while we still have the chance, or else we could have a real prolem on our hands."\n\n"Now you're comparing them to the Nazis? You're really off your rocker."\n\nCould they ever just come to an agreement?"
  deitscherei.9.a:0 "We cannot let our new democracy be under threat by tyranny."
  deitscherei.9.b:0 "It is not the place of the government to prevent free speech."
  
@@ -175,9 +176,9 @@
  deitscherei.15.b:0 "For our people."
  
  deitscherei.16.t:0 "SC.24 - On Matters of Foreign Policy"
- deitscherei.16.d:0 "TODO"
- deitscherei.16.a:0 "Our people shall be protected by the nations around us."
- deitscherei.16.b:0 "We shall protect all of our people, for our neighbors are not to be trusted."
+ deitscherei.16.d:0 "The last Security Council Convention before the preparations for the first election is about to begin. Before Schwarzkopf even sat down, the tone in the room had been established. Hagemeister and Fleshman had been taking sharp, darting glances at each other before a word had been spoken. The tension filled the air up like balloon as neither one wanted to be the one to speak first.\n\n... A minute passed. Schwarzkopf breaks the silence, "Well, gentlemen. Since we're finally getting somewhere with our reconstruction efforts and have something of a standing military, I suppose it's time we talk of our foreign policy."\n\n... Another minute passes. "Hagemeister, why don't you tell us of your proprosal."\n\n"Certainly sir." It seems a wave of relief passes through the room like a gentle breeze. "What makes of a nation which does not focus on maintaining alliances and keeping its population happy, but rather focuses on warring and conquest? The answer should be quite obvious to all of us, as we all lived in one. As such, I believe it imparative that we forge alliances and agreements with our neighbors, rather than make new enemies and attract a bad reputation. And, by making alliances, we can divert more funds away from the military and more towards our civilians, as we'll have the support of other nations' troops." A second, lasting for what'd seem like an hour passes, until the inevitable happens once more.\n\n"This is simply proposturous. To think we can make allies with the barbarians outside our border is possibly the most naive thing I've ever heard. Furthermore, we cannot trust the states around us to protect our people within their countries. We need to get our generals, write up the battleplans, and move in as soon as possible to liberate our people from the savages neighboring us. What's one or two more wars to the thousands of people we'll be saving from the authoritarian dystopias around them?"\n\nEven in the finality of the current Convention, it seems civility has yet to be reached in the Council."
+ deitscherei.16.a:0 "A broad coalition of nations to protect us is preferrable."
+ deitscherei.16.b:0 "Our neighbors cannot be trusted to protect our people."
  
  deitscherei.17.t:0 "Schwarzkopf Falls Sick!"
  deitscherei.17.d:0 "TODO"
