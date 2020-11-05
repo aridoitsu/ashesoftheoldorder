@@ -2,17 +2,17 @@
 
 ##focuses
  PEN_entice_investors:0 "Entice Investors"
- PEN_entice_investors_desc:0 ""
+ PEN_entice_investors_desc:0 "Using grants and other financial incentives, we can attract some investors to our country, hopefully bringing some capital with them."
  PEN_the_next_step:0 "The Next Step"
  PEN_the_next_step_desc:0 ""
  PEN_our_overseas_brothers:0 "Our Overseas Brothers"
- PEN_our_overseas_brothers_desc:0 ""
+ PEN_our_overseas_brothers_desc:0 "By contacting foreign countries in Europe for aid we can speed along the reconstruction of Rochester and also benefit from each of their industry specialties."
  PEN_home_workshops:0 "Home Workshops"
- PEN_home_workshops_desc:0 ""
+ PEN_home_workshops_desc:0 "You need an industry to make an industry, and as such, we should start an ad-hoc domestic industry in the homes of our own civilians."
  PEN_fan_the_flames_of_irredentism:0 "Fan the Flames of Irredentism"
  PEN_fan_the_flames_of_irredentism_desc:0 ""
  PEN_operation_uproot:0 "Operation Uproot"
- PEN_operation_uproot_desc:0 ""
+ PEN_operation_uproot_desc:0 "Our current reconstruction efforts are simply not coming about fast enough. We need to employ our generally dormant military and get them working on our city."
  PEN_the_mobilization_act:0 "The 22nd Security Council Convention"
  PEN_the_mobilization_act_desc:0 "The Security Council has approached Schwarzkopf with two opposing proprosals, both concerning our policy surrounding mobilization. Whilst most of the Security Council is pushing for increased mobilization, reformers are pushing to divert money spent on the military towards helping the public, although Schwarzkopf has the final say on the matter."
  PEN_the_commander:0 "The Commander"
@@ -152,26 +152,26 @@
  deitscherei.9.b:0 "It is not the place of the government to prevent free speech."
  
  deitscherei.10.t:0 "A Diplomat from the American Wastes"
- deitscherei.10.d:0 "TODO"
+ deitscherei.10.d:0 "deitscherei wants trade lol"
  deitscherei.10.a:0 "Sure, it's our job to pick up what the Americans dropped."
  deitscherei.10.b:0 "Get this nonsense out of my office."
 
  deitscherei.11.t:0 "A Diplomat from the American Wastes"
- deitscherei.11.d:0 "TODO"
+ deitscherei.11.d:0 "deitscherei wants trade lol"
  deitscherei.11.a:0 "Sure, it's our job to pick up what the Americans dropped."
  deitscherei.11.b:0 "Get this nonsense out of my office."
  
  deitscherei.12.t:0 "A Diplomat from the American Wastes"
- deitscherei.12.d:0 "TODO"
+ deitscherei.12.d:0 "deitscherei wants trade lol"
  deitscherei.12.a:0 "Sure, it's our job to pick up what the Americans dropped."
  deitscherei.12.b:0 "Get this nonsense out of my office."
  
  deitscherei.13.t:0 "Trade Agreement Accepted."
- deitscherei.13.d:0 "TODO"
+ deitscherei.13.d:0 "yeah they accepeted"
  deitscherei.13.a:0 "Perfect."
  
  deitscherei.14.t:0 "Trade Agreement Declined"
- deitscherei.14.d:0 "TODO"
+ deitscherei.14.d:0 "lmao"
  deitscherei.14.a:0 "Damnit all."
  
  deitscherei.15.t:0 "SC.22 - On Matters of National Defense"
@@ -185,7 +185,7 @@
  deitscherei.16.b:0 "Our neighbors cannot be trusted to protect our people."
  
  deitscherei.17.t:0 "Schwarzkopf Falls Sick!"
- deitscherei.17.d:0 "TODO"
+ deitscherei.17.d:0 "Schwarzkopf’s eyes rapidly open, as he sees himself on the medical bed of a hospital that is surprisingly still running. As Schwarzkopf awakes, his wife runs to him from her seat in the corner of the room.\n\n“Norman! You’re finally awake. I had been sick myself worrying about you, how are you feeling?”\n\nSchwarzkopf glanced at his wife in a confused glare, still not entirely processing what had happened for him to get here. \n\nHis wife noticed and explained, “You had passed out after a coughing fit earlier today. I brought you in as soon as I could and let the nurses take care of you. They say it's pneumonia.”\n\nSchwarzkopf's eyes went to the ceiling, lost in thought, and then dropped back down to the floor."
  deitscherei.17.a:0 "We shall stick with him through these hardships."
  deitscherei.17.b:0 "Maybe its time to abandon Schwarzkopf..."
  
