@@ -4193,6 +4193,11 @@
    ###############################
    BRN_ADJ:0 "Bahranian"
 
+   KSV:0 "Kosovo"
+   KSV_DEF:0 "Kosovo"
+   ###############################
+   KSV_ADJ:0 "Kosovoan"
+
     CAN_liberal:0 "Canada"
     CAN_liberal_DEF:0 "Canada"
     CAN_democratic:0 "Canada"
