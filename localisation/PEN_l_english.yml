@@ -102,7 +102,7 @@
  PEN_ei_focustip:0 "§HUnlocks decisions to use grants to build civilian and military industry.§!"
  PEN_mob_up:0 "§RThis will increase our mobilization!§!"
  PEN_mob_down:0 "§GThis will decrease our mobilization!§!"
- PEN_next_step_tt:0 "We will begin preparations for the §Hfirst Deitscherei election.§!"
+ PEN_next_step_tt:0 "We have restored our country to a certain extent, it's now time to prepare the first Deitscherei election! §RUnless, of course, if something was to disrupt our preparation...§!"
  
  ##leader descriptions
  POLITICS_NORMAN_SCHWARZKOPF_DESC:0 "A former major, colonel, commander, and general in the US military, Norman Schwarzkopf was quite accustomed to leadership and taking risks to save the people around him. Disgruntled by the US’s actions in Vietnam, he stayed in the military for some years, slowly rising up the ranks. Most of his work was helping protect local communities and dealing with general domestic terror, whilst also helping with planning and foreign policy federally. Schwarzkopf would finally leave the military during the 2nd American Civil War, after he had realized that all sides had forgotten their humanity and had no intention of caring for their citizenry. He later revolted alongside his brigade and created the state of Deitscherei, a state of German-Pennsylvanians and Americans, and a state of discipline and honor. §OThough, his brave leadership may be on track to end soon...§!"
@@ -126,8 +126,8 @@
  deitscherei.4.a:0 "May our state prosper, for the wellbeing of our citizens."
  
  deitscherei.5.t:0 "The State of Our Economy"
- deitscherei.5.d:0 "TODO"
- deitscherei.5.a:0 "todo"
+ deitscherei.5.d:0 "Tens, if not hundreds of thousands of non-combatants were displaced from the Second Civil War in Rochester, many fleeing northwards towards the Canadian government which accepted them with open arms. Some were not as lucky though. Tens of thousands of civilians were killed by the bombings of Rochester by all sides, and were also killed by the destruction caused by the rapid rate at which it changed hands between sides.\n\nThis has left the population of Rochester ravaged, and on a steady decline. Any investors or entrepreneurs that were in the city at the time of the Second Civil War have abandoned it, either to go to safer cities elsewhere or fleeing the country completely. The only people who reside in Rochester still are families who cannot afford to leave, state workers who are helping the reconstruction effort, and those coming into the city to loot what is left or stay in what is the left of the many abandoned homes. Staring into the smashed windows of old businesses and the blown out windows of apartment buildings lining the roads still feels surreal to much of the local population.\n\nIn the South, however, the damage was much more seldom. Many even were able to maintain their old lives, despite many services being unavailable like electricity for weeks at a time. However, in order to industrialize to the point of being able to bring prosperity to all our citizens, many on the Security Council have advised Schwarzkopf to build up a new industry in the South instead of spending efforts reconstructing Rochester, for it's seen by them as a fruitless venture."
+ deitscherei.5.a:0 "Only time will tell."
  
  deitscherei.6.t:0 "The Commander"
  deitscherei.6.d:0 "The clacking of Schwarzkopf’s shoes could be heard echoing throughout the hall, seemingly reverberating into every corner and into every ear of the immense crowd, only furthering their palpable anticipation for what was about to commence. As Schwarzkopf’s bulky figure appeared on stage, all the quiet murmurs and whispers ended, and his speech began.\n\n“Look at how far we’ve come. We have shown the outside world that we stand against the rampant disregard for the happiness of our people that our American ancestors fell into, and have shown that our nation is not one which exists to help those at the top, but to help all of our people. I have a question for you though, my fellow Deitsch.” He addressed the onlooking crowd, “What do you look for in a leader? Is it the populism of late America? Is it a willingness to give into every corporate whim for their own profit? Or even, is it the submission to one of America’s past greatest enemies we were united against?”\n\nThe crowd’s opinion on Schwarzkopf’s questions was quite evident from the shouting and booing filling up the air. Schwarzkopf paused for a moment, allowing the hall to settle down, and continued again once the silence had returned.\n\n“Or perhaps, it’s a rejection of the phony populism, it’s a rejection of what became America’s downfall, and it’s a rejection of the ideology of hate that has spread across America in the last decade. It’s a strong leader, and one who doesn’t compromise on doing what he thinks is best for the greatest number of people. Wouldn’t you think so?”\n\nAll at once, a booming roar of clapping and cheering could be heard from Schwarzkopf’s onlookers, filling the hall for what felt like an hour, whilst Schwarzkopf could be seen smiling back at his envigored supporters as they cheered on."
@@ -170,14 +170,20 @@
  deitscherei.14.a:0 "Damnit all."
  
  deitscherei.15.t:0 "SC.22 - On Matters of National Defense"
- deitscherei.15.d:0 "TODO"
- deitscherei.15.a:0 "Ratify the National Defense Act."
- deitscherei.15.b:0 "Accept the Olive Branch Proprosal."
+ deitscherei.15.d:0 "Meeting in more stable conditions than last convention, Schwarzkopf pulled himself to his seat at the end of the table, each of the Security Council members following the action and sitting themselves. Distinguished military personnel who had helped Schwarzkopf in his revolt, many of them weren’t personally very connected to the state, the main binding factor between them being a mutual disdain for the actions of the Americans.\n\nBeing military veterans, their opinions on warfare were quite polarized. Some on the Council were staunch militarists, seeking to mobilize the Deitsch state and use it to conquer more lands, whilst others were strict pacifists, looking to defund the military and spend the money enriching the wholly underdeveloped state. And as such, they approached Schwarzkopf with two separate proposals. The hawks of the Council, led by Lt. Col. William Fleshman, delivered their proposal thusly, \n\n“Sir, look around us. We are in no position to be demilitarizing and showing our neighbors that we’re easy prey. In fact, we should be mobilizing further to protect our nation and our people from invaders on all sides. Do you want you and your family to be at threat because our military wasn’t strong enough to stop the hordes outside?”\n\n“That’s enough, Fleshman.” Schwarzkopf interjected. “Let's hear the case from the doves and Hagemeister.”\n\n“Thank you sir. As you know, our country is not in the best of shapes right now. We have near to no industrial capacity, our domestic production is nothing but small-scale agriculture, and we have the massive drain of the reconstruction of the entirety of Rochester on our economy. We are in no position to further bolster our military, as to be frank, we have nothing to defend yet-”\n\nFrom the other side of the table Fleshman scoffs and interrupts, “How can you say that about our nation? Our people? We have nothing to defend?! What about the families and children of our country?”\n\nEndless bickering ensues. Though, a decision does need to be made."
+ deitscherei.15.a:0 "For our nation."
+ deitscherei.15.b:0 "For our people."
  
  deitscherei.16.t:0 "SC.24 - On Matters of Foreign Policy"
  deitscherei.16.d:0 "TODO"
  deitscherei.16.a:0 "Our people shall be protected by the nations around us."
  deitscherei.16.b:0 "We shall protect all of our people, for our neighbors are not to be trusted."
+ 
+ deitscherei.17.t:0 "Schwarzkopf Falls Sick!"
+ deitscherei.17.d:0 "TODO"
+ deitscherei.17.a:0 "We shall stick with him through these hardships."
+ deitscherei.17.b:0 "Maybe its time to abandon Schwarzkopf..."
+ 
  
  #political parties
  PEN_authdem_party_long:0 "Pennsilfaanisch-Deitsch Pardei"

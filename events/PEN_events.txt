@@ -553,6 +553,22 @@ country_event = {
 	
 }
 
+#schwarzkopf falls sick
+country_event = {
+    id = deitscherei.17
+    title = deitscherei.17.t
+    desc = deitscherei.17.d
+    picture = GFX_event_test
+    is_triggered_only = yes
 
-
-
+    option = {
+		name = deitscherei.17.a
+		ai_chance = { base = 50 }
+		set_country_flag = PEN_stay_with_schwarzkopf
+	}
+	option = {
+		name = deitscherei.17.b
+		ai_chance = { base = 50 }
+		set_country_flag = PEN_abandon_with_schwarzkopf
+	}
+}
