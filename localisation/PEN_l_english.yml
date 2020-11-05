@@ -24,11 +24,15 @@
  PEN_the_antimilitant_act:0 "The Anti-Militant Act"
  PEN_the_antimilitant_act_desc:0 "Far-right militancy has been an issue since the inception of the Deitsch state, however recently it’s gotten quite bad. Reports have been coming in from Rochester and the surrounding areas that paramilitaries have been threatening local communities and even state groups, delaying reconstruction. Something needs to be done."
  PEN_looking_outwards:0 "Looking Outwards"
- PEN_looking_outwards_desc:0 ""
+ PEN_looking_outwards_desc:0 "Our industry and reconstruction efforts coming along nicely, it's finally time to address our foreign policy before we move on to focusing all our efforts on the election. However, the conclusion that Hagemeister and Fleshman will come to, or rather lack there of, is quite predictable. "
  PEN_only_up:0 "Only Up"
  PEN_only_up_desc:0 "The newborn state of Deitscherei is home to many things - but one of them is not fear to lose what we have in hopes of making ourselves better. We need to evaluate what we have and build ourselves up from there."
  PEN_rurals_and_remnants:0 "Rurals and Remnants"
  PEN_rurals_and_remnants_desc:0 "Compared to the warlord states around us, are economic siutation is not the worst. However, we still have little to no industrial base and a massive drain on our economy in the form of our reconstruction efforts in Rochester."
+ PEN_our_savior:0 "Our Savior"
+ PEN_our_savior_desc:0 ""
+ PEN_a_false_prophet:0 "A False Prophet"
+ PEN_a_false_prophet_desc:0 ""
  
  ##national spirits
  PEN_the_reconstruction_of_rochester:0 "The Reconstruction of Rochester"

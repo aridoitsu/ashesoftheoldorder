@@ -13,7 +13,7 @@ focus_tree = {
 		icon = GFX_focus_mex_privatisation
 		x = 8
 		y = 3
-		cost = 6
+		cost = 5
 		mutually_exclusive = { focus = PEN_operation_uproot }
 		prerequisite = { focus = PEN_rurals_and_remnants }
 		prerequisite = { focus = PEN_the_reformer }
@@ -274,6 +274,50 @@ focus_tree = {
 			country_event = {
 				id = deitscherei.5
 				}
+		}
+	}
+	
+	#Focus for Our Savior
+	focus = {
+		id = PEN_our_savior
+		icon = GFX_goal_generic_demand_territory
+		allow_branch = {
+			has_country_flag = PEN_stay_with_schwarzkopf
+			}
+		bypass = {
+			has_country_flag = PEN_stay_with_schwarzkopf
+			}
+		x = 16
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	
+	#Focus for A False Prophet
+	focus = {
+		id = PEN_a_false_prophet
+		icon = GFX_goal_generic_demand_territory
+		allow_branch = {
+			has_country_flag = PEN_abandon_with_schwarzkopf
+			}
+		bypass = {
+			has_country_flag = PEN_abandon_with_schwarzkopf
+			}
+		x = 16
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
 		}
 	}
 	
