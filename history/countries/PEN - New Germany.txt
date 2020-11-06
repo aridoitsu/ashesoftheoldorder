@@ -7,6 +7,8 @@ set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	motorised_infantry = 1 = 1
+	mechanised_infantry = 1
 	tech_recon = 1
 	tech_support = 1
 	tech_engineers = 1
@@ -59,14 +61,14 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_party_name = { 
-    ideology = authdem 
+set_party_name = {
+    ideology = authdem
     long_name = PEN_authdem_party_long
     name = PEN_authdem_party_short
 }
 
-set_party_name = { 
-    ideology = liberal 
+set_party_name = {
+    ideology = liberal
     long_name = PEN_libdem_party_long
     name = PEN_libdem_party_short
 }
