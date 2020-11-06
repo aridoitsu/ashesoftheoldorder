@@ -4193,10 +4193,10 @@
    ###############################
    BRN_ADJ:0 "Bahranian"
 
-   KSV:0 "Kosovo"
-   KSV_DEF:0 "Kosovo"
+   KOS:0 "Kosovo"
+   KOS_DEF:0 "Kosovo"
    ###############################
-   KSV_ADJ:0 "Kosovoan"
+   KOS_ADJ:0 "Kosovoan"
 
    BRU:0 "Brunei"
    BRU_DEF:0 "Brunei"
