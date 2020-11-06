@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = libsoc
+	ruling_party = totalsoc
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -72,12 +72,12 @@ set_popularities = {
 	ultranationalism = 0
 }
 create_country_leader = {
-	name = "Jorge Mújica"
-	desc = "POLITICS_JORGE_MUJICA_DESC"
-	picture = "Portrait_CGO_Jorge_Mujica.dds"
+	name = "CAG-AR"
+	desc = "POLITICS_CAG-AR_DESC"
+	picture = "GFX_CGO_CAG-AR"
 	expire = "2040.1.1"
-	ideology = part_techno_soc
+	ideology = chicago_utopia
 	traits = {
-		#
+		
 	}
 }

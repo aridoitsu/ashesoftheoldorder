@@ -1,0 +1,13 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_CGO_CAG-AR"
+		texturefile = "gfx/leaders/CGO/Portrait_CGO_CAG-AR.dds"
+		noOfFrames = 7
+		loadType = "INGAME"
+		alwaystransparent = no
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		} 
+	}
