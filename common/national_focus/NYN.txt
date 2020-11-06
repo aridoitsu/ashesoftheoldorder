@@ -20,8 +20,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
-			clr_country_flag = NYN_neoliberal_success
+			add_stability = 0.2
+			country_event = { id = albany.1 }
 		}
 	}
 		#our father reagan
@@ -37,7 +37,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_war_support = 0.2
+			country_event = { id = albany.2 }
 		}
 	}
 		#our leader cuomo
@@ -55,7 +56,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 100
+			country_event = { id = albany.3 }
 		}
 	}
 		#our people
@@ -72,7 +74,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = -50
+			add_stability = -0.15
+			add_war_support = -0.15
+			country_event = { id = albany.4 }
 		}
 	}
 		#another day another riot
@@ -89,7 +94,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			custom_effect_tooltip = NYN_another_day_another_riot_tt
+			country_event = { id = albany.5 }
 		}
 	}
 		#another day another dollar
@@ -106,7 +112,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 25
+			custom_effect_tooltip = NYN_another_day_another_dollar_tt
 		}
 	}
 		#what to do with unions?
@@ -124,7 +131,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			custom_effect_tooltip = NYN_what_to_do_with_unions_tt
+			country_event = { id = albany.6 }
 		}
 	}
 		#dealing with the socialists
@@ -142,7 +150,19 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_popularity = {
+				ideology = communism
+				popularity = -0.02
+					}
+			add_popularity = {
+				ideology = anarchy
+				popularity = -0.02
+					}
+			add_popularity = {
+				ideology = libsoc
+				popularity = -0.02
+					}
+			country_event = { id = albany.7 }
 		}
 	}
 		#to be antifa is to be fascist
@@ -160,7 +180,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_popularity = {
+				ideology = anarchy
+				popularity = -0.06
+					}
 		}
 	}
 		#what to do with gun owners?
@@ -178,7 +201,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			custom_effect_tooltip = NYN_what_to_do_with_gun_owners_tt
+			country_event = { id = albany.8 }
 		}
 	}
 		#dealing with the "germans"
