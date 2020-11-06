@@ -1,0 +1,60 @@
+focus_tree = {
+    id = CON_PreWar1 
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = CON
+        }
+    }
+  focus = {
+      id = CON_President_Cottons_State_of_The_Union
+	    icon = President_Cottons_State_of_The_Union
+	    cost = 1
+	    x = 5
+	    y = 1
+	    completion_reward = {
+        add_stability = 0.05
+        add_war_support = 0.05
+        country_event = {
+            id = CON.1
+            days = 1
+	     }
+}
+  focus = {
+      id = CON_Reappropriate_Civilian_Weaponry
+	    icon = Reappropriate_Civilian_Weaponry
+	    cost = 2
+	    x = 3
+	    y = 2
+      prerequisite = {
+		    focus = CON_President_Cottons_State_of_The_Union
+	    }
+	    completion_reward = {
+        add_equipment_to_stockpile = { 
+          type = infantry_equipment 
+          amount = 2000 
+          producer = CON
+          }
+        country_event = {
+            id = CON.2
+            days = 1
+	     }
+}
+  focus = {
+      id = CON_Mobilize_the_Militia
+	    icon = Mobilize_the_Militia
+	    cost = 2
+	    x = 5
+	    y = 2
+      prerequisite = {
+		    focus = CON_President_Cottons_State_of_The_Union
+	    }
+	    completion_reward = {
+        load_oob = "CON_militia1"
+        country_event = {
+            id = CON.3
+            days = 1
+	     }
+}
+}
