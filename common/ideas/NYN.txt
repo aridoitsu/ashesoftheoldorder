@@ -12,7 +12,7 @@ ideas = {
 				}
 			}
 		NYN_pennsylvanian_seperatists = {
-			picture = spr_crush_the_revolution
+			picture = GFX_idea_NYN_pennsylvanian_seperatists
 			allowed_civil_war = {
 				always = no
 			}
@@ -23,7 +23,7 @@ ideas = {
 				}
 		}
 		NYN_the_ashes_of_our_city = {
-		picture = spr_crush_the_revolution
+		picture = GFX_idea_NYN_the_ashes_of_our_city
 			allowed_civil_war = {
 				always = yes
 			}

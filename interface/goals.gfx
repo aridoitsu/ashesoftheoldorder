@@ -2364,4 +2364,79 @@ spriteTypes = {
 		name = "GFX_NYN_focus_our_father_reagan"
 		texturefile = "gfx/interface/goals/NYN_focus_our_father_reagan.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_our_leader_cuomo"
+		texturefile = "gfx/interface/goals/NYN_focus_our_leader_cuomo.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_our_people"
+		texturefile = "gfx/interface/goals/NYN_focus_our_people.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_another_day_another_riot"
+		texturefile = "gfx/interface/goals/NYN_focus_another_day_another_riot.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_what_to_do_with_the_unions"
+		texturefile = "gfx/interface/goals/NYN_focus_what_to_do_with_the_unions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_what_to_do_with_gun_owners"
+		texturefile = "gfx/interface/goals/NYN_focus_what_to_do_with_gun_owners.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_dealing_with_the_germans"
+		texturefile = "gfx/interface/goals/NYN_focus_dealing_with_the_germans.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_another_day_another_dollar"
+		texturefile = "gfx/interface/goals/NYN_focus_another_day_another_dollar.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_dealing_with_the_socialists"
+		texturefile = "gfx/interface/goals/NYN_focus_dealing_with_the_socialists.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_to_be_antifa_is_to_be_fascist"
+		texturefile = "gfx/interface/goals/NYN_focus_to_be_antifa_is_to_be_fascist.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_to_be_anticap_is_to_be_auth"
+		texturefile = "gfx/interface/goals/NYN_focus_to_be_anticap_is_to_be_auth.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_appeal_to_corporations"
+		texturefile = "gfx/interface/goals/NYN_focus_appeal_to_corporations.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_for_the_common_man"
+		texturefile = "gfx/interface/goals/NYN_focus_for_the_common_man.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_appeal_to_entrepreneurs"
+		texturefile = "gfx/interface/goals/NYN_focus_appeal_to_entrepreneurs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_a_tax_haven"
+		texturefile = "gfx/interface/goals/NYN_focus_a_tax_haven.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_new_labor_laws"
+		texturefile = "gfx/interface/goals/NYN_focus_new_labor_laws.dds"
+	}
 }
