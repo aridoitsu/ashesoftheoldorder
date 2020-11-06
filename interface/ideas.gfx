@@ -5609,5 +5609,10 @@ spriteTypes = {
 		name = "GFX_idea_NYN_the_ashes_of_our_city"
 		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_NYN_unpopular_government"
+		texturefile = "gfx/interface/ideas/NYN_idea_unpopular_government.dds"
+	}
 
 }

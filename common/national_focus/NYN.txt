@@ -21,6 +21,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 15
+			clr_country_flag = NYN_neoliberal_success
 		}
 	}
 		#our father reagan
@@ -303,6 +304,85 @@ focus_tree = {
 			add_political_power = 15
 		}
 	}
+		#this isnt working...
+		focus = {
+		id = NYN_this_isnt_working
+		icon = GFX_NYN_focus_this_isnt_working
+		x = 14
+		y = 9
+		cost = 4
+		available_if_capitulated = yes
+		allow_branch = {
+			has_country_flag = NYN_oh_god_oh_fuck
+			}
+		bypass = {
+			has_country_flag = NYN_oh_god_oh_fuck
+			}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+		#our uncle pinochet?
+		focus = {
+		id = NYN_our_uncle_pinochet
+		icon = GFX_NYN_focus_our_uncle_pinochet
+		x = 14
+		y = 11
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_this_isnt_working }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+		#the american dream
+		focus = {
+		id = NYN_the_american_dream
+		icon = GFX_NYN_focus_the_american_dream
+		x = 14
+		y = 9
+		cost = 4
+		available_if_capitulated = yes
+		allow_branch = {
+			has_country_flag = NYN_neoliberal_success
+			}
+		bypass = {
+			has_country_flag = NYN_neoliberal_success
+			}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 15
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+		#our uncle sam
+		focus = {
+		id = NYN_our_uncle_sam
+		icon = GFX_NYN_focus_our_uncle_sam
+		x = 14
+		y = 11
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_american_dream }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	} 
 
 
 

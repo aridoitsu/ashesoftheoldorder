@@ -2439,4 +2439,24 @@ spriteTypes = {
 		name = "GFX_NYN_focus_new_labor_laws"
 		texturefile = "gfx/interface/goals/NYN_focus_new_labor_laws.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_our_uncle_sam"
+		texturefile = "gfx/interface/goals/NYN_focus_our_uncle_sam.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_our_uncle_pinochet"
+		texturefile = "gfx/interface/goals/NYN_focus_our_uncle_pinochet.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_this_isnt_working"
+		texturefile = "gfx/interface/goals/NYN_focus_this_isnt_working.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_NYN_focus_the_american_dream"
+		texturefile = "gfx/interface/goals/NYN_focus_the_american_dream.dds"
+	}
 }
