@@ -1,28 +1,30 @@
 
 state={
 	id=358
-	name="Upstate"
+	name="Brunei"
 	resources={
-		steel=13.000
+		rubber=6.000
 	}
 
 	history = {
-		owner = NYN
-		buildings = {
-			infrastructure = 8
-			arms_factory = 1
-			industrial_complex = 1
-			air_base = 10
-
+		owner = BRU
+		victory_points = {
+			7371 1
 		}
-		add_core_of = NYN
+		buildings = {
+			infrastructure = 4
+			7371 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = BRU
 
 	}
 
 	provinces={
-		1436 6717 9708 9721
+		7387 15882
 	}
-	manpower=2088061
+	manpower=428962
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

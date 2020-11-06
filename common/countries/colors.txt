@@ -463,11 +463,6 @@ LAO = {
 	color_ui = rgb { 153 28 85 }
 }
 
-INS = {
-	color = rgb { 40  50  120 }
-	color_ui = rgb { 40  50  120 }
-}
-
 VIN = {
 	color = rgb { 207 207 207 }
 	color_ui = rgb { 207 207 207 }
@@ -489,8 +484,8 @@ SRL = {
 }
 
 MAL = {
-	color = rgb { 197  96  100 }
-	color_ui = rgb { 213  169  121 }
+	color = rgb { 80 128 73 }
+	color_ui = rgb { 80 128 73 }
 }
 
 MNT = {
@@ -1170,8 +1165,8 @@ MAN = {
 }
 
 INS = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
+	color = rgb { 219 63 46 }
+	color_ui = rgb { 219 63 46 }
 }
 LAB ={
 
@@ -1550,4 +1545,16 @@ UNQ = {
 BRN = {
 	color = rgb { 201 183 81 }
 	color_ui = rgb { 201 183 81 }
+}
+BRU = {
+	color = rgb { 128 97 65 }
+	color_ui = rgb { 128 97 65 }
+}
+SIG = {
+	color = rgb { 219 158 46 }
+	color_ui = rgb { 219 158 46 }
+}
+ETM = {
+	color = rgb { 94 184 142 }
+	color_ui = rgb { 94 184 142 }
 }

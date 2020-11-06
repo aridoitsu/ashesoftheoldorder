@@ -4198,6 +4198,21 @@
    ###############################
    KSV_ADJ:0 "Kosovoan"
 
+   BRU:0 "Brunei"
+   BRU_DEF:0 "Brunei"
+   ###############################
+   BRU_ADJ:0 "Bruneian"
+
+   SIG:0 "Singapore"
+   SIG_DEF:0 "Singapore"
+   ###############################
+   SIG_ADJ:0 "Singaporian"
+
+   ETM:0 "East Timor"
+   ETM_DEF:0 "East Timor"
+   ###############################
+   ETM_ADJ:0 "Timorese"
+
     CAN_liberal:0 "Canada"
     CAN_liberal_DEF:0 "Canada"
     CAN_democratic:0 "Canada"

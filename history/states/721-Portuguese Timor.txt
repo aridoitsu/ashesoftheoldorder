@@ -1,22 +1,27 @@
 
 state={
 	id=721
-	name="STATE_721"
-	manpower = 455604
-	
-	state_category = pastoral
+	name="East Timor"
+	manpower = 1183643
 
-	history= { 
-		owner = POR
+	state_category = town
+
+	history= {
+		owner = ETM
+		add_core_of = ETM
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
 			12190 ={
-				naval_base = 1
+				naval_base = 2
+			}
+			victory_points = {
+				12190 3
 			}
 		}
 	}
 
 	provinces={
-		1326 12178 12190 12206 13001 
+		1326 12178 12190 12206 13001
 	}
 }

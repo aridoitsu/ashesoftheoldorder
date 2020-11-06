@@ -1,13 +1,19 @@
 state={
 	id=1093
-	name="Thousand Islands"
+	name="Upstate"
 	manpower=234901
 	state_category = rural
+	resources={
+		steel=13.000
+	}
 
 	history = {
 		owner = NYN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 4
 		}
 		add_core_of = NYN
 		victory_points = {
@@ -15,7 +21,7 @@ state={
 		}
 	}
 	provinces={
-		598 6778 6795 6916 9754
+		598 6778 6795 6916 9754 1436 6717 9708 9721
 	}
 	buildings_max_level_factor=1.000
 }
