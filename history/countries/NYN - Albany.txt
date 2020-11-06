@@ -47,7 +47,8 @@ set_technology = {
 	fighter1 = 1
 }
 
-set_stability = 0.50
+set_stability = 0.36
+set_war_support = 0.15
 
 set_politics = {
 	ruling_party = liberal
@@ -56,18 +57,25 @@ set_politics = {
 	elections_allowed = no
 }
 add_ideas = {
+	NYN_unpopular_government
+	NYN_pennsylvanian_seperatists
+	NYN_the_ashes_of_our_city
 }
 set_popularities = {
-	democratic = 0
-	neutrality = 0
-	authdem = 0
-	liberal = 70
-	demsoc = 0
-	prodem = 0
-	communism = 0
-	totalsoc = 0
+	democratic = 5
+	liberal = 23
+	demsoc = 13
+	prodem = 9
+	communism = 10
 	libsoc = 27
-	anarchy = 3
-	fascism = 0
-	ultranationalism = 0
+	anarchy = 13
+}
+
+create_country_leader = {
+	name = "Andrew Cuomo"
+	desc = "POLITICS_ANDREW_CUOMO_DESC"
+	picture = "Portrait_NYN_Andrew_Cuomo.dds"
+	expire = "2040.1.1"
+	ideology = marketlib
+	traits = { figurehead_for_corporations }
 }
