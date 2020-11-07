@@ -183,8 +183,8 @@ focus_tree = {
 	    
 }
  focus = {
-      id = CON_Operation_Neptune
-	    icon = Operation_Neptune
+      id = CON_Project_Neptune
+	    icon = Project_Neptune
 	    cost = 3
 	    x = 2
 	    y = 5
@@ -192,7 +192,7 @@ focus_tree = {
 		    focus = CON_Strengthen_The_Blockade
 	    }
       completion_reward = {
-	    	add_ideas = Operation_Neptune
+	    	add_ideas = Project_Neptune
 		country_event = {
            		id = CON.7
            		 days = 1
@@ -335,6 +335,29 @@ focus = {
 	    }
       completion_reward = {
 		add_ideas = Confederate_Nostalgia
+	    }
+	    
+}
+ focus = {
+      id = CON_For_Dixie
+	    icon = For_Dixie
+	    cost = 1
+	    x = 5
+	    y = 6
+      prerequisite = {
+		    focus = CON_Evacuate_Border_Cities
+	    }
+      prerequisite = {
+		    focus = CON_Project_Neptune
+	    }
+      prerequisite = {
+		    focus = CON_Establish_the_Emergency_Council
+	    }
+      prerequisite = {
+		    focus = CON_Memories_of_Old_Times
+	    }
+      completion_reward = {
+		declare_war_on = { target = NAK type = annex_everything }
 	    }
 	    
 }
