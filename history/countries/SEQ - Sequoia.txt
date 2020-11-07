@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = demsoc
+	ruling_party = neutrality
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -59,15 +59,25 @@ add_ideas = {
 }
 set_popularities = {
 	democratic = 0
-	neutrality = 10
-	authdem = 0
-	liberal = 30
-	demsoc = 50
-	prodem = 10
+	neutrality = 95
+	authdem = 5
+	liberal = 0
+	demsoc = 0
+	prodem = 0
 	communism = 0
 	totalsoc = 0
 	libsoc = 0
 	anarchy = 0
 	fascism = 0
 	ultranationalism = 0
+}
+create_country_leader = {
+	name = "Russell M. Nelson"
+	desc = "POLITICS_RUSSEL_M_NELSON_DESC"
+	picture = "Portrait_PRV_RM_Nelson.dds"
+	expire = "2040.1.1"
+	ideology = despot
+	traits = {
+		prince_of_terror
+	}
 }
