@@ -1,0 +1,10 @@
+sound = {
+    name = "aoo_ukranian_civil_war"
+    file = "bigevent/ukraniancivilwarevent.wav"
+    always_load = no
+}
+sound = {
+    name = "aoo_point_of_singularity_good"
+    file = "bigevent/pointofsingularitygood.wav"
+    always_load = no
+}

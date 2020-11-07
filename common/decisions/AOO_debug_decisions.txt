@@ -17,6 +17,7 @@ aoo_debug_decisions = {
 
 		complete_effect = {
 			set_global_flag = superevent_default
+			sound_effect  = "aoo_ukranian_civil_war"
 		}
 
 		ai_will_do = {
