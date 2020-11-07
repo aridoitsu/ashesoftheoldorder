@@ -27,7 +27,7 @@
  NYN_pennsylvanian_seperatists:0 "Pennsylvanian Seperatists"
  NYN_the_ashes_of_our_city:0 "The Ashes of our City"
  #custom tooltips
- NYN_leftist_org1_tt:0 "§R+30% Leftist Organization, +10% Leftist Militancy§!"
+ NYN_leftist_org1_tt:0 "§R+40% Leftist Organization, +40% Leftist Militancy, +1% Weekly Org, +1% Weekly Mil§!"
  NYN_another_day_another_riot_tt:0 "§HAllows decisions to interact with leftist resistance.§!"
  NYN_another_day_another_dollar_tt:0 "§HAllows decisions to build up industry and rebuild Albany.§!"
  NYN_what_to_do_with_unions_tt:0 "§GTargets Leftist Organization§!"
@@ -35,7 +35,8 @@
  NYN_to_be_anticap_is_to_be_auth_tt:0 "§G-5% Leftist Organization§!"
  NYN_to_be_antifa_is_to_be_fascist_tt:0 "§G-5% Leftist Militancy§!"
  #decisions 
- 
+ NYN_leftist_resistance:0 "Leftist Resistance"
+ NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]%\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]%"
  #events
  
  #leader descrip
@@ -64,5 +65,15 @@
  
  NYN_neutrality_party_long:0 "Democratic Party"
  NYN_neutrality_party_short:0 "Democratic Party"
+ 
+ #scripted loc
+ NYN_leftist_org_desc_low:0 "§Gcompletely unorganized§!"
+ NYN_leftist_org_desc_med:0 "§Ounionized§!"
+ NYN_leftist_org_desc_high:0 "§Rready for revolution§!"
+ NYN_leftist_mil_desc_low:0 "§Gat home§!"
+ NYN_leftist_mil_desc_med:0 "§Oprotesting§!"
+ NYN_leftist_mil_desc_high:0 "§Rrioting§!"
+ 
+ 
  
  #end

@@ -1,0 +1,18 @@
+on_actions = {
+	on_weekly_NYN = {
+		effect = {
+			if = {
+				limit = { has_idea = NYN_unpopular_government }
+				add_to_variable = {
+					var = NYN_leftist_mil
+					value = 1
+					}
+				add_to_variable = {
+					var = NYN_leftist_org
+					value = 1
+					}
+				}
+			}
+		}	
+	
+	}

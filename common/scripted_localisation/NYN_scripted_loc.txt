@@ -1,0 +1,81 @@
+defined_text = { 
+	name = GetOrgDesc
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_org > -1
+				}
+			NOT = {
+				check_variable = {
+					NYN_leftist_org > 32
+					}
+				}
+		}
+		localization_key = NYN_leftist_org_desc_low
+	}
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_org > 32
+				}
+			NOT = {
+				check_variable = {
+					NYN_leftist_org >65
+					}
+				}
+		}
+		localization_key = NYN_leftist_org_desc_med
+	}
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_org > 65
+				}
+		}
+		localization_key = NYN_leftist_org_desc_high
+	}
+}
+
+defined_text = { 
+	name = GetMilDesc
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_mil > -1
+				}
+			NOT = {
+				check_variable = {
+					NYN_leftist_mil > 32
+					}
+				}
+		}
+		localization_key = NYN_leftist_mil_desc_low
+	}
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_mil > 32
+				}
+			NOT = {
+				check_variable = {
+					NYN_leftist_mil >65
+					}
+				}
+		}
+		localization_key = NYN_leftist_mil_desc_med
+	}
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_mil > 65
+				}
+		}
+		localization_key = NYN_leftist_mil_desc_high
+	}
+}
