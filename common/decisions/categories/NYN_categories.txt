@@ -1,0 +1,14 @@
+NYN_debug = {
+	icon = generic_research
+	allowed = {
+		original_tag = NYN
+		is_debug = yes
+		}
+}
+
+NYN_leftist_resistance = {
+	icon = generic_research
+	allowed = {
+		original_tag = NYN
+	}
+}

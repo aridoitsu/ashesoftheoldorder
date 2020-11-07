@@ -40,4 +40,29 @@
  
  #leader descrip
  
+ #parties
+ NYN_liberal_party_long:0 "Democratic Party"
+ NYN_liberal_party_short:0 "Democratic Party"
+ 
+ NYN_democratic_party_long:0 "Republican Party"
+ NYN_democratic_party_short:0 "Republican Party"
+ 
+ NYN_anarchy_party_long:0 "Antifascists of Albany"
+ NYN_anarchy_party_short:0 "Antifascists of Albany"
+ 
+ NYN_communism_party_long:0 "Labour Party - Hardliners"
+ NYN_communism_party_short:0 "LP-H"
+ 
+ NYN_prodem_party_long:0 "Progressive Party"
+ NYN_prodem_party_short:0 "Progressive Party"
+ 
+ NYN_demsoc_party_long:0 "Labour Party - Reformists"
+ NYN_demsoc_party_short:0 "LP-R"
+ 
+ NYN_libsoc_party_long:0 "Labour Party - Libertarians"
+ NYN_libsoc_party_short:0 "LP-L"
+ 
+ NYN_neutrality_party_long:0 "Democratic Party"
+ NYN_neutrality_party_short:0 "Democratic Party"
+ 
  #end

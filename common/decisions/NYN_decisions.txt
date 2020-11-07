@@ -1,0 +1,69 @@
+NYN_debug = {
+	NYN_set_country_flag_fuck = {
+		allowed = {
+			tag = NYN
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			set_country_flag = NYN_oh_god_oh_fuck
+			mark_focus_tree_layout_dirty = yes
+			}
+		}
+	NYN_clear_country_flag_fuck = {
+		allowed = {
+			tag = NYN
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			clr_country_flag = NYN_oh_god_oh_fuck
+			mark_focus_tree_layout_dirty = yes
+			}
+		}
+	NYN_set_country_flag_neolib = {
+		allowed = {
+			tag = NYN
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			set_country_flag = NYN_neoliberal_success
+			mark_focus_tree_layout_dirty = yes
+			}
+		}
+	NYN_clear_country_flag_neolib = {
+		allowed = {
+			tag = NYN
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			clr_country_flag = NYN_neoliberal_success
+			mark_focus_tree_layout_dirty = yes
+			}
+		}
+		
+		
+		
+	}

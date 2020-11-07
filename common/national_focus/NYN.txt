@@ -364,7 +364,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 		#our uncle pinochet?
@@ -381,7 +381,22 @@ continuous_focus_position = { x = 50 y = 2000 }
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			set_party_name = {
+				ideology = neutrality 
+				long_name = NYN_neutrality_party_long
+				name = NYN_neutrality_party_short
+				}
+				set_politics = {
+				ruling_party = neutrality
+				}
+				create_country_leader = {
+				name = "Andrew Cuomo"
+				desc = "POLITICS_ANDREW_CUOMO_DESC"
+				picture = "Portrait_NYN_Andrew_Cuomo.dds"
+				expire = "2040.1.1"
+				ideology = junta
+				traits = { figurehead_for_corporations }
+				}
 		}
 	}
 		#the american dream
@@ -403,7 +418,6 @@ continuous_focus_position = { x = 50 y = 2000 }
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
@@ -421,7 +435,8 @@ continuous_focus_position = { x = 50 y = 2000 }
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_stability = 0.2
+			add_war_support = 0.3
 		}
 	} 
 

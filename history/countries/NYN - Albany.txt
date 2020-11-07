@@ -71,6 +71,58 @@ set_popularities = {
 	anarchy = 13
 }
 
+set_variable = {
+	var = NYN_leftist_org
+	value = 0
+	}
+
+set_variable = {
+	var = NYN_leftist_mil
+	value = 0
+	}
+
+set_party_name = {
+    ideology = liberal
+    long_name = NYN_liberal_party_long
+    name = NYN_liberal_party_short
+}
+
+set_party_name = {
+    ideology = democratic
+    long_name = NYN_democratic_party_long
+    name = NYN_democratic_party_short
+}
+
+set_party_name = {
+    ideology = anarchy
+    long_name = NYN_anarchy_party_long
+    name = NYN_anarchy_party_short
+}
+
+set_party_name = {
+    ideology = communism
+    long_name = NYN_communism_party_long
+    name = NYN_communism_party_short
+}
+
+set_party_name = {
+    ideology = prodem
+    long_name = NYN_prodem_party_long
+    name = NYN_prodem_party_short
+}
+
+set_party_name = {
+    ideology = demsoc
+    long_name = NYN_demsoc_party_long
+    name = NYN_demsoc_party_short
+}
+
+set_party_name = {
+    ideology = libsoc
+    long_name = NYN_libsoc_party_long
+    name = NYN_libsoc_party_short
+}
+
 create_country_leader = {
 	name = "Andrew Cuomo"
 	desc = "POLITICS_ANDREW_CUOMO_DESC"
