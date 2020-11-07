@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_scripted_gui_super_event_background"
+		textureFile = "/gfx/interface/super_events/super_event_background.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_super_event_exit_button"
+		textureFile = "/gfx/interface/super_events/super_event_exit_button.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_super_event_picture"
+		textureFile = "/gfx/interface/super_events/super_event_picture.dds"
+	}
+}

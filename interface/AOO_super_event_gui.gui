@@ -1,0 +1,48 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "super_event_gui_window"
+		position = { x = 0 y = 0}	
+		size = { width = 800 height= 650 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_scripted_gui_super_event_background"
+		}
+	
+		iconType ={
+			name ="super_event_picture"
+			spriteType = "GFX_scripted_gui_super_event_picture"
+			position = { x= 10 y = 39 }
+			Orientation = "UPPER_LEFT"
+		}
+	
+		buttonType ={
+			name ="super_event_close_button"
+			text = "So it begins"
+			shortcut = "ESCAPE"
+			spriteType = "GFX_scripted_gui_super_event_exit_button"
+			position = { x= -100 y = 230	}
+			buttonFont = "hoi_16typewriter_inverted"
+			Orientation = "CENTER"
+		}
+
+		instantTextboxType = {
+			name = "political_title"
+			position = { x = 15 y = 13 }
+			font = "garamond_24"
+			borderSize = {x = 0 y = 0}
+			text = "SUPER_EVENT_DEFAULT"
+			maxWidth = 800
+			maxHeight = 20
+			fixedsize = yes
+		}
+	}
+}

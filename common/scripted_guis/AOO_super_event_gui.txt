@@ -1,0 +1,46 @@
+scripted_gui = {
+	super_event_gui = {
+		window_name = "super_event_gui_window"
+		context_type = player_context
+	
+		visible = {
+			has_global_flag = superevent_default
+		}
+
+		effects = {
+			super_event_close_button_click = {
+				clr_global_flag = superevent_default
+			}
+		}
+
+		triggers = {
+		}
+
+		dynamic_lists = {
+		}
+
+		properties = {
+		}
+
+		ai_enabled = {
+			always = no
+		}
+	
+		ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+		ai_test_variance = 0.5
+
+		ai_check = {
+		}
+
+		ai_check_scope = {
+		}
+
+		ai_weights = {
+		}
+	
+	}
+	
+	
+	
+	
+}
