@@ -346,7 +346,7 @@ focus = {
 	    x = 5
 	    y = 6
       prerequisite = {
-		    focus = CON_Evacuate_Border_Cities
+		    focus = CON_Close_The_Borders
 	    }
       prerequisite = {
 		    focus = CON_Project_Neptune
