@@ -5,14 +5,17 @@ on_actions = {
 				limit = { has_idea = NYN_unpopular_government }
 				add_to_variable = {
 					var = NYN_leftist_mil
-					value = 1
+					value = NYN_leftist_mil_gain
 					}
 				add_to_variable = {
 					var = NYN_leftist_org
-					value = 1
+					value = NYN_leftist_org_gain
 					}
 				}
 			}
-		}	
-	
-	}
+		}
+
+
+
+#end
+}	

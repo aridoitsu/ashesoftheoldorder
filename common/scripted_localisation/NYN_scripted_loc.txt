@@ -79,3 +79,68 @@ defined_text = {
 		localization_key = NYN_leftist_mil_desc_high
 	}
 }
+
+defined_text = {
+	name = GetMilGain 
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_mil_gain = 1
+				}
+		}
+		localization_key = NYN_leftist_mil_gain_1
+	}
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_mil_gain = 0
+				}
+		}
+		localization_key = NYN_leftist_mil_gain_0
+	}
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_mil_gain = -1
+				}
+		}
+		localization_key = NYN_leftist_mil_gain_-1
+	}
+}
+
+defined_text = {
+	name = GetOrgGain 
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_org_gain = 1
+				}
+		}
+		localization_key = NYN_leftist_org_gain_1
+	}
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_org_gain = 0
+				}
+		}
+		localization_key = NYN_leftist_org_gain_0
+	}
+	text = {
+		trigger = {
+			original_tag = NYN
+			check_variable = {
+				NYN_leftist_org_gain = -1
+				}
+		}
+		localization_key = NYN_leftist_org_gain_-1
+	}
+}
+
+
+

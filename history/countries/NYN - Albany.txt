@@ -81,6 +81,16 @@ set_variable = {
 	value = 0
 	}
 	
+set_variable = {
+	var = NYN_leftist_org_gain
+	value = 0
+	}
+	
+set_variable = {
+	var = NYN_leftist_mil_gain
+	value = 0
+	}
+	
 if = {
 	limit = {
 		has_idea = NYN_unpopular_government
@@ -92,6 +102,14 @@ if = {
 			add_to_variable = {
 				var = NYN_leftist_org
 				value = 40
+				}
+			add_to_variable = {
+				var = NYN_leftist_org_gain
+				value = 1
+				}
+			add_to_variable = {
+				var = NYN_leftist_mil_gain
+				value = 1
 				}
 	}
 ###################################################################

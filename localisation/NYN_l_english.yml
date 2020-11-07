@@ -34,9 +34,14 @@
  NYN_what_to_do_with_gun_owners_tt:0 "§GTargets Leftist Militancy§!"
  NYN_to_be_anticap_is_to_be_auth_tt:0 "§G-5% Leftist Organization§!"
  NYN_to_be_antifa_is_to_be_fascist_tt:0 "§G-5% Leftist Militancy§!"
+ NYN_bust_the_unions_tt:0 "Decreases weekly §HLeftist Organization§! gain by §G1%§!"
+ NYN_send_in_the_boys_in_blue_tt:0 "Decreases weekly §HLeftist Militancy§! gain by §G1%§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
- NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]%\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]%"
+ NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
+ NYN_the_fate_of_our_nation:0 "The Fate of Our Nation"
+ NYN_bust_the_unions:0 "Bust the Unions"
+ NYN_send_in_the_boys_in_blue:0 "Send in the Boys in Blue"
  #events
  
  #leader descrip
@@ -73,6 +78,13 @@
  NYN_leftist_mil_desc_low:0 "§Gat home§!"
  NYN_leftist_mil_desc_med:0 "§Oprotesting§!"
  NYN_leftist_mil_desc_high:0 "§Rrioting§!"
+ NYN_leftist_mil_gain_1:0 "§R+1%/week§!"
+ NYN_leftist_mil_gain_0:0 "§H0%/week§!"
+ NYN_leftist_mil_gain_-1:0 "§G-1%/week§!"
+ NYN_leftist_org_gain_1:0 "§R+1%/week§!"
+ NYN_leftist_org_gain_0:0 "§H0%/week§!"
+ NYN_leftist_org_gain_-1:0 "§G-1%/week§!"
+ 
  
  
  
