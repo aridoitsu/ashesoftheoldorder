@@ -247,7 +247,7 @@ focus_tree = {
 	    x = 6
 	    y = 4
       prerequisite = {
-		    focus = CON_Hail_to_the_Cheif
+		  focus = CON_Hail_to_the_Chief
 	    }
       completion_reward = {
 		add_stability = 0.05
@@ -322,7 +322,7 @@ focus = {
            		 days = 1
 	     }
 	    }
-	    
+}	    
 }
  focus = {
       id = CON_Memories_of_Old_Times
