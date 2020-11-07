@@ -1,14 +1,14 @@
 focus_tree = {
-    id = CON_PreWar1 
+    id = ACR_PreWar1 
     country = {
         factor = 0
         modifier = {
             add = 10
-            tag = CON
+            tag = ACR
         }
     }
   focus = {
-      id = CON_President_Cottons_State_of_The_Union
+      id = ACR_President_Cottons_State_of_The_Union
 	    icon = President_Cottons_State_of_The_Union
 	    cost = 1
 	    x = 5
@@ -17,75 +17,75 @@ focus_tree = {
         add_stability = 0.05
         add_war_support = 0.05
         country_event = {
-            id = CON.1
+            id = ACR.1
             days = 1
 	     }
 	}
 }
   focus = {
-      id = CON_Reappropriate_Civilian_Weaponry
+      id = ACR_Reappropriate_Civilian_Weaponry
 	    icon = Reappropriate_Civilian_Weaponry
 	    cost = 2
 	    x = 3
 	    y = 2
       prerequisite = {
-		    focus = CON_President_Cottons_State_of_The_Union
+		    focus = ACR_President_Cottons_State_of_The_Union
 	    }
       completion_reward = {
         	add_equipment_to_stockpile = { 
                 type = infantry_equipment 
           	amount = 2000 
-          	producer = CON
+          	producer = ACR
           }
         country_event = {
-            id = CON.2
+            id = ACR.2
             days = 1
 	     }
 	}
 }
   focus = {
-      id = CON_Mobilize_the_Militia
+      id = ACR_Mobilize_the_Militia
 	    icon = Mobilize_the_Militia
 	    cost = 2
 	    x = 5
 	    y = 2
       prerequisite = {
-		    focus = CON_President_Cottons_State_of_The_Union
+		    focus = ACR_President_Cottons_State_of_The_Union
 	    }
       completion_reward = {
-        load_oob = "CON_militia1"
+        load_oob = "ACR_militia1"
         country_event = {
-            id = CON.3
+            id = ACR.3
             days = 1
 	    }
 }
 }
   focus = {
-      id = CON_Rally_the_Remenants
+      id = ACR_Rally_the_Remenants
 	    icon = Rally_the_Remenants
 	    cost = 2
 	    x = 7
 	    y = 2
       prerequisite = {
-		    focus = CON_President_Cottons_State_of_The_Union
+		    focus = ACR_President_Cottons_State_of_The_Union
 	    }
 	    completion_reward = {
         	army_experience = 10
 		add_war_support = 0.05
         	country_event = {
-           		id = CON.4
+           		id = ACR.4
            		 days = 1
 	     }
 }
 }
   focus = {
-      id = CON_Military_Industrial_Complex_Investments
+      id = ACR_Military_Industrial_Complex_Investments
 	    icon = Military_Industrial_Complex_Investments
 	    cost = 5
 	    x = 2
 	    y = 3
       prerequisite = {
-		    focus = CON_Reappropriate_Civilian_Weaponry
+		    focus = ACR_Reappropriate_Civilian_Weaponry
 	    }
 	    completion_reward = {
         	add_building_construction = {
@@ -102,71 +102,71 @@ focus_tree = {
 }
 }
  focus = {
-      id = CON_The_Enemy
+      id = ACR_The_Enemy
 	    icon = The_Enemy
 	    cost = 5
 	    x = 4
 	    y = 3
       prerequisite = {
-		    focus = CON_Reappropriate_Civilian_Weaponry
+		    focus = ACR_Reappropriate_Civilian_Weaponry
 	    }
       prerequisite = {
-		    focus = CON_Mobilize_the_Militia
+		    focus = ACR_Mobilize_the_Militia
 	    } 
 	    completion_reward = {
         	add_war_support = 0.1		
 	    }
 }
  focus = {
-      id = CON_Hail_to_the_Chief
+      id = ACR_Hail_to_the_Chief
 	    icon = Hail_to_the_Chief
 	    cost = 5
 	    x = 6
 	    y = 3
       prerequisite = {
-		    focus = CON_Reappropriate_Civilian_Weaponry
+		    focus = ACR_Reappropriate_Civilian_Weaponry
 	    }
       prerequisite = {
-		    focus = CON_Mobilize_the_Militia
+		    focus = ACR_Mobilize_the_Militia
 	    } 
 	    completion_reward = {
         	add_war_support = 0.1	
 		country_event = {
-           		id = CON.5
+           		id = ACR.5
            		 days = 1
 	     }
 	    }
 	    
 }
  focus = {
-      id = CON_Establish_Harsh_Rationing
+      id = ACR_Establish_Harsh_Rationing
 	    icon = Establish_Harsh_Rationing
 	    cost = 2
 	    x = 8
 	    y = 3
       prerequisite = {
-		    focus = CON_Rally_the_Remenants
+		    focus = ACR_Rally_the_Remenants
 	    }
       prerequisite = {
-		    focus = CON_Mobilize_the_Militia
+		    focus = ACR_Mobilize_the_Militia
 	    } 
 	    completion_reward = {
-        	add_ideas = CON_Harsh_Rationing
+        	add_ideas = ACR_Harsh_Rationing
 		 country_event = {
-           		id = CON.6
+           		id = ACR.6
            		 days = 1
 	     }
 	    }
 	   
 }
  focus = {
-      id = CON_Strengthen_The_Blockade
+      id = ACR_Strengthen_The_Blockade
 	    icon = Strengthen_The_Blockade
 	    cost = 2
 	    x = 2
 	    y = 4
       prerequisite = {
-		    focus = CON_Military_Industrial_Complex_Investments
+		    focus = ACR_Military_Industrial_Complex_Investments
 	    }
       completion_reward = {
 	    	NAK = {
@@ -183,31 +183,31 @@ focus_tree = {
 	    
 }
  focus = {
-      id = CON_Project_Neptune
+      id = ACR_Project_Neptune
 	    icon = Project_Neptune
 	    cost = 3
 	    x = 2
 	    y = 5
       prerequisite = {
-		    focus = CON_Strengthen_The_Blockade
+		    focus = ACR_Strengthen_The_Blockade
 	    }
       completion_reward = {
 	    	add_ideas = Project_Neptune
 		country_event = {
-           		id = CON.7
+           		id = ACR.7
            		 days = 1
 	     }
 	    }
 	    
 }
  focus = {
-      id = CON_Purge_the_Enemy
+      id = ACR_Purge_the_Enemy
 	    icon = Purge_the_Enemy
 	    cost = 3
 	    x = 4
 	    y = 4
       prerequisite = {
-		    focus = CON_The_Enemy
+		    focus = ACR_The_Enemy
 	    }
       completion_reward = {
 		add_manpower = -15327
@@ -216,74 +216,74 @@ focus_tree = {
 			popularity = 0.05
 			}
 		country_event = {
-           		id = CON.8
+           		id = ACR.8
            		 days = 1
 	     }
 	    }
 	    
 }
  focus = {
-      id = CON_Close_The_Borders
+      id = ACR_Close_The_Borders
 	    icon = Close_The_Borders
 	    cost = 2
 	    x = 4
 	    y = 5
       prerequisite = {
-		    focus = CON_Purge_the_Enemy
+		    focus = ACR_Purge_the_Enemy
 	    }
       completion_reward = {
 		add_stability = 0.05
 		country_event = {
-           		id = CON.9
+           		id = ACR.9
            		 days = 1
 	     }
 	    }
 	    
 }
  focus = {
-      id = CON_Act_B113
+      id = ACR_Act_B113
 	    icon = Act_B113
 	    cost = 3
 	    x = 6
 	    y = 4
       prerequisite = {
-		  focus = CON_Hail_to_the_Chief
+		  focus = ACR_Hail_to_the_Chief
 	    }
       completion_reward = {
 		add_stability = 0.05
 		country_event = {
-           		id = CON.10
+           		id = ACR.10
            		 days = 1
 	     }
 	    }
 	    
 }
  focus = {
-      id = CON_Establish_the_Emergency_Council
+      id = ACR_Establish_the_Emergency_Council
 	    icon = Establish_the_Emergency_Council
 	    cost = 1
 	    x = 6
 	    y = 5
       prerequisite = {
-		    focus = CON_Act_B113
+		    focus = ACR_Act_B113
 	    }
       completion_reward = {
 		army_experience = 10
 		country_event = {
-           		id = CON.11
+           		id = ACR.11
            		 days = 1
 	     }
 	    }
 	    
 }
 focus = {
-      id = CON_Evacuate_Border_Cities
+      id = ACR_Evacuate_Border_Cities
 	    icon = Evacuate_Border_Cities
 	    cost = 2
 	    x = 8
 	    y = 4
       prerequisite = {
-		    focus = CON_Establish_Harsh_Rationing
+		    focus = ACR_Establish_Harsh_Rationing
 	    }
       completion_reward = {
 		add_building_construction = {
@@ -319,20 +319,20 @@ focus = {
 			}
 		}
 		country_event = {
-           		id = CON.12
+           		id = ACR.12
            		 days = 1
 	     }
 	    }
 }	    
 }
  focus = {
-      id = CON_Memories_of_Old_Times
+      id = ACR_Memories_of_Old_Times
 	    icon = Memories_of_Old_Times
 	    cost = 2
 	    x = 8
 	    y = 5
       prerequisite = {
-		    focus = CON_Evacuate_Border_Cities
+		    focus = ACR_Evacuate_Border_Cities
 	    }
       completion_reward = {
 		add_ideas = Confederate_Nostalgia
@@ -340,22 +340,22 @@ focus = {
 	    
 }
  focus = {
-      id = CON_For_Dixie
+      id = ACR_For_Dixie
 	    icon = For_Dixie
 	    cost = 1
 	    x = 5
 	    y = 6
       prerequisite = {
-		    focus = CON_Close_The_Borders
+		    focus = ACR_Close_The_Borders
 	    }
       prerequisite = {
-		    focus = CON_Project_Neptune
+		    focus = ACR_Project_Neptune
 	    }
       prerequisite = {
-		    focus = CON_Establish_the_Emergency_Council
+		    focus = ACR_Establish_the_Emergency_Council
 	    }
       prerequisite = {
-		    focus = CON_Memories_of_Old_Times
+		    focus = ACR_Memories_of_Old_Times
 	    }
       completion_reward = {
 		declare_war_on = { target = NAK type = annex_everything }
@@ -364,3 +364,5 @@ focus = {
 }
 
 }
+
+
