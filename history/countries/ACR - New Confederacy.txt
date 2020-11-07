@@ -82,7 +82,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Tom Cotton"
 	desc = "POLITICS_TOM_COTTON_DESC"
-	picture = "Portrait_CON_Tom_Cotton.dds"
+	picture = "Portrait_ACR_Tom_Cotton.dds"
 	expire = "2040.1.1"
 	ideology = despot
 }

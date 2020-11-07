@@ -3905,19 +3905,9 @@
    NAK_democratic_ADJ:0 "Afrikan"
    NAK_ultranationalism_ADJ:0 "Afrikan"
 
-   CON_fascism:0 "American Confederacy"
-   CON_fascism_DEF:0 "The American Confederacy"
-   CON_democratic:0 "Confederation of American States"
-   CON_democratic_DEF:0 "The Confederation of American States"
-   CON_ultranationalism:0 "The Second Confederacy"
-   CON_ultranationalism_DEF:0 "The Second Confederacy"
-   CON_neutrality:0 "American Confederate Republic"
-   CON_neutrality_DEF:0 "The American Confederate Republic"
-   ###############################
-   CON_neutrality_ADJ:0 "Confederate"
-   CON_fascism_ADJ:0 "Confederate"
-   CON_democratic_ADJ:0 "Confederate"
-   CON_ultranationalism_ADJ:0 "Confederate"
+   ACR:0 "American Confederacy"
+   ACR_DEF:0 "The American Confederacy"
+   ACR_ADJ:0 "Confederate"
 
    MIS_authdem:0 "Mississippi"
    MIS_authdem_DEF:0 "Mississippi"

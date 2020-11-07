@@ -1462,7 +1462,7 @@ NAK = {
 	color = rgb { 26 13 0 }
 	color_ui = rgb { 26 13 0 }
 }
-CON = {
+ACR = {
 	color = rgb { 97 97 97 }
 	color_ui = rgb { 97 97 97 }
 }
