@@ -3523,19 +3523,10 @@
    OKC_democratic_ADJ:0 "Oklahoman"
    OKC_ultranationalism_ADJ:0 "Oklahoman"
 
-   SEQ_demsoc:0 "Sequoia"
-   SEQ_demsoc_DEF:0 "Sequoia"
-   SEQ_democratic:0 "Sequoia"
-   SEQ_democratic_DEF:0 "Sequoia"
-   SEQ_ultranationalism:0 "Sequoia"
-   SEQ_ultranationalism_DEF:0 "Sequoia"
-   SEQ_neutrality:0 "Sequoia"
-   SEQ_neutrality_DEF:0 "Sequoia"
+   SEQ:0 "Wasteland Brigade"
+   SEQ_DEF:0 "Wasteland Brigade"
    ###############################
-   SEQ_neutrality_ADJ:0 "Sequoian"
-   SEQ_demsoc_ADJ:0 "Sequoian"
-   SEQ_democratic_ADJ:0 "Sequoian"
-   SEQ_ultranationalism_ADJ:0 "Sequoian"
+   SEQ_ADJ:0 "Wastelander"
 
    NEB_fascism:0 "Nebraska"
    NEB_fascism_DEF:0 "Nebraska"

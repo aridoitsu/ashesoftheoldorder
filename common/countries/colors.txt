@@ -1363,8 +1363,8 @@ OKC = {
 	color_ui = rgb { 150 60 80 }
 }
 SEQ = {
-	color = rgb { 93 120 98 }
-	color_ui = rgb { 93 120 98 }
+	color = rgb { 57 69 48 }
+	color_ui = rgb { 57 69 48 }
 }
 NEB = {
 	color = rgb { 100 161 59 }
