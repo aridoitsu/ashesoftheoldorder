@@ -72,9 +72,9 @@ set_popularities = {
 	ultranationalism = 0
 }
 create_country_leader = {
-	name = "Russell M. Nelson"
-	desc = "POLITICS_RUSSEL_M_NELSON_DESC"
-	picture = "Portrait_PRV_RM_Nelson.dds"
+	name = "The Father"
+	desc = "POLITICS_WASTELAND_BRIGADE_DESC"
+	picture = "Portrait_SEQ_The_Father.dds"
 	expire = "2040.1.1"
 	ideology = despot
 	traits = {
