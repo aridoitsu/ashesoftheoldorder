@@ -59,7 +59,7 @@ add_ideas = {
 }
 set_popularities = {
 	democratic = 15
-	neutrality = 50
+	neutrality = 35
 	authdem = 0
 	liberal = 10
 	demsoc = 0
@@ -67,7 +67,22 @@ set_popularities = {
 	communism = 0
 	totalsoc = 0
 	libsoc = 0
-	anarchy = 0
+	anarchy = 15
 	fascism = 15
 	ultranationalism = 10
+}
+add_ideas = {
+	CON_Ruined_Nation
+	CON_Martial_Law
+	CON_Legacy_of_the_US
+	CON_Separate_But_Equal
+	CON_Divided_Cabinet
+}
+
+create_country_leader = {
+	name = "Tom Cotton"
+	desc = "POLITICS_TOM_COTTON_DESC"
+	picture = "Portrait_CON_Tom_Cotton.dds"
+	expire = "2040.1.1"
+	ideology = neutrality 
 }
