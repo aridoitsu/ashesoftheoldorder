@@ -28,6 +28,12 @@
  NYN_the_ashes_of_our_city:0 "The Ashes of our City"
  #custom tooltips
  NYN_leftist_org1_tt:0 "§R+30% Leftist Organization, +10% Leftist Militancy§!"
+ NYN_another_day_another_riot_tt:0 "§HAllows decisions to interact with leftist resistance.§!"
+ NYN_another_day_another_dollar_tt:0 "§HAllows decisions to build up industry and rebuild Albany.§!"
+ NYN_what_to_do_with_unions_tt:0 "§GTargets Leftist Organization§!"
+ NYN_what_to_do_with_gun_owners_tt:0 "§GTargets Leftist Militancy§!"
+ NYN_to_be_anticap_is_to_be_auth_tt:0 "§G-5% Leftist Organization§!"
+ NYN_to_be_antifa_is_to_be_fascist_tt:0 "§G-5% Leftist Militancy§!"
  #decisions 
  
  #events

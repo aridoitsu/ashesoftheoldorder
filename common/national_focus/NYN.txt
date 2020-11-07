@@ -7,11 +7,13 @@ focus_tree = {
 			tag = NYN
 		}
 		}
+continuous_focus_position = { x = 50 y = 2000 }		
+
 		#our mother thatcher
 		focus = {
 		id = NYN_our_mother_thatcher
 		icon = GFX_NYN_focus_our_mother_thatcher
-		x = 12
+		x = 7
 		y = 0
 		cost = 4
 		available_if_capitulated = yes
@@ -28,7 +30,7 @@ focus_tree = {
 		focus = {
 		id = NYN_our_father_reagan
 		icon = GFX_NYN_focus_our_father_reagan
-		x = 16
+		x = 11
 		y = 0
 		cost = 4
 		available_if_capitulated = yes
@@ -45,7 +47,7 @@ focus_tree = {
 		focus = {
 		id = NYN_our_leader_cuomo
 		icon = GFX_NYN_focus_our_leader_cuomo
-		x = 14
+		x = 9
 		y = 1
 		cost = 4
 		available_if_capitulated = yes
@@ -64,7 +66,7 @@ focus_tree = {
 		focus = {
 		id = NYN_our_people
 		icon = GFX_NYN_focus_our_people
-		x = 14
+		x = 9
 		y = 3
 		cost = 4
 		available_if_capitulated = yes
@@ -84,7 +86,7 @@ focus_tree = {
 		focus = {
 		id = NYN_another_day_another_riot
 		icon = GFX_NYN_focus_another_day_another_riot 
-		x = 13
+		x = 8
 		y = 4
 		cost = 4
 		available_if_capitulated = yes
@@ -102,7 +104,7 @@ focus_tree = {
 		focus = {
 		id = NYN_another_day_another_dollar
 		icon = GFX_NYN_focus_another_day_another_dollar
-		x = 15
+		x = 10
 		y = 4
 		cost = 4
 		available_if_capitulated = yes
@@ -112,15 +114,16 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 25
 			custom_effect_tooltip = NYN_another_day_another_dollar_tt
+			add_political_power = 25
+			country_event = { id = albany.9 }
 		}
 	}
 		#what to do with unions?
 		focus = {
 		id = NYN_what_to_do_with_the_unions
 		icon = GFX_NYN_focus_what_to_do_with_the_unions
-		x = 13
+		x = 8
 		y = 5
 		cost = 4
 		available_if_capitulated = yes
@@ -139,7 +142,7 @@ focus_tree = {
 		focus = {
 		id = NYN_dealing_with_the_socialists
 		icon = GFX_NYN_focus_dealing_with_the_socialists
-		x = 13
+		x = 8
 		y = 6
 		cost = 4
 		available_if_capitulated = yes
@@ -169,7 +172,7 @@ focus_tree = {
 		focus = {
 		id = NYN_to_be_antifa_is_to_be_fascist
 		icon = GFX_NYN_focus_to_be_antifa_is_to_be_fascist
-		x = 13
+		x = 8
 		y = 7
 		cost = 4
 		available_if_capitulated = yes
@@ -180,6 +183,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			custom_effect_tooltip = NYN_to_be_antifa_is_to_be_fascist_tt
 			add_popularity = {
 				ideology = anarchy
 				popularity = -0.06
@@ -190,7 +194,7 @@ focus_tree = {
 		focus = {
 		id = NYN_what_to_do_with_gun_owners
 		icon = GFX_NYN_focus_what_to_do_with_gun_owners
-		x = 10
+		x = 5
 		y = 5
 		cost = 4
 		available_if_capitulated = yes
@@ -209,7 +213,7 @@ focus_tree = {
 		focus = {
 		id = NYN_dealing_with_the_germans
 		icon = GFX_NYN_focus_dealing_with_the_germans
-		x = 10
+		x = 5
 		y = 6
 		cost = 4
 		available_if_capitulated = yes
@@ -220,14 +224,17 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			swap_ideas = {
+				remove_idea = NYN_pennsylvanian_seperatists
+				add_idea = NYN_seperatist_movement_crushed
+				}
 		}
 	}
 		#to be anticapitalist is to be authoritarian
 		focus = {
 		id = NYN_to_be_anticap_is_to_be_auth
 		icon = GFX_NYN_focus_to_be_anticap_is_to_be_auth
-		x = 10
+		x = 5
 		y = 7
 		cost = 4
 		available_if_capitulated = yes
@@ -238,14 +245,18 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			custom_effect_tooltip = NYN_to_be_anticap_is_to_be_auth_tt
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.06
+					}
 		}
 	}
 		#appeal to corporations
 		focus = {
 		id = NYN_appeal_to_corporations
 		icon = GFX_NYN_focus_appeal_to_corporations
-		x = 15
+		x = 10
 		y = 5
 		cost = 4
 		available_if_capitulated = yes
@@ -256,14 +267,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 50
+			country_event = { id = albany.10 }
 		}
 	}
 		#a tax haven
 		focus = {
 		id = NYN_a_tax_haven
 		icon = GFX_NYN_focus_a_tax_haven
-		x = 15
+		x = 10
 		y = 6
 		cost = 4
 		available_if_capitulated = yes
@@ -273,14 +285,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = 20
+			country_event = { id = albany.12 }
 		}
 	}
 		#appeal to entrepreneurs
 		focus = {
 		id = NYN_appeal_to_entrepreneurs
 		icon = GFX_NYN_focus_appeal_to_entrepreneurs
-		x = 19
+		x = 14
 		y = 5
 		cost = 4
 		available_if_capitulated = yes
@@ -291,14 +304,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = -20
+			country_event = { id = albany.11 }
 		}
 	}
 		#for the common man
 		focus = {
 		id = NYN_for_the_common_man
 		icon = GFX_NYN_focus_for_the_common_man
-		x = 19
+		x = 14
 		y = 6
 		cost = 4
 		available_if_capitulated = yes
@@ -308,14 +322,16 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_political_power = -5
+			add_stability = 0.1
+			country_event = { id = albany.13 }
 		}
 	}
 		#new labor laws
 		focus = {
 		id = NYN_new_labor_laws
 		icon = GFX_NYN_focus_new_labor_laws
-		x = 17
+		x = 12
 		y = 7
 		cost = 4
 		available_if_capitulated = yes
@@ -326,13 +342,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 15
+			country_event = { id = albany.14 }
 		}
 	}
 		#this isnt working...
 		focus = {
 		id = NYN_this_isnt_working
 		icon = GFX_NYN_focus_this_isnt_working
-		x = 14
+		x = 9
 		y = 9
 		cost = 4
 		available_if_capitulated = yes
@@ -354,7 +371,7 @@ focus_tree = {
 		focus = {
 		id = NYN_our_uncle_pinochet
 		icon = GFX_NYN_focus_our_uncle_pinochet
-		x = 14
+		x = 9
 		y = 11
 		cost = 4
 		available_if_capitulated = yes
@@ -371,7 +388,7 @@ focus_tree = {
 		focus = {
 		id = NYN_the_american_dream
 		icon = GFX_NYN_focus_the_american_dream
-		x = 14
+		x = 9
 		y = 9
 		cost = 4
 		available_if_capitulated = yes
@@ -394,7 +411,7 @@ focus_tree = {
 		focus = {
 		id = NYN_our_uncle_sam
 		icon = GFX_NYN_focus_our_uncle_sam
-		x = 14
+		x = 9
 		y = 11
 		cost = 4
 		available_if_capitulated = yes
