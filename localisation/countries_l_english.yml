@@ -3793,19 +3793,17 @@
    INI_democratic_ADJ:0 "Indianian"
    INI_prodem_ADJ:0 "Indianian"
 
-   DET_liberal:0 "Michigan"
-   DET_liberal_DEF:0 "Michigan"
-   DET_democratic:0 "Michigan"
-   DET_democratic_DEF:0 "Michigan"
-   DET_prodem:0 "Michigan"
-   DET_prodem_DEF:0 "Michigan"
-   DET_neutrality:0 "Michigan"
-   DET_neutrality_DEF:0 "Michigan"
-   ###############################
-   DET_neutrality_ADJ:0 "Michiganian"
-   DET_liberal_ADJ:0 "Michiganian"
-   DET_democratic_ADJ:0 "Michiganian"
-   DET_prodem_ADJ:0 "Michiganian"
+   DET:0 "Detroit"
+   DET_DEF:0 "Free City of Detroit"
+   DET_ADJ:0 "Detroitian"
+
+   MCH:0 "Michigan"
+   MCH_DEF:0 "Michigan"
+   MCH_ADJ:0 "Michigonian"
+
+   LSG:0 "Lansing"
+   LSG_DEF:0 "Lansing"
+   LSG_ADJ:0 "Lansingian"
 
    OHO_liberal:0 "Chungusland"
    OHO_liberal_DEF:0 "Chungusland"

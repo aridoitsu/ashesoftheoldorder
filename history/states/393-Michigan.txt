@@ -8,7 +8,7 @@ state={
 	}
 
 	history = {
-		owner = DET
+		owner = MCH
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -18,7 +18,7 @@ state={
 			}
 
 		}
-		add_core_of = DET
+		add_core_of = MCH
 		victory_points = {
 			6769 1
 		}
@@ -26,7 +26,7 @@ state={
 	}
 
 	provinces={
-		3766 7420 10233 10303 11731 
+		3766 7420 10233 10303 11731
 	}
 	manpower=1218511
 	buildings_max_level_factor=1.000

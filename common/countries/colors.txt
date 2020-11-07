@@ -1435,8 +1435,16 @@ INI = {
 	color_ui = rgb { 95 71 106 }
 }
 DET = {
-	color = rgb { 161 63 21 }
-	color_ui = rgb { 161 63 21 }
+	color = rgb { 145 47 47 }
+	color_ui = rgb { 145 47 47 }
+}
+LSG = {
+	color = rgb { 127 130 61 }
+	color_ui = rgb { 127 130 61 }
+}
+MCH = {
+	color = rgb { 125 61 15 }
+	color_ui = rgb { 125 61 15 }
 }
 OHO = {
 	color = rgb { 196 93 93 }

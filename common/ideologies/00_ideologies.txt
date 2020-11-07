@@ -271,6 +271,8 @@ ideologies = {
 			}
 			socialism = {
 			}
+			democraticsocialism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -305,6 +307,8 @@ ideologies = {
 			part_techno_soc = {
 			}
 			leninist = {
+			}
+			detroit = {
 			}
 		}
 
