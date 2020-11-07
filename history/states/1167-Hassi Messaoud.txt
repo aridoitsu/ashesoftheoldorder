@@ -1,0 +1,30 @@
+state={
+	id=1167
+	name="Hassi Messaoud"
+	history = {
+		owner = ALG
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+		}
+
+		add_core_of = ALG
+		victory_points = {
+			15906 15
+		}
+		victory_points = {
+			15896 5
+		}
+		victory_points = {
+			15907 5
+		}
+	}
+	provinces={
+		15896 15907 15906 10749 1043 15905
+	}
+	manpower=23536
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

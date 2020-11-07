@@ -1,0 +1,27 @@
+state={
+	id=1163
+	name="Bechar"
+	history = {
+		owner = ALG
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 0
+		}
+
+		add_core_of = ALG
+		victory_points = {
+			15889 15
+		}
+		victory_points = {
+			10731 5
+		}
+	}
+	provinces={
+		10731 15889 15890 15897 12711 15898
+	}
+	manpower=23536
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

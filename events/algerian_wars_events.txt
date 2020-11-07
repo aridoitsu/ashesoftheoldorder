@@ -1,0 +1,106 @@
+add_namespace = algerian_wars
+add_namespace = algeria
+add_namespace = tunisia
+add_namespace = libya
+
+country_event = {
+    id = algerian_wars.1
+    title = algerian_wars.1.t
+    desc = algerian_wars.1.d
+    picture = GFX_report_event_election_vote
+    
+	trigger = {
+		NOT = { has_country_flag = algeria_civil_war }
+		date > 2018.6.5
+	}
+
+    option = {
+		name = algerian_wars.1.a
+		ai_chance = { base = 100 }
+		set_country_flag = algeria_civil_war
+		start_civil_war = {
+			ideology = fascism
+			size = 0.3
+			capital = 1167
+			states = { 
+				1167 1166 514 
+			}
+		}
+    }
+}
+
+# Growing Tensions Between Algeria and Tunisia + Libya
+country_event = {
+    id = algeria.1
+    title = algeria.1.t
+    desc = algeria.1.d
+    picture = GFX_report_event_election_vote
+    
+	trigger = {
+		has_country_flag = algeria_civil_war
+		has_civil_war = no
+		NOT = { has_country_flag = algeria_angered }
+		NOT = { has_country_flag = algeria_not_angered }
+	}
+
+    option = {
+		name = algeria.1.a
+		ai_chance = { base = 100 }
+		set_country_flag = algeria_angered
+		ALG = { country_event = { id = algeria.2 days = 7 } }
+    }
+
+
+    option = {
+		name = algeria.1.b
+		ai_chance = { base = 0 }
+		set_country_flag = algeria_not_angered
+    }
+}
+
+# The Algerian Wars Start
+country_event = {
+    id = algeria.2
+    title = algeria.2.t
+    desc = algeria.2.d
+    picture = GFX_report_event_election_vote
+    is_triggered_only = yes
+
+    option = {
+		name = algeria.2.a
+		ai_chance = { base = 100 }
+		ALG = { 
+			declare_war_on = {
+				target = TUN 
+				type = algerian_wars
+			}
+		}
+		ALG = {
+			declare_war_on = {
+				target = LBA 
+				type = algerian_wars
+			}
+		}
+		LBA = {
+			create_faction = ANTI_ALGERIAN_PACT
+			add_to_faction = TUN
+		}
+		ALG = {
+			country_event = algeria.3
+		}
+    }
+}
+
+# Anti-Algerian Pact
+country_event = {
+    id = algeria.3
+    title = algeria.3.t
+    desc = algeria.3.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = algeria.3.a
+		ai_chance = { base = 100 }
+    }
+}

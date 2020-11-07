@@ -1,0 +1,28 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { tag = ALG }
+					ROOT = { tag = D01 }
+				}
+				
+				ROOT = {
+					white_peace = FROM
+				}
+				
+			}
+			if = {
+				limit = {
+					FROM = { tag = LIB }
+					ROOT = { tag = ALG }
+				}
+				
+				ROOT = {
+					white_peace = FROM
+				}
+				
+			}
+		}
+	}
+}

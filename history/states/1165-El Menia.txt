@@ -1,0 +1,24 @@
+state={
+	id=1165
+	name="El Menia"
+	history = {
+		owner = ALG
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+		}
+
+		add_core_of = ALG
+		victory_points = {
+			15900 5
+		}
+	}
+	provinces={
+		15900 1095 15902 15901
+	}
+	manpower=23536
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}
