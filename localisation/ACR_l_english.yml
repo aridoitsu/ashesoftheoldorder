@@ -19,7 +19,11 @@
  ACR_Memories_of_Old_Times:0 "Memories of Old Times"
  ACR_For_Dixie:0 "For Dixie!"
  #spirits
-
+ CON_Ruined_Nation:0 "Ruined Nation"
+ CON_Martial_Law:0 "Martial Law"
+ CON_Legacy_of_the_US:"Legacy of the United States"
+ CON_Separate_But_Equal:0 "Seperate But Equal"
+ CON_Divided_Cabinet:0 "Divided Cabinet"
  #custom tooltips
  
  #decisions 
