@@ -2459,4 +2459,49 @@ spriteTypes = {
 		name = "GFX_NYN_focus_the_american_dream"
 		texturefile = "gfx/interface/goals/NYN_focus_the_american_dream.dds"
 	}
+	
+	SpriteType = { 
+		name = "President_Cottons_State_of_The_Union"
+		texturefile = "gfx/interface/goals/ACR_focus_president_cottons_sotu.dds"
+	}
+	
+	SpriteType = { 
+		name = "Reappropriate_Civilian_Weaponry"
+		texturefile = "gfx/interface/goals/ACR_focus_reappropriate_civilian_weaponry.dds"
+	}
+	
+	SpriteType = { 
+		name = "Mobilize_the_Militia"
+		texturefile = "gfx/interface/goals/ACR_focus_mobilize_the_militia.dds"
+	}
+	
+	SpriteType = { 
+		name = "Rally_the_Remenants"
+		texturefile = "gfx/interface/goals/ACR_focus_rally_the_remnants.dds"
+	}
+	
+	SpriteType = { 
+		name = "The_Enemy"
+		texturefile = "gfx/interface/goals/ACR_focus_the_enemy.dds"
+	}
+	
+	SpriteType = { 
+		name = "Purge_the_Enemy"
+		texturefile = "gfx/interface/goals/ACR_focus_purge_the_enemy.dds"
+	}
+	
+	SpriteType = { 
+		name = "Close_The_Borders"
+		texturefile = "gfx/interface/goals/ACR_focus_close_the_borders.dds"
+	}
+	
+	SpriteType = { 
+		name = "Act_B113"
+		texturefile = "gfx/interface/goals/ACR_focus_act_b113.dds"
+	}
+	
+	SpriteType = { 
+		name = "Hail_to_the_Chief"
+		texturefile = "gfx/interface/goals/ACR_focus_hail_to_the_chief.dds"
+	}
 }
