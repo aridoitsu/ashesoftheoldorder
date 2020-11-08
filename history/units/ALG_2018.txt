@@ -1,0 +1,75 @@
+division_template = {
+	name = "Algerian Infantry Company"				
+
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		
+	}
+	support = {
+        
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Algerian Militia"				
+
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	#1st
+	division = {
+		name = "1st (Algiers) Algerian Infantry Company"
+		location = 1145
+		division_template = "Algerian Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	#2nd
+	division = {
+		name = "2nd (Constantine) Algerian Infantry Company"
+		location = 12051
+		division_template = "Algerian Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	#3rd
+	division = {
+		name = "3rd (Oran) Algerian Infantry Company"
+		location = 7132
+		division_template = "Algerian Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	#Militia
+	division = {
+		name = "4th (Bechar) Algerian Militia Company"
+		location = 15889
+		division_template = "Algerian Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "5th (Hassi Messaoud) Algerian Militia Company"
+		location = 15906
+		division_template = "Algerian Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+}

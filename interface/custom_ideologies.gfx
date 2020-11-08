@@ -2,11 +2,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_liberal_group"
 		texturefile = "gfx//interface//ideologies//liberal_group.dds"
-		}
+	}
 		
 	spriteType = {
 		name = "GFX_ideology_totalsoc_group"
 		texturefile = "gfx//interface//ideologies//totalsoc_group.dds"
-		}
-	
 	}
+	
+	spriteType = {
+		name = "GFX_ideology_authdem_group"
+		texturefile = "gfx//interface//ideologies//authdem_group.dds"
+	}
+}

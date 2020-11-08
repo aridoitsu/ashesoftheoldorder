@@ -4,24 +4,31 @@ on_actions = {
 			if = {
 				limit = {
 					FROM = { tag = ALG }
-					ROOT = { tag = D01 }
+					ROOT = { tag = ISA }
 				}
 				
 				ROOT = {
 					white_peace = FROM
+				}
+				FROM = {
+					annex = ISA
+					set_country_flag = islamists_defeated
 				}
 				
 			}
 			if = {
 				limit = {
-					FROM = { tag = LIB }
-					ROOT = { tag = ALG }
+					FROM = { tag = ALG }
+					ROOT = { tag = TRA }
 				}
 				
 				ROOT = {
 					white_peace = FROM
 				}
-				
+				FROM = {
+					annex = TRA
+					set_country_flag = republic_defeated
+				}
 			}
 		}
 	}

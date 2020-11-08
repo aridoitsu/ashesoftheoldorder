@@ -1,0 +1,124 @@
+division_template = {
+	name = "Algerian Motorized Company"				
+
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		
+	}
+	support = {
+        
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Algerian Militia Company"				
+
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	#1st
+	division = {
+		name = "Algerian Motorized Company"
+		location = 15889
+		division_template = "Algerian Motorized Company"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	#2nd
+	division = {
+		name = "Algerian Motorized Company"
+		location = 15889
+		division_template = "Algerian Motorized Company"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	#3rd
+	division = {
+		name = "Algerian Motorized Company"
+		location = 15899
+		division_template = "Algerian Motorized Company"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	#Militia
+	division = {
+		name = "Algerian Militia Company"
+		location = 15908
+		division_template = "Algerian Militia Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Algerian Militia Company"
+		location = 1958
+		division_template = "Algerian Militia Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Algerian Militia Company"
+		location = 15900
+		division_template = "Algerian Militia Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Algerian Militia Company"
+		location = 15890
+		division_template = "Algerian Militia Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Algerian Militia Company"
+		location = 15908
+		division_template = "Algerian Militia Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Algerian Militia Company"
+		location = 1958
+		division_template = "Algerian Militia Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Algerian Militia Company"
+		location = 15900
+		division_template = "Algerian Militia Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Algerian Militia Company"
+		location = 15890
+		division_template = "Algerian Militia Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Algerian Militia Company"
+		location = 15900
+		division_template = "Algerian Militia Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+}

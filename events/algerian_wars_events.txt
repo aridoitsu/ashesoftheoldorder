@@ -18,12 +18,36 @@ country_event = {
 		name = algerian_wars.1.a
 		ai_chance = { base = 100 }
 		set_country_flag = algeria_civil_war
-		start_civil_war = {
-			ideology = fascism
-			size = 0.3
-			capital = 1167
-			states = { 
-				1167 1166 514 
+		
+		ISA = {
+			transfer_state = 1167
+			transfer_state = 1166
+			transfer_state = 514
+			load_oob = ISA_CIVIL_WAR
+		}
+		
+		TRA = {
+			transfer_state = 1162
+			transfer_state = 1163
+			transfer_state = 1164
+			transfer_state = 1165
+			load_oob = TRA_CIVIL_WAR
+		}
+		
+		ALG = {
+			declare_war_on = {
+				target = ISA
+				type = civil_war
+			}
+			declare_war_on = {
+				target = TRA
+				type = civil_war
+			}
+		}
+		ISA = {
+			declare_war_on = {
+				target = TRA
+				type = civil_war
 			}
 		}
     }
@@ -38,7 +62,8 @@ country_event = {
     
 	trigger = {
 		has_country_flag = algeria_civil_war
-		has_civil_war = no
+		has_country_flag = republic_defeated
+		has_country_flag = islamists_defeated
 		NOT = { has_country_flag = algeria_angered }
 		NOT = { has_country_flag = algeria_not_angered }
 	}
