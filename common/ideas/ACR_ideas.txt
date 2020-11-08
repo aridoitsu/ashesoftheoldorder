@@ -1,7 +1,7 @@
 ideas = {
 	country = {
-		GFX_idea_CON_Ruined_Nation = {
-			picture = CON_Ruined_Nation
+		CON_Ruined_Nation = {
+			picture = GFX_idea_CON_Ruined_Nation
 			allowed_civil_war = {
 				always = yes
 			}
