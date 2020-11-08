@@ -147,6 +147,9 @@ NYN_leftist_resistance = {
 			}	
 		visible = {
 			tag = NYN
+			NOT = {
+				has_country_flag = NYN_oh_god_oh_fuck OR = NYN_neoliberal_success
+				}
 			}
 		days_mission_timeout = 340
 		fire_only_once = yes
@@ -162,7 +165,12 @@ NYN_leftist_resistance = {
 		available = {
 			has_completed_focus = NYN_another_day_another_riot
 			}
-		visible = { has_completed_focus = NYN_another_day_another_riot }
+		visible = {
+			has_completed_focus = NYN_another_day_another_riot 
+			NOT = {
+				has_country_flag = NYN_oh_god_oh_fuck OR = NYN_neoliberal_success
+				}
+			}
 		days_re_enable = 0
 		cost = 20
 		days_remove = 20
@@ -189,7 +197,12 @@ NYN_leftist_resistance = {
 		available = {
 			has_completed_focus = NYN_another_day_another_riot
 			}
-		visible = { has_completed_focus = NYN_another_day_another_riot }
+		visible = { 
+			has_completed_focus = NYN_another_day_another_riot 
+			NOT = {
+				has_country_flag = NYN_oh_god_oh_fuck OR = NYN_neoliberal_success
+				}
+			}
 		days_re_enable = 0
 		cost = 20
 		days_remove = 20
