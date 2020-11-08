@@ -3793,19 +3793,17 @@
    INI_democratic_ADJ:0 "Indianian"
    INI_prodem_ADJ:0 "Indianian"
 
-   DET_liberal:0 "Michigan"
-   DET_liberal_DEF:0 "Michigan"
-   DET_democratic:0 "Michigan"
-   DET_democratic_DEF:0 "Michigan"
-   DET_prodem:0 "Michigan"
-   DET_prodem_DEF:0 "Michigan"
-   DET_neutrality:0 "Michigan"
-   DET_neutrality_DEF:0 "Michigan"
-   ###############################
-   DET_neutrality_ADJ:0 "Michiganian"
-   DET_liberal_ADJ:0 "Michiganian"
-   DET_democratic_ADJ:0 "Michiganian"
-   DET_prodem_ADJ:0 "Michiganian"
+   MCH:0 "Michigan"
+   MCH_DEF:0 "Michigan"
+   MCH_ADJ:0 "Michiganian"
+
+   LSG:0 "Lansing"
+   LSG_DEF:0 "Lansing"
+   LSG_ADJ:0 "Lansingese"
+
+   DET:0 "Detroit"
+   DET_DEF:0 "Detroit"
+   DET_ADJ:0 "Detroitian"
 
    OHO_liberal:0 "Chungusland"
    OHO_liberal_DEF:0 "Chungusland"
@@ -4225,9 +4223,9 @@
     VIN:0 "Vietnam"
     VIN_DEF:0 "Vietnam"
     VIN_ADJ:0 "Vietnamese"
-    
+
     #####################################
-    
+
  ISA_fascism:1 "Islamist State of Algeria"
  ISA_fascism_DEF:1 "Islamist State of Algeria"
  ISA_democratic:1 "Islamist State of Algeria"
@@ -4243,7 +4241,7 @@
  ISA:0 "Islamist State of Algeria"
  ISA_DEF:0 "Islamist State of Algeria"
  ISA_ADJ:0 "Algerian"
- 
+
  TRA_fascism:1 "Algerian Republic"
  TRA_fascism_DEF:1 "Algerian Republic"
  TRA_democratic:1 "Algerian Republic"
