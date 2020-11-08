@@ -31,7 +31,7 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				democratic_drift = 0.01
+				authdem_drift = 0.01
 				liberal_drift = 0.01
 				}
 			}
@@ -42,7 +42,6 @@ ideas = {
 			}
 			modifier = {
 				fascism_drift = 0.02
-				ultranationalism _drift = 0.01
 				stability_factor = -0.10
 				conscription_factor = -0.25
 				}
