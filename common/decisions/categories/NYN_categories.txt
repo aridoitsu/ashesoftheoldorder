@@ -20,10 +20,14 @@ NYN_leftist_resistance = {
 			}
 		}
 }
+
 NYN_reconstruction = {
 	icon = generic_research
 	allowed = {
-		original_tag = NYN OR = AHR
+		OR = {
+			original_tag = NYN
+			original_tag = AHR
+			}
 	}
 	visible = {
 		OR = {
