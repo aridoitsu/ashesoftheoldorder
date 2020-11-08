@@ -81,11 +81,23 @@ country_event = {
 		option = {
 			name = albany.6.a
 			ai_chance = { base = 50 }
+			
+			custom_effect_tooltip = albany.6.tt
+			add_to_variable = {
+				var = NYN_leftist_org
+				value = -10
+				}
+			add_to_variable = {
+				var = NYN_leftist_mil_gain
+				value = 1
+				}
 		}
 		
 		option = {
 			name = albany.6.b
 			ai_chance = { base = 50 }
+			
+			
 		}
 	}
 	

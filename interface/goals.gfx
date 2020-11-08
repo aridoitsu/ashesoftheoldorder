@@ -2504,4 +2504,29 @@ spriteTypes = {
 		name = "Hail_to_the_Chief"
 		texturefile = "gfx/interface/goals/ACR_focus_hail_to_the_chief.dds"
 	}
+	
+	SpriteType = { 
+		name = "Establish_Harsh_Rationing"
+		texturefile = "gfx/interface/goals/ACR_focus_establish_harsh_rationing.dds"
+	}
+	
+	SpriteType = { 
+		name = "Evacuate_Border_Cities"
+		texturefile = "gfx/interface/goals/ACR_focus_evacuate_border_cities.dds"
+	}
+	
+	SpriteType = { 
+		name = "Memories_of_Old_Times"
+		texturefile = "gfx/interface/goals/ACR_focus_memories_of_old_times.dds"
+	}
+	
+	SpriteType = { 
+		name = "Establish_the_Emergency_Council"
+		texturefile = "gfx/interface/goals/ACR_focus_establish_the_emergency_council.dds"
+	}
+	
+	SpriteType = { 
+		name = "Military_Industrial_Complex_Investments"
+		texturefile = "gfx/interface/goals/ACR_focus_military_industrial_complex_investments.dds"
+	}
 }
