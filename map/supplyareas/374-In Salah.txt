@@ -1,0 +1,8 @@
+supply_area={
+	id=374
+	name="In Salah"
+	value=12
+	states={
+		1166 
+	}
+}

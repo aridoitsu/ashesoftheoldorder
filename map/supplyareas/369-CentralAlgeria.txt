@@ -1,0 +1,8 @@
+supply_area={
+	id=369
+	name="Central Algeria"
+	value=36
+	states={
+		1161 
+	}
+}

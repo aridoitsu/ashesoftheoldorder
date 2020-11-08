@@ -1,0 +1,114 @@
+division_template = {
+	name = "Libyan Infantry Company"				
+
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		
+	}
+	support = {
+        
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Libyan Militia"				
+
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Libyan Infantry Company"
+		location = 10884
+		division_template = "Libyan Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Libyan Infantry Company"
+		location = 5004
+		division_template = "Libyan Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Libyan Infantry Company"
+		location = 12039
+		division_template = "Libyan Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Libyan Infantry Company"
+		location = 12039
+		division_template = "Libyan Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Libyan Infantry Company"
+		location = 7154
+		division_template = "Libyan Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	#Militia
+	division = {
+		name = "Libyan Militia Company"
+		location = 10067
+		division_template = "Libyan Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Libyan Militia Company"
+		location = 10067
+		division_template = "Libyan Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Libyan Militia Company"
+		location = 10884
+		division_template = "Libyan Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Libyan Militia Company"
+		location = 10067
+		division_template = "Libyan Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Libyan Militia Company"
+		location = 5004
+		division_template = "Libyan Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Libyan Militia Company"
+		location = 12039
+		division_template = "Libyan Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+}

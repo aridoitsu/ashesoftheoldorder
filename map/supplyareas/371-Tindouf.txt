@@ -1,0 +1,8 @@
+supply_area={
+	id=371
+	name="Tindouf"
+	value=12
+	states={
+		1162 
+	}
+}

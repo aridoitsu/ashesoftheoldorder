@@ -1,0 +1,89 @@
+division_template = {
+	name = "Tunisian Infantry Company"				
+
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		
+	}
+	support = {
+        
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Tunisian Militia"				
+
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	#1st
+	division = {
+		name = "Tunisian Infantry Company"
+		location = 4163
+		division_template = "Tunisian Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	#2nd
+	division = {
+		name = "Tunisian Infantry Company"
+		location = 1046
+		division_template = "Tunisian Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	#3rd
+	division = {
+		name = "Tunisian Infantry Company"
+		location = 4061
+		division_template = "Tunisian Infantry Company"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	#Militia
+	division = {
+		name = "Tunisian Militia Company"
+		location = 11935
+		division_template = "Tunisian Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Tunisian Militia Company"
+		location = 3987
+		division_template = "Tunisian Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Tunisian Militia Company"
+		location = 9983
+		division_template = "Tunisian Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Tunisian Militia Company"
+		location = 4992
+		division_template = "Tunisian Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+}

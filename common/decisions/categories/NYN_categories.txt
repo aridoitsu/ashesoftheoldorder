@@ -11,6 +11,11 @@ NYN_leftist_resistance = {
 	allowed = {
 		original_tag = NYN
 	}
+	visible = {
+		NOT = {
+			has_country_flag = NYN_oh_god_oh_fuck OR = NYN_neoliberal_success
+			}
+		}
 }
 
 NYN_reconstruction = {

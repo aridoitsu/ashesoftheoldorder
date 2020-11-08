@@ -1,0 +1,8 @@
+supply_area={
+	id=370
+	name="Bechar"
+	value=24
+	states={
+		1163 
+	}
+}
