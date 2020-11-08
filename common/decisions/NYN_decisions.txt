@@ -251,7 +251,7 @@ NYN_reconstruction = {
 				}
 			}
 		cost = 100
-		days_remove = 1
+		days_remove = 90
 		remove_effect = {
 			if = {
 				limit = { has_idea = NYN_the_ashes_of_our_city }
