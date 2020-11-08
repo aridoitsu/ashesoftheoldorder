@@ -1,0 +1,64 @@
+NYN_our_fate = {
+	if = {
+		limit = { 
+				check_variable = {
+					NYN_leftist_org > 49
+					}
+				check_variable = {
+					NYN_leftist_mil > 49
+					}
+			}
+		set_country_flag = NYN_oh_god_oh_fuck
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = NYN_this_isnt_working
+		country_event = { id = albany.16 days = 30 }
+		}
+	else_if = {
+		limit = { 
+				check_variable = {
+					NYN_leftist_org < 50
+					}
+				check_variable = {
+					NYN_leftist_mil < 50
+					}
+			}
+		set_country_flag = NYN_neoliberal_success
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = NYN_the_american_dream
+		remove_ideas = NYN_unpopular_government
+		}
+	else_if = {
+		limit = { 
+				check_variable = {
+					NYN_leftist_org < 50
+					}
+				check_variable = {
+					NYN_leftist_mil > 49
+					}
+			}
+		set_country_flag = NYN_neoliberal_success
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = NYN_the_american_dream
+		swap_ideas = {
+			remove_idea = NYN_unpopular_government
+			add_idea = NYN_the_troubles
+			}
+		}
+	else_if = {
+		limit = { 
+				check_variable = {
+					NYN_leftist_org > 49
+					}
+				check_variable = {
+					NYN_leftist_mil < 50
+					}
+			}
+		set_country_flag = NYN_neoliberal_success
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = NYN_the_american_dream
+		swap_ideas = {
+			remove_idea = NYN_unpopular_government
+			add_idea = NYN_powerful_unions
+			}
+		}
+	}

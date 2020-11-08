@@ -212,6 +212,78 @@ NYN_leftist_resistance = {
 		
 
 		}
+	NYN_add_poconos_as_core = {
+		available = {
+			has_completed_focus = NYN_dealing_with_the_germans
+			1076 = {
+				NOT = {
+					is_core_of = NYN
+					}
+				}
+			}
+		visible = {
+			1076 = {
+				is_owned_by = NYN
+				NOT = {
+					is_core_of = NYN
+					}
+				}
+			}
+		fire_only_once = yes
+		cost = 0
+		complete_effect = {
+			1076 = {
+				add_core_of = NYN
+				}
+			}
+		}
+	}
+	
+NYN_reconstruction = {
+	NYN_start_the_reconstruction_of_albany = {
+		available = {
+			has_completed_focus = NYN_another_day_another_dollar
+			}
+		visible = { 
+			has_completed_focus = NYN_another_day_another_dollar 
+			NOT = {
+				has_idea = NYN_our_city_restored
+				}
+			}
+		cost = 100
+		days_remove = 1
+		remove_effect = {
+			if = {
+				limit = { has_idea = NYN_the_ashes_of_our_city }
+				swap_ideas = {
+					remove_idea = NYN_the_ashes_of_our_city
+					add_idea = NYN_the_ashes_of_our_city2
+					}
+				}
+			else_if = {
+				limit = { has_idea = NYN_the_ashes_of_our_city2 }
+				swap_ideas = {
+					remove_idea = NYN_the_ashes_of_our_city2
+					add_idea = NYN_the_ashes_of_our_city3
+					}
+				}
+			else_if = {
+				limit = { has_idea = NYN_the_ashes_of_our_city3 }
+				swap_ideas = {
+					remove_idea = NYN_the_ashes_of_our_city3
+					add_idea = NYN_the_ashes_of_our_city4
+					}
+				}
+			else_if = {
+				limit = { has_idea = NYN_the_ashes_of_our_city4 }
+				swap_ideas = {
+					remove_idea = NYN_the_ashes_of_our_city4
+					add_idea = NYN_our_city_restored
+					}
+				}
+			}
+		
+		}
 	}
 
 

@@ -5614,5 +5614,26 @@ spriteTypes = {
 		name = "GFX_idea_NYN_unpopular_government"
 		texturefile = "gfx/interface/ideas/NYN_idea_unpopular_government.dds"
 	}
+	
+	#this is the only goddamn why i could figure out how to make these spirit icons work
+	spriteType = {
+		name = "GFX_idea_NYN_the_ashes_of_our_city2"
+		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NYN_the_ashes_of_our_city3"
+		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NYN_the_ashes_of_our_city4"
+		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NYN_our_city_restored"
+		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city.dds"
+	}
 
 }

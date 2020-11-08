@@ -188,6 +188,10 @@ continuous_focus_position = { x = 50 y = 2000 }
 				ideology = anarchy
 				popularity = -0.06
 					}
+			add_to_variable = {
+				var = NYN_leftist_mil
+				value = -5
+				}
 		}
 	}
 		#what to do with gun owners?
@@ -224,9 +228,12 @@ continuous_focus_position = { x = 50 y = 2000 }
 			factor = 1
 		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = NYN_pennsylvanian_seperatists
-				add_idea = NYN_seperatist_movement_crushed
+			remove_ideas = NYN_pennsylvanian_seperatists
+			1076 = {
+				if = {
+					limit = { is_core_of = NYN }
+					}
+				else = { add_core_of = NYN }
 				}
 		}
 	}
@@ -250,6 +257,10 @@ continuous_focus_position = { x = 50 y = 2000 }
 				ideology = liberal
 				popularity = 0.06
 					}
+			add_to_variable = {
+				var = NYN_leftist_org
+				value = -5
+				}
 		}
 	}
 		#appeal to corporations

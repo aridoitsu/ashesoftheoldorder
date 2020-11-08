@@ -12,3 +12,10 @@ NYN_leftist_resistance = {
 		original_tag = NYN
 	}
 }
+
+NYN_reconstruction = {
+	icon = generic_research
+	allowed = {
+		original_tag = NYN
+	}
+}

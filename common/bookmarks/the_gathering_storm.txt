@@ -18,9 +18,9 @@ bookmarks = {
 			}
 		}
 
-		"CAL" = {
-			history = "CAL_GATHERING_STORM_DESC"
-			ideology = democratic
+		"ACR" = {
+			history = "ACR_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 				#
 			}
@@ -72,11 +72,13 @@ bookmarks = {
 				#
 			}
 		}
-		"CAN"={
-			history = "CAN_GATHERING_STORM_DESC"
+		"NYN"={
+			history = "NYN_GATHERING_STORM_DESC"
 			ideology = liberal
 			ideas = {
-				#
+				NYN_unpopular_government
+				NYN_pennsylvanian_seperatists
+				NYN_the_ashes_of_our_city
 			}
 			focuses = {
 				

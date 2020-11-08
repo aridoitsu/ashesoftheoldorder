@@ -1,12 +1,14 @@
-﻿capital = 1090
+capital = 1090
 
-oob = "NYN_1936"
+oob = "AHR_1936"
 
 set_research_slots = 3
 
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	motorised_infantry = 1 = 1
+	mechanised_infantry = 1
 	tech_recon = 1
 	tech_support = 1
 	tech_engineers = 1
@@ -49,72 +51,16 @@ set_technology = {
 	fighter1 = 1
 }
 
-set_stability = 0.36
+set_stability = 0.15
 set_war_support = 0.15
 
 set_politics = {
-	ruling_party = liberal
-	last_election = "1932.11.8"
+	ruling_party = libsoc
+	last_election = "2016.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-	NYN_unpopular_government
-	NYN_pennsylvanian_seperatists
-	NYN_the_ashes_of_our_city
-}
-set_popularities = {
-	democratic = 5
-	liberal = 23
-	demsoc = 13
-	prodem = 9
-	communism = 10
-	libsoc = 27
-	anarchy = 13
-}
-######var stuff that i didnt know where to put anywhere else######
-set_variable = {
-	var = NYN_leftist_org
-	value = 0
-	}
 
-set_variable = {
-	var = NYN_leftist_mil
-	value = 0
-	}
-	
-set_variable = {
-	var = NYN_leftist_org_gain
-	value = 0
-	}
-	
-set_variable = {
-	var = NYN_leftist_mil_gain
-	value = 0
-	}
-	
-if = {
-	limit = {
-		has_idea = NYN_unpopular_government
-		}
-		add_to_variable = {
-				var = NYN_leftist_mil
-				value = 40
-				}
-			add_to_variable = {
-				var = NYN_leftist_org
-				value = 40
-				}
-			add_to_variable = {
-				var = NYN_leftist_org_gain
-				value = 1
-				}
-			add_to_variable = {
-				var = NYN_leftist_mil_gain
-				value = 1
-				}
-	}
-###################################################################
 set_party_name = {
     ideology = liberal
     long_name = NYN_liberal_party_long
@@ -157,11 +103,23 @@ set_party_name = {
     name = NYN_libsoc_party_short
 }
 
+add_ideas = {
+	NYN_pennsylvanian_seperatists
+	NYN_the_ashes_of_our_city
+}
+set_popularities = {
+	democratic = 5
+	liberal = 23
+	demsoc = 13
+	prodem = 9
+	communism = 10
+	libsoc = 27
+	anarchy = 13
+}
 create_country_leader = {
-	name = "Andrew Cuomo"
-	desc = "POLITICS_ANDREW_CUOMO_DESC"
-	picture = "Portrait_NYN_Andrew_Cuomo.dds"
+	name = "Julia Salazar"
+	desc = "POLITICS_JULIA_SALAZAR_DESC"
+	picture = "Portrait_AHR_Julia_Salazar.dds"
 	expire = "2040.1.1"
-	ideology = marketlib
-	traits = { figurehead_for_corporations }
+	ideology = leninist
 }

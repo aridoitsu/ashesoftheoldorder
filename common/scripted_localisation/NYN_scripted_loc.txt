@@ -142,5 +142,87 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	name = GetReconstructionState
+	text = {
+		trigger = {
+			has_idea = NYN_the_ashes_of_our_city
+			}
+		localization_key = NYN_reconstruction_1
+		}
+	text = {
+		trigger = {
+			has_idea = NYN_the_ashes_of_our_city2
+			}
+		localization_key = NYN_reconstruction_2
+		}
+	text = {
+		trigger = {
+			has_idea = NYN_the_ashes_of_our_city3
+			}
+		localization_key = NYN_reconstruction_3
+		}
+	text = {
+		trigger = {
+			has_idea = NYN_the_ashes_of_our_city4
+			}
+		localization_key = NYN_reconstruction_4
+		}
+	}
 
-
+defined_text = {
+	name = GetFate
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					NYN_leftist_mil > 49
+					}
+				check_variable = {
+					NYN_leftist_org > 49
+					}
+				}
+			}
+		localization_key = NYN_fate_oh_god
+		}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					NYN_leftist_mil < 50
+					}
+				check_variable = {
+					NYN_leftist_org < 50
+					}
+				}
+			}
+		localization_key = NYN_fate_a_stable_democracy
+		}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					NYN_leftist_mil > 49
+					}
+				check_variable = {
+					NYN_leftist_org < 50
+					}
+				}
+			}
+		localization_key = NYN_fate_the_troubles
+		}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					NYN_leftist_mil < 50
+					}
+				check_variable = {
+					NYN_leftist_org > 49
+					}
+				}
+			}
+		localization_key = NYN_fate_powerful_unions
+		}
+	}
+	

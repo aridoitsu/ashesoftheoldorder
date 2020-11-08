@@ -25,7 +25,11 @@
  #spirits
  NYN_unpopular_government:0 "Unpopular Government"
  NYN_pennsylvanian_seperatists:0 "Pennsylvanian Seperatists"
- NYN_the_ashes_of_our_city:0 "The Ashes of our City"
+ NYN_the_ashes_of_our_city:0 "The Ashes of Our City"
+ NYN_the_ashes_of_our_city2:0 "The Ashes of Our City"
+ NYN_the_ashes_of_our_city3:0 "Our City Reclaimed"
+ NYN_the_ashes_of_our_city4:0 "Our City Reclaimed"
+ NYN_our_city_restored:0 "Our City Restored"
  #custom tooltips
  NYN_leftist_org1_tt:0 "§R+40% Leftist Organization, +40% Leftist Militancy, +1% Weekly Org, +1% Weekly Mil§!"
  NYN_another_day_another_riot_tt:0 "§HAllows decisions to interact with leftist resistance.§!"
@@ -42,8 +46,67 @@
  NYN_the_fate_of_our_nation:0 "The Fate of Our Nation"
  NYN_bust_the_unions:0 "Bust the Unions"
  NYN_send_in_the_boys_in_blue:0 "Send in the Boys in Blue"
+ NYN_start_the_reconstruction_of_albany:0 "[GetReconstructionState]"
+ NYN_reconstruction:0 "Reconstruction"
+ NYN_add_poconos_as_core:0 "Re-Integrate Poconos"
  #events
+ albany.15.t:0 "[GetFate]"
  
+ albany.1.t:0 "Our Mother Thatcher"
+ albany.1.d:0 ""
+ albany.1.a:0 ""
+ 
+ albany.2.t:0 "Our Father Reagan"
+ albany.2.d:0 ""
+ albany.2.a:0 ""
+ 
+ albany.3.t:0 "Our Leader Cuomo"
+ albany.3.d:0 ""
+ albany.3.a:0 ""
+ 
+ albany.4.t:0 "Our People"
+ albany.4.d:0 ""
+ albany.4.a:0 ""
+ 
+ albany.5.t:0 "Another Protest at the Capital"
+ albany.5.d:0 ""
+ albany.5.a:0 ""
+ 
+ albany.6.t:0 "A Proposition from Hochul"
+ albany.6.d:0 ""
+ albany.6.a:0 ""
+ 
+ albany.7.t:0 "The Labour Party Ban"
+ albany.7.d:0 ""
+ albany.7.a:0 ""
+ 
+ albany.8.t:0 "The Community Safety Act"
+ albany.8.d:0 ""
+ albany.8.a:0 ""
+ 
+ albany.9.t:0 "A Meeting With Our Investors"
+ albany.9.d:0 ""
+ albany.9.a:0 ""
+ 
+ albany.10.t:0 "A Worker's Day"
+ albany.10.d:0 ""
+ albany.10.a:0 ""
+ 
+ albany.11.t:0 "A New Startup"
+ albany.11.d:0 ""
+ albany.11.a:0 ""
+ 
+ albany.12.t:0 "Hochul's Tax Plan"
+ albany.12.d:0 ""
+ albany.12.a:0 ""
+ 
+ albany.13.t:0 "Duffy's Tax Plan"
+ albany.13.d:0 ""
+ albany.13.a:0 ""
+ 
+ albany.14.t:0 "The New Deal"
+ albany.14.d:0 ""
+ albany.14.a:0 ""
  #leader descrip
  
  #parties
@@ -84,7 +147,19 @@
  NYN_leftist_org_gain_1:0 "§R+1%/week§!"
  NYN_leftist_org_gain_0:0 "§H0%/week§!"
  NYN_leftist_org_gain_-1:0 "§G-1%/week§!"
- 
+ NYN_reconstruction_1:0 "Start the Reconstruction of Albany"
+ NYN_reconstruction_2:0 "Finish the Starting Reconstruction Efforts"
+ NYN_reconstruction_3:0 "Start the Second Phase of Reconstruction in Albany"
+ NYN_reconstruction_4:0 "End the Reconstruction of Albany"
+ NYN_reconstruction_1_idea:0 "The Ashes of Our City"
+ NYN_reconstruction_3_idea:0 "Our City Reclaimed"
+ NYN_fate_oh_god:0 "Oh God"
+ NYN_fate_a_stable_democracy:0 "A "Stable" Democracy"
+ NYN_fate_the_troubles:0 "The Troubles"
+ NYN_fate_powerful_unions:0 "The Rise of the Unions"
+ NYN_labor_con_0:0 "New Labor Laws"
+ NYN_labor_con_1:0 "The Corporate Labor Plan"
+ NYN_labor_con_2:0 "The Welfare Plan"
  
  
  

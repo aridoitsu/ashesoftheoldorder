@@ -1566,3 +1566,7 @@ ETM = {
 	color = rgb { 94 184 142 }
 	color_ui = rgb { 94 184 142 }
 }
+AHR = {
+	color = rgb{ 240 83 101 }
+	color_ui = rgb{ 240 83 101 }
+}

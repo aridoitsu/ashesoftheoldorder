@@ -1,0 +1,274 @@
+add_namespace = albany
+
+#our mother thatcher
+country_event = {
+	id = albany.1
+		title = albany.1.t
+		desc = albany.1.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.1.a
+			ai_chance = { base = 100 }
+		}
+	}
+	
+#our father reagan
+country_event = {
+	id = albany.2
+		title = albany.2.t
+		desc = albany.2.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.2.a
+			ai_chance = { base = 100 }
+		}
+	}
+
+#our leader cuomo
+country_event = {
+	id = albany.3
+		title = albany.3.t
+		desc = albany.3.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.3.a
+			ai_chance = { base = 100 }
+		}
+	}
+	
+#our people
+country_event = {
+	id = albany.4
+		title = albany.4.t
+		desc = albany.4.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.4.a
+			ai_chance = { base = 100 }
+		}
+	}
+	
+#another day another riot
+country_event = {
+	id = albany.5
+		title = albany.5.t
+		desc = albany.5.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.5.a
+			ai_chance = { base = 100 }
+		}
+	}
+
+#what to do with unions?
+country_event = {
+	id = albany.6
+		title = albany.6.t
+		desc = albany.6.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.6.a
+			ai_chance = { base = 50 }
+		}
+		
+		option = {
+			name = albany.6.b
+			ai_chance = { base = 50 }
+		}
+	}
+	
+#dealing with the socialists
+country_event = {
+	id = albany.7
+		title = albany.7.t
+		desc = albany.7.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.7.a
+			ai_chance = { base = 50 }
+		}
+		
+		option = {
+			name = albany.7.b
+			ai_chance = { base = 50 }
+		}
+	}
+
+#what to do with gun owners?
+country_event = {
+	id = albany.8
+		title = albany.8.t
+		desc = albany.8.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.8.a
+			ai_chance = { base = 50 }
+		}
+		
+		option = {
+			name = albany.8.b
+			ai_chance = { base = 50 }
+		}
+	}
+
+#another day another dollar
+country_event = {
+	id = albany.9
+		title = albany.9.t
+		desc = albany.9.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.9.a
+			ai_chance = { base = 100 }
+		}
+	}
+
+#appeal to corporations
+country_event = {
+	id = albany.10
+		title = albany.10.t
+		desc = albany.10.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.10.a
+			ai_chance = { base = 100 }
+		}
+	}
+	
+#appeal to entrepreneurs
+country_event = {
+	id = albany.11
+		title = albany.11.t
+		desc = albany.11.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.11.a
+			ai_chance = { base = 100 }
+		}
+	}
+
+#a tax haven
+country_event = {
+	id = albany.12
+		title = albany.12.t
+		desc = albany.12.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.12.a
+			ai_chance = { base = 50 }
+		}
+		
+		option = {
+			name = albany.12.b
+			ai_chance = { base = 50 }
+		}
+	}
+
+#for the common man
+country_event = {
+	id = albany.13
+		title = albany.13.t
+		desc = albany.13.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.13.a
+			ai_chance = { base = 50 }
+		}
+		
+		option = {
+			name = albany.13.b
+			ai_chance = { base = 50 }
+		}
+	}
+
+#new labor laws
+country_event = {
+	id = albany.14
+		title = albany.14.t
+		desc = albany.14.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.14.a
+			ai_chance = { base = 50 }
+		}
+		
+		option = {
+			name = albany.14.b
+			ai_chance = { base = 50 }
+		}
+	}
+	
+#the fate of our nation
+country_event = {
+	id = albany.15
+		title = albany.15.t
+		desc = albany.15.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.15.a
+			ai_chance = { base = 100 }
+			
+			NYN_our_fate = yes
+			}
+		}
+#a storm on the capital
+country_event = {
+	id = albany.16
+		title = albany.16.t
+		desc = albany.16.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.16.a
+			ai_chance = { base = 100 }
+			
+			AHR = { transfer_state = 1093 }
+			AHR = { add_state_core = 1093 }
+			AHR = { load_oob = "AHR_1936" }
+			if = {
+				limit = {
+					has_idea = NYN_pennsylvanian_seperatists
+					}
+				PEN = { transfer_state = 1076 }
+				PEN = { add_state_core = 1076 }
+				}
+			AHR = {
+				declare_war_on = {
+					target = NYN 
+					type = annex_everything
+					}
+				}
+			
+		}
+	}

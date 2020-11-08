@@ -1,0 +1,5 @@
+graphical_culture = USA
+graphical_culture_2d = USA
+
+color = rgb{ 240 83 101 }
+color_ui = rgb{ 240 83 101 }
