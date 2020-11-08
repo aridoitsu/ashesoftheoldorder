@@ -1,6 +1,6 @@
 state={
 	id=1052
-	name="Shenendoah"
+	name="Rockbridge"
 	history = {
 		owner = VAV
 		add_core_of = VAV
@@ -13,7 +13,7 @@ state={
 		}
 	}
 	provinces={
-		951 10343 11873 15417
+		951 10343 11873 11888 15417
 	}
 	manpower=130142
 	buildings_max_level_factor=1.000

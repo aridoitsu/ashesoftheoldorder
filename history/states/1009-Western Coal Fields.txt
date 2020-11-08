@@ -1,6 +1,6 @@
 state={
 	id=1009
-	name="Owensboro"
+	name="Daviess"
 	history = {
 		owner = NSH
 		add_core_of = NSH

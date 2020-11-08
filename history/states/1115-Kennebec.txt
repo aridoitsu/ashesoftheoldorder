@@ -1,6 +1,6 @@
 state={
 	id=1115
-	name="Kennebec"
+	name="Greater Augusta Area"
 	manpower = 302745
 	state_category=rural
 	resources={

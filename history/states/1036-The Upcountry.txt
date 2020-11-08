@@ -1,6 +1,6 @@
 state={
 	id=1036
-	name="Afrikan Carolina"
+	name= "Greenville"
 	resources = {
 		steel = 10.000
 	}

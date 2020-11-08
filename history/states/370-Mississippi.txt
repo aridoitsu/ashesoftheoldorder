@@ -1,7 +1,7 @@
 
 state={
 	id=370
-	name="Mississippi"
+	name="DeSoto"
 
 	history = {
 		owner = MIS
@@ -17,6 +17,10 @@ state={
 		add_core_of = MIS
 		victory_points = {
 			7464 5
+		}
+
+		victory_points = {
+			4510 4
 		}
 
 	}

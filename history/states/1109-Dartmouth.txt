@@ -1,6 +1,6 @@
 state={
 	id=1109
-	name="Dartmouth"
+	name="Sullivan"
 	manpower=178694
 	state_category=city
 	resources={

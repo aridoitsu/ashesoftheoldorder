@@ -1,6 +1,6 @@
 state={
 	id=964
-	name="Pine Belt"
+	name="Forrest"
 	resources={
 		oil=5
 		aluminium=5

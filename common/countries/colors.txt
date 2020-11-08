@@ -1442,10 +1442,10 @@ LSG = {
 	color = rgb { 127 130 61 }
 	color_ui = rgb { 127 130 61 }
 }
-MCH = {
-	color = rgb { 125 61 15 }
-	color_ui = rgb { 125 61 15 }
-}
+#MCH = {
+#	color = rgb { 125 61 15 }
+#	color_ui = rgb { 125 61 15 }
+#}
 OHO = {
 	color = rgb { 196 93 93 }
 	color_ui = rgb { 196 93 93 }

@@ -1,6 +1,6 @@
 state={
 	id=1098
-	name="Berkshires"
+	name="Berkshire"
 	manpower = 504713
 	state_category= rural
 	resources={

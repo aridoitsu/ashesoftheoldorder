@@ -1,6 +1,6 @@
 state={
 	id=1081
-	name="Atlantic City"
+	name="Coastal Jersey"
 	manpower=1394031
 	state_category=city
 	resources = {

@@ -1,6 +1,6 @@
 state={
 	id=1047
-	name="Outer Raleigh"
+	name="Haw"
 	history = {
 		owner = CRN
 		add_core_of = CRN
@@ -8,13 +8,16 @@ state={
 			infrastructure = 4
 		}
 		victory_points = {
-			7643 1
+			12054 5
 		}
 		victory_points = {
-			12054 3
+			13659 5
 		}
 		victory_points = {
-			13659 1
+			13653 3
+		}
+		victory_points = {
+			7083 10
 		}
 	}
 	provinces={

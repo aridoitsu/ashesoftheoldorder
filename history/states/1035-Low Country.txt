@@ -1,6 +1,6 @@
 state={
 	id=1035
-	name="Confederate Carolina"
+	name="Colleton"
 	resources = {
 		steel = 27.000
 		oil = 3.000
@@ -12,7 +12,7 @@ state={
 			infrastructure = 3
 		}
 		victory_points = {
-			13543 3
+			13543 1
 		}
 		victory_points = {
 			13545 1

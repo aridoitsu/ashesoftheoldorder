@@ -1,6 +1,6 @@
 state={
 	id=1027
-	name="Florida"
+	name="Lower Florida"
 	resources = {
 		aluminium = 13.000
 		steel = 6.000

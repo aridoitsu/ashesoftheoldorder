@@ -1,6 +1,6 @@
 state={
 	id=1029
-	name="Confederate Georgia"
+	name="Dougherty"
 	history = {
 		owner = ACR
 		add_core_of = ACR

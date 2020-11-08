@@ -1,6 +1,6 @@
 state={
 	id=1111
-	name="Great Woods"
+	name="Coös"
 	manpower=89545
 	state_category=rural
 	resources={

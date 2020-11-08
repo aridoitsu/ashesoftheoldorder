@@ -1,12 +1,15 @@
 state={
 	id=1032
-	name="Upper New Afrika"
+	name="Floyd"
 	history = {
 		owner = NAK
 		add_core_of = NAK
 		add_claim_by = ACR
 		buildings = {
 			infrastructure = 2
+		}
+		victory_points = {
+			968 2
 		}
 	}
 	provinces={

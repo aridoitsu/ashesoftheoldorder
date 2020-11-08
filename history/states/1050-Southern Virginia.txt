@@ -1,6 +1,6 @@
 state={
 	id=1050
-	name="Appalachian Viginia"
+	name="Roanoke"
 	history = {
 		owner = APP
 		add_core_of = APP

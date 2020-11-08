@@ -1051,6 +1051,7 @@
      VICTORY_POINTS_13582:0 "Decatur"
      VICTORY_POINTS_13584:0 "Smyrna"
      VICTORY_POINTS_13586:0 "Sandy Springs"
+     VICTORY_POINTS_968:0 "Rome"
    ##Idaho
      VICTORY_POINTS_14004:0 "Boise"
      VICTORY_POINTS_14019:0 "Caldwell"
@@ -1240,8 +1241,8 @@
    #Boston
      VICTORY_POINTS_13961:0 "Boston"
      VICTORY_POINTS_13964:0 "Salem"
-     VICTORY_POINTS_13969:0 "Malden"
-     VICTORY_POINTS_6732:0 "Watertown"
+     VICTORY_POINTS_13969:0 "Lynn"
+     VICTORY_POINTS_6732:0 "Waltham"
      VICTORY_POINTS_13960:0 "Newton"
    #Michigan
    #Detroit
@@ -1279,6 +1280,7 @@
      VICTORY_POINTS_7668:0 "Biloxi"
      VICTORY_POINTS_4464:0 "Gulfport"
      VICTORY_POINTS_7464:0 "Southaven"
+     VICTORY_POINTS_4510:0 "Greenville"
      VICTORY_POINTS_1615:0 "Hattiesburg"
      VICTORY_POINTS_12429:0 "Meridian"
      VICTORY_POINTS_10753:0 "Tupelo"
@@ -1412,11 +1414,12 @@
    #Raleigh
      VICTORY_POINTS_13660:0 "Raleigh"
      VICTORY_POINTS_13655:0 "Zebulon"
-     VICTORY_POINTS_13653:0 "Cary"
+     VICTORY_POINTS_13653:0 "Burlington"
      VICTORY_POINTS_13659:0 "Durham"
      VICTORY_POINTS_13660:0 "Leesville"
      VICTORY_POINTS_13661:0 "Wake Forest"
      VICTORY_POINTS_13667:0 "Creedmoor"
+     VICTORY_POINTS_7083:0 "Greensboro"
    #Charlotte
      VICTORY_POINTS_13632:0 "Charlotte"
      VICTORY_POINTS_13645:0 "North Charlotte"
@@ -1447,15 +1450,19 @@
    ##Ohio
      VICTORY_POINTS_13925:0 "Toledo"
      VICTORY_POINTS_3685:0 "Sandusky"
+     VICTORY_POINTS_11791:0 "Lima"
      VICTORY_POINTS_6874:0 "Akron"
      VICTORY_POINTS_4442:0 "Youngstown"
      VICTORY_POINTS_11776:0 "Dayton"
      VICTORY_POINTS_4601:0 "Cincinnati"
+     VICTORY_POINTS_9825:0 "Huron"
    #Columbus
      VICTORY_POINTS_13850:0 "Columbus"
      VICTORY_POINTS_13862:0 "Westerville"
      VICTORY_POINTS_13854:0 "Gahanna"
      VICTORY_POINTS_13843:0 "Grove City"
+     VICTORY_POINTS_13844:0 "Reynoldsburg"
+     VICTORY_POINTS_9760:0 "Athens"
 
    ##Ontario
      VICTORY_POINTS_14024:0 "Toronto"
@@ -1523,7 +1530,7 @@
      VICTORY_POINTS_13556:0 "North Charleston"
      VICTORY_POINTS_13546:0 "Mount Pleasant"
      VICTORY_POINTS_13543:0 "James Island"
-     VICTORY_POINTS_13545:0 "West Ashley"
+     VICTORY_POINTS_13545:0 "Summerville"
      VICTORY_POINTS_13558:0 "Wando"
    ##South Dakota
      VICTORY_POINTS_1875:0 "Pierre"

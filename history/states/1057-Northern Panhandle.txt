@@ -1,6 +1,6 @@
 state={
 	id=1057
-	name="Clarksburg"
+	name="Kanawha"
 	resources = {
 		steel = 21.000
 	}
@@ -15,7 +15,7 @@ state={
 			3975 3
 		}
 		victory_points = {
-			801 3
+			801 1
 		}
 	}
 	provinces={

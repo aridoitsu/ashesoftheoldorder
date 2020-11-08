@@ -1,6 +1,6 @@
 state={
 	id=1064
-	name="Youngstown"
+	name="Summits"
 	history = {
 		owner = PIT
 		add_core_of = PIT
@@ -8,10 +8,10 @@ state={
 			infrastructure = 4
 		}
 		victory_points = {
-			4442 3
+			4442 1
 		}
 		victory_points = {
-			6874 1
+			6874 3
 		}
 	}
 	provinces={

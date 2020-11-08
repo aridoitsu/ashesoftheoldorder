@@ -1,6 +1,6 @@
 state={
 	id=1093
-	name="Upstate"
+	name="Herkimer"
 	manpower=234901
 	state_category = rural
 	resources={

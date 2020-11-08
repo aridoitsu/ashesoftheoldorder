@@ -1,7 +1,7 @@
 
 state={
 	id=369
-	name="Frankfort"
+	name="Kentucky"
 	resources={
 		oil=30.000
 		steel=40.000

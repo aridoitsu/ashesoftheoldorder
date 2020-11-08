@@ -1,6 +1,6 @@
 state={
 	id=1042
-	name="Afrikan Mountains"
+	name="Lower Appalachian Mountains"
 	resources = {
 		chromium = 12.000
 	}

@@ -1,6 +1,6 @@
 state={
 	id=1104
-	name="Two Rivers"
+	name="Rutland"
 	manpower=120545
 	state_category=city
 	resources={

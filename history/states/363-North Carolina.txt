@@ -1,7 +1,7 @@
 
 state={
 	id=363
-	name="Northern Carolina"
+	name="Forsyth"
 	resources = {
 		aluminium = 4.000
 		steel = 23.000
@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = CRN
 		victory_points = {
-			10081 1
+			10081 5
 		}
 
 	}

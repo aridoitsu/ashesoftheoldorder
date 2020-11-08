@@ -1,6 +1,6 @@
 state={
 	id=963
-	name="Gulfport"
+	name="Gulfport-Biloxi Area"
 	history = {
 		owner = ACR
 		add_core_of = ACR

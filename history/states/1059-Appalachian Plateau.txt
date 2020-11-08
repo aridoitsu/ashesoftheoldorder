@@ -1,13 +1,16 @@
 
 state={
 	id=1059
-	name="Appalachian Plateau"
+	name="Wayne Forest"
 	history = {
 		owner = OHO
 		add_core_of = OHO
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
+		}
+		victory_points = {
+			1059 1
 		}
 	}
 	provinces={

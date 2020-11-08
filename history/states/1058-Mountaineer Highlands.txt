@@ -1,6 +1,6 @@
 state={
 	id=1058
-	name="Appalachia"
+	name="Monongahela"
 	resources = {
 		steel = 24.000
 	}

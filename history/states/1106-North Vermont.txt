@@ -1,6 +1,6 @@
 state={
 	id=1106
-	name="North Vermont"
+	name="Orleans"
 	manpower=172432
 	state_category=rural
 

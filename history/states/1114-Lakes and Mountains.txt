@@ -1,6 +1,6 @@
 state={
 	id=1114
-	name="Lakes and Mountains"
+	name="Franklin"
 	manpower = 173985
 	state_category=rural
 	resources={

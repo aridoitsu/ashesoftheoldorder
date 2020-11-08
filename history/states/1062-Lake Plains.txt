@@ -1,6 +1,6 @@
 state={
 	id=1062
-	name="Sandusky"
+	name="Defiance"
 	history = {
 		owner = OHO
 		add_core_of = OHO
@@ -9,6 +9,9 @@ state={
 		}
 		victory_points = {
 			3685 3
+		}
+		victory_points = {
+			11791 2
 		}
 	}
 	provinces={

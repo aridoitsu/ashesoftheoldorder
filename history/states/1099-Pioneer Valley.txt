@@ -1,6 +1,6 @@
 state={
 	id=1099
-	name="Pioneer"
+	name="Worcester"
 	manpower= 543231
 	state_category=rural
 	resources={

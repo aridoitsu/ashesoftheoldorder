@@ -1,6 +1,6 @@
 state={
 	id=1088
-	name="Buffalo"
+	name="Niagra"
 	manpower = 1246908
 	state_category=city
 	resources={

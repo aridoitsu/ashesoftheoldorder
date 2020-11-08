@@ -1,6 +1,6 @@
 state={
 	id=1023
-	name="Confederate Florida"
+	name="Escambia"
 	history = {
 		owner = ACR
 		add_core_of = ACR

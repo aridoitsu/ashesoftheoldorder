@@ -1,6 +1,6 @@
 state={
 	id=1063
-	name="Dayton"
+	name="Cincinatti Metro Area"
 	history = {
 		owner = OHO
 		add_core_of = OHO
@@ -9,7 +9,7 @@ state={
 			industrial_complex = 2
 		}
 		victory_points = {
-			4601 5
+			4601 15
 		}
 		victory_points = {
 			11776 3

@@ -1,6 +1,6 @@
 state={
 	id=1086
-	name="Hudson Valley"
+	name="Dutchess"
 	manpower=969873
 	state_category=town
 	resources={

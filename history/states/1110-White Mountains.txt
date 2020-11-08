@@ -1,6 +1,6 @@
 state={
 	id=1110
-	name="White Mountains"
+	name="Grafton"
 	manpower=159742
 	state_category=rural
 	resources={

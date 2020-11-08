@@ -1,7 +1,7 @@
 
 state={
 	id=368
-	name="Clarksville"
+	name="Barkley"
 	resources={
 		steel=60.000
 	}

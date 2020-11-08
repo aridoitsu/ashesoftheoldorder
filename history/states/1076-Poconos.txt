@@ -1,6 +1,6 @@
 state={
 	id=1076
-	name="Poconos"
+	name="Lehigh"
 	manpower=450129
 	state_category=rural
 	resources={

@@ -1,6 +1,6 @@
 state={
 	id=1051
-	name="Blueridge"
+	name="Greensville"
 	resources = {
 		chromium = 6.000
 	}
@@ -25,7 +25,7 @@ state={
 		}
 	}
 	provinces={
-		3925 10412 11841 9931 788 11738 11888
+		3925 10412 11841 9931 788 11738
 	}
 	manpower=315410
 	buildings_max_level_factor=1.000

@@ -1,6 +1,6 @@
 state={
 	id=1096
-	name="Connecticut"
+	name="New London"
 	manpower = 390713
 	state_category = large_town
 

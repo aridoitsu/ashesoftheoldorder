@@ -1,6 +1,6 @@
 state={
 	id=1102
-	name="Boston"
+	name="Suffolk"
 	manpower = 952773
 	state_category=megalopolis
 	resources={

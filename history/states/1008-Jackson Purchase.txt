@@ -1,6 +1,6 @@
 state={
 	id=1008
-	name="Kentucky Bend"
+	name="Dyer"
 	history = {
 		owner = MIS
 		add_core_of = MIS

@@ -1,6 +1,6 @@
 state={
 	id=1025
-	name="Gainsville"
+	name="Alachua"
 	resources = {
 		oil = 23.000
 	}
