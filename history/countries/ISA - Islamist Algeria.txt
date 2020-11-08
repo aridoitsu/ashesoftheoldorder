@@ -24,7 +24,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Ali Belhadj"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	picture = "gfx/leaders/ISA/ISA_Leader_Ali_Belhadj.dds"
 	ideology = despot
 	traits = {
 		#

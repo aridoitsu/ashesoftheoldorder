@@ -1,58 +1,92 @@
 bookmarks = {
 	bookmark = {
-		name = "OSS_NAME"
-		desc = "OSS_DESC"
-		date = 1936.1.3.12
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2018.1.1.12
 		picture = GFX_select_date_1939
-		default_country = "CAC"
+		default_country = "WDC"
 		default = yes
 
-		"TXT" = {
-			history = "TXT_ONLY_STATES_DESC"
-			ideology = democratic
+		"WDC" = {
+			history = "WDC_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
+
 			}
 			focuses = {
-				
+				#
 			}
 		}
 
-		"CAC" = {
-			history = "CAC_GATHERING_STORM_DESC"
-			ideology = democratic
+		"ACR" = {
+			history = "ACR_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
-				
+				#
 			}
 			focuses = {
-				
+				#
 			}
 		}
 
-		"KSK"={
-			history = "KSK_GATHERING_STORM_DESC"
+
+		"TEX"={
+			history = "TEX_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				#
 			}
 			focuses = {
-				
+				#
 			}
 		}
-
-		"FLF"={
-			history = "USA_GATHERING_STORM_DESC"
+		"PEN"={
+			history = "PEN_GATHERING_STORM_DESC"
+			ideology = authdem
+			ideas = {
+				PEN_the_reconstruction_of_rochester
+				PEN_agrarian_society
+				PEN_paramilitaries
+			}
+			focuses = {
+				#
+			}
+		}
+		"CGO"={
+			history = "CGO_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		"PRV"={
+			history = "PRV_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				#
 			}
 			focuses = {
+				#
+			}
+		}
+		"NYN"={
+			history = "NYN_GATHERING_STORM_DESC"
+			ideology = liberal
+			ideas = {
+				NYN_unpopular_government
+				NYN_pennsylvanian_seperatists
+				NYN_the_ashes_of_our_city
+			}
+			focuses = {
 				
 			}
 		}
-
 
 		"---"={
-			history = "OTHER_ONLY_STATES_DESC"
+			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
 		effect = {
