@@ -12,6 +12,7 @@ country_event = {
 	trigger = {
 		NOT = { has_country_flag = algeria_civil_war }
 		date > 2018.6.5
+		NOT= { date > 2018.7.5 }
 	}
 	
 	fire_only_once = yes

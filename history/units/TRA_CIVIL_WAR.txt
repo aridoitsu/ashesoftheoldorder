@@ -107,18 +107,4 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.9
 	}
-	division = {
-		name = "Algerian Militia Company"
-		location = 15890
-		division_template = "Algerian Militia Company"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
-	}
-	division = {
-		name = "Algerian Militia Company"
-		location = 15900
-		division_template = "Algerian Militia Company"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
-	}
 }
