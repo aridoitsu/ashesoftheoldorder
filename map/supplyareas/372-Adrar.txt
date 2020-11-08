@@ -1,0 +1,8 @@
+supply_area={
+	id=372
+	name="Adrar"
+	value=24
+	states={
+		1164 
+	}
+}

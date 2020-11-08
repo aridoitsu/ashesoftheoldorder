@@ -1,0 +1,62 @@
+﻿l_english:
+ 
+ # OCCUPIED TUNISIA
+ 
+ TUN_OCCUPIED_fascism:1 "Occupied Tunisia"
+ TUN_OCCUPIED_fascism_DEF:1 "Occupied Tunisia"
+ TUN_OCCUPIED_authdem:1 "Occupied Tunisia"
+ TUN_OCCUPIED_authdem_DEF:1 "Occupied Tunisia"
+ TUN_OCCUPIED_democratic:1 "Occupied Tunisia"
+ TUN_OCCUPIED_democratic_DEF:1 "Occupied Tunisia"
+ TUN_OCCUPIED_neutrality:0 "Occupied Tunisia"
+ TUN_OCCUPIED_neutrality_DEF:0 "Occupied Tunisia"
+ TUN_OCCUPIED_communism:1 "Occupied Tunisia"
+ TUN_OCCUPIED_communism_DEF:1 "Occupied Tunisia"
+ TUN_OCCUPIED_fascism_ADJ:1 "Tunisian"
+ TUN_OCCUPIED_democratic_ADJ:0 "Tunisian"
+ TUN_OCCUPIED_neutrality_ADJ:0 "Tunisian"
+ TUN_OCCUPIED_communism_ADJ:0 "Tunisian"
+ TUN_OCCUPIED:0 "Tunisia"
+ TUN_OCCUPIED_DEF:0 "Tunisia"
+ TUN_OCCUPIED_ADJ:0 "Tunisian"
+ 
+ # OCCUPIED LIBYA
+ 
+ LBA_OCCUPIED_fascism:1 "Occupied Libya"
+ LBA_OCCUPIED_fascism_DEF:1 "Occupied Libya"
+ LBA_OCCUPIED_authdem:1 "Occupied Libya"
+ LBA_OCCUPIED_authdem_DEF:1 "Occupied Libya"
+ LBA_OCCUPIED_democratic:1 "Occupied Libya"
+ LBA_OCCUPIED_democratic_DEF:1 "Occupied Libya"
+ LBA_OCCUPIED_neutrality:0 "Occupied Libya"
+ LBA_OCCUPIED_neutrality_DEF:0 "Occupied Libya"
+ LBA_OCCUPIED_communism:1 "Occupied Libya"
+ LBA_OCCUPIED_communism_DEF:1 "Occupied Libya"
+ LBA_OCCUPIED_fascism_ADJ:1 "Libyan"
+ LBA_OCCUPIED_democratic_ADJ:0 "Libyan"
+ LBA_OCCUPIED_neutrality_ADJ:0 "Libyan"
+ LBA_OCCUPIED_communism_ADJ:0 "Libyan"
+ LBA_OCCUPIED:0 "Libya"
+ LBA_OCCUPIED_DEF:0 "Libya"
+ LBA_OCCUPIED_ADJ:0 "Libyan"
+ 
+ # OCCUPIED ALGERIA
+ 
+ ALG_OCCUPIED_fascism:1 "Occupied Algeria"
+ ALG_OCCUPIED_fascism_DEF:1 "Occupied Algeria"
+ ALG_OCCUPIED_authdem:1 "Occupied Algeria"
+ ALG_OCCUPIED_authdem_DEF:1 "Occupied Algeria"
+ ALG_OCCUPIED_democratic:1 "Occupied Algeria"
+ ALG_OCCUPIED_democratic_DEF:1 "Occupied Algeria"
+ ALG_OCCUPIED_neutrality:0 "Occupied Algeria"
+ ALG_OCCUPIED_neutrality_DEF:0 "Occupied Algeria"
+ ALG_OCCUPIED_communism:1 "Occupied Algeria"
+ ALG_OCCUPIED_communism_DEF:1 "Occupied Algeria"
+ ALG_OCCUPIED_fascism_ADJ:1 "Algerian"
+ ALG_OCCUPIED_democratic_ADJ:0 "Algerian"
+ ALG_OCCUPIED_neutrality_ADJ:0 "Algerian"
+ ALG_OCCUPIED_communism_ADJ:0 "Algerian"
+ ALG_OCCUPIED:0 "Algeria"
+ ALG_OCCUPIED_DEF:0 "Algeria"
+ ALG_OCCUPIED_ADJ:0 "Algerian"
+ 

@@ -1,6 +1,10 @@
 on_actions = {
 	on_capitulation = {
 		effect = {
+			
+			### ALGERIAN CIVIL WAR ###
+			
+			# Algeria wins against Islamists
 			if = {
 				limit = {
 					FROM = { tag = ALG }
@@ -11,11 +15,16 @@ on_actions = {
 					white_peace = FROM
 				}
 				FROM = {
-					annex = ISA
+					annex_country = {
+						target = ISA
+						transfer_troops = no
+					}
 					set_country_flag = islamists_defeated
 				}
 				
 			}
+			
+			# Algeria wins against Republic
 			if = {
 				limit = {
 					FROM = { tag = ALG }
@@ -26,8 +35,181 @@ on_actions = {
 					white_peace = FROM
 				}
 				FROM = {
-					annex = TRA
+					annex_country = {
+						target = TRA
+						transfer_troops = no
+					}
 					set_country_flag = republic_defeated
+				}
+			}
+			
+			# Republic wins against Islamists
+			if = {
+				limit = {
+					FROM = { tag = TRA }
+					ROOT = { tag = ISA }
+				}
+				
+				ROOT = {
+					white_peace = FROM
+				}
+				FROM = {
+					annex_country = {
+						target = ISA
+						transfer_troops = no
+					}
+				}
+			}
+			
+			# Islamists wins against Republic
+			if = {
+				limit = {
+					FROM = { tag = ISA }
+					ROOT = { tag = TRA }
+				}
+				
+				ROOT = {
+					white_peace = FROM
+				}
+				FROM = {
+					annex_country = {
+						target = TRA
+						transfer_troops = no
+					}
+				}
+			}
+			
+			# Republic wins against Algeria
+			if = {
+				limit = {
+					FROM = { tag = TRA }
+					ROOT = { tag = ALG }
+				}
+				
+				ROOT = {
+					white_peace = FROM
+				}
+				FROM = {
+					annex_country = {
+						target = ALG
+						transfer_troops = no
+					}
+				}
+			}
+			
+			# Islamists wins against Algeria
+			if = {
+				limit = {
+					FROM = { tag = ISA }
+					ROOT = { tag = ALG }
+				}
+				
+				ROOT = {
+					white_peace = FROM
+				}
+				FROM = {
+					annex_country = {
+						target = ALG
+						transfer_troops = no
+					}
+				}
+			}
+			
+			### ALGERIAN WARS ###
+			
+			# Algeria wins against Tunisia
+			
+			if = {
+				limit = {
+					FROM = { tag = ALG }
+					ROOT = { tag = TUN }
+				}
+				
+				ROOT = {
+					white_peace = FROM
+				}
+				FROM = {
+					puppet = TUN
+					
+				}
+				TUN = {
+					set_cosmetic_tag = TUN_OCCUPIED
+				}
+				if = {
+					limit = {
+						ALG = {
+							NOT = { has_country_flag = Algerian_Faction_Formed }
+						}
+					}
+					ALG = {
+						create_faction = NORTH_AFRICA_PACT
+						add_to_faction = TUN
+						set_country_flag = Algerian_Faction_Formed
+					}
+				}
+				else = {
+					ALG = { add_to_faction = TUN }
+				}
+			}
+			
+			# Algeria wins against Libya
+			
+			if = {
+				limit = {
+					FROM = { tag = ALG }
+					ROOT = { tag = LBA }
+				}
+				
+				ROOT = {
+					white_peace = FROM
+				}
+				FROM = {
+					puppet = LBA
+					
+				}
+				LBA = {
+					set_cosmetic_tag = LBA_OCCUPIED
+				}
+				if = {
+					limit = {
+						ALG = {
+							NOT = { has_country_flag = Algerian_Faction_Formed }
+						}
+					}
+					ALG = {
+						create_faction = NORTH_AFRICA_PACT
+						add_to_faction = LBA
+						set_country_flag = Algerian_Faction_Formed
+					}
+				}
+				else = {
+					ALG = { add_to_faction = LBA }
+				}
+			}
+			
+			# Libya or Tunisia wins against Algeria
+			
+			if = {
+				limit = {
+					OR = {
+						FROM = { tag = LBA }
+						FROM = { tag = TUN }
+					}
+					ROOT = { tag = ALG }
+				}
+				
+				ROOT = {
+					white_peace = LBA
+					white_peace = TUN
+				}
+				LBA = {
+					puppet = ALG
+					dismantle_faction = yes
+					create_faction = TRIPOLI_PACT
+					add_to_faction = TUN
+				}
+				ALG = {
+					set_cosmetic_tag = ALG_OCCUPIED
 				}
 			}
 		}

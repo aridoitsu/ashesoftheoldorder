@@ -13,11 +13,14 @@ country_event = {
 		NOT = { has_country_flag = algeria_civil_war }
 		date > 2018.6.5
 	}
+	
+	fire_only_once = yes
 
     option = {
 		name = algerian_wars.1.a
 		ai_chance = { base = 100 }
 		set_country_flag = algeria_civil_war
+		set_global_flag = algerian_wars_started
 		
 		ISA = {
 			transfer_state = 1167
@@ -43,6 +46,7 @@ country_event = {
 				target = TRA
 				type = civil_war
 			}
+			load_oob = ALG_CIVIL_WAR
 		}
 		ISA = {
 			declare_war_on = {
@@ -67,6 +71,8 @@ country_event = {
 		NOT = { has_country_flag = algeria_angered }
 		NOT = { has_country_flag = algeria_not_angered }
 	}
+	
+	fire_only_once = yes
 
     option = {
 		name = algeria.1.a
@@ -109,6 +115,10 @@ country_event = {
 		LBA = {
 			create_faction = ANTI_ALGERIAN_PACT
 			add_to_faction = TUN
+			load_oob = LBA_ALGERIAN_WARS
+		}
+		TUN = {
+			load_oob = TUN_ALGERIAN_WARS
 		}
 		ALG = {
 			country_event = algeria.3

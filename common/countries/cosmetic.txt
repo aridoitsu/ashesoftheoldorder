@@ -166,3 +166,18 @@ USA = {
   color = rgb { 67 123 237 }
 	color_ui = rgb { 87 160 255 }
 }
+
+TUN_OCCUPIED = {
+	color = rgb { 153 153 102 }
+	color_ui = rgb { 153 153 102 }
+}
+
+LBA_OCCUPIED = {
+	color = rgb { 200 180 90 }
+	color_ui = rgb { 200 180 90 }
+}
+
+ALG_OCCUPIED = {
+	color = rgb { 153 102 51 }
+	color_ui = rgb { 153 102 51 }
+}

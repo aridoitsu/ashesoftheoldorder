@@ -1,0 +1,22 @@
+######################
+# ALGERIAN WARS NEWS #
+######################
+
+add_namespace = algerian_wars_news
+
+news_event = {
+	id = algerian_wars_news.1
+	title = algerian_wars_news.1.t
+	desc = algerian_wars_news.1.desc
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	trigger = {
+		has_global_flag = algerian_wars_started
+	}
+	
+	option = {
+		name = algerian_wars_news.1.a
+	}
+}
