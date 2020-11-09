@@ -35,7 +35,26 @@
  #leader descrip
  
  #parties
-
+ ACR_ultranationalism_party_long:0 "National Republican Party"
+ ACR_ultranationalism_party_short:0 "National Republican Party"
+ 
+ ACR_fascism_party_long:0 "Ku Klux Klan"
+ ACR_fascism_party_short:0 "Ku Klux Klan"
+ 
+ ACR_neutrality_party_long:0 "Republican Party (Cotton Loyalists)"
+ ACR_neutrality_party_short:0 "Republican Party (Cotton Loyalists)"
+ 
+ ACR_authdem_party_long:0 "Republican  Party (Military Loyalists)"
+ ACR_authdem_party_short:0 "Republican  Party (Military Loyalists)"
+ 
+ ACR_democratic_party_long:0 "Republican Party (Reformist Faction)"
+ ACR_democratic_party_short:0 "Republican Party (Reformist Faction)"
+ 
+ ACR_liberal_party_long:0 "Democratic Party"
+ ACR_liberal_party_short:0 "Democratic Party"
+ 
+ ACR_anarchy_party_long:0 "Freedom Party"
+ ACR_anarchy_party_short:0 "Freedom  Party"
  
  #scripted loc
 
