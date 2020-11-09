@@ -1,0 +1,15 @@
+add_namespace = ACR
+
+#tom cotton's SOTU
+country_event = {
+	id = ACR.1
+		title = ACR.1.t
+		desc = ACR.1.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = ACR.1.a
+			ai_chance = { base = 100 }
+		}
+	}
