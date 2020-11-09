@@ -5635,5 +5635,45 @@ spriteTypes = {
 		name = "GFX_idea_NYN_our_city_restored"
 		texturefile = "gfx/interface/ideas/NYN_idea_our_city_restored.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_CON_Divided_Cabinet"
+		texturefile = "gfx/interface/ideas/CON_Divided_Cabinet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CON_Separate_But_Equal"
+		texturefile = "gfx/interface/ideas/CON_Separate_But_Equal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CON_Legacy_of_the_US"
+		texturefile = "gfx/interface/ideas/CON_Legacy_of_the_US.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CON_Martial_Law"
+		texturefile = "gfx/interface/ideas/CON_Martial_Law.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CON_Ruined_Nation"
+		texturefile = "gfx/interface/ideas/CON_Ruined_State.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PEN_paramilitaries"
+		texturefile = "gfx/interface/ideas/PEN_idea_paramilitaries.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PEN_agrarian_society"
+		texturefile = "gfx/interface/ideas/PEN_idea_agrarian_society.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PEN_the_reconstruction_of_rochester"
+		texturefile = "gfx/interface/ideas/PEN_idea_reconstruction_of_rochester.dds"
+	}
 
 }
