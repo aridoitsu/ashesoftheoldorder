@@ -5,7 +5,7 @@ country_event = {
 	id = ACR.1
 		title = ACR.1.t
 		desc = ACR.1.d
-		picture = GFX_event_test
+		picture = event_tom_cotton_sotu
 		is_triggered_only = yes
 
 		option = {
