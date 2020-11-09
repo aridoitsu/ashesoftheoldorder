@@ -5623,17 +5623,17 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_NYN_the_ashes_of_our_city3"
-		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city.dds"
+		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city3.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_NYN_the_ashes_of_our_city4"
-		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city.dds"
+		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city3.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_NYN_our_city_restored"
-		texturefile = "gfx/interface/ideas/NYN_idea_the_ashes_of_our_city.dds"
+		texturefile = "gfx/interface/ideas/NYN_idea_our_city_restored.dds"
 	}
 
 }

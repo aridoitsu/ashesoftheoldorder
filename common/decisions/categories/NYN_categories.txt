@@ -13,7 +13,10 @@ NYN_leftist_resistance = {
 	}
 	visible = {
 		NOT = {
-			has_country_flag = NYN_oh_god_oh_fuck OR = NYN_neoliberal_success
+			OR = {
+				has_country_flag = NYN_oh_god_oh_fuck
+				has_country_flag = NYN_neoliberal_success
+				}
 			}
 		}
 }
@@ -21,6 +24,17 @@ NYN_leftist_resistance = {
 NYN_reconstruction = {
 	icon = generic_research
 	allowed = {
-		original_tag = NYN
+		OR = {
+			original_tag = NYN
+			original_tag = AHR
+			}
 	}
+	visible = {
+		OR = {
+			has_idea = NYN_the_ashes_of_our_city
+			has_idea = NYN_the_ashes_of_our_city2
+			has_idea = NYN_the_ashes_of_our_city3
+			has_idea = NYN_the_ashes_of_our_city4
+			}
+		}
 }
