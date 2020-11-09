@@ -14,11 +14,26 @@ news_event = {
 	
 	major = yes
 	
-	trigger = {
-		has_global_flag = algerian_wars_started
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = algerian_wars_news.1.a
+	}
+}
+
+news_event = {
+	id = algerian_wars_news.2
+	title = algerian_wars_news.2.t
+	desc = algerian_wars_news.2.desc
+	picture = GFX_news_event_001
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = algerian_wars_news.2.a
 	}
 }

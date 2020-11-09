@@ -133,7 +133,7 @@ on_actions = {
 					
 				}
 				TUN = {
-					set_cosmetic_tag = TUN_OCCUPIED
+					country_event = { id = tunisia.1 }
 				}
 				if = {
 					limit = {
@@ -165,10 +165,13 @@ on_actions = {
 				}
 				FROM = {
 					puppet = LBA
-					
+					puppet = TUN
 				}
 				LBA = {
-					set_cosmetic_tag = LBA_OCCUPIED
+					country_event = { id = libya.1 }
+				}
+				TUN = {
+					country_event = { id = tunisia.1 }
 				}
 				if = {
 					limit = {
@@ -179,11 +182,15 @@ on_actions = {
 					ALG = {
 						create_faction = NORTH_AFRICA_PACT
 						add_to_faction = LBA
+						add_to_faction = TUN
 						set_country_flag = Algerian_Faction_Formed
 					}
 				}
 				else = {
-					ALG = { add_to_faction = LBA }
+					ALG = { 
+						add_to_faction = TUN
+						add_to_faction = LBA 
+					}
 				}
 			}
 			
@@ -209,7 +216,7 @@ on_actions = {
 					add_to_faction = TUN
 				}
 				ALG = {
-					set_cosmetic_tag = ALG_OCCUPIED
+					country_event = { id = algeria.3 }
 				}
 			}
 		}

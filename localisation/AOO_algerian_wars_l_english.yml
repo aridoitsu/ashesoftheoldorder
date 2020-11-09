@@ -5,3 +5,9 @@
  algerian_wars_news.1.t:0 "The Algerian Civil War!"
  algerian_wars_news.1.desc:0 "News from North Africa has uncovered an uprising against the current government of Algeria. This uprising started as a group of protesters but has quickly become violent, and turbulent. The Algerian government has sent out a call for aid against the uprisings, the Algerian government is now fighting a two front war, one front against an Islamist Partisan Group centered in Hassi Messaoud, and another front against the newly proclaimed Algerian Republic centered in Bechar. Although the Algerian government currently outnumbers these uprisings, there have been suspicions that many neighbouring countries have been supporting these partisan groups, which may make this an uphill battle for Algeria. In any outcome, there will be blood shed in the deserts of Northern Africa."
  algerian_wars_news.1.a:0 "Algeria is weak, and the weak are always routed out. In time."
+ 
+ #Algerian Wars News Event
+ 
+ algerian_wars_news.1.t:0 "The Algerian Wars"
+ algerian_wars_news.1.desc:0 "Yet again North Africa has erupted into flames after Predsident Abdelmadjid Tebboune of Algeria has accused it's neighbouring countries of Tunisia and Libya of supporting the opposing sides within the recent civil war. It has quickly given the two countries an ultimatum, to which none of them accepted, and in reaction the two countries have formed the Anti-Algerian Pact in an effort to overcome the coming war. This is seen by many as a wise move, but to a few, mainly the men and women of Algeria, this is a threat, and a cowardly one at that. But due to rising tensions, the two sides have declared staes of emergency. And at 8:00 AM Yesterday Morning, they swiftly declared war and started to fight through the sands of the sahara."
+ algerian_wars_news.1.a:0 "Blood once again soaks the sands of the Sahara desert."

@@ -55,6 +55,7 @@ country_event = {
 				type = civil_war
 			}
 		}
+		news_event = { id = algerian_wars_news.1 }
     }
 }
 
@@ -116,14 +117,17 @@ country_event = {
 		LBA = {
 			create_faction = ANTI_ALGERIAN_PACT
 			add_to_faction = TUN
-			load_oob = LBA_ALGERIAN_WARS
+			load_oob = LBA_ALGERIAN_WARS	
+			set_major = yes	
 		}
 		TUN = {
-			load_oob = TUN_ALGERIAN_WARS
+			load_oob = TUN_ALGERIAN_WARS	
+			set_major = yes
 		}
 		ALG = {
 			country_event = algeria.3
 		}
+		news_event = { id = algerian_wars_news.2 }
     }
 }
 
@@ -138,5 +142,116 @@ country_event = {
     option = {
 		name = algeria.3.a
 		ai_chance = { base = 100 }
+    }
+}
+
+
+### 
+
+# Libya New Leader
+country_event = {
+    id = libya.1
+    title = libya.1.t
+    desc = libya.1.d
+    picture = GFX_report_event_election_vote
+    
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+    option = {
+		name = libya.1.a
+		set_cosmetic_tag = LBA_OCCUPIED					
+		set_popularities = {
+			authdem = 19
+			neutrality = 69
+			fascism = 9
+			ultranationalism = 3
+		}
+		set_politics = {
+			ruling_party = neutrality
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Abdelaziz Djerad"
+			desc = "POLITICS_ABDELAZIZ_DJERAD_DESC"
+			picture = "LBA_Leader_Abdelaziz_Djerad.dds"
+			expire = "1965.1.1"
+			ideology = despot
+			traits = {		}
+		}
+		set_major = no
+    }
+}
+
+# Tunisia New Leader
+country_event = {
+    id = tunisia.1
+    title = tunisia.1.t
+    desc = tunisia.1.d
+    picture = GFX_report_event_election_vote
+    
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+    option = {
+		name = tunisia.1.a
+		set_cosmetic_tag = TUN_OCCUPIED					
+		set_popularities = {
+			authdem = 21
+			neutrality = 67
+			fascism = 11
+			ultranationalism = 1
+		}
+		set_politics = {
+			ruling_party = neutrality
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Sabri Boukadoum"
+			desc = "POLITICS_SABRI_BOUKADOUM_DESC"
+			picture = "TUN_Leader_Sabri_Boukadoum.dds"
+			expire = "1965.1.1"
+			ideology = despot
+			traits = {		}
+		}
+		set_major = no
+    }
+}
+
+# Tunisia New Leader
+country_event = {
+    id = algeria.4
+    title = algeria.4.t
+    desc = algeria.4.d
+    picture = GFX_report_event_election_vote
+    
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+    option = {
+		name = algeria.4.a
+		set_cosmetic_tag = ALG_OCCUPIED					
+		set_popularities = {
+			authdem = 32
+			neutrality = 56
+			fascism = 11
+			ultranationalism = 1
+		}
+		set_politics = {
+			ruling_party = neutrality
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Ahmed Maiteeq"
+			desc = "POLITICS_AHMED_MAITEEQ_DESC"
+			picture = "ALG_Leader_Ahmed_Maiteeq.dds"
+			expire = "1965.1.1"
+			ideology = despot
+			traits = {		}
+		}
+		set_major = no
     }
 }

@@ -90,10 +90,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Idris Senussi"
+	name = "Fayez Al-Sarraj"
 	desc = ""
-	picture = "Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
+	picture = "gfx/leaders/LBA/LBA_Leader_Fayez_Al-Sarraj.dds"
+	ideology = despot
 	traits = {
 		#
 	}
