@@ -2529,4 +2529,19 @@ spriteTypes = {
 		name = "Military_Industrial_Complex_Investments"
 		texturefile = "gfx/interface/goals/ACR_focus_military_industrial_complex_investments.dds"
 	}
+	
+	SpriteType = { 
+		name = "Strengthen_The_Blockade"
+		texturefile = "gfx/interface/goals/ACR_focus_strengthen_the_blockade.dds"
+	}
+	
+	SpriteType = { 
+		name = "Project_Neptune"
+		texturefile = "gfx/interface/goals/ACR_focus_project_neptune.dds"
+	}
+	
+	SpriteType = { 
+		name = "For_Dixie"
+		texturefile = "gfx/interface/goals/ACR_focus_for_dixie.dds"
+	}
 }

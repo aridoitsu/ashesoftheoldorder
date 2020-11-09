@@ -82,10 +82,10 @@ country_event = {
 			name = albany.6.a
 			ai_chance = { base = 50 }
 			
-			custom_effect_tooltip = albany.6.tt
+			custom_effect_tooltip = albany.6.a.tt
 			add_to_variable = {
 				var = NYN_leftist_org
-				value = -10
+				value = -15
 				}
 			add_to_variable = {
 				var = NYN_leftist_mil_gain
@@ -97,7 +97,11 @@ country_event = {
 			name = albany.6.b
 			ai_chance = { base = 50 }
 			
-			
+			custom_effect_tooltip = albany.6.b.tt
+			add_to_variable = {
+				var = NYN_leftist_org
+				value = -5
+				}
 		}
 	}
 	
@@ -112,11 +116,23 @@ country_event = {
 		option = {
 			name = albany.7.a
 			ai_chance = { base = 50 }
+			
+			custom_effect_tooltip = albany.7.a.tt
+			add_to_variable = {
+				var = NYN_leftist_org
+				value = -5
+				}
 		}
 		
 		option = {
 			name = albany.7.b
 			ai_chance = { base = 50 }
+			
+			custom_effect_tooltip = albany.7.b.tt
+			add_to_variable = {
+				var = NYN_leftist_mil
+				value = -5
+				}
 		}
 	}
 
@@ -131,11 +147,27 @@ country_event = {
 		option = {
 			name = albany.8.a
 			ai_chance = { base = 50 }
+			
+			custom_effect_tooltip = albany.8.a.tt
+			add_to_variable = {
+				var = NYN_leftist_mil
+				value = -15
+				}
+			add_to_variable = {
+				var = NYN_leftist_mil_gain
+				value = 1
+				}
 		}
 		
 		option = {
 			name = albany.8.b
 			ai_chance = { base = 50 }
+			
+			custom_effect_tooltip = albany.8.b.tt
+			add_to_variable = {
+				var = NYN_leftist_mil
+				value = -5
+				}
 		}
 	}
 
@@ -229,12 +261,7 @@ country_event = {
 
 		option = {
 			name = albany.14.a
-			ai_chance = { base = 50 }
-		}
-		
-		option = {
-			name = albany.14.b
-			ai_chance = { base = 50 }
+			ai_chance = { base = 100 }
 		}
 	}
 	
@@ -265,6 +292,8 @@ country_event = {
 			name = albany.16.a
 			ai_chance = { base = 100 }
 			
+			custom_effect_tooltip = albany.16.a.tt
+			hidden_effect = {
 			AHR = { transfer_state = 1093 }
 			AHR = { add_state_core = 1093 }
 			AHR = { load_oob = "AHR_1936" }
@@ -281,6 +310,6 @@ country_event = {
 					type = annex_everything
 					}
 				}
-			
+			}		
 		}
 	}

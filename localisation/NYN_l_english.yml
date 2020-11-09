@@ -64,7 +64,7 @@
  albany.3.d:0 ""
  albany.3.a:0 ""
  
- albany.4.t:0 ""
+ albany.4.t:0 "Our People"
  albany.4.d:0 ""
  albany.4.a:0 ""
  
@@ -80,10 +80,12 @@
  albany.7.t:0 "The Labour Party Ban"
  albany.7.d:0 ""
  albany.7.a:0 ""
+ albany.7.b:0 ""
  
  albany.8.t:0 "The Community Safety Act"
  albany.8.d:0 ""
  albany.8.a:0 ""
+ albany.8.b:0 ""
  
  albany.9.t:0 "A Meeting With Our Investors"
  albany.9.d:0 ""
@@ -100,14 +102,20 @@
  albany.12.t:0 "Hochul's Tax Plan"
  albany.12.d:0 ""
  albany.12.a:0 ""
+ albany.12.b:0 ""
  
  albany.13.t:0 "Duffy's Tax Plan"
  albany.13.d:0 ""
  albany.13.a:0 ""
+ albany.13.b:0 ""
  
  albany.14.t:0 "The New Deal"
  albany.14.d:0 ""
  albany.14.a:0 ""
+ 
+ albany.16.t:0 "A Storm on the Capital!"
+ albany.16.d:0 "A Storm on the Capital!"
+ albany.16.a:0 "A Storm on the Capital!"
  #leader descrip
  
  #parties

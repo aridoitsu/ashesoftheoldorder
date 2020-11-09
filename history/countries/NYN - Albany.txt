@@ -114,6 +114,8 @@ if = {
 				value = 1
 				}
 	}
+	
+set_country_flag = NYN_revolt
 ###################################################################
 set_party_name = {
     ideology = liberal
