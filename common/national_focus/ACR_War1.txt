@@ -209,12 +209,12 @@ focus_tree = {
 }
  focus = {
       id = ACR_Modern_Mobile_Warfare
-	    icon = Aerial_Supremacy
+	    icon = Modern_Mobile_Warfare
 	    cost = 4
 	    x = 6
 	    y = 7
 		prerequisite = {
-			focus = ACR_Mass_Motorization
+			focus = ACR_Aerial_Supremacy
 		}
 	    completion_reward = {
 			swap ideas = {
