@@ -175,6 +175,10 @@ focus_tree = {
 		}
 	    completion_reward = {
 			add_war_support = 0.1
+			country_event = {
+        		    id = ACR.12
+          		    days = 1
+	    		 }
 	}
 }
  focus = {
@@ -250,6 +254,10 @@ focus_tree = {
 				idea = ACR_No_Parley 
 				days = 90
 			}
+			country_event = {
+        		    id = ACR.13
+          		    days = 1
+	    		 }
 	}
 }
  focus = {
@@ -279,6 +287,10 @@ focus_tree = {
 		}
 	    completion_reward = {
 			load_oob = "ACR_klan1"
+			country_event = {
+        		    id = ACR.14
+          		    days = 1
+	    		 }
 	}
 }
  focus = {
@@ -292,6 +304,10 @@ focus_tree = {
 		}
 	    completion_reward = {
 			load_oob = "ACR_PenalBrigades1"
+			country_event = {
+        		    id = ACR.15
+          		    days = 1
+	    		 }
 	}
 }
  focus = {
@@ -305,6 +321,10 @@ focus_tree = {
 		}
 	    completion_reward = {
 			add_ideas = ACR_Project_Neptune
+			country_event = {
+        		    id = ACR.16
+          		    days = 1
+	    		 }
 	}
 }
  focus = {
@@ -338,6 +358,10 @@ focus_tree = {
 			NAK = {
 				add_ideas = Cut_off_Trade
 			}
+			country_event = {
+        		    id = ACR.17
+          		    days = 1
+	    		 }
 	}
 }
  focus = {
@@ -357,6 +381,10 @@ focus_tree = {
 				idea = Ramped_Up_Bomber_Production1 
 				days = 365
 			}
+			country_event = {
+        		    id = ACR.18
+          		    days = 1
+	    		 }
 		}
 	}
  focus = {
@@ -457,6 +485,10 @@ focus_tree = {
 					remove_idea = Ramped_Up_Bomber_Production1
 					add_idea = Ramped_Up_Bomber_Production2
 				}
+				country_event = {
+        		 	   id = ACR.19
+          		    	   days = 1
+	    		 	}
 			}
 	}
  focus = {
@@ -472,6 +504,10 @@ focus_tree = {
 				NAK = {
 					add_ideas = War_of_Attrition
 				}
+				country_event = {
+        		    		id = ACR.20
+          		   		 days = 1
+	    		 	}
 			}
 	}
  focus = {
