@@ -40,6 +40,8 @@
  NYN_to_be_antifa_is_to_be_fascist_tt:0 "§G-5% Leftist Militancy§!"
  NYN_bust_the_unions_tt:0 "Decreases weekly §HLeftist Organization§! gain by §G1%§!"
  NYN_send_in_the_boys_in_blue_tt:0 "Decreases weekly §HLeftist Militancy§! gain by §G1%§!"
+ albany.16.a.tt:0 "§RThe socialists have broken our republic!§!"
+ albany.16.b.tt:0 "§GThe socialists have asserted their will!§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
@@ -57,12 +59,12 @@
  albany.1.a:0 "When will they ever learn?"
  
  albany.2.t:0 "Reaganomics"
- albany.2.d:0 ""
- albany.2.a:0 ""
+ albany.2.d:0 "Quickly after Cuomo’s ascension in the new Albanian Republic came the first wave of new legislation, which he took great inspiration from Reagan’s tax policy in forming. All across the board taxes were reduced, enticing investors and greatly reducing the burden on middle class and lower class families. After years of living in constant war economy and high taxation, it was greatly appreciated by the population.\n\nHowever, soon after came the cut to the many of the social services many Albanians were utilizing to survive. This move made Cuomo’s approval rating plummet, and some of the first protests started. Leftists of all varieties,socialists, communists, social democrats, anarchists, all came in unity in the protest of the relinquishing of basic social services. Furthermore, their militancy only began to increase as Cuomo refused at every point to give into their demands, as well as using the money taken from social services to put into the police force to help suppress them."
+ albany.2.a:0 "Damn radicals."
  
  albany.3.t:0 "The Honourable"
- albany.3.d:0 ""
- albany.3.a:0 ""
+ albany.3.d:0 "“I have a proposition for you.”\n\nCuomo’s right hand man, Joseph Percoco, sat across the table from him, his finger pensively holding up his chin.\n\nHis words slithered off his tongue like a snake as he began to speak again, “We both know of the ongoing riots happening in Lehigh from the ‘Germans’ there. If you give me a cut of the money going towards some of the reconstruction efforts here locally, maybe I can help you deal with your rebel issue.”\n\nIn thought, Cuomo started not at Percoco but seemingly through him, considering what it would mean for him morally and what it’d mean for him politically. \n\n“Look, you don’t need to go through with it. Some money going towards the local government there to, erm, incline them to dealing a little more harshly. And you won’t even have to be involved.”\n\n“How much do you want for it?”\n\n“Three hundred thousand should be enough.”\n\nCuomo bounced the number around his head for a bit before finally looking at Percoco clearly. As he stuck his hand out, Percoco’s mouth formed into a smile from ear to ear, shaking his hand, and getting up from his seat."
+ albany.3.a:0 "For the best interest of our country."
  
  albany.4.t:0 "Our People"
  albany.4.d:0 ""
@@ -101,13 +103,13 @@
  
  albany.12.t:0 "Hochul's Tax Plan"
  albany.12.d:0 ""
- albany.12.a:0 ""
- albany.12.b:0 ""
+ albany.12.a:0 "Implement the plan in full."
+ albany.12.b:0 "This is too extreme."
  
  albany.13.t:0 "Duffy's Tax Plan"
  albany.13.d:0 ""
- albany.13.a:0 ""
- albany.13.b:0 ""
+ albany.13.a:0 "Implement the plan in full."
+ albany.13.b:0 "This is too extreme."
  
  albany.14.t:0 "The New Deal"
  albany.14.d:0 ""
@@ -115,7 +117,8 @@
  
  albany.16.t:0 "A Storm on the Capital!"
  albany.16.d:0 "A Storm on the Capital!"
- albany.16.a:0 "A Storm on the Capital!"
+ albany.16.a:0 "Crush these commies!"
+ albany.16.b:0 "Crush these fascists!"
  #leader descrip
  
  #parties

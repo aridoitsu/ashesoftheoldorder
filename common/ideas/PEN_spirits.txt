@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		PEN_the_reconstruction_of_rochester = {
-			picture = ger_rebuild_the_nation
+			picture = GFX_idea_PEN_the_reconstruction_of_rochester
 			allowed_civil_war = {
 				always = yes
 			}
@@ -14,7 +14,7 @@ ideas = {
 			}
 		}
 		PEN_agrarian_society = {
-			picture = generic_agrarian_society
+			picture = GFX_idea_PEN_agrarian_society
 			allowed_civil_war = {
 				always = yes
 			}
@@ -153,7 +153,7 @@ ideas = {
 			}
 		}
 		PEN_paramilitaries = {
-			picture = generic_purge
+			picture = GFX_idea_PEN_paramilitaries
 			allowed_civil_war = {
 				always = yes
 			}

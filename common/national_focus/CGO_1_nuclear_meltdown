@@ -1,0 +1,127 @@
+focus_tree = {
+    id = CGO_1_meltdown
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = CGO
+        }
+    }
+    focus = {
+  		id = CGO_an_emergency_meeting
+  		icon = GFX_
+  		x = 0
+  		y = 1
+  		cost = 1
+  		available_if_capitulated = yes
+  		search_filters = { FOCUS_FILTER_POLITICAL }
+  		ai_will_do = {
+  			factor = 1
+  		}
+  		completion_reward = {
+  			custom_effect_tooltip = CGO_emergency_meeting_tt
+  			country_event = { id = chicago.1 }
+  		}
+  	}
+    focus = {
+  		id = CGO_a_national_crisis
+  		icon = GFX_
+  		x = 0
+  		y = 2
+  		cost = 3
+  		prerequisite = { focus = CGO_an_emergency_meeting }
+  		available_if_capitulated = yes
+  		search_filters = { FOCUS_FILTER_POLITICAL }
+  		ai_will_do = {
+  			factor = 1
+  		}
+  		completion_reward = {
+  			country_event = { id = chicago.2 }
+  		}
+  	}
+    focus = {
+  		id = CGO_the_ai
+  		icon = GFX_
+  		x = -1
+  		y = 3
+  		cost = 3
+  		prerequisite = { focus = CGO_a_national_crisis }
+      mutually_exclusive = { focus = CGO_the_people }
+  		available_if_capitulated = yes
+  		search_filters = { FOCUS_FILTER_POLITICAL }
+  		ai_will_do = {
+  			factor = 1
+  		}
+  		completion_reward = {
+  			country_event = { id = chicago.3 }
+  		}
+  	}
+    focus = {
+  		id = CGO_the_people
+  		icon = GFX_
+  		x = 1
+  		y = 3
+  		cost = 3
+  		prerequisite = { focus = CGO_a_national_crisis }
+      mutually_exclusive = { focus = CGO_the_ai }
+  		available_if_capitulated = yes
+  		search_filters = { FOCUS_FILTER_POLITICAL }
+  		ai_will_do = {
+  			factor = 1
+  		}
+  		completion_reward = {
+  			country_event = { id = chicago.4 }
+  		}
+  	}
+    focus = {
+  		id = CGO_formulate_a_plan
+  		icon = GFX_
+  		x = 0
+  		y = 4
+  		cost = 5
+  		prerequisite = { focus = CGO_the_ai OR = CGO_the_people }
+      #mutually_exclusive = { focus = CGO_ }
+  		available_if_capitulated = yes
+  		search_filters = { FOCUS_FILTER_POLITICAL }
+  		ai_will_do = {
+  			factor = 1
+  		}
+  		completion_reward = {
+  			country_event = { id = chicago.5 }
+  		}
+  	}
+    focus = {
+  		id = CGO_a_hidden_monster
+  		icon = GFX_
+  		x = 0
+  		y = 5
+  		cost = 5
+  		prerequisite = { focus = CGO_formulate_a_plan }
+      #mutually_exclusive = { focus = CGO_ }
+  		available_if_capitulated = yes
+  		search_filters = { FOCUS_FILTER_POLITICAL }
+  		ai_will_do = {
+  			factor = 1
+  		}
+  		completion_reward = {
+        #
+  		}
+  	}
+    focus = {
+  		id = CGO_rears_ugly_head
+  		icon = GFX_
+  		x = 0
+  		y = 6
+  		cost = 5
+  		prerequisite = { focus = CGO_a_hidden_monster }
+      #mutually_exclusive = { focus = CGO_ }
+  		available_if_capitulated = yes
+  		search_filters = { FOCUS_FILTER_POLITICAL }
+  		ai_will_do = {
+  			factor = 1
+  		}
+  		completion_reward = {
+        custom_effect_tooltip = CGO_end_of_tree_one_tt
+  		}
+  	}
+}

@@ -1,0 +1,153 @@
+focus_tree = {
+	id = NEV_1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NEV
+		}
+	}
+	#Focus for The Social Darwinist Principle
+	focus = {
+		id = NEV_the_social_darwinist_principle
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 10
+		prerequisite = { focus = NEV_so }
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Market Shall Decide Your Fate
+	focus = {
+		id = NEV_the_market_shall_decide_your_fate
+		icon = GFX_goal_unknown
+		x = 9
+		y = 3
+		cost = 10
+		prerequisite = { focus = NEV_the_malthusian_principle }
+		prerequisite = { focus = NEV_the_social_darwinist_principle }
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Too Many Mouths
+	focus = {
+		id = NEV_too_many_mouths
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 10
+		prerequisite = { focus = NEV_the_malthusian_principle }
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for No Country For The Weak
+	focus = {
+		id = NEV_no_country_for_the_weak
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 10
+		prerequisite = { focus = NEV_conjure_up_the_spartan_ideal }
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Malthusian Principle
+	focus = {
+		id = NEV_the_malthusian_principle
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		prerequisite = { focus = NEV_so }
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for ... So?
+	focus = {
+		id = NEV_so
+		icon = GFX_goal_unknown
+		x = 9
+		y = 1
+		cost = 10
+		prerequisite = { focus = NEV_death_and_destitution }
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Death And Destitution
+	focus = {
+		id = NEV_death_and_destitution
+		icon = GFX_goal_unknown
+		x = 9
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Conjure Up The Spartan Ideal
+	focus = {
+		id = NEV_conjure_up_the_spartan_ideal
+		icon = GFX_goal_unknown
+		x = 12
+		y = 3 
+		cost = 10
+		prerequisite = { focus = NEV_the_social_darwinist_principle }
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Conscript Them Into The Army
+	focus = {
+		id = NEV_conscript_them_into_the_army
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 10
+		prerequisite = { focus = NEV_too_many_mouths }
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The End Of Decadence
+	focus = {
+		id = NEV_the_end_of_decadence
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 10
+		prerequisite = { focus = NEV_conscript_them_into_the_army }
+		prerequisite = { focus = NEV_no_country_for_the_weak }
+		prerequisite = { focus = NEV_the_market_shall_decide_your_fate }
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

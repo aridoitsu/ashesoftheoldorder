@@ -1,0 +1,13 @@
+﻿l_english:
+ #chicago meltdown focuses
+ CGO_an_emergency_meeting:0 "An Emergency Meeting"
+ CGO_a_national_crisis:0 "Organizing Our Priorities"
+ CGO_the_ai:0 "The Machine"
+ CGO_the_people:0 "The People"
+ CGO_a_hidden_monster:0 "A Hidden Monster"
+ CGO_rears_ugly_head:0 "...Rears it's Ugly Head"
+
+ #focus tooltips
+ CGO_emergency_meeting_tt:0 "Jorge Mujica, the President of Chicago, will call an emergency meeting"
+ CGO_end_of_tree_one_tt:0 "We will put our cleanup plan into action."
+ #end

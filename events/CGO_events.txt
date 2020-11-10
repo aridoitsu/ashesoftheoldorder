@@ -1,0 +1,68 @@
+add_namespace = chicago
+
+country_event = {
+    id = chicago.1
+    title = chicago.1.t
+    desc = chicago.1.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		    name = chicago.1.a
+		    ai_chance = { base = 100 }
+	  }
+}
+
+country_event = {
+    id = chicago.2
+    title = chicago.2.t
+    desc = chicago.2.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		    name = chicago.2.a
+		    ai_chance = { base = 100 }
+	  }
+}
+
+country_event = {
+    id = chicago.3
+    title = chicago.3.t
+    desc = chicago.3.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		    name = chicago.3.a
+		    ai_chance = { base = 100 }
+	  }
+}
+country_event = {
+    id = chicago.4
+    title = chicago.4.t
+    desc = chicago.4.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		    name = chicago.4.a
+		    ai_chance = { base = 100 }
+	  }
+}
+country_event = {
+    id = chicago.5
+    title = chicago.5.t
+    desc = chicago.5.d
+    picture = GFX_event_test
+    is_triggered_only = yes
+
+    option = {
+		    name = chicago.5.a
+		    ai_chance = { base = 50 }
+	  }
+    option = {
+		    name = chicago.5.b
+		    ai_chance = { base = 50 }
+	  }
+}

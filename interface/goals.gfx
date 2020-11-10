@@ -2519,7 +2519,7 @@ spriteTypes = {
 		name = "Memories_of_Old_Times"
 		texturefile = "gfx/interface/goals/ACR_focus_memories_of_old_times.dds"
 	}
-	
+ 
 	SpriteType = { 
 		name = "Establish_the_Emergency_Council"
 		texturefile = "gfx/interface/goals/ACR_focus_establish_the_emergency_council.dds"

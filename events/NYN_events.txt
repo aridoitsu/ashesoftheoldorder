@@ -297,6 +297,39 @@ country_event = {
 			AHR = { transfer_state = 1093 }
 			AHR = { add_state_core = 1093 }
 			AHR = { load_oob = "AHR_1936" }
+			set_division_template_lock = {
+			division_template = "Militia"
+			is_locked = no
+			}
+			if = {
+				limit = {
+					has_idea = NYN_pennsylvanian_seperatists
+					}
+				PEN = { transfer_state = 1076 }
+				PEN = { add_state_core = 1076 }
+				}
+			AHR = {
+				declare_war_on = {
+					target = NYN 
+					type = annex_everything
+					}
+				}
+			}		
+		}
+		option = {
+			name = albany.16.b
+			ai_chance = { base = 100 }
+			
+			custom_effect_tooltip = albany.16.b.tt
+			AHR = { change_tag_from = ROOT }
+			hidden_effect = {
+			AHR = { transfer_state = 1093 }
+			AHR = { add_state_core = 1093 }
+			AHR = { load_oob = "AHR_1936" }
+			set_division_template_lock = {
+			division_template = "Militia"
+			is_locked = no
+			}
 			if = {
 				limit = {
 					has_idea = NYN_pennsylvanian_seperatists
