@@ -332,7 +332,7 @@ focus_tree = {
 	    icon = Exploit_Their_Weaknesses
 	    cost = 2
 	    x = 12
-	    y = 4
+	    y = 3
 		prerequisite = {
 			focus = ACR_Winter_Offensive
 		}
@@ -478,7 +478,7 @@ focus_tree = {
 	    x = 14
 	    y = 5
 		prerequisite = {
-			focus = ACR_Exploit_Racial_Tensions
+			focus = ACR_Bomb_Their_Farms
 		}
 	    completion_reward = {
 				swap_ideas = {
