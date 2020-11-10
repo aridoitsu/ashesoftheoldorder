@@ -40,6 +40,7 @@
  NYN_to_be_antifa_is_to_be_fascist_tt:0 "§G-5% Leftist Militancy§!"
  NYN_bust_the_unions_tt:0 "Decreases weekly §HLeftist Organization§! gain by §G1%§!"
  NYN_send_in_the_boys_in_blue_tt:0 "Decreases weekly §HLeftist Militancy§! gain by §G1%§!"
+ albany.16.a.tt:0 "§RThe socialists have broken our republic!§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
