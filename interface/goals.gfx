@@ -2547,7 +2547,7 @@ spriteTypes = {
 	
 	SpriteType = { 
 		name = "GFX_PEN_focus_looking_outwards"
-		texturefile = "gfx/interface/goals/ACR_focus_for_dixie.dds"
+		texturefile = "gfx/interface/goals/PEN_focus_looking_outwards.dds"
 	}
 	
 	SpriteType = { 
@@ -2562,7 +2562,7 @@ spriteTypes = {
 	
 	SpriteType = { 
 		name = "GFX_PEN_focus_the_imitator"
-		texturefile = "gfx/interface/goals/GFX_PEN_focus_the_imitator.dds"
+		texturefile = "gfx/interface/goals/PEN_focus_the_imitator.dds"
 	}
 	
 	SpriteType = { 
