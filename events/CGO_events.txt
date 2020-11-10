@@ -22,7 +22,14 @@ country_event = {
 
     option = {
 		    name = chicago.2.a
-		    ai_chance = { base = 100 }
+		    ai_chance = { base = 50 }
+        CGO = { set_country_flag = CGO_chose_ai }
+	  }
+    option = {
+		    name = chicago.2.b
+		    ai_chance = { base = 50 }
+        CGO = { set_country_flag = CGO_chose_people }
+        custom_effect_tooltip = CGO_chose_people_tt
 	  }
 }
 
@@ -59,10 +66,6 @@ country_event = {
 
     option = {
 		    name = chicago.5.a
-		    ai_chance = { base = 50 }
-	  }
-    option = {
-		    name = chicago.5.b
-		    ai_chance = { base = 50 }
+		    ai_chance = { base = 100 }
 	  }
 }

@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = libsoc
+	ruling_party = prodem
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,16 +58,16 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	democratic = 0
+	democratic = 4
 	neutrality = 0
 	authdem = 0
-	liberal = 0
+	liberal = 19
 	demsoc = 0
-	prodem = 0
+	prodem = 46
 	communism = 24
-	totalsoc = 6
-	libsoc = 56
-	anarchy = 14
+	totalsoc = 7
+	libsoc = 0
+	anarchy = 0
 	fascism = 0
 	ultranationalism = 0
 }
@@ -87,7 +87,7 @@ create_country_leader = {
 	desc = "POLITICS_JORGE_MUJICA_DESC"
 	picture = "Portrait_CGO_Jorge_Mujica.dds"
 	expire = "2040.1.1"
-	ideology = part_techno_soc
+	ideology = techno
 	traits = {
 		
 	}

@@ -1,4 +1,4 @@
-﻿l_english: 
+﻿l_english:
 
 ##focuses
  PEN_entice_investors:0 "Entice Investors"
@@ -33,7 +33,7 @@
  PEN_our_savior_desc:0 ""
  PEN_a_false_prophet:0 "A False Prophet"
  PEN_a_false_prophet_desc:0 ""
- 
+
  ##national spirits
  PEN_the_reconstruction_of_rochester:0 "The Reconstruction of Rochester"
  PEN_the_reconstruction_of_rochester_desc:0 "blablabla"
@@ -57,13 +57,13 @@
  PEN_peace_and_prosperity:0 "Peace and Prosperity"
  PEN_home_workshops1:0 "Home Workshops"
  PEN_agrarian_society_tt:0 "§HWill be removed if Deitscherei owns 20 or more factories.§!"
- 
+
  ##decisions
  PEN_reconstruction:0 "Reconstruction"
  PEN_reconstruction_desc:0 "Though our nation was not hit as hard as many of the countries around us, our main industrial base of Rochester was reduced to its foundations and what remains elsewhere is nothing more than tiny farming communities and small towns. We need to reorganize our economy and industrialize if we want to be self-sufficient."
  PEN_rebuilding_rochester:0 "Rebuilding Rochester"
  PEN_rebuilding_rochester_desc:0 "Reconstruction efforts have been going on for months upon months in Rochester without much progress being made on the daunting project, however recently it seems the reconstruction is starting to pick up speed and the notion of Rochester being rebuilt soon is becoming more and more prevalent in the local population."
- PEN_utilize_the_armed_guard:0 "Utilize the Armed Guard" 
+ PEN_utilize_the_armed_guard:0 "Utilize the Armed Guard"
  PEN_utilize_the_armed_guard_desc:0 "Our current reconstruction efforts are simply not coming about fast enough. We need to employ our generally dormant military and get them working on our city."
  PEN_mobilization:0 "Mobilization"
  PEN_mobilization_desc:0 "In case we accidentally passed an act which in hindsight is crippling our nation, we can revoke our policy at the cost of our stability for our rapid changes."
@@ -91,14 +91,14 @@
  PEN_currently_trading:0 "Currently trading"
  PEN_close_down_home_workshops:0 "Close Down Home Workshops"
  PEN_start_up_home_workshops:0 "Start Up Home Workshops"
- 
+
  command_power_more_than_25_blocked:0 "§R25§!£command_power"
  command_power_more_than_25:0 "§H25§!£command_power"
  command_power_more_than_25_tooltip:0 "It costs 25£command_power to select this."
  manpower_more_than_1000_tooltip:0 "It costs 1000£GFX_manpower_texticon to select this."
  manpower_more_than_1000:0 "§H1000§!£GFX_manpower_texticon"
  manpower_more_than_1000_blocked:0 "§R1000§!£GFX_manpower_texticon"
- 
+
  ##custom focus tooltips
  PEN_hw_focustip:0 "§HUnlocks decisions to expand domestic trade and encourage autarky.§!"
  PEN_oob_focustip:0 "§HUnlocks decisions to form international trade relations from Europe.§!"
@@ -108,49 +108,49 @@
  PEN_mob_down:0 "§GThis will decrease our mobilization!§!"
  PEN_next_step_tt:0 "We have restored our country to a certain extent, it's now time to prepare the first Deitscherei election! §RUnless, of course, if something was to disrupt our preparation...§!"
  PEN_gain_irredentist_claim_tt:0 "§GWe will gain cores on Poconos and Philadelphia!§!"
- 
+
  ##leader descriptions
  POLITICS_NORMAN_SCHWARZKOPF_DESC:0 "A former major, colonel, commander, and general in the US military, Norman Schwarzkopf was quite accustomed to leadership and taking risks to save the people around him. Disgruntled by the US’s actions in Vietnam, he stayed in the military for some years, slowly rising up the ranks. Most of his work was helping protect local communities and dealing with general domestic terror, whilst also helping with planning and foreign policy federally. Schwarzkopf would finally leave the military during the 2nd American Civil War, after he had realized that all sides had forgotten their humanity and had no intention of caring for their citizenry. He later revolted alongside his brigade and created the state of Deitscherei, a state of German-Pennsylvanians and Americans, and a state of discipline and honor. §OThough, his brave leadership may be on track to end soon...§!"
- 
+
  ##events
  deitscherei.1.t:0 "Deitscherei Requests Aid"
  deitscherei.1.d:0 "The local German-Pennsylvanians in Deitscherei are requesting help rebuilding their city of Rochester for whatever they can give us."
  deitscherei.1.a:0 "Sure, it's our job to pick up what the Americans dropped."
  deitscherei.1.b:0 "By god no, German scum."
- 
+
  deitscherei.2.t:0 "Canada Agrees!"
  deitscherei.2.d:0 "The Canadian government has agreed to give us aid in reconstructing Rochester in exchange for some money at a reasonable rate."
  deitscherei.2.a:0 "Great!"
- 
+
  deitscherei.3.t:0 "Canada Refuses!"
  deitscherei.3.d:0 "bruh"
  deitscherei.3.a:0 "bruh"
- 
+
  deitscherei.4.t:0 "The State of Deitscherei"
  deitscherei.4.d:0 "Cleansed from the dirt of its American ancestor, forged from the smithery of Schwarzkopf's disciplined rule, and hardened from years of barely getting by, the Deitsch state and its people are prepared to reclaim what has been taken from them by America's ideological squabbles and eventual war to the death. Though, there are many obstacles in the way for Deitscherei's path to a life worth living to all.\n\nSpread out across Deitscherei there are multiple far-right organizations looking to usurp the seat of leader by any means necessary to try and turn this state made out of necessity back into a state in the darkness of the American anarchy, however Schwarzkopf sees little threat from these group as he sees from other matters.\n\nIn the south of Deitscherei lays no more than farmers and their down-trodden families, and in the north lay the ruins of Rochester, torn apart by the Americans' own greed. Recently though, the rebuilding of Rochester is seeming to be picking up steam, with state employees and non-state actors both chipping in their all to the behemoth of a project, inspiring hope in its many onlookers."
  deitscherei.4.a:0 "May our state prosper, for the wellbeing of our citizens."
- 
+
  deitscherei.5.t:0 "The State of Our Economy"
  deitscherei.5.d:0 "Tens, if not hundreds of thousands of non-combatants were displaced from the Second Civil War in Rochester, many fleeing northwards towards the Canadian government which accepted them with open arms. Some were not as lucky though. Tens of thousands of civilians were killed by the bombings of Rochester by all sides, and were also killed by the destruction caused by the rapid rate at which it changed hands between sides.\n\nThis has left the population of Rochester ravaged, and on a steady decline. Any investors or entrepreneurs that were in the city at the time of the Second Civil War have abandoned it, either to go to safer cities elsewhere or fleeing the country completely. The only people who reside in Rochester still are families who cannot afford to leave, state workers who are helping the reconstruction effort, and those coming into the city to loot what is left or stay in what is the left of the many abandoned homes. Staring into the smashed windows of old businesses and the blown out windows of apartment buildings lining the roads still feels surreal to much of the local population.\n\nIn the South, however, the damage was much more seldom. Many even were able to maintain their old lives, despite many services being unavailable like electricity for weeks at a time. However, in order to industrialize to the point of being able to bring prosperity to all our citizens, many on the Security Council have advised Schwarzkopf to build up a new industry in the South instead of spending efforts reconstructing Rochester, for it's seen by them as a fruitless venture."
  deitscherei.5.a:0 "Only time will tell."
- 
+
  deitscherei.6.t:0 "The Commander"
  deitscherei.6.d:0 "The clacking of Schwarzkopf’s shoes could be heard echoing throughout the hall, seemingly reverberating into every corner and into every ear of the immense crowd, only furthering their palpable anticipation for what was about to commence. As Schwarzkopf’s bulky figure appeared on stage, all the quiet murmurs and whispers ended, and his speech began.\n\n“Look at how far we’ve come. We have shown the outside world that we stand against the rampant disregard for the happiness of our people that our American ancestors fell into, and have shown that our nation is not one which exists to help those at the top, but to help all of our people. I have a question for you though, my fellow Deitsch.” He addressed the onlooking crowd, “What do you look for in a leader? Is it the populism of late America? Is it a willingness to give into every corporate whim for their own profit? Or even, is it the submission to one of America’s past greatest enemies we were united against?”\n\nThe crowd’s opinion on Schwarzkopf’s questions was quite evident from the shouting and booing filling up the air. Schwarzkopf paused for a moment, allowing the hall to settle down, and continued again once the silence had returned.\n\n“Or perhaps, it’s a rejection of the phony populism, it’s a rejection of what became America’s downfall, and it’s a rejection of the ideology of hate that has spread across America in the last decade. It’s a strong leader, and one who doesn’t compromise on doing what he thinks is best for the greatest number of people. Wouldn’t you think so?”\n\nAll at once, a booming roar of clapping and cheering could be heard from Schwarzkopf’s onlookers, filling the hall for what felt like an hour, whilst Schwarzkopf could be seen smiling back at his envigored supporters as they cheered on."
  deitscherei.6.a:0 "Smiling onwards to hope."
- 
+
  deitscherei.7.t:0 "The Reformer"
  deitscherei.7.d:0 "The room was quiet as Stack sat down in his chair and faced the small group in front of him. Chafed in tight business suits, they could all hear the slight humming of the A/C in the building and remained glassily staring at Stack, tugging at their collars every now and then.\n\n“Fellow Americans and businessmen,” he addressed the suits in front of him, “our Pennsylvania currently is under attack by leaders who are not only trying to transform our great American state into something of a bastardization of a German colony but are also using the state to intervene in the economy and disrupting the free market. I tell you, Schwarzkopf is not an American, but a socialist trying to go back on everything great we made in America.”\n\nThe suits still remained staring glassily at Stack, waiting for him to get to the point of the meeting. “The reason I called you all here today is probably quite evident to you all already. With elections coming up soon I think we all have a mutual interest in restoring American democracy to what it once was and bringing back the free market that got us all here in the first place-” stuttering over his words, he retracted his statement, “got us where we were before the civil war that tore us apart.”\n\nDespite the blunder, there was a general sense of agreement in the room, and all of the suits lined up towards the door like papers in a filing cabinet after their short meeting with Stack, planning to speak with him individually at a later date."
  deitscherei.7.a:0 "What goes on behind closed doors stays behind the public."
- 
+
  deitscherei.8.t:0 "The Imitator"
  deitscherei.8.d:0 "The cold, stale air bit at his fingertips as he stood there, waiting for the right moment to speak. Underneath the city of Rochester lay an armed paramilitary, only waiting for the right moment to strike the state. A final battle, a final victory, a final answer to the world’s issues, all at his fingertips. Only one shot was what it could take to change the world, he thought. A cough heard from one of his onlookers snapped Kline back to reality. He cleared his throat and began his speech thusly,\n\n“My fellow aryan brothers, it seems as though our time to strike is finally approaching us closer and closer every day, but we must not forget what we’re fighting for, why our struggle matters.”\n\nThe only sound that could be heard in the room was the breathing of each of the paramilitary members, the slight creaking of the metal chairs and the clanging of their rifles against them now and again. Kline could not see their mouths through their ski masks, but could see them staring at him, for guidance, for life, for death. Kline continued, \n\n“We are not the invaders. In fact, we are the invaded. Our right to exist as a people is under threat by those disgusting people, coming in through our borders looking for salvation only to rob us of the jobs we’ve worked so hard for, rape our families, and bring chaos to our nation. We are at war with the foreign invaders, we are at war with the global elites, and we are at war with everybody who wants to rid us of our culture.\n\nKline could almost see his recruits’ furrowed brows through their masks. They knew who the enemy was. They knew who the foreign invaders were. They knew who the global elites were. They were ready for their attack."
  deitscherei.8.a:0 "The mold of hate only spreads over time."
- 
+
  deitscherei.9.t:0 "SC.23 - The Anti-Militant Act of 2018"
  deitscherei.9.d:0 "“Sir, permission to speak?” \n\n“Of course, go ahead.”\n\nHagemeister darted his eyes from one end of the room to the next, expressing an anxiety that was rarely seen in his old age. "I'm sure you've seen the reports. Something has to be done about these far-right death squads roaming the streets. They're terrorizing our citizenry and destabilizing us. Where will our citizens turn to when we leave them behind to get threatened by paramilitaries?"\n\n"Oh please. 'Far-right death sqauds,'" Fleshman let out an audible snicker, "I know back in America we had a period of troubles where far-right groups did some awful things, but we are not America. Dealing with these groups of kids would just be a waste of our time and resources. What are they gonna do, steal some food from a grocery store? Maybe set off a firecracker? Pfft."\n\n"We need to take these groups seriously! Hitler started with less than 60 guys. We need to nip these groups in the bud while we still have the chance, or else we could have a real prolem on our hands."\n\n"Now you're comparing them to the Nazis? You're really off your rocker."\n\nCould they ever just come to an agreement?"
  deitscherei.9.a:0 "We cannot let our new democracy be under threat by tyranny."
  deitscherei.9.b:0 "It is not the place of the government to prevent free speech."
- 
+
  deitscherei.10.t:0 "A Diplomat from the American Wastes"
  deitscherei.10.d:0 "deitscherei wants trade lol"
  deitscherei.10.a:0 "Sure, it's our job to pick up what the Americans dropped."
@@ -160,39 +160,39 @@
  deitscherei.11.d:0 "deitscherei wants trade lol"
  deitscherei.11.a:0 "Sure, it's our job to pick up what the Americans dropped."
  deitscherei.11.b:0 "Get this nonsense out of my office."
- 
+
  deitscherei.12.t:0 "A Diplomat from the American Wastes"
  deitscherei.12.d:0 "deitscherei wants trade lol"
  deitscherei.12.a:0 "Sure, it's our job to pick up what the Americans dropped."
  deitscherei.12.b:0 "Get this nonsense out of my office."
- 
+
  deitscherei.13.t:0 "Trade Agreement Accepted."
  deitscherei.13.d:0 "yeah they accepeted"
  deitscherei.13.a:0 "Perfect."
- 
+
  deitscherei.14.t:0 "Trade Agreement Declined"
  deitscherei.14.d:0 "lmao"
  deitscherei.14.a:0 "Damnit all."
- 
+
  deitscherei.15.t:0 "SC.22 - On Matters of National Defense"
  deitscherei.15.d:0 "Meeting in more stable conditions than last convention, Schwarzkopf pulled himself to his seat at the end of the table, each of the Security Council members following the action and sitting themselves. Distinguished military personnel who had helped Schwarzkopf in his revolt, many of them weren’t personally very connected to the state, the main binding factor between them being a mutual disdain for the actions of the Americans.\n\nBeing military veterans, their opinions on warfare were quite polarized. Some on the Council were staunch militarists, seeking to mobilize the Deitsch state and use it to conquer more lands, whilst others were strict pacifists, looking to defund the military and spend the money enriching the wholly underdeveloped state. And as such, they approached Schwarzkopf with two separate proposals. The hawks of the Council, led by Lt. Col. William Fleshman, delivered their proposal thusly, \n\n“Sir, look around us. We are in no position to be demilitarizing and showing our neighbors that we’re easy prey. In fact, we should be mobilizing further to protect our nation and our people from invaders on all sides. Do you want you and your family to be at threat because our military wasn’t strong enough to stop the hordes outside?”\n\n“That’s enough, Fleshman.” Schwarzkopf interjected. “Let's hear the case from the doves and Hagemeister.”\n\n“Thank you sir. As you know, our country is not in the best of shapes right now. We have near to no industrial capacity, our domestic production is nothing but small-scale agriculture, and we have the massive drain of the reconstruction of the entirety of Rochester on our economy. We are in no position to further bolster our military, as to be frank, we have nothing to defend yet-”\n\nFrom the other side of the table Fleshman scoffs and interrupts, “How can you say that about our nation? Our people? We have nothing to defend?! What about the families and children of our country?”\n\nEndless bickering ensues. Though, a decision does need to be made."
  deitscherei.15.a:0 "For our nation."
  deitscherei.15.b:0 "For our people."
- 
+
  deitscherei.16.t:0 "SC.24 - On Matters of Foreign Policy"
  deitscherei.16.d:0 "The last Security Council Convention before the preparations for the first election is about to begin. Before Schwarzkopf even sat down, the tone in the room had been established. Hagemeister and Fleshman had been taking sharp, darting glances at each other before a word had been spoken. The tension filled the air up like balloon as neither one wanted to be the one to speak first.\n\n... A minute passed. Schwarzkopf breaks the silence, "Well, gentlemen. Since we're finally getting somewhere with our reconstruction efforts and have something of a standing military, I suppose it's time we talk of our foreign policy."\n\n... Another minute passes. "Hagemeister, why don't you tell us of your proprosal."\n\n"Certainly sir." It seems a wave of relief passes through the room like a gentle breeze. "What makes of a nation which does not focus on maintaining alliances and keeping its population happy, but rather focuses on warring and conquest? The answer should be quite obvious to all of us, as we all lived in one. As such, I believe it imparative that we forge alliances and agreements with our neighbors, rather than make new enemies and attract a bad reputation. And, by making alliances, we can divert more funds away from the military and more towards our civilians, as we'll have the support of other nations' troops." A second, lasting for what'd seem like an hour passes, until the inevitable happens once more.\n\n"This is simply proposturous. To think we can make allies with the barbarians outside our border is possibly the most naive thing I've ever heard. Furthermore, we cannot trust the states around us to protect our people within their countries. We need to get our generals, write up the battleplans, and move in as soon as possible to liberate our people from the savages neighboring us. What's one or two more wars to the thousands of people we'll be saving from the authoritarian dystopias around them?"\n\nEven in the finality of the current Convention, it seems civility has yet to be reached in the Council."
  deitscherei.16.a:0 "A broad coalition of nations to protect us is preferrable."
  deitscherei.16.b:0 "Our neighbors cannot be trusted to protect our people."
- 
+
  deitscherei.17.t:0 "Schwarzkopf Falls Sick!"
  deitscherei.17.d:0 "Schwarzkopf’s eyes rapidly open, as he sees himself on the medical bed of a hospital that is surprisingly still running. As Schwarzkopf awakes, his wife runs to him from her seat in the corner of the room.\n\n“Norman! You’re finally awake. I had been sick myself worrying about you, how are you feeling?”\n\nSchwarzkopf glanced at his wife in a confused glare, still not entirely processing what had happened for him to get here. \n\nHis wife noticed and explained, “You had passed out after a coughing fit earlier today. I brought you in as soon as I could and let the nurses take care of you. They say it's pneumonia.”\n\nSchwarzkopf's eyes went to the ceiling, lost in thought, and then dropped back down to the floor."
  deitscherei.17.a:0 "We shall stick with him through these hardships."
- deitscherei.17.b:0 "Maybe its time to abandon Schwarzkopf..."
- 
+ deitscherei.17.b:0 "Maybe it is time to abandon Schwarzkopf..."
+
  
  #political parties
  PEN_authdem_party_long:0 "Pennsilfaanisch-Deitsch Pardei"
  PEN_authdem_party_short:0 "Pennsilfaanisch-Deitsch Pardei"
- 
+
  PEN_libdem_party_long:0 "Pennsylvania Reformer Party"
  PEN_libdem_party_short:0 "Pennsylvania Reformer Party"

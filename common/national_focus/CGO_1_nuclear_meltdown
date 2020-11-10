@@ -45,6 +45,7 @@ focus_tree = {
   		x = -1
   		y = 3
   		cost = 3
+      available = { has_country_flag = CGO_chose_ai }
   		prerequisite = { focus = CGO_a_national_crisis }
       mutually_exclusive = { focus = CGO_the_people }
   		available_if_capitulated = yes
@@ -53,7 +54,7 @@ focus_tree = {
   			factor = 1
   		}
   		completion_reward = {
-  			country_event = { id = chicago.3 }
+  			#country_event = { id = chicago.3 }
   		}
   	}
     focus = {
@@ -62,6 +63,7 @@ focus_tree = {
   		x = 1
   		y = 3
   		cost = 3
+      available = { has_country_flag = CGO_chose_people }
   		prerequisite = { focus = CGO_a_national_crisis }
       mutually_exclusive = { focus = CGO_the_ai }
   		available_if_capitulated = yes
@@ -70,7 +72,7 @@ focus_tree = {
   			factor = 1
   		}
   		completion_reward = {
-  			country_event = { id = chicago.4 }
+  			#country_event = { id = chicago.4 }
   		}
   	}
     focus = {
@@ -111,7 +113,7 @@ focus_tree = {
   		id = CGO_rears_ugly_head
   		icon = GFX_CGO_focus_rears_its_ugly_head
   		x = 0
-  		y = 6
+  		y = 7
   		cost = 5
   		prerequisite = { focus = CGO_a_hidden_monster }
       #mutually_exclusive = { focus = CGO_ }
