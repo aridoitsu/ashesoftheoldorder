@@ -307,4 +307,204 @@ focus_tree = {
 			add_ideas = ACR_Project_Neptune
 	}
 }
+ focus = {
+      id = ACR_Exploit_Their_Weaknesses
+	    icon = Exploit_Their_Weaknesses
+	    cost = 12
+	    x = 8
+	    y = 4
+		prerequisite = {
+			focus = ACR_Winter_Offensive
+		}
+	    completion_reward = {
+			NAK = {
+				add_stability = -0.1
+			}
+	}
+}
+ focus = {
+      id = ACR_Choke_Their_Ports
+	    icon = Choke_Their_Ports
+	    cost = 2
+	    x = 10
+	    y = 4
+		prerequisite = {
+			focus = ACR_Exploit_Their_Weaknesses
+		}
+		mutually_exclusive = { 
+			focus = ACR_Bomb_Their_Farms
+		}
+	    completion_reward = {
+			NAK = {
+				add_ideas = Cut_off_Trade
+			}
+	}
+}
+ focus = {
+      id = ACR_Bomb_Their_Farms
+	    icon = Bomb_Their_Farms
+	    cost = 2
+	    x = 14
+	    y = 4
+		prerequisite = {
+			focus = ACR_Exploit_Their_Weaknesses
+		}
+		mutually_exclusive = { 
+			focus = ACR_Choke_Their_Ports
+		}
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = Ramped_Up_Bomber_Production1 
+				days = 365
+			}
+		}
+	}
+ focus = {
+      id = ACR_Supply_Our_Forces_in_Charleston
+	    icon = Supply_Our_Forces_in_Charleston
+	    cost = 4
+	    x = 10
+	    y = 5
+		prerequisite = {
+			focus = ACR_Choke_Their_Ports
+		}
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = Charleston_Supply_Runs 
+				days = 180
+			}
+			}
+	}
+ focus = {
+      id = ACR_Reclaim_Our_Beaches
+	    icon = Reclaim_Our_Beaches
+	    cost = 4
+	    x = 10
+	    y = 6
+		prerequisite = {
+			focus = ACR_Supply_Our_Forces_in_Charleston
+		}
+	    completion_reward = {
+				add_timed_idea = { 
+				idea = Reclaim_our_beaches 
+				days = 90
+				}
+			}
+	}
+ focus = {
+      id = ACR_Raise_Local_Brigades
+	    icon = Raise_Local_Brigades
+	    cost = 3
+	    x = 11
+	    y = 7
+		prerequisite = {
+			focus = ACR_Reclaim_Our_Beaches
+		}
+	    completion_reward = {
+				load_oob = "ACR_localbrigades1"
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.01
+				}
+			}
+	}	
+ focus = {
+      id = ACR_Exploit_Racial_Tensions
+	    icon = Exploit_Racial_Tensions
+	    cost = 3
+	    x = 12
+	    y = 5
+		prerequisite = {
+			focus = ACR_Choke_Their_Ports
+			focus = ACR_Bomb_Their_Farms
+		}
+	    completion_reward = {
+				load_oob = "ACR_klan2"
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.025
+				}
+			}
+	}
+ focus = {
+      id = ACR_KKK_Propoganda
+	    icon = KKK_Propoganda
+	    cost = 3
+	    x = 12
+	    y = 6
+		prerequisite = {
+			focus = ACR_Exploit_Racial_Tensions
+		}
+	    completion_reward = {
+				load_oob = "ACR_klan3"
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+			}
+	}
+ focus = {
+      id = ACR_Burn_Their_Cities
+	    icon = Burn_Their_Cities
+	    cost = 4
+	    x = 14
+	    y = 5
+		prerequisite = {
+			focus = ACR_Exploit_Racial_Tensions
+		}
+	    completion_reward = {
+				swap_ideas = {
+					remove_idea = Ramped_Up_Bomber_Production1
+					add_idea = Ramped_Up_Bomber_Production2
+				}
+			}
+	}
+ focus = {
+      id = ACR_War_of_Attrition
+	    icon = War_of_Attrition
+	    cost = 4
+	    x = 14
+	    y = 6
+		prerequisite = {
+			focus = ACR_Burn_Their_Cities
+		}
+	    completion_reward = {
+				NAK = {
+					add_ideas = War_of_Attrition
+				}
+			}
+	}
+ focus = {
+      id = ACR_Offers_to_Resistance
+	    icon = Offers_to_Resistance
+	    cost = 2
+	    x = 13
+	    y = 7
+		prerequisite = {
+			focus = ACR_War_of_Attrition
+		}
+	    completion_reward = {
+				NAK = {
+					add_ideas = Mass_Desertions
+				}
+			}
+	}
+ focus = {
+      id = ACR_Establish_Civilian_Administrations
+	    icon = Establish_Civilian_Administrations
+	    cost = 5
+	    x = 12
+	    y = 8
+		prerequisite = {
+			focus = ACR_Offers_to_Resistance
+			ACR_Raise_Local_Brigades
+		}
+	    completion_reward = {
+				NAK = {
+					add_ideas = Mass_Desertions
+				}
+			}
+	}
+		
+	
 }
