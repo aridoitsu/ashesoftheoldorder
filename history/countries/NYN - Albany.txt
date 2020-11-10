@@ -116,6 +116,11 @@ if = {
 	}
 	
 set_country_flag = NYN_revolt
+
+set_division_template_lock = {
+			division_template = "Militia"
+			is_locked = yes
+			}
 ###################################################################
 set_party_name = {
     ideology = liberal

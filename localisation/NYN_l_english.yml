@@ -41,6 +41,7 @@
  NYN_bust_the_unions_tt:0 "Decreases weekly §HLeftist Organization§! gain by §G1%§!"
  NYN_send_in_the_boys_in_blue_tt:0 "Decreases weekly §HLeftist Militancy§! gain by §G1%§!"
  albany.16.a.tt:0 "§RThe socialists have broken our republic!§!"
+ albany.16.b.tt:0 "§GThe socialists have asserted their will!§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
@@ -102,13 +103,13 @@
  
  albany.12.t:0 "Hochul's Tax Plan"
  albany.12.d:0 ""
- albany.12.a:0 ""
- albany.12.b:0 ""
+ albany.12.a:0 "Implement the plan in full."
+ albany.12.b:0 "This is too extreme."
  
  albany.13.t:0 "Duffy's Tax Plan"
  albany.13.d:0 ""
- albany.13.a:0 ""
- albany.13.b:0 ""
+ albany.13.a:0 "Implement the plan in full."
+ albany.13.b:0 "This is too extreme."
  
  albany.14.t:0 "The New Deal"
  albany.14.d:0 ""
@@ -116,7 +117,8 @@
  
  albany.16.t:0 "A Storm on the Capital!"
  albany.16.d:0 "A Storm on the Capital!"
- albany.16.a:0 "A Storm on the Capital!"
+ albany.16.a:0 "Crush these commies!"
+ albany.16.b:0 "Crush these fascists!"
  #leader descrip
  
  #parties
