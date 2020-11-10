@@ -2544,4 +2544,34 @@ spriteTypes = {
 		name = "For_Dixie"
 		texturefile = "gfx/interface/goals/ACR_focus_for_dixie.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_looking_outwards"
+		texturefile = "gfx/interface/goals/ACR_focus_for_dixie.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_rurals_and_remnants"
+		texturefile = "gfx/interface/goals/PEN_focus_rurals_and_remnants.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_the_anti_militant_act"
+		texturefile = "gfx/interface/goals/PEN_focus_the_anti_militant_act.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_the_imitator"
+		texturefile = "gfx/interface/goals/GFX_PEN_focus_the_imitator.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_the_next_step"
+		texturefile = "gfx/interface/goals/PEN_focus_the_next_step.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_our_overseas_brothers"
+		texturefile = "gfx/interface/goals/PEN_focus_our_overseas_brothers.dds"
+	}
 }
