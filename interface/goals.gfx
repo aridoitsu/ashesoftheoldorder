@@ -2574,4 +2574,39 @@ spriteTypes = {
 		name = "GFX_PEN_focus_our_overseas_brothers"
 		texturefile = "gfx/interface/goals/PEN_focus_our_overseas_brothers.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_an_emergency_meeting"
+		texturefile = "gfx/interface/goals/CGO_focus_an_emergency_meeting.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_organize_our_priorities"
+		texturefile = "gfx/interface/goals/CGO_focus_organize_our_priorities.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_the_people"
+		texturefile = "gfx/interface/goals/CGO_focus_the_people.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_the_machine"
+		texturefile = "gfx/interface/goals/CGO_focus_the_machine.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_formulate_a_plan"
+		texturefile = "gfx/interface/goals/CGO_focus_formulate_a_plan.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_rears_its_ugly_head"
+		texturefile = "gfx/interface/goals/CGO_focus_rears_its_ugly_head.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_a_hidden_monster"
+		texturefile = "gfx/interface/goals/CGO_focus_a_hidden_monster.dds"
+	}
 }

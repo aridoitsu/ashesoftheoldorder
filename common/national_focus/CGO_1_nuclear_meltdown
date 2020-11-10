@@ -9,7 +9,7 @@ focus_tree = {
     }
     focus = {
   		id = CGO_an_emergency_meeting
-  		icon = GFX_
+  		icon = GFX_CGO_focus_an_emergency_meeting
   		x = 0
   		y = 1
   		cost = 1
@@ -25,7 +25,7 @@ focus_tree = {
   	}
     focus = {
   		id = CGO_a_national_crisis
-  		icon = GFX_
+  		icon = GFX_CGO_focus_organize_our_priorities
   		x = 0
   		y = 2
   		cost = 3
@@ -41,7 +41,7 @@ focus_tree = {
   	}
     focus = {
   		id = CGO_the_ai
-  		icon = GFX_
+  		icon = GFX_CGO_focus_the_machine
   		x = -1
   		y = 3
   		cost = 3
@@ -58,7 +58,7 @@ focus_tree = {
   	}
     focus = {
   		id = CGO_the_people
-  		icon = GFX_
+  		icon = GFX_CGO_focus_the_people
   		x = 1
   		y = 3
   		cost = 3
@@ -75,7 +75,7 @@ focus_tree = {
   	}
     focus = {
   		id = CGO_formulate_a_plan
-  		icon = GFX_
+  		icon = GFX_CGO_focus_formulate_a_plan
   		x = 0
   		y = 4
   		cost = 5
@@ -92,7 +92,7 @@ focus_tree = {
   	}
     focus = {
   		id = CGO_a_hidden_monster
-  		icon = GFX_
+  		icon = GFX_CGO_focus_a_hidden_monster
   		x = 0
   		y = 5
   		cost = 5
@@ -109,7 +109,7 @@ focus_tree = {
   	}
     focus = {
   		id = CGO_rears_ugly_head
-  		icon = GFX_
+  		icon = GFX_CGO_focus_rears_its_ugly_head
   		x = 0
   		y = 6
   		cost = 5
