@@ -330,8 +330,8 @@ focus_tree = {
  focus = {
       id = ACR_Exploit_Their_Weaknesses
 	    icon = Exploit_Their_Weaknesses
-	    cost = 12
-	    x = 8
+	    cost = 2
+	    x = 12
 	    y = 4
 		prerequisite = {
 			focus = ACR_Winter_Offensive
@@ -533,7 +533,7 @@ focus_tree = {
 	    y = 8
 		prerequisite = {
 			focus = ACR_Offers_to_Resistance
-			ACR_Raise_Local_Brigades
+			focus = ACR_Raise_Local_Brigades
 		}
 	    completion_reward = {
 				NAK = {
