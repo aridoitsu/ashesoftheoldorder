@@ -1,10 +1,10 @@
 focus_tree = {
-    id = ACR_PreWar1 
+    id = ACR_War1 
     country = {
         factor = 0
         modifier = {
             add = 10
-            tag = ACR
+            tag = C01
         }
     }
  focus = {
