@@ -1,6 +1,8 @@
 ﻿l_english: 
  
  #focuses
+ 
+ #Prewar Focuses
  ACR_President_Cottons_State_of_The_Union:0 "President Cotton's State of the Union"
  ACR_Reappropriate_Civilian_Weaponry:0 "Reappropriate Civilian Weaponry"
  ACR_Mobilize_the_Militia:0 "Mobilize the Militia"
@@ -18,12 +20,52 @@
  ACR_Evacuate_Border_Cities:0 "Evacuate Border Cities"
  ACR_Memories_of_Old_Times:0 "Memories of Old Times"
  ACR_For_Dixie:0 "For Dixie!"
+ 
+ #War Focuses
+ ACR_Dixies_Land_Ill_Take_My_Stand:0 "For Dixie's Land I'll Take My Stand"
+ ACR_Winter_Offensive:0 "Winter Offensive"
+ ACR_Utilize_Our_Strengths:0 "Utilize Our Strenghts"
+ ACR_Make_Their_Ears_Ring:0 "Make Their Ears Ring"
+ ACR_Armored_Spearhead:0 "Armored Spearhead"
+ ACR_Supremacy_Of_American_Engineering:0 "Supremacy Of American Engineering"
+ ACR_Doctrines_of_the_Past:0 "Doctrines of the Past"
+ ACR_The_Rockets_Red_Glare:0 "Doctrines of the Past"
+ ACR_The_Rockets_Red_Glare:0 "The Rockets Red Glare"
+ ACR_The_Will_of_the_People:0 "Will of the People"
+ ACR_Mobilize_the_Workforce:0 "Mobilize the Workforce"
+ ACR_Spread_Fake_News:0 "Spread Fake News"
+ ACR_Mass_Motorization:0 "Mass Motorization"
+ ACR_Aerial_Supremacy:0 "Acheive Aerial Supremacy"
+ ACR_Modern_Mobile_Warfare:0 "Modern Mobile Warfare"
+ ACR_Total_War:0 "Total War"
+ ACR_No_Parley:0 "No Parley!"
+ ACR_Fire_and_Fury:0 "Fire and Fury"
+ ACR_Militarize_The_Klan:0 "Militarize the Klan"
+ ACR_Create_Penal_Brigades:0 "Create Penal Brigades"
+ ACR_Authorize_Project_Neptune:0 "Authorize Project Neptune"
+ ACR_Exploit_Their_Weaknesses:0 "Exploit their Weaknesses"
+ ACR_Choke_Their_Ports:0 "Choke Their Ports"
+ ACR_Bomb_Their_Farms:0 "Bomb Their Farms"
+ ACR_Supply_Our_Forces_in_Charleston:0 "Supply Our Forces in Charleston"
+ ACR_Reclaim_Our_Beaches:0 "Reclaim Our Beaches"
+ ACR_Raise_Local_Brigades:0 "Raise Local Brigades"
+ ACR_Exploit_Racial_Tensions:0 "Exploit Racial Tensions"
+ ACR_KKK_Propoganda:0 "KKK Propoganda"
+ ACR_Burn_Their_Cities:0 "Burn Their Cities"
+ ACR_War_of_Attrition:0 "War of Attrition"
+ ACR_Offers_to_Resistance:0 "Offers to hte Resistance"
+ ACR_Establish_Civilian_Administrations:0 "Establish Civilian Administrations"
+ 
+ 
+ 
  #spirits
  CON_Ruined_Nation:0 "Ruined Nation"
  CON_Martial_Law:0 "Martial Law"
  CON_Legacy_of_the_US:"Legacy of the United States"
  CON_Separate_But_Equal:0 "Seperate But Equal"
  CON_Divided_Cabinet:0 "Divided Cabinet"
+ 
+ 
  #custom tooltips
  
  #decisions 
