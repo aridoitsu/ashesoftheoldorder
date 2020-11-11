@@ -42,6 +42,11 @@
  NYN_send_in_the_boys_in_blue_tt:0 "Decreases weekly §HLeftist Militancy§! gain by §G1%§!"
  albany.16.a.tt:0 "§RThe socialists have broken our republic!§!"
  albany.16.b.tt:0 "§GThe socialists have asserted their will!§!"
+ albany.6.a.tt:0 "§G-15% Leftist Organization,§! §R+1% Weekly Leftist Militancy§!"
+ albany.6.b.tt:0 "§G-5% Leftist Organization§!"
+ albany.7.a.tt:0 "§G-5% Leftist Organization§!"
+ albany.7.b.tt:0 "§G-5% Leftist Militancy§!"
+ albany.8.a.tt:0 "§G-15% Leftist Militancy,§! §R+1% Weekly Leftist Organization§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
