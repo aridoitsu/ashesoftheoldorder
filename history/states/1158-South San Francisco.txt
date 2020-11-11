@@ -1,8 +1,8 @@
 state={
 	id=1158
-	name="South San Francisco"
+	name="Palo Alto"
 	history = {
-		owner = FSC
+		owner = SIL
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
@@ -10,9 +10,9 @@ state={
 			dockyard = 1
 		}
 
-		add_core_of = FSC
+		add_core_of = SIL
 		victory_points = {
-			13698 40
+			13698 10
 		}
 	}
 	provinces={

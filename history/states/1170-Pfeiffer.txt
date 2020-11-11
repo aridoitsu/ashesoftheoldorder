@@ -1,0 +1,21 @@
+state={
+	id=1170
+	name="Pfeiffer"
+	resources = {
+		oil = 3.000
+		tungsten = 4.000
+	}
+	history = {
+		owner = GOL
+		buildings ={
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = GOL
+	}
+	provinces={
+		3840 6861 9637
+	}
+	manpower=94310
+	state_category = town
+}

@@ -1,0 +1,29 @@
+state={
+	id=1174
+	name="San Joaquin"
+	resources={
+		oil=5
+		aluminium=8
+		steel=9
+	}
+
+	history = {
+		owner = CAL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 1
+		}
+		victory_points = {
+			6694 5
+		}
+		add_core_of = CAL
+	}
+
+	provinces={
+		6694 6699 6876 13709 15916 15917
+	}
+	manpower=677248
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

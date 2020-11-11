@@ -2,8 +2,8 @@ state={
 	id=810
 	name="Reno"
 	history = {
-		owner = JEF
-		add_core_of = JEF
+		owner = MOD
+		add_core_of = MOD
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -14,7 +14,7 @@ state={
 		}
 	}
 	provinces={
-		10422 13834 13896 12134 10305 10625
+		10422 13834
 	}
 	manpower=1222179
 	state_category = city

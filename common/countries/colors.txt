@@ -1290,14 +1290,6 @@ NEV = {
 	color = rgb { 158 63 63 }
 	color_ui = { 158 63 63 }
 }
-CAL = {
-	color = rgb { 252 186 3 }
-	color_ui = { 252 186 3 }
-}
-JEF = {
-	color = rgb { 65 133 69 }
-	color_ui = { 65 133 69 }
-}
 DUG = {
 	color = rgb { 204 110 39 }
 	color_ui = { 204 110 39 }
@@ -1569,4 +1561,51 @@ ETM = {
 AHR = {
 	color = rgb{ 240 83 101 }
 	color_ui = rgb{ 240 83 101 }
+}
+
+
+### California ###
+
+# Free California Territory
+CAL = {
+	color = rgb { 90 65 40 }
+	color_ui = rgb { 90 65 40 }
+	#color = rgb { 252 186 3 }
+	#color_ui = { 252 186 3 }
+}
+
+# Jefferson
+JEF = {
+	color = rgb { 65 133 69 }
+	color_ui = { 65 133 69 }
+}
+
+# Los Angeles Federation
+LAF = {
+	color = rgb { 74 74 74 }
+	color_ui = { 74 74 74 }
+}
+
+# Modoc Republic
+MOD  = {
+	color = rgb { 150 125 100 }
+	color_ui = rgb { 150 125 100 }
+}
+
+# Golden Coast
+GOL = {
+	color = rgb { 250 190 3 }
+	color_ui = rgb { 250 190 3 }
+}
+
+# California Progressive Alliance
+CPA = {
+	color = rgb { 110 30 60 }
+	color_ui = rgb { 110 30 60 }
+}
+
+# Silicon Valley
+SIL = {
+	color = rgb { 40 175 175 }
+	color_ui = rgb { 40 175 175 }
 }
