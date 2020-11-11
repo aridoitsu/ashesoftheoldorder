@@ -25,23 +25,23 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-1936.1.26 = {
-create_faction = Can
-add_to_faction = ABA
-add_to_faction = BCB
-add_to_faction = MBM
-add_to_faction = NBN
-add_to_faction = NLN
-add_to_faction = NSN
-add_to_faction = NTN
-add_to_faction = NUN
-add_to_faction = ONO
-add_to_faction = PEP
-add_to_faction = QBC
-add_to_faction = SKS
-add_to_faction = YTY
-add_to_faction = LAB
-}
+#1936.1.26 = {
+#create_faction = Can
+#add_to_faction = ABA
+#add_to_faction = BCB
+#add_to_faction = MBM
+#add_to_faction = NBN
+#add_to_faction = NLN
+#add_to_faction = NSN
+#add_to_faction = NTN
+#add_to_faction = NUN
+#add_to_faction = ONO
+#add_to_faction = PEP
+#add_to_faction = QBC
+#add_to_faction = SKS
+#add_to_faction = YTY
+#add_to_faction = LAB
+#}
 
 1939.1.1 = {
 

@@ -50,19 +50,19 @@ set_technology = {
 	fighter1 = 1
 }
 
-1936.1.26 = {
-create_faction = IDS
-add_to_faction = WAW
-add_to_faction = MTM
-add_to_faction = IDI
-add_to_faction = UTU
-add_to_faction = COC
-add_to_faction = WYW
-add_to_faction = NDN
-add_to_faction = SDS
-add_to_faction = NEN
-add_to_faction = OKO
-}
+#1936.1.26 = {
+#create_faction = IDS
+#add_to_faction = WAW
+#add_to_faction = MTM
+#add_to_faction = IDI
+#add_to_faction = UTU
+#add_to_faction = COC
+#add_to_faction = WYW
+#add_to_faction = NDN
+#add_to_faction = SDS
+#add_to_faction = NEN
+#add_to_faction = OKO
+#}
 
 1939.1.1 = {
 

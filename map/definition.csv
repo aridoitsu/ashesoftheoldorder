@@ -15916,3 +15916,9 @@
 15915;119;125;218;land;false;urban;3
 15916;48;158;73;land;false;mountain;3
 15917;88;157;187;land;false;mountain;3
+15918;83;157;118;land;true;plains;6
+15919;55;58;179;land;true;plains;6
+15920;214;189;214;land;true;plains;6
+15921;129;140;204;land;false;urban;6
+15922;90;40;106;land;false;hills;6
+15923;37;162;73;land;true;hills;6

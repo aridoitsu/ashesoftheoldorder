@@ -71,6 +71,15 @@ set_popularities = {
 	fascism = 5
 	ultranationalism = 15
 }
+
+create_faction = "CSTO"
+add_to_faction = RUS
+add_to_faction = BLR
+add_to_faction = ARM
+add_to_faction = KAZ
+add_to_faction = KYR
+add_to_faction = TAJ
+
 create_country_leader = {
 	name = "Vladimir Putin"
 	desc = "POLITICS_VLADIMIR_PUTIN_DESC"

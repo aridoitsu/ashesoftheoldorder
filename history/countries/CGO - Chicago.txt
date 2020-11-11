@@ -55,7 +55,41 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+set_party_name = {
+    ideology = totalsoc
+    long_name = CGO_totalsoc_party_long
+    name = CGO_totalsoc_party_short
+}
+set_party_name = {
+    ideology = communism
+    long_name = CGO_communism_party_long
+    name = CGO_communism_party_short
+}
+set_party_name = {
+    ideology = prodem
+    long_name = CGO_prodem_party_long
+    name = CGO_prodem_party_short
+}
+set_party_name = {
+    ideology = demsoc
+    long_name = CGO_demsoc_party_long
+    name = CGO_demsoc_party_short
+}
+set_party_name = {
+    ideology = liberal
+    long_name = CGO_liberal_party_long
+    name = CGO_liberal_party_short
+}
+set_party_name = {
+    ideology = democratic
+    long_name = CGO_democratic_party_long
+    name = CGO_democratic_party_short
+}
+
 add_ideas = {
+	CGO_citywide_fortress
+	CGO_caga_supercomputer
+	CGO_human_military
 }
 set_popularities = {
 	democratic = 4
