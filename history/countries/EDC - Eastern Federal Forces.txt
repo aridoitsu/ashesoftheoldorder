@@ -55,6 +55,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+#create_faction = "Federal Remnants"
+#add_to_faction = EDC
+#add_to_faction = WDC
+
 add_ideas = {
 }
 set_popularities = {

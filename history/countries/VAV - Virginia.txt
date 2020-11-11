@@ -57,6 +57,11 @@ set_politics = {
 }
 add_ideas = {
 }
+
+create_faction = "American United Front"
+add_to_faction = VAV
+add_to_faction = CRN
+
 set_popularities = {
 	democratic = 0
 	neutrality = 27

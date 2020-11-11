@@ -57,6 +57,10 @@ set_politics = {
 }
 add_ideas = {
 }
+
+create_faction = "Asian Association for Regional Cooperation"
+add_to_faction = IND
+
 set_popularities = {
 	democratic = 18
 	neutrality = 0
