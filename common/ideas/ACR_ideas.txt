@@ -55,6 +55,41 @@ ideas = {
 				political_power_factor = -0.25
 				}
 			}
+		ACR_Harsh_Rationing = {
+		picture = GFX_idea_Harsh_Rationing
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				consumer_goods_factor = -0.10
+				}
+			}
+		Confederate_Nostalgia = {
+		picture = GFX_idea_Confederate_Nostalgia
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				war_support_factor = 0.05
+				fascism_drift = 0.01
+				neutrality_drift = 0.01
+				conscription_factor = 0.05
+				}
+			}
+		Project_Neptune = {
+		picture = GFX_idea_Project_Neptune
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_org_factor = 0.05
+				enemy_partisan_effect = -0.1
+				army_attack_factor = 0.1
+				}
+			}
+	
 	}
 }	
 	
