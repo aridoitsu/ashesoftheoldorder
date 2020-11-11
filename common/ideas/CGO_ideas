@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+    CGO_citywide_fortress = {
+      picture = GFX_
+      allowed_civil_war = {
+        always = yes
+      }
+      modifier = {
+        production_speed_bunker_factor = 0.05
+        max_dig_in = 1
+        defence = 0.05
+      }
+    }
+    CGO_caga_supercomputer = {
+      picture = GFX_
+      allowed_civil_war = {
+        always = yes
+      }
+      modifier = {
+        	research_speed_factor = 0.05
+          consumer_goods_factor = 0.08
+          political_power_cost = 0.1
+      }
+    }
+    CGO_human_military = {
+      picture = GFX_
+      allowed_civil_war = {
+        always = yes
+      }
+      modifier = {
+        	planning_speed = -0.05
+          supply_consumption_factor = 0.05
+      }
+    }
+    CGO_nuclear_disaster_1 = {
+      picture = GFX_
+      allowed_civil_war = {
+        always = yes
+      }
+      modifier = {
+        	stability_factor = -0.10
+      }
+    }
+  }
+}

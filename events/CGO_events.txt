@@ -10,6 +10,7 @@ country_event = {
     option = {
 		    name = chicago.1.a
 		    ai_chance = { base = 100 }
+        add_ideas = CGO_nuclear_disaster_1
 	  }
 }
 
