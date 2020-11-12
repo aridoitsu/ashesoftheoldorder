@@ -360,3 +360,74 @@ country_event = {
 			
 			}
 		}
+#disappear the militants
+country_event = {
+	id = albany.18
+		title = albany.18.t
+		desc = albany.18.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.18.a
+			ai_chance = { base = 100 }
+			
+			}
+		}
+#a show of the force
+country_event = {
+	id = albany.19
+		title = albany.19.t
+		desc = albany.19.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.19.a
+			ai_chance = { base = 100 }
+			
+			}
+		}
+#deport the rest
+country_event = {
+	id = albany.20
+		title = albany.20.t
+		desc = albany.20.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.20.a
+			ai_chance = { base = 100 }
+			
+			}
+		}
+#fake combats with dissidents
+country_event = {
+	id = albany.21
+		title = albany.21.t
+		desc = albany.21.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.21.a
+			ai_chance = { base = 100 }
+			
+			}
+		}
+#crime is crime is crime
+country_event = {
+	id = albany.22
+		title = albany.22.t
+		desc = albany.22.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.22.a
+			ai_chance = { base = 100 }
+			
+			}
+		}
+

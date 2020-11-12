@@ -580,6 +580,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 				country_event = {
 					id = albany.22
 				}
+				remove_ideas = NYN_unpopular_government
 			}
 		}
 
@@ -890,7 +891,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 			id = NYN_a_new_new_york
 			icon = GFX_NYN_focus_a_new_new_york
 			x = 20
-			y = 13
+			y = 14
 			cost = 4
 			available_if_capitulated = yes
 			search_filters = { FOCUS_FILTER_POLITICAL }
