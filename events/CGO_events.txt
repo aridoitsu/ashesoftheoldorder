@@ -10,7 +10,7 @@ country_event = {
     option = {
 		    name = chicago.1.a
 		    ai_chance = { base = 100 }
-        add_ideas = CGO_nuclear_disaster_1
+        add_ideas = CGO_nuclear_disaster_start
 	  }
 }
 
@@ -67,6 +67,16 @@ country_event = {
 
     option = {
 		    name = chicago.5.a
+        trigger = {
+          has_country_flag = CGO_chose_people
+        }
+		    ai_chance = { base = 100 }
+	  }
+    option = {
+		    name = chicago.5.b
+        trigger = {
+          has_country_flag = CGO_chose_ai
+        }
 		    ai_chance = { base = 100 }
 	  }
 }

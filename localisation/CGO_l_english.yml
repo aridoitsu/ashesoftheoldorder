@@ -10,14 +10,14 @@
 
  #focus tooltips
  CGO_emergency_meeting_tt:0 "Jorge Mujica, the President of Chicago, will call an emergency meeting"
- CGO_end_of_tree_one_tt:0 "We will put our cleanup plan into action."
+ CGO_end_of_tree_one_tt:0 "We will put our plans into action."
  CGO_chose_people_tt:0 "§RThis could have negative effects on CAGA in the future.§"
 
  #ideas and spirits
  CGO_citywide_fortress:0 "The City-Wide Fortress"
  CGO_caga_supercomputer:0 "C.A.G.A."
- CGO_human_military:0 "Human Military"
- CGO_nuclear_disaster_1:0 "The Byron Incident"
+ CGO_human_military:0 "Incompetent Human Military"
+ CGO_nuclear_disaster_start:0 "The Byron Incident"
 
  #events
  chicago.1.t:0 "An Emergency Meeting"
@@ -27,6 +27,10 @@
  chicago.2.d:0 "The cloud of radiation released from the Byron meltdown is projected to hit the southern areas of Chicago within days, and not only do we have many citizens located there but also a sizable chunk of CAGA’s supercomputer. Both would see negative effects from being exposed to the radiation - though, it is unknown how CAGA would be affected. Unfortunately, much of our manpower has been used to deal with the Bryon incident, leaving just enough to either coordinate the relocation of CAGA’s mainframe or move our most endangered citizens to safer areas. \n \n A dilemma has been presented to our government: Do we save our scientific masterpiece? Or should we face the unknown effects of the radiation cloud on CAGA?"
  chicago.2.a:0 "We cannot damage our most important asset."
  chicago.2.b:0 "Human lives are worth more than machinery."
+ chicago.5.t:0 "The Byron Containment Plan"
+ chicago.5.d:0 "The situation at the Bryon plant is rapidly deteriorating. Already, many residents around the area have reported vomiting and confusion, claiming that the air itself tasted metallic. Our government has ordered the evacuation of all communities within a certain radius of the plant - putting a strain on our extremely frail infrastructure system. The reality of the situation is becoming clear; we must start cleanup immediately or face consequences much worse than just radiation. The scientists developing CAGA have stated that if this disaster is not handled in a proper manner, they will have to take matters into their own hands."
+ chicago.5.a:0 "Those scientists have their priorities mixed up."
+ chicago.5.b:0 "Let's hope it never comes to that."
 
  #politcal parties
  CGO_democratic_party_long:0 "the Reformist Faction"

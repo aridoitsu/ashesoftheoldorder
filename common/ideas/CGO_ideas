@@ -32,6 +32,15 @@ ideas = {
           supply_consumption_factor = 0.05
       }
     }
+    CGO_nuclear_disaster_start = {
+      picture = GFX_
+      allowed_civil_war = {
+        always = yes
+      }
+      modifier = {
+        	stability_factor = -0.10
+      }
+    }
     CGO_nuclear_disaster_1 = {
       picture = GFX_
       allowed_civil_war = {
