@@ -346,3 +346,17 @@ country_event = {
 			}		
 		}
 	}
+#the revolution crushed
+country_event = {
+	id = albany.17
+		title = albany.17.t
+		desc = albany.17.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.17.a
+			ai_chance = { base = 100 }
+			
+			}
+		}
