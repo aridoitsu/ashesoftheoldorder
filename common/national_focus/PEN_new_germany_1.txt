@@ -32,7 +32,7 @@ focus_tree = {
 	#Focus for The Next Step
 	focus = {
 		id = PEN_the_next_step
-		icon = GFX_focus_generic_self_management
+		icon = GFX_PEN_focus_the_next_step
 		x = 8
 		y = 6
 		cost = 5
@@ -52,7 +52,7 @@ focus_tree = {
 	#Focus for Our Overseas Brothers
 	focus = {
 		id = PEN_our_overseas_brothers
-		icon = GFX_goal_generic_trade
+		icon = GFX_PEN_focus_our_overseas_brothers
 		x = 7
 		y = 4
 		cost = 5
@@ -178,7 +178,7 @@ focus_tree = {
 	#Focus for The Imitator
 	focus = {
 		id = PEN_the_imitator
-		icon = GFX_goal_support_fascism
+		icon = GFX_PEN_focus_the_imitator
 		x = 11
 		y = 2
 		cost = 5
@@ -200,7 +200,7 @@ focus_tree = {
 	#Focus for The Anti-Militant Act
 	focus = {
 		id = PEN_the_antimilitant_act
-		icon = GFX_goal_generic_secret_weapon
+		icon = GFX_PEN_focus_the_anti_militant_act
 		x = 10 
 		y = 3
 		cost = 4
@@ -220,7 +220,7 @@ focus_tree = {
 	#Focus for Looking Outwards
 	focus = {
 		id = PEN_looking_outwards
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_PEN_focus_looking_outwards
 		x = 10
 		y = 4
 		cost = 5
@@ -259,7 +259,7 @@ focus_tree = {
 	#Focus for Rurals and Remnants
 	focus = {
 		id = PEN_rurals_and_remnants
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_PEN_focus_rurals_and_remnants
 		x = 6
 		y = 1 
 		cost = 5

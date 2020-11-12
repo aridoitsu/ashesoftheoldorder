@@ -50,24 +50,58 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = libsoc
+	ruling_party = prodem
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
+set_party_name = {
+    ideology = totalsoc
+    long_name = CGO_totalsoc_party_long
+    name = CGO_totalsoc_party_short
+}
+set_party_name = {
+    ideology = communism
+    long_name = CGO_communism_party_long
+    name = CGO_communism_party_short
+}
+set_party_name = {
+    ideology = prodem
+    long_name = CGO_prodem_party_long
+    name = CGO_prodem_party_short
+}
+set_party_name = {
+    ideology = demsoc
+    long_name = CGO_demsoc_party_long
+    name = CGO_demsoc_party_short
+}
+set_party_name = {
+    ideology = liberal
+    long_name = CGO_liberal_party_long
+    name = CGO_liberal_party_short
+}
+set_party_name = {
+    ideology = democratic
+    long_name = CGO_democratic_party_long
+    name = CGO_democratic_party_short
+}
+
 add_ideas = {
+	CGO_citywide_fortress
+	CGO_caga_supercomputer
+	CGO_human_military
 }
 set_popularities = {
-	democratic = 0
+	democratic = 4
 	neutrality = 0
 	authdem = 0
-	liberal = 0
+	liberal = 19
 	demsoc = 0
-	prodem = 0
+	prodem = 46
 	communism = 24
-	totalsoc = 6
-	libsoc = 56
-	anarchy = 14
+	totalsoc = 7
+	libsoc = 0
+	anarchy = 0
 	fascism = 0
 	ultranationalism = 0
 }
@@ -87,7 +121,7 @@ create_country_leader = {
 	desc = "POLITICS_JORGE_MUJICA_DESC"
 	picture = "Portrait_CGO_Jorge_Mujica.dds"
 	expire = "2040.1.1"
-	ideology = part_techno_soc
+	ideology = techno
 	traits = {
 		
 	}

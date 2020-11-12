@@ -57,6 +57,7 @@ set_politics = {
 }
 add_ideas = {
 }
+
 set_popularities = {
 	democratic = 0
 	neutrality = 0

@@ -1,6 +1,6 @@
 state={
 	id=806
-	name="Fresno"
+	name="Kern"
 	history = {
 		owner = CAL
 		add_core_of = CAL
@@ -9,16 +9,15 @@ state={
 			arms_factory = 2
 		}
 		victory_points = {
-			4518 10
+			15913 3
 		}
 		victory_points = {
 			9911 5
 		}
 	}
 	provinces={
-		941 4518 9855 9911 10483 11763 13633
+		941 9855 9911 10483 11763 13633 15913
 	}
-	manpower=56732
-	buildings_max_level_factor=1.000
-	state_category = rural
+	manpower=517379
+	state_category = town
 }

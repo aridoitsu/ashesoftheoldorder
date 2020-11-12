@@ -334,6 +334,9 @@ focus = {
 	    }
       completion_reward = {
 		declare_war_on = { target = NAK type = annex_everything }
+		hidden_effect = { 
+			load_focus_tree = ACR_War1
+		}
 	    }
 	    
 }

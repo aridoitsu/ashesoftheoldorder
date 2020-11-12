@@ -304,8 +304,6 @@ ideologies = {
 	libsoc = {
 
 		types = {
-			part_techno_soc = {
-			}
 			leninist = {
 			}
 			detroit = {

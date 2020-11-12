@@ -71,6 +71,11 @@ set_popularities = {
 	fascism = 0
 	ultranationalism = 0
 }
+
+create_faction = "Shanghai Cooperation Organization"
+add_to_faction = PRC
+add_to_faction = KOR
+
 create_country_leader = {
 	name = "Xi Jinping"
 	desc = "POLITICS_XI_JING_DESC"

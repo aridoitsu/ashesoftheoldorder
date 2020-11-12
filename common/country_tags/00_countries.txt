@@ -293,14 +293,7 @@ PRV = "countries/Wasatch.txt"
 PNX = "countries/Phoenix.txt"
 TCN = "countries/Tusca.txt"
 MJV = "countries/Mojave.txt"
-CHT = "countries/Chinatown.txt"
-FSC = "countries/San Francisco.txt"
-SBY = "countries/California Bay.txt"
-LAG = "countries/Los Angeles.txt"
-CCI = "countries/Pfeiffer.txt"
 NEV = "countries/Sierra Nevada.txt"
-CAL = "countries/Free California.txt"
-JEF = "countries/Jefferson.txt"
 DUG = "countries/Douglas.txt"
 SNK = "countries/Snake.txt"
 PRT = "countries/Portland.txt"
@@ -375,3 +368,27 @@ TRA = "countries/Algerian Republic.txt"
 LSG = "coutnries/Lansing.txt"
 MCH = "countries/Michigan.txt"
 AHR = "countries/AHR.txt"
+
+
+
+# California #
+
+LAF = "countries/Los Angeles.txt"
+CAL = "countries/Free California.txt"
+JEF = "countries/Jefferson.txt"
+
+MOD = "countries/Modoc.txt"
+CPA = "countries/CPA.txt"
+SIL = "countries/Silicon Valley.txt"
+GOL = "countries/Golden Coast.txt"
+
+
+
+
+# Outdated California Tags
+
+CCI = "countries/Pfeiffer.txt"
+LAG = "countries/Los Angeles.txt"
+CHT = "countries/Chinatown.txt"
+FSC = "countries/San Francisco.txt"
+SBY = "countries/California Bay.txt"

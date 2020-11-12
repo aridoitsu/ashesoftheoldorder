@@ -955,9 +955,9 @@
      VICTORY_POINTS_13773:0 "Roseville"
      VICTORY_POINTS_9713:0 "Elk Grove"
    #San Francisco
-     VICTORY_POINTS_13717:0 "Jiujinshan"
+     VICTORY_POINTS_13717:0 "San Francisco"
      VICTORY_POINTS_13711:0 "Oakland"
-     VICTORY_POINTS_13698:0 "San Francisco"
+     VICTORY_POINTS_13698:0 "Palo Alto"
      VICTORY_POINTS_9671:2 "San Jose"
    #Los Angeles
      VICTORY_POINTS_13585:0 "Anaheim"
@@ -974,13 +974,19 @@
      VICTORY_POINTS_11859:0 "Ventura"
      VICTORY_POINTS_6881:0 "Santa Barbara"
      VICTORY_POINTS_4518:0 "Fresno"
+     VICTORY_POINTS_15915:0 "Clovis"
+     VICTORY_POINTS_15914:0 "Selma"
+     VICTORY_POINTS_15913:0 "Visalia"
      VICTORY_POINTS_768:0 "Redding"
      VICTORY_POINTS_11698:0 "Sierra Army Depot"
      VICTORY_POINTS_6681:0 "Santa Rosa"
      VICTORY_POINTS_9911:0 "Bakersfield"
-     VICTORY_POINTS_1601:0 "South Lake Tahoe"
-     VICTORY_POINTS_610:0 "McKinleyville"
+     VICTORY_POINTS_1601:0 "Mottville"
+     VICTORY_POINTS_610:0 "Eureka"
      VICTORY_POINTS_3644:0 "Crescent City"
+     VICTORY_POINTS_4331:0 "Alturas"
+     VICTORY_POINTS_4607:0 "Carson City"
+     VICTORY_POINTS_6694:0 "Stockton"
    ##Connecticut
    #Hartford
      VICTORY_POINTS_13926:0 "Hartford"
@@ -1726,3 +1732,7 @@
  # Minnesota
  
  VICTORY_POINTS_15910:0 "St. Cloud"
+
+ # Korea
+
+ VICTORY_POINTS_15919:0 "Haeju"

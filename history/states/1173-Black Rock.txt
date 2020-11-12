@@ -1,0 +1,16 @@
+state={
+	id=1173
+	name="Black Rock"
+	history = {
+		owner = MOD
+		add_core_of = MOD
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		10305 10625 12134 13896
+	}
+	manpower=7641
+	state_category = pastoral
+}

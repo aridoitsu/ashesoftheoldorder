@@ -10,14 +10,17 @@ state={
 	}
 	
 	history = {
-		owner = JEF
+		owner = MOD
 		victory_points = {
 			11698 1
+		}
+		victory_points = {
+			4331 3
 		}
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = JEF
+		add_core_of = MOD
 	}
 	provinces={
 		766 3588 4331 6665 9697 10159 11698 4347

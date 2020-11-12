@@ -4,10 +4,39 @@
  CGO_a_national_crisis:0 "Organizing Our Priorities"
  CGO_the_ai:0 "The Machine"
  CGO_the_people:0 "The People"
+ CGO_formulate_a_plan:0 "Formulate A Plan"
  CGO_a_hidden_monster:0 "A Hidden Monster"
  CGO_rears_ugly_head:0 "...Rears it's Ugly Head"
 
  #focus tooltips
  CGO_emergency_meeting_tt:0 "Jorge Mujica, the President of Chicago, will call an emergency meeting"
  CGO_end_of_tree_one_tt:0 "We will put our cleanup plan into action."
+ CGO_chose_people_tt:0 "§RThis could have negative effects on CAGA in the future.§"
+
+ #ideas and spirits
+ CGO_citywide_fortress:0 "The City-Wide Fortress"
+ CGO_caga_supercomputer:0 "C.A.G.A."
+ CGO_human_military:0 "Human Military"
+ CGO_nuclear_disaster_1:0 "The Byron Incident"
+
+ #events
+ chicago.1.t:0 "An Emergency Meeting"
+ chicago.1.d:0 "On December 31st, 2017, mere hours before the dawn of the new year, we began to receive frantic calls from the city of Byron. The nuclear power plant, re-activated not long after we solidified our control over the anarchic western lands, had started to overheat, and our cooling systems simply could not keep up with it. Not only is it on track for a complete and utter meltdown, it could also possibly endanger our city and our most prized work: The Chicago Administrator of Government Activities, or CAGA for short. \n \n Jorge Mujica, the President of Chicago, has called an emergency meeting to discuss our immediate reaction to the disaster."
+ chicago.1.a:0 "Oh dear..."
+ chicago.2.t:0 "Organizing Our Priorities"
+ chicago.2.d:0 "The cloud of radiation released from the Byron meltdown is projected to hit the southern areas of Chicago within days, and not only do we have many citizens located there but also a sizable chunk of CAGA’s supercomputer. Both would see negative effects from being exposed to the radiation - though, it is unknown how CAGA would be affected. Unfortunately, much of our manpower has been used to deal with the Bryon incident, leaving just enough to either coordinate the relocation of CAGA’s mainframe or move our most endangered citizens to safer areas. \n \n A dilemma has been presented to our government: Do we save our scientific masterpiece? Or should we face the unknown effects of the radiation cloud on CAGA?"
+ chicago.2.a:0 "We cannot damage our most important asset."
+ chicago.2.b:0 "Human lives are worth more than machinery."
+
+ #politcal parties
+ CGO_democratic_party_long:0 "the Reformist Faction"
+ CGO_democratic_party_short:0 "Reformists"
+ CGO_libdem_party_long:0 "the Traditionalist Faction"
+ CGO_libdem_party_short:0 "Traditionalists"
+ CGO_communism_party_long:0 "the Technocratic Faction"
+ CGO_communism_party_short:0 "Technocrats"
+ CGO_prodem_party_long:0 "the Dualist Faction"
+ CGO_prodem_party_short:0 "Dualists"
+ CGO_totalsoc_party_long:0 "the Technological Progress Faction"
+ CGO_totalsoc_party_short:0 "Technological Progressives"
  #end

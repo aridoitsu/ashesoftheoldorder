@@ -2,7 +2,7 @@ state={
 	id=800
 	name="South Bay"
 	history = {
-		owner = SBY
+		owner = CPA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -11,13 +11,13 @@ state={
 			air_base = 10
 		}
 
-		add_core_of = SBY
+		add_core_of = CPA
 
 		victory_points = {
-			13711 8
+			13711 7
 		}
 		victory_points = {
-			9671 15
+			9671 30
 		}
 	}
 	provinces={

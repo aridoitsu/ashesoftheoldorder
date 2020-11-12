@@ -2544,4 +2544,229 @@ spriteTypes = {
 		name = "For_Dixie"
 		texturefile = "gfx/interface/goals/ACR_focus_for_dixie.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_looking_outwards"
+		texturefile = "gfx/interface/goals/PEN_focus_looking_outwards.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_rurals_and_remnants"
+		texturefile = "gfx/interface/goals/PEN_focus_rurals_and_remnants.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_the_anti_militant_act"
+		texturefile = "gfx/interface/goals/PEN_focus_the_anti_militant_act.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_the_imitator"
+		texturefile = "gfx/interface/goals/PEN_focus_the_imitator.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_the_next_step"
+		texturefile = "gfx/interface/goals/PEN_focus_the_next_step.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PEN_focus_our_overseas_brothers"
+		texturefile = "gfx/interface/goals/PEN_focus_our_overseas_brothers.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_an_emergency_meeting"
+		texturefile = "gfx/interface/goals/CGO_focus_an_emergency_meeting.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_organize_our_priorities"
+		texturefile = "gfx/interface/goals/CGO_focus_organize_our_priorities.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_the_people"
+		texturefile = "gfx/interface/goals/CGO_focus_the_people.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_the_machine"
+		texturefile = "gfx/interface/goals/CGO_focus_the_machine.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_formulate_a_plan"
+		texturefile = "gfx/interface/goals/CGO_focus_formulate_a_plan.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_rears_its_ugly_head"
+		texturefile = "gfx/interface/goals/CGO_focus_rears_its_ugly_head.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_CGO_focus_a_hidden_monster"
+		texturefile = "gfx/interface/goals/CGO_focus_a_hidden_monster.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_make_their_ears_ring"
+		texturefile = "gfx/interface/goals/ACR_focus_make_their_ears_ring.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_in_dixie_land"
+		texturefile = "gfx/interface/goals/ACR_focus_in_dixie_land.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_create_penal_brigades"
+		texturefile = "gfx/interface/goals/ACR_focus_create_penal_brigades.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_authorize_project_neptune"
+		texturefile = "gfx/interface/goals/ACR_focus_authorize_project_neptune.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_utilize_our_strengths"
+		texturefile = "gfx/interface/goals/ACR_focus_utilize_our_strengths.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_mass_motorization"
+		texturefile = "gfx/interface/goals/ACR_focus_mass_motorization.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_armored_spearhead"
+		texturefile = "gfx/interface/goals/ACR_focus_armored_spearhead.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ACR_focus_the_will_of_the_people"
+		texturefile = "gfx/interface/goals/ACR_focus_the_will_of_the_people.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_modern_mobile_warfare"
+		texturefile = "gfx/interface/goals/ACR_focus_modern_mobile_warfare.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_achieve_aerial_supremacy"
+		texturefile = "gfx/interface/goals/ACR_focus_achieve_aerial_supremacy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_doctrines_of_the_past"
+		texturefile = "gfx/interface/goals/ACR_focus_doctrines_of_the_past.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_the_rockets_red_glare"
+		texturefile = "gfx/interface/goals/ACR_focus_the_rockets_red_glare.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_mobilize_the_workforce"
+		texturefile = "gfx/interface/goals/ACR_focus_mobilize_the_workforce.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_spread_fake_news"
+		texturefile = "gfx/interface/goals/ACR_focus_spread_fake_news.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_supremacy_of_american_industry"
+		texturefile = "gfx/interface/goals/ACR_focus_supremacy_of_american_industry.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_exploit_their_weakness"
+		texturefile = "gfx/interface/goals/ACR_focus_exploit_their_weakness.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_bomb_their_farms"
+		texturefile = "gfx/interface/goals/ACR_focus_bomb_their_farms.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_total_war"
+		texturefile = "gfx/interface/goals/ACR_focus_total_war.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_fire_and_fury"
+		texturefile = "gfx/interface/goals/ACR_focus_fire_and_fury.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_no_parley"
+		texturefile = "gfx/interface/goals/ACR_focus_no_parley.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_choke_their_ports"
+		texturefile = "gfx/interface/goals/ACR_focus_choke_their_ports.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_burn_their_cities"
+		texturefile = "gfx/interface/goals/ACR_focus_burn_their_cities.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_war_of_attrition"
+		texturefile = "gfx/interface/goals/ACR_focus_war_of_attrition.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_exploit_racial_tensions"
+		texturefile = "gfx/interface/goals/ACR_focus_exploit_racial_tensions.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_KKK_propoganda"
+		texturefile = "gfx/interface/goals/ACR_focus_KKK_propoganda.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_establish_civilian_administrations"
+		texturefile = "gfx/interface/goals/ACR_focus_establish_civilian_administrations.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_supply_our_forces_in_charleston"
+		texturefile = "gfx/interface/goals/ACR_supply_our_forces_in_charleston.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_reclaim_our_beaches"
+		texturefile = "gfx/interface/goals/ACR_focus_reclaim_our_beaches.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_raise_local_brigades"
+		texturefile = "gfx/interface/goals/ACR_focus_raise_local_brigades.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_offers_to_the_resistance"
+		texturefile = "gfx/interface/goals/ACR_focus_offers_to_the_resistance.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_winter_offensive"
+		texturefile = "gfx/interface/goals/ACR_focus_winter_offensive.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_ACR_focus_militarize_the_KKK"
+		texturefile = "gfx/interface/goals/ACR_focus_militarize_the_KKK.dds"
+	}
 }
