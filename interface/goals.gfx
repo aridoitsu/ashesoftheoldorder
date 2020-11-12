@@ -2815,7 +2815,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/NYN_focus_cut_the_pensions.dds"
 	}
 
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_NYN_focus_a_new_new_york"
 		texturefile = "gfx/interface/goals/NYN_focus_a_new_new_york.dds"
 	}
