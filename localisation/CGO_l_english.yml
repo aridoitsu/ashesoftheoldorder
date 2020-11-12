@@ -12,6 +12,8 @@
  CGO_emergency_meeting_tt:0 "Jorge Mujica, the President of Chicago, will call an emergency meeting"
  CGO_end_of_tree_one_tt:0 "We will put our plans into action."
  CGO_chose_people_tt:0 "§RThis could have negative effects on CAGA in the future.§"
+ CGO_important_info_tt:0 "Your decision here will determine the future of Chicago. Choose wisley. \n"
+ CGO_a_hidden_monster_tt:0 "Continues the containment plan."
 
  #ideas and spirits
  CGO_citywide_fortress:0 "The City-Wide Fortress"

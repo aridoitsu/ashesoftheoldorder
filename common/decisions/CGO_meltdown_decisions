@@ -1,0 +1,62 @@
+CGO_debug = {
+  CGO_chose_ai_flag_debug = {
+    allowed = {
+      tag = CGO
+    }
+
+    visible = {
+      is_debug = yes
+    }
+
+    days_re_enable = 0
+    cost = 0
+    complete_effect = {
+      set_country_flag = CGO_chose_ai
+    }
+  }
+  CGO_remove_ai_flag_debug = {
+    allowed = {
+      tag = CGO
+    }
+
+    visible = {
+      is_debug = yes
+    }
+
+    days_re_enable = 0
+    cost = 0
+    complete_effect = {
+      clr_country_flag = CGO_chose_ai
+    }
+  }
+  CGO_chose_people_flag_debug = {
+    allowed = {
+      tag = CGO
+    }
+
+    visible = {
+      is_debug = yes
+    }
+
+    days_re_enable = 0
+    cost = 0
+    complete_effect = {
+      set_country_flag = CGO_chose_people
+    }
+  }
+  CGO_remove_people_flag_debug = {
+    allowed = {
+      tag = CGO
+    }
+
+    visible = {
+      is_debug = yes
+    }
+
+    days_re_enable = 0
+    cost = 0
+    complete_effect = {
+      clr_country_flag = CGO_chose_people
+    }
+  }
+}

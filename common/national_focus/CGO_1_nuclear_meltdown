@@ -20,13 +20,13 @@ focus_tree = {
   			factor = 1
   		}
   		completion_reward = {
-  			custom_effect_tooltip = CGO_emergency_meeting_tt
   			country_event = { id = chicago.1 }
         hidden_effect = {
           1014 = {
             set_demilitarized_zone = yes
           }
         }
+        custom_effect_tooltip = CGO_emergency_meeting_tt
   		}
   	}
     focus = {
@@ -42,6 +42,7 @@ focus_tree = {
   			factor = 1
   		}
   		completion_reward = {
+        custom_effect_tooltip = CGO_important_info_tt
   			country_event = { id = chicago.2 }
   		}
   	}
@@ -112,7 +113,7 @@ focus_tree = {
   			factor = 1
   		}
   		completion_reward = {
-        #
+        custom_effect_tooltip = CGO_a_hidden_monster_tt
   		}
   	}
     focus = {

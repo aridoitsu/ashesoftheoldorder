@@ -1,0 +1,19 @@
+CGO_debug = {
+	icon = generic_research
+	allowed = {
+		original_tag = CGO
+		is_debug = yes
+		}
+}
+
+CGO_meltdown_cleanup_caga = {
+	icon = generic_research
+	allowed = {
+		original_tag = CGO
+	}
+	visible = {
+		NOT = {
+			has_country_flag = CGO_chose_ai
+			}
+		}
+}
