@@ -1,14 +1,7 @@
-WFF_elections = {
+Confederacy_industrialization_decisions = {
 	icon = generic_research
 	allowed = {
-		original_tag = WDC
+		original_tag = ACR
 	}
-}
-
-WFF_debug = {
-	icon = generic_research
-	allowed = {
-		original_tag = WDC
-		is_debug = yes
-	}
+	scripted_gui = confederacy_industrialization
 }

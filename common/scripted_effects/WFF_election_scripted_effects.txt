@@ -1,0 +1,23 @@
+#####################
+# WFF Election Code #
+#####################
+
+# I swear Ari, if you mess this up. I'm gonna kill someone.
+
+
+
+
+
+
+# Setting up election
+election_setup_initial = {
+	
+	# Montana Variables
+	
+	set_variable = { wff_mt_election_rep = 50 }
+	set_variable = { wff_mt_election_lib = 40 }
+	set_variable = { wff_mt_election_con = 5 }
+	set_variable = { wff_mt_election_other = 5 }
+	
+}
+

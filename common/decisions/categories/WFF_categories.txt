@@ -1,0 +1,14 @@
+WFF_elections = {
+	icon = generic_research
+	allowed = {
+		original_tag = WDC
+	}
+}
+
+WFF_debug = {
+	icon = generic_research
+	allowed = {
+		original_tag = WDC
+		is_debug = yes
+	}
+}

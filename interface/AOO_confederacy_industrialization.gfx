@@ -1,0 +1,19 @@
+spriteTypes = {
+	
+	### INDUSTRIALIZATION ###
+	
+	spriteType = {
+		name = "GFX_Confederacy_Industrialization_GUI_Up"
+		texturefile = "gfx/interface/Confederacy_GUI/Industrialization/Industrialization_button_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Confederacy_Industrialization_GUI_Down"
+		texturefile = "gfx/interface/Confederacy_GUI/Industrialization/Industrialization_button_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Confederacy_Industrialization_GUI_Pic"
+		texturefile = "gfx/interface/Confederacy_GUI/Industrialization/Industrialization_picture.dds"
+	}
+}
