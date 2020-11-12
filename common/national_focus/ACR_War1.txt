@@ -537,9 +537,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 			focus = ACR_Raise_Local_Brigades
 		}
 	    completion_reward = {
-				NAK = {
-					add_ideas = Mass_Desertions
-				}
+				add_ideas = ACR_Provisional_Civilian_Administrations
 			}
 	}
 		
