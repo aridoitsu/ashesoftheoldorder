@@ -11,7 +11,7 @@ state={
 		add_core_of = IRN
 		buildings = {
 			infrastructure = 2
-	`		air_base = 3
+			air_base = 3
 		}
 		victory_points = {
 			13676 5
