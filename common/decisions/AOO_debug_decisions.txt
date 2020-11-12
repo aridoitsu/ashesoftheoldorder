@@ -25,4 +25,304 @@ aoo_debug_decisions = {
 		}
 	}
 
+	debug_become_utopian = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = totalsoc
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = totalsoc
+				}
+			}
+		}
+	}
+
+	debug_become_anarchist = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = anarchy
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = anarchy
+				}
+			}
+		}
+	}
+
+	debug_become_authoritarian_socialist = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = communism
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = communism
+				}
+			}
+		}
+	}
+
+	debug_become_libertarian_socialist = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = libsoc
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = libsoc
+				}
+			}
+		}
+	}
+
+	debug_become_social_democratic = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = demsoc
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = demsoc
+				}
+			}
+		}
+	}
+
+	debug_become_progressive = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = prodem
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = prodem
+				}
+			}
+		}
+	}
+
+	debug_become_liberal = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = liberal
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = liberal
+				}
+			}
+		}
+	}
+
+	debug_become_conservative = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = democratic
+				}
+			}
+		}
+	}
+
+	debug_become_authoritarian_democracy = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = authdem
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = authdem
+				}
+			}
+		}
+	}
+
+	debug_become_despotism = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = neutrality
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = neutrality
+				}
+			}
+		}
+	}
+
+	debug_become_fascist = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = fascism
+				}
+			}
+		}
+	}
+
+	debug_become_ultranationalist = {
+		icon = generic_research
+
+		available = {
+			NOT = {
+				has_government = ultranationalism
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = {
+				set_politics = {
+					ruling_party = ultranationalism
+				}
+			}
+		}
+	}
+
 }
