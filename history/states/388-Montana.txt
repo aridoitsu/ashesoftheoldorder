@@ -1,7 +1,7 @@
 
 state={
 	id=388
-	name="Sidney"
+	name="Sheridan"
 	resources={
 		tungsten=15.000
 		oil=45.000
@@ -12,15 +12,12 @@ state={
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		victory_points = {
-			10706 1
-		}
 		add_core_of = WDC
 		add_core_of = HEL
 	}
 
 	provinces={
-		4863 10624 7880 14252 14367 10706
+		4863 14367
 	}
 	manpower=134605
 	buildings_max_level_factor=1.000

@@ -1,6 +1,6 @@
 state={
 	id=924
-	name="Loess Hills"
+	name="Platte"
 	history = {
 		owner = WDC
 		add_core_of = WDC
@@ -8,24 +8,24 @@ state={
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
+			arms_factory = 1
 		}
 		victory_points = {
-			7852 15
+			7852 5
 		}
 		victory_points = {
-			3855 5
+			3855 3
 		}
 		victory_points = {
-			13922 5
+			13922 3
 		}
 		victory_points = {
-			13885 5
+			13885 3
 		}
 	}
 	provinces={
-		3855 7852 13885 13922
+		3855 7840 7852 12516 13885 13922
 	}
-	manpower=50142
-	buildings_max_level_factor=1.000
-	state_category = rural
+	manpower=84171
+	state_category = town
 }

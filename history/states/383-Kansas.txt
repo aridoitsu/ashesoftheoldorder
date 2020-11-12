@@ -1,7 +1,7 @@
 
 state={
 	id=383
-	name="Dodge"
+	name="Ford"
 	manpower=1880998
 	state_category=city
 	resources={
@@ -29,7 +29,7 @@ state={
 	}
 
 	provinces={
-		12024 4814 13745
+		4814 7892 12024 13745 13763
 	}
 
 	buildings_max_level_factor=1.000

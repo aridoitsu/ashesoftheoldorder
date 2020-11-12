@@ -1,6 +1,6 @@
 state={
 	id=880
-	name="Divide"
+	name="White River"
 
 	resources={
 		tungsten=15
@@ -16,6 +16,9 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
+			7780 10
+		}
+		victory_points = {
 			13735 8
 		}
 		victory_points = {
@@ -26,9 +29,8 @@ state={
 		}
 	}
 	provinces={
-		1827 10588 13735 13762 13776 13795 13821 13846
+		1827 7780 10588 13735 13762 13776 13795 13821 13846
 	}
-	manpower=124036
-	buildings_max_level_factor=1.000
+	manpower=291866
 	state_category = large_city
 }

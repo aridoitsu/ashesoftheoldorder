@@ -14,9 +14,6 @@ state={
 		}
 		add_core_of = WDC
 		victory_points = {
-			7780 10
-		}
-		victory_points = {
 			1809 3
 		}
 		victory_points = {
