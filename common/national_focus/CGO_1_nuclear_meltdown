@@ -23,7 +23,7 @@ focus_tree = {
   			custom_effect_tooltip = CGO_emergency_meeting_tt
   			country_event = { id = chicago.1 }
         hidden_effect = {
-          996 = {
+          1014 = {
             set_demilitarized_zone = yes
           }
         }

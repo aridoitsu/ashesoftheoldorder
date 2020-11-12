@@ -306,8 +306,6 @@ ideologies = {
 		types = {
 			leninist = {
 			}
-			detroit = {
-			}
 		}
 
 		dynamic_faction_names = {
