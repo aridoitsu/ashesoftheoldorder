@@ -1,24 +1,29 @@
+
 state={
 	id=993
 	name="Madison"
-	history = {
+
+	history={
 		owner = CGO
 		add_core_of = CGO
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			12456 5
+			12456 5 
 		}
 		victory_points = {
-			926 1
+			926 1 
 		}
+
 	}
+
 	provinces={
-		1560 12357 12456 926
+		1560 2947 12357 12456 15726 15788 15799 15819 15829 
 	}
 	manpower=31424
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }
