@@ -63,11 +63,21 @@ set_popularities = {
 	authdem = 2
 	liberal = 3
 	demsoc = 30
-	prodem = 45
+	prodem = 40
 	communism = 0
 	totalsoc = 0
 	libsoc = 0
 	anarchy = 0
 	fascism = 0
 	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Chris Coleman"
+	desc = "big chungus epic"
+	picture = "Portrait_MIN_Chris_Coleman.dds"
+	expire = "1965.1.1"
+	ideology = progressive 
+	traits = {
+	}
 }
