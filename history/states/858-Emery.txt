@@ -2,32 +2,35 @@
 state={
 	id=858
 	name="Wasatch"
-	history = {
+
+	history={
 		owner = PRV
 		add_core_of = PRV
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 2
+
 		}
 		victory_points = {
-			13800 3
+			13800 3 
 		}
 		victory_points = {
-			13838 5
+			13838 5 
 		}
 		victory_points = {
-			4865 15
+			4865 15 
 		}
 		victory_points = {
-			13743 3
+			13743 3 
 		}
 
 	}
+
 	provinces={
-		10662 13743 13750 13800 4865 13838
+		4865 7901 10662 13743 13750 13800 13838 15596 15597 15598 15599 15600 15632 15636 15640 15653 15662 15681 15682 15698 15798 
 	}
 	manpower=46456
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

@@ -1,21 +1,26 @@
+
 state={
 	id=882
 	name="Dinosaur"
-	history = {
+
+	history={
 		owner = PRV
 		add_core_of = PRV
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			13757 1
+			13757 1 
 		}
+
 	}
+
 	provinces={
-		10535 13807 13757 1756 12633
+		1756 10535 12633 13189 13757 13807 15594 15595 15603 15614 15635 15707 
 	}
 	manpower=98739
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }
