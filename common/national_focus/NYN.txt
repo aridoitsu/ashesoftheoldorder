@@ -472,6 +472,32 @@ continuous_focus_position = { x = 50 y = 2000 }
 				country_event = {
 					id = albany.17
 				}
+				set_variable = {
+					var = NYN_real_debt
+					value = -2
+				}
+				set_variable = {
+					var = NYN_reported_debt
+					value = -2
+				}
+				set_variable = {
+					var = NYN_debt
+					value = 0
+				}
+				set_variable = {
+					var = NYN_interest
+					value = 0
+				}
+				set_variable = {
+					var = NYN_suspicion
+					value = 0
+				}
+				set_variable = { temp1 = NYN_reported_debt }
+				subtract_from_variable = { temp1 = NYN_real_debt }
+				add_to_variable = { temp1 = 1 }
+				set_variable = { temp2 = 20 }
+				multiply_variable = { temp1 = temp2 }
+				set_variable = { NYN_overreport_cost = temp1 }
 			}
 		}
 

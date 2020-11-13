@@ -79,6 +79,9 @@
  NYN_start_the_reconstruction_of_albany:0 "[GetReconstructionState]"
  NYN_reconstruction:0 "Reconstruction"
  NYN_add_poconos_as_core:0 "Re-Integrate Poconos"
+ NYN_debt_growth:0 "Debt"
+ NYN_overreport_growth:0 "Over-Report Growth"
+ NYN_debt_growth_desc:0 "Reported Debt Growth: [GetReporteddebtColor]\n\nReal Debt Growth: [GetRealdebtColor]\n\nCurrent Investor Suspicion Level: [GetSuspicion]"
  #events
  albany.15.t:0 "[GetFate]"
  
@@ -200,6 +203,17 @@
  NYN_labor_con_0:0 "New Labor Laws"
  NYN_labor_con_1:0 "The Corporate Labor Plan"
  NYN_labor_con_2:0 "The Welfare Plan"
+ NYN_GetSus1:0 "§GNone§!"
+ NYN_GetSus2:0 "§HSlight§!"
+ NYN_GetSus3:0 "§OMedium§!"
+ NYN_GetSus4:0 "§RHigh§!"
+ NYN_GetSus5:0 "§bVery High§!"
+ NYN_RealdebtColor1:0 "§R[?NYN_real_gdp]%§!"
+ NYN_RealdebtColor2:0 "§H[?NYN_real_gdp]%§!"
+ NYN_RealdebtColor3:0 "§G[?NYN_real_gdp]%§!"
+ NYN_ReporteddebtColor1:0 "§R[?NYN_reported_gdp]%§!"
+ NYN_ReporteddebtColor2:0 "§G[?NYN_reported_gdp]%§!"
+ NYN_ReporteddebtColor3:0 "§R[?NYN_reported_gdp]%§!"
  
  
  

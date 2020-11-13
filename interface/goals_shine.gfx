@@ -15314,7 +15314,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "Purge_the_Enemy"
+		name = "Purge_the_Enemy_shine"
 		texturefile = "gfx/interface/goals/ACR_focus_purge_the_enemy.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
