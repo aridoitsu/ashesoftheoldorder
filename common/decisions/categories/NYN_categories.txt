@@ -7,7 +7,7 @@ NYN_debug = {
 }
 
 NYN_leftist_resistance = {
-	icon = generic_research
+	icon = generic_communism
 	allowed = {
 		original_tag = NYN
 	}
@@ -40,7 +40,7 @@ NYN_reconstruction = {
 }
 
 NYN_debt_growth = {
-	icon = generic_research
+	icon = generic_economy
 	allowed = {
 		original_tag = NYN
 	}

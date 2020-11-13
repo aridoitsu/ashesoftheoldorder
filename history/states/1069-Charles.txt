@@ -1,24 +1,26 @@
+
 state={
 	id=1069
 	name="Karakalpakstan"
-	manpower=1817506
-	state_category=rural
 
-	history = {
+	history={
 		owner = UZB
-
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			12324 1
+			12324 1 
 		}
 		add_core_of = UZB
 
 	}
+
 	provinces={
-		7541 10348 10395 10435 12233 12324 12454 12465 12474 13207 15870 15871 15872
+		7541 10348 10395 10435 12233 12324 12454 12465 12474 13207 15870 15871 15872 
 	}
+	manpower=1817506
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
