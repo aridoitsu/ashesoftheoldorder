@@ -1,6 +1,6 @@
 focus_tree = {
 	id = twincities_focus
-	continuous_focus_position = { x = 20 y = 2000 }
+	continuous_focus_position = { x = 200 y = 1250 }
 	country = {
 		factor = 0
 		modifier = {
@@ -179,10 +179,243 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		cost = 3.00
 		prerequisite = {
-			focus = MIN_democracy focus = MIN_interfere focus = MIN_strikes_protest
-		}
+			focus = MIN_interfere
+		  }
+		  prerequisite = {
+			focus = MIN_democracy focus = MIN_strikes_protest
+		  }
+
 		x = 3.5
 		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_mpls_frey
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_mplsresult
+		}
+
+		x = 2
+		y = 5
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_mpls_rosenfeld
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_mplsresult
+		}
+
+		x = 5
+		y = 5
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_mpls_frey_fraud
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_mpls_frey
+		}
+
+		x = 1.5
+		y = 6
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_mpls_attacks
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_mpls_rosenfeld
+		}
+
+		x = 5.5
+		y = 6
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_march_revolution
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_mpls_frey_fraud focus = MIN_mpls_attacks
+		}
+
+		x = 3.5
+		y = 7
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_twin_metals
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			
+		}
+
+		x = 10
+		y = 0
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_stpaulcorps
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			
+		}
+
+		x = 12
+		y = 0
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_reestablish_mines
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_twin_metals
+		}
+
+		x = 9
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_lake_defence
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_stpaulcorps
+		}
+
+		x = 13
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_des_moines_relations
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_twin_metals
+		}
+		prerequisite = {
+			focus = MIN_stpaulcorps
+		}
+
+		x = 11
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_duluth_trade_co
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_reestablish_mines
+		}
+		prerequisite = {
+			focus = MIN_lake_defence
+		}
+		prerequisite = {
+			focus = MIN_des_moines_relations
+		}
+
+		x = 11
+		y = 2
 		ai_will_do = {
 			factor = 10
 		}
