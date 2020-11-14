@@ -150,6 +150,121 @@ NYN_debug = {
 			clr_country_flag = NYN_revolt
 			}
 		}
+	NYN_set_country_flag_revolution_crushed = {
+		allowed = {
+			tag = NYN
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			set_country_flag = NYN_the_revolution_crushed
+			mark_focus_tree_layout_dirty = yes
+			}
+		}
+	NYN_add_reported_debt = {
+		allowed = {
+			tag = NYN
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			add_to_variable = { NYN_reported_debt = 1 } 
+			set_variable = { temp1 = NYN_real_debt }
+			subtract_from_variable = { temp1 = NYN_reported_debt }
+			add_to_variable = { temp1 = 1 }
+			set_variable = { temp2 = 20 }
+			multiply_variable = { temp1 = temp2 }
+			set_variable = { NYN_overreport_cost = temp1 }
+			}
+		}
+	NYN_subtract_real_debt = {
+		allowed = {
+			tag = NYN
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			subtract_from_variable = { NYN_real_debt = 1 } 
+			set_variable = { temp1 = NYN_real_debt }
+			subtract_from_variable = { temp1 = NYN_reported_debt }
+			add_to_variable = { temp1 = 1 }
+			set_variable = { temp2 = 20 }
+			multiply_variable = { temp1 = temp2 }
+			set_variable = { NYN_overreport_cost = temp1 }
+			}
+		}
+	NYN_increase_sus = {
+		allowed = {
+			tag = NYN
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			add_to_variable = { NYN_suspicion = 1 } 
+			}
+		}
+	NYN_subtract_reported_debt = {
+		allowed = {
+			tag = NYN
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			subtract_from_variable = { NYN_reported_debt = 1 } 
+			set_variable = { temp1 = NYN_real_debt }
+			subtract_from_variable = { temp1 = NYN_reported_debt }
+			add_to_variable = { temp1 = 1 }
+			set_variable = { temp2 = 20 }
+			multiply_variable = { temp1 = temp2 }
+			set_variable = { NYN_overreport_cost = temp1 }
+			}
+		}
+	NYN_add_real_debt = {
+		allowed = {
+			tag = NYN
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			add_to_variable = { NYN_real_debt = 1 } 
+			set_variable = { temp1 = NYN_real_debt }
+			subtract_from_variable = { temp1 = NYN_reported_debt }
+			add_to_variable = { temp1 = 1 }
+			set_variable = { temp2 = 20 }
+			multiply_variable = { temp1 = temp2 }
+			set_variable = { NYN_overreport_cost = temp1 }
+			}
+		}
 		
 		
 		
@@ -172,6 +287,7 @@ NYN_leftist_resistance = {
 				}
 			}
 		days_mission_timeout = 340
+		icon = revolt
 		fire_only_once = yes
 		available = {
 			always = no
@@ -324,6 +440,73 @@ NYN_reconstruction = {
 		
 		}
 	}
+
+NYN_debt_growth = {
+	NYN_overreport_growth = {
+		availbale = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		visible = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		cost = NYN_overreport_cost
+		icon = generic_break_treaty
+		days_re_enable = 0
+		complete_effect = {
+			add_to_variable = { NYN_reported_debt = 1 }
+			set_variable = { temp1 = NYN_real_debt }
+			subtract_from_variable = { temp1 = NYN_reported_debt }
+			add_to_variable = { temp1 = 1 }
+			set_variable = { temp2 = 20 }
+			multiply_variable = { temp1 = temp2 }
+			set_variable = { NYN_overreport_cost = temp1 }
+		}
+	}
+	NYN_short_term_loan = {
+		availbale = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		visible = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		cost = 0
+		icon = generic_political_discourse
+		days_re_enable = 0
+		days_remove = 14
+		complete_effect = {
+			add_to_variable = { NYN_total_debt = 100 }
+			add_political_power = 100
+			set_variable = { temp1 = NYN_real_debt }
+			subtract_from_variable = { temp1 = NYN_reported_debt }
+			add_to_variable = { temp1 = 1 }
+			set_variable = { temp2 = 20 }
+			multiply_variable = { temp1 = temp2 }
+			set_variable = { NYN_overreport_cost = temp1 }
+		}
+	}
+	NYN_long_term_loan = {
+		availbale = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		visible = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		cost = 0
+		icon = generic_political_discourse
+		days_re_enable = 0
+		days_remove = 45
+		complete_effect = {
+			add_to_variable = { NYN_total_debt = 300 }
+			add_political_power = 300
+			set_variable = { temp1 = NYN_real_debt }
+			subtract_from_variable = { temp1 = NYN_reported_debt }
+			add_to_variable = { temp1 = 1 }
+			set_variable = { temp2 = 20 }
+			multiply_variable = { temp1 = temp2 }
+			set_variable = { NYN_overreport_cost = temp1 }
+		}
+	}
+}
 
 
 

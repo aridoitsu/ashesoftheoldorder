@@ -1,6 +1,6 @@
 state={
 	id=916
-	name="Smoky Hills"
+	name="Riley"
 	history = {
 		owner = WDC
 		add_core_of = WDC
@@ -12,7 +12,7 @@ state={
 		}
 	}
 	provinces={
-		1753 13792 13799 13822 13826
+		1753 13792 13799 13822 13826 15925
 	}
 	manpower=105487
 	buildings_max_level_factor=1.000

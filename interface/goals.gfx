@@ -2742,7 +2742,7 @@ spriteTypes = {
 
 	SpriteType = { 
 		name = "GFX_ACR_supply_our_forces_in_charleston"
-		texturefile = "gfx/interface/goals/ACR_supply_our_forces_in_charleston.dds"
+		texturefile = "gfx/interface/goals/ACR_focus_supply_our_forces_in_charleston.dds"
 	}
 
 	SpriteType = { 
@@ -2768,5 +2768,70 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_ACR_focus_militarize_the_KKK"
 		texturefile = "gfx/interface/goals/ACR_focus_militarize_the_KKK.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_target_the_poors"
+		texturefile = "gfx/interface/goals/NYN_focus_target_the_poors.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_target_the_schools"
+		texturefile = "gfx/interface/goals/NYN_focus_target_the_schools.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_feed_it_our_old"
+		texturefile = "gfx/interface/goals/NYN_focus_feed_it_our_old.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_feed_it_our_young"
+		texturefile = "gfx/interface/goals/NYN_focus_feed_it_our_young.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_the_military_industrial_complex"
+		texturefile = "gfx/interface/goals/NYN_focus_the_military_industrial_complex_demands_blood.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_get_back_in_factories"
+		texturefile = "gfx/interface/goals/NYN_focus_get_back_in_factories.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_get_on_frontlines"
+		texturefile = "gfx/interface/goals/NYN_focus_get_on_frontlines.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_end_veterans_benefits"
+		texturefile = "gfx/interface/goals/NYN_focus_end_veterans_benefits.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_cut_the_pensions"
+		texturefile = "gfx/interface/goals/NYN_focus_cut_the_pensions.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NYN_focus_a_new_new_york"
+		texturefile = "gfx/interface/goals/NYN_focus_a_new_new_york.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_end_the_huns"
+		texturefile = "gfx/interface/goals/NYN_focus_end_the_huns.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_retake_the_capital_of_the_world"
+		texturefile = "gfx/interface/goals/NYN_focus_retake_the_capital_of_the_world.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_NYN_focus_secure_our_investors_interests"
+		texturefile = "gfx/interface/goals/NYN_focus_secure_our_investors_interests.dds"
 	}
 }

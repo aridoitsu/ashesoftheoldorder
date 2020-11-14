@@ -7,6 +7,7 @@ focus_tree = {
             tag = CGO
         }
     }
+    continuous_focus_position = { x = 150 y = 2700 }
     focus = {
   		id = CGO_an_emergency_meeting
   		icon = GFX_CGO_focus_an_emergency_meeting
@@ -19,8 +20,13 @@ focus_tree = {
   			factor = 1
   		}
   		completion_reward = {
-  			custom_effect_tooltip = CGO_emergency_meeting_tt
   			country_event = { id = chicago.1 }
+        hidden_effect = {
+          1014 = {
+            set_demilitarized_zone = yes
+          }
+        }
+        custom_effect_tooltip = CGO_emergency_meeting_tt
   		}
   	}
     focus = {
@@ -36,6 +42,7 @@ focus_tree = {
   			factor = 1
   		}
   		completion_reward = {
+        custom_effect_tooltip = CGO_important_info_tt
   			country_event = { id = chicago.2 }
   		}
   	}
@@ -106,7 +113,7 @@ focus_tree = {
   			factor = 1
   		}
   		completion_reward = {
-        #
+        custom_effect_tooltip = CGO_a_hidden_monster_tt
   		}
   	}
     focus = {

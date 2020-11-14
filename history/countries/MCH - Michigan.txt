@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = authdem
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,9 +58,9 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	democratic = 30
+	democratic = 40
 	neutrality = 10
-	authdem = 40
+	authdem = 30
 	liberal = 20
 	demsoc = 0
 	prodem = 0
@@ -76,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_ENGLER_DESC"
 	picture = "Portrait_MCH_John_Engler.dds"
 	expire = "2040.1.1"
-	ideology = reactionary
+	ideology = conservative
 	traits = {
 		#
 	}

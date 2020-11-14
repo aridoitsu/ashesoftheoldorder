@@ -1,19 +1,21 @@
 state={
 	id=923
-	name="Flint Hills"
+	name="Ferguson"
 	history = {
 		owner = WDC
 		add_core_of = WDC
-		add_core_of = SEQ
+		add_core_of = HEL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
+		victory_points = {
+			14223 1
+		}
 	}
 	provinces={
-		7892 13763 
+		12572 14218 14219 14223 14275
 	}
-	manpower=188998
-	buildings_max_level_factor=1.000
+	manpower=84120
 	state_category = town
 }

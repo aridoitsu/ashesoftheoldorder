@@ -1,6 +1,6 @@
 state={
 	id=933
-	name="Badlands"
+	name="Brule"
 	resources = {
 		chromium = 13.000
 	}
@@ -24,9 +24,8 @@ state={
 		}
 	}
 	provinces={
-		1875 7745 7771 13979 13980 13981 13992 14008 14009 14021
+		1875 7745 7771 13979 13980 13981 13992 14009 14021
 	}
-	manpower=692849
-	buildings_max_level_factor=1.000
+	manpower=525019
 	state_category = rural
 }

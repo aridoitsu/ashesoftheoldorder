@@ -100,5 +100,27 @@ ideas = {
 				local_resources_factor = -0.25
 				}
 			}
+		NYN_investor_backing = {
+		picture = GFX_idea_NYN_investor_backing
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				}
+			}
+		NYN_growing_economy = {
+		picture = GFX_idea_NYN_growing_economy
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1
+				}
+			}
 	}
 }

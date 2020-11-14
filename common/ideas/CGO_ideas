@@ -1,7 +1,7 @@
 ideas = {
 	country = {
     CGO_citywide_fortress = {
-      picture = GFX_
+      picture = GFX_idea_CGO_citywide_fortress
       allowed_civil_war = {
         always = yes
       }
@@ -12,7 +12,7 @@ ideas = {
       }
     }
     CGO_caga_supercomputer = {
-      picture = GFX_
+      picture = GFX_idea_CGO_caga_ai
       allowed_civil_war = {
         always = yes
       }
@@ -23,7 +23,7 @@ ideas = {
       }
     }
     CGO_human_military = {
-      picture = GFX_
+      picture = GFX_idea_CGO_human_military
       allowed_civil_war = {
         always = yes
       }
@@ -32,8 +32,17 @@ ideas = {
           supply_consumption_factor = 0.05
       }
     }
-    CGO_nuclear_disaster_1 = {
+    CGO_nuclear_disaster_start = {
       picture = GFX_
+      allowed_civil_war = {
+        always = yes
+      }
+      modifier = {
+        	stability_factor = -0.10
+      }
+    }
+    CGO_nuclear_disaster_1 = {
+      picture = GFX_idea_CGO_byron_incident
       allowed_civil_war = {
         always = yes
       }

@@ -1,0 +1,196 @@
+focus_tree = {
+	id = twincities_focus
+	continuous_focus_position = { x = 20 y = 2000 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 25
+			tag = MIN
+		}
+	}
+	default = no
+	focus = {
+		id = MIN_strikes
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		x = 3.5
+		y = 0
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_mplselection
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = { focus = MIN_strikes }
+		mutually_exclusive = {
+			focus = MIN_fight_strikes 
+		}
+		x = 1.5
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = MIN_fight_strikes
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = { focus = MIN_strikes }
+		mutually_exclusive = {
+			focus = MIN_mplselection
+		}
+		x = 5.5
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_nationalguard
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_fight_strikes
+		}
+		mutually_exclusive = {
+			focus = MIN_strikes_protest
+		}
+		x = 4.5
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_strikes_protest
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_fight_strikes
+		}
+		mutually_exclusive = {
+			focus = MIN_nationalguard
+		}
+		x = 6.5
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_democracy
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_mplselection
+		}
+		mutually_exclusive = {
+			focus = MIN_interfere_election
+		}
+		x = 0.5
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_interfere_election
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_mplselection
+		}
+		mutually_exclusive = {
+			focus = MIN_democracy
+		}
+		x = 2.5
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = MIN_interfere
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_interfere_election focus = MIN_nationalguard
+		}
+		x = 3.5
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = MIN_mplsresult
+		icon = GFX_goal_generic_small_arms
+		cost = 3.00
+		prerequisite = {
+			focus = MIN_democracy focus = MIN_interfere focus = MIN_strikes_protest
+		}
+		x = 3.5
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}
+}

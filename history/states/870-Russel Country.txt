@@ -1,6 +1,6 @@
 state={
 	id=870
-	name="Russel"
+	name="Belknap"
 	resources = {
 		tungsten = 11.000
 	}
@@ -18,14 +18,10 @@ state={
 		victory_points = {
 			10593 1
 		}
-		victory_points = {
-			14223 1
-		}
 	}
 	provinces={
-		1857 10593 11712 12572 14218 14219 14223 14275 14308 14326 14346
+		1857 10593 10624 11712 14308 14326 14346
 	}
-	manpower=125436
-	buildings_max_level_factor=1.000
+	manpower=98321
 	state_category = rural
 }

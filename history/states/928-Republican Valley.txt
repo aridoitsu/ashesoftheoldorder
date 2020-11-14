@@ -1,6 +1,6 @@
 state={
 	id=928
-	name="McCook"
+	name="Red Willow"
 	history = {
 		owner = WDC
 		add_core_of = WDC

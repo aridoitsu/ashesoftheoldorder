@@ -7,7 +7,7 @@ focus_tree = {
             tag = C01
         }
     }
-continuous_focus_position = { x = 50 y = 2000 }
+	continuous_focus_position = { x = 50 y = 2000 }
  focus = { 
       id = ACR_Dixies_Land_Ill_Take_My_Stand
 	    icon = GFX_ACR_focus_in_dixie_land

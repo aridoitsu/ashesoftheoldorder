@@ -1,6 +1,6 @@
 state={
 	id=936
-	name="Dickinson"
+	name="Burleigh"
 	history = {
 		owner = WDC
 		buildings = {

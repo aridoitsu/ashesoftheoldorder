@@ -5,7 +5,7 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = NYN
-		}
+			}
 		}
 continuous_focus_position = { x = 50 y = 2000 }		
 
@@ -451,7 +451,489 @@ continuous_focus_position = { x = 50 y = 2000 }
 		}
 	} 
 
+		#the revolution crushed
+		focus = {
+			id = NYN_the_revolution_crushed
+			icon = GFX_NYN_the_revolution_crushed
+			x = 20
+			y = 0
+			cost = 4
+			available_if_capitulated = yes
+			allow_branch = {
+				has_country_flag = NYN_the_revolution_crushed
+				has_country_flag = NYN_oh_god_oh_fuck
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			completion_reward = {
+				add_stability = 0.1
+				country_event = {
+					id = albany.17
+				}
+				set_variable = {
+					var = NYN_real_debt
+					value = 25
+				}
+				set_variable = {
+					var = NYN_total_debt
+					value = 2500
+				}
+				set_variable = {
+					var = NYN_reported_debt
+					value = 25
+				}
+				set_variable = {
+					var = NYN_debt
+					value = 0
+				}
+				set_variable = {
+					var = NYN_interest
+					value = 0
+				}
+				set_variable = {
+					var = NYN_suspicion
+					value = 0
+				}
+				set_variable = { temp1 = NYN_real_debt }
+				subtract_from_variable = { temp1 = NYN_reported_debt }
+				add_to_variable = { temp1 = 1 }
+				set_variable = { temp2 = 20 }
+				multiply_variable = { temp1 = temp2 }
+				set_variable = { NYN_overreport_cost = temp1 }
+			}
+		}
 
+		#disappear the militants
+		focus = {
+			id = NYN_disappear_the_militants
+			icon = GFX_NYN_disappear_the_militants
+			x = 19
+			y = 1
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_the_revolution_crushed }
+			completion_reward = {
+				add_stability = 0.05
+				country_event = {
+					id = albany.18
+				}
+			}
+		}
+
+		#a show of force
+		focus = {
+			id = NYN_a_show_of_force
+			icon = GFX_NYN_a_show_of_force
+			x = 21
+			y = 1
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_the_revolution_crushed }
+			completion_reward = {
+				add_stability = 0.05
+				add_war_support = -0.05
+				country_event = {
+					id = albany.19
+				}
+			}
+		}
+
+		#deport the rest
+		focus = {
+			id = NYN_deport_the_rest
+			icon = GFX_NYN_deport_the_rest
+			x = 19
+			y = 2
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_disappear_the_militants }
+			completion_reward = {
+				add_stability = 0.05
+				country_event = {
+					id = albany.20
+				}
+			}
+		}
+
+		#fake combats with dissidents
+		focus = {
+			id = NYN_fake_combats_with_dissidents
+			icon = GFX_NYN_fake_combats_with_dissidents
+			x = 21
+			y = 2
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_a_show_of_force }
+			completion_reward = {
+				add_stability = 0.05
+				country_event = {
+					id = albany.21
+				}
+			}
+		}
+
+		#crime is crime is crime
+		focus = {
+			id = NYN_crime_is_crime_is_crime
+			icon = GFX_NYN_crime_is_crime_is_crime
+			x = 20
+			y = 3
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_fake_combats_with_dissidents }
+			prerequisite = { focus = NYN_deport_the_rest }
+			completion_reward = {
+				add_stability = 0.05
+				add_war_support = 0.1
+				country_event = {
+					id = albany.22
+				}
+				remove_ideas = NYN_unpopular_government
+			}
+		}
+
+		#our investors starting to return
+		focus = {
+			id = NYN_our_investors_starting_to_return
+			icon = GFX_NYN_our_investors_starting_to_return
+			x = 18
+			y = 4
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_crime_is_crime_is_crime }
+			completion_reward = {
+				add_stability = 0.05
+				add_ideas = NYN_investor_backing
+			}
+		}
+
+		#fudge the numbers
+		focus = {
+			id = NYN_fudge_the_numbers
+			icon = GFX_NYN_fudge_the_numbers
+			x = 20
+			y = 4
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_crime_is_crime_is_crime }
+			completion_reward = {
+				add_stability = 0.05
+				add_political_power = 50
+			}
+		}
+
+		#no more unions
+		focus = {
+			id = NYN_no_more_unions
+			icon = GFX_NYN_no_more_unions
+			x = 22
+			y = 4
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_crime_is_crime_is_crime }
+			completion_reward = {
+				add_stability = -0.05
+				add_war_support = 0.05
+			}
+		}
+
+		#our economy rebounding
+		focus = {
+			id = NYN_our_economy_rebounding
+			icon = GFX_NYN_our_economy_rebounding
+			x = 20
+			y = 5
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_our_investors_starting_to_return }
+			prerequisite = { focus = NYN_fudge_the_numbers }
+			prerequisite = { focus = NYN_no_more_unions }
+			completion_reward = {
+				add_stability = 0.1
+				add_political_power = 50
+				add_ideas = NYN_growing_economy
+				set_country_flag = NYN_rebounding_economy
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+
+		#the military industrial complex demands blood
+		focus = {
+			id = NYN_the_military_industrial_complex
+			icon = GFX_NYN_focus_the_military_industrial_complex
+			x = 20
+			y = 7
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			allow_branch = {
+				has_country_flag = NYN_rebounding_economy
+			}
+			completion_reward = {
+
+			}
+		}
+
+		#feed it our young
+		focus = {
+			id = NYN_feed_it_our_young
+			icon = GFX_NYN_focus_feed_it_our_young
+			x = 18
+			y = 8
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_the_military_industrial_complex }
+			completion_reward = {
+
+			}
+		}
+
+		#feed it our old
+		focus = {
+			id = NYN_feed_it_our_old
+			icon = GFX_NYN_focus_feed_it_our_old
+			x = 22
+			y = 8
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_the_military_industrial_complex }
+			completion_reward = {
+
+			}
+		}
+
+		#target the schools
+		focus = {
+			id = NYN_target_the_schools
+			icon = GFX_NYN_focus_target_the_schools
+			x = 17
+			y = 9
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_feed_it_our_young }
+			completion_reward = {
+
+			}
+		}
+
+		#target the poors
+		focus = {
+			id = NYN_target_the_poors
+			icon = GFX_NYN_focus_target_the_poors
+			x = 19
+			y = 9
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_feed_it_our_young }
+			completion_reward = {
+
+			}
+		}
+
+		#cut the pensions
+		focus = {
+			id = NYN_cut_the_pensions
+			icon = GFX_NYN_focus_cut_the_pensions
+			x = 21
+			y = 9
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_feed_it_our_old }
+			completion_reward = {
+
+			}
+		}
+
+		#end veterans' benefits
+		focus = {
+			id = NYN_end_veterans_benefits
+			icon = GFX_NYN_focus_end_veterans_benefits
+			x = 23
+			y = 9
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_feed_it_our_old }
+			completion_reward = {
+
+			}
+		}
+
+		#get them on the frontlines
+		focus = {
+			id = NYN_get_on_frontlines
+			icon = GFX_NYN_focus_get_on_frontlines
+			x = 18
+			y = 10
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_target_the_schools }
+			prerequisite = { focus = NYN_target_the_poors }
+			completion_reward = {
+
+			}
+		}
+
+		#get them back in the factories
+		focus = {
+			id = NYN_get_back_in_factories
+			icon = GFX_NYN_focus_get_back_in_factories
+			x = 22
+			y = 10
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_cut_the_pensions }
+			prerequisite = { focus = NYN_end_veterans_benefits }
+			completion_reward = {
+
+			}
+		}
+
+		#secure our investors interest
+		focus = {
+			id = NYN_secure_our_investors_interests
+			icon = GFX_NYN_focus_secure_our_investors_interests
+			x = 20
+			y = 11
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_get_on_frontlines }
+			prerequisite = { focus = NYN_get_back_in_factories }
+			completion_reward = {
+
+			}
+		}
+
+		#re-take the capital of the world
+		focus = {
+			id = NYN_retake_the_capital_of_the_world
+			icon = GFX_NYN_focus_retake_the_capital_of_the_world
+			x = 19
+			y = 12
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_secure_our_investors_interests }
+			completion_reward = {
+
+			}
+		}
+
+		#end the huns
+		focus = {
+			id = NYN_end_the_huns
+			icon = GFX_NYN_focus_end_the_huns
+			x = 21
+			y = 12
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_secure_our_investors_interests }
+			completion_reward = {
+
+			}
+		}
+
+		#a new new york
+		focus = {
+			id = NYN_a_new_new_york
+			icon = GFX_NYN_focus_a_new_new_york
+			x = 20
+			y = 14
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			ai_will_do = {
+				factor = 1
+			}
+			prerequisite = { focus = NYN_end_the_huns }
+			prerequisite = { focus = NYN_retake_the_capital_of_the_world }
+			completion_reward = {
+
+			}
+		}
 
 
 

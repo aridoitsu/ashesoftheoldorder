@@ -1,46 +1,51 @@
+
 state={
 	id=995
 	name="Chicago"
-	resources = {
-		chromium = 12.000
+	resources={
+		chromium=12.000
 	}
-	history = {
+
+	history={
 		owner = CGO
 		add_core_of = CGO
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
 			arms_factory = 2
+
 		}
 		victory_points = {
-			13935 30
+			13935 30 
 		}
 		victory_points = {
-			13946 5
+			13946 5 
 		}
 		victory_points = {
-			9450 5
+			9450 5 
 		}
 		victory_points = {
-			13933 3
+			13933 3 
 		}
 		victory_points = {
-			13945 3
+			13945 3 
 		}
 		victory_points = {
-			13920 1
+			13920 1 
 		}
 		victory_points = {
-			13959 5
+			13959 5 
 		}
 		victory_points = {
-			13911 1
+			13911 1 
 		}
+
 	}
+
 	provinces={
-		9450 13911 13920 13933 13935 13945 13946 13959
+		6713 9450 13911 13920 13933 13935 13945 13946 13959 15850 
 	}
 	manpower=1245301
 	buildings_max_level_factor=1.000
-	state_category = megalopolis
+	state_category=megalopolis
 }

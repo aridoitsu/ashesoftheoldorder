@@ -225,4 +225,155 @@ defined_text = {
 		localization_key = NYN_fate_powerful_unions
 		}
 	}
-	
+
+defined_text = {
+	name = GetSuspicion
+	text = {
+		trigger = {
+				check_variable = {
+					NYN_suspicion = 0
+				}
+		}
+	localization_key = NYN_GetSus1
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					NYN_suspicion > 1
+				}
+				check_variable = {
+					NYN_suspicion < 2
+				}
+			}
+		}
+	localization_key = NYN_GetSus2
+	}
+	text = {
+		trigger = {
+				check_variable = {
+					NYN_suspicion = 1
+				}
+		}
+	localization_key = NYN_GetSus2
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					NYN_suspicion > 2
+				}
+				check_variable = {
+					NYN_suspicion < 3
+				}
+			}
+		}
+	localization_key = NYN_GetSus3
+	}
+	text = {
+		trigger = {
+				check_variable = {
+					NYN_suspicion = 2
+				}
+		}
+	localization_key = NYN_GetSus3
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					NYN_suspicion > 3
+				}
+				check_variable = {
+					NYN_suspicion < 4
+				}
+			}
+		}
+	localization_key = NYN_GetSus4
+	}
+	text = {
+		trigger = {
+				check_variable = {
+					NYN_suspicion = 3
+				}
+		}
+	localization_key = NYN_GetSus4
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					NYN_suspicion > 4
+				}
+				check_variable = {
+					NYN_suspicion < 5
+				}
+			}
+		}
+	localization_key = NYN_GetSus5
+	}
+	text = {
+		trigger = {
+				check_variable = {
+					NYN_suspicion = 4
+				}
+		}
+	localization_key = NYN_GetSus5
+	}
+}
+
+defined_text = {
+	name = GetRealDebtColor
+	text = {
+		trigger = {
+			check_variable = {
+				NYN_real_debt < 1
+			}
+		}
+		localization_key = NYN_RealDebtColor3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				NYN_real_debt = 0
+			}
+		}
+		localization_key = NYN_RealDebtColor2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				NYN_real_debt > 1
+			}
+		}
+		localization_key = NYN_RealDebtColor1
+	}
+}
+
+defined_text = {
+	name = GetReportedDebtColor
+	text = {
+		trigger = {
+			check_variable = {
+				NYN_reported_debt < NYN_real_debt
+			}
+		}
+		localization_key = NYN_ReportedDebtColor1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				NYN_reported_debt = NYN_real_debt
+			}
+		}
+		localization_key = NYN_ReportedDebtColor2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				NYN_reported_debt > NYN_real_debt
+			}
+		}
+		localization_key = NYN_ReportedDebtColor3
+	}
+}

@@ -1,34 +1,40 @@
+
 state={
 	id=880
-	name="Divide"
-
+	name="White River"
 	resources={
-		tungsten=15
-		chromium= 7.000
+		tungsten=15.000
+		chromium=7.000
 	}
 
-	history = {
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = COC
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			13735 8
+			7780 10 
 		}
 		victory_points = {
-			13795 3
+			13735 8 
 		}
 		victory_points = {
-			1827 8
+			13795 3 
 		}
+		victory_points = {
+			1827 8 
+		}
+
 	}
+
 	provinces={
-		1827 10588 13735 13762 13776 13795 13821 13846
+		1827 7780 10588 13735 13762 13776 13795 13821 13846 
 	}
-	manpower=124036
+	manpower=291866
 	buildings_max_level_factor=1.000
-	state_category = large_city
+	state_category=large_city
 }

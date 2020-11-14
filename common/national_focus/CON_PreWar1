@@ -1,5 +1,5 @@
 focus_tree = {
-    id = ACR_PreWar1 
+    id = ACR_PreWar1
     country = {
         factor = 0
         modifier = {
@@ -7,6 +7,7 @@ focus_tree = {
             tag = ACR
         }
     }
+  continuous_focus_position = { x = 1150 y = 2700 }
   focus = {
       id = ACR_President_Cottons_State_of_The_Union
 	    icon = President_Cottons_State_of_The_Union
@@ -32,9 +33,9 @@ focus_tree = {
 		    focus = ACR_President_Cottons_State_of_The_Union
 	    }
       completion_reward = {
-        	add_equipment_to_stockpile = { 
-                type = infantry_equipment 
-          	amount = 2000 
+        	add_equipment_to_stockpile = {
+                type = infantry_equipment
+          	amount = 2000
           	producer = ACR
           }
         country_event = {
@@ -88,7 +89,7 @@ focus_tree = {
 		    focus = ACR_Reappropriate_Civilian_Weaponry
 	    }
 	    completion_reward = {
-		random_owned_state = {	
+		random_owned_state = {
 			add_building_construction = {
 			 type = arms_factory
 			 level = 2
@@ -115,9 +116,9 @@ focus_tree = {
 	    }
       prerequisite = {
 		    focus = ACR_Mobilize_the_Militia
-	    } 
+	    }
 	    completion_reward = {
-        	add_war_support = 0.1		
+        	add_war_support = 0.1
 	    }
 }
  focus = {
@@ -131,15 +132,15 @@ focus_tree = {
 	    }
       prerequisite = {
 		    focus = ACR_Mobilize_the_Militia
-	    } 
+	    }
 	    completion_reward = {
-        	add_war_support = 0.1	
+        	add_war_support = 0.1
 		country_event = {
            		id = ACR.5
            		 days = 1
 	     }
 	    }
-	    
+
 }
  focus = {
       id = ACR_Establish_Harsh_Rationing
@@ -152,7 +153,7 @@ focus_tree = {
 	    }
       prerequisite = {
 		    focus = ACR_Mobilize_the_Militia
-	    } 
+	    }
 	    completion_reward = {
         	add_ideas = ACR_Harsh_Rationing
 		 country_event = {
@@ -160,7 +161,7 @@ focus_tree = {
            		 days = 1
 	     }
 	    }
-	   
+
 }
  focus = {
       id = ACR_Strengthen_The_Blockade
@@ -183,7 +184,7 @@ focus_tree = {
 	     	}
 		}
 	    }
-	    
+
 }
  focus = {
       id = ACR_Project_Neptune
@@ -201,7 +202,7 @@ focus_tree = {
            		 days = 1
 	     }
 	    }
-	    
+
 }
  focus = {
       id = ACR_Purge_the_Enemy
@@ -214,8 +215,8 @@ focus_tree = {
 	    }
       completion_reward = {
 		add_manpower = -15327
-		add_popularity = { 
-			ideology = fascism 
+		add_popularity = {
+			ideology = fascism
 			popularity = 0.05
 			}
 		country_event = {
@@ -223,7 +224,7 @@ focus_tree = {
            		 days = 1
 	     }
 	    }
-	    
+
 }
  focus = {
       id = ACR_Close_The_Borders
@@ -241,7 +242,7 @@ focus_tree = {
            		 days = 1
 	     }
 	    }
-	    
+
 }
  focus = {
       id = ACR_Act_B113
@@ -259,7 +260,7 @@ focus_tree = {
            		 days = 1
 	     }
 	    }
-	    
+
 }
  focus = {
       id = ACR_Establish_the_Emergency_Council
@@ -277,7 +278,7 @@ focus_tree = {
            		 days = 1
 	     }
 	    }
-	    
+
 }
 focus = {
       id = ACR_Evacuate_Border_Cities
@@ -312,7 +313,7 @@ focus = {
       completion_reward = {
 		add_ideas = Confederate_Nostalgia
 	    }
-	    
+
 }
  focus = {
       id = ACR_For_Dixie
@@ -334,13 +335,11 @@ focus = {
 	    }
       completion_reward = {
 		declare_war_on = { target = NAK type = annex_everything }
-		hidden_effect = { 
+		hidden_effect = {
 			load_focus_tree = ACR_War1
 		}
 	    }
-	    
-}
 
 }
 
-
+}

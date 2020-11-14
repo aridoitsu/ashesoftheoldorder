@@ -1,24 +1,29 @@
+
 state={
 	id=857
 	name="Uintah"
-	resources = {
-		chromium = 7.000
+	resources={
+		chromium=7.000
 	}
-	history = {
+
+	history={
 		owner = PRV
 		add_core_of = PRV
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			13829 1
+			13829 1 
 		}
+
 	}
+
 	provinces={
-		4668 13829 4742 13733
+		4668 4742 13733 13829 15652 15674 15697 15737 15752 15778 15814 15832 15859 
 	}
 	manpower=15236
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }
