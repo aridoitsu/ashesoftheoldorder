@@ -1,4 +1,4 @@
-Confederacy_industrialization_decisions = {
+Confederacy_Senate = {
 	
 	Confederacy_testing_desc = {
 		allowed = {
@@ -12,7 +12,7 @@ Confederacy_industrialization_decisions = {
 		days_re_enable = 0
 		cost = 0
 		complete_effect = {
-			set_country_flag = industrialization
+			parliament_seats_initial = yes
 		}
 	}
 	

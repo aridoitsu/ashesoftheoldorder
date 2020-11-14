@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_parliament_seats_strip"
+		textureFile = "gfx/interface/Confederacy_GUI/Senate/Senate_Parties_Strip.dds"
+		noOfFrames = 5
+	}
+	
+}

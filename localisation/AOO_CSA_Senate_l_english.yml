@@ -1,0 +1,4 @@
+﻿l_english:
+ 
+ Confederacy_Senate:0 "Confederate Senate"
+ Confederacy_Senate_desc:0 "The Confederate Senate has a total of §Y100§! seats:\n\n§RThe Republicans (Red)§! have §Y[?global.parliament_seat_array^0]§! seats.\n\n§BThe Democrats (Blue)§! has §Y[?global.parliament_seat_array^4]§! seats.\n\nThe Freedom Party (Purple) has §Y[?global.parliament_seat_array^1]§! seats.\n\nThe National Republicans (Brown) has §Y[?global.parliament_seat_array^2]§! seats.\n\n§WThe KKK (White)§! has §Y[?global.parliament_seat_array^3]§! seats.\n\n"

@@ -1,0 +1,33 @@
+guiTypes = {
+	# This creates the container for your seats.
+	containerWindowType = {
+        name = "CSA_decisions_house"
+        position = { x = 0 y = 0 }
+		size = { width = 400 height = 180 }
+
+		# This is the gridbox that creates the seats.
+		gridboxtype = {
+			name = "parliament_main_grid" # The text here must be the same as entry_container from the scripted_gui or else it won't work.
+			position = { x = -300 y = 40 }
+			size = { width = 100%% height = 100%% }
+			padding = { top = 0 bottom = 10 }
+			slotsize = { width = 13 height = 13 }
+			max_slots_vertical = 10
+			add_horizontal = no
+		}
+	}
+
+	# Entry is a separate container from the main interface container.
+	# This controls what is visualized.
+	containerWindowType = {
+        name = "parliament_main_entry" # The text here must be the same as entry_container from the scripted_gui or else it won't work.
+        position = { x = 0 y = 0 }
+		size = { width = 13 height = 13 }
+
+		iconType = {
+			name = "member_icon"
+			spriteType = "GFX_parliament_seats_strip" # This should be a strip with 5 frames, with each frame representing each unique party (goes in the order Party A-E)
+			position = { x = 0 y = 0 }
+		}
+    }
+}

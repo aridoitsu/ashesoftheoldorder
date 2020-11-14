@@ -1,0 +1,24 @@
+scripted_gui = {
+	parliament_gui = {
+		context_type = decision_category
+		window_name = "CSA_decisions_house"
+		visible = {
+			always = yes
+		}
+		
+		
+		dynamic_lists = {
+			parliament_main_grid = {
+				array = global.parliament_main_array
+				change_scope = yes
+				entry_container = parliament_main_entry
+			}
+		}
+
+		properties = {
+			member_icon = {
+				frame = v
+			}
+		}
+	}
+}

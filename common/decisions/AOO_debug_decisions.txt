@@ -324,5 +324,26 @@ aoo_debug_decisions = {
 			}
 		}
 	}
+	
+	debug_fire_algerian_wars = {
+		icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ALG = {
+				country_event = { id = algerian_wars.1 }
+			}
+		}
+	}
 
 }

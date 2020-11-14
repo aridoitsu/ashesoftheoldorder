@@ -1,7 +1,7 @@
-Confederacy_industrialization_decisions = {
+Confederacy_Senate = {
 	icon = generic_research
 	allowed = {
 		original_tag = ACR
 	}
-	scripted_gui = confederacy_industrialization
+	scripted_gui = parliament_gui
 }

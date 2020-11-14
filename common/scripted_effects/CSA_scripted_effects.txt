@@ -1,0 +1,49 @@
+########################
+# CSA Scripted Effects #
+########################
+
+# Pi don't touch any of the election pieces. Please?
+
+parliament_seats_initial = {
+	# Parliament_Seat_Array assigns seats to each party, while Parliament_ID_Array contains an id for each party.
+	add_to_array = { global.parliament_seat_array = 71 } # Party A
+	add_to_array = { global.parliament_seat_array = 14 } # Party B
+	add_to_array = { global.parliament_seat_array = 5 } # Party C
+	add_to_array = { global.parliament_seat_array = 7 } # Party D
+	add_to_array = { global.parliament_seat_array = 3 } # Party E
+
+	# The following populates the array so it is visible in game. Edit the ending number to add more parties than 5.
+	for_loop_effect = {
+		start = 1 # Starts at the first variable/first party.
+		end = 6 # Ends at the last variable/last party. This number should be one higher than the number of parties.
+
+		add_to_array = { global.parliament_id_array = v } # V is a variable storing the current iteration of the root.
+	}
+
+	modify_parliament_seats = yes
+}
+
+modify_parliament_seats = {
+	for_each_loop = {
+		array = global.parliament_id_array
+
+		set_temp_variable = { temp_id = global.parliament_id_array^i } # I is the current index of the array.
+		set_temp_variable = { temp_index = i }
+		modify_parliament_id_seats = yes
+	}
+}
+
+modify_parliament_id_seats = {
+	set_temp_variable = { temp_seat_count = global.parliament_seat_array^temp_index } # The temporary seat count will be 95 for example if temp_index is 0, 15 if 1 and so on.
+
+	# What this does is add the id of each party until the number of IDs in the array equals the number of seats available. 
+	while_loop_effect = {
+		limit = {
+			check_variable = { temp_seat_count > 0 }
+		}
+		add_to_array = { global.parliament_main_array = temp_id }
+		subtract_from_temp_variable = { temp_seat_count = 1 }
+	}
+	# The global.parliament_main_array will essentially look like:
+	# 1,1,1,1,1,1,1,...(repeated 95 times),2,2,2,2,2,2,2(repeated 15 times),3,3,3.. etc.
+}
