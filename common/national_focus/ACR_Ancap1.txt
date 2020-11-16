@@ -1,0 +1,1642 @@
+focus_tree = {
+    id = ACR_Ancap1
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = C02
+        }
+    }
+continuous_focus_position = { x = 100 y = 100  }
+
+focus = { 
+      id = ACR_Freedom_Reigns_Supreme
+	    icon = Freedom_Reigns_Supreme
+	    cost = 1
+	    x = 24
+	    y = 1
+        
+	    completion_reward = {
+			add_popularity = {
+					ideology = anarchy
+					popularity = 0.025
+				}
+	}
+}
+focus = { 
+      id = ACR_Liberty_In_Economics
+	    icon = Liberty_In_Economics
+	    cost = 2
+	    x = 16
+	    y = 2
+       prerequisite = {
+			focus = ACR_Freedom_Reigns_Supreme
+		}
+	    completion_reward = {
+			add_popularity = {
+					ideology = anarchy
+					popularity = 0.025
+				}
+            add_political_power = 50
+	}
+}
+focus = { 
+      id = ACR_Start_Demobilization
+	    icon = Liberty_In_Economics
+	    cost = 2
+	    x = 16
+	    y = 3
+        prerequisite = {
+			focus = ACR_Liberty_In_Economics
+		}
+	    completion_reward = {
+			#switch to civilian economy
+            remove_ideas = CON_Martial_Law 
+	}
+}
+focus = { 
+      id = ACR_Privitize_Truck_Companies
+	    icon = Privitize_Truck_Companies
+	    cost = 8
+	    x = 14
+	    y = 4
+        prerequisite = {
+			focus = ACR_Start_Demobilization
+		}
+	    completion_reward = {
+			#allow truck companies
+	}
+}
+focus = { 
+      id = ACR_Send_Our_Boys_Home
+	    icon = Send_Our_Boys_Home
+	    cost = 8
+	    x = 16
+	    y = 4
+        prerequisite = {
+			focus = ACR_Start_Demobilization
+		}
+	    completion_reward = {
+			#switch to volunteer only
+	}
+}
+focus = { 
+      id = ACR_Open_Our_Ports
+	    icon = Open_Our_Ports
+	    cost = 5
+	    x = 18
+	    y = 4
+        prerequisite = {
+			focus = ACR_Start_Demobilization
+		}
+	    completion_reward = {
+			add_ideas = ACR_Foreign_Investment1
+	}
+}
+focus = { 
+      id = ACR_Privitize_Lockheed_Martin
+	    icon = Privitize_Lockheed_Martin
+	    cost = 8
+	    x = 14
+	    y = 5
+        prerequisite = {
+			focus = ACR_Privitize_Truck_Companies
+		}
+	    completion_reward = {
+            #allow plane companies
+	}
+}
+focus = { 
+      id = ACR_Distribute_Surplus_Guns
+	    icon = Distribute_Surplus_Guns
+	    cost = 5
+	    x = 16
+	    y = 5
+        prerequisite = {
+			focus = ACR_Send_Our_Boys_Home
+		}
+	    completion_reward = {
+            add_ideas = ACR_Gun_Behind_Every_Blade_of_Grass
+	}
+}
+focus = { 
+      id = ACR_Attract_Foreign_Investment
+	    icon = Open_Our_Ports
+	    cost = 5
+	    x = 18
+	    y = 5
+        prerequisite = {
+			focus = ACR_Open_Our_Ports
+		}
+	    completion_reward = {
+			swap_ideas = {
+                remove_idea = ACR_Foreign_Investment1
+                add_idea = ACR_Foreign_Investment2
+            }
+	}
+}
+focus = { 
+      id = ACR_Start_Smashing_Federal_Regulations
+	    icon = Start_Smashing_Federal_Regulations
+	    cost = 5
+	    x = 16
+	    y = 6
+        prerequisite = {
+			focus = ACR_Privitize_Lockheed_Martin
+		}
+        prerequisite = {
+			focus = ACR_Distribute_Surplus_Guns
+		}
+        prerequisite = {
+			focus = ACR_Attract_Foreign_Investment
+		}
+	    completion_reward = {
+			add_popularity = {
+					ideology = anarchy
+					popularity = 0.05
+				}
+            add_political_power = 100
+            add_stability = -0.1
+	}
+}
+focus = { 
+      id = ACR_Liberty_from_the_State
+	    icon = ACR_Liberty_from_the_State
+	    cost = 5
+	    x = 32
+	    y = 2
+        prerequisite = {
+			focus = ACR_Freedom_Reigns_Supreme
+		}
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+      id = ACR_The_Right_to_a_Speedy_Trial
+	    icon = ACR_The_Right_to_a_Speedy_Trial
+	    cost = 5
+	    x = 30
+	    y = 3
+        prerequisite = {
+			focus = ACR_Liberty_from_the_State
+		}
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+      id = ACR_The_Right_to_Bear_Arms
+	    icon = ACR_The_Right_to_Bear_Arms
+	    cost = 5
+	    x = 32
+	    y = 3
+        prerequisite = {
+			focus = ACR_Liberty_from_the_State
+		}
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+      id = ACR_Seperate_Church_and_State
+	    icon = ACR_Seperate_Church_and_State
+	    cost = 5
+	    x = 34
+	    y = 3
+        prerequisite = {
+			focus = ACR_Liberty_from_the_State
+		}
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+      id = ACR_Ensure_Constitutional_Freedoms
+	    icon = ACR_Ensure_Constitutional_Freedoms
+	    cost = 5
+	    x = 32
+	    y = 4
+        prerequisite = {
+			focus = ACR_Seperate_Church_and_State
+		}
+        prerequisite = {
+			focus = ACR_The_Right_to_Bear_Arms
+		}
+        prerequisite = {
+			focus = ACR_The_Right_to_a_Speedy_Trial
+		}
+        
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+      id = ACR_Destroy_the_Tyranny_of_the_Old_Regime
+	    icon = ACR_Ensure_Constitutional_Freedoms
+	    cost = 5
+	    x = 32
+	    y = 5
+        prerequisite = {
+			focus = ACR_Ensure_Constitutional_Freedoms
+		}
+        
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+        id = ACR_Legalize_Homosexuality
+	    icon = ACR_Legalize_Homosexuality
+	    cost = 5
+	    x = 32
+	    y = 6
+        prerequisite = {
+			focus = ACR_Destroy_the_Tyranny_of_the_Old_Regime
+		}
+        
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+        id = ACR_Abolish_the_Draft
+	    icon = ACR_Legalize_Homosexuality
+	    cost = 5
+	    x = 34
+	    y = 6
+        prerequisite = {
+			focus = ACR_Destroy_the_Tyranny_of_the_Old_Regime
+		}
+        
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+        id = ACR_The_Right_to_Abortion
+	    icon = ACR_The_Right_to_Abortion
+	    cost = 5
+	    x = 30
+	    y = 6
+        prerequisite = {
+			focus = ACR_Destroy_the_Tyranny_of_the_Old_Regime
+		}
+        
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+        id = ACR_Ensure_LGBT_Rights
+	    icon = ACR_Ensure_LGBT_Rights
+	    cost = 5
+	    x = 31
+	    y = 7
+        prerequisite = {
+			focus = ACR_The_Right_to_Abortion
+		}
+        prerequisite = {
+			focus = ACR_Legalize_Homosexuality
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+        id = ACR_Open_the_Borders
+	    icon = ACR_Open_the_Borders
+	    cost = 5
+	    x = 33
+	    y = 7
+        prerequisite = {
+			focus = ACR_The_Right_to_Abortion
+		}
+        prerequisite = {
+			focus = ACR_Legalize_Homosexuality
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+        id = ACR_Legalize_Sex_Work
+	    icon = ACR_Legalize_Sex_Work
+	    cost = 5
+	    x = 32
+	    y = 8
+        prerequisite = {
+			focus = ACR_Open_the_Borders
+		}
+        prerequisite = {
+			focus = ACR_Ensure_LGBT_Rights
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+        id = ACR_Smash_the_Bureaucracy
+	    icon = ACR_Smash_the_Bureaucracy
+	    cost = 5
+	    x = 32
+	    y = 9
+        available = {
+
+        }
+        prerequisite = {
+			focus = ACR_Legalize_Sex_Work
+		}
+        
+	    completion_reward = {
+
+	}
+}
+focus = { 
+        id = ACR_Disband_the_Federal_Government
+	    icon = ACR_Disband_the_Federal_Government
+	    cost = 5
+	    x = 32
+	    y = 10
+        available = {
+
+        }
+        prerequisite = {
+			focus = ACR_Smash_the_Bureaucracy
+		}
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+        id = ACR_Disband_State_Governments
+	    icon = ACR_Disband_State_Governments
+	    cost = 5
+	    x = 30
+	    y = 11
+        available = {
+
+        }
+        prerequisite = {
+			focus = ACR_Disband_the_Federal_Government
+		}
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+        id = ACR_Teach_the_NAP
+	    icon = ACR_Teach_the_NAP
+	    cost = 5
+	    x = 32
+	    y = 11
+        available = {
+
+        }
+        prerequisite = {
+			focus = ACR_Disband_the_Federal_Government
+		}
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+        id = ACR_Meet_with_CEOs
+	    icon = ACR_Meet_with_CEOs
+	    cost = 5
+	    x = 34
+	    y = 11
+        available = {
+
+        }
+        prerequisite = {
+			focus = ACR_Disband_the_Federal_Government
+		}
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+        id = ACR_Disband_the_State
+	    icon = ACR_Disband_the_State
+	    cost = 5
+	    x = 32
+	    y = 12
+        available = {
+
+        }
+        prerequisite = {
+			focus = ACR_Disband_State_Governments
+		}
+        prerequisite = {
+			focus = ACR_Teach_the_NAP
+		}
+        prerequisite = {
+			focus = ACR_Meet_with_CEOs
+		}
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = ACR_Trial_of_Tom_Cotton
+	    icon = ACR_Trial_of_Tom_Cotton
+	    cost = 5
+	    x = 28
+	    y = 3
+        prerequisite = {
+			focus = ACR_Liberty_from_the_State
+		}
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+      id = ACR_Trial_of_the_Council
+	    icon = ACR_Trial_of_the_Council
+	    cost = 5
+	    x = 28
+	    y = 4
+        prerequisite = {
+			focus = ACR_Trial_of_Tom_Cotton
+		}
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+      id = ACR_Dismantle_the_Cult_of_Personality
+	    icon = ACR_Dismantle_the_Cult_of_Personality
+	    cost = 5
+	    x = 28
+	    y = 5
+        prerequisite = {
+			focus = ACR_Trial_of_the_Council
+		}
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+      id = ACR_Cult_of_the_Individual
+	    icon = ACR_Cult_of_the_Individual
+	    cost = 8
+	    x = 28
+	    y = 6
+        prerequisite = {
+			focus = ACR_Dismantle_the_Cult_of_Personality
+		}
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+      id = ACR_Try_the_Klan
+	    icon = ACR_Try_the_Klan
+	    cost = 5
+	    x = 36
+	    y = 3
+        prerequisite = {
+			focus = ACR_Liberty_from_the_State
+		}
+	    completion_reward = {
+			
+
+	}
+}
+focus = { 
+      id = ACR_Execute_Top_Klansmen
+	    icon = ACR_Execute_Top_Klansmen
+	    cost = 5
+	    x = 36
+	    y = 4
+        prerequisite = {
+			focus = ACR_Try_the_Klan
+		}
+	    completion_reward = {
+			
+	}
+}
+focus = { 
+      id = ACR_Make_Pinochet_Blush
+	    icon = ACR_Make_Pinochet_Blush
+	    cost = 5
+	    x = 6
+	    y = 7
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Start_Smashing_Federal_Regulations
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_End_Protectionism
+	    icon = ACR_End_Protectionism
+	    cost = 5
+	    x = 2
+	    y = 8
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Make_Pinochet_Blush
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Free_Floating_Currency
+	    icon = ACR_Free_Floating_Currency
+	    cost = 8
+	    x = 4
+	    y = 8
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Make_Pinochet_Blush
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Sell_State_Owned_Land
+	    icon = ACR_Sell_State_Owned_Land
+	    cost = 5
+	    x = 6
+	    y = 8
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Make_Pinochet_Blush
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Abolish_Social_Security
+	    icon = ACR_Abolish_Social_Security
+	    cost = 8
+	    x = 8
+	    y = 8
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Make_Pinochet_Blush
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_End_Price_Controls
+	    icon = ACR_End_Price_Controls
+	    cost = 5
+	    x = 10
+	    y = 8
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Make_Pinochet_Blush
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Taxation_is_Theft
+	    icon = ACR_Taxation_is_Theft
+	    cost = 8
+	    x = 2
+	    y = 9
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_End_Protectionism
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Shock_Therapy
+	    icon = ACR_Shock_Therapy
+	    cost = 8
+	    x = 4
+	    y = 9
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Free_Floating_Currency
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Get_Rid_of_National_Parks
+	    icon = ACR_Get_Rid_of_National_Parks
+	    cost = 8
+	    x = 6
+	    y = 9
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Sell_State_Owned_Land
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_No_More_Food_Stamps
+	    icon = ACR_No_More_Food_Stamps
+	    cost = 8
+	    x = 8
+	    y = 9
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Abolish_Social_Security
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Abolish_the_ACA
+	    icon = ACR_Abolish_the_ACA
+	    cost = 8
+	    x = 10
+	    y = 9
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_End_Price_Controls
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Start_the_Ancap_Transitionary_Program
+	    icon = ACR_Start_the_Ancap_Transitionary_Program
+	    cost = 8
+	    x = 6
+	    y = 10
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Taxation_is_Theft
+		}
+        prerequisite = {
+			focus = ACR_Shock_Therapy
+		}
+        prerequisite = {
+			focus = ACR_Get_Rid_of_National_Parks
+		}
+        prerequisite = {
+			focus = ACR_No_More_Food_Stamps
+		}
+        prerequisite = {
+			focus = ACR_Abolish_the_ACA
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Denounce_the_Old_Regieme
+	    icon = ACR_Denounce_the_Old_Regieme
+	    cost = 3
+	    x = 16
+	    y = 7
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Start_Smashing_Federal_Regulations
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_International_Recognition
+	    icon = ACR_International_Recognition
+	    cost = 5
+	    x = 16
+	    y = 8
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Denounce_the_Old_Regieme
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Appeal_to_the_West
+	    icon = ACR_Appeal_to_the_West
+	    cost = 4
+	    x = 14
+	    y = 9
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_International_Recognition
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Appeal_to_the_East
+	    icon = ACR_Appeal_to_the_East
+	    cost = 4
+	    x = 16
+	    y = 9
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_International_Recognition
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Appeal_to_the_Third_World
+	    icon = ACR_Appeal_to_the_Third_World
+	    cost = 4
+	    x = 18
+	    y = 9
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_International_Recognition
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_UN_General_Assembly_Seat
+	    icon = ACR_UN_General_Assembly_Seat
+	    cost = 5
+	    x = 16
+	    y = 10
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Appeal_to_the_Third_World
+		}
+        prerequisite = {
+			focus = ACR_Appeal_to_the_East
+		}
+        prerequisite = {
+			focus = ACR_Appeal_to_the_West
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_National_Reclamation_Committee
+	    icon = ACR_National_Reclamation_Committee
+	    cost = 5
+	    x = 16
+	    y = 11
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_UN_General_Assembly_Seat
+		}
+       
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Negotiations_with_Louisana
+	    icon = ACR_Negotiations_with_Louisana
+	    cost = 5
+	    x = 14
+	    y = 12
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_National_Reclamation_Committee
+		}
+       
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Negotiations_with_Mississippi
+	    icon = ACR_Negotiations_with_Mississippi
+	    cost = 5
+	    x = 16
+	    y = 12
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_National_Reclamation_Committee
+		}
+       
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Negotiations_with_Cajun
+	    icon = ACR_Negotiations_with_Cajun
+	    cost = 5
+	    x = 18
+	    y = 12
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_National_Reclamation_Committee
+		}
+       
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Phase_1_Integration
+	    icon = ACR_Phase_1_Integration
+	    cost = 5
+	    x = 16
+	    y = 13
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Negotiations_with_Louisana
+		}
+        prerequisite = {
+			focus = ACR_Negotiations_with_Mississippi
+		}
+        prerequisite = {
+			focus = ACR_Negotiations_with_Cajun
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Crusade_Against_Communism
+	    icon = ACR_Crusade_Against_Communism
+	    cost = 5
+	    x = 16
+	    y = 14
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Phase_1_Integration
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Free_Helicopter_Rides
+	    icon = ACR_Free_Helicopter_Rides
+	    cost = 5
+	    x = 12
+	    y = 15
+        avaliable = {
+
+        mutually_exclusive = {
+            focus = ACR_Starve_Them
+        }
+        }
+        prerequisite = {
+			focus = ACR_Crusade_Against_Communism
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Starve_Them
+	    icon = ACR_Starve_Them
+	    cost = 5
+	    x = 20
+	    y = 15
+        avaliable = {
+
+        }
+        mutually_exclusive = {
+            focus = ACR_Free_Helicopter_Rides
+        }
+        prerequisite = {
+			focus = ACR_Crusade_Against_Communism
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Ban_Communist_Imagery
+	    icon = ACR_Ban_Communist_Imagery
+	    cost = 4
+	    x = 10
+	    y = 16
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Free_Helicopter_Rides
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Violate_the_NAP
+	    icon = ACR_Violate_the_NAP
+	    cost = 5
+	    x = 10
+	    y = 17
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Ban_Communist_Imagery
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Laborers_for_the_Factories
+	    icon = ACR_Laborers_for_the_Factories
+	    cost = 5
+	    x = 12
+	    y = 16
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Free_Helicopter_Rides
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Ban_Labor_Unions
+	    icon = ACR_Ban_Labor_Unions
+	    cost = 5
+	    x = 12
+	    y = 17
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Laborers_for_the_Factories
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Eternal_Servitude_Program
+	    icon = ACR_Eternal_Servitude_Program
+	    cost = 5
+	    x = 14
+	    y = 16
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Free_Helicopter_Rides
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_The_Worst_Jobs
+	    icon = ACR_The_Worst_Jobs
+	    cost = 5
+	    x = 14
+	    y = 17
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Eternal_Servitude_Program
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Begin_the_Crusade
+	    icon = ACR_Begin_the_Crusade
+	    cost = 3
+	    x = 12
+	    y = 18
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_The_Worst_Jobs
+		}
+        prerequisite = {
+			focus = ACR_Ban_Labor_Unions
+		}
+        prerequisite = {
+			focus = ACR_Violate_the_NAP
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Ban_Radical_Labor_Unions
+	    icon = ACR_Ban_Radical_Labor_Unions
+	    cost = 5
+	    x = 18
+	    y = 16
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Starve_Them
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Anti_Union_Propoganda
+	    icon = ACR_Anti_Union_Propoganda
+	    cost = 5
+	    x = 18
+	    y = 17
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Ban_Radical_Labor_Unions
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Deny_Communists_Employment
+	    icon = ACR_Deny_Communists_Employment
+	    cost = 5
+	    x = 20
+	    y = 16
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Starve_Them
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Spread_False_Rumors
+	    icon = ACR_Spread_False_Rumors
+	    cost = 5
+	    x = 20
+	    y = 17
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Deny_Communists_Employment
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Anti_Communist_Propoganda
+	    icon = ACR_Anti_Communist_Propoganda
+	    cost = 5
+	    x = 22
+	    y = 16
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Starve_Them
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Make_the_Black_Book_Mandatory_Reading
+	    icon = ACR_Make_the_Black_Book_Mandatory_Reading
+	    cost = 5
+	    x = 22
+	    y = 17
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Anti_Communist_Propoganda
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Fight_Communism_Abroad
+	    icon = ACR_Fight_Communism_Abroad
+	    cost = 5
+	    x = 20
+	    y = 18
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Make_the_Black_Book_Mandatory_Reading
+		}
+        prerequisite = {
+            focus = ACR_Spread_False_Rumors
+		}
+        prerequisite = {
+			focus = ACR_Anti_Union_Propoganda
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Phase_2_Integration
+	    icon = ACR_Phase_2_Integration
+	    cost = 5
+	    x = 16
+	    y = 19
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Fight_Communism_Abroad
+            focus = ACR_Begin_the_Crusade
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_The_March_West
+	    icon = ACR_The_March_West
+	    cost = 5
+	    x = 14
+	    y = 20
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Phase_2_Integration
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_March_on_the_Great_Lakes
+	    icon = ACR_March_on_the_Great_Lakes
+	    cost = 5
+	    x = 16
+	    y = 20
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Phase_2_Integration
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_The_March_North
+	    icon = ACR_The_March_North
+	    cost = 5
+	    x = 18
+	    y = 20
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Phase_2_Integration
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Phase_3_Integration
+	    icon = ACR_Phase_3_Integration
+	    cost = 5
+	    x = 16
+	    y = 21
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_The_March_North
+		}
+        prerequisite = {
+			focus = ACR_March_on_the_Great_Lakes
+		}
+        prerequisite = {
+			focus = ACR_The_March_West
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Our_Manifest_Destiny
+	    icon = ACR_Our_Manifest_Destiny
+	    cost = 5
+	    x = 16
+	    y = 22
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Phase_3_Integration
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Phase_4_Integration
+	    icon = ACR_Our_Manifest_Destiny
+	    cost = 5
+	    x = 16
+	    y = 23
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Our_Manifest_Destiny
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Consolidate_the_West_Coast
+	    icon = ACR_Consolidate_the_West_Coast
+	    cost = 5
+	    x = 16
+	    y = 24
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Phase_4_Integration
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_America_United
+	    icon = ACR_America_United
+	    cost = 5
+	    x = 16
+	    y = 25
+        avaliable = {
+
+        }
+        
+        prerequisite = {
+			focus = ACR_Consolidate_the_West_Coast
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Death_to_Rosevelt
+	    icon = ACR_Death_to_Rosevelt
+	    cost = 5
+	    x = 24
+	    y = 7
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Start_Smashing_Federal_Regulations
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Abolish_the_EPA
+	    icon = ACR_Abolish_the_EPA
+	    cost = 5
+	    x = 22
+	    y = 8
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Death_to_Rosevelt
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Abolish_the_FDA
+	    icon = ACR_Abolish_the_FDA
+	    cost = 5
+	    x = 22
+	    y = 9
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Abolish_the_EPA
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Abolish_the_CPSC
+	    icon = ACR_Abolish_the_CPSC
+	    cost = 5
+	    x = 22
+	    y = 10
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Abolish_the_FDA
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Abolish_the_ATF
+	    icon = ACR_Abolish_the_ATF
+	    cost = 5
+	    x = 24
+	    y = 8
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Death_to_Rosevelt
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Privitize_the_Miltiary
+	    icon = ACR_Privitize_the_Miltiary
+	    cost = 5
+	    x = 24
+	    y = 9
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Abolish_the_ATF
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Privitize_the_Police
+	    icon = ACR_Privitize_the_Police
+	    cost = 5
+	    x = 24
+	    y = 10
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Privitize_the_Miltiary
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Abolish_the_Federal_Reserve
+	    icon = ACR_Abolish_the_Federal_Reserve
+	    cost = 5
+	    x = 26
+	    y = 8
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Death_to_Rosevelt
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Privitize_the_Postal_Service
+	    icon = ACR_Privitize_the_Postal_Service
+	    cost = 5
+	    x = 26
+	    y = 9
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Abolish_the_Federal_Reserve
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Privitize_the_CIA
+	    icon = ACR_Privitize_the_CIA
+	    cost = 5
+	    x = 26
+	    y = 10
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Privitize_the_CIA
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_the_Invisible_Hand_Knows_Best
+	    icon = ACR_the_Invisible_Hand_Knows_Best
+	    cost = 10
+	    x = 24
+	    y = 11
+        avaliable = {
+
+        }
+        prerequisite = {
+			focus = ACR_Privitize_the_CIA
+		}
+        prerequisite = {
+			focus = ACR_Privitize_the_Police
+		}
+        prerequisite = {
+			focus = ACR_Abolish_the_CPSC
+		}
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Empower_the_Executives
+	    icon = ACR_Empower_the_Executives
+	    cost = 5
+	    x = 4
+	    y = 11
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Start_the_Ancap_Transitionary_Program
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Rule_Of_The_Dollar
+	    icon = ACR_Empower_the_Executives
+	    cost = 5
+	    x = 6
+	    y = 11
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Start_the_Ancap_Transitionary_Program
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Purge_the_Statists
+	    icon = ACR_Purge_the_Statists
+	    cost = 5
+	    x = 8
+	    y = 11
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Start_the_Ancap_Transitionary_Program
+		}
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Life
+	    icon = ACR_Life
+	    cost = 5
+	    x = 5
+	    y = 12
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Empower_the_Executives
+		}
+        prerequisite = {
+            focus = ACR_Rule_Of_The_Dollar
+        }
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_Liberty
+	    icon = ACR_Liberty
+	    cost = 5
+	    x = 7
+	    y = 12
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Purge_the_Statists
+		}
+        prerequisite = {
+            focus = ACR_Rule_Of_The_Dollar
+        }
+        
+	    completion_reward = {
+	}
+}
+focus = { 
+      id = ACR_The_Pursuit_of_Happiness
+	    icon = ACR_The_Pursuit_of_Happiness
+	    cost = 5
+	    x = 6
+	    y = 13
+        avaliable = {
+            
+        }
+        prerequisite = {
+			focus = ACR_Life
+		}
+        prerequisite = {
+            focus = ACR_Liberty
+        }
+        
+	    completion_reward = {
+	}
+}
+}
