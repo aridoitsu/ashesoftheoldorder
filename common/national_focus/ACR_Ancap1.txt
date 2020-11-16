@@ -541,7 +541,7 @@ focus = {
 	    cost = 5
 	    x = 6
 	    y = 7
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -556,7 +556,7 @@ focus = {
 	    cost = 5
 	    x = 2
 	    y = 8
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -571,7 +571,7 @@ focus = {
 	    cost = 8
 	    x = 4
 	    y = 8
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -586,7 +586,7 @@ focus = {
 	    cost = 5
 	    x = 6
 	    y = 8
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -601,7 +601,7 @@ focus = {
 	    cost = 8
 	    x = 8
 	    y = 8
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -616,7 +616,7 @@ focus = {
 	    cost = 5
 	    x = 10
 	    y = 8
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -631,7 +631,7 @@ focus = {
 	    cost = 8
 	    x = 2
 	    y = 9
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -646,7 +646,7 @@ focus = {
 	    cost = 8
 	    x = 4
 	    y = 9
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -661,7 +661,7 @@ focus = {
 	    cost = 8
 	    x = 6
 	    y = 9
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -676,7 +676,7 @@ focus = {
 	    cost = 8
 	    x = 8
 	    y = 9
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -691,7 +691,7 @@ focus = {
 	    cost = 8
 	    x = 10
 	    y = 9
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -706,7 +706,7 @@ focus = {
 	    cost = 8
 	    x = 6
 	    y = 10
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -733,7 +733,7 @@ focus = {
 	    cost = 3
 	    x = 16
 	    y = 7
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -748,7 +748,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 8
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -763,7 +763,7 @@ focus = {
 	    cost = 4
 	    x = 14
 	    y = 9
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -778,7 +778,7 @@ focus = {
 	    cost = 4
 	    x = 16
 	    y = 9
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -793,7 +793,7 @@ focus = {
 	    cost = 4
 	    x = 18
 	    y = 9
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -808,7 +808,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 10
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -829,7 +829,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 11
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -845,7 +845,7 @@ focus = {
 	    cost = 5
 	    x = 14
 	    y = 12
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -861,7 +861,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 12
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -877,7 +877,7 @@ focus = {
 	    cost = 5
 	    x = 18
 	    y = 12
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -893,7 +893,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 13
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -914,7 +914,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 14
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -930,7 +930,7 @@ focus = {
 	    cost = 5
 	    x = 12
 	    y = 15
-        avaliable = {
+        available = {
 
         mutually_exclusive = {
             focus = ACR_Starve_Them
@@ -949,7 +949,7 @@ focus = {
 	    cost = 5
 	    x = 20
 	    y = 15
-        avaliable = {
+        available = {
 
         }
         mutually_exclusive = {
@@ -968,7 +968,7 @@ focus = {
 	    cost = 4
 	    x = 10
 	    y = 16
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -984,7 +984,7 @@ focus = {
 	    cost = 5
 	    x = 10
 	    y = 17
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1000,7 +1000,7 @@ focus = {
 	    cost = 5
 	    x = 12
 	    y = 16
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1016,7 +1016,7 @@ focus = {
 	    cost = 5
 	    x = 12
 	    y = 17
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1032,7 +1032,7 @@ focus = {
 	    cost = 5
 	    x = 14
 	    y = 16
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1048,7 +1048,7 @@ focus = {
 	    cost = 5
 	    x = 14
 	    y = 17
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1064,7 +1064,7 @@ focus = {
 	    cost = 3
 	    x = 12
 	    y = 18
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1086,7 +1086,7 @@ focus = {
 	    cost = 5
 	    x = 18
 	    y = 16
-        avaliable = {
+        available = {
 
         }
         
@@ -1103,7 +1103,7 @@ focus = {
 	    cost = 5
 	    x = 18
 	    y = 17
-        avaliable = {
+        available = {
 
         }
         
@@ -1120,7 +1120,7 @@ focus = {
 	    cost = 5
 	    x = 20
 	    y = 16
-        avaliable = {
+        available = {
 
         }
         
@@ -1137,7 +1137,7 @@ focus = {
 	    cost = 5
 	    x = 20
 	    y = 17
-        avaliable = {
+        available = {
 
         }
         
@@ -1154,7 +1154,7 @@ focus = {
 	    cost = 5
 	    x = 22
 	    y = 16
-        avaliable = {
+        available = {
 
         }
         
@@ -1171,7 +1171,7 @@ focus = {
 	    cost = 5
 	    x = 22
 	    y = 17
-        avaliable = {
+        available = {
 
         }
         
@@ -1188,7 +1188,7 @@ focus = {
 	    cost = 5
 	    x = 20
 	    y = 18
-        avaliable = {
+        available = {
 
         }
         
@@ -1210,7 +1210,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 19
-        avaliable = {
+        available = {
 
         }
         
@@ -1228,7 +1228,7 @@ focus = {
 	    cost = 5
 	    x = 14
 	    y = 20
-        avaliable = {
+        available = {
 
         }
         
@@ -1245,7 +1245,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 20
-        avaliable = {
+        available = {
 
         }
         
@@ -1262,7 +1262,7 @@ focus = {
 	    cost = 5
 	    x = 18
 	    y = 20
-        avaliable = {
+        available = {
 
         }
         
@@ -1279,7 +1279,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 21
-        avaliable = {
+        available = {
 
         }
         
@@ -1301,7 +1301,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 22
-        avaliable = {
+        available = {
 
         }
         
@@ -1318,7 +1318,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 23
-        avaliable = {
+        available = {
 
         }
         
@@ -1335,7 +1335,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 24
-        avaliable = {
+        available = {
 
         }
         
@@ -1352,7 +1352,7 @@ focus = {
 	    cost = 5
 	    x = 16
 	    y = 25
-        avaliable = {
+        available = {
 
         }
         
@@ -1369,7 +1369,7 @@ focus = {
 	    cost = 5
 	    x = 24
 	    y = 7
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1384,7 +1384,7 @@ focus = {
 	    cost = 5
 	    x = 22
 	    y = 8
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1399,7 +1399,7 @@ focus = {
 	    cost = 5
 	    x = 22
 	    y = 9
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1414,7 +1414,7 @@ focus = {
 	    cost = 5
 	    x = 22
 	    y = 10
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1429,7 +1429,7 @@ focus = {
 	    cost = 5
 	    x = 24
 	    y = 8
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1444,7 +1444,7 @@ focus = {
 	    cost = 5
 	    x = 24
 	    y = 9
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1459,7 +1459,7 @@ focus = {
 	    cost = 5
 	    x = 24
 	    y = 10
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1474,7 +1474,7 @@ focus = {
 	    cost = 5
 	    x = 26
 	    y = 8
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1489,7 +1489,7 @@ focus = {
 	    cost = 5
 	    x = 26
 	    y = 9
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1504,7 +1504,7 @@ focus = {
 	    cost = 5
 	    x = 26
 	    y = 10
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1519,7 +1519,7 @@ focus = {
 	    cost = 10
 	    x = 24
 	    y = 11
-        avaliable = {
+        available = {
 
         }
         prerequisite = {
@@ -1540,7 +1540,7 @@ focus = {
 	    cost = 5
 	    x = 4
 	    y = 11
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -1556,7 +1556,7 @@ focus = {
 	    cost = 5
 	    x = 6
 	    y = 11
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -1572,7 +1572,7 @@ focus = {
 	    cost = 5
 	    x = 8
 	    y = 11
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -1588,7 +1588,7 @@ focus = {
 	    cost = 5
 	    x = 5
 	    y = 12
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -1607,7 +1607,7 @@ focus = {
 	    cost = 5
 	    x = 7
 	    y = 12
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
@@ -1626,7 +1626,7 @@ focus = {
 	    cost = 5
 	    x = 6
 	    y = 13
-        avaliable = {
+        available = {
             
         }
         prerequisite = {
