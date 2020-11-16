@@ -28,3 +28,98 @@ country_event = {
 			ai_chance = { base = 100 }
 		}
 	}
+
+#beginning of chain, does cotton hold onto emergency powers?
+country_event = {
+	id = ACR.3
+		title = ACR.3.t
+		desc = ACR.3.d
+		picture = Reapproriate_Civlian_Weaponry_Event
+		is_triggered_only = yes
+
+		option = {
+			name = ACR.3.a
+			ai_chance = { base = 50 }
+		}
+
+		option = {
+			name = ACR.3.b
+			ai_chance = { base = 50 }
+		}
+	}
+
+#elections event
+country_event = {
+	id = ACR.4
+		title = ACR.4.t
+		desc = ACR.4.d
+		picture = Reapproriate_Civlian_Weaponry_Event
+		is_triggered_only = yes
+
+		option = {
+			name = ACR.4.a
+			ai_chance = { base = 25 }
+		}
+
+		option = {
+			name = ACR.4.b
+			ai_chance = { base = 25 }
+		}
+
+		option = {
+			name = ACR.4.c
+			ai_chance = { base = 25 }
+
+			hidden_effect = {
+				load_focus_tree = ACR_Ancap1
+			}
+		}
+
+		option = {
+			name = ACR.4.d1
+			ai_chance = { base = 25 }
+		}
+	}
+
+#cotton holds onto emergency powers :flushed:
+country_event = {
+	id = ACR.5
+		title = ACR.5.t
+		desc = ACR.5.d
+		picture = Reapproriate_Civlian_Weaponry_Event
+		is_triggered_only = yes
+
+		option = {
+			name = ACR.5.a
+			ai_chance = { base = 100 }
+		}
+	}
+
+#new afrikan victory
+country_event = {
+	id = ACR.6
+		title = ACR.6.t
+		desc = ACR.6.d
+		picture = Reapproriate_Civlian_Weaponry_Event
+		is_triggered_only = yes
+
+		option = {
+			name = ACR.6.a
+			ai_chance = { base = 100 }
+		}
+	}
+
+#oh god oh fuck the KKK is taking over
+country_event = {
+	id = ACR.7
+		title = ACR.7.t
+		desc = ACR.7.d
+		picture = Reapproriate_Civlian_Weaponry_Event
+		is_triggered_only = yes
+
+		option = {
+			name = ACR.7.a
+			ai_chance = { base = 100 }
+		}
+	}
+

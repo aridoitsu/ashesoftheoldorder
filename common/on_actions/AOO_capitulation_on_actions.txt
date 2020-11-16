@@ -219,6 +219,19 @@ on_actions = {
 					country_event = { id = algeria.3 }
 				}
 			}
+
+			else = {	
+				ROOT = {
+					white_peace = FROM
+				}
+
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
 		}
 	}
 }
