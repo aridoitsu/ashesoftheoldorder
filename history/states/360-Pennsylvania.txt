@@ -1,38 +1,39 @@
+
 state={
 	id=360
 	name="Deitscherei"
-	manpower=631346
-	state_category=town
 	resources={
 		steel=44.000
 		chromium=12.000
 		aluminium=14.000
 	}
 
-	history = {
+	history={
 		owner = PEN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
 			air_base = 2
+
 		}
 		add_core_of = PEN
 		victory_points = {
-			822 1
+			822 1 
 		}
 		victory_points = {
-			3850 8
+			3850 8 
 		}
 		victory_points = {
-			11888 3
+			11888 3 
 		}
+
 	}
 
 	provinces={
-		 822 847 3847 3850 6872 6885 11758 11769 12405 9804 6929 702 3880
+		702 822 847 2407 3847 3850 3880 6872 6885 6929 9804 11758 11769 12405 15588 15589 15590 15591 15592 15623 15634 15639 15644 15661 15696 15750 15793 
 	}
-
+	manpower=631346
 	buildings_max_level_factor=1.000
-
+	state_category=town
 }

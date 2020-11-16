@@ -1,31 +1,33 @@
+
 state={
 	id=1087
 	name="Monroe"
-	manpower=406981
-	state_category=town
 
-	history = {
+	history={
 		owner = PEN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 1
-		}
-		victory_points = {
-			3733 5
-		}
-		victory_points = {
-			3747 3
-		}
-		victory_points = {
-			11817 1
-		}
-	add_core_of = PEN
-	}
 
+		}
+		victory_points = {
+			3733 5 
+		}
+		victory_points = {
+			3747 3 
+		}
+		victory_points = {
+			11817 1 
+		}
+		add_core_of = PEN
+
+	}
 
 	provinces={
-		3702 3733 3747 11650 11680 9836 3697 11817 862 
+		862 3697 3702 3733 3747 9836 11650 11680 11817 13075 15593 15626 15668 15673 15715 15716 15749 15751 15795 15806 15824 15831 15845 15849 
 	}
+	manpower=406981
 	buildings_max_level_factor=1.000
+	state_category=town
 }

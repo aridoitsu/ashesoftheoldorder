@@ -1,18 +1,22 @@
+
 state={
 	id=842
 	name="Tlicho"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
 	provinces={
-		2407 13075 15588 15589 15590 15591 15623 15634 15639 15644 15680 15715 
+		15680 
 	}
 	manpower=20142
 	buildings_max_level_factor=1.000
-	state_category = wasteland
+	state_category=wasteland
 }
