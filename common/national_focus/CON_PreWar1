@@ -337,6 +337,12 @@ focus = {
 		declare_war_on = { target = NAK type = annex_everything }
 		hidden_effect = {
 			load_focus_tree = ACR_War1
+			NAK = {
+			country_event = {
+        		    id = NAK.12
+          		    days = 1
+	    		 }
+			}
 		}
 	    }
 
