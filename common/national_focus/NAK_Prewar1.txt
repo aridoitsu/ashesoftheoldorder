@@ -1,0 +1,337 @@
+focus_tree = {
+    id = NAK_Prewar_1
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = N01
+        }
+    }
+
+    continuous_focus_position = { x = 1000 y = 2000  }
+    
+    focus = { 
+      id = NAK_Assess_the_Nation
+	    icon = NAK_Assess_the_Nation
+	    cost = 2
+	    x = 5
+	    y = 1
+        
+	    completion_reward = {
+			add_political_power = 50
+            add_stability = 0.1
+            country_event = {
+        		    id = NAK.2
+          		    days = 1
+	    		 }
+	    }
+    }
+    focus = { 
+      id = NAK_Prepare_for_the_Inevitable
+	    icon = NAK_Prepare_for_the_Inevitable
+	    cost = 2
+	    x = 5
+	    y = 2
+
+        prerequisite = {
+			focus = NAK_Assess_the_Nation
+		}
+        
+	    completion_reward = {
+			add_political_power = 50
+            add_war_support = 0.1
+            country_event = {
+        		    id = NAK.3
+          		    days = 1
+	    		 }
+	    }
+    }
+    focus = { 
+      id = NAK_Assess_the_Economy
+	    icon = NAK_Prepare_for_the_Inevitable
+	    cost = 3
+	    x = 3
+	    y = 3
+
+        prerequisite = {
+			focus = NAK_Prepare_for_the_Inevitable
+		}
+        
+	    completion_reward = {
+            country_event = {
+        		    id = NAK.4
+          		    days = 1
+	    		 }
+	    }
+    }
+    focus = { 
+      id = NAK_Assess_the_Military
+	    icon = NAK_Assess_the_Military
+	    cost = 3
+	    x = 5
+	    y = 3
+
+        prerequisite = {
+			focus = NAK_Prepare_for_the_Inevitable
+		}
+        
+	    completion_reward = {
+            country_event = {
+        		    id = NAK.5
+          		    days = 1
+	    		 }
+	    }
+    }
+    focus = { 
+      id = NAK_Assess_the_Political_Situation
+	    icon = NAK_Assess_the_Political_Situation
+	    cost = 3
+	    x = 7
+	    y = 3
+
+        prerequisite = {
+			focus = NAK_Prepare_for_the_Inevitable
+		}
+        
+	    completion_reward = {
+            country_event = {
+        		    id = NAK.6
+          		    days = 1
+	    		 }
+	    }
+    }
+    focus = { 
+      id = NAK_Food_for_the_Hungry
+	    icon = NAK_Food_for_the_Hungry
+	    cost = 4
+	    x = 2
+	    y = 4
+
+        prerequisite = {
+			focus = NAK_Assess_the_Economy
+		}
+        
+	    completion_reward = {
+            country_event = {
+        		    id = NAK.7
+          		    days = 1
+	    		 }
+            add_popularity = {
+					ideology = libsoc 
+					popularity = 0.025
+				}
+            add_ideas = NAK_Breakfast_Programs
+	    }
+    }
+    focus = { 
+      id = NAK_Garage_Workshops
+	    icon = NAK_Garage_Workshops
+	    cost = 1
+	    x = 4
+	    y = 4
+
+        prerequisite = {
+			focus = NAK_Assess_the_Economy
+		}
+        prerequisite = {
+			focus = NAK_Assess_the_Military
+		}
+        
+	    completion_reward = {
+            swap_ideas = {
+                remove_idea = NAK_Lack_of_Industrial_Expertise1
+                add_idea = NAK_Lack_of_Industrial_Expertise2
+            }
+            country_event = {
+        		    id = NAK.8
+                    days = 1
+            }
+            
+	    }
+    }
+    focus = { 
+      id = NAK_Implement_Conscription
+	    icon = NAK_Implement_Conscription
+	    cost = 3
+	    x = 6
+	    y = 4
+
+        prerequisite = {
+			focus = NAK_Assess_the_Political_Situation
+		}
+        prerequisite = {
+			focus = NAK_Assess_the_Military
+		}
+        
+	    completion_reward = {
+            #Change to Extensive Conscription
+	    }
+    }
+    focus = { 
+      id = NAK_United_We_Stand
+	    icon = NAK_United_We_Stand
+	    cost = 2
+	    x = 8
+	    y = 4
+
+        prerequisite = {
+			focus = NAK_Assess_the_Political_Situation
+		}
+        
+	    completion_reward = {
+            add_political_power = 50
+            add_stability = 0.05
+            add_war_support = 0.05
+	    }
+    }
+    focus = { 
+      id = NAK_Homes_for_the_Homeless
+	    icon = NAK_Homes_for_the_Homeless
+	    cost = 5
+	    x = 2
+	    y = 5
+
+        prerequisite = {
+			focus = NAK_Food_for_the_Hungry
+		}
+        
+	    completion_reward = {
+            random_owned_state = {
+			add_building_construction = {
+			 type = infrastructure
+			 level = 1
+				 instant_build = yes
+				 }
+		}
+		random_owned_state = {
+			add_building_construction = {
+			 type = infrastructure
+			 level = 1
+				 instant_build = yes
+				 }
+			}
+	    }
+    }
+    focus = { 
+      id = NAK_Healthcare_for_the_Sick
+	    icon = NAK_Healthcare_for_the_Sick
+	    cost = 5
+	    x = 2
+	    y = 6
+
+        prerequisite = {
+			focus = NAK_Homes_for_the_Homeless
+		}
+        
+	    completion_reward = {
+            add_ideas = NAK_M4A1
+	    }
+    }
+    focus = { 
+      id = NAK_Raid_Confederate_Armories
+	    icon = NAK_Raid_Confederate_Armories
+	    cost = 4
+	    x = 4
+	    y = 5
+
+        prerequisite = {
+			focus = NAK_Garage_Workshops
+		}
+        
+	    completion_reward = {
+            #Give Tanks, Artillery, Planes (Figure Out Later)
+            country_event = {
+        		    id = NAK.9
+                    days = 1
+            }
+	    }
+    }
+    focus = { 
+      id = NAK_A_Gun_Behind_Every_Blade_of_Grass
+	    icon = NAK_A_Gun_Behind_Every_Blade_of_Grass
+	    cost = 4
+	    x = 4
+	    y = 6
+
+        prerequisite = {
+			focus = NAK_Raid_Confederate_Armories
+		}
+        
+	    completion_reward = {
+            add_ideas = NAK_Resist1
+	    }
+    }
+    focus = { 
+      id = NAK_Emergency_Training_Program
+	    icon = NAK_Emergency_Training_Program
+	    cost = 3
+	    x = 6
+	    y = 5
+
+        prerequisite = {
+			focus = NAK_Implement_Conscription
+		}
+        
+	    completion_reward = {
+            add_ideas = NAK_Emergency_Training
+            country_event = {
+        		    id = NAK.9
+                    days = 1
+            }
+	    }
+    }
+    focus = { 
+      id = NAK_Armed_and_Ready
+	    icon = NAK_Armed_and_Ready
+	    cost = 3
+	    x = 6
+	    y = 6
+
+        prerequisite = {
+			focus = NAK_Emergency_Training_Program
+		}
+        
+	    completion_reward = {
+            add_ideas = NAK_Armed_and_Ready
+	    }
+    }  
+    focus = { 
+      id = NAK_The_National_Question
+	    icon = NAK_The_National_Question
+	    cost = 3
+	    x = 8
+	    y = 5
+
+        prerequisite = {
+			focus = NAK_United_We_Stand
+		}
+        
+	    completion_reward = {
+            add_ideas = NAK_Armed_and_Ready
+            country_event = {
+        		    id = NAK.10
+                    days = 1
+            }
+	    }
+    }
+    focus = {   
+    id = NAK_Request_Foreign_Aid
+	    icon = NAK_Request_Foreign_Aid
+	    cost = 3
+	    x = 8
+	    y = 6
+
+        prerequisite = {
+			focus = NAK_The_National_Question
+		}
+        
+	    completion_reward = {
+            #Give Tanks, Artillery, Planes (Figure Out Later)
+            country_event = {
+        		    id = NAK.11
+                    days = 1
+            }
+	    }   
+    }
+
+}
