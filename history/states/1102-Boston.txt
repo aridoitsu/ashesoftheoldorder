@@ -1,13 +1,12 @@
+
 state={
 	id=1102
 	name="Suffolk"
-	manpower = 952773
-	state_category=megalopolis
 	resources={
 		steel=15.000
 	}
 
-	history = {
+	history={
 		owner = CRA
 		buildings = {
 			infrastructure = 6
@@ -17,25 +16,30 @@ state={
 			air_base = 10
 			13961 = {
 				naval_base = 8
+
 			}
+
 		}
 		add_core_of = CRA
 		victory_points = {
-			13961 20
+			13961 20 
 		}
 		victory_points = {
-			13964 3
+			13964 3 
 		}
 		victory_points = {
-			13969 1
+			13969 1 
 		}
 		victory_points = {
-			6739 1
+			6739 1 
 		}
+
 	}
 
 	provinces={
-		6732 13960 13961 13964 13969 905 13908 3906 13918 13948
+		905 3906 6732 13908 13918 13948 13960 13961 13964 13969 15812 15858 
 	}
+	manpower=952773
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 }

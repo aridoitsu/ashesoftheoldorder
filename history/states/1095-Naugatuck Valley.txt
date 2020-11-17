@@ -1,21 +1,25 @@
+
 state={
 	id=1095
 	name="Naugatuck"
-	manpower=432013
-	state_category=city
 
-	history = {
+	history={
 		owner = CRA
 		buildings = {
 			infrastructure = 5
 			arms_factory = 3
 			industrial_complex = 1
 			air_base = 3
+
 		}
 		add_core_of = CRA
+
 	}
+
 	provinces={
-		6909 9847 9850
+		6909 9847 9850 15561 15746 15826 15827 15836 
 	}
+	manpower=432013
 	buildings_max_level_factor=1.000
+	state_category=city
 }
