@@ -238,7 +238,7 @@ focus = {
 }
 focus = { 
       id = ACR_Destroy_the_Tyranny_of_the_Old_Regime
-	    icon = ACR_Ensure_Constitutional_Freedoms
+	    icon = ACR_Destroy_the_Tyranny_of_the_Old_Regime
 	    cost = 5
 	    x = 32
 	    y = 5
@@ -268,7 +268,7 @@ focus = {
 }
 focus = { 
         id = ACR_Abolish_the_Draft
-	    icon = ACR_Legalize_Homosexuality
+	    icon = ACR_Abolish_the_Draft
 	    cost = 5
 	    x = 34
 	    y = 6

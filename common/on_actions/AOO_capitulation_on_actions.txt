@@ -220,6 +220,48 @@ on_actions = {
 				}
 			}
 
+
+			############albany##########
+			if = {
+				limit = {
+					FROM = { tag = NYN }
+					ROOT = { tag = AHR }
+				}
+				
+				ROOT = {
+					white_peace = FROM
+					remove_state_core = 1093
+				}
+				FROM = {
+					annex_country = { target = AHR }
+					set_country_flag = NYN_the_revolution_crushed
+					mark_focus_tree_layout_dirty = yes
+				}
+				
+			}
+			if = {
+				limit = {
+					FROM = { tag = AHR }
+					ROOT = { tag = NYN }
+				}
+				
+				ROOT = {
+					white_peace = FROM
+					remove_state_core = 1093
+					remove_state_core = 1090
+					remove_state_core = 1076
+				}
+				FROM = {
+					annex_country = { target = NYN }
+					set_country_flag = NYN_the_revolution_triumphant
+					add_state_core = 1090
+					add_state_core = 1076
+					mark_focus_tree_layout_dirty = yes
+				}
+			}
+			#############################
+
+
 			else = {	
 				ROOT = {
 					white_peace = FROM
