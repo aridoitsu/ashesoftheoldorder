@@ -1,14 +1,13 @@
+
 state={
 	id=1098
 	name="Berkshire"
-	manpower = 504713
-	state_category= rural
 	resources={
 		steel=8.000
 		rubber=3.000
 	}
 
-	history = {
+	history={
 		owner = CRA
 		buildings = {
 			infrastructure = 2
@@ -16,10 +15,13 @@ state={
 
 		}
 		add_core_of = CRA
+
 	}
 
 	provinces={
-		718 908
+		718 908 15646 15678 15720 15736 
 	}
+	manpower=504713
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

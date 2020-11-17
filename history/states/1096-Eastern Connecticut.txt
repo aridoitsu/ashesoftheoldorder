@@ -1,10 +1,9 @@
+
 state={
 	id=1096
 	name="New London"
-	manpower = 390713
-	state_category = large_town
 
-	history = {
+	history={
 		owner = CRA
 		buildings = {
 			infrastructure = 8
@@ -13,13 +12,18 @@ state={
 			dockyard = 3
 			9832 = {
 				naval_base = 4
+
 			}
+
 		}
 		add_core_of = CRA
+
 	}
 
 	provinces={
-		9832 13932
+		9832 13932 15784 15808 15862 
 	}
+	manpower=390713
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }

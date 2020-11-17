@@ -1,13 +1,12 @@
+
 state={
 	id=1097
 	name="Rhode Island"
-	manpower=1034581
-	state_category=metropolis
 	resources={
 		steel=12.000
 	}
 
-	history = {
+	history={
 		owner = CRA
 		buildings = {
 			infrastructure = 9
@@ -17,15 +16,21 @@ state={
 			air_base = 2
 			13909 = {
 				naval_base = 3
+
 			}
+
 		}
 		victory_points = {
-			11830 5
+			11830 5 
 		}
 		add_core_of = CRA
+
 	}
+
 	provinces={
-		11830 13909
+		5239 11830 13909 15493 15725 
 	}
+	manpower=1034581
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
