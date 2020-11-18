@@ -1,30 +1,34 @@
+
 state={
 	id=1076
 	name="Lehigh"
-	manpower=450129
-	state_category=rural
 	resources={
 		steel=20.000
 	}
 
-	history = {
+	history={
 		owner = NYN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		add_core_of = NYN
 		victory_points = {
-			11799 3
+			11799 3 
 		}
 		add_claim_by = PEN
 		victory_points = {
-			9820 1
+			9820 1 
 		}
 		set_state_flag = PEN_irredentist_claim
+
 	}
+
 	provinces={
-		891 894 3897 9820 11799
+		891 894 3897 7891 9820 11799 15579 15580 15581 15582 15633 15643 15660 15770 15782 15783 15792 15817 15833 15847 
 	}
+	manpower=450129
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

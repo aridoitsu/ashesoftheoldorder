@@ -16,19 +16,19 @@ state={
 		}
 		add_core_of = CAN
 		victory_points = {
-			10703 5 
+			10703 1
 		}
 		victory_points = {
-			7696 5 
+			7696 1
 		}
 		victory_points = {
-			13319 5 
+			13319 1
 		}
 
 	}
 
 	provinces={
-		7696 10703 15703 15704 15712 15747 15748 15760 15764 15777 15785 15800 15801 15813 15842 15843 15848 
+		7696 10703 15785 15842 
 	}
 	manpower=827681
 	buildings_max_level_factor=1.000

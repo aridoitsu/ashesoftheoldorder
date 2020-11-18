@@ -6,7 +6,7 @@ state={
 		oil=25.000
 	}
 
-	history = {
+	history={
 		owner = CAN
 		buildings = {
 			infrastructure = 1
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		3606 7869 15767 15768 15782 15818 15830 15835 
+		7869 
 	}
 	manpower=70681
 	buildings_max_level_factor=1.000

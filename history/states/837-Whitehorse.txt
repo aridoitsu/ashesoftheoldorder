@@ -2,17 +2,21 @@
 state={
 	id=837
 	name="Whitehorse"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
+
 	provinces={
-		7891 15618 15633 15684 15763 
+		15618 
 	}
 	manpower=36210
 	buildings_max_level_factor=1.000
-	state_category = wasteland
+	state_category=wasteland
 }

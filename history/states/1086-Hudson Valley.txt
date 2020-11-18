@@ -1,24 +1,27 @@
+
 state={
 	id=1086
 	name="Dutchess"
-	manpower=969873
-	state_category=town
 	resources={
 		steel=23.000
 	}
 
-	history = {
+	history={
 		owner = NYC
 		buildings = {
 			infrastructure = 8
 			arms_factory = 1
 			industrial_complex = 1
+
 		}
 		add_core_of = NYC
+
 	}
 
 	provinces={
-		3894 6911
+		3894 15712 15764 15800 15843 
 	}
+	manpower=969873
 	buildings_max_level_factor=1.000
+	state_category=town
 }

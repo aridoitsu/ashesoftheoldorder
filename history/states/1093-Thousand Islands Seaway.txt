@@ -1,33 +1,37 @@
+
 state={
 	id=1093
 	name="Herkimer"
-	manpower=234901
-	state_category = rural
 	resources={
 		steel=13.000
 	}
 
-	history = {
+	history={
 		owner = NYN
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 4
+
 		}
 		add_core_of = NYN
 		victory_points = {
-			6778 1
+			6778 1 
 		}
 		victory_points = {
-			9708 1
+			9708 1 
 		}
 		victory_points = {
-			6717 1
+			6717 1 
 		}
+
 	}
+
 	provinces={
-		598 6778 6795 6916 9754 1436 6717 9708 9721
+		598 1436 6717 6778 6795 6916 9708 9721 9754 15429 15460 15492 15518 15521 15547 15567 15569 15574 15578 15609 15613 15637 15666 15684 15702 15710 15767 15768 15818 15830 15835 
 	}
+	manpower=234901
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
