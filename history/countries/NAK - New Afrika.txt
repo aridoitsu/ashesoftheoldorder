@@ -50,24 +50,36 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 add_ideas = {
+	NAK_Con_Blockade
+	NAK_Racial_Divides
+	NAK_Lack_of_Industrial_Expertise
+	NAK_Rebel_Government
+	NAK_Crippling_Homelessness
 }
 set_popularities = {
-	democratic = 40
-	neutrality = 5
+	democratic = 10
+	neutrality = 0
 	authdem = 0
 	liberal = 35
 	demsoc = 5
-	prodem = 0
+	prodem = 5
 	communism = 5
 	totalsoc = 0
-	libsoc = 0
+	libsoc = 30
 	anarchy = 0
 	fascism = 0
 	ultranationalism = 10
+}
+create_country_leader = {
+	name = "Jesse Jackson"
+	desc = "POLITICS_JESSE_JACKSON_DESC"
+	picture = "Portrait_NAK_Jesse_Jackson.dds"
+	expire = "2040.1.1"
+	ideology = despot
 }
