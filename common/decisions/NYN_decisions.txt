@@ -179,12 +179,7 @@ NYN_debug = {
 		cost = 0
 		complete_effect = {
 			add_to_variable = { NYN_reported_debt = 1 } 
-			set_variable = { temp1 = NYN_real_debt }
-			subtract_from_variable = { temp1 = NYN_reported_debt }
-			add_to_variable = { temp1 = 1 }
-			set_variable = { temp2 = 20 }
-			multiply_variable = { temp1 = temp2 }
-			set_variable = { NYN_overreport_cost = temp1 }
+			NYN_reset_debt = yes
 			}
 		}
 	NYN_subtract_real_debt = {
@@ -200,12 +195,7 @@ NYN_debug = {
 		cost = 0
 		complete_effect = {
 			subtract_from_variable = { NYN_real_debt = 1 } 
-			set_variable = { temp1 = NYN_real_debt }
-			subtract_from_variable = { temp1 = NYN_reported_debt }
-			add_to_variable = { temp1 = 1 }
-			set_variable = { temp2 = 20 }
-			multiply_variable = { temp1 = temp2 }
-			set_variable = { NYN_overreport_cost = temp1 }
+			NYN_reset_debt = yes
 			}
 		}
 	NYN_increase_sus = {
@@ -236,12 +226,7 @@ NYN_debug = {
 		cost = 0
 		complete_effect = {
 			subtract_from_variable = { NYN_reported_debt = 1 } 
-			set_variable = { temp1 = NYN_real_debt }
-			subtract_from_variable = { temp1 = NYN_reported_debt }
-			add_to_variable = { temp1 = 1 }
-			set_variable = { temp2 = 20 }
-			multiply_variable = { temp1 = temp2 }
-			set_variable = { NYN_overreport_cost = temp1 }
+			NYN_reset_debt = yes
 			}
 		}
 	NYN_add_real_debt = {
@@ -257,12 +242,7 @@ NYN_debug = {
 		cost = 0
 		complete_effect = {
 			add_to_variable = { NYN_real_debt = 1 } 
-			set_variable = { temp1 = NYN_real_debt }
-			subtract_from_variable = { temp1 = NYN_reported_debt }
-			add_to_variable = { temp1 = 1 }
-			set_variable = { temp2 = 20 }
-			multiply_variable = { temp1 = temp2 }
-			set_variable = { NYN_overreport_cost = temp1 }
+			NYN_reset_debt = yes
 			}
 		}
 		
@@ -392,7 +372,51 @@ NYN_leftist_resistance = {
 				}
 			}
 		}
+	NYN_set_up_homeless_shelters = {
+		available = {
+			has_completed_focus = NYN_appeal_to_entrepreneurs
+			has_decision = NYN_start_the_reconstruction_of_albany
+		}
+		visible = {
+			has_completed_focus = NYN_appeal_to_entrepreneurs
+		}
+		cost = 15
+		days_remove = 5
+		remove_effect = {
+			custom_effect_tooltip = NYN_minus_5_mil
+			add_days_remove = {
+				decision = NYN_start_the_reconstruction_of_albany
+				days = 15
+			}
+			add_to_variable = {
+				var = NYN_leftist_mil
+				value = -5
+			}
+		}
 	}
+	NYN_improve_working_conditions = {
+		available = {
+			has_completed_focus = NYN_appeal_to_entrepreneurs
+			has_decision = NYN_start_the_reconstruction_of_albany
+		}
+		visible = {
+			has_completed_focus = NYN_appeal_to_entrepreneurs
+		}
+		cost = 15
+		days_remove = 5
+		remove_effect = {
+			custom_effect_tooltip = NYN_minus_5_org
+			add_days_remove = {
+				decision = NYN_start_the_reconstruction_of_albany
+				days = 15
+			}
+			add_to_variable = {
+				var = NYN_leftist_org
+				value = -5
+			}
+		}
+	}
+}
 	
 NYN_reconstruction = {
 	NYN_start_the_reconstruction_of_albany = {
@@ -439,11 +463,54 @@ NYN_reconstruction = {
 			}
 		
 		}
+	NYN_tax_cuts_for_the_wealthy = {
+		available = {
+			has_completed_focus = NYN_appeal_to_corporations
+			has_decision = NYN_start_the_reconstruction_of_albany
+		}
+		visible = {
+			has_completed_focus = NYN_appeal_to_corporations
+		}
+		cost = 15
+		days_remove = 5
+		remove_effect = {
+			custom_effect_tooltip = NYN_plus_5_org
+			add_days_remove = {
+				decision = NYN_start_the_reconstruction_of_albany
+				days = -15
+			}
+			add_to_variable = {
+				var = NYN_leftist_org
+				value = 5
+			}
+		}
 	}
-
+	NYN_get_poors_off_the_street = {
+		available = {
+			has_completed_focus = NYN_appeal_to_corporations
+			has_decision = NYN_start_the_reconstruction_of_albany
+		}
+		visible = {
+			has_completed_focus = NYN_appeal_to_corporations
+		}
+		cost = 15
+		days_remove = 5
+		remove_effect = {
+			custom_effect_tooltip = NYN_plus_5_mil
+			add_days_remove = {
+				decision = NYN_start_the_reconstruction_of_albany
+				days = -15
+			}
+			add_to_variable = {
+				var = NYN_leftist_mil
+				value = 5
+			}
+		}
+	}
+}
 NYN_debt_growth = {
 	NYN_overreport_growth = {
-		availbale = {
+		available = {
 			has_completed_focus = NYN_the_revolution_crushed
 		}
 		visible = {
@@ -454,16 +521,11 @@ NYN_debt_growth = {
 		days_re_enable = 0
 		complete_effect = {
 			add_to_variable = { NYN_reported_debt = 1 }
-			set_variable = { temp1 = NYN_real_debt }
-			subtract_from_variable = { temp1 = NYN_reported_debt }
-			add_to_variable = { temp1 = 1 }
-			set_variable = { temp2 = 20 }
-			multiply_variable = { temp1 = temp2 }
-			set_variable = { NYN_overreport_cost = temp1 }
+			NYN_reset_debt = yes
 		}
 	}
 	NYN_short_term_loan = {
-		availbale = {
+		available = {
 			has_completed_focus = NYN_the_revolution_crushed
 		}
 		visible = {
@@ -476,16 +538,11 @@ NYN_debt_growth = {
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = 100 }
 			add_political_power = 100
-			set_variable = { temp1 = NYN_real_debt }
-			subtract_from_variable = { temp1 = NYN_reported_debt }
-			add_to_variable = { temp1 = 1 }
-			set_variable = { temp2 = 20 }
-			multiply_variable = { temp1 = temp2 }
-			set_variable = { NYN_overreport_cost = temp1 }
+			NYN_reset_debt = yes
 		}
 	}
 	NYN_long_term_loan = {
-		availbale = {
+		available = {
 			has_completed_focus = NYN_the_revolution_crushed
 		}
 		visible = {
@@ -498,23 +555,7 @@ NYN_debt_growth = {
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = 300 }
 			add_political_power = 300
-			set_variable = { temp1 = NYN_real_debt }
-			subtract_from_variable = { temp1 = NYN_reported_debt }
-			add_to_variable = { temp1 = 1 }
-			set_variable = { temp2 = 20 }
-			multiply_variable = { temp1 = temp2 }
-			set_variable = { NYN_overreport_cost = temp1 }
+			NYN_reset_debt = yes
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-

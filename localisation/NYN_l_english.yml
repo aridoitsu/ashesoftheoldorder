@@ -66,10 +66,12 @@
  albany.16.a.tt:0 "§RThe socialists have broken our republic!§!"
  albany.16.b.tt:0 "§GThe socialists have asserted their will!§!"
  albany.6.a.tt:0 "§G-15% Leftist Organization,§! §R+1% Weekly Leftist Militancy§!"
- albany.6.b.tt:0 "§G-5% Leftist Organization§!"
- albany.7.a.tt:0 "§G-5% Leftist Organization§!"
- albany.7.b.tt:0 "§G-5% Leftist Militancy§!"
+ NYN_minus_5_org:0 "§G-5% Leftist Organization§!"
+ NYN_minus_5_mil:0 "§G-5% Leftist Militancy§!"
  albany.8.a.tt:0 "§G-15% Leftist Militancy,§! §R+1% Weekly Leftist Organization§!"
+ albany.10.a.tt:0 "§R+10% Leftist Organization§!"
+ NYN_plus_5_mil:0 "§R+5% Leftist Militancy§!"
+ NYN_plus_5_org:0 "§R+5% Leftist Organization§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
@@ -84,6 +86,10 @@
  NYN_debt_growth_desc:0 "§HTotal§! Debt: §R$[?NYN_total_debt]k§!\n\n§HReported§! Debt Growth: [GetReportedDebtColor]\n\n§HReal§! Debt Growth: [GetRealDebtColor]\n\nCurrent Investor Suspicion Level: [GetSuspicion]"
  NYN_short_term_loan:0 "Take Out Short Term Loan"
  NYN_long_term_loan:0 "Take Out Long Term Loan"
+ NYN_tax_cuts_for_the_wealthy:0 "Tax Cuts for the Wealthy"
+ NYN_get_poors_off_the_street:0 "Get Poors Off the Street"
+ NYN_set_up_homeless_shelters:0 "Set Up Homeless Shelters"
+ NYN_improve_working_conditions:0 "Improve Working Conditions"
  #events
  albany.15.t:0 "[GetFate]"
  

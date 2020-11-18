@@ -97,7 +97,7 @@ country_event = {
 			name = albany.6.b
 			ai_chance = { base = 50 }
 			
-			custom_effect_tooltip = albany.6.b.tt
+			custom_effect_tooltip = NYN_minus_5_org
 			add_to_variable = {
 				var = NYN_leftist_org
 				value = -5
@@ -117,7 +117,7 @@ country_event = {
 			name = albany.7.a
 			ai_chance = { base = 50 }
 			
-			custom_effect_tooltip = albany.7.a.tt
+			custom_effect_tooltip = NYN_minus_5_org
 			add_to_variable = {
 				var = NYN_leftist_org
 				value = -5
@@ -128,7 +128,7 @@ country_event = {
 			name = albany.7.b
 			ai_chance = { base = 50 }
 			
-			custom_effect_tooltip = albany.7.b.tt
+			custom_effect_tooltip = NYN_minus_5_mil
 			add_to_variable = {
 				var = NYN_leftist_mil
 				value = -5
@@ -196,6 +196,14 @@ country_event = {
 		option = {
 			name = albany.10.a
 			ai_chance = { base = 100 }
+
+			custom_effect_tooltip = albany.10.a.tt
+			add_to_variable = {
+				add_to_variable = {
+					var = NYN_leftist_org
+					value = 10
+					}
+			}
 		}
 	}
 	
@@ -210,6 +218,12 @@ country_event = {
 		option = {
 			name = albany.11.a
 			ai_chance = { base = 100 }
+
+			custom_effect_tooltip = NYN_minus_5_mil
+			add_to_variable = {
+				var = NYN_leftist_mil
+				value = -5
+			}
 		}
 	}
 
