@@ -615,7 +615,19 @@ NYN_test_ui_cat = {
 		icon = generic_decision
 		days_re_enable = 0
 		complete_effect = {
-			create_pie_chart = yes
+			set_variable = {
+					var = NYN_military_budget
+					value = 34
+				}
+				set_variable = {
+					var = NYN_austerity_budget
+					value = 33
+				}
+				set_variable = {
+					var = NYN_construction_budget
+					value = 33
+				}
+				create_pie_chart = yes
 		}
 	}
 }

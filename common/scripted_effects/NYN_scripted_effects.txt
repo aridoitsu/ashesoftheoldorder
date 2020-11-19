@@ -121,3 +121,21 @@ create_pie_chart = {
 	clear_variable = ROOT.last_idx
 	add_to_variable = { pie_chart_dirty = 1 }
 }
+
+clamp_budgets = {
+	clamp_variable = {
+		var = NYN_military_budget
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = NYN_austerity_budget
+			min = 0
+			max = 100
+	}
+	clamp_variable = {
+		var = NYN_construction_budget
+		min = 0
+		max = 100
+	}
+}

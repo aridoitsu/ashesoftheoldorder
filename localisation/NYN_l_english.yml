@@ -94,7 +94,7 @@
  NYN_improve_trait:0 "[GetImproveTrait]"
  NYN_mobilization:0 "Mobilization"
  NYN_meeting_quota:0 "Meeting Quota"
- NYN_test_ui_cat:0 "Testing GUI"
+ NYN_test_ui_cat:0 "Budget"
  NYN_test_ui_cat_desc:0 "§gCurrent Military Budget§! = [?NYN_military_budget]%\n\n§RCurrent Austerity Budget§! = [?NYN_austerity_budget]%\n\n§HCurrent Construction Budget§! = [?NYN_construction_budget]%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
  NYN_economy_dist:0 "Budget Distribution"
  NYN_military_dist:0 "§gMilitary§!"

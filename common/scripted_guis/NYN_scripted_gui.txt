@@ -6,39 +6,63 @@ NYN_test_ui = {
 
 	effects = {
 		downbutton1_click = {
-			add_to_variable = { NYN_military_budget = -2 }
-			add_to_variable = { NYN_austerity_budget = 1 }
-			add_to_variable = { NYN_construction_budget = 1 }
-			create_pie_chart = yes
+			if = {
+				limit = { check_variable = { NYN_military_budget > 0 } }
+					add_to_variable = { NYN_military_budget = -2 }
+					add_to_variable = { NYN_austerity_budget = 1 }
+					add_to_variable = { NYN_construction_budget = 1 }
+					clamp_budgets = yes
+					create_pie_chart = yes
+			}
+			else = {
+				#
+			}
 		}
 		upbutton1_click = {
 			add_to_variable = { NYN_military_budget = 2 }
 			add_to_variable = { NYN_austerity_budget = -1 }
 			add_to_variable = { NYN_construction_budget = -1 }
+			clamp_budgets = yes
 			create_pie_chart = yes
 		}
 		downbutton2_click = {
-			add_to_variable = { NYN_military_budget = 1 }
-			add_to_variable = { NYN_austerity_budget = -2 }
-			add_to_variable = { NYN_construction_budget = 1 }
-			create_pie_chart = yes
+			if = {
+				limit = { check_variable = { NYN_austerity_budget > 0 } }
+					add_to_variable = { NYN_military_budget = 1 }
+					add_to_variable = { NYN_austerity_budget = -2 }
+					add_to_variable = { NYN_construction_budget = 1 }
+					clamp_budgets = yes
+					create_pie_chart = yes
+			}
+			else = {
+				#
+			}
 		}
 		upbutton2_click = {
 			add_to_variable = { NYN_military_budget = -1 }
 			add_to_variable = { NYN_austerity_budget = 2 }
 			add_to_variable = { NYN_construction_budget = -1 }
+			clamp_budgets = yes
 			create_pie_chart = yes
 		}
 		downbutton3_click = {
-			add_to_variable = { NYN_military_budget = 1 }
-			add_to_variable = { NYN_austerity_budget = 1 }
-			add_to_variable = { NYN_construction_budget = -2 }
-			create_pie_chart = yes
+			if = {
+				limit = { check_variable = { NYN_construction_budget > 0 } }
+					add_to_variable = { NYN_military_budget = 1 }
+					add_to_variable = { NYN_austerity_budget = 1 }
+					add_to_variable = { NYN_construction_budget = -2 }
+					clamp_budgets = yes
+					create_pie_chart = yes
+			}
+			else = {
+				#
+			}
 		}
 		upbutton3_click = {
 			add_to_variable = { NYN_military_budget = -1 }
 			add_to_variable = { NYN_austerity_budget = -1 }
 			add_to_variable = { NYN_construction_budget = 2 }
+			clamp_budgets = yes
 			create_pie_chart = yes
 		}
 	}

@@ -5,7 +5,7 @@ country_event = {
 	id = albany.1
 		title = albany.1.t
 		desc = albany.1.d
-		picture = GFX_event_test
+		picture = GFX_NYN_thatcherism
 		is_triggered_only = yes
 
 		option = {
@@ -19,7 +19,7 @@ country_event = {
 	id = albany.2
 		title = albany.2.t
 		desc = albany.2.d
-		picture = GFX_event_test
+		picture = GFX_NYN_reaganomics
 		is_triggered_only = yes
 
 		option = {
@@ -33,7 +33,7 @@ country_event = {
 	id = albany.3
 		title = albany.3.t
 		desc = albany.3.d
-		picture = GFX_event_test
+		picture = GFX_NYN_honourable
 		is_triggered_only = yes
 
 		option = {

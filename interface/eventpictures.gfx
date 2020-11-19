@@ -2245,4 +2245,19 @@ spriteTypes = {
 		name = "event_tom_cotton_sotu"
 		texturefile = "gfx/event_pictures/event_tom_cotton_sotu.dds"
 	}
+
+	spritetype = {
+		name = "GFX_NYN_thatcherism"
+		texturefile = "gfx/event_pictures/NYN_thatcherism_pic.dds"
+	}
+
+	spritetype = {
+		name = "GFX_NYN_reaganomics"
+		texturefile = "gfx/event_pictures/NYN_reaganomics_pic.dds"
+	}
+
+	spritetype = {
+		name = "GFX_NYN_honourable"
+		texturefile = "gfx/event_pictures/NYN_honourable_pic.dds"
+	}
 }
