@@ -4828,12 +4828,28 @@ leader_traits = {
 		army_org_regain = 0.20
 		war_support_factor = -0.1
 		}
-	figurehead_for_corporations = {
+	figurehead_for_corporations1 = {
 		random = no
 		stability_factor = -0.2
 		war_support_factor = -0.3
 		industrial_capacity_factory = 0.1
 		production_speed_buildings_factor = 0.20
 		production_factory_max_efficiency_factor = 0.15
+		}
+	figurehead_for_corporations2 = {
+		random = no
+		stability_factor = -0.2
+		war_support_factor = -0.3
+		industrial_capacity_factory = 0.15
+		production_speed_buildings_factor = 0.25
+		production_factory_max_efficiency_factor = 0.2
+		}
+	figurehead_for_corporations3 = {
+		random = no
+		stability_factor = -0.2
+		war_support_factor = -0.3
+		industrial_capacity_factory = 0.2
+		production_speed_buildings_factor = 0.3
+		production_factory_max_efficiency_factor = 0.25
 		}
 }

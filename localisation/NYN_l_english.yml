@@ -72,6 +72,7 @@
  albany.10.a.tt:0 "§R+10% Leftist Organization§!"
  NYN_plus_5_mil:0 "§R+5% Leftist Militancy§!"
  NYN_plus_5_org:0 "§R+5% Leftist Organization§!"
+ NYN_improve_trait_tt:0 "§GImproves leader trait "Figurehead for Corporations"§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
@@ -90,6 +91,7 @@
  NYN_get_poors_off_the_street:0 "Get Poors Off the Street"
  NYN_set_up_homeless_shelters:0 "Set Up Homeless Shelters"
  NYN_improve_working_conditions:0 "Improve Working Conditions"
+ NYN_improve_trait:0 "[GetImproveTrait]"
  #events
  albany.15.t:0 "[GetFate]"
  
@@ -222,6 +224,8 @@
  NYN_ReportedDebtColor1:0 "§R[?NYN_reported_debt]%§!"
  NYN_ReportedDebtColor2:0 "§G[?NYN_reported_debt]%§!"
  NYN_ReportedDebtColor3:0 "§R[?NYN_reported_debt]%§!"
+ NYN_GetImproveTrait_1:0 "Encourage Lobbying"
+ NYN_GetImproveTrait_2:0 "Represent Corporate Interests"
  
  
  

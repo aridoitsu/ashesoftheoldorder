@@ -416,8 +416,7 @@ NYN_leftist_resistance = {
 			}
 		}
 	}
-}
-	
+}	
 NYN_reconstruction = {
 	NYN_start_the_reconstruction_of_albany = {
 		available = {
@@ -505,6 +504,34 @@ NYN_reconstruction = {
 				var = NYN_leftist_mil
 				value = 5
 			}
+		}
+	}
+	NYN_improve_trait = {
+		available = {
+			has_completed_focus = NYN_a_tax_haven
+		}
+		visible = {
+			has_completed_focus = NYN_a_tax_haven
+		}
+		cost = 50
+		days_remove = 28
+		remove_effect = {
+			custom_effect_tooltip = NYN_improve_trait_tt
+				hidden_effect = { NYN_improve_trait = yes }
+		}
+	}
+	NYN_remove_trait = {
+		available = {
+			has_completed_focus = NYN_for_the_common_man
+		}
+		visible = {
+			has_completed_focus = NYN_for_the_common_man
+		}
+		cost = 50
+		days_remove = 28
+		remove_effect = {
+			custom_effect_tooltip = NYN_improve_trait_tt
+				hidden_effect = { remove_country_leader_trait = figurehead_for_corporations1 }
 		}
 	}
 }

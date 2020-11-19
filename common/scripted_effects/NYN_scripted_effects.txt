@@ -71,3 +71,20 @@ NYN_reset_debt = {
 	multiply_variable = { temp1 = temp2 }
 	set_variable = { NYN_overreport_cost = temp1 }
 }
+
+NYN_improve_trait = {
+	if = {
+		limit = {
+			has_country_leader_with_trait = figurehead_for_corporations1
+			}
+		remove_country_leader_trait = figurehead_for_corporations1
+		add_country_leader_trait = figurehead_for_corporations2
+	}
+	else_if = {
+		limit = {
+			has_country_leader_with_trait = figurehead_for_corporations2
+			}
+		remove_country_leader_trait = figurehead_for_corporations2
+		add_country_leader_trait = figurehead_for_corporations3
+	}
+}

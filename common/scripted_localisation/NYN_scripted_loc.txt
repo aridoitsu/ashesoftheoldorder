@@ -377,3 +377,19 @@ defined_text = {
 		localization_key = NYN_ReportedDebtColor3
 	}
 }
+
+defined_text = {
+	name = GetImproveTrait
+	text = {
+		trigger = {
+			has_country_leader_with_trait = figurehead_for_corporations1
+		}
+		localization_key = NYN_GetImproveTrait_1
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = figurehead_for_corporations2
+		}
+		localization_key = NYN_GetImproveTrait_2
+	}
+}
