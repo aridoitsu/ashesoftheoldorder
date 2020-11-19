@@ -88,3 +88,36 @@ NYN_improve_trait = {
 		add_country_leader_trait = figurehead_for_corporations3
 	}
 }
+
+create_pie_chart = {
+	clear_array = pie_chart
+	resize_array = {
+		array = pie_chart
+		value = 1 # 1 is value for neutrality frame, so we don't have to make a loop for it
+		size = 100 # 100 pieces, each percent is one piece
+	}
+	set_temp_variable = { neutrality_pop = NYN_military_budget }
+	round_temp_variable = neutrality_pop
+
+	set_temp_variable = { communism_pop = NYN_austerity_budget } 
+	set_variable = { ROOT.last_idx = neutrality_pop }
+	add_to_temp_variable = { communism_pop = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = communism_pop
+		set_variable = { pie_chart^v = 2 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { democratic_pop = NYN_construction_budget }
+	add_to_temp_variable = { democratic_pop = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = democratic_pop
+		set_variable = { pie_chart^v = 3 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	clear_variable = ROOT.last_idx
+	add_to_variable = { pie_chart_dirty = 1 }
+}

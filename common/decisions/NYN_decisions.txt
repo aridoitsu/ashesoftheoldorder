@@ -422,7 +422,7 @@ NYN_reconstruction = {
 		available = {
 			has_completed_focus = NYN_another_day_another_dollar
 			}
-		visible = { 
+		visible = {
 			has_completed_focus = NYN_another_day_another_dollar 
 			NOT = {
 				has_idea = NYN_our_city_restored
@@ -583,6 +583,39 @@ NYN_debt_growth = {
 			add_to_variable = { NYN_total_debt = 300 }
 			add_political_power = 300
 			NYN_reset_debt = yes
+		}
+	}
+}
+NYN_mobilization = {
+	NYN_meeting_quota = {
+		activation = {
+			has_completed_focus = NYN_the_military_industrial_complex
+			}	
+		visible = {
+			has_completed_focus = NYN_the_military_industrial_complex
+			}
+		available = { has_army_manpower = { size > 50000 } }
+		days_mission_timeout = 280
+		icon = generic_decision
+		fire_only_once = yes
+		is_good = no
+		timeout_effect = {
+			country_event = { id = albany.23 }
+			}
+		}
+}
+NYN_test_ui_cat = {
+	NYN_test_lol = {
+		available = {
+			always = yes
+		}
+		visible = {
+			original_tag = NYN
+		}
+		icon = generic_decision
+		days_re_enable = 0
+		complete_effect = {
+			create_pie_chart = yes
 		}
 	}
 }

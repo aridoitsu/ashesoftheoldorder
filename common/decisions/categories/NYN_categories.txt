@@ -48,3 +48,22 @@ NYN_debt_growth = {
 		has_completed_focus = NYN_the_revolution_crushed
 	}
 }
+
+NYN_mobilization = {
+	icon = ger_military_buildup
+	allowed = {
+		original_tag = NYN
+	}
+	visible = {
+		has_completed_focus = NYN_the_military_industrial_complex
+	}
+}
+
+NYN_test_ui_cat = {
+	icon = usa_congress
+	allowed = {
+		original_tag = NYN
+	}
+
+	scripted_gui = NYN_test_ui
+}
