@@ -199,7 +199,7 @@ focus_tree = {
 			focus = MIN_mplsresult
 		}
 
-		x = 2
+		x = 1.5
 		y = 5
 		ai_will_do = {
 			factor = 10
@@ -219,7 +219,7 @@ focus_tree = {
 			focus = MIN_mplsresult
 		}
 
-		x = 5
+		x = 5.5
 		y = 5
 		ai_will_do = {
 			factor = 10
