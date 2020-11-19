@@ -30,9 +30,6 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		cost = 3.00
 		prerequisite = { focus = MIN_strikes }
-		mutually_exclusive = {
-			focus = MIN_fight_strikes 
-		}
 		x = 1.5
 		y = 1
 		ai_will_do = {
@@ -51,9 +48,6 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		cost = 3.00
 		prerequisite = { focus = MIN_strikes }
-		mutually_exclusive = {
-			focus = MIN_mplselection
-		}
 		x = 5.5
 		y = 1
 		ai_will_do = {
