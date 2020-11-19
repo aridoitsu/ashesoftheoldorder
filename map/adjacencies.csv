@@ -134,6 +134,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6062;6205;sea;3590;-1;-1;-1;-1;;West Scottish-Strait
 8435;6550;sea;7452;-1;-1;-1;-1;;Aegan Isle-Strait
 7304;4360;sea;8614;-1;-1;-1;-1;;New Foundland-Strait
+13717;677;sea;5430;-1;-1;-1;-1;;Golden Gate Bridge
+13870;13869;sea;8518;-1;-1;-1;-1;;Brooklyn-Elizabeth
+13797;6892;sea;8492;-1;-1;-1;-1;;Chesapeake Bay
+788;3917;sea;8492;-1;-1;-1;-1;;Norfolk-Cape Charles
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund

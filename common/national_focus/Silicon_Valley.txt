@@ -1,0 +1,165 @@
+focus_tree = {
+	id = Silicon_Opening
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = SIL
+		}
+	}
+
+	focus = {
+		id = SIL_Silicon_Management_Committee
+		icon = SIL_Silicon_Management_Committee
+
+		x = 10
+		y = 0
+
+		cost = 1
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SIL_Issue_At_Hand
+		icon = SIL_Issue_At_Hand
+
+		x = 10
+		y = 1
+
+		cost = 1
+
+		prerequisite = { focus = SIL_Silicon_Management_Committee }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SIL_Equality_Of_Wealth
+		icon = SIL_Equality_Of_Wealth
+
+		x = 8
+		y = 2
+
+		cost = 1
+
+		prerequisite = { focus = SIL_Issue_At_Hand }
+		mutually_exclusive = { focus = SIL_Electing_A_Chairperson }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SIL_All_Companies_Represented
+		icon = SIL_All_Companies_Represented
+		
+		relative_position_id = SIL_Equality_Of_Wealth
+
+		x = 0
+		y = 1
+
+		cost = 1
+
+		prerequisite = { focus = SIL_Equality_Of_Wealth }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SIL_Electing_A_Chairperson
+		icon = SIL_Electing_A_Chairperson
+
+		x = 12
+		y = 2
+
+		cost = 1
+
+		prerequisite = { focus = SIL_Issue_At_Hand }
+		mutually_exclusive = { focus = SIL_Equality_Of_Wealth }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SIL_Restore_Order
+		icon = SIL_Restore_Order
+
+		relative_position_id = SIL_Electing_A_Chairperson
+
+		x = 0
+		y = 1
+
+		cost = 1
+
+		prerequisite = { focus = SIL_Electing_A_Chairperson }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SIL_Abolish_Worker_Protections
+		icon = SIL_Abolish_Worker_Protections
+
+		x = 10
+		y = 4
+
+		cost = 2
+
+		prerequisite = { focus = SIL_Restore_Order focus = SIL_All_Companies_Represented }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SIL_Limited_Democracy
+		icon = SIL_Limited_Democracy
+		
+		relative_position_id = SIL_Equality_Of_Wealth
+
+		x = 0
+		y = 3
+
+		cost = 3
+
+		prerequisite = { focus = SIL_All_Companies_Represented }
+		prerequisite = { focus = SIL_Abolish_Worker_Protections }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SIL_Supremacy_of_the_Committee
+		icon = SIL_Supremacy_of_the_Committee
+
+		relative_position_id = SIL_Electing_A_Chairperson
+
+		x = 0
+		y = 3
+
+		cost = 3
+
+		prerequisite = { focus = SIL_Restore_Order }
+		prerequisite = { focus = SIL_Abolish_Worker_Protections }
+
+		completion_reward = {
+			
+		}
+	}
+}

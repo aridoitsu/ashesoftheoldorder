@@ -2934,4 +2934,49 @@ spriteTypes = {
 		name = "GFX_NYN_crime_is_crime_is_crime"
 		texturefile = "gfx/interface/goals/NYN_crime_is_crime_is_crime.dds"
 	}
+
+	SpriteType = {
+		name = "SIL_Silicon_Management_Committee"
+		texturefile = "gfx/interface/goals/SIL_Silicon_Management_Committee.dds"
+	}
+
+	SpriteType = {
+		name = "SIL_Issue_At_Hand"
+		texturefile = "gfx/interface/goals/SIL_Issue_At_Hand.dds"
+	}
+
+	SpriteType = {
+		name = "SIL_Equality_Of_Wealth"
+		texturefile = "gfx/interface/goals/SIL_Equality_Of_Wealth.dds"
+	}
+
+	SpriteType = {
+		name = "SIL_All_Companies_Represented"
+		texturefile = "gfx/interface/goals/SIL_All_Companies_Represented.dds"
+	}
+
+	SpriteType = {
+		name = "SIL_Electing_A_Chairperson"
+		texturefile = "gfx/interface/goals/SIL_Electing_A_Chairperson.dds"
+	}
+
+	SpriteType = {
+		name = "SIL_Restore_Order"
+		texturefile = "gfx/interface/goals/SIL_Restore_Order.dds"
+	}
+
+	SpriteType = {
+		name = "SIL_Abolish_Worker_Protections"
+		texturefile = "gfx/interface/goals/SIL_Abolish_Worker_Protections.dds"
+	}
+
+	SpriteType = {
+		name = "SIL_Limited_Democracy"
+		texturefile = "gfx/interface/goals/SIL_Limited_Democracy.dds"
+	}
+
+	SpriteType = {
+		name = "SIL_Supremacy_of_the_Committee"
+		texturefile = "gfx/interface/goals/SIL_Supremacy_Of_The_Committee.dds"
+	}
 }

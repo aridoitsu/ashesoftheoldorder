@@ -1,4 +1,4 @@
-capital = 800
+capital = 1157
 
 set_research_slots = 3
 
@@ -47,7 +47,8 @@ set_technology = {
 	fighter1 = 1
 }
 
-set_stability = 0.57
+set_stability = 0.48
+set_war_support = 0.19
 
 set_politics = {
 	ruling_party = neutrality
@@ -55,11 +56,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 add_ideas = {
 }
+
 set_popularities = {
-	neutrality = 12
-	communism = 10
-	fascism = 3
-	democratic = 75
+	neutrality = 58
+	democratic = 29
+	prodem = 12
+	ultranationalism = 1
 }
