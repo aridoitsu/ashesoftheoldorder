@@ -406,7 +406,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 				picture = "Portrait_NYN_Andrew_Cuomo.dds"
 				expire = "2040.1.1"
 				ideology = junta
-				traits = { figurehead_for_corporations }
+				traits = { figurehead_for_corporations1 }
 				}
 		}
 	}
@@ -706,7 +706,20 @@ continuous_focus_position = { x = 50 y = 2000 }
 				has_country_flag = NYN_rebounding_economy
 			}
 			completion_reward = {
-
+				activate_mission = NYN_meeting_quota
+				set_variable = {
+					var = NYN_military_budget
+					value = 34
+				}
+				set_variable = {
+					var = NYN_austerity_budget
+					value = 33
+				}
+				set_variable = {
+					var = NYN_construction_budget
+					value = 33
+				}
+				create_pie_chart = yes
 			}
 		}
 

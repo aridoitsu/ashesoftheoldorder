@@ -444,4 +444,18 @@ country_event = {
 			
 			}
 		}
+#oh god oh fuck
+country_event = {
+	id = albany.23
+		title = albany.23.t
+		desc = albany.23.d
+		picture = GFX_event_test
+		is_triggered_only = yes
+
+		option = {
+			name = albany.23.a
+			ai_chance = { base = 100 }
+			
+			}
+		}
 
