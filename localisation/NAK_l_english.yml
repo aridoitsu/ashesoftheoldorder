@@ -57,6 +57,10 @@
  NAK_Resist1:0 "Strong Local Resistance"
  NAK_Emergency_Training:0 "Emergency Training Program"
  NAK_Armed_and_Ready:0 "Armed and Ready"
+ Cut_off_Trade:0 "Cut Off Trade"
+ War_of_Attrition:0 "War of Attrition"
+ Mass_Desertions:0 "Mass Desertions"
+ 
  #Parties
  NAK_ultranationalism_party_long:0 "Black People's Party"
  NAK_ultranationalism_party_short:0 "Black People's Party"

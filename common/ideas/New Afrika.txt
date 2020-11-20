@@ -138,5 +138,34 @@ ideas = {
 				army_org_factor = 0.05
 				}
 		}
+		Cut_off_Trade = {
+			picture = GFX_idea_Cut_off_Trade
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				surrender_limit = -0.1
+				production_speed_buildings_factor = -0.2
+				}
+		}
+		War_of_Attrition = {
+		picture = GFX_idea_War_of_Attrition
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_weekly = -0.01	
+			}
+		}
+		Mass_Desertions = {
+		picture = GFX_idea_Mass_Desertions
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				weekly_manpower = -500
+				surrender_limit = -0.1	
+			}
+		}
 	}
 }

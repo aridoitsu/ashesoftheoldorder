@@ -24,12 +24,11 @@
  #War Focuses
  ACR_Dixies_Land_Ill_Take_My_Stand:0 "For Dixie's Land I'll Take My Stand"
  ACR_Winter_Offensive:0 "Winter Offensive"
- ACR_Utilize_Our_Strengths:0 "Utilize Our Strenghts"
+ ACR_Utilize_Our_Strengths:0 "Utilize Our Strengths"
  ACR_Make_Their_Ears_Ring:0 "Make Their Ears Ring"
  ACR_Armored_Spearhead:0 "Armored Spearhead"
  ACR_Supremacy_Of_American_Engineering:0 "Supremacy Of American Engineering"
  ACR_Doctrines_of_the_Past:0 "Doctrines of the Past"
- ACR_The_Rockets_Red_Glare:0 "Doctrines of the Past"
  ACR_The_Rockets_Red_Glare:0 "The Rockets Red Glare"
  ACR_The_Will_of_the_People:0 "Will of the People"
  ACR_Mobilize_the_Workforce:0 "Mobilize the Workforce"
@@ -165,8 +164,20 @@ ACR_Disband_the_State:0 "Disband the State"
  CON_Legacy_of_the_US:"Legacy of the United States"
  CON_Separate_But_Equal:0 "Seperate But Equal"
  CON_Divided_Cabinet:0 "Divided Cabinet"
- 
- 
+ ACR_Harsh_Rationing:0 "Harsh Rationing"
+ Confederate_Nostalgia:0 "Confederate Nostalgia"
+ Project_Neptune:0 "Project Neptune"
+ ACR_Supremacy_Of_American_Engineering1:0 "Supremacy Of American Engineering"
+ ACR_Supremacy_Of_American_Engineering2:0 "American Engineering Reigns Supreme!"
+ Motorization_Effort1:0 "Motorization Effort"
+ Motorization_Effort2:0 "Greater Motorization Effort"
+ Afrikan_Aerial_Supremacy:0 "Afrikan Aerial Supremacy"
+ ACR_Project_Neptune:0 "Project Neptune - Deployed"
+ Charleston_Supply_Runs:0 "Charleston Supply Runs"
+ Reclaim_our_beaches:0 "Reclaim Our Beaches"
+ Ramped_Up_Bomber_Production1:0 "Bomb Their Farms"
+ Burn_Their_Cities:0 "Ramped Up Bombed Production"
+ Provisional_Civilian_Administrations:0 "Provisional Civilian Administrations"
  #custom tooltips
  
  #decisions 
