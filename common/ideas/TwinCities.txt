@@ -1,0 +1,65 @@
+ideas = {
+	country = {
+		MIN_mplsprotests = {
+			picture = spr_crush_the_revolution
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.35
+				conscription_factor = -0.1
+				}
+			}
+		
+		MIN_twinmetals = {
+			picture = generic_production_bonus
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				local_resources_factor = 0.10
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		MIN_mplsprotests2 = {
+			picture = spr_crush_the_revolution
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.20
+				conscription_factor = -0.05
+				}
+			}
+
+		MIN_mplsprotests3 = {
+				picture = spr_crush_the_revolution
+	
+				allowed_civil_war = {
+					always = yes
+				}
+				modifier = {
+					stability_factor = -0.25
+					war_support_factor = -0.4
+					}
+				}
+		MIN_mplsprotests4 = {
+				picture = spr_crush_the_revolution
+		
+				allowed_civil_war = {
+					always = yes
+				}
+				modifier = {
+					stability_factor = -0.05
+					war_support_factor = -0.10
+					conscription_factor = -0.1
+				}
+			}
+	}
+}

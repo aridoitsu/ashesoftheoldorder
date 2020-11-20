@@ -22,3 +22,7 @@ MIN_reestrablish_mines:0 "Reopen northern mines"
 MIN_des_moines_relations:0 "Diplomatic trip to Des Moines"
 MIN_lake_defence:0 "Defenders of the Lakes"
 MIN_duluth_trade_co:0 "Restart the Duluth Trading"
+
+  #tooltips
+
+MIN_badelection:0 "§RThis will anger the population if they find out and may lead to consenquences§"

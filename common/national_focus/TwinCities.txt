@@ -57,7 +57,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			swap_ideas = {
+				remove_idea = MIN_mplsprotests
+				add_idea = MIN_mplsprotests2 
+		   }
 		}
 	}
 	focus = {
@@ -70,6 +73,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = MIN_strikes_protest
 		}
+
 		x = 4.5
 		y = 2
 		ai_will_do = {
@@ -79,7 +83,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+				swap_ideas = {
+					remove_idea = MIN_mplsprotests2
+					add_idea = MIN_mplsprotests3
+			   }
+			
 		}
 	}
 	focus = {
@@ -101,7 +109,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+				swap_ideas = {
+					remove_idea = MIN_mplsprotests2
+					add_idea = MIN_mplsprotests4
+			   }
 		}
 	}
 	focus = {
@@ -123,7 +134,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -145,7 +156,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			custom_effect_tooltip = MIN_badelection
 		}
 	}
 	focus = {
@@ -164,7 +175,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			set_country_flag = MIN_interfered
+			custom_effect_tooltip = MIN_badelection
 		}
 	}
 
@@ -199,7 +211,7 @@ focus_tree = {
 			focus = MIN_mplsresult
 		}
 
-		x = 1.5
+		x = 2
 		y = 5
 		ai_will_do = {
 			factor = 10
@@ -219,7 +231,7 @@ focus_tree = {
 			focus = MIN_mplsresult
 		}
 
-		x = 5.5
+		x = 5
 		y = 5
 		ai_will_do = {
 			factor = 10
@@ -308,7 +320,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_ideas = MIN_twinmetals
 		}
 	}
 	focus = {

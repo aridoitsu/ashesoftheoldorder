@@ -49,6 +49,8 @@ set_technology = {
 
 set_stability = 0.50
 
+add_ideas = MIN_mplsprotests
+
 set_politics = {
 	ruling_party = prodem 
 	last_election = "1932.11.8"
