@@ -1,0 +1,61 @@
+add_namespace = NAK
+country_event = {
+	id = NAK.2
+		title = NAK.2.t
+		desc = NAK.2.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.2.a
+			ai_chance = { base = 100 }
+		}
+	}
+country_event = {
+	id = NAK.3
+		title = NAK.3.t
+		desc = NAK.3.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.2.a
+			ai_chance = { base = 100 }
+		}
+	}
+country_event = {
+	id = NAK.4
+		title = NAK.4.t
+		desc = NAK.4.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.4.a
+			ai_chance = { base = 100 }
+		}
+	}
+country_event = {
+	id = NAK.5
+		title = NAK.5.t
+		desc = NAK.5.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.4.a
+			ai_chance = { base = 100 }
+		}
+	}
+country_event = {
+	id = NAK.6
+		title = NAK.6.t
+		desc = NAK.6.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.2.a
+			ai_chance = { base = 100 }
+		}
+	}

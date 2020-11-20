@@ -1,0 +1,142 @@
+ideas = {
+	country = {
+		NAK_Con_Blockade = {
+			picture = GFX_idea_NAK_Con_Blockade
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.10	
+				consumer_goods_factor = 0.10
+				production_factory_start_efficiency_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.05
+				trade_laws_cost_factor = 1
+				}
+			}
+		NAK_Strengthened_Blockade = {
+			picture = GFX_idea_NAK_Con_Blockade
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.20	
+				consumer_goods_factor = 0.15
+				production_factory_start_efficiency_factor = -0.12
+				production_factory_max_efficiency_factor = -0.12
+				production_factory_efficiency_gain_factor = -0.1
+				trade_laws_cost_factor = 1
+				}
+			}
+		NAK_Racial_Divides = {
+			picture = GFX_idea_NAK_Racial_Divides
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.10	
+				}
+			}
+		NAK_Lack_of_Industrial_Expertise  = {
+			picture = GFX_idea_NAK_Lack_of_Industrial_Expertise
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.35
+				production_factory_start_efficiency_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.05
+				}
+		}
+		NAK_Lack_of_Industrial_Expertise2  = {
+			picture = GFX_idea_NAK_Lack_of_Industrial_Expertise
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				production_factory_start_efficiency_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				}
+		}
+		NAK_Rebel_Government  = {
+			picture = GFX_idea_NAK_Rebel_Government
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_core_defence_factor = 0.1
+				conscription = 0.02
+				army_org_factor	= 0.15
+				dig_in_speed_factor	= 0.2
+				}
+		}
+		NAK_Crippling_Homelessness  = {
+			picture = GFX_idea_NAK_Crippling_Homelessness
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				consumer_goods_factor = 0.10
+				}
+		}
+		NAK_Breakfast_Programs  = {
+			picture = GFX_idea_NAK_Breakfast_Programs
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				consumer_goods_factor = 0.01
+				MONTHLY_POPULATION = 0.2
+				}
+		}
+		NAK_M4A1 = {
+			picture = GFX_idea_NAK_M4A1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				consumer_goods_factor = 0.01
+				line_change_production_efficiency_factor = 0.1
+				MONTHLY_POPULATION = 0.2
+				}
+		}
+		NAK_Resist1 = {
+			picture = GFX_idea_NAK_Resist1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_defence_factor = 0.10
+				army_org_factor = 0.05
+				}
+		}
+		NAK_Emergency_Training = {
+			picture = GFX_idea_NAK_Emergency_Training
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				training_time_army_factor = -0.1
+				}
+		}
+		NAK_Armed_and_Ready = {
+			picture = GFX_idea_NAK_Emergency_Training
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+				army_org_factor = 0.05
+				}
+		}
+	}
+}

@@ -30,13 +30,13 @@ set_technology = {
 	early_ship_hull_carrier = 1
 	basic_ship_hull_carrier = 1
 	basic_battery = 1
-	basic_light_battery = 1
-	basic_medium_battery = 1
-	basic_heavy_battery = 1
-	basic_torpedo = 1
-	sonar = 1
-	basic_depth_charges = 1
-	basic_secondary_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
 	improved_secondary_battery = 1
 	basic_cruiser_armor_scheme = 1
 	basic_heavy_armor_scheme = 1
@@ -55,6 +55,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+#########Ideas#########
+
 add_ideas = {
 	NAK_Con_Blockade
 	NAK_Racial_Divides
@@ -62,6 +65,9 @@ add_ideas = {
 	NAK_Rebel_Government
 	NAK_Crippling_Homelessness
 }
+
+#########Ideologies############
+
 set_popularities = {
 	democratic = 10
 	neutrality = 0
@@ -76,10 +82,73 @@ set_popularities = {
 	fascism = 0
 	ultranationalism = 10
 }
+
+########### Leaders ###############
+
 create_country_leader = {
 	name = "Jesse Jackson"
 	desc = "POLITICS_JESSE_JACKSON_DESC"
 	picture = "Portrait_NAK_Jesse_Jackson.dds"
 	expire = "2040.1.1"
-	ideology = despot
+	ideology = sociallib
+}
+
+
+
+########### PARTIES #############
+
+set_party_name = {
+    ideology = ultranationalism
+    long_name = NAK_ultranationalism_party_long
+    name = NAK_ultranationalism_party_short
+}
+set_party_name = {
+    ideology = fascism
+    long_name = NAK_fascism_party_long
+    name = NAK_fascism_party_short
+}
+set_party_name = {
+    ideology = neutrality
+    long_name = NAK_neutrality_party_long
+    name = NAK_neutrality_party_short
+}
+set_party_name = {
+    ideology = authdem
+    long_name = NAK_authdem_party_long
+    name = NAK_authdem_party_short
+}
+set_party_name = {
+    ideology = democratic
+    long_name = NAK_democratic_party_long
+    name = NAK_democratic_party_short
+}
+set_party_name = {
+    ideology = liberal
+    long_name = NAK_liberal_party_long
+    name = NAK_liberal_party_short
+}
+set_party_name = {
+    ideology = prodem
+    long_name = NAK_prodem_party_long
+    name = NAK_prodem_party_short
+}
+set_party_name = {
+    ideology = demsoc
+    long_name = NAK_demsoc_party_long
+    name = NAK_demsoc_party_short
+}
+set_party_name = {
+    ideology = libsoc
+    long_name = NAK_libsoc_party_long
+    name = NAK_libsoc_party_short
+}
+set_party_name = {
+    ideology = communism
+    long_name = NAK_communism_party_long
+    name = NAK_communism_party_short
+}
+set_party_name = {
+    ideology = anarchy
+    long_name = NAK_anarchy_party_long
+    name = NAK_anarchy_party_short
 }

@@ -164,7 +164,7 @@ focus_tree = {
 		}
         
 	    completion_reward = {
-            #Change to Extensive Conscription
+			add_ideas = extensive_conscription
 	    }
     }
     focus = { 
@@ -307,7 +307,6 @@ focus_tree = {
 		}
         
 	    completion_reward = {
-            add_ideas = NAK_Armed_and_Ready
             country_event = {
         		    id = NAK.10
                     days = 1
