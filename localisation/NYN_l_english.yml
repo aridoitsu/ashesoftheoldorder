@@ -53,6 +53,7 @@
  NYN_the_ashes_of_our_city3:0 "Our City Reclaimed"
  NYN_the_ashes_of_our_city4:0 "Our City Reclaimed"
  NYN_our_city_restored:0 "Our City Restored"
+ NYN_effects_of_our_budget:0 "Effects of Our Budget"
  #custom tooltips
  NYN_leftist_org1_tt:0 "§R+40% Leftist Organization, +40% Leftist Militancy, +1% Weekly Org, +1% Weekly Mil§!"
  NYN_another_day_another_riot_tt:0 "§HAllows decisions to interact with leftist resistance.§!"
@@ -73,6 +74,7 @@
  NYN_plus_5_mil:0 "§R+5% Leftist Militancy§!"
  NYN_plus_5_org:0 "§R+5% Leftist Organization§!"
  NYN_improve_trait_tt:0 "§GImproves leader trait "Figurehead for Corporations"§!"
+ NYN_extra_growth_tt:0 "Debt Growth: §H-[?NYN_extra_growth]%§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"

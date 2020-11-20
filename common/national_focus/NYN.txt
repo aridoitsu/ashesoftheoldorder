@@ -720,6 +720,8 @@ continuous_focus_position = { x = 50 y = 2000 }
 					value = 30
 				}
 				create_pie_chart = yes
+				update_gui_stuff = yes
+				add_dynamic_modifier = { modifier = NYN_effects_of_our_budget }
 			}
 		}
 

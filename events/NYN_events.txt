@@ -198,11 +198,9 @@ country_event = {
 			ai_chance = { base = 100 }
 
 			custom_effect_tooltip = albany.10.a.tt
-			add_to_variable = {
-				add_to_variable = {
-					var = NYN_leftist_org
-					value = 10
-					}
+			add_to_variable = {	
+				var = NYN_leftist_org
+				value = 10
 			}
 		}
 	}
