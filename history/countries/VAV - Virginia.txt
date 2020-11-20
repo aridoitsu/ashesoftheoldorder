@@ -64,15 +64,15 @@ add_to_faction = CRN
 
 set_popularities = {
 	democratic = 0
-	neutrality = 27
+	neutrality = 0
 	authdem = 0
 	liberal = 0
-	demsoc = 0
+	demsoc = 10
 	prodem = 0
-	communism = 3
+	communism = 70
 	totalsoc = 0
-	libsoc = 70
-	anarchy = 0
+	libsoc = 17
+	anarchy = 3
 	fascism = 0
 	ultranationalism = 0
 }

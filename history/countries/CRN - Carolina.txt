@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = demsoc
+	ruling_party = libsoc
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,16 +58,16 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	democratic = 30
+	democratic = 0
 	neutrality = 0
-	authdem = 15
-	liberal = 15
-	demsoc = 34
-	prodem = 4
-	communism = 0
+	authdem = 0
+	liberal = 0
+	demsoc = 3
+	prodem = 2
+	communism = 25
 	totalsoc = 0
-	libsoc = 0
-	anarchy = 0
+	libsoc = 57
+	anarchy = 13
 	fascism = 2
 	ultranationalism = 0
 }
