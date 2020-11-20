@@ -13,17 +13,45 @@ NYN_test_ui = {
 					add_to_variable = { NYN_construction_budget = 1 }
 					clamp_budgets = yes
 					create_pie_chart = yes
+					update_gui_stuff = yes
 			}
 			else = {
 				#
 			}
 		}
 		upbutton1_click = {
-			add_to_variable = { NYN_military_budget = 2 }
-			add_to_variable = { NYN_austerity_budget = -1 }
-			add_to_variable = { NYN_construction_budget = -1 }
-			clamp_budgets = yes
-			create_pie_chart = yes
+			if = {
+				limit = { 
+					NOT = {
+						OR = {
+						check_variable = { NYN_austerity_budget = 0 }
+						check_variable = { NYN_construction_budget = 0 }
+						}
+					} 
+				}
+					add_to_variable = { NYN_military_budget = 2 }
+					add_to_variable = { NYN_austerity_budget = -1 }
+					add_to_variable = { NYN_construction_budget = -1 }
+					clamp_budgets = yes
+					create_pie_chart = yes
+					update_gui_stuff = yes
+			}
+			else_if = {
+				limit = { check_variable = { NYN_austerity_budget = 0 } }
+				add_to_variable = { NYN_military_budget = 2 }
+				add_to_variable = { NYN_construction_budget = -2 }
+				clamp_budgets = yes
+				create_pie_chart = yes
+				update_gui_stuff = yes
+			}
+			else_if = {
+				limit = { check_variable = { NYN_construction_budget = 0 } }
+				add_to_variable = { NYN_military_budget = 2 }
+				add_to_variable = { NYN_austerity_budget = -2 }
+				clamp_budgets = yes
+				create_pie_chart = yes
+				update_gui_stuff = yes
+			}
 		}
 		downbutton2_click = {
 			if = {
@@ -33,17 +61,45 @@ NYN_test_ui = {
 					add_to_variable = { NYN_construction_budget = 1 }
 					clamp_budgets = yes
 					create_pie_chart = yes
+					update_gui_stuff = yes
 			}
 			else = {
 				#
 			}
 		}
 		upbutton2_click = {
-			add_to_variable = { NYN_military_budget = -1 }
-			add_to_variable = { NYN_austerity_budget = 2 }
-			add_to_variable = { NYN_construction_budget = -1 }
-			clamp_budgets = yes
-			create_pie_chart = yes
+			if = {
+				limit = { 
+					NOT = {
+						OR = {
+						check_variable = { NYN_military_budget = 0 }
+						check_variable = { NYN_construction_budget = 0 }
+						}
+					} 
+				}
+					add_to_variable = { NYN_military_budget = -1 }
+					add_to_variable = { NYN_austerity_budget = 2 }
+					add_to_variable = { NYN_construction_budget = -1 }
+					clamp_budgets = yes
+					create_pie_chart = yes
+					update_gui_stuff = yes
+			}
+			else_if = {
+				limit = { check_variable = { NYN_military_budget = 0 } }
+				add_to_variable = { NYN_austerity_budget = 2 }
+				add_to_variable = { NYN_construction_budget = -2 }
+				clamp_budgets = yes
+				create_pie_chart = yes
+				update_gui_stuff = yes
+			}
+			else_if = {
+				limit = { check_variable = { NYN_construction_budget = 0 } }
+				add_to_variable = { NYN_military_budget = -2 }
+				add_to_variable = { NYN_austerity_budget = 2 }
+				clamp_budgets = yes
+				create_pie_chart = yes
+				update_gui_stuff = yes
+			}
 		}
 		downbutton3_click = {
 			if = {
@@ -53,17 +109,45 @@ NYN_test_ui = {
 					add_to_variable = { NYN_construction_budget = -2 }
 					clamp_budgets = yes
 					create_pie_chart = yes
+					update_gui_stuff = yes
 			}
 			else = {
 				#
 			}
 		}
 		upbutton3_click = {
-			add_to_variable = { NYN_military_budget = -1 }
-			add_to_variable = { NYN_austerity_budget = -1 }
-			add_to_variable = { NYN_construction_budget = 2 }
-			clamp_budgets = yes
-			create_pie_chart = yes
+			if = {
+				limit = { 
+					NOT = {
+						OR = {
+						check_variable = { NYN_austerity_budget = 0 }
+						check_variable = { NYN_military_budget = 0 }
+						}
+					} 
+				}
+					add_to_variable = { NYN_military_budget = -1 }
+					add_to_variable = { NYN_austerity_budget = -1 }
+					add_to_variable = { NYN_construction_budget = 2 }
+					clamp_budgets = yes
+					create_pie_chart = yes
+					update_gui_stuff = yes
+			}
+			else_if = {
+				limit = { check_variable = { NYN_austerity_budget = 0 } }
+				add_to_variable = { NYN_military_budget = -2 }
+				add_to_variable = { NYN_construction_budget = 2 }
+				clamp_budgets = yes
+				create_pie_chart = yes
+				update_gui_stuff = yes
+			}
+			else_if = {
+				limit = { check_variable = { NYN_military_budget = 0 } }
+				add_to_variable = { NYN_construction_budget = 2 }
+				add_to_variable = { NYN_austerity_budget = -2 }
+				clamp_budgets = yes
+				create_pie_chart = yes
+				update_gui_stuff = yes
+			}
 		}
 	}
 

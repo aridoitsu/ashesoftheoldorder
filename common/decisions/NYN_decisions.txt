@@ -617,17 +617,18 @@ NYN_test_ui_cat = {
 		complete_effect = {
 			set_variable = {
 					var = NYN_military_budget
-					value = 34
+					value = 40
 				}
 				set_variable = {
 					var = NYN_austerity_budget
-					value = 33
+					value = 30
 				}
 				set_variable = {
 					var = NYN_construction_budget
-					value = 33
+					value = 30
 				}
 				create_pie_chart = yes
+				add_dynamic_modifier = { modifier = NYN_effects_of_our_budget }
 		}
 	}
 }

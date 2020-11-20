@@ -709,15 +709,15 @@ continuous_focus_position = { x = 50 y = 2000 }
 				activate_mission = NYN_meeting_quota
 				set_variable = {
 					var = NYN_military_budget
-					value = 34
+					value = 40
 				}
 				set_variable = {
 					var = NYN_austerity_budget
-					value = 33
+					value = 30
 				}
 				set_variable = {
 					var = NYN_construction_budget
-					value = 33
+					value = 30
 				}
 				create_pie_chart = yes
 			}

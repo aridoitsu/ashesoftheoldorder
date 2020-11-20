@@ -95,7 +95,7 @@
  NYN_mobilization:0 "Mobilization"
  NYN_meeting_quota:0 "Meeting Quota"
  NYN_test_ui_cat:0 "Budget"
- NYN_test_ui_cat_desc:0 "§gCurrent Military Budget§! = [?NYN_military_budget]%\n\n§RCurrent Austerity Budget§! = [?NYN_austerity_budget]%\n\n§HCurrent Construction Budget§! = [?NYN_construction_budget]%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ NYN_test_ui_cat_desc:0 "§gCurrent Military Budget§! = [?NYN_military_budget]%\n§RCurrent Austerity Budget§! = [?NYN_austerity_budget]%\n§HCurrent Construction Budget§! = [?NYN_construction_budget]%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurrent Effects of Budget Distribution:\n\n§gEffective Total Manpower:§! [?NYN_visual_extra_manpower]% £GFX_manpower_texticon\n\n§RDebt Growth:§! -[?NYN_extra_growth]%\n§HConsumer Goods Modifier:§! [?NYN_visual_extra_construction]%"
  NYN_economy_dist:0 "Budget Distribution"
  NYN_military_dist:0 "§gMilitary§!"
  NYN_austerity_dist:0 "§RAusterity§!"
