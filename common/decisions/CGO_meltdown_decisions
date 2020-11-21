@@ -63,11 +63,7 @@ CGO_debug = {
 CGO_meltdown_cleanup = {
   CGO_send_manpower = {
     allowed = {
-      tag = CGO
-    }
-
-    visible = {
-      is_debug = yes
+      original_tag = CGO
     }
 
     days_re_enable = 0
@@ -81,11 +77,7 @@ CGO_meltdown_cleanup = {
   }
   CGO_cleanup_equipment = {
     allowed = {
-      tag = CGO
-    }
-
-    visible = {
-      is_debug = yes
+      original_tag = CGO
     }
 
     days_re_enable = 0
@@ -97,4 +89,57 @@ CGO_meltdown_cleanup = {
       }
     }
   }
+  CGO_themachine_crisis = {
+    allowed = {
+      original_tag = CGO
+    }
+    activation = {
+      has_country_flag = CGO_chose_ai
+    }
+    days_mission_timeout = 70
+    icon = revolt
+    available = {
+      custom_trigger_tooltip = {
+        tooltip = CGO_cleanup_completed_tt
+  
+        NOT = {
+          check_variable = {
+            var = CGO_meltdown_status
+            value = 0
+          }
+        }
+      }
+    }
+    is_good = no
+    timeout_effect = {
+      country_event = { id = chicago.6 }
+    }
+ }
+ CGO_thepeople_crisis = {
+  allowed = {
+    original_tag = CGO
+  }
+  activation = {
+    has_country_flag = CGO_chose_people
+  }
+  days_mission_timeout = 50
+  icon = revolt
+  fire_only_once = yes
+  available = {
+    custom_trigger_tooltip = {
+      tooltip = CGO_cleanup_completed_tt
+
+      NOT = {
+        check_variable = {
+          var = CGO_meltdown_status
+          value = 0
+        }
+      }
+    }
+  }
+  is_good = no
+  timeout_effect = {
+    country_event = { id = chicago.7 }
+  }
+ }
 }

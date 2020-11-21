@@ -23,10 +23,14 @@
 
  #decisions
  CGO_debug:0 "Chicago Debug"
- CGO_meltdown_status_good:0 "Meltdown Status: Good"
+ ##CGO_meltdown:0 "Meltdown Status: [MeltdownStatus]"
  CGO_meltdown_cleanup:0 "The Byron Incident"
  CGO_send_manpower:0 "Send Cleanup Crews"
  CGO_cleanup_equipment:0 "Send Equipment"
+ CGO_meltdown_cleanup_desc:0 "incident at byron\n\nCleanup Status: [MeltdownStatus]"
+ CGO_themachine_crisis:0 "Cleanup Failed"
+ CGO_thepeople_crisis:0 "Cleanup Failed"
+ CGO_cleanup_completed_tt:0 "Cleanup has been completed."
 
  #events
  chicago.1.t:0 "An Emergency Meeting"
@@ -41,8 +45,12 @@
  chicago.5.a:0 "Those scientists have their priorities mixed up."
  chicago.5.b:0 "Let's hope it never comes to that."
 
- #Chungus
- CGO_meltdown_status_good:0 "Good"
+ #Chungus (big)
+ CGO_meltdown_status_none:0 "§LNone§!"
+ CGO_meltdown_status_poor:0 "§RPoor§!"
+ CGO_meltdown_status_mediocre:0 "§OMediocre§!"
+ CGO_meltdown_status_good:0 "§HGood§!"
+ CGO_meltdown_status_normal:0 "§GRelatively Normal§!"
 
  #politcal parties
  CGO_democratic_party_long:0 "the Reformist Faction"
