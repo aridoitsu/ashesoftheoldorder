@@ -2,9 +2,8 @@ state={
 	id=835
 	name="Interior Region"
 	history = {
-		owner = CAN
+		owner = AKA
 		add_core_of = AKA
-		add_core_of = CAN
 		buildings = {
 			infrastructure = 1
 		}

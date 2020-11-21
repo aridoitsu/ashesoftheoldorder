@@ -834,11 +834,6 @@ ALA = {
 	color_ui = rgb { 0 38 186 }
 }
 
-AKA = {
-	color = rgb { 0 59 111 }
-	color_ui = rgb { 0 59 111 }
-}
-
 AZA = {
 	color = rgb { 255 216 0 }
 	color_ui = rgb { 255 216 0 }
@@ -1561,6 +1556,14 @@ ETM = {
 AHR = {
 	color = rgb{ 240 83 101 }
 	color_ui = rgb{ 240 83 101 }
+}
+LIE = {
+	color = rgb { 136 96 153 }
+	color_ui = rgb { 136 96 153 }
+}
+AKA = {
+	color = rgb { 20 100 120 }
+	color_ui = rgb { 20 100 120 }
 }
 
 

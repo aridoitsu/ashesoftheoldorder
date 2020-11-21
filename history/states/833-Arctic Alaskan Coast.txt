@@ -2,9 +2,8 @@ state={
 	id=833
 	name="Anchorage"
 	history = {
-		owner = CAN
+		owner = AKA
 		add_core_of = AKA
-		add_core_of = CAN
 		victory_points = {
 			13091 10
 		}
