@@ -10,11 +10,14 @@ state={
 			industrial_complex = 2
 		}
 		victory_points = {
-			13834 10
+			15421 10
+		}
+		victory_points = {
+			14998 3
 		}
 	}
 	provinces={
-		10422 13834
+		10422 13834 14998 15421
 	}
 	manpower=1222179
 	state_category = city

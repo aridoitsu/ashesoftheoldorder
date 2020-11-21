@@ -5696,4 +5696,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/CGO_idea_byron_incident.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_SIL_Desire_For_Democracy"
+		texturefile = "gfx/interface/ideas/SIL_Desire_For_Democracy.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SIL_Lack_Of_Leadership"
+		texturefile = "gfx/interface/ideas/SIL_Lack_Of_Leadership.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SIL_Mass_Technological_Production"
+		texturefile = "gfx/interface/ideas/SIL_Mass_Technological_Production.tga"
+	}
+
 }

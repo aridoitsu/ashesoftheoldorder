@@ -67,6 +67,15 @@
  SIL_totalsoc_DEF:0 "the Revolutionary Territory of California"
  SIL_totalsoc_ADJ:0 "Californian"
 
+ # Spirits
+
+ SIL_Desire_For_Democracy:0 "Desire for Democracy"
+ SIL_Desire_For_Democracy_desc:0 ""
+ SIL_Lack_Of_Leadership:0 "Lack of Leadership"
+ SIL_Lack_Of_Leadership_desc:0 ""
+ SIL_Mass_Technological_Production:0 "Mass Technological Production"
+ SIL_Mass_Technological_Production_desc:0 ""
+
  # Focuses
 
  SIL_Silicon_Management_Committee:0 "The Silicon Management Committee"

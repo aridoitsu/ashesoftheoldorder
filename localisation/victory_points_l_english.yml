@@ -972,7 +972,7 @@
      VICTORY_POINTS_13537:0 "Chula Vista"
    #Not Thick Cities
      VICTORY_POINTS_11859:0 "Ventura"
-     VICTORY_POINTS_6881:0 "Santa Barbara"
+     VICTORY_POINTS_14966:0 "Santa Barbara"
      VICTORY_POINTS_4518:0 "Fresno"
      VICTORY_POINTS_15915:0 "Clovis"
      VICTORY_POINTS_15914:0 "Selma"
@@ -985,7 +985,8 @@
      VICTORY_POINTS_610:0 "Eureka"
      VICTORY_POINTS_3644:0 "Crescent City"
      VICTORY_POINTS_4331:0 "Alturas"
-     VICTORY_POINTS_4607:0 "Carson City"
+     VICTORY_POINTS_15425:0 "Carson City"
+     VICTORY_POINTS_15420:0 "Dayon"
      VICTORY_POINTS_6694:0 "Stockton"
    ##Connecticut
    #Hartford
@@ -1232,7 +1233,8 @@
      VICTORY_POINTS_13673:0 "Moapa"
    #Not Thick Cities
      VICTORY_POINTS_7879:0 "Mesquite"
-     VICTORY_POINTS_13834:0 "Reno"
+     VICTORY_POINTS_15421:0 "Reno"
+     VICTORY_POINTS_14998:0 "Sparks"
      VICTORY_POINTS_7756:0 "Jackpot"
      VICTORY_POINTS_4736:0 "Winnemucca"
      VICTORY_POINTS_7827:0 "Battle Mountain"

@@ -14,16 +14,16 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			1601 1
+			15420 1
 		}
 		victory_points = {
-			4607 10
+			15425 10
 		}
 		add_core_of = CAL
 	}
 
 	provinces={
-		710 1601 13765 4607 13761
+		710 1601 13765 4607 13761 15420 15425
 	}
 	manpower=677248
 	buildings_max_level_factor=1.000
