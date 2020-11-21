@@ -60,3 +60,41 @@ CGO_debug = {
     }
   }
 }
+CGO_meltdown_cleanup = {
+  CGO_send_manpower = {
+    allowed = {
+      tag = CGO
+    }
+
+    visible = {
+      is_debug = yes
+    }
+
+    days_re_enable = 0
+    cost = 0
+    complete_effect = {
+      add_to_variable = {
+        var = CGO_meltdown_status
+        value = -5
+      }
+    }
+  }
+  CGO_cleanup_equipment = {
+    allowed = {
+      tag = CGO
+    }
+
+    visible = {
+      is_debug = yes
+    }
+
+    days_re_enable = 0
+    cost = 0
+    complete_effect = {
+      add_to_variable = {
+        var = CGO_meltdown_status
+        value = -5
+      }
+    }
+  }
+}

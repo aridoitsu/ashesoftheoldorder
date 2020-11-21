@@ -1,0 +1,40 @@
+defined_text = {
+	name = MeltdownStatus
+	text = {
+		trigger = {
+			original_tag = CGO
+			check_variable = {
+				CGO_meltdown_status > -1
+				}
+			NOT = {
+				check_variable = {
+					CGO_meltdown_status > 32
+					}
+				}
+		}
+		localization_key = CGO_meltdown_status_good
+	}
+	text = {
+		trigger = {
+			original_tag = CGO
+			check_variable = {
+				CGO_meltdown_status > 32
+				}
+			NOT = {
+				check_variable = {
+					CGO_meltdown_status > 65
+					}
+				}
+		}
+		localization_key = CGO_meltdown_status_med
+	}
+	text = {
+		trigger = {
+			original_tag = CGO
+			check_variable = {
+				CGO_meltdown_status > 65
+				}
+		}
+		localization_key = CGO_meltdown_status_bad
+	}
+}
