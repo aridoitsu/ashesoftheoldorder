@@ -50,24 +50,27 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = liberal
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 add_ideas = {
+
 }
+
 set_popularities = {
-	democratic = 10
-	neutrality = 0
-	authdem = 40
-	liberal = 45
-	demsoc = 5
-	prodem = 0
-	communism = 0
-	totalsoc = 0
-	libsoc = 0
-	anarchy = 0
-	fascism = 0
-	ultranationalism = 0
+	democratic = 53
+	liberal = 31
+	demsoc = 14
+	authdem = 2
+}
+
+create_country_leader = {
+	name = "Jeb Bush"
+	desc = "POLITICS_JEB_BUSH_DESC"
+	picture = "Portrait_Jeb_Bush.tga"
+	expire = "2060.1.1"
+	ideology = conservative
 }

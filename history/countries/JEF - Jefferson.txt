@@ -58,7 +58,16 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	neutrality = 23
-	communism = 2
-	fascism = 75
+	fascism = 63
+	democratic = 21
+	liberal = 15
+	ultranationalism = 1
+}
+
+create_country_leader = {
+	name = "Wally Herger"
+	desc = "POLITICS_WALLY_HERGER_DESC"
+	picture = "Portrait_Wally_Herger.tga"
+	expire = "2060.1.1"
+	ideology = theodictator
 }

@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,16 +58,33 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	democratic = 25
-	neutrality = 20
-	authdem = 0
-	liberal = 25
-	demsoc = 25
-	prodem = 0
-	communism = 0
-	totalsoc = 0
-	libsoc = 5
-	anarchy = 0
-	fascism = 0
-	ultranationalism = 0
+	liberal = 43
+	prodem = 29
+	authdem = 11
+	democratic = 9
+	demsoc = 8
+}
+
+create_country_leader = {
+	name = "Bernie Sanders"
+	desc = "POLITICS_BERNIE_SANDERS_DESC"
+	picture = "Portrait_Bernie_Sanders.tga"
+	expire = "2060.1.1"
+	ideology= progressive
+}
+
+create_country_leader = {
+	name = "Marty Walsh"
+	desc = "POLITICS_MARTY_WALSH_DESC"
+	picture = "Portrait_Marty_Walsh.tga"
+	expire = "2060.1.1"
+	ideology = sociallib
+}
+
+create_country_leader = {
+	name = "Vermin Supreme"
+	desc = "POLITICS_VERMIN_SUPREME_DESC"
+	picture = "Portrait_Vermin_Supreme.tga"
+	expire = "2060.1.1"
+	ideology = reactionary
 }

@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.57
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authdem
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,8 +58,19 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	neutrality = 12
-	communism = 10
-	fascism = 3
-	democratic = 75
+	authdem = 63
+	democratic = 13
+	neutrality = 9
+	liberal = 6
+	prodem = 4
+	libsoc = 3
+	fascism = 2
+}
+
+create_country_leader = {
+	name = "Gray Davis"
+	desc = "POLITICS_GRAY_DAVIS_DESC"
+	picture = "Portrait_Gray_Davis.tga"
+	expire = "2060.1.1"
+	ideology = reactionary
 }
