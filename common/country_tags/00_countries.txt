@@ -207,7 +207,6 @@ RUS = "countries/Russia.txt"
 #old USA states tags (if I repurpouse them I will put them in the new countries category)
 ALA = "countries/Alabama.txt"
 DCD = "countries/District of Columbia.txt"
-AKA = "countries/Alaska.txt"
 AZA = "countries/Arizona.txt"
 ARA = "countries/Arkansas.txt"
 CAC = "countries/California.txt"
@@ -365,22 +364,18 @@ SIG = "countries/Singapore.txt"
 ETM = "countries/East Timor.txt"
 ISA = "countries/Islamist Algeria.txt"
 TRA = "countries/Algerian Republic.txt"
-LSG = "coutnries/Lansing.txt"
+LSG = "countries/Lansing.txt"
 MCH = "countries/Michigan.txt"
 AHR = "countries/AHR.txt"
-
-
-
-# California #
-
 LAF = "countries/Los Angeles.txt"
 CAL = "countries/Free California.txt"
 JEF = "countries/Jefferson.txt"
-
 MOD = "countries/Modoc.txt"
 CPA = "countries/CPA.txt"
 SIL = "countries/Silicon Valley.txt"
 GOL = "countries/Golden Coast.txt"
+AKA = "countries/Alaska.txt"
+LIE = "countries/Liechtenstein.txt"
 
 
 

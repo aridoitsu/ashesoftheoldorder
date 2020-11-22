@@ -6,14 +6,12 @@ CGO_debug = {
 		}
 }
 
-CGO_meltdown_cleanup_caga = {
+CGO_meltdown_cleanup = {
 	icon = generic_research
 	allowed = {
 		original_tag = CGO
 	}
 	visible = {
-		NOT = {
-			has_country_flag = CGO_chose_ai
-			}
-		}
+		has_completed_focus = CGO_formulate_a_plan
+	}
 }

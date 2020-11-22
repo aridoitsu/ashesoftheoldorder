@@ -15,14 +15,14 @@ state={
 		}
 		add_core_of = GOL
 		victory_points = {
-			6881 5
+			14966 5
 		}
 		victory_points = {
 			11859 10
 		}
 	}
 	provinces={
-		986 3784 6881 11859 11876 15912
+		986 3784 6881 11859 11876 14966 15912
 	}
 	manpower=704310
 	state_category = large_town

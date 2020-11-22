@@ -96,7 +96,11 @@ focus_tree = {
   			factor = 1
   		}
   		completion_reward = {
-  			country_event = { id = chicago.5 }
+			  country_event = { id = chicago.5 }
+			  set_variable = {
+				  var = CGO_meltdown_status
+				  value = 100
+			  }
   		}
   	}
     focus = {

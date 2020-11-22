@@ -2,15 +2,15 @@ state={
 	id=1142
 	name="Labrador City"
 	history = {
-		owner = QBC
-		add_core_of = QBC
+		owner = CAN
+		add_core_of = CAN
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 3
 		}
 		victory_points = {
-			14904 20
+			14904 10
 		}
 	}
 	provinces={

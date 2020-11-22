@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.57
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,8 +58,15 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	neutrality = 12
-	communism = 10
-	fascism = 3
-	democratic = 75
+	liberal = 63
+	democratic = 23
+	prodem = 14
+}
+
+create_country_leader = {
+	name = "Helene Schneider"
+	desc = "POLITICS_HELENE_SCHNEIDER_DESC"
+	picture = "Portrait_Helene_Schneider.tga"
+	expire = "2060.1.1"
+	ideology = sociallib
 }

@@ -1,24 +1,27 @@
+
 state={
 	id=1092
 	name="Adirondacks"
-	manpower = 342331
-	state_category= rural
 	resources={
 		steel=12.000
 	}
 
-	history = {
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 5
 			air_base = 3
+
 		}
 		add_core_of = VTV
+
 	}
 
 	provinces={
-		3602 10381 11662 11665
+		3602 9754 10381 11662 11665 15429 15492 15547 15584 15609 15830 
 	}
+	manpower=342331
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

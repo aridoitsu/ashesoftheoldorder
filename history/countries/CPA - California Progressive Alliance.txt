@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.57
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = prodem
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,8 +58,17 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	neutrality = 12
-	communism = 10
-	fascism = 3
-	democratic = 75
+	prodem = 43
+	demsoc = 31
+	liberal = 15
+	democratic = 7
+	communism = 4 
+}
+
+create_country_leader = {
+	name = "Norman Solomon"
+	desc = "POLITICS_NORMAN_SOLOMON_DESC"
+	picture = "Portrait_Norman_Solomon.tga"
+	expire = "2060.1.1"
+	ideology = green
 }

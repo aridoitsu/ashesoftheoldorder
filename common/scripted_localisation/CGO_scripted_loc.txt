@@ -1,0 +1,74 @@
+defined_text = {
+	name = MeltdownStatus
+	text = {
+		trigger = {
+			original_tag = CGO
+			check_variable = {
+				CGO_meltdown_status = 0
+				}
+		}
+		localization_key = CGO_meltdown_status_normal
+	}
+	text = {
+		trigger = {
+			original_tag = CGO
+			check_variable = {
+				CGO_meltdown_status > 0
+				}
+			NOT = {
+				check_variable = {
+					CGO_meltdown_status > 40
+					}
+				}
+		}
+		localization_key = CGO_meltdown_status_good
+	}
+	text = {
+		trigger = {
+			original_tag = CGO
+			check_variable = {
+				CGO_meltdown_status > 40
+				}
+			NOT = {
+				check_variable = {
+					CGO_meltdown_status > 60
+					}
+				}
+		}
+		localization_key = CGO_meltdown_status_mediocre
+	}
+	text = {
+		trigger = {
+			original_tag = CGO
+			check_variable = {
+				CGO_meltdown_status > 60
+				}
+			NOT = {
+				check_variable = {
+					CGO_meltdown_status > 80
+					}
+				}
+		}
+		localization_key = CGO_meltdown_status_poor
+	}
+	text = {
+		trigger = {
+			original_tag = CGO
+			check_variable = {
+				CGO_meltdown_status > 80
+				}
+			NOT = {
+				check_variable = {
+					CGO_meltdown_status > 100
+					}
+				}
+		}
+		localization_key = CGO_meltdown_status_none
+	}
+}
+
+#Cleanup Status: None (grey)
+#Cleanup Status: Poor (red)
+#Cleanup Status: Mediocre (orange)
+#Cleanup Status: Good (yellow)
+#Cleanup Status: Relative Normal (green)

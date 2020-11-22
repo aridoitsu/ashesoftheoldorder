@@ -4,7 +4,7 @@ state={
 	name="Northern Labrador"
 
 	history = {
-		owner = QBC
+		owner = CAN
 		buildings = {
 			infrastructure = 1
 			12503 = {
@@ -13,12 +13,12 @@ state={
 			}
 
 		}
-		add_core_of = QBC
+		add_core_of = CAN
 		victory_points = {
-			12503 15 
+			12503 5
 		}
 		victory_points = {
-			1426 10 
+			1426 1
 		}
 
 	}

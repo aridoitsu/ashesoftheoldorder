@@ -21,6 +21,17 @@
  CGO_human_military:0 "Incompetent Human Military"
  CGO_nuclear_disaster_start:0 "The Byron Incident"
 
+ #decisions
+ CGO_debug:0 "Chicago Debug"
+ ##CGO_meltdown:0 "Meltdown Status: [MeltdownStatus]"
+ CGO_meltdown_cleanup:0 "The Byron Incident"
+ CGO_send_manpower:0 "Send Cleanup Crews"
+ CGO_cleanup_equipment:0 "Send Equipment"
+ CGO_meltdown_cleanup_desc:0 "incident at byron\n\nCleanup Status: [MeltdownStatus]"
+ CGO_themachine_crisis:0 "Cleanup Failed"
+ CGO_thepeople_crisis:0 "Cleanup Failed"
+ CGO_cleanup_completed_tt:0 "Cleanup has been completed."
+
  #events
  chicago.1.t:0 "An Emergency Meeting"
  chicago.1.d:0 "On December 31st, 2017, mere hours before the dawn of the new year, we began to receive frantic calls from the city of Byron. The nuclear power plant, re-activated not long after we solidified our control over the anarchic western lands, had started to overheat, and our cooling systems simply could not keep up with it. Not only is it on track for a complete and utter meltdown, it could also possibly endanger our city and our most prized work: The Chicago Administrator of Government Activities, or CAGA for short. \n \n Jorge Mujica, the President of Chicago, has called an emergency meeting to discuss our immediate reaction to the disaster."
@@ -33,6 +44,13 @@
  chicago.5.d:0 "The situation at the Bryon plant is rapidly deteriorating. Already, many residents around the area have reported vomiting and confusion, claiming that the air itself tasted metallic. Our government has ordered the evacuation of all communities within a certain radius of the plant - putting a strain on our extremely frail infrastructure system. The reality of the situation is becoming clear; we must start cleanup immediately or face consequences much worse than just radiation. The scientists developing CAGA have stated that if this disaster is not handled in a proper manner, they will have to take matters into their own hands."
  chicago.5.a:0 "Those scientists have their priorities mixed up."
  chicago.5.b:0 "Let's hope it never comes to that."
+
+ #Chungus (big)
+ CGO_meltdown_status_none:0 "§LNone§!"
+ CGO_meltdown_status_poor:0 "§RPoor§!"
+ CGO_meltdown_status_mediocre:0 "§OMediocre§!"
+ CGO_meltdown_status_good:0 "§HGood§!"
+ CGO_meltdown_status_normal:0 "§GRelatively Normal§!"
 
  #politcal parties
  CGO_democratic_party_long:0 "the Reformist Faction"

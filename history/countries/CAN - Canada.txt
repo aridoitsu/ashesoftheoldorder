@@ -56,6 +56,10 @@ set_autonomy = {
 	target = CRA
 	autonomous_state = autonomy_puppet
 }
+set_autonomy = {
+	target = AKA
+	autonomous_state = autonomy_dependent
+}
 
 set_politics = {
 	ruling_party = liberal

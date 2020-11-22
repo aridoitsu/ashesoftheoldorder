@@ -1,0 +1,17 @@
+state={
+	id=1180
+	name="Coastal Islands"
+	history = {
+		owner = LAF
+		add_core_of = LAF
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		15031 15039
+	}
+	manpower=851
+	state_category = rural
+}

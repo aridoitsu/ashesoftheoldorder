@@ -4141,6 +4141,16 @@
    ###############################
    ETM_ADJ:0 "Timorese"
 
+   LIE:0 "Liechtenstein"
+   LIE_DEF:0 "Liechtenstein"
+   ###############################
+   LIE_ADJ:0 "Liechtensteiner"
+
+   AKA:0 "Alaska"
+   AKA_DEF:0 "Alaska"
+   ###############################
+   AKA_ADJ:0 "Alaskan"
+
     CAN_liberal:0 "Canada"
     CAN_liberal_DEF:0 "Canada"
     CAN_democratic:0 "Canada"

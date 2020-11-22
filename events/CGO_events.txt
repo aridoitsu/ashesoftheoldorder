@@ -80,3 +80,35 @@ country_event = {
 		    ai_chance = { base = 100 }
 	  }
 }
+
+country_event = {
+  id = chicago.6
+  title = chicago.6.t
+  desc = chicago.6.d
+  picture = GFX_event_test
+  is_triggered_only = yes
+
+  option = {
+      name = chicago.6.a
+      trigger = {
+        has_country_flag = CGO_chose_people
+      }
+      ai_chance = { base = 100 }
+  }
+}
+
+country_event = {
+  id = chicago.7
+  title = chicago.7.t
+  desc = chicago.7.d
+  picture = GFX_event_test
+  is_triggered_only = yes
+
+  option = {
+      name = chicago.7.a
+      trigger = {
+        has_country_flag = CGO_chose_people
+      }
+      ai_chance = { base = 100 }
+  }
+}

@@ -50,15 +50,38 @@ set_technology = {
 set_stability = 0.6
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = demsoc
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
+
 set_popularities = {
-	democratic = 90
-	communism = 5
-	fascism = 5
+	demsoc = 51
+	liberal = 36
+	neutrality = 13
+}
+
+create_country_leader = {
+	name = "Eric Garcetti"
+	desc = "POLITICS_ERIC_GARCETTI_DESC"
+	picture = "Portrait_Eric_Garcetti.tga"
+	expire = "2060.1.1"
+	ideology = sociallib
+}
+
+create_country_leader = {
+	name = "Eric Garcetti"
+	desc = "POLITICS_ERIC_GARCETTI_DESC"
+	picture = "Portrait_Eric_Garcetti.tga"
+	expire = "2060.1.1"
+	ideology = progressive
+}
+
+create_country_leader = {
+	name = "Eric Garcetti"
+	desc = "POLITICS_ERIC_GARCETTI_DESC"
+	picture = "Portrait_Eric_Garcetti.tga"
+	expire = "2060.1.1"
+	ideology = democraticsocialism
 }

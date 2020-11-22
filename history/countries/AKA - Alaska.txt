@@ -4,6 +4,8 @@ oob = "AKA_1936"
 
 set_research_slots = 3
 
+set_cosmetic_tag = AK2
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

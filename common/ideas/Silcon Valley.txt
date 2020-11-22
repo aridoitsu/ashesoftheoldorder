@@ -1,5 +1,61 @@
 ideas = {
 	country = {
-		
+		SIL_Desire_For_Democracy = {
+			picture = SIL_Desire_For_Democracy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				prodem_drift = 0.01
+				political_power_gain = -0.10
+			}
+		}
+
+		SIL_Lack_Of_Leadership = {
+			picture = SIL_Lack_Of_Leadership
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.10
+				stability_factor = -0.05
+			}
+		}
+
+		SIL_Mass_Technological_Production = {
+			picture = SIL_Mass_Technological_Production
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.05
+				production_speed_industrial_complex_factor = 0.03
+				consumer_goods_factor = -0.03
+			}
+		}
 	}
 }

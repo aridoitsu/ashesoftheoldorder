@@ -58,6 +58,9 @@ set_politics = {
 }
 
 add_ideas = {
+	SIL_Desire_For_Democracy
+	SIL_Lack_Of_Leadership
+	SIL_Mass_Technological_Production
 }
 
 set_popularities = {
@@ -65,4 +68,20 @@ set_popularities = {
 	democratic = 29
 	prodem = 12
 	ultranationalism = 1
+}
+
+create_country_leader = {
+	name = "Silicon Management Committee"
+	desc = "POLITICS_SILICON_COMMITTEE_DESC"
+	picture = "Portrait_Silicon_Committee_Leaderless.tga"
+	expire = "2050.1.1"
+	ideology = despot
+}
+
+create_country_leader = {
+	name = "Silicon Management Committee"
+	desc = "POLITICS_SILICON_COMMITTEE_DESC"
+	picture = "Portrait_Silicon_Committee_Leaderless.tga"
+	expire = "2050.1.1"
+	ideology = reactionary
 }
