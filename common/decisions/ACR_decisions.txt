@@ -1,0 +1,16 @@
+ACR_debug = {
+
+	ACR_load_Ancap = {
+		allowed = {
+			tag = ACR
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		complete_effect = {
+			load_focus_tree = ACR_Ancap1
+		}
+	}
+}

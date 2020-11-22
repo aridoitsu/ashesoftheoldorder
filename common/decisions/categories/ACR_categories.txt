@@ -1,0 +1,7 @@
+ACR_debug = {
+	icon = generic_research
+	allowed = {
+		original_tag = ACR
+		is_debug = yes
+	}
+}

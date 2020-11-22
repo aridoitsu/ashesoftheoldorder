@@ -68,6 +68,6 @@ set_popularities = {
 	totalsoc = 0
 	libsoc = 57
 	anarchy = 13
-	fascism = 2
+	fascism = 0
 	ultranationalism = 0
 }

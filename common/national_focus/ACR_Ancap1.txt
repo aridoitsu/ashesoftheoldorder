@@ -7,7 +7,7 @@ focus_tree = {
             tag = C02
         }
     }
-continuous_focus_position = { x = 100 y = 100  }
+#continuous_focus_position = { x = 500 y = 100  }
 
 focus = { 
       id = ACR_Freedom_Reigns_Supreme
@@ -21,6 +21,9 @@ focus = {
 					ideology = anarchy
 					popularity = 0.025
 				}
+			activate_mission = ACR_Ancap_Abolish_The_State
+			activate_mission = ACR_Ancap_Free_the_Hand
+			remove_ideas = CON_seperate_but_equal
 	}
 }
 focus = { 
@@ -931,11 +934,11 @@ focus = {
 	    x = 12
 	    y = 15
         available = {
-
+	}
         mutually_exclusive = {
             focus = ACR_Starve_Them
         }
-        }
+        
         prerequisite = {
 			focus = ACR_Crusade_Against_Communism
 		}
@@ -1508,7 +1511,7 @@ focus = {
 
         }
         prerequisite = {
-			focus = ACR_Privitize_the_CIA
+			focus = ACR_Privitize_the_Postal_Service
 		}
 	    completion_reward = {
 	}
