@@ -13,7 +13,7 @@ defined_text = {
 		trigger = {
 			original_tag = CGO
 			check_variable = {
-				CGO_meltdown_status > 20
+				CGO_meltdown_status > 0
 				}
 			NOT = {
 				check_variable = {
@@ -55,7 +55,12 @@ defined_text = {
 		trigger = {
 			original_tag = CGO
 			check_variable = {
-				CGO_meltdown_status = 100
+				CGO_meltdown_status > 80
+				}
+			NOT = {
+				check_variable = {
+					CGO_meltdown_status > 100
+					}
 				}
 		}
 		localization_key = CGO_meltdown_status_none

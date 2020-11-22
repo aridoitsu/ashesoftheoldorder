@@ -61,7 +61,7 @@ CGO_debug = {
   }
 }
 CGO_meltdown_cleanup = {
-  CGO_send_manpower = {
+CGO_send_manpower = {
     allowed = {
       original_tag = CGO
     }

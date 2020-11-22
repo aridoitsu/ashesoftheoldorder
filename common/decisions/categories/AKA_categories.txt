@@ -1,0 +1,7 @@
+AKA_debug = {
+	icon = generic_research
+	allowed = {
+		original_tag = AKA
+		is_debug = yes
+		}
+}

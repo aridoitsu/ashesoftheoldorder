@@ -1,0 +1,100 @@
+AKA_debug = {
+	aka_heavy_canada = {
+		available = {
+			always = yes
+		}
+		visible = {
+			original_tag = AKA
+			is_debug = yes
+		}
+		icon = generic_decision
+		days_re_enable = 0
+		complete_effect = {
+			set_cosmetic_tag = AK1
+		}
+	}
+	aka_medium_canada = {
+		available = {
+			always = yes
+		}
+		visible = {
+			original_tag = AKA
+			is_debug = yes
+		}
+		icon = generic_decision
+		days_re_enable = 0
+		complete_effect = {
+			set_cosmetic_tag = AK2
+		}
+	}
+	aka_slight_canada = {
+		available = {
+			always = yes
+		}
+		visible = {
+			original_tag = AKA
+			is_debug = yes
+		}
+		icon = generic_decision
+		days_re_enable = 0
+		complete_effect = {
+			set_cosmetic_tag = AK3
+		}
+	}
+	aka_slight_russia = {
+		available = {
+			always = yes
+		}
+		visible = {
+			original_tag = AKA
+			is_debug = yes
+		}
+		icon = generic_decision
+		days_re_enable = 0
+		complete_effect = {
+			set_cosmetic_tag = AK4
+		}
+	}
+	aka_medium_russia = {
+		available = {
+			always = yes
+		}
+		visible = {
+			original_tag = AKA
+			is_debug = yes
+		}
+		icon = generic_decision
+		days_re_enable = 0
+		complete_effect = {
+			set_cosmetic_tag = AK5
+		}
+	}
+	aka_heavy_russia = {
+		available = {
+			always = yes
+		}
+		visible = {
+			original_tag = AKA
+			is_debug = yes
+		}
+		icon = generic_decision
+		days_re_enable = 0
+		complete_effect = {
+			set_cosmetic_tag = AK6
+		}
+	}
+	aka_drop_cosmetic = {
+		available = {
+			always = yes
+		}
+		visible = {
+			original_tag = AKA
+			is_debug = yes
+		}
+		icon = generic_decision
+		days_re_enable = 0
+		complete_effect = {
+			drop_cosmetic_tag
+		}
+	}
+}

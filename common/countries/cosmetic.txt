@@ -181,3 +181,29 @@ ALG_OCCUPIED = {
 	color = rgb { 153 102 51 }
 	color_ui = rgb { 153 102 51 }
 }
+#alaska colors
+AK1 = {
+	color = rgb { 85 54 50 }
+	color_ui = rgb { 85 54 50 }
+}
+AK2 = {
+	color = rgb { 64 70 74 }
+	color_ui = rgb { 64 70 74 }
+}
+AK3 = {
+	color = rgb { 42 85 97 }
+	color_ui = rgb { 42 85 97 }
+}
+AK4 = {
+	color = rgb { 25 109 94 }
+	color_ui = rgb { 25 109 94 }
+}
+AK5 = {
+	color = rgb { 30 118 68 }
+	color_ui = rgb { 30 118 68 }
+}
+AK6 = {
+	color = rgb { 35 126 41 }
+	color_ui = rgb { 35 126 41 }
+}
+##
