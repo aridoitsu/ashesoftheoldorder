@@ -75,6 +75,16 @@
  NYN_plus_5_org:0 "§R+5% Leftist Organization§!"
  NYN_improve_trait_tt:0 "§GImproves leader trait "Figurehead for Corporations"§!"
  NYN_extra_growth_tt:0 "Debt Growth: §H-[?NYN_extra_growth]%§!"
+ NYN_minus_reported_tt:0 "Reported Debt Growth: §G-1%§!"
+ NYN_plus_100_debt:0 "Debt: §R+100k§!"
+ NYN_plus_300_debt:0 "Debt: §R+300k§!"
+ NYN_plus_1_real:0 "Real Debt Growth: §R+1%§!"
+ NYN_plus_2_real:0 "Real Debt Growth: §R+2%§!"
+ NYN_set_reported_tt:0 "Set reported debt to real debt"
+ NYN_minus_100_debt:0 "Debt: §G-100k§!"
+ NYN_minus_300_debt:0 "Debt: §G-300k§!"
+ NYN_minus_1_real:0 "Real Debt Growth: §G-1%§!"
+ NYN_minus_2_real:0 "Real Debt Growth: §G-2%§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
@@ -102,6 +112,10 @@
  NYN_military_dist:0 "§gMilitary§!"
  NYN_austerity_dist:0 "§RAusterity§!"
  NYN_construction_dist:0 "§HConstruction§!"
+ NYN_test_lol:0 "Reset Budget Distribution"
+ NYN_accurately_report:0 "Accurately Report"
+ NYN_pay_off_short_term_loan:0 "Pay Off Short Term Loan"
+ NYN_pay_off_long_term_loan:0 "Pay Off Long Term Loan"
  #events
  albany.15.t:0 "[GetFate]"
  

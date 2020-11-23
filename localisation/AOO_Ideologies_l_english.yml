@@ -1,4 +1,7 @@
 ﻿l_english:
+
+ ### Leftist ###
+
  communism:0 "Authoritarian Socialism"
  communism_noun:0 "Authoritarian Socialism"
  libsoc:0 "Libertarian Socialism"
@@ -7,6 +10,8 @@
  anarchy_noun:0 "Anarchism"
  totalsoc:0 "Utopian"
  totalsoc_noun:0 "Utopian"
+
+ ### Democratic ##
 
  democratic:0 "Conservative Democracy"
  democratic_noun:0 "Conservative Democracy"
@@ -17,15 +22,21 @@
  prodem:0 "Progressive Democracy"
  prodem_noun:0 "Progressive Democracy"
 
+ ### Right-Wing ###
+  
  fascism:0 "Fascism"
  fascism_noun:0 "Fascism"
  ultranationalism:0 "Ultranationalism"
  ultranationalism_noun:0 "Ultranationalism"
 
+ ### Generic Dictators ###
+
  neutrality:0 "Despotism"
  neutrality_noun:0 "Despotism"
  authdem:0 "Authoritarian Democracy"
  authdem_noun:0 "Authoritarian Democracy"
+
+ ### Types of Government ###
 
  neutrality_desc:0 "Authoritarian Dictatorship"
  authdem_desc:0 "Authoritarian Republic"
@@ -40,7 +51,23 @@
  demsoc_desc:0 "Social Democracy"
  prodem_desc:0 "Progressive Democracy"
  
- #no idea where to put this so putting it here - ditto
- ultranationalism_drift:0 "Daily Ultranationalism Support"
- authdem_drift:0 "Daily Authoritarian Democracy Support"
+ ### Drift ###
+
+ totalsoc_drift:0 "Daily Utopian Support"
+ anarchy_drift:0 "Daily Anarchist Support"
+ communism_drift:0 "Daily Authoritarian Socialist Support"
+ libsoc_drift:0 "Daily Libertarian Socialist Support"
+ demsoc_drift:0 "Daily Social Democratic Support"
+ prodem_drift:0 "Daily Progressive Democracy Support"
  liberal_drift:0 "Daily Liberal Democracy Support"
+ democratic_drift:0 "Daily Conservative Democracy Support"
+ authdem_drift:0 "Daily Authoritarian Democracy Support"
+ neutrality_drift:0 "Daily Despotism Support"
+ fascism_drift:0 "Daily Fascist Support"
+ ultranationalism_drift:0 "Daily Ultranationalist Support"
+
+
+ #no idea where to put this so putting it here - ditto
+ #ultranationalism_drift:0 "Daily Ultranationalism Support"
+ #authdem_drift:0 "Daily Authoritarian Democracy Support"
+ #liberal_drift:0 "Daily Liberal Democracy Support"

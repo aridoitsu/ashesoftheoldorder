@@ -64,8 +64,8 @@ NYN_our_fate = {
 	}
 
 NYN_reset_debt = {
-	set_variable = { temp1 = NYN_reported_debt }
-	subtract_from_variable = { temp1 = NYN_real_debt }
+	set_variable = { temp1 = NYN_real_debt }
+	subtract_from_variable = { temp1 = NYN_reported_debt }
 	add_to_variable = { temp1 = 1 }
 	set_variable = { temp2 = 20 }
 	multiply_variable = { temp1 = temp2 }
