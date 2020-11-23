@@ -59,3 +59,94 @@ country_event = {
 			ai_chance = { base = 100 }
 		}
 	}
+country_event = {
+	id = NAK.7
+		title = NAK.7.t
+		desc = NAK.7.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.7.a
+			ai_chance = { base = 100 }
+		}
+	}
+country_event = {
+	id = NAK.8
+		title = NAK.8.t
+		desc = NAK.8.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.4.a
+			ai_chance = { base = 100 }
+		}
+	}
+country_event = {
+	id = NAK.9
+		title = NAK.9.t
+		desc = NAK.9.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.4.a
+			#adds heavy equipment
+			ai_chance = { base = 100 }
+		}
+	}
+country_event = {
+	id = NAK.10
+		title = NAK.10.t
+		desc = NAK.10.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.10.a
+			add_popularity = {
+					ideology = libsoc
+					popularity = 0.01
+				}
+				add_stability = -0.05
+			ai_chance = { base = 30 }
+		}
+		option = {
+			name = NAK.10.b
+				add_popularity = {
+					ideology = libdem
+					popularity = 0.05
+				}
+				add_stability = 0.05
+			ai_chance = { base = 70 }
+		}
+	}
+country_event = {
+	id = NAK.11
+		title = NAK.11.t
+		desc = NAK.11.d
+		picture = GFX_report_event_election_vote
+		is_triggered_only = yes
+
+		option = {
+			name = NAK.11.a
+			#add Tanks
+			ai_chance = { base = 25 }
+		}
+		option = {
+			name = NAK.11.b
+			#add Arty
+			ai_chance = { base = 25 }
+		}
+		option = {
+			name = NAK.11.c
+			#add planes
+			ai_chance = { base = 25 }
+		}
+		option = {
+			name = NAK.11.e
+			#add guns
+			ai_chance = { base = 25 }
+		}
+	}

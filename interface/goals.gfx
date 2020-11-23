@@ -2979,4 +2979,133 @@ spriteTypes = {
 		name = "SIL_Supremacy_of_the_Committee"
 		texturefile = "gfx/interface/goals/SIL_Supremacy_Of_The_Committee.dds"
 	}
+	SpriteType = {
+		name = "ACR_Try_the_Klan"
+		texturefile = "gfx/interface/goals/ACR_Try_the_Klan.dds"
+	}
+	SpriteType = {
+		name = "ACR_Execute_Top_Klansmen"
+		texturefile = "gfx/interface/goals/ACR_Execute_Top_Klansmen.dds"
+	}
+	SpriteType = {
+		name = "ACR_Ensure_LGBT_Rights"
+		texturefile = "gfx/interface/goals/ACR_Ensure_LGBT_Rights.dds"
+	}
+	SpriteType = {
+		name = "ACR_Open_the_Borders"
+		texturefile = "gfx/interface/goals/ACR_Open_the_Borders.dds"
+	}
+	SpriteType = {
+		name = "ACR_The_Right_to_Bear_Arms"
+		texturefile = "gfx/interface/goals/ACR_The_Right_to_Bear_Arms.dds"
+	}
+	SpriteType = {
+		name = "ACR_Legalize_Sex_Work"
+		texturefile = "gfx/interface/goals/ACR_Legalize_Sex_Work.dds"
+	}
+	SpriteType = {
+		name = "ACR_Smash_the_Bureaucracy"
+		texturefile = "gfx/interface/goals/ACR_Smash_the_Bureaucracy.dds"
+	}
+	SpriteType = {
+		name = "ACR_Disband_the_Federal_Government"
+		texturefile = "gfx/interface/goals/ACR_Disband_the_Federal_Government.dds"
+	}
+	SpriteType = {
+		name = "ACR_Teach_the_NAP"
+		texturefile = "gfx/interface/goals/ACR_Teach_the_NAP.dds"
+	}
+	SpriteType = {
+		name = "ACR_Disband_State_Governments"
+		texturefile = "gfx/interface/goals/ACR_Disband_State_Governments.dds"
+	}
+	SpriteType = {
+		name = "ACR_Meet_with_CEOs"
+		texturefile = "gfx/interface/goals/ACR_Meet_with_CEOs.dds"
+	}
+	SpriteType = {
+		name = "ACR_Disband_the_State"
+		texturefile = "gfx/interface/goals/ACR_Disband_the_State.dds"
+	}
+	SpriteType = {
+		name = "ACR_Dismantle_the_Cult_of_Personality"
+		texturefile = "gfx/interface/goals/ACR_Dismantle_the_Cult_of_Personality.dds"
+	}
+	SpriteType = {
+		name = "ACR_Cult_of_the_Individual"
+		texturefile = "gfx/interface/goals/ACR_Cult_of_the_Individual.dds"
+	}
+	SpriteType = {
+		name = "NAK_Assess_the_Nation"
+		texturefile = "gfx/interface/goals/NAK_Assess_the_Nation.dds"
+	}
+	SpriteType = {
+		name = "NAK_Prepare_for_the_Inevitable"
+		texturefile = "gfx/interface/goals/NAK_Prepare_for_the_Inevitable.dds"
+	}
+	SpriteType = {
+		name = "NAK_Assess_the_Economy"
+		texturefile = "gfx/interface/goals/NAK_Assess_the_Economy.dds"
+	}
+	SpriteType = {
+		name = "NAK_Assess_the_Military"
+		texturefile = "gfx/interface/goals/NAK_Assess_the_Military.dds"
+	}
+	SpriteType = {
+		name = "NAK_Assess_the_Political_Situation"
+		texturefile = "gfx/interface/goals/NAK_Assess_the_Political_Situation.dds"
+	}
+	SpriteType = {
+		name = "NAK_Food_for_the_Hungry"
+		texturefile = "gfx/interface/goals/NAK_Food_for_the_Hungry.dds"
+	}
+	SpriteType = {
+		name = "NAK_Garage_Workshops"
+		texturefile = "gfx/interface/goals/NAK_Garage_Workshops.dds"
+	}
+	SpriteType = {
+		name = "NAK_Implement_Conscription"
+		texturefile = "gfx/interface/goals/NAK_Implement_Conscription.dds"
+	}
+	SpriteType = {
+		name = "NAK_United_We_Stand"
+		texturefile = "gfx/interface/goals/NAK_United_We_Stand.dds"
+	}
+	SpriteType = {
+		name = "NAK_A_Gun_Behind_Every_Blade_of_Grass"
+		texturefile = "gfx/interface/goals/NAK_A_Gun_Behind_Every_Blade_of_Grass.dds"
+	}
+	SpriteType = {
+		name = "NAK_Armed_and_Ready"
+		texturefile = "gfx/interface/goals/NAK_Armed_and_Ready.dds"
+	}
+	SpriteType = {
+		name = "NAK_Assess_the_Nation"
+		texturefile = "gfx/interface/goals/NAK_Assess_the_Nation.dds"
+	}
+	SpriteType = {
+		name = "NAK_Emergency_Training_Program"
+		texturefile = "gfx/interface/goals/NAK_Emergency_Training_Program.dds"
+	}
+	SpriteType = {
+		name = "NAK_Healthcare_for_the_Sick"
+		texturefile = "gfx/interface/goals/NAK_Healthcare_for_the_Sick.dds"
+	}
+	SpriteType = {
+		name = "NAK_Homes_for_the_Homeless"
+		texturefile = "gfx/interface/goals/NAK_Homes_for_the_Homeless.dds"
+	}
+	SpriteType = {
+		name = "NAK_Raid_Confederate_Armories"
+		texturefile = "gfx/interface/goals/NAK_Raid_Confederate_Armories.dds"
+	}
+	SpriteType = {
+		name = "NAK_Request_Foreign_Aid"
+		texturefile = "gfx/interface/goals/NAK_Request_Foreign_Aid.dds"
+	}
+	SpriteType = {
+		name = "NAK_The_National_Question"
+		texturefile = "gfx/interface/goals/NAK_The_National_Question.dds"
+	}
+	
 }

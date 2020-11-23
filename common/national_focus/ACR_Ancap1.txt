@@ -306,7 +306,7 @@ focus = {
 	    x = 31
 	    y = 7
         prerequisite = {
-			focus = ACR_The_Right_to_Abortion
+			focus = ACR_Abolish_the_Draft
 		}
         prerequisite = {
 			focus = ACR_Legalize_Homosexuality

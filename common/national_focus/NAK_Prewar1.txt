@@ -142,11 +142,6 @@ focus_tree = {
                 remove_idea = NAK_Lack_of_Industrial_Expertise
                 add_idea = NAK_Lack_of_Industrial_Expertise2
             }
-            country_event = {
-        		    id = NAK.8
-                    days = 1
-            }
-            
 	    }
     }
     focus = { 
@@ -275,7 +270,7 @@ focus_tree = {
 	    completion_reward = {
             add_ideas = NAK_Emergency_Training
             country_event = {
-        		    id = NAK.9
+        		    id = NAK.8
                     days = 1
             }
 	    }
