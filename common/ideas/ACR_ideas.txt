@@ -130,7 +130,7 @@ ideas = {
 				}
 			}
 			}
-		ACR_Supremacy_Of_American_Engineering2 = = {
+		ACR_Supremacy_Of_American_Engineering2 = {
 			picture = GFX_idea_ACR_Supremacy_Of_American_Engineering1
 			allowed_civil_war = {
 				always = yes

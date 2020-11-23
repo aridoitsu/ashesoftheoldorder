@@ -536,9 +536,33 @@ NYN_reconstruction = {
 	}
 }
 NYN_debt_growth = {
+	NYN_accurately_report = {
+		available = {
+			has_completed_focus = NYN_the_revolution_crushed
+			check_variable = {
+				var = NYN_real_debt
+				value = NYN_reported_debt
+				compare = not_equals
+			}
+		}
+		visible = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		cost = 0
+		icon = generic_operation
+		days_re_enable = 0
+		complete_effect = {
+			set_variable = { NYN_reported_debt = NYN_real_debt }
+			NYN_reset_debt = yes
+			custom_effect_tooltip = NYN_set_reported_tt
+		}
+	}
 	NYN_overreport_growth = {
 		available = {
 			has_completed_focus = NYN_the_revolution_crushed
+			NOT = {	
+				check_variable = { NYN_reported_debt > NYN_real_debt }
+			}
 		}
 		visible = {
 			has_completed_focus = NYN_the_revolution_crushed
@@ -547,8 +571,9 @@ NYN_debt_growth = {
 		icon = generic_break_treaty
 		days_re_enable = 0
 		complete_effect = {
-			add_to_variable = { NYN_reported_debt = 1 }
+			add_to_variable = { NYN_reported_debt = -1 }
 			NYN_reset_debt = yes
+			custom_effect_tooltip = NYN_minus_reported_tt
 		}
 	}
 	NYN_short_term_loan = {
@@ -564,7 +589,10 @@ NYN_debt_growth = {
 		days_remove = 14
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = 100 }
+			add_to_variable = { NYN_real_debt = 2 }
 			add_political_power = 100
+			custom_effect_tooltip = NYN_plus_100_debt
+			custom_effect_tooltip = NYN_plus_2_real
 			NYN_reset_debt = yes
 		}
 	}
@@ -581,7 +609,50 @@ NYN_debt_growth = {
 		days_remove = 45
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = 300 }
+			add_to_variable = { NYN_real_debt = 1 }
 			add_political_power = 300
+			custom_effect_tooltip = NYN_plus_300_debt
+			custom_effect_tooltip = NYN_plus_1_real
+			NYN_reset_debt = yes
+		}
+	}
+	NYN_pay_off_short_term_loan = {
+		available = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		visible = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		cost = 0
+		icon = generic_decision
+		days_re_enable = 0
+		days_remove = 14
+		complete_effect = {
+			add_to_variable = { NYN_total_debt = -100 }
+			add_to_variable = { NYN_real_debt = -1 }
+			add_political_power = -100
+			custom_effect_tooltip = NYN_minus_100_debt
+			custom_effect_tooltip = NYN_minus_1_real
+			NYN_reset_debt = yes
+		}
+	}
+	NYN_pay_off_long_term_loan = {
+		available = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		visible = {
+			has_completed_focus = NYN_the_revolution_crushed
+		}
+		cost = 0
+		icon = generic_decision
+		days_re_enable = 0
+		days_remove = 14
+		complete_effect = {
+			add_to_variable = { NYN_total_debt = -300 }
+			add_to_variable = { NYN_real_debt = -2 }
+			add_political_power = -300
+			custom_effect_tooltip = NYN_minus_300_debt
+			custom_effect_tooltip = NYN_minus_2_real
 			NYN_reset_debt = yes
 		}
 	}

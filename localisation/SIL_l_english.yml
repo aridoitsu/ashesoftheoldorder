@@ -70,11 +70,11 @@
  # Spirits
 
  SIL_Desire_For_Democracy:0 "Desire for Democracy"
- SIL_Desire_For_Democracy_desc:0 ""
+ SIL_Desire_For_Democracy_desc:0 "Ever since the American collapse of the mid 2010s the San Francisco area has been led by an unelected conglomerate of corporations, ranging from Amazon to Intel, all united by the fear of annexation by their neighboring states and the mutual interest of profit making. However, the local population has been quite distraught by this as the people have almost no ability to interact with their leadership other than taking to the streets with either signs or bricks. Despite the lack of difference between the Silicon Valley de facto politically before and after the American collapse, the state of affairs have led to the radicalization of some groups and have led to many emigrations from the corporate tyranny."
  SIL_Lack_Of_Leadership:0 "Lack of Leadership"
- SIL_Lack_Of_Leadership_desc:0 ""
+ SIL_Lack_Of_Leadership_desc:0 "The Silicon Valley is first and foremost led by a committee, one which is in a current power struggle between its many constituents, each signing deals and making behind door promises to try and take the ever illustrious throne. The constant back and forth between who is most powerful in the council doesn’t really end up changing much to the average citizen other than general confusion, however it does lead to a society where whoever can accumulate as much money by any means possible is the most powerful, alienating the general populace."
  SIL_Mass_Technological_Production:0 "Mass Technological Production"
- SIL_Mass_Technological_Production_desc:0 ""
+ SIL_Mass_Technological_Production_desc:0 "Of the American wastes the Silicon Valley is something of a technological oasis, a city of every American's desires, however due to the Valley’s geopolitical stance every warlord wishing to get a taste of the future has to go through the bureaucratic processes of business and trade first. Though the local population has free access to the new technological advances made every day, given they have enough money to participate in the society around them."
 
  # Focuses
 
@@ -96,3 +96,7 @@
  SIL_Limited_Democracy_desc:0 ""
  SIL_Supremacy_of_the_Committee:0 "Supremacy of the Committee"
  SIL_Supremacy_of_the_Committee_desc:0 ""
+
+ #Leader Descriptions
+
+ POLITICS_SILICON_COMMITTEE_DESC:0 "Ruling autocratically ever since their inception, the Silicon Valley Management Committee is a conglomerate of corporations, only ever united in two things, mutual defense and profit making. Some of the more notable corporations on the committee include Amazon, Apple, Intel, and Alphabet Inc. Each corporation is caught up in a complicated web of enemies, alliances, and agreements, however each is constantly vying for control to lead the Management Committee and enforce things how they see fit.\n\nWithin the Committee it is not an ideological position or a principled approach which allows one to come to power, but cold hard cash. Corruption is not something which is lost or gained within the committee but something which is inherent to it, as every position is only as important as the money backing it."

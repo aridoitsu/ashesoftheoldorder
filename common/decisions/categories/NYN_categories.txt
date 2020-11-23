@@ -63,6 +63,7 @@ NYN_test_ui_cat = {
 	icon = usa_congress
 	allowed = {
 		original_tag = NYN
+		has_completed_focus = NYN_the_military_industrial_complex
 	}
 
 	scripted_gui = NYN_test_ui
