@@ -1,13 +1,6 @@
-version="1"
+version="1.20.2"
 tags={
 	"Alternative History"
-	"Gameplay"
 }
-name="Ashes of the Old Order"
-supported_version="1.10.*"
-replace_path="history/states"
-replace_path="gfx/loadingscreens"
-replace_path="map/strategicregions"
-replace_path="history/units"
-replace_path="history/states"
-#replace_path="common/ideas"
+name="ashesoftheoldorder"
+supported_version="1.10.2"

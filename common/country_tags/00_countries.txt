@@ -376,6 +376,7 @@ SIL = "countries/Silicon Valley.txt"
 GOL = "countries/Golden Coast.txt"
 AKA = "countries/Alaska.txt"
 LIE = "countries/Liechtenstein.txt"
+NSM = "countries/North Salmon Militia.txt"
 
 
 

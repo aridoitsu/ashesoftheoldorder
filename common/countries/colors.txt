@@ -1566,6 +1566,12 @@ AKA = {
 	color_ui = rgb { 20 100 120 }
 }
 
+# NSM = {
+	color = rgb { 96 96 96 }
+	color_ui = rgb { 96 96 96 }
+}
+
+
 
 
 ### California ###

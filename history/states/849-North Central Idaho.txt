@@ -6,8 +6,8 @@ state={
 		steel = 5.000
 	}
 	history = {
-		owner = BOI
-		add_core_of = BOI
+		owner = NSM
+		add_core_of = NSM
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

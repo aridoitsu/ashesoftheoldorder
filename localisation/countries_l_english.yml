@@ -4096,6 +4096,21 @@
    LES_democratic_ADJ:0 "Lesothoan"
    LES_prodem_ADJ:0 "Lesothoan"
 
+   l_english:
+   NSM_ultranationalist:0 "North Salmon Militia"
+   NSM_ultranationalist_DEF:0 "North Salmon Militia"
+   NSM_democratic:0 "North Salmon Militia"
+   NSM_democratic_DEF:0 "North Salmon Militia"
+   NSM_prodem:0 "North Salmon Militia"
+   NSM_prodem_DEF:0 "North Salmon Militia"
+   NSM_neutrality:0 "North Salmon Militia"
+   NSM_neutrality_DEF:0 "North Salmon Militia"
+   ###############################
+   NSM_neutrality_ADJ:0 "North Salmon Militia"
+   NSM_ultranationalist_ADJ:0 "North Salmon Militia"
+   NSM_democratic_ADJ:0 "North Salmon Militia"
+   NSM_prodem_ADJ:0 "North Salmon Militia"
+
    MCO:0 "Monaco"
    MCO_DEF:0 "Monaco"
    ###############################
