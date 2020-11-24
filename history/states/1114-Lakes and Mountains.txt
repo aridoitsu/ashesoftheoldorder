@@ -1,13 +1,12 @@
+
 state={
 	id=1114
 	name="Franklin"
-	manpower = 173985
-	state_category=rural
 	resources={
 		steel=7.000
 	}
 
-	history = {
+	history={
 		owner = CAN
 		buildings = {
 			infrastructure = 6
@@ -17,11 +16,15 @@ state={
 		add_core_of = MEM
 		add_core_of = CAN
 		victory_points = {
-			7462 5
+			7462 5 
 		}
+
 	}
+
 	provinces={
-		6719 7462 12202 14055 14070 14077 14117
+		6719 10318 12202 14070 14077 14117 14118 15574 15777 15783 
 	}
+	manpower=173985
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

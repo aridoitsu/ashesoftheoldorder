@@ -1,9 +1,9 @@
+
 state={
 	id=1113
 	name="Southern Coast"
-	state_category=large_city
 
-	history = {
+	history={
 		owner = CAN
 		buildings = {
 			infrastructure = 7
@@ -13,10 +13,13 @@ state={
 		}
 		add_core_of = MEM
 		add_core_of = CAN
+
 	}
+
 	provinces={
-		3732 14031 14032
+		3732 9673 14031 14032 14055 15602 15622 
 	}
-	manpower = 574122
+	manpower=574122
 	buildings_max_level_factor=1.000
+	state_category=large_city
 }

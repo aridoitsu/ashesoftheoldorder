@@ -1,10 +1,9 @@
+
 state={
 	id=1103
 	name="Windham"
-	manpower=98679
-	state_category=rural
 
-	history = {
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
@@ -14,12 +13,15 @@ state={
 		}
 		add_core_of = VTV
 		victory_points = {
-			9675 1
+			9675 1 
 		}
+
 	}
 
 	provinces={
-		9675 13982 13986
+		9675 13982 13986 15578 15638 
 	}
+	manpower=98679
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,13 +1,13 @@
+
 state={
 	id=1104
 	name="Rutland"
-	manpower=120545
-	state_category=city
 	resources={
 		steel=6.000
 		oil=10.000
 	}
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
@@ -18,11 +18,15 @@ state={
 		}
 		add_core_of = VTV
 		victory_points = {
-			14041 3
+			14041 3 
 		}
+
 	}
+
 	provinces={
-		4445 14006 14041
+		4445 14006 14041 15702 15722 
 	}
+	manpower=120545
 	buildings_max_level_factor=1.000
+	state_category=city
 }

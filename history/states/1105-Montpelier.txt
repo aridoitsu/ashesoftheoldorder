@@ -1,13 +1,12 @@
+
 state={
 	id=1105
 	name="Montpelier"
-	manpower=242157
-	state_category=large_town
 	resources={
 		steel=6.000
 	}
 
-	history = {
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
@@ -19,21 +18,24 @@ state={
 		}
 		add_core_of = VTV
 		victory_points = {
-			14061 10
+			14061 10 
 		}
 		victory_points = {
-			14058 3
+			14058 3 
 		}
 		victory_points = {
-			14059 1
+			14059 1 
 		}
 		victory_points = {
-			14066 1
+			14066 1 
 		}
+
 	}
+
 	provinces={
-		14058 14059 14061 14066
+		14045 14058 14059 14061 14066 
 	}
 	manpower=743654
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }

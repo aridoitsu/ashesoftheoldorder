@@ -1,26 +1,29 @@
+
 state={
 	id=1109
 	name="Sullivan"
-	manpower=178694
-	state_category=city
 	resources={
 		steel=10.000
 		oil=4.000
 	}
 
-	history = {
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
 			industrial_complex = 1
+
 		}
 		add_core_of = NHN
+
 	}
 
 	provinces={
-		13987 14000
+		13987 14000 15610 15613 
 	}
+	manpower=178694
 	buildings_max_level_factor=1.000
+	state_category=city
 }

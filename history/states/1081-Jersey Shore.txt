@@ -1,13 +1,12 @@
+
 state={
 	id=1081
 	name="Coastal Jersey"
-	manpower=1394031
-	state_category=city
-	resources = {
+	resources={
 		oil=4.000
 	}
 
-	history = {
+	history={
 		owner = PHL
 		buildings = {
 			infrastructure = 7
@@ -16,16 +15,21 @@ state={
 			dockyard = 4
 			9801 = {
 				naval_base = 5
+
 			}
+
 		}
 		add_core_of = PHL
 		victory_points = {
-			9864 15
+			9864 15 
 		}
+
 	}
 
 	provinces={
-		9801 9864 11740
+		9801 9864 11740 15579 
 	}
+	manpower=1394031
 	buildings_max_level_factor=1.000
+	state_category=city
 }

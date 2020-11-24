@@ -1,10 +1,9 @@
+
 state={
 	id=1107
 	name="Cheshire"
-	manpower=649442
-	state_category=large_city
 
-	history = {
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
@@ -14,13 +13,18 @@ state={
 			dockyard = 3
 			3712 = {
 				naval_base = 1
+
 			}
 
 		}
 		add_core_of = NHN
+
 	}
+
 	provinces={
-		3712 3715 13974
+		3712 3715 13974 15583 15587 
 	}
+	manpower=649442
 	buildings_max_level_factor=1.000
+	state_category=large_city
 }

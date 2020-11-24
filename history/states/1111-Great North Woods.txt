@@ -1,13 +1,12 @@
+
 state={
 	id=1111
 	name="Coös"
-	manpower=89545
-	state_category=rural
 	resources={
 		steel=12.000
 	}
 
-	history = {
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
@@ -16,10 +15,13 @@ state={
 
 		}
 		add_core_of = NHN
-	}
-	provinces={
-		10481 14054
+
 	}
 
+	provinces={
+		3806 10481 14054 
+	}
+	manpower=89545
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

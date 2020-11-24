@@ -1,15 +1,13 @@
+
 state={
 	id=1077
 	name="Philadelphia"
-	manpower = 2990121
-	state_category=metropolis
-
-	resources = {
+	resources={
 		steel=20.000
 		oil=10.000
 	}
 
-	history = {
+	history={
 		owner = PHL
 		buildings = {
 			infrastructure = 8
@@ -18,21 +16,26 @@ state={
 			dockyard = 2
 			13848 = {
 				naval_base = 3
+
 			}
+
 		}
 		add_core_of = PHL
 		add_claim_by = PEN
 		set_state_flag = PEN_irredentist_claim
 		victory_points = {
-			13848 20
+			13848 20 
 		}
 		victory_points = {
-			11785 3
+			11785 3 
 		}
+
 	}
 
 	provinces={
-		6845 13847 13848 13859 13861 3824 6869 11785
+		3606 3824 6845 6869 11785 13847 13848 13859 13861 15792 15817 
 	}
+	manpower=2990121
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

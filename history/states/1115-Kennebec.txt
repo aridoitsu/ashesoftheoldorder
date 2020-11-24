@@ -1,24 +1,28 @@
+
 state={
 	id=1115
 	name="Greater Augusta Area"
-	manpower = 302745
-	state_category=rural
 	resources={
 		tungsten=12.000
 	}
 
-	history = {
+	history={
 		owner = CAN
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 1
+
 		}
 		add_core_of = MEM
 		add_core_of = CAN
+
 	}
+
 	provinces={
-		10318 12459 14040 14078 14096 14118
+		7462 12459 14040 14078 14096 15567 15666 15667 15767 
 	}
+	manpower=302745
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,14 +1,13 @@
+
 state={
 	id=1110
 	name="Grafton"
-	manpower=159742
-	state_category=rural
 	resources={
 		tungsten=4.000
 		chromium=3.000
 	}
 
-	history = {
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
@@ -17,9 +16,13 @@ state={
 
 		}
 		add_core_of = NHN
+
 	}
+
 	provinces={
-		14030 14046
+		9721 14030 14046 15586 
 	}
+	manpower=159742
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
