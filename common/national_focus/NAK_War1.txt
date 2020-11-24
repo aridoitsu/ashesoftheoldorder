@@ -1,0 +1,597 @@
+focus_tree = {
+    id = NAK_War1
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = N02
+        }
+    }
+
+    continuous_focus_position = { x = 1000 y = 2000  }
+
+    focus = {
+        id = NAK_Take_the_Fight_to_Them
+	    icon = NAK_Take_the_Fight_to_Them
+	    cost = 2
+	    x = 4
+	    y = 1
+
+        mutually_exclusive = {
+            focus = NAK_Fight_On_Our_Soil
+        }
+        
+	    completion_reward = {
+			add_ideas = NAK_Offensive_Focus
+            add_war_support = 0.1
+            add_popularity = {
+					ideology = libsoc 
+					popularity = 0.025
+			}
+	    }
+    }
+    focus = {
+        id = NAK_Teach_New_Expertise
+	    icon = NAK_Teach_New_Expertise
+	    cost = 4
+	    x = 3
+	    y = 2
+        
+        prerequisite = {
+            focus = NAK_Take_the_Fight_to_Them
+        }
+	    completion_reward = {
+			swap_ideas = {
+                remove_idea = NAK_Lack_of_Industrial_Expertise2
+                add_idea = NAK_Lack_of_Industrial_Expertise3
+            }
+            country_event = {
+        		    id = NAK.12
+          		    days = 1
+	    		 }
+	    }
+    }
+    focus = {
+        id = NAK_Break_the_Blockade
+	    icon = NAK_Break_the_Blockade
+	    cost = 4
+	    x = 3
+	    y = 3
+        
+        prerequisite = {
+            focus = NAK_Teach_New_Expertise
+        }
+	    completion_reward = {
+			add_ideas = NAK_Ramped_Up_Naval_Production
+            add_ideas = NAK_Around_the_Blockade
+            country_event = {
+        		    id = NAK.13
+          		    days = 1
+	    		 }
+	    }
+    }
+    focus = {
+        id = NAK_Expand_Our_Workshops
+	    icon = NAK_Expand_Our_Workshops
+	    cost = 3
+	    x = 5
+	    y = 2
+        
+        prerequisite = {
+            focus = NAK_Take_the_Fight_to_Them
+        }
+	    completion_reward = {
+			random_owned_state = {
+			add_building_construction = {
+			 type = arms_factory
+			 level = 2
+				 instant_build = yes
+				 }
+		    }
+            random_owned_state = {
+			    add_building_construction = {
+			    type = arms_factory
+			    level = 2
+				instant_build = yes
+				}
+		    }
+	    }
+    }
+    focus = {
+        id = NAK_Build_Up_Our_Industry
+	    icon = NAK_Expand_Our_Workshops
+	    cost = 5
+	    x = 5
+	    y = 3
+        
+        prerequisite = {
+            focus = NAK_Expand_Our_Workshops
+        }
+	    completion_reward = {
+            add_popularity = {
+					ideology = libsoc 
+					popularity = 0.025
+			}
+			random_owned_state = {
+			add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+				 instant_build = yes
+				 }
+		    }
+            random_owned_state = {
+			    add_building_construction = {
+			    type = industrial_complex
+			    level = 2
+				instant_build = yes
+				}
+		    }
+	    }
+    }
+    focus = {
+        id = NAK_Begin_Spring_Offensive
+	    icon = NAK_Begin_Spring_Offensive
+	    cost = 4
+	    x = 4
+	    y = 4
+        
+        prerequisite = {
+            focus = NAK_Build_Up_Our_Industry
+        }
+        prerequisite = {
+            focus = NAK_Break_the_Blockade
+        }
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = NAK_Spring_Offensive 
+				days = 180 
+			}
+	    }
+    }
+    focus = {
+        id = NAK_Encircle_Charleston
+	    icon = NAK_Encircle_Charleston
+	    cost = 3
+	    x = 2
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Begin_Spring_Offensive
+        }
+        
+	    completion_reward = {
+			activate_mission = {NAK_Encirlcle_Charleston}
+	    }
+    }
+    focus = {
+        id = NAK_Encircle_Panhandle
+	    icon = NAK_Encircle_Panhandle
+	    cost = 3
+	    x = 4
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Begin_Spring_Offensive
+        }
+        
+	    completion_reward = {
+			activate_mission = {NAK_Encirlcle_Panhandle}
+	    }
+    }
+    focus = {
+        id = NAK_Dominate_the_Skies
+	    icon = NAK_Dominate_the_Skies
+	    cost = 3
+	    x = 6
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Begin_Spring_Offensive
+        }
+        
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = NAK_Aerial_Supremacy 
+				days = 180 
+			}
+	    }
+    }
+    focus = {
+        id = NAK_Avenge_the_Fallen
+	    icon = NAK_Avenge_the_Fallen
+	    cost = 3
+	    x = 3
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_Encircle_Charleston
+        }
+        prerequisite = {
+            focus = NAK_Encircle_Panhandle
+        }
+        
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = NAK_Avenge_the_Fallen 
+				days = 180 
+			}
+            add_popularity = {
+					ideology = libsoc 
+					popularity = 0.025
+			}
+            country_event = {
+        		    id = NAK.14
+          		    days = 1
+	    		 }
+            add_war_support = 0.1
+	    }
+    }
+    focus = {
+        id = NAK_Burn_their_Cities
+	    icon = NAK_Burn_their_Cities
+	    cost = 3
+	    x = 5
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_Dominate_the_Skies
+        }
+        prerequisite = {
+            focus = NAK_Encircle_Panhandle
+        }
+        
+	    completion_reward = {
+			add_timed_idea = { 
+				idea = NAK_Burn_Their_Cities 
+				days = 180 
+			}
+            add_popularity = {
+					ideology = libsoc 
+					popularity = 0.025
+			}
+            country_event = {
+        		    id = NAK.15
+          		    days = 1
+	    		 }
+            add_war_support = 0.1
+	    }
+    }
+    focus = {
+        id = NAK_Belief_in_the_Final_Victory
+	    icon = NAK_Belief_in_the_Final_Victory
+	    cost = 3
+	    x = 4
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Avenge_the_Fallen
+        }
+        prerequisite = {
+            focus = NAK_Burn_their_Cities
+        }
+        
+	    completion_reward = {
+			add_ideas = tot_economic_mobilisation
+            add_war_support = 0.1
+            add_popularity = {
+					ideology = libsoc 
+					popularity = 0.05
+			}
+            country_event = {
+        		    id = NAK.16
+          		    days = 1
+	    		 }
+	    }
+    }
+    focus = {
+        id = NAK_Fight_On_Our_Soil
+	    icon = NAK_Fight_On_Our_Soil
+	    cost = 2
+	    x = 13
+	    y = 1
+        
+        mutually_exclusive = {
+            focus = NAK_Take_the_Fight_to_Them
+        }
+	    completion_reward = {
+			add_ideas = Guerrila_Warfare
+            add_popularity = {
+					ideology = liberal 
+					popularity = 0.025
+			}
+	    }
+    }
+    focus = {
+        id = NAK_Build_More_AA
+	    icon = NAK_Build_More_AA
+	    cost = 4
+	    x = 13
+	    y = 2
+        prequisite = {
+            focus = NAK_Fight_On_Our_Soil
+        }
+	    completion_reward = {
+			#build AA
+	    }
+    }
+    focus = {
+        id = NAK_Expand_the_Newton_Line
+	    icon = NAK_Expand_the_Newton_Line
+	    cost = 4
+	    x = 11
+	    y = 2
+        prerequisite = {
+            focus = NAK_Fight_On_Our_Soil
+        }
+	    completion_reward = {
+			#build Bunkers
+            add_popularity = {
+					ideology = liberal 
+					popularity = 0.025
+			}
+	    }
+    }
+    
+    focus = {
+        id = NAK_Create_an_Intellegence_Service
+	    icon = NAK_Create_an_Intellegence_Service
+	    cost = 2
+	    x = 15
+	    y = 2
+        prerequisite = {
+            focus = NAK_Fight_On_Our_Soil
+        }
+	    completion_reward = {
+			create_intelligence_agency = yes	
+            add_popularity = {
+					ideology = liberal 
+					popularity = 0.05
+			}
+	    }
+    }
+    focus = {
+        id = NAK_Redirect_Sea_Routes
+	    icon = NAK_Redirect_Sea_Routes
+	    cost = 4
+	    x = 13
+	    y = 3
+        prerequisite = {
+            focus = NAK_Build_More_AA
+        }
+	    completion_reward = {
+			add_ideas = NAK_Around_the_Blockade	
+	    }
+    }
+    focus = {
+        id = NAK_Relocate_Factories_Underground
+	    icon = NAK_Relocate_Factories_Underground
+	    cost = 4
+	    x = 11
+	    y = 3
+        prerequisite = {
+            focus = NAK_Expand_the_Newton_Line
+        }
+	    completion_reward = {
+			add_ideas = NAK_Underground_Workshops	
+	    }
+    }
+    
+    focus = {
+        id = NAK_Lose_the_Battle_Win_the_War
+	    icon = NAK_Lose_the_Battle_Win_the_War
+	    cost = 2
+	    x = 15
+	    y = 3
+        prerequisite = {
+            focus = NAK_Create_an_Intellegence_Service
+        }
+	    completion_reward = {
+			add_ideas = NAK_Advanced_Asymmetric_Warfare	
+            country_event = {
+        		    id = NAK.17
+          		    days = 1
+	    		 }
+        }
+    }
+    focus = {
+        id = NAK_Fight_in_the_Marshes
+	    icon = NAK_Fight_in_the_Marshes
+	    cost = 3
+	    x = 11
+	    y = 4
+        prerequisite = {
+            focus = NAK_Relocate_Factories_Underground
+        }
+	    completion_reward = {
+			add_ideas = NAK_Landscape_Advantage	
+        }
+    }
+    focus = {
+        id = NAK_Fight_in_the_Mountains
+	    icon = NAK_Fight_in_the_Mountains
+	    cost = 3
+	    x = 11
+	    y = 5
+        prerequisite = {
+            focus = NAK_Fight_in_the_Marshes
+        }
+	    completion_reward = {
+            swap_ideas = {
+                remove_idea = NAK_Fight_in_the_Marshes	
+            }
+			country_event = {
+        		    id = NAK.19
+          		    days = 1
+	    		 }
+        }
+    }
+    focus = {
+        id = NAK_Sabotage_Supply_Lines
+	    icon = NAK_Sabotage_Supply_Lines
+	    cost = 3
+	    x = 13
+	    y = 4
+        prerequisite = {
+            focus = NAK_Relocate_Factories_Underground
+        }
+        prerequisite = {
+            focus = NAK_Lose_the_Battle_Win_the_War
+        }
+	    completion_reward = {
+            ACR = {
+                country_event = {
+        		    id = NAK.18
+          		    days = 1
+	    		 }
+                add_timed_idea = {
+                    idea = NAK_Sabotaged_Supply_Lines 
+				    days = 180
+                }
+            }
+        }
+    }
+    focus = {
+        id = NAK_Scorched_Earth_Warfare
+	    icon = NAK_Scorched_Earth_Warfare
+	    cost = 4
+	    x = 13
+	    y = 5
+        prerequisite = {
+            focus = NAK_Sabotage_Supply_Lines
+        }
+	    completion_reward = {
+            #removes buildings
+        }
+    }
+    focus = {
+        id = NAK_Enhanced_Guerllia_Warfare
+	    icon = NAK_Enhanced_Guerllia_Warfare
+	    cost = 4
+	    x = 15
+	    y = 4
+        prerequisite = {
+            focus = NAK_Lose_the_Battle_Win_the_War
+        }
+	    completion_reward = {
+            swap_ideas = {
+                remove_idea = NAK_Advanced_Asymmetric_Warfare
+			    add_idea = NAK_Enhanced_Asymmetric_Warfare
+            }
+        }
+    }
+    focus = {
+        id = NAK_Modern_Guerllia_Warfare
+	    icon = NAK_Modern_Guerllia_Warfare
+	    cost = 4
+	    x = 15
+	    y = 5
+        prerequisite = {
+            focus = NAK_Enhanced_Guerllia_Warfare
+        }
+	    completion_reward = {
+            swap_ideas = {
+                remove_idea = NAK_Enhanced_Asymmetric_Warfare
+			    add_idea = NAK_Modern_Asymmetric_Warfare
+            }
+        }
+    }
+    focus = {
+        id = NAK_Hope_for_the_Best
+	    icon = NAK_Hope_for_the_Best
+	    cost = 4
+	    x = 13
+	    y = 6
+        prerequisite = {
+            focus = NAK_Modern_Guerllia_Warfare
+        }
+        prerequisite = {
+            focus = NAK_Fight_in_the_Mountains
+        }
+	    completion_reward = {
+            add_war_support = 0.1
+            add_stability = 0.1
+            add_popularity = {
+					ideology = liberal 
+					popularity = 0.05
+			}
+        }
+    }
+    focus = {
+        id = NAK_Prepare_for_the_Worst
+	    icon = NAK_Prepare_for_the_Worst
+	    cost = 4
+	    x = 13
+	    y = 7
+        prerequisite = {
+            focus = NAK_Hope_for_the_Best
+        }
+        
+	    completion_reward = {
+            add_ideas = NAK_Prepared_for_the_Worst
+            country_event = {
+        		    id = NAK.20
+          		    days = 1
+	    		 }
+        }
+    }
+    focus = {
+        id = NAK_Shouting_the_Battlecry_of_Freedom
+	    icon = NAK_Shouting_the_Battlecry_of_Freedom
+	    cost = 3
+	    x = 8
+	    y = 2
+        prerequisite = {
+            focus = NAK_Take_the_Fight_to_Them
+            focus =NAK_Fight_On_Our_Soil
+        }
+        
+	    completion_reward = {
+            load_oob = "NAK_militia1"
+        }
+    }
+    focus = {
+        id = NAK_War_Rationing
+	    icon = NAK_War_Rationing
+	    cost = 3
+	    x = 8
+	    y = 3
+        prerequisite = {
+            focus = NAK_Shouting_the_Battlecry_of_Freedom
+            
+        }
+        
+	    completion_reward = {
+            add_ideas = NAK_War_Rationing
+        }
+    }
+    focus = {
+        id = NAK_Mobilize_the_Economy
+	    icon = NAK_Mobilize_the_Economy
+	    cost = 3
+	    x = 8
+	    y = 4
+        prerequisite = {
+            focus = NAK_Shouting_the_Battlecry_of_Freedom
+            
+        }
+        
+	    completion_reward = {
+            add_ideas = war_economy
+        }
+    }
+    focus = {
+        id = NAK_Every_Person_Has_Their_Place
+	    icon = NAK_Every_Person_Has_Their_Place
+	    cost = 3
+	    x = 8
+	    y = 5
+        prerequisite = {
+            focus = NAK_Every_Person_Has_Their_Place
+            
+        }
+        
+	    completion_reward = {
+            add_ideas = NAK_Every_Person_Has_Their_Place
+        }
+    }
+}
