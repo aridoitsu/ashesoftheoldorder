@@ -2,6 +2,18 @@ capital = 850
 
 set_research_slots = 2
 
+if = {
+	limit = {
+		has_start_date < 2018.01.02
+	}
+
+	declare_war_on = {
+		target = NSM
+		type = annex_everything
+	}
+
+}
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

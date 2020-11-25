@@ -1,11 +1,13 @@
 state={
 	id=851
 	name="Moon"
+	
+
+	
 	history = {
 		owner = BOI
 		add_core_of = BOI
 		
-		set_demilitarized_zone = yes
 		
 		buildings = {
 			infrastructure = 4
