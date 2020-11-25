@@ -1,4 +1,4 @@
-﻿capital = 834
+﻿capital = 833
 
 oob = "AKA_1936"
 
@@ -52,85 +52,10 @@ set_technology = {
 	fighter1 = 1
 }
 
-1939.1.1 = {
-
-	add_political_power = 1199
-
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-
-	oob = "AKA_1939"
-	set_technology = {
-		fighter1 = 1
-		cv_fighter1 = 1
-		heavy_fighter1 = 1
-		tactical_bomber1 = 1
-		CAS2 = 1
-		strategic_bomber1 = 1
-		basic_light_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		interwar_antiair = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		marines = 1
-		improved_submarine = 1
-		basic_destroyer = 1
-		basic_heavy_cruiser = 1
-		basic_battlecruiser = 1
-
-		#doctrines
-		#Air
-		air_superiority = 1
-		infrastructure_destruction = 1
-		naval_strike_tactics = 1
-
-		sup_delay = 1
-		submarine_operations_bs = 1
-		carrier_primacy = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-}
-
-
-
-
 set_convoys = 100
 set_stability = 0.5
 
 set_politics = {
-
-
 	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
@@ -140,11 +65,13 @@ set_politics = {
 add_ideas = {
 	home_of_the_free
 }
+
 set_popularities = {
 	democratic = 98
 	communism = 1
 	fascism = 1
 }
+
 create_country_leader = {
 	name = "Ernest Gruening"
 	desc = "POLITICS_ERNEST_GRUENING_DESC"
@@ -154,23 +81,7 @@ create_country_leader = {
 	traits = {
 	}
 }
-1939.1.1 = {
-	set_stability = 0.6
 
-	set_politics = {
-
-
-		ruling_party = democratic
-		last_election = "1936.11.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
-set_popularities = {
-	democratic = 98
-	communism = 1
-	fascism = 1
-}
 ### Ship Variants ###
 
 create_equipment_variant = {

@@ -1,21 +1,9 @@
-﻿capital = 14071
+﻿capital = 849
 set_research_slots = 3
 set_stability = 0
 set_war_support = 10
-#Starting tech
+
 set_technology = {
-}
-
-#For start date 1939.1.1
-1939.1.1 = {
-	add_political_power = 500
-
-	#complete_national_focus = YOUR_FOCUS_ID
-	#complete_national_focus = YOUR_FOCUS_ID
-
-	set_technology = {
-	}
-	#set_convoys = 100
 }
 
 set_stability = 0.50
@@ -26,18 +14,15 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 add_ideas = {
 }
+
 set_popularities = {
 	democratic = 15
 	neutrality = 10
 	authdem = 50
 	liberal = 5
-	demsoc = 0
-	prodem = 0
-	communism = 0
-	totalsoc = 
-	libsoc = 
 	anarchy = 5
 	fascism = 10
 	ultranationalism = 10
@@ -46,7 +31,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Ammon Bundy"
 	desc = ""
-	picture = "gfx/leaders/NSM/Portrait_NSM_jamesjr.dds"
+	picture = "Portrait_NSM_jamesjr.dds"
 	expire = "2030.1.1"
 	ideology = despot
 	traits = {
