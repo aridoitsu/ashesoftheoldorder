@@ -1,17 +1,22 @@
+
 state={
 	id=835
 	name="Interior Region"
-	history = {
+
+	history={
 		owner = AKA
 		add_core_of = AKA
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
 	provinces={
-		13069 15630 15642 15658 15659 15689 15701 15732 15738 15757 15758 15759 15769 15773 15781 15796 15811 15823 15834 15840 15841 15854 15855 
+		13069 15689 15796 15811 15834 15841 15855 
 	}
 	manpower=12611
 	buildings_max_level_factor=1.000
-	state_category = wasteland
+	state_category=wasteland
 }
