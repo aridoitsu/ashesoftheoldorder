@@ -1,0 +1,15 @@
+﻿l_english:
+
+  AOO_Event_Incomplete:0 "Event Incomplete! Do not use!"
+
+  AOO_Purchase_Weapons:0 "Purchase Foreign Weapons"
+
+  purchase_russian_weapons:0 "Purchase Russian Weapons"
+  purchase_canadian_weapons:0 "Purchase Canadian Weapons"
+  purchase_european_weapons:0 "Purchase European Weapons"
+  purchase_chinese_weapons:0 "Purchase Chinese Weapons"
+  
+  AOO_Acquire_Arms:0 "Acquire Civilian Arms"
+
+  requisition_civilian_weapons:0 "Requisition of Civilian Weapons"
+  requisition_civilian_aircraft:0 "Requisition of Civilian Aircraft"
