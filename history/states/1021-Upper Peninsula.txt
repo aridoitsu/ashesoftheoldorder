@@ -1,23 +1,29 @@
+
 state={
 	id=1021
 	name="Superior"
-	history = {
+
+	history={
 		owner = SUP
 		add_core_of = SUP
 		buildings = {
 			infrastructure = 3
 			751 = {
 				naval_base = 2
+
 			}
+
 		}
 		victory_points = {
-			709 5
+			709 5 
 		}
+
 	}
+
 	provinces={
-		709 751 4854 5205 10599
+		709 751 4854 5205 10599 15454 15466 15563 15575 15695 15699 15706 15776 
 	}
 	manpower=311361
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

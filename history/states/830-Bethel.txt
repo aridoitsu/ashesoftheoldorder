@@ -1,17 +1,22 @@
+
 state={
 	id=830
 	name="Bethel"
-	history = {
+
+	history={
 		owner = AKA
 		add_core_of = AKA
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
+
 	provinces={
-		1830 15454 15466 15467 15479 15497 15513 15519 15534 15535 15552 15563 15564 15571 15572 15605 15606 15607 15621 15627 15645 15650 15651 15675 
+		1830 15467 15497 15571 15605 15651 
 	}
 	manpower=20141
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

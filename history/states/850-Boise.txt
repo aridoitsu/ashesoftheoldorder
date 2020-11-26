@@ -1,3 +1,4 @@
+
 state={
 	id=850
 	name="Boise"
@@ -6,36 +7,40 @@ state={
 		chromium=10.000
 		tungsten=12.000
 	}
-	history = {
+
+	history={
 		owner = BOI
 		add_core_of = BOI
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			14004 10
+			14004 10 
 		}
 		victory_points = {
-			13993 8
+			13993 8 
 		}
 		victory_points = {
-			14019 3
+			14019 3 
 		}
 		victory_points = {
-			13978 3
+			13978 3 
 		}
 		victory_points = {
-			14025 1
+			14025 1 
 		}
 		victory_points = {
-			9616 1
+			9616 1 
 		}
+
 	}
+
 	provinces={
-		9616 10556 13978 13993 14004 14019 14025 14042
+		9616 10556 13978 13993 14004 14019 14025 14042 15738 15757 15769 15773 
 	}
 	manpower=826570
 	buildings_max_level_factor=1.000
-	state_category = large_city
+	state_category=large_city
 }

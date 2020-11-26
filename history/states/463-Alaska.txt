@@ -8,7 +8,7 @@ state={
 		steel=8.000
 	}
 
-	history = {
+	history={
 		owner = AKA
 		add_core_of = AKA
 		buildings = {
@@ -25,7 +25,7 @@ state={
 	}
 
 	provinces={
-		1135 7884 10679 10694 12661 13090 15283 15336 15368 15395 15403 15446 15455 15456 15498 15548 15628 
+		1135 7884 10679 10694 12661 13090 15283 15336 15368 15446 15456 
 	}
 	manpower=767500
 	buildings_max_level_factor=1.000

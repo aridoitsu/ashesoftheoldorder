@@ -6,7 +6,7 @@ state={
 		steel=53.000
 	}
 
-	history = {
+	history={
 		owner = MIN
 		buildings = {
 			infrastructure = 6
@@ -15,19 +15,19 @@ state={
 		}
 		add_core_of = MIN
 		victory_points = {
-			12357 1
+			12357 1 
 		}
 		victory_points = {
-			7776 1
+			7776 1 
 		}
 		victory_points = {
-			4166 1
+			4166 1 
 		}
 
 	}
 
 	provinces={
-		1849 7776 9678 
+		1849 9678 15403 15479 15513 15519 15548 15552 15556 15572 
 	}
 	manpower=1239004
 	buildings_max_level_factor=1.000
