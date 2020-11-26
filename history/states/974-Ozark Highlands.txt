@@ -1,31 +1,36 @@
+
 state={
 	id=974
 	name="Missouri"
-	history = {
+
+	history={
 		owner = MOM
 		add_core_of = MOM
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
+
 		}
 		victory_points = {
-			13707 10
+			13707 10 
 		}
 		victory_points = {
-			10370 3
+			10370 3 
 		}
 		victory_points = {
-			13695 5
+			13695 5 
 		}
 		victory_points = {
-			1621 10
+			1621 10 
 		}
+
 	}
+
 	provinces={
-		1441 1534 1621 10370 12463 13695 13696 13707
+		1441 1621 10370 12463 13696 13707 
 	}
 	manpower=120452
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

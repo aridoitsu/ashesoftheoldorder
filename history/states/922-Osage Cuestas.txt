@@ -1,23 +1,28 @@
+
 state={
 	id=922
 	name="Osage Cuestas"
-	history = {
+
+	history={
 		owner = SEQ
 		add_core_of = SEQ
 		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
-			13767 3
+			13767 3 
 		}
 		victory_points = {
-			13780 10
+			13780 10 
 		}
+
 	}
+
 	provinces={
-		1352 4811 7834 9802 13706 13722 13767 13780
+		1352 4811 7834 9802 13695 13706 13722 13780 
 	}
 	manpower=50147
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

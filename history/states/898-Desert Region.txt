@@ -1,31 +1,36 @@
+
 state={
 	id=898
 	name="Midland"
-	resources = {
-		steel = 10.000
-		oil = 50.000
+	resources={
+		steel=10.000
+		oil=50.000
 	}
-	history = {
+
+	history={
 		owner = ALL
 		add_core_of = ALL
 		buildings = {
 			infrastructure = 3
 			air_base = 5
+
 		}
 		victory_points = {
-			4955 5
+			4955 5 
 		}
 		victory_points = {
-			13509 5
+			13509 5 
 		}
 		victory_points = {
-			12301 5
+			12301 5 
 		}
+
 	}
+
 	provinces={
-		1998 4955 8064 9773 12301 13492 13509 13571
+		1998 4955 8064 9773 12301 13509 13571 
 	}
 	manpower=20214
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

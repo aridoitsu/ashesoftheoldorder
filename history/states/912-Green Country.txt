@@ -1,22 +1,27 @@
+
 state={
 	id=912
 	name="Sequoia"
-	history = {
+
+	history={
 		owner = SEQ
 		add_core_of = SEQ
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
+
 		}
 		victory_points = {
-			13664 12
+			13664 12 
 		}
+
 	}
+
 	provinces={
-		1806 2043 13664 13683
+		1534 1806 2043 13664 13683 
 	}
 	manpower=421453
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

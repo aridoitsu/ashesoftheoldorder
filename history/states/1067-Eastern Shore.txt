@@ -1,39 +1,40 @@
+
 state={
 	id=1067
 	name="Delmarva"
-	manpower=389621
-	state_category = city
 
-	history = {
+	history={
 		owner = DEL
-
 		buildings = {
 			infrastructure = 2
 			dockyard = 2
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		add_core_of = DEL
 		victory_points = {
-			9758 1
+			9758 1 
 		}
 		victory_points = {
-			13806 3
+			13806 3 
 		}
 		victory_points = {
-			13814 5
+			13814 5 
 		}
 		victory_points = {
-			13825 1
+			13825 1 
 		}
 		victory_points = {
-			13812 1
+			13812 1 
 		}
+
 	}
 
 	provinces={
-		3917 6892 9758 13753 9786 13066 13806 13837 13812 13814 13825
+		3917 6892 9758 9786 13066 13753 13806 13812 13814 13825 13837 15573 
 	}
-
+	manpower=389621
 	buildings_max_level_factor=1.000
+	state_category=city
 }

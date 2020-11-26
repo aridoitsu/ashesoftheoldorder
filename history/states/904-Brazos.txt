@@ -1,20 +1,25 @@
+
 state={
 	id=904
 	name="Brazos"
-	history = {
+
+	history={
 		owner = TEX
 		add_core_of = TEX
-		buildings ={
+		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
-			10861 5
+			10861 5 
 		}
+
 	}
+
 	provinces={
-		5022 7981 10861 12341 13479 13525
+		5022 7981 10861 12341 13441 13479 13525 
 	}
 	manpower=104362
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

@@ -1,34 +1,39 @@
+
 state={
 	id=935
 	name="Fargo"
-	resources = {
-		tungsten = 14.000
+	resources={
+		tungsten=14.000
 	}
-	history = {
+
+	history={
 		owner = DAK
 		add_core_of = DAK
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 3
+
 		}
 		victory_points = {
-			14236 10
+			14236 10 
 		}
 		victory_points = {
-			14214 3
+			14214 3 
 		}
 		victory_points = {
-			14235 3
+			14235 3 
 		}
 		victory_points = {
-			14258 1
+			14258 1 
 		}
+
 	}
+
 	provinces={
-		14214 14235 14236 14258 14263
+		3719 14163 14201 14214 14235 14236 14258 14263 
 	}
 	manpower=880844
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }
