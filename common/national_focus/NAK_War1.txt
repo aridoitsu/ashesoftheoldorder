@@ -160,7 +160,9 @@ focus_tree = {
         }
         
 	    completion_reward = {
-			activate_mission = {NAK_Encirlcle_Charleston}
+			activate_mission = NAK_Encirlcle_Charleston
+				
+				
 	    }
     }
     focus = {
@@ -175,7 +177,7 @@ focus_tree = {
         }
         
 	    completion_reward = {
-			activate_mission = {NAK_Encirlcle_Panhandle}
+			activate_mission = NAK_Encirlcle_Panhandle
 	    }
     }
     focus = {
@@ -307,7 +309,7 @@ focus_tree = {
 	    cost = 4
 	    x = 13
 	    y = 2
-        prequisite = {
+        prerequisite = {
             focus = NAK_Fight_On_Our_Soil
         }
 	    completion_reward = {
@@ -379,7 +381,7 @@ focus_tree = {
     focus = {
         id = NAK_Lose_the_Battle_Win_the_War
 	    icon = NAK_Lose_the_Battle_Win_the_War
-	    cost = 2
+	    cost = 3
 	    x = 15
 	    y = 3
         prerequisite = {
@@ -407,7 +409,7 @@ focus_tree = {
         }
     }
     focus = {
-        id = NAK_Fight_in_the_Mountains
+        id = NAK_Fight_in_the_Mountains #This Has been changed to "Urban Warfare"
 	    icon = NAK_Fight_in_the_Mountains
 	    cost = 3
 	    x = 11
@@ -416,15 +418,13 @@ focus_tree = {
             focus = NAK_Fight_in_the_Marshes
         }
 	    completion_reward = {
-            swap_ideas = {
-                remove_idea = NAK_Fight_in_the_Marshes	
-            }
-			country_event = {
+				add_idea = NAK_Urban_Warfare
+				country_event = {
         		    id = NAK.19
           		    days = 1
 	    		 }
+            }
         }
-    }
     focus = {
         id = NAK_Sabotage_Supply_Lines
 	    icon = NAK_Sabotage_Supply_Lines
@@ -542,7 +542,7 @@ focus_tree = {
 	    y = 2
         prerequisite = {
             focus = NAK_Take_the_Fight_to_Them
-            focus =NAK_Fight_On_Our_Soil
+            focus = NAK_Fight_On_Our_Soil
         }
         
 	    completion_reward = {
@@ -571,7 +571,7 @@ focus_tree = {
 	    x = 8
 	    y = 4
         prerequisite = {
-            focus = NAK_Shouting_the_Battlecry_of_Freedom
+            focus = NAK_War_Rationing
             
         }
         
@@ -586,7 +586,7 @@ focus_tree = {
 	    x = 8
 	    y = 5
         prerequisite = {
-            focus = NAK_Every_Person_Has_Their_Place
+            focus = NAK_Mobilize_the_Economy
             
         }
         

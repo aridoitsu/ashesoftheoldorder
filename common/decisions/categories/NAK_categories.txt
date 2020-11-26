@@ -1,0 +1,7 @@
+NAK_debug = {
+	icon = generic_research
+	allowed = {
+		original_tag = NAK
+		is_debug = yes
+	}
+}

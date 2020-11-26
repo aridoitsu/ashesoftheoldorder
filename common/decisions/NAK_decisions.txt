@@ -1,0 +1,16 @@
+NAK_debug = {
+
+	NAK_load_War = {
+		allowed = {
+			tag = NAK
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		complete_effect = {
+			load_focus_tree = NAK_War1
+		}
+	}
+}

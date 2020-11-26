@@ -1,7 +1,7 @@
 ﻿l_english: 
  
  #focuses
-#Prewar
+ #Prewar
  NAK_Assess_the_Nation:0 "Assess the Nation"
  NAK_Prepare_for_the_Inevitable:0 "Prepare for the Inevitable"
  NAK_Assess_the_Economy:0 "Assess the Economy"
@@ -19,6 +19,38 @@
  NAK_A_Gun_Behind_Every_Blade_of_Grass:0 "A Gun Behind Every Blade of Grass"
  NAK_Armed_and_Ready:0 "Armed and Ready"
  NAK_Request_Foreign_Aid:0 "Request Foreign Aid"
+ #War
+ NAK_Take_the_Fight_to_Them:0 "Take the Fight to Them"
+ NAK_Teach_New_Expertise:0 "Teach New Expertise"
+ NAK_Break_the_Blockade:0 "Break the Blockade"
+ NAK_Expand_Our_Workshops:0 "Expand Our Workshops"
+ NAK_Build_Up_Our_Industry:0 "Build Up Our Industry"
+ NAK_Begin_Spring_Offensive:0 "Begin the Spring Offensive"
+ NAK_Encircle_Charleston:0 "Encircle Charleston"
+ NAK_Encircle_Panhandle:0 "Encircle the Panhandle"
+ NAK_Dominate_the_Skies:0 "Dominate the Skies"
+ NAK_Avenge_the_Fallen:0 "Avenge the Fallen"
+ NAK_Burn_their_Cities:0 "Burn their Cities"
+ NAK_Belief_in_the_Final_Victory:0 "Belief in the Final Victory"
+ NAK_Fight_On_Our_Soil:0 "Fight On Our Soil"
+ NAK_Build_More_AA:0 "Build More AA"
+ NAK_Expand_the_Newton_Line:0 "Expand the Newton Line"
+ NAK_Create_an_Intellegence_Service:0 "Create an Intellegence Service"
+ NAK_Redirect_Sea_Routes:0 "Redirect Trade Routes"
+ NAK_Relocate_Factories_Underground:0 "Relocate Factories Underground"
+ NAK_Lose_the_Battle_Win_the_War:0 "Lose the Battle, Win the War"
+ NAK_Fight_in_the_Marshes:0 "Fight in the Marshes"
+ NAK_Fight_in_the_Mountains:0 "Urban Warfare"
+ NAK_Sabotage_Supply_Lines:0 "Sabotage Supply Lines"
+ NAK_Scorched_Earth_Warfare:0 "Scorched Earth Warfare"
+ NAK_Enhanced_Guerllia_Warfare:0 "Enhanced Guerilla Warfare"
+ NAK_Modern_Guerllia_Warfare:0 "Modern Guerilla Warfare"
+ NAK_Hope_for_the_Best: "Hope for the Best"
+ NAK_Prepare_for_the_Worst:0 "Prepare for the Worst"
+ NAK_Shouting_the_Battlecry_of_Freedom:0 "Shouting the Battlecry of Freedom"
+ NAK_War_Rationing:0 "War Rationing"
+ NAK_Mobilize_the_Economy:0 "Mobilize the Economy"
+ NAK_Every_Person_Has_Their_Place:0 "Every Person Has Their Place"
  
  #Names
  NAK_ultranationalism:0 "State of New Afrika"

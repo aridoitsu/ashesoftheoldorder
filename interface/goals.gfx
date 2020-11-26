@@ -3107,5 +3107,17 @@ spriteTypes = {
 		name = "NAK_The_National_Question"
 		texturefile = "gfx/interface/goals/NAK_The_National_Question.dds"
 	}
+	SpriteType = {
+		name = "NAK_Create_an_Intellegence_Service"
+		texturefile = "gfx/interface/goals/NAK_Create_an_Intellegence_Service.dds"
+	}
+	SpriteType = {
+		name = "NAK_Build_More_AA"
+		texturefile = "gfx/interface/goals/NAK_Build_More_AA.dds"
+	}
+	SpriteType = {
+		name = "NAK_Fight_in_the_Marshes"
+		texturefile = "gfx/interface/goals/NAK_Fight_in_the_Marshes.dds"
+	}
 	
 }

@@ -1,0 +1,43 @@
+﻿l_english: 
+ 
+ #focuses
+
+ 
+ #Names
+ CRN_demsoc_DEF:0 "the Commonwealth of Carolina"
+ CRN_demosc:0 "the Commonwealth of Carolina"
+ CRN_libsoc:0 "Carolina Liberation Front"
+ CRN_libsoc_DEF:0 "the Carolina Liberation Front"
+ CRN_communism:0 "Carolina Red Army"
+ CRN_communism_DEF:0 "the Carolina Red Army"
+ CRN_anarchy:0 "Black Army of Carolina"
+ CRN_anarchy_DEF:0 "the Black Army of Carolina"
+ 
+ #ideas
+
+ 
+ #Parties
+ #CRN_ultranationalism_party_long:0 "Black People's Party"
+ #CRN_ultranationalism_party_short:0 "Black People's Party"
+ #CRN_fascism_party_long:0 "National Front"
+ #CRN_fascism_party_short:0 "National Front"
+ #CRN_neutrality_party_long:0 ""New Afrikan Armed Forces"
+ #CRN_neutrality_party_short:0 "New Afrikan Armed Forces"
+ #CRN_authdem_party_long:0 "National Protection Party"
+ #CRN_authdem_party_short:0 "National Protection Party"
+ #CRN_democratic_party_long:0 "Party for New Afrikan Family and Freedom"
+# CRN_democratic_party_short:0 "Party for Afrikan Family and Freedom"
+# CRN_liberal_party_long:0 "New Afrikan Democratic Party"
+ #CRN_liberal_party_short:0 "New Afrikan Democratic Party"
+ CRN_prodem_party_long:0 "Progressive Front"
+ CRN_prodem_party_short:0 "Progressive Front"
+ CRN_demsoc_party_long:0 "Democratic Socialists of America"
+ CRN_demsoc_party_short:0 "Democratic Socialists of America"
+ CRN_libsoc_party_long:0 "United Workers Party of Carolina"
+ CRN_libsoc_party_short:0 "United Workers Party of Carolina"
+ CRN_communism_party_long:0 "Party for Socialism and Liberation Carolina Chapter"
+ CRN_communism_party_short:0 "Party for Socialism and Liberation Carolina Chapter"
+ CRN_anarchy_party_long:0 "Carolina Antifa Chapter"
+ CRN_anarchy_party_short:0 "Carolina Antifa Chapter"
+ 
+ #Events
