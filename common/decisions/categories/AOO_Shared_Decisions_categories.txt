@@ -1,0 +1,40 @@
+AOO_Purchase_Weapons = {
+	icon = generic_political_actions 
+
+	allowed = {
+		NOT = {
+			original_tag = CAN
+			original_tag = MEX
+			original_tag = QBC
+		}
+		ROOT = {
+			any_owned_state = {
+				is_on_continent = north_america
+			}
+		}
+	}
+}
+
+AOO_Acquire_Arms = {
+	icon = generic_political_actions 
+
+	allowed = {
+		OR = {
+			OR = {
+				NOT = {
+					original_tag = CAN
+					original_tag = MEX
+					original_tag = QBC
+				}
+
+				ROOT = {
+					any_owned_state = {
+						is_on_continent = north_america
+					}
+				}
+			}
+
+			has_war = yes
+		}
+	}
+}

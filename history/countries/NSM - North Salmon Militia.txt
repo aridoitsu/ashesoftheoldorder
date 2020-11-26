@@ -19,13 +19,13 @@ add_ideas = {
 }
 
 set_popularities = {
-	democratic = 15
-	neutrality = 10
-	authdem = 50
-	liberal = 5
-	anarchy = 5
-	fascism = 10
-	ultranationalism = 10
+	democratic = 0
+	neutrality = 0
+	authdem = 100
+	liberal = 0
+	anarchy = 0
+	fascism = 0
+	ultranationalism = 0
 }
 
 create_country_leader = {

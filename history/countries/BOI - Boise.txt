@@ -63,9 +63,9 @@ set_popularities = {
 	democratic = 15
 	neutrality = 10
 	authdem = 50
-	liberal = 5
-	anarchy = 5
-	fascism = 10
+	liberal = 0
+	anarchy = 10
+	fascism = 5
 	ultranationalism = 10
 }
 

@@ -1,33 +1,38 @@
+
 state={
 	id=1024
 	name="Jacksonville"
-	history = {
+
+	history={
 		owner = MIA
 		add_core_of = MIA
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
+
 		}
 		victory_points = {
-			13472 15
+			13472 15 
 		}
 		victory_points = {
-			13475 1
+			13475 1 
 		}
 		victory_points = {
-			13463 1
+			13463 1 
 		}
 		victory_points = {
-			13462 1
+			13462 1 
 		}
 		victory_points = {
-			13466 1
+			13466 1 
 		}
+
 	}
+
 	provinces={
-		13462 13463 13466 13472 13475
+		1572 13462 13463 13466 13472 13475 15551 
 	}
 	manpower=210451
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category=large_town
 }
