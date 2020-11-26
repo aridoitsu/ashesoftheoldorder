@@ -1,25 +1,30 @@
+
 state={
 	id=1026
-	resources = {
-		oil = 14.000
-		steel = 20.000
-	}
 	name="Orlando"
-	history = {
+	resources={
+		oil=14.000
+		steel=20.000
+	}
+
+	history={
 		owner = MIA
 		add_core_of = MIA
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
+
 		}
 		victory_points = {
-			12439 5
+			12439 5 
 		}
+
 	}
+
 	provinces={
-		1572 1584 12439 15327
+		866 1584 7388 12439 15263 15327 15349 15362 15413 15422 
 	}
 	manpower=641312
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }
