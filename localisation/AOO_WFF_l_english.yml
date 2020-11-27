@@ -1,0 +1,10 @@
+﻿l_english:
+ 
+ # Debug Decisions
+ 
+ debug_load_starting_tree:0 "Load Starting Tree"
+ debug_load_born_in_the_fire_tree:0 "Load 'Born in the Fire' Tree"
+ debug_load_the_great_troubles_tree:0 "Load 'The Great Troubles' Tree"
+ debug_load_a_dissolving_union_tree:0 "Load 'A Dissolving Union' Tree"
+ debug_load_fight_fire_with_fire_tree:0 "Load 'Fight fire with fire' Tree"
+ debug_load_democracy_reigns_supreme_tree:0 "Load 'Democracy Reigns Supreme' Tree"

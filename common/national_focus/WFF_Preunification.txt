@@ -1,0 +1,1052 @@
+#####################
+#     WFF TREES     #
+#####################
+
+### Starting Focus Tree
+
+focus_tree = {
+	id = wff_starting_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WDC
+        }
+	}
+	default = no
+	shared_focus = WFF_Legacy_of_the_Founding_Fathers
+}
+
+shared_focus = {
+	id = WFF_Legacy_of_the_Founding_Fathers
+	icon = GFX_Placeholder
+	cost = 3
+	x = 6
+	y = 0
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Bastion_of_Liberty
+	icon = GFX_Placeholder
+    prerequisite = { focus = WFF_Legacy_of_the_Founding_Fathers }
+	cost = 3
+	x = 4
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_The_Light_of_Hope
+	icon = GFX_Placeholder
+    prerequisite = { focus = WFF_Legacy_of_the_Founding_Fathers }
+	cost = 3
+	x = 8
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Life
+	icon = GFX_Placeholder
+    prerequisite = { focus = WFF_A_Bastion_of_Liberty }
+    prerequisite = { focus = WFF_The_Light_of_Hope }
+	cost = 3
+	x = 2
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Liberty
+	icon = GFX_Placeholder
+    prerequisite = { focus = WFF_A_Bastion_of_Liberty }
+    prerequisite = { focus = WFF_The_Light_of_Hope }
+	cost = 3
+	x = 6
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Pursuit_of_Happiness
+	icon = GFX_Placeholder
+    prerequisite = { focus = WFF_A_Bastion_of_Liberty }
+    prerequisite = { focus = WFF_The_Light_of_Hope }
+	cost = 3
+	x = 10
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Crippled_Nation
+	icon = GFX_Placeholder
+    prerequisite = { focus = WFF_Pursuit_of_Happiness }
+    prerequisite = { focus = WFF_Liberty }
+    prerequisite = { focus = WFF_Life }
+	cost = 3
+	x = 4
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_The_American_Dream
+	icon = GFX_Placeholder
+    prerequisite = { focus = WFF_Pursuit_of_Happiness }
+    prerequisite = { focus = WFF_Liberty }
+    prerequisite = { focus = WFF_Life }
+	cost = 3
+	x = 8
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Failed_Union
+	icon = GFX_Placeholder
+    prerequisite = { focus = WFF_A_Crippled_Nation }
+	cost = 3
+	x = 2
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Liberty_and_Justice_for_All
+	icon = GFX_Placeholder
+    prerequisite = { focus = WFF_The_American_Dream }
+	cost = 3
+	x = 10
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_What_Little_We_Have_Left
+	icon = GFX_Placeholder
+    prerequisite = { focus = WFF_Liberty_and_Justice_for_All }
+    prerequisite = { focus = WFF_A_Failed_Union }
+	cost = 3
+	x = 6
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+### Born in the Fire Focus Tree (Beginning)
+
+focus_tree = {
+	id = born_in_fire_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WDC
+        }
+	}
+	default = no
+	shared_focus = WFF_Born_in_the_Fire
+}
+
+shared_focus = {
+	id = WFF_Born_in_the_Fire
+	icon = GFX_Placeholder
+	cost = 3
+	x = 8
+	y = 0
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Separatist_Movements
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Born_in_the_Fire }
+	cost = 3
+	x = 4
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_The_Binding_Union
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Born_in_the_Fire }
+	cost = 3
+	x = 12
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Helens_in_the_North
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Separatist_Movements }
+	cost = 3
+	x = 2
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_I_Dont_Know
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Separatist_Movements }
+	cost = 3
+	x = 6
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Dream_Built_1775
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_The_Binding_Union }
+	cost = 3
+	x = 10
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Founded_in_1870
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_The_Binding_Union }
+	cost = 3
+	x = 14
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Widespread_Famine
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Helens_in_the_North }
+	prerequisite = { focus = WFF_I_Dont_Know }
+	cost = 3
+	x = 2
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Calm_Down_the_Populace
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Helens_in_the_North }
+	prerequisite = { focus = WFF_I_Dont_Know }
+	cost = 3
+	x = 4
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Continuous_Raids
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Helens_in_the_North }
+	prerequisite = { focus = WFF_I_Dont_Know }
+	cost = 3
+	x = 6
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Legacy_of_the_Fathers
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Dream_Built_1775 }
+	prerequisite = { focus = WFF_Founded_in_1870 }
+	cost = 3
+	x = 10
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Our_Duty
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Dream_Built_1775 }
+	prerequisite = { focus = WFF_Founded_in_1870 }
+	cost = 3
+	x = 12
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Legacy_of_the_Dream
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Dream_Built_1775 }
+	prerequisite = { focus = WFF_Founded_in_1870 }
+	cost = 3
+	x = 14
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Agricultural_Innovations
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Widespread_Famine }
+	prerequisite = { focus = WFF_Calm_Down_the_Populace }
+	prerequisite = { focus = WFF_Continuous_Raids }
+	cost = 3
+	x = 2
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Fighting_Fire_with_Fire
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Widespread_Famine }
+	prerequisite = { focus = WFF_Calm_Down_the_Populace }
+	prerequisite = { focus = WFF_Continuous_Raids }
+	cost = 3
+	x = 6
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Divided_Union
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Legacy_of_the_Fathers }
+	prerequisite = { focus = WFF_Our_Duty }
+	prerequisite = { focus = WFF_Legacy_of_the_Dream }
+	cost = 3
+	x = 10
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Republicans_vs_Democrats
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Legacy_of_the_Fathers }
+	prerequisite = { focus = WFF_Our_Duty }
+	prerequisite = { focus = WFF_Legacy_of_the_Dream }
+	cost = 3
+	x = 14
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Looming_Problem
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Agricultural_Innovations }
+	prerequisite = { focus = WFF_Fighting_Fire_with_Fire }
+	cost = 3
+	x = 4
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Held_Together_with_Tape
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Divided_Union }
+	prerequisite = { focus = WFF_Republicans_vs_Democrats }
+	cost = 3
+	x = 12
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Separatist_Movements_Increasing
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Looming_Problem }
+	prerequisite = { focus = WFF_Held_Together_with_Tape }
+	cost = 3
+	x = 8
+	y = 6
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_The_Uncertain_Future
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Separatist_Movements_Increasing }
+	cost = 3
+	x = 8
+	y = 7
+	completion_reward = {
+		
+	}
+}
+
+### The Great Troubles Focus Tree
+
+focus_tree = {
+	id = the_great_troubles_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WDC
+        }
+	}
+	default = no
+	shared_focus = WFF_The_Great_Troubles
+}
+
+shared_focus = {
+	id = WFF_The_Great_Troubles
+	icon = GFX_Placeholder
+	cost = 3
+	x = 6
+	y = 0
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Separatism
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_The_Great_Troubles }
+	cost = 3
+	x = 4
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Unionism
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_The_Great_Troubles }
+	cost = 3
+	x = 8
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Another_Failed_Union
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Separatism }
+	prerequisite = { focus = WFF_Unionism }
+	cost = 3
+	x = 4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Crushing_the_Separatists
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Separatism }
+	prerequisite = { focus = WFF_Unionism }
+	cost = 3
+	x = 6
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Union_Held_Together
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Separatism }
+	prerequisite = { focus = WFF_Unionism }
+	cost = 3
+	x = 8
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Our_Loss
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Another_Failed_Union }
+	cost = 3
+	x = 2
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Blood_and_Fire
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Crushing_the_Separatists }
+	cost = 3
+	x = 6
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Our_Pride
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Union_Held_Together }
+	cost = 3
+	x = 10
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+### A Dissolving Union Focus Tree
+
+focus_tree = {
+	id = dissolving_union_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WDC
+        }
+	}
+	default = no
+	shared_focus = WFF_A_Dissolving_Union
+}
+
+shared_focus = {
+	id = WFF_A_Dissolving_Union
+	icon = GFX_Placeholder
+	cost = 3
+	x = 4
+	y = 0
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_The_Cold_Hard_Truth
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Dissolving_Union }
+	cost = 3
+	x = 2
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Forgotten_Country
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Dissolving_Union }
+	cost = 3
+	x = 6
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Dreams_turned_to_Nightmares
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_The_Cold_Hard_Truth }
+	cost = 3
+	x = 2
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Backwater
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Forgotten_Country }
+	cost = 3
+	x = 6
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Cut_off_from_Allies
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Dreams_turned_to_Nightmares }
+	prerequisite = { focus = WFF_A_Backwater }
+	cost = 3
+	x = 4
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Cut_off_from_Friends
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Cut_off_from_Allies }
+	cost = 3
+	x = 4
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_The_Choice
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Cut_off_from_Friends }
+	cost = 3
+	x = 4
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Call_to_Democracy
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_The_Choice }
+	mutually_exclusive = { focus = WFF_A_Call_to_our_Friends }
+	cost = 3
+	x = 2
+	y = 6
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Call_to_our_Friends
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_The_Choice }
+	mutually_exclusive = { focus = WFF_A_Call_to_Democracy }
+	cost = 3
+	x = 6
+	y = 6
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Territories_Lost
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Call_to_Democracy OR = WFF_A_Call_to_our_Friends }
+	cost = 3
+	x = 2
+	y = 7
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Rebounding_Union
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Call_to_our_Friends OR = WFF_A_Call_to_Democracy }
+	cost = 3
+	x = 6
+	y = 7
+	completion_reward = {
+		
+	}
+}
+
+### Fight Fire with Fire Focus Tree
+
+focus_tree = {
+	id = fight_fire_with_fire_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WDC
+        }
+	}
+	default = no
+	shared_focus = WFF_Fight_Fire_with_Fire
+}
+
+shared_focus = {
+	id = WFF_Fight_Fire_with_Fire
+	icon = GFX_Placeholder
+	cost = 3
+	x = 6
+	y = 0
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Brother_vs_Brother
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Fight_Fire_with_Fire }
+	cost = 3
+	x = 4
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_For_God_and_Country
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Fight_Fire_with_Fire }
+	cost = 3
+	x = 8
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Quest_For_Order
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Brother_vs_Brother }
+	prerequisite = { focus = WFF_For_God_and_Country }
+	cost = 3
+	x = 6
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_We_Must_Teach_Those_Traitors
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Quest_For_Order }
+	mutually_exclusive = { focus = WFF_For_Liberty_Democracy_and_Freedom }
+	cost = 3
+	x = 4
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_For_Liberty_Democracy_and_Freedom
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Quest_For_Order }
+	mutually_exclusive = { focus = WFF_We_Must_Teach_Those_Traitors }
+	cost = 3
+	x = 8
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Taking_Back_Territory
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_We_Must_Teach_Those_Traitors OR = WFF_For_Liberty_Democracy_and_Freedom }
+	cost = 3
+	x = 6
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Country_Needs_an_Authority
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_We_Must_Teach_Those_Traitors }
+	cost = 3
+	x = 4
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Support_from_within_Helena
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Taking_Back_Territory }
+	cost = 3
+	x = 6
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Country_Needs_Inalienable_Rights
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_For_Liberty_Democracy_and_Freedom }
+	cost = 3
+	x = 8
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_We_Fought_But_to_No_Avail
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Country_Needs_an_Authority OR = WFF_A_Country_Needs_Inalienable_Rights }
+	prerequisite = { focus = WFF_Support_from_within_Helena }
+	cost = 3
+	x = 4
+	y = 6
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Through_Fire_Blood_Sweat_and_Tears
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_Country_Needs_an_Authority OR = WFF_A_Country_Needs_Inalienable_Rights }
+	prerequisite = { focus = WFF_Support_from_within_Helena }
+	cost = 3
+	x = 8
+	y = 6
+	completion_reward = {
+		
+	}
+}
+
+### Democracy Reigns Supreme Focus Tree
+
+focus_tree = {
+	id = democracy_reigns_supreme
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WDC
+        }
+	}
+	default = no
+	shared_focus = WFF_Democracy_Reigns_Supreme
+}
+
+shared_focus = {
+	id = WFF_Democracy_Reigns_Supreme
+	icon = GFX_Placeholder
+	cost = 3
+	x = 8
+	y = 0
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_They_Listened_To_Reason
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Democracy_Reigns_Supreme }
+	cost = 3
+	x = 6
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_They_Saw_Our_Freedom
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Democracy_Reigns_Supreme }
+	cost = 3
+	x = 10
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Economic_Benefit
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_They_Listened_To_Reason }
+	prerequisite = { focus = WFF_They_Saw_Our_Freedom }
+	cost = 3
+	x = 4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_More_Democratic_Approach
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_They_Listened_To_Reason }
+	prerequisite = { focus = WFF_They_Saw_Our_Freedom }
+	cost = 3
+	x = 8
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Political_Benefit
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_They_Listened_To_Reason }
+	prerequisite = { focus = WFF_They_Saw_Our_Freedom }
+	cost = 3
+	x = 12
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_The_Economic_Miracle
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Economic_Benefit }
+	cost = 3
+	x = 6
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_The_Political_Miracle
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Political_Benefit }
+	cost = 3
+	x = 10
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Economy_of_the_Future
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_The_Economic_Miracle }
+	cost = 3
+	x = 4
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_Our_Morals
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_A_More_Democratic_Approach }
+	cost = 3
+	x = 8
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_The_Government_of_the_Future
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_The_Political_Miracle }
+	cost = 3
+	x = 12
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = WFF_A_Forgotten_Name
+	icon = GFX_Placeholder
+	prerequisite = { focus = WFF_Economy_of_the_Future }
+	prerequisite = { focus = WFF_Our_Morals }
+	prerequisite = { focus = WFF_The_Government_of_the_Future }
+	cost = 3
+	x = 8
+	y = 5
+	completion_reward = {
+		
+	}
+}
