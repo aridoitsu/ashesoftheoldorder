@@ -22,6 +22,7 @@ state={
 		}
 		add_core_of = MEM
 		add_core_of = CAN
+		add_core_of = MPL
 		victory_points = {
 			14011 10
 		}

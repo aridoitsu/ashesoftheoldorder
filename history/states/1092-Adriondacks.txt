@@ -15,6 +15,7 @@ state={
 
 		}
 		add_core_of = VTV
+		add_core_of = ADI
 
 	}
 
