@@ -20,7 +20,7 @@ focus_tree = {
 shared_focus = {
 	id = WFF_Legacy_of_the_Founding_Fathers
 	icon = WFF_Legacy_of_the_Founding_Fathers
-	cost = 3
+	cost = 1
 	x = 6
 	y = 0
 	completion_reward = {
@@ -32,7 +32,7 @@ shared_focus = {
 	id = WFF_A_Bastion_of_Liberty
 	icon = WFF_A_Bastion_of_Liberty
     prerequisite = { focus = WFF_Legacy_of_the_Founding_Fathers }
-	cost = 3
+	cost = 2
 	x = 4
 	y = 1
 	completion_reward = {
@@ -44,7 +44,7 @@ shared_focus = {
 	id = WFF_The_Light_of_Hope
 	icon = WFF_The_Light_of_Hope
     prerequisite = { focus = WFF_Legacy_of_the_Founding_Fathers }
-	cost = 3
+	cost = 2
 	x = 8
 	y = 1
 	completion_reward = {
@@ -153,7 +153,7 @@ shared_focus = {
 	icon = WFF_What_Little_We_Have_Left
     prerequisite = { focus = WFF_Liberty_and_Justice_for_All }
     prerequisite = { focus = WFF_A_Failed_Union }
-	cost = 3
+	cost = 5
 	x = 6
 	y = 5
 	completion_reward = {
@@ -179,7 +179,7 @@ focus_tree = {
 shared_focus = {
 	id = WFF_Born_in_the_Fire
 	icon = WFF_Born_in_the_Fire
-	cost = 3
+	cost = 1
 	x = 8
 	y = 0
 	completion_reward = {
@@ -191,7 +191,7 @@ shared_focus = {
 	id = WFF_Separatist_Movements
 	icon = WFF_Separatist_Movements
 	prerequisite = { focus = WFF_Born_in_the_Fire }
-	cost = 3
+	cost = 2
 	x = 4
 	y = 1
 	completion_reward = {
@@ -204,7 +204,7 @@ shared_focus = {
 	id = WFF_The_Binding_Union
 	icon = WFF_The_Binding_Union
 	prerequisite = { focus = WFF_Born_in_the_Fire }
-	cost = 3
+	cost = 2
 	x = 12
 	y = 1
 	completion_reward = {
@@ -401,7 +401,7 @@ shared_focus = {
 	icon = WFF_A_Looming_Problem
 	prerequisite = { focus = WFF_Agricultural_Innovations }
 	prerequisite = { focus = WFF_Fighting_Fire_with_Fire }
-	cost = 3
+	cost = 2
 	x = 4
 	y = 5
 	completion_reward = {
@@ -414,7 +414,7 @@ shared_focus = {
 	icon = WFF_Held_Together_with_Tape
 	prerequisite = { focus = WFF_A_Divided_Union }
 	prerequisite = { focus = WFF_Republicans_vs_Democrats }
-	cost = 3
+	cost = 2
 	x = 12
 	y = 5
 	completion_reward = {
@@ -427,7 +427,7 @@ shared_focus = {
 	icon = WFF_Separatist_Movements_Increasing
 	prerequisite = { focus = WFF_A_Looming_Problem }
 	prerequisite = { focus = WFF_Held_Together_with_Tape }
-	cost = 3
+	cost = 5
 	x = 8
 	y = 6
 	completion_reward = {
@@ -439,7 +439,7 @@ shared_focus = {
 	id = WFF_The_Uncertain_Future
 	icon = WFF_The_Uncertain_Future
 	prerequisite = { focus = WFF_Separatist_Movements_Increasing }
-	cost = 3
+	cost = 5
 	x = 8
 	y = 7
 	completion_reward = {
