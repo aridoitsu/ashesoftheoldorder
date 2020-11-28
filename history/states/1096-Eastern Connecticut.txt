@@ -17,6 +17,7 @@ state={
 
 		}
 		add_core_of = CRA
+		add_core_of = CTC
 
 	}
 

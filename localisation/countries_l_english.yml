@@ -4166,6 +4166,66 @@
    ###############################
    AKA_ADJ:0 "Alaskan"
 
+   VTV:0 "Vermont"
+   VTV_DEF:0 "Vermont"
+   ###############################
+   VTV_ADJ:0 "Vermontian"
+
+   MAM:0 "Massachusetts"
+   MAM_DEF:0 "Massachusetts"
+   ###############################
+   MAM_ADJ:0 "Massachuset"
+
+   NHN:0 "New Hampshire"
+   NHN_DEF:0 "New Hampshire"
+   ###############################
+   NHN_ADJ:0 "New Hampsherian"
+
+   CTC:0 "Connecticut"
+   CTC_DEF:0 "Connecticut"
+   ###############################
+   CTC_ADJ:0 "Connecticutian"
+
+   RIR:0 "Rhode Island"
+   RIR_DEF:0 "Rhode Island"
+   ###############################
+   RIR_ADJ:0 "Rhode Islander"
+
+   MEM:0 "Maine"
+   MEM_DEF:0 "Maine"
+   ###############################
+   MEM_ADJ:0 "Mainian"
+
+   ADI:0 "Adirondack Government"
+   ADI_DEF:0 "Adirondack Government"
+   ###############################
+   ADI_ADJ:0 "Adirondackian"
+
+   SRV:0 "Socialist Republic of Vermont"
+   SRV_DEF:0 "Socialist Republic of Vermont"
+   ###############################
+   SRV_ADJ:0 "Vermontian"
+
+   MSG:0 "Salvation Government of Maine"
+   MSG_DEF:0 "Salvation Government of Maine"
+   ###############################
+   MSG_ADJ:0 "Mainese"
+
+   GMB:0 "Free Republic of New England"
+   GMB_DEF:0 "Free Republic of New England"
+   ###############################
+   GMB_ADJ:0 "New Englander"
+
+   MPL:0 "Socialist Republic of Maine"
+   MPL_DEF:0 "Socialist Republic of Maine"
+   ###############################
+   MPL_ADJ:0 "Mainian"
+
+   BSN:0 "Boston"
+   BSN_DEF:0 "Boston"
+   ###############################
+   BSN_ADJ:0 "Bostonian"
+
     CAN_liberal:0 "Canada"
     CAN_liberal_DEF:0 "Canada"
     CAN_democratic:0 "Canada"

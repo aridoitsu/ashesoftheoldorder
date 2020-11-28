@@ -1,4 +1,4 @@
-﻿capital = 1102
+capital = 1092
 
 set_research_slots = 2
 
@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,8 +58,8 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	democratic = 100
-	neutrality = 0
+	democratic = 0
+	neutrality = 100
 	authdem = 0
 	liberal = 0
 	demsoc = 0

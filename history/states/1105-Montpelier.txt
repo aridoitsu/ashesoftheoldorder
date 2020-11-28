@@ -17,6 +17,7 @@ state={
 
 		}
 		add_core_of = VTV
+		add_core_of = SRV
 		victory_points = {
 			14061 10 
 		}

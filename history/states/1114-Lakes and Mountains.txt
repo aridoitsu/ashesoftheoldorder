@@ -14,6 +14,7 @@ state={
 
 		}
 		add_core_of = MEM
+		add_core_of = MSG
 		add_core_of = CAN
 		victory_points = {
 			7462 5 
