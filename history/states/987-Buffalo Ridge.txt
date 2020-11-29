@@ -1,23 +1,28 @@
+
 state={
 	id=987
 	name="Buffalo Ridge"
 	resources={
 		steel=74.000
 	}
-	history = {
+
+	history={
 		owner = MNM
 		add_core_of = MNM
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
-			1867 5
+			1867 5 
 		}
+
 	}
+
 	provinces={
-		1867 12577 11788
+		1867 7536 11788 12577 
 	}
 	manpower=50124
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

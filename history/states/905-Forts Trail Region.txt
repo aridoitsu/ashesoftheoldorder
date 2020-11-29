@@ -1,24 +1,29 @@
+
 state={
 	id=905
 	name="Forts Trail"
-	resources = {
-		chromium = 3.000
+	resources={
+		chromium=3.000
 	}
-	history = {
+
+	history={
 		owner = TEX
 		add_core_of = TEX
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			13517 5
+			13517 5 
 		}
+
 	}
+
 	provinces={
-		1915 12875 13517 13519
+		1915 12875 13517 13519 14985 15008 15028 15034 15045 15075 15085 
 	}
 	manpower=51423
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

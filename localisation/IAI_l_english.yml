@@ -1,0 +1,18 @@
+﻿l_english:
+
+ # Parties
+
+ IAI_democratic_party:0 "ILP"
+ IAI_democratic_party_long:0 "Iowan Libertarian Party"
+ IAI_authdem_party:0 "UPG"
+ IAI_authdem_party_long:0 "Unity Pact Government"
+ IAI_neutrality_party:0 "UPG"
+ IAI_neutrality_party_long:0 "Unity Pact Government"
+ IAI_fascism_party:0 "UG"
+ IAI_fascism_party_long:0 "Unity Guard"
+
+ # Country Name
+
+ IAI:0 "Iowa"
+ IAI_DEF:0 "Iowa"
+ IAI_ADJ:0 "Iowan"

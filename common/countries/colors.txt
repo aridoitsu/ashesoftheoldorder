@@ -849,11 +849,6 @@ CAC = {
 	color_ui = rgb { 255 0 0 }
 }
 
-CTC = {
-	color = rgb { 183 183 183 }
-	color_ui = rgb { 183 183 183 }
-}
-
 DED = {
 	color = rgb { 30 150 34 }
 	color_ui = rgb { 30 150 34 }
@@ -899,19 +894,9 @@ LAL = {
 	color_ui = rgb { 255 221 0 }
 }
 
-MEM = {
-	color = rgb { 255 221 0 }
-	color_ui = rgb { 255 221 0 }
-}
-
 MDM = {
 	color = rgb { 178 0 255 }
 	color_ui = rgb { 178 0 255 }
-}
-
-MAM = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 0 0 }
 }
 
 MIM = {
@@ -942,11 +927,6 @@ NEN = {
 NVN = {
 	color = rgb { 183 183 183 }
 	color_ui = rgb { 183 183 183 }
-}
-
-NHN = {
-	color = rgb { 0 148 255 }
-	color_ui = rgb { 0 148 255 }
 }
 
 NJN = {
@@ -984,11 +964,6 @@ PAP = {
 	color_ui = rgb { 183 183 183 }
 }
 
-RIR = {
-	color = rgb { 255 106 0 }
-	color_ui = rgb { 255 106 0 }
-}
-
 SCS = {
 	color = rgb { 0 148 255 }
 	color_ui = rgb { 0 148 255 }
@@ -1012,11 +987,6 @@ TXT = {
 UTU = {
 	color = rgb { 0 148 255 }
 	color_ui = rgb { 0 148 255 }
-}
-
-VTV = {
-	color = rgb { 30 150 34 }
-	color_ui = rgb { 30 150 34 }
 }
 
 WAW = {
@@ -1565,8 +1535,56 @@ AKA = {
 	color = rgb { 20 100 120 }
 	color_ui = rgb { 20 100 120 }
 }
+ADI = {
+	color = rgb { 105 135 6 }
+	color_ui = rgb { 105 135 6 }
+}
+SRV = {
+	color = rgb { 207 38 77 }
+	color_ui = rgb { 207 38 77 }
+}
+GMB = {
+	color = rgb { 138 113 48 }
+	color_ui = rgb { 138 113 48 }
+}
+MPL = {
+	color = rgb { 158 45 45 }
+	color_ui = rgb { 158 45 45 }
+}
+MSG = {
+	color = rgb { 211 212 176 }
+	color_ui = rgb { 211 212 176 }
+}
+BSN = {
+	color = rgb { 130 21 52 }
+	color_ui = rgb { 130 21 52 }
+}
+MEM = {
+	color = rgb { 133 62 0 }
+	color_ui = rgb { 133 62 0 }
+}
+RIR = {
+	color = rgb { 191 159 31 }
+	color_ui = rgb { 191 159 31 }
+}
+MAM = {
+	color = rgb { 94 72 122 }
+	color_ui = rgb { 94 72 122 }
+}
+NHN = {
+	color = rgb { 68 109 148 }
+	color_ui = rgb { 68 109 148 }
+}
+CTC = {
+	color = rgb { 96 143 142 }
+	color_ui = rgb { 96 143 142 }
+}
+VTV = {
+	color = rgb { 61 92 39 }
+	color_ui = rgb { 61 92 39 }
+}
 
-# 
+#
 NSM = {
 	color = rgb { 96 96 96 }
 	color_ui = rgb { 96 96 96 }

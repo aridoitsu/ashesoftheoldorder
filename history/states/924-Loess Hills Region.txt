@@ -1,7 +1,9 @@
+
 state={
 	id=924
 	name="Platte"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = NEB
@@ -9,23 +11,27 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		victory_points = {
-			7852 5
+			7852 5 
 		}
 		victory_points = {
-			3855 3
+			3855 3 
 		}
 		victory_points = {
-			13922 3
+			13922 3 
 		}
 		victory_points = {
-			13885 3
+			13885 3 
 		}
+
 	}
+
 	provinces={
-		3855 7840 7852 12516 13885 13922
+		3855 7771 7840 7852 12516 13885 13922 13981 
 	}
 	manpower=84171
-	state_category = town
+	buildings_max_level_factor=1.000
+	state_category=town
 }

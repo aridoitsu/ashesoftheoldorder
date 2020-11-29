@@ -8,18 +8,21 @@ state={
 		aluminium=25.000
 	}
 
-	history = {
+	history={
 		owner = NEV
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = NEV
 		victory_points = {
-			7879 3
+			7879 3 
 		}
+
 	}
+
 	provinces={
-		4521 4816 7879 12425 13684 13694 13712 13723 13728 13738 13742 13748
+		4521 4816 7879 12425 13684 13694 13712 13723 13728 13738 13742 13775 13782 
 	}
 	manpower=91057
 	buildings_max_level_factor=1.000

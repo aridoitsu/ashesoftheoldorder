@@ -50,12 +50,16 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 add_ideas = {
+	WFF_A_Failed_Union
+	WFF_Light_in_Darkness
+	WFF_Separatists
+	WFF_Democratic_Elections
 }
 set_popularities = {
 	democratic = 41
@@ -70,4 +74,62 @@ set_popularities = {
 	anarchy = 0
 	fascism = 0
 	ultranationalism = 3
+}
+
+create_country_leader = {
+	name = "James Mattis"
+	desc = "POLITICS_JAMES_MATTIS_DESC"
+	picture = "WFF_Leader_President_James_Mattis.dds"
+	expire = "2040.1.1"
+	ideology = conservative
+}
+
+create_country_leader = {
+	name = "Arj Matron"
+	desc = "POLITICS_JAMES_MATTIS_DESC"
+	picture = "WFF_Leader_President_James_Mattis.dds"
+	expire = "2040.1.1"
+	ideology = sociallib
+}
+
+create_field_marshal = { 
+	name = "Mark Milley" 
+	desc = "POLITICS_MARK_MILLEY_DESC"
+	portrait_path = "gfx/leaders/WDC/WFF_General_Mark_Milley.dds"
+	traits = {
+		
+	}
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_field_marshal = { 
+	name = "Paul Nakasone" 
+	desc = "POLITICS_PAUL_NAKASONE_DESC"
+	portrait_path = "gfx/leaders/WDC/WFF_General_Paul_Nakasone.dds"
+	traits = {
+		
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_field_marshal = { 
+	name = "Tod Wolter" 
+	desc = "POLITICS_TOD_WOLTER_DESC"
+	portrait_path = "gfx/leaders/WDC/WFF_General_Tod_Wolter.dds"
+	traits = {
+		
+	}
+	skill = 5
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 3
 }

@@ -1,3 +1,4 @@
+
 state={
 	id=886
 	name="Santa Fe"
@@ -5,33 +6,37 @@ state={
 		aluminium=5.000
 		steel=12.000
 	}
-	history = {
+
+	history={
 		owner = SFE
 		add_core_of = SFE
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			13666 10
+			13666 10 
 		}
 		victory_points = {
-			13652 3
+			13652 3 
 		}
 		victory_points = {
-			13686 1
+			13686 1 
 		}
 		victory_points = {
-			13671 3
+			13671 3 
 		}
 		victory_points = {
-			13689 1
+			13689 1 
 		}
+
 	}
+
 	provinces={
-		13652 13666 13671 13686 13689
+		10642 13652 13666 13671 13677 13686 13689 13691 
 	}
 	manpower=933142
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

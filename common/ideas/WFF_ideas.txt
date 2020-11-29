@@ -1,0 +1,134 @@
+ideas = {
+	country = {
+		
+		WFF_A_Failed_Union = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.20
+			}
+		}
+		
+		WFF_Light_in_Darkness = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				
+			}
+		}
+		
+		WFF_Separatists = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.25
+			}
+		}
+		
+		WFF_Democratic_Elections = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.1
+				political_power_factor = 0.25
+			}
+		}
+		
+		WFF_A_Free_People = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.20	
+				consumer_goods_factor = 0.10
+			}
+		}
+		
+		WFF_Liberty_for_All = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = 0.1
+				surrender_limit = 0.4
+			}
+		}
+		
+		WFF_Separatist_Attacks = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = -0.25
+				line_change_production_efficiency_factor = -0.2
+				production_speed_buildings_factor = -0.3
+				stability_factor = -0.25
+				local_resources_factor = -0.20
+			}
+		}
+		
+		WFF_famines = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				line_change_production_efficiency_factor = -0.1
+				stability_factor = -0.05
+				local_resources_factor = -0.1
+			}
+		}
+		
+		WFF_Raids = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+		
+		WFF_Duty = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				production_factory_max_efficiency_factor = 0.2
+			}
+		}
+		
+		WFF_Divided = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.25
+			}
+		}
+	}
+}	
+	
+	
+	
+	
+	

@@ -1,0 +1,117 @@
+WFF_debug = {
+
+	debug_load_starting_tree = {
+		icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = wff_starting_focus_tree
+		}
+	}
+	
+	debug_load_born_in_the_fire_tree = {
+		icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = born_in_fire_tree
+		}
+	}
+	
+	debug_load_the_great_troubles_tree = {
+		icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = the_great_troubles_tree
+		}
+	}
+	
+	debug_load_a_dissolving_union_tree = {
+		icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = dissolving_union_focus_tree
+		}
+	}
+	
+	debug_load_fight_fire_with_fire_tree = {
+		icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = fight_fire_with_fire_focus_tree
+		}
+	}
+	
+	debug_load_democracy_reigns_supreme_tree = {
+		icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = democracy_reigns_supreme
+		}
+	}
+	
+}

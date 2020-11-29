@@ -260,20 +260,6 @@ on_actions = {
 				}
 			}
 			#############################
-
-
-			else = {	
-				ROOT = {
-					white_peace = FROM
-				}
-
-				FROM = {
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
-					}
-				}
-			}
 		}
 	}
 }

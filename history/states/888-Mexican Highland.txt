@@ -1,3 +1,4 @@
+
 state={
 	id=888
 	name="Tuscan Mexico"
@@ -6,27 +7,31 @@ state={
 		aluminium=30.000
 		chromium=4.000
 	}
-	history = {
+
+	history={
 		owner = TCN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			13562 3
+			13562 3 
 		}
 		victory_points = {
-			13513 1
+			13513 1 
 		}
 		victory_points = {
-			13515 3
+			13515 3 
 		}
 		add_core_of = TCN
+
 	}
+
 	provinces={
-		5044 10914 13513 13515 13542 13562
+		5044 13513 13515 13542 
 	}
 	manpower=43316
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

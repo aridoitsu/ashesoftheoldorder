@@ -1,24 +1,29 @@
+
 state={
 	id=989
 	name="Hardwood"
-	resources = {
-		tungsten = 22.000
+	resources={
+		tungsten=22.000
 	}
-	history = {
+
+	history={
 		owner = DMO
 		add_core_of = DMO
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			4664 5
+			4664 5 
 		}
+
 	}
+
 	provinces={
-		4664 4807 14050 7536
+		4664 4807 14050 
 	}
 	manpower=286101
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

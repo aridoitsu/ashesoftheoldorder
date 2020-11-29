@@ -1,29 +1,34 @@
+
 state={
 	id=899
 	name="Piney Woods"
-	resources = {
-		steel = 12.000
+	resources={
+		steel=12.000
 	}
-	history = {
+
+	history={
 		owner = TEX
 		add_core_of = TEX
 		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
-			10778 1
+			10778 1 
 		}
 		victory_points = {
-			6968 1
+			6968 1 
 		}
 		victory_points = {
-			805 1
+			805 1 
 		}
+
 	}
+
 	provinces={
-		805 4577 5001 6968 7628 9829 10504 10778 12486 13485
+		805 4577 5001 6968 7628 10504 10778 10861 12486 14983 15018 15026 15046 15059 15074 15107 15108 15113 15115 15148 15169 15186 15190 15194 15198 15212 15230 15238 15239 15271 
 	}
 	manpower=21031
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

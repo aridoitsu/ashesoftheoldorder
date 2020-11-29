@@ -1,0 +1,188 @@
+﻿l_english:
+ 
+ # Debug Decisions
+ 
+ debug_load_starting_tree:0 "Load Starting Tree"
+ debug_load_born_in_the_fire_tree:0 "Load 'Born in the Fire' Tree"
+ debug_load_the_great_troubles_tree:0 "Load 'The Great Troubles' Tree"
+ debug_load_a_dissolving_union_tree:0 "Load 'A Dissolving Union' Tree"
+ debug_load_fight_fire_with_fire_tree:0 "Load 'Fight fire with fire' Tree"
+ debug_load_democracy_reigns_supreme_tree:0 "Load 'Democracy Reigns Supreme' Tree"
+ 
+ # Idea LOC
+ 
+ WFF_A_Free_People:0 "A Free People"
+ WFF_A_Free_People_desc:0 ""
+ 
+ WFF_Liberty_for_All:0 "Liberty and Justice for All!"
+ WFF_Liberty_for_All_desc:0 ""
+ 
+ WFF_Separatist_Attacks:0 "Separatist Attacks"
+ WFF_Separatist_Attacks_desc:0 ""
+ 
+ WFF_famines:0 "Widespread Famines"
+ WFF_famines_desc:0 ""
+ 
+ WFF_Raids:0 "§RConstant Raids!§!"
+ WFF_Raids_desc:0 ""
+ 
+ WFF_Duty:0 "Our Duties"
+ WFF_Duty_desc:0 ""
+ 
+ WFF_Divided:0 "Divided"
+ WFF_Divided_desc:0 ""
+ 
+ # Focus Tree LOC
+ 
+ WFF_Legacy_of_the_Founding_Fathers:0 "Legacy of the Founding Fathers"
+ WFF_Legacy_of_the_Founding_Fathers_desc:0 "PLACEHOLDER"
+ 
+ WFF_A_Bastion_of_Liberty:0 "A Bastion of Liberty"
+ WFF_A_Bastion_of_Liberty_desc:0 "PLACEHOLDER"
+ 
+ WFF_The_Light_of_Hope:0 "The Light of Hope"
+ WFF_The_Light_of_Hope_desc:0 "PLACEHOLDER"
+ 
+ WFF_Life:0 "Life"
+ WFF_Life_desc:0 "PLACEHOLDER"
+ 
+ WFF_Liberty:0 "Liberty"
+ WFF_Liberty_desc:0 "PLACEHOLDER"
+ 
+ WFF_Pursuit_of_Happiness:0 "The Pursuit of Happiness"
+ WFF_Pursuit_of_Happiness_desc:0 "PLACEHOLDER"
+ 
+ WFF_A_Crippled_Nation:0 "A Crippled Nation"
+ WFF_A_Crippled_Nation_desc:0 "PLACEHOLDER"
+ 
+ WFF_The_American_Dream:0 "The American Dream"
+ WFF_The_American_Dream_desc:0 "PLACEHOLDER"
+ 
+ WFF_A_Failed_Union:0 "A Failed Union"
+ WFF_A_Failed_Union_desc:0 "PLACEHOLDER"
+ 
+ WFF_Liberty_and_Justice_for_All:0 "Liberty and Justice for All!"
+ WFF_Liberty_and_Justice_for_All_desc:0 "PLACEHOLDER"
+ 
+ WFF_What_Little_We_Have_Left:0 "What little we have Left"
+ WFF_What_Little_We_Have_Left_desc:0 "PLACEHOLDER"
+ 
+ 
+ WFF_Born_in_the_Fire:0 "Born in the Fire"
+ WFF_Born_in_the_Fire_desc:0 ""
+ 
+ WFF_Separatist_Movements:0 "Separatist Movements"
+ WFF_Separatist_Movements_desc:0 ""
+ 
+ WFF_The_Binding_Union:0 "The Binding Union"
+ WFF_The_Binding_Union_desc:0 ""
+ 
+ WFF_Helens_in_the_North:0 "The Helens in the North"
+ WFF_Helens_in_the_North_desc:0 ""
+ 
+ WFF_I_Dont_Know:0 "Colorado in the South"
+ WFF_I_Dont_Know_desc:0 ""
+ 
+ WFF_A_Dream_Built_1775:0 "A Dream Built in 1775"
+ WFF_A_Dream_Built_1775_desc:0 ""
+ 
+ WFF_Founded_in_1870:0 "A Union Founded in 1865"
+ WFF_Founded_in_1870_desc:0 ""
+ 
+ WFF_Widespread_Famine:0 "Widespread Famine"
+ WFF_Widespread_Famine_desc:0 ""
+ 
+ WFF_Calm_Down_the_Populace:0 "Calm down the Populace"
+ WFF_Calm_Down_the_Populace_desc:0 ""
+ 
+ WFF_Continuous_Raids:0 "Continuous Raids"
+ WFF_Continuous_Raids_desc:0 ""
+ 
+ WFF_Legacy_of_the_Fathers:0 "The Legacy We are left With"
+ WFF_Legacy_of_the_Fathers_desc:0 ""
+ 
+ WFF_Our_Duty:0 "Our Duty: To God and Country"
+ WFF_Our_Duty_desc:0 ""
+ 
+ WFF_Legacy_of_the_Dream:0 "Legacy of the Dream"
+ WFF_Legacy_of_the_Dream_desc:0 ""
+ 
+ WFF_Agricultural_Innovations:0 "Agricultural Innovations"
+ WFF_Agricultural_Innovations_desc:0 ""
+ 
+ WFF_Fighting_Fire_with_Fire:0 "Fighting fire with fire"
+ WFF_Fighting_Fire_with_Fire_desc:0 ""
+ 
+ WFF_A_Divided_Union:0 "A Divided Union"
+ WFF_A_Divided_Union_desc:0 ""
+ 
+ WFF_Republicans_vs_Democrats:0 "Republicans vs Democrats"
+ WFF_Republicans_vs_Democrats_desc:0 ""
+ 
+ WFF_A_Looming_Problem:0 "A Looming Problem"
+ WFF_A_Looming_Problem_desc:0 ""
+ 
+ WFF_Held_Together_with_Tape:0 "Held Together with Duct Tape"
+ WFF_Held_Together_with_Tape_desc:0 ""
+ 
+ WFF_Separatist_Movements_Increasing:0 "Separatist Movements Increasing"
+ WFF_Separatist_Movements_Increasing_desc:0 ""
+ 
+ WFF_The_Uncertain_Future:0 "The Uncertain Future"
+ WFF_The_Uncertain_Future_desc:0 ""
+ 
+ # Tooltip LOC
+ 
+ wff_bitf_tt_1:0 "§RSeparatists begin to launch more audacious operations. They begin to sabotage, assassinate, and even engage in open fire fights. This is not over yet.§!"
+ 
+ wff_bitf_tt_2:0 "§RTime to look towards the future. No matter how endangered and bloody it may be.§!"
+ 
+ # Event LOC
+ 
+ starting_tree.1.t:0 "The Legacy Left Behind"
+ starting_tree.1.d:0 ""
+ starting_tree.1.a:0 ""
+ 
+ starting_tree.2.t:0 "Our Fortress Strong"
+ starting_tree.2.d:0 ""
+ starting_tree.2.a:0 ""
+ 
+ starting_tree.3.t:0 "A Light in the Darkness"
+ starting_tree.3.d:0 ""
+ starting_tree.3.a:0 ""
+ 
+ starting_tree.4.t:0 "A Weakened Nation"
+ starting_tree.4.d:0 ""
+ starting_tree.4.a:0 ""
+ 
+ starting_tree.5.t:0 "The Dream we Fight For"
+ starting_tree.5.d:0 ""
+ starting_tree.5.a:0 ""
+ 
+ born_in_the_fire.1.t:0 "Born in the Fire"
+ born_in_the_fire.1.d:0 ""
+ born_in_the_fire.1.a:0 ""
+ 
+ born_in_the_fire.2.t:0 "Bound together"
+ born_in_the_fire.2.d:0 ""
+ born_in_the_fire.2.a:0 ""
+ 
+ born_in_the_fire.3.t:0 "A Young Dream"
+ born_in_the_fire.3.d:0 ""
+ born_in_the_fire.3.a:0 ""
+ 
+ born_in_the_fire.4.t:0 "A Newly Achieved Dream"
+ born_in_the_fire.4.d:0 ""
+ born_in_the_fire.4.a:0 ""
+ 
+ born_in_the_fire.5.t:0 "The Legacy we must Fulfill"
+ born_in_the_fire.5.d:0 ""
+ born_in_the_fire.5.a:0 ""
+ 
+ born_in_the_fire.6.t:0 "What the Dream means"
+ born_in_the_fire.6.d:0 ""
+ born_in_the_fire.6.a:0 ""
+ 
+ born_in_the_fire.7.t:0 "The Constant Struggle"
+ born_in_the_fire.7.d:0 ""
+ born_in_the_fire.7.a:0 ""

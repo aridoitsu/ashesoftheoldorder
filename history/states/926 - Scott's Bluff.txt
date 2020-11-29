@@ -1,31 +1,36 @@
+
 state={
 	id=926
 	name="Scott's Bluff"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = LAK
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			13903 5
+			13903 5 
 		}
 		victory_points = {
-			3613 1
+			3613 1 
 		}
 		victory_points = {
-			13928 1
+			13928 1 
 		}
 		victory_points = {
-			4749 1
+			4749 1 
 		}
+
 	}
+
 	provinces={
-		3613 4749 13903 13928 13951
+		3613 4749 7745 13903 13928 13951 
 	}
 	manpower=50123
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

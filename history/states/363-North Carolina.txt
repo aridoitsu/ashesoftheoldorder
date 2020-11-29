@@ -2,27 +2,27 @@
 state={
 	id=363
 	name="Forsyth"
-	resources = {
-		aluminium = 4.000
-		steel = 23.000
+	resources={
+		aluminium=4.000
+		steel=23.000
 	}
-	history = {
+
+	history={
 		owner = CRN
 		buildings = {
 			infrastructure = 6
-			#industrial_complex = 1
 			arms_factory = 2
 
 		}
 		add_core_of = CRN
 		victory_points = {
-			10081 5
+			10081 5 
 		}
 
 	}
 
 	provinces={
-		10081 10468 12445 7138 10096 10495 13621
+		7138 10081 10096 10495 12445 13621 
 	}
 	manpower=2057491
 	buildings_max_level_factor=1.000

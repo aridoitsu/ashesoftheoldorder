@@ -1,6 +1,0 @@
-﻿l_english:
- 
- # Election Stuff
- 
- WFF_elections:0 "Election Season"
- WFF_elections_desc:0 "Elections:\n\nMontana (1): \n - Republican: §*[?WDC.wff_mt_election_rep]%§!\n - Liberal: §*[?WDC.wff_mt_election_lib]%§!\n - Constitutional: §*[?WDC.wff_mt_election_con]%§!\n - Undecided: §*[?WDC.wff_mt_election_other]%§!\nWyoming: \nNebraska: \nKansas: \nNorth Dakota: \nSouth Dakota: \nColorado: "

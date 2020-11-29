@@ -12,6 +12,7 @@ state={
 
 		}
 		add_core_of = MEM
+		add_core_of = MPL
 		add_core_of = CAN
 
 	}

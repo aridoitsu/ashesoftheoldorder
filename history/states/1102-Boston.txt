@@ -8,6 +8,8 @@ state={
 
 	history={
 		owner = CRA
+		add_core_of = BSN
+		add_core_of = MAM
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2

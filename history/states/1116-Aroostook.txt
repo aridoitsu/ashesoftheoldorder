@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = MEM
 		add_core_of = CAN
+		add_core_of = MSG
 	}
 
 	provinces={

@@ -1,0 +1,172 @@
+add_namespace = starting_tree
+add_namespace = born_in_the_fire
+
+# Legacy of the Founding Fathers
+country_event = {
+    id = starting_tree.1
+    title = starting_tree.1.t
+    desc = starting_tree.1.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = starting_tree.1.a
+		ai_chance = { base = 100 }
+    }
+}
+
+# Bastion of Liberty
+country_event = {
+    id = starting_tree.2
+    title = starting_tree.2.t
+    desc = starting_tree.2.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = starting_tree.1.a
+		ai_chance = { base = 100 }
+    }
+}
+
+# The Light of Hope
+country_event = {
+    id = starting_tree.3
+    title = starting_tree.3.t
+    desc = starting_tree.3.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = starting_tree.3.a
+		ai_chance = { base = 100 }
+    }
+}
+
+# Crippled Nation
+country_event = {
+    id = starting_tree.4
+    title = starting_tree.4.t
+    desc = starting_tree.4.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = starting_tree.4.a
+		ai_chance = { base = 100 }
+    }
+}
+
+# The American Dream
+country_event = {
+    id = starting_tree.5
+    title = starting_tree.5.t
+    desc = starting_tree.5.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = starting_tree.5.a
+		ai_chance = { base = 100 }
+    }
+}
+
+### Born in the Fire Stuff
+
+# Born in the Fire
+country_event = {
+    id = born_in_the_fire.1
+    title = born_in_the_fire.1.t
+    desc = born_in_the_fire.1.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = born_in_the_fire.1.a
+		ai_chance = { base = 100 }
+    }
+}
+
+# The Binding Union
+country_event = {
+    id = born_in_the_fire.2
+    title = born_in_the_fire.2.t
+    desc = born_in_the_fire.2.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = born_in_the_fire.2.a
+		ai_chance = { base = 100 }
+    }
+}
+
+# Dream Built 1775
+country_event = {
+    id = born_in_the_fire.3
+    title = born_in_the_fire.3.t
+    desc = born_in_the_fire.3.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = born_in_the_fire.3.a
+		ai_chance = { base = 100 }
+    }
+}
+
+# A Dream Founded 1865
+country_event = {
+    id = born_in_the_fire.4
+    title = born_in_the_fire.4.t
+    desc = born_in_the_fire.4.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = born_in_the_fire.4.a
+		ai_chance = { base = 100 }
+    }
+}
+
+# Founding Fathers Legacy
+country_event = {
+    id = born_in_the_fire.5
+    title = born_in_the_fire.5.t
+    desc = born_in_the_fire.5.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = born_in_the_fire.5.a
+		ai_chance = { base = 100 }
+    }
+}
+
+# Legacy of the Dream
+country_event = {
+    id = born_in_the_fire.6
+    title = born_in_the_fire.6.t
+    desc = born_in_the_fire.6.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = born_in_the_fire.6.a
+		ai_chance = { base = 100 }
+    }
+}
+
+# Dem vs Rep
+country_event = {
+    id = born_in_the_fire.7
+    title = born_in_the_fire.7.t
+    desc = born_in_the_fire.7.d
+    picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+    option = {
+		name = born_in_the_fire.7.a
+		ai_chance = { base = 100 }
+    }
+}

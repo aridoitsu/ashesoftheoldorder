@@ -1,10 +1,12 @@
+
 state={
 	id=933
 	name="Brule"
-	resources = {
-		chromium = 13.000
+	resources={
+		chromium=13.000
 	}
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = LAK
@@ -12,20 +14,24 @@ state={
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		victory_points = {
-			1875 8
+			1875 8 
 		}
 		victory_points = {
-			14009 1
+			14009 1 
 		}
 		victory_points = {
-			14021 1
+			14021 1 
 		}
+
 	}
+
 	provinces={
-		1875 7745 7771 13979 13980 13981 13992 14009 14021
+		1875 13979 13980 13992 14009 14021 
 	}
 	manpower=525019
-	state_category = rural
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
