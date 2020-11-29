@@ -3119,5 +3119,113 @@ spriteTypes = {
 		name = "NAK_Fight_in_the_Marshes"
 		texturefile = "gfx/interface/goals/NAK_Fight_in_the_Marshes.dds"
 	}
+	SpriteType = {
+		name = "NAK_Fight_in_the_Mountains"
+		texturefile = "gfx/interface/goals/NAK_Fight_in_the_Mountains.dds"
+	}
+	SpriteType = {
+		name = "NAK_Fight_On_Our_Soil"
+		texturefile = "gfx/interface/goals/NAK_Fight_On_Our_Soil.dds"
+	}
+	SpriteType = {
+		name = "NAK_Redirect_Sea_Routes"
+		texturefile = "gfx/interface/goals/NAK_Redirect_Sea_Routes.dds"
+	}
+	SpriteType = {
+		name = "NAK_Relocate_Factories_Underground"
+		texturefile = "gfx/interface/goals/NAK_Relocate_Factories_Underground.dds"
+	}
+	SpriteType = {
+		name = "NAK_Sabotage_Supply_Lines"
+		texturefile = "gfx/interface/goals/NAK_Sabotage_Supply_Lines.dds"
+	}
+	SpriteType = {
+		name = "NAK_Scorched_Earth_Warfare"
+		texturefile = "gfx/interface/goals/NAK_Scorched_Earth_Warfare.dds"
+	}
+	SpriteType = {
+		name = "NAK_Take_the_Fight_to_Them"
+		texturefile = "gfx/interface/goals/NAK_Take_the_Fight_to_Them.dds"
+	}
+	SpriteType = {
+		name = "NAK_War_Rationing"
+		texturefile = "gfx/interface/goals/NAK_War_Rationing.dds"
+	}
+	SpriteType = {
+		name = "NAK_Shouting_the_Battlecry_of_Freedom"
+		texturefile = "gfx/interface/goals/NAK_Shouting_the_Battlecry_of_Freedom.dds"
+	}
+	SpriteType = {
+		name = "NAK_Modern_Guerllia_Warfare"
+		texturefile = "gfx/interface/goals/NAK_Modern_Guerllia_Warfare.dds"
+	}
+	SpriteType = {
+		name = "NAK_Prepare_for_the_Worst"
+		texturefile = "gfx/interface/goals/NAK_Prepare_for_the_Worst.dds"
+	}
+	SpriteType = {
+		name = "NAK_Lose_the_Battle_Win_the_War"
+		texturefile = "gfx/interface/goals/NAK_Lose_the_Battle_Win_the_War.dds"
+	}
+	SpriteType = {
+		name = "NAK_Mobilize_the_Economy"
+		texturefile = "gfx/interface/goals/NAK_Mobilize_the_Economy.dds"
+	}
+	SpriteType = {
+		name = "NAK_Hope_for_the_Best"
+		texturefile = "gfx/interface/goals/NAK_Hope_for_the_Best.dds"
+	}
+	SpriteType = {
+		name = "NAK_Every_Person_Has_Their_Place"
+		texturefile = "gfx/interface/goals/NAK_Every_Person_Has_Their_Place.dds"
+	}
+	SpriteType = {
+		name = "NAK_Enhanced_Guerllia_Warfare"
+		texturefile = "gfx/interface/goals/NAK_Enhanced_Guerllia_Warfare.dds"
+	}
+	SpriteType = {
+		name = "NAK_Teach_New_Expertise"
+		texturefile = "gfx/interface/goals/NAK_Teach_New_Expertise.dds"
+	}
+	SpriteType = {
+		name = "NAK_Break_the_Blockade"
+		texturefile = "gfx/interface/goals/NAK_Break_the_Blockade.dds"
+	}
+	SpriteType = {
+		name = "NAK_Expand_Our_Workshops"
+		texturefile = "gfx/interface/goals/NAK_Expand_Our_Workshops.dds"
+	}
+	SpriteType = {
+		name = "NAK_Build_Up_Our_Industry"
+		texturefile = "gfx/interface/goals/NAK_Build_Up_Our_Industry.dds"
+	}
+	SpriteType = {
+		name = "NAK_Begin_Spring_Offensive"
+		texturefile = "gfx/interface/goals/NAK_Begin_Spring_Offensive.dds"
+	}
+	SpriteType = {
+		name = "NAK_Encircle_Charleston"
+		texturefile = "gfx/interface/goals/NAK_Encircle_Charleston.dds"
+	}
+	SpriteType = {
+		name = "NAK_Encircle_Panhandle"
+		texturefile = "gfx/interface/goals/NAK_Encircle_Panhandle.dds"
+	}
+	SpriteType = {
+		name = "NAK_Avenge_the_Fallen"
+		texturefile = "gfx/interface/goals/NAK_Avenge_the_Fallen.dds"
+	}
+	SpriteType = {
+		name = "NAK_Belief_in_the_Final_Victory"
+		texturefile = "gfx/interface/goals/NAK_Belief_in_the_Final_Victory.dds"
+	}
+	SpriteType = {
+		name = "NAK_Dominate_the_Skies"
+		texturefile = "gfx/interface/goals/NAK_Dominate_the_Skies.dds"
+	}
+	SpriteType = {
+		name = "NAK_Burn_their_Cities"
+		texturefile = "gfx/interface/goals/NAK_Burn_their_Cities.dds"
+	}
 	
 }
