@@ -1,0 +1,24 @@
+state={
+	id=1185
+	name="Lexington"
+	history = {
+		owner = CRN
+		add_core_of = CRN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			13587 3
+		}
+		victory_points = {
+			13579 1
+		}
+	}
+	provinces={
+		13578 13587 13579
+	}
+	manpower=32510
+	state_category = town
+}

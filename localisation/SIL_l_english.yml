@@ -100,3 +100,9 @@
  #Leader Descriptions
 
  POLITICS_SILICON_COMMITTEE_DESC:0 "Ruling autocratically ever since their inception, the Silicon Valley Management Committee is a conglomerate of corporations, only ever united in two things, mutual defense and profit making. Some of the more notable corporations on the committee include Amazon, Apple, Intel, and Alphabet Inc. Each corporation is caught up in a complicated web of enemies, alliances, and agreements, however each is constantly vying for control to lead the Management Committee and enforce things how they see fit.\n\nWithin the Committee it is not an ideological position or a principled approach which allows one to come to power, but cold hard cash. Corruption is not something which is lost or gained within the committee but something which is inherent to it, as every position is only as important as the money backing it."
+
+ # Events
+
+ SIl.1.t:0 "The Silicon Management Committee"
+ SIl.1.d:0 ""
+ SIl.1.a:0 "May our country remain prosperous"

@@ -1,0 +1,24 @@
+state={
+	id=1184
+	name="Albemarle"
+	resources = {
+		steel = 12.000
+		oil = 2.000
+	}
+	history = {
+		owner = CRN
+		add_core_of = CRN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			4168 1
+		}
+	}
+	provinces={
+		4753 6943 9876 15062 15099 15109
+	}
+	manpower=53210
+	state_category = rural
+}

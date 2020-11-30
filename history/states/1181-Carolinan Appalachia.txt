@@ -1,0 +1,17 @@
+state={
+	id=1181
+	name="Carolinan Appalachia"
+	history = {
+		owner = CRN
+		add_core_of = CRN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		15244
+	}
+	manpower=851
+	state_category = rural
+}

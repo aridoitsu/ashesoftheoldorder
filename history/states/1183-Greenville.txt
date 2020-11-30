@@ -1,0 +1,19 @@
+state={
+	id=1183
+	name="Neuse"
+	history = {
+		owner = CRN
+		add_core_of = CRN
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			12054 5
+		}
+	}
+	provinces={
+		1132 12054 15140 15162 15199
+	}
+	manpower=163122
+	state_category = town
+}

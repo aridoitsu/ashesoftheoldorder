@@ -1,0 +1,15 @@
+add_namespace = SIL
+
+country_event = {
+	id = SIL.1
+	title = SIl.1.t
+	desc = SIL.1.d
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = SIL.1.a
+		add_political_power = 50
+	}
+}

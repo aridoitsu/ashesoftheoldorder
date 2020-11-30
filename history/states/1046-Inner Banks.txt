@@ -1,6 +1,6 @@
 state={
 	id=1046
-	name="Coastal Carolina"
+	name="Pitt"
 	resources = {
 		steel = 12.000
 		oil = 2.000
@@ -15,12 +15,9 @@ state={
 		victory_points = {
 			4168 1
 		}
-		victory_points = {
-			11927 1
-		}
 	}
 	provinces={
-		4168 6943 1077 1163 9876 10047 11927 1019 1132
+		1077 1163 4168 15033 15040 15068 15087
 	}
 	manpower=102457
 	buildings_max_level_factor=1.000

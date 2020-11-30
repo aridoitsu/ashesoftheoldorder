@@ -1,0 +1,31 @@
+
+state={
+	id=1182
+	name="Cape Fear"
+	resources={
+		aluminium=4.000
+		steel=12.000
+	}
+
+	history={
+		owner = CRN
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+		}
+		add_core_of = CRN
+		victory_points = {
+			11927 1
+		}
+		victory_points = {
+			7083 10
+		}
+
+	}
+
+	provinces={
+		1019 7083 10051 11927 15117 15126 15139 15165 15166 15176 15206
+	}
+	manpower=2057491
+	state_category=large_town
+}
