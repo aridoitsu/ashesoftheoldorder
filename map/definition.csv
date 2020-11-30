@@ -15696,7 +15696,7 @@
 15695;208;232;198;land;false;forest;2
 15696;46;112;70;land;false;forest;2
 15697;166;12;56;land;false;desert;2
-15698;31;94;54;land;false;mountain;2
+15698;31;94;54;lake;false;mountain;2
 15699;178;135;201;land;true;forest;2
 15700;10;205;65;land;false;forest;2
 15701;125;224;227;land;false;mountain;2
@@ -15926,3 +15926,5 @@
 15925;93;181;218;land;false;plains;3
 15926;90;170;151;land;false;plains;3
 15927;84;106;122;land;false;plains;3
+15928;255;218;96;land;true;jungle;6
+15929;255;120;96;land;true;plains;6
