@@ -1,0 +1,19 @@
+spriteTypes = {
+	#corneredTileSpriteType = {
+	#	name = "GFX_frontend_bg"
+	#	texturefile = "gfx/loadingscreens/load_5.dds"
+	#	borderSize = { x=0 y=0 }
+	#	size = { x=1920 y=1440 }
+	#	tilingCenter = no
+	#	effectFile = "gfx/FX/buttonstate.shader"
+	#}
+	frameAnimatedSpriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/loadingscreens/load_5.dds"
+		effectFile = "gfx/FX/buttonstate.shader"
+		noOfFrames = 5
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+	}
+}
