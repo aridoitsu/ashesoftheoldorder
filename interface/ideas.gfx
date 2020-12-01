@@ -5736,4 +5736,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/NAK_Con_Blockade.tga"
 	}
 
+	spriteType = {
+		name = "GFX_idea_NYN_investor_backing"
+		texturefile = "gfx/interface/ideas/NYN_idea_investor_backing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NYN_growing_economy"
+		texturefile = "gfx/interface/ideas/NYN_idea_growing_economy.dds"
+	}
+
 }

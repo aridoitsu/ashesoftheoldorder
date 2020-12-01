@@ -152,14 +152,17 @@ convert_to_manpower = {
 
 convert_to_debt_growth = {
 	set_temp_variable = { tempp2 = NYN_austerity_budget }
-	multiply_temp_variable = { tempp2 = 0.2 }
-	round_temp_variable = tempp2
+	multiply_temp_variable = { tempp2 = 0.003 }
+	add_to_temp_variable = { tempp2 = -0.1 }
 	set_variable = { NYN_extra_growth = tempp2 }
+	multiply_temp_variable = { tempp2 = 100 }
+	set_variable = { NYN_visual_debt_growth = tempp2 }
 }
 
 convert_to_construction_growth = {
 	set_temp_variable = { construction_temp = NYN_construction_budget }
-	multiply_temp_variable = { construction_temp = -0.002 }
+	multiply_temp_variable = { construction_temp = -0.003 }
+	add_to_temp_variable = { construction_temp = 0.1 }
 	set_variable = { NYN_extra_construction = construction_temp }
 	multiply_temp_variable = { construction_temp = 100 }
 	set_variable = { NYN_visual_extra_construction = construction_temp }

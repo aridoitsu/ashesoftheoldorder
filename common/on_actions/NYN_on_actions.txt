@@ -12,11 +12,6 @@ on_actions = {
 					value = NYN_leftist_org_gain
 				}
 			}
-			if = {
-				limit = { check_variable = { NYN_military_budget > 0 } }
-				update_gui_stuff = yes
-				add_manpower = NYN_extra_manpower
-			}
 		}
 	}
 #end
