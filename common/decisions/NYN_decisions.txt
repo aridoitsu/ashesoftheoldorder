@@ -629,7 +629,7 @@ NYN_debt_growth = {
 		days_remove = 14
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = -100 }
-			add_to_variable = { NYN_real_debt = -1 }
+			add_to_variable = { NYN_real_debt = -2 }
 			add_political_power = -100
 			custom_effect_tooltip = NYN_minus_100_debt
 			custom_effect_tooltip = NYN_minus_1_real
@@ -649,7 +649,7 @@ NYN_debt_growth = {
 		days_remove = 14
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = -300 }
-			add_to_variable = { NYN_real_debt = -2 }
+			add_to_variable = { NYN_real_debt = -8 }
 			add_political_power = -300
 			custom_effect_tooltip = NYN_minus_300_debt
 			custom_effect_tooltip = NYN_minus_2_real

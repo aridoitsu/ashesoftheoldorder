@@ -3227,5 +3227,9 @@ spriteTypes = {
 		name = "NAK_Burn_their_Cities"
 		texturefile = "gfx/interface/goals/NAK_Burn_their_Cities.dds"
 	}
+	SpriteType = {
+		name = "NAK_Expand_the_Newton_Line"
+		texturefile = "gfx/interface/goals/NAK_Expand_the_Newton_Line.dds"
+	}
 	
 }

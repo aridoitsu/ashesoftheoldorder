@@ -83,8 +83,8 @@
  NYN_set_reported_tt:0 "Set reported debt to real debt"
  NYN_minus_100_debt:0 "Debt: §G-100k§!"
  NYN_minus_300_debt:0 "Debt: §G-300k§!"
- NYN_minus_1_real:0 "Real Debt Growth: §G-1%§!"
- NYN_minus_2_real:0 "Real Debt Growth: §G-2%§!"
+ NYN_minus_1_real:0 "Real Debt Growth: §G-2%§!"
+ NYN_minus_2_real:0 "Real Debt Growth: §G-8%§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
