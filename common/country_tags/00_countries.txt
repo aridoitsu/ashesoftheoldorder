@@ -371,7 +371,7 @@ GOL = "countries/Golden Coast.txt"
 AKA = "countries/Alaska.txt"
 LIE = "countries/Liechtenstein.txt"
 NSM = "countries/North Salmon Militia.txt"
-
+#NE Collapse tags
 MAM = "countries/Massachusetts.txt"
 BSN = "countries/Boston.txt"
 RIR = "countries/Rhode Island.txt"
@@ -384,6 +384,13 @@ SRV = "countries/Socialist Vermont.txt"
 MSG = "countries/Salvation Government of Maine.txt"
 GMB = "countries/Green Mountain Boys.txt"
 MPL = "countries/Portland Maine.txt"
+#Cockasses Tags :troll:
+KNR = "countries/Kuban National Republic.txt"
+KSD = "countries/Kransnodar.txt"
+STV = "countries/Stavropol.txt"
+KMY = "countries/Kalmykia Republic.txt"
+MRP = "countries/Mountain Republic.txt"
+DGS = "countries/Dagestan.txt"
 
 
 
