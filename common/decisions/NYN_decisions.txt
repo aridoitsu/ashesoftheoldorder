@@ -571,7 +571,7 @@ NYN_debt_growth = {
 		icon = generic_break_treaty
 		days_re_enable = 0
 		complete_effect = {
-			add_to_variable = { NYN_reported_debt = -1 }
+			add_to_variable = { NYN_reported_debt = -5 }
 			NYN_reset_debt = yes
 			custom_effect_tooltip = NYN_minus_reported_tt
 		}

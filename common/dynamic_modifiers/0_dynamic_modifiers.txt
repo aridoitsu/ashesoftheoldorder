@@ -281,6 +281,6 @@ NYN_effects_of_our_debt = { #Used as National Spirit
 	enable = { always = yes }
 
 	icon = GFX_idea_generic_fortify_the_borders
-	political_power_factor = NYN_extra_growth
+	political_power_factor = NYN_temp_modifier
 	
 }

@@ -67,9 +67,13 @@ NYN_reset_debt = {
 	set_variable = { temp1 = NYN_real_debt }
 	subtract_from_variable = { temp1 = NYN_reported_debt }
 	add_to_variable = { temp1 = 1 }
-	set_variable = { temp2 = 20 }
+	set_variable = { temp2 = 10 }
+	set_temp_variable = { temp_reported = NYN_reported_debt }
+	multiply_temp_variable = { temp_reported = -0.01 }
+	set_variable = { NYN_temp_modifier = temp_reported }
 	multiply_variable = { temp1 = temp2 }
 	set_variable = { NYN_overreport_cost = temp1 }
+	force_update_dynamic_modifier = yes
 }
 
 NYN_improve_trait = {

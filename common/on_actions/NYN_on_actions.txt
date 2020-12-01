@@ -14,5 +14,18 @@ on_actions = {
 			}
 		}
 	}
+	on_monthly_NYN = {
+		effect = {
+			if = {
+				limit =  { has_completed_focus = NYN_the_revolution_crushed }
+				set_temp_variable = { temp_total_debt = NYN_total_debt }
+				set_temp_variable = { temp_total_debt1 = NYN_real_debt }
+				multiply_temp_variable = { temp_total_debt1 = 0.01 }
+				add_to_temp_variable = { temp_total_debt1 = 1 }
+				multiply_temp_variable = { temp_total_debt = temp_total_debt1 }
+				set_variable = { NYN_total_debt = temp_total_debt }
+			}
+		}
+	}
 #end
 }	
