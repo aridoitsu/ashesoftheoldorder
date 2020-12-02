@@ -12,10 +12,18 @@ on_actions = {
 					value = NYN_leftist_org_gain
 				}
 			}
+		}
+	}
+	on_monthly_NYN = {
+		effect = {
 			if = {
-				limit = { check_variable = { NYN_military_budget > 0 } }
-				update_gui_stuff = yes
-				add_manpower = NYN_extra_manpower
+				limit =  { has_completed_focus = NYN_the_revolution_crushed }
+				set_temp_variable = { temp_total_debt = NYN_total_debt }
+				set_temp_variable = { temp_total_debt1 = NYN_real_debt }
+				multiply_temp_variable = { temp_total_debt1 = 0.01 }
+				add_to_temp_variable = { temp_total_debt1 = 1 }
+				multiply_temp_variable = { temp_total_debt = temp_total_debt1 }
+				set_variable = { NYN_total_debt = temp_total_debt }
 			}
 		}
 	}

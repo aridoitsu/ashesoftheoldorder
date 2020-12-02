@@ -5711,4 +5711,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SIL_Mass_Technological_Production.tga"
 	}
 
+	spriteType = {
+		name = "GFX_idea_NAK_Crippling_Homelessness"
+		texturefile = "gfx/interface/ideas/NAK_Crippling_Homelessness.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NAK_Rebel_Government"
+		texturefile = "gfx/interface/ideas/NAK_Rebel_Government.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NAK_Lack_of_Industrial_Expertise"
+		texturefile = "gfx/interface/ideas/NAK_Lack_of_Industrial_Expertise.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NAK_Racial_Divides"
+		texturefile = "gfx/interface/ideas/NAK_Racial_Divides.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NAK_Con_Blockade"
+		texturefile = "gfx/interface/ideas/NAK_Con_Blockade.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NYN_investor_backing"
+		texturefile = "gfx/interface/ideas/NYN_idea_investor_backing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NYN_growing_economy"
+		texturefile = "gfx/interface/ideas/NYN_idea_growing_economy.dds"
+	}
+
 }

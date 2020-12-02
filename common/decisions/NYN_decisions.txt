@@ -571,7 +571,7 @@ NYN_debt_growth = {
 		icon = generic_break_treaty
 		days_re_enable = 0
 		complete_effect = {
-			add_to_variable = { NYN_reported_debt = -1 }
+			add_to_variable = { NYN_reported_debt = -5 }
 			NYN_reset_debt = yes
 			custom_effect_tooltip = NYN_minus_reported_tt
 		}
@@ -589,7 +589,7 @@ NYN_debt_growth = {
 		days_remove = 14
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = 100 }
-			add_to_variable = { NYN_real_debt = 2 }
+			add_to_variable = { NYN_real_debt = 4 }
 			add_political_power = 100
 			custom_effect_tooltip = NYN_plus_100_debt
 			custom_effect_tooltip = NYN_plus_2_real
@@ -609,7 +609,7 @@ NYN_debt_growth = {
 		days_remove = 45
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = 300 }
-			add_to_variable = { NYN_real_debt = 1 }
+			add_to_variable = { NYN_real_debt = 6 }
 			add_political_power = 300
 			custom_effect_tooltip = NYN_plus_300_debt
 			custom_effect_tooltip = NYN_plus_1_real
@@ -629,7 +629,7 @@ NYN_debt_growth = {
 		days_remove = 14
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = -100 }
-			add_to_variable = { NYN_real_debt = -1 }
+			add_to_variable = { NYN_real_debt = -2 }
 			add_political_power = -100
 			custom_effect_tooltip = NYN_minus_100_debt
 			custom_effect_tooltip = NYN_minus_1_real
@@ -649,7 +649,7 @@ NYN_debt_growth = {
 		days_remove = 14
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = -300 }
-			add_to_variable = { NYN_real_debt = -2 }
+			add_to_variable = { NYN_real_debt = -6 }
 			add_political_power = -300
 			custom_effect_tooltip = NYN_minus_300_debt
 			custom_effect_tooltip = NYN_minus_2_real
@@ -682,6 +682,7 @@ NYN_test_ui_cat = {
 		}
 		visible = {
 			original_tag = NYN
+			has_completed_focus = NYN_the_military_industrial_complex
 		}
 		icon = generic_decision
 		days_re_enable = 0

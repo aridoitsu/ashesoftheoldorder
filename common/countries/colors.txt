@@ -1583,11 +1583,33 @@ VTV = {
 	color = rgb { 61 92 39 }
 	color_ui = rgb { 61 92 39 }
 }
-
-#
 NSM = {
 	color = rgb { 96 96 96 }
 	color_ui = rgb { 96 96 96 }
+}
+KNR = {
+	color = rgb { 71 67 54 }
+	color_ui = rgb { 71 67 54 }
+}
+KSD = {
+	color = rgb { 135 80 140 }
+	color_ui = rgb { 135 80 140 }
+}
+STV = {
+	color = rgb { 46 52 135 }
+	color_ui = rgb { 46 52 135 }
+}
+MRP = {
+	color = rgb { 64 115 70 }
+	color_ui = rgb { 64 115 70 }
+}
+DGS = {
+	color = rgb { 173 120 35 }
+	color_ui = rgb { 173 120 35 }
+}
+KMY = {
+	color = rgb { 179 55 21 }
+	color_ui = rgb { 179 55 21 }
 }
 
 

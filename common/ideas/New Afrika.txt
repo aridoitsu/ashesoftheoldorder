@@ -37,7 +37,7 @@ ideas = {
 				stability_factor = -0.10	
 				}
 			}
-		NAK_Lack_of_Industrial_Expertise  = {
+		NAK_Lack_of_Industrial_Expertise = {
 			picture = GFX_idea_NAK_Lack_of_Industrial_Expertise
 			allowed_civil_war = {
 				always = yes
@@ -49,7 +49,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.05
 				}
 		}
-		NAK_Lack_of_Industrial_Expertise2  = {
+		NAK_Lack_of_Industrial_Expertise2 = {
 			picture = GFX_idea_NAK_Lack_of_Industrial_Expertise
 			allowed_civil_war = {
 				always = yes
@@ -60,7 +60,7 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.05
 				}
 		}
-		NAK_Rebel_Government  = {
+		NAK_Rebel_Government = {
 			picture = GFX_idea_NAK_Rebel_Government
 			allowed_civil_war = {
 				always = yes
@@ -72,7 +72,7 @@ ideas = {
 				dig_in_speed_factor	= 0.2
 				}
 		}
-		NAK_Crippling_Homelessness  = {
+		NAK_Crippling_Homelessness = {
 			picture = GFX_idea_NAK_Crippling_Homelessness
 			allowed_civil_war = {
 				always = yes
@@ -83,7 +83,7 @@ ideas = {
 				consumer_goods_factor = 0.10
 				}
 		}
-		NAK_Breakfast_Programs  = {
+		NAK_Breakfast_Programs = {
 			picture = GFX_idea_NAK_Breakfast_Programs
 			allowed_civil_war = {
 				always = yes

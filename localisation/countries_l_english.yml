@@ -4226,6 +4226,36 @@
    ###############################
    BSN_ADJ:0 "Bostonian"
 
+   KNR:0 "Kuban National Republic"
+   KNR_DEF:0 "Kuban National Republic"
+   ###############################
+   KNR_ADJ:0 "Kubanese"
+
+   KSD:0 "Kransnodar"
+   KSD_DEF:0 "Kransnodar"
+   ###############################
+   KSD_ADJ:0 "Kransnodaran"
+
+   STV:0 "Stavropol"
+   STV_DEF:0 "Stavropol"
+   ###############################
+   STV_ADJ:0 "Stavropolian"
+
+   KMY:0 "Kalmykia Republic"
+   KMY_DEF:0 "Kalmykia Republic"
+   ###############################
+   KMY_ADJ:0 "Kalmykian"
+
+   MRP:0 "Mountain Republic"
+   MRP_DEF:0 "Mountain Republic"
+   ###############################
+   MRP_ADJ:0 "Mountainian"
+
+   DGS:0 "Dagestan"
+   DGS_DEF:0 "Dagestan"
+   ###############################
+   DGS_ADJ:0 "Dageh"
+
     CAN_liberal:0 "Canada"
     CAN_liberal_DEF:0 "Canada"
     CAN_democratic:0 "Canada"

@@ -497,6 +497,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 					value = 0
 				}
 				NYN_reset_debt = yes
+				add_dynamic_modifier = { modifier = NYN_effects_of_our_debt }
 			}
 		}
 

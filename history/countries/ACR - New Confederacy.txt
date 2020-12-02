@@ -88,3 +88,41 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = despot
 }
+
+##### Parties #####
+
+set_party_name = {
+    ideology = ultranationalism
+    long_name = ACR_ultranationalism_party_long
+    name = ACR_ultranationalism_party_short
+}
+set_party_name = {
+    ideology = fascism
+    long_name = ACR_fascism_party_long
+    name = ACR_fascism_party_
+}
+set_party_name = {
+    ideology = neutrality
+    long_name = ACR_neutrality_party_long
+    name = ACR_neutrality_party_short
+}
+set_party_name = {
+    ideology = authdem
+    long_name = ACR_authdem_party_long
+    name = ACR_authdem_party_short
+}
+set_party_name = {
+    ideology = democratic
+    long_name = ACR_democratic_party_long
+    name = ACR_democratic_party_short
+}
+set_party_name = {
+    ideology = liberal
+    long_name = ACR_liberal_party_long
+    name = ACR_liberal_party_short
+}
+set_party_name = {
+    ideology = anarchy
+    long_name = ACR_anarchy_party_long
+    name = ACR_anarchy_party_short
+}
