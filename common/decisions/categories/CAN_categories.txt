@@ -1,0 +1,6 @@
+CAN_sphere_of_influence = {
+	icon = generic_research
+	allowed = {
+		original_tag = CAN
+	}
+}

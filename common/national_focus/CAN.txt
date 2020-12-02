@@ -1,0 +1,22 @@
+﻿focus_tree = {
+	id = CAN1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CAN
+		}
+	}
+	#focus test
+	focus = {
+		id = CAN_pee
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
