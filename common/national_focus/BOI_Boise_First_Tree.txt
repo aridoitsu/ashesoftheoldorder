@@ -1,0 +1,208 @@
+focus_tree = {
+	id = Boise_First_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOI
+		}
+	}
+	#Focus for He Shot First!
+	focus = {
+		id = BOI_he_shot_first
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_cleaning_the_yellow_pine }
+		mutually_exclusive = { focus = BOI_it_was_a_mistake }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Phone Call
+	focus = {
+		id = BOI_a_phone_call
+		icon = GFX_BOI_phone_call
+		x = 15
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			declare_war_on= { 
+target = NSM 
+type = annex_everything 
+}
+		}
+	}
+
+	#Focus for A Trip Down I95
+	focus = {
+		id = BOI_a_trip_down_i95
+		icon = GFX_goal_unknown
+		x = 15
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_a_phone_call }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for I Spy With My Little Eye...
+	focus = {
+		id = BOI_i_spy_with_my_little_eye
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_a_trip_down_i95 }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			NSM = { exists= no }
+		}
+	}
+
+	#Focus for The Poor Souls
+	focus = {
+		id = BOI_the_poor_souls
+		icon = GFX_goal_unknown
+		x = 15
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_i_spy_with_my_little_eye }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Blood Stained Yellow Pine
+	focus = {
+		id = BOI_a_blood_stained_yellow_pine
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_the_poor_souls }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Cleaning The Yellow Pine
+	focus = {
+		id = BOI_cleaning_the_yellow_pine
+		icon = GFX_goal_unknown
+		x = 15
+		y = 5
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_a_blood_stained_yellow_pine }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for He Had A Gun!
+	focus = {
+		id = BOI_he_had_a_gun
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_cleaning_the_yellow_pine }
+		mutually_exclusive = { focus = BOI_it_was_a_mistake }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for It Was A Mistake!
+	focus = {
+		id = BOI_it_was_a_mistake
+		icon = GFX_goal_unknown
+		x = 15
+		y = 6
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_cleaning_the_yellow_pine }
+		mutually_exclusive = { focus = BOI_he_had_a_gun }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for It All Comes Down
+	focus = {
+		id = BOI_it_all_comes_down
+		icon = GFX_goal_unknown
+		x = 15
+		y = 7
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = BOI_he_had_a_gun 
+			focus = BOI_it_was_a_mistake 
+			focus = BOI_he_shot_first 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Tail Of 4
+	focus = {
+		id = BOI_the_tail_of_4
+		icon = GFX_goal_unknown
+		x = 15
+		y = 8
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_it_all_comes_down }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Elections Around The Corner
+	focus = {
+		id = BOI_elections_around_the_corner
+		icon = GFX_goal_unknown
+		x = 15
+		y = 9
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_the_tail_of_4 }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for What  A Mess...
+	focus = {
+		id = BOI_what__a_mess
+		icon = GFX_goal_unknown
+		x = 15
+		y = 10
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = BOI_elections_around_the_corner }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }
