@@ -58,16 +58,16 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	democratic = 4
+	democratic = 9
 	neutrality = 0
-	authdem = 17
-	liberal = 0
-	demsoc = 0
-	prodem = 0
+	authdem = 15
+	liberal = 4
+	demsoc = 3
+	prodem = 1
 	communism = 0
-	totalsoc = 0
-	libsoc = 5
-	anarchy = 10
+	totalsoc = 4
+	libsoc = 0
+	anarchy = 0
 	fascism = 34
 	ultranationalism = 30
 }
