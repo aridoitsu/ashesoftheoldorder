@@ -1,6 +1,6 @@
 capital = 1001
 
-set_research_slots = 3
+set_research_slots = 2
 
 set_technology = {
 	infantry_weapons = 1
@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,14 +60,22 @@ add_ideas = {
 set_popularities = {
 	democratic = 4
 	neutrality = 0
-	authdem = 0
-	liberal = 2
+	authdem = 17
+	liberal = 0
 	demsoc = 0
 	prodem = 0
-	communism = 34
+	communism = 0
 	totalsoc = 0
-	libsoc = 15
-	anarchy = 15
-	fascism = 0
+	libsoc = 5
+	anarchy = 10
+	fascism = 34
 	ultranationalism = 30
+}
+create_country_leader = {
+    name = "Nathan Larson"
+    desc = "POLITICS_NATHAN_LARSON_DESC"
+    picture = "Portrait_NSH_Nathan_Larson.dds"
+    expire = "2040.1.1"
+    ideology = nazism
+    
 }
