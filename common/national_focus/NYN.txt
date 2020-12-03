@@ -740,7 +740,8 @@ continuous_focus_position = { x = 50 y = 2000 }
 			}
 			prerequisite = { focus = NYN_the_military_industrial_complex }
 			completion_reward = {
-
+				add_manpower = 10000
+				add_stability = -0.025
 			}
 		}
 

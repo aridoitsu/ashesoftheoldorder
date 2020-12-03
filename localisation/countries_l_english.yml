@@ -4346,7 +4346,7 @@
    CAL_ADJ:0 "Californian"
 
    CPA:0 "California Progressive Alliance"
-   CPA_DEF:0 "California Progressive Alliance"
+   CPA_DEF:0 "California Progressive Alliance" 
    CPA_ADJ:0 "Californian Progressive"
 
    SIL:0 "Silicon Valley"
@@ -4360,3 +4360,7 @@
    LAF:0 "Los Angeles Federation"
    LAF_DEF:0 "the Los Angeles Federation"
    LAF_ADJ:0 "Angeleno"
+
+   NSH:0 "Bluegrass"
+   NSH_DEF:0 "the Bluegrass State"
+   NSH_ADJ:0 "Bluegrass"
