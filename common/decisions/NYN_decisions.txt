@@ -674,6 +674,39 @@ NYN_mobilization = {
 			country_event = { id = albany.23 }
 			}
 		}
+	NYN_military_recruiting_in_schools = {
+		available = {
+			has_completed_focus = NYN_target_the_schools
+		}
+		visible = {
+			has_completed_focus = NYN_target_the_schools
+		}
+		cost = 25
+		days_remove = 14
+		remove_effect = {
+			add_manpower = 2000
+			
+		}
+		complete_effect = {
+			add_to_variable = { NYN_total_debt = 25 }
+		}
+	}
+	NYN_promise_benefits = {
+		available = {
+			has_completed_focus = NYN_target_the_poors
+		}
+		visible = {
+			has_completed_focus = NYN_target_the_poors
+		}
+		cost = 25
+		days_remove = 14
+		remove_effect = {
+			add_manpower = 2000
+		}
+		complete_effect = {
+			add_to_variable = { NYN_total_debt = 25 }
+		}
+	}
 }
 NYN_test_ui_cat = {
 	NYN_test_lol = {

@@ -1436,8 +1436,8 @@ MIS = {
 	color_ui = rgb { 90 112 191 }
 }
 NSH = {
-	color = rgb { 153 57 44 }
-	color_ui = rgb { 153 57 44 }
+	color = rgb { 40 80 69 }
+	color_ui = rgb { 40 80 69 }
 }
 CRN = {
 	color = rgb { 176 133 48 }
