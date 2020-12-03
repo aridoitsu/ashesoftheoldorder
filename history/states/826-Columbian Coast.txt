@@ -1,18 +1,23 @@
+
 state={
 	id=826
 	name="Columbian Coast"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 5
 			dockyard = 2
+
 		}
+
 	}
+
 	provinces={
-		4385 10228 10258 10548 12231 14611 14651 14730 14742 14921 14969 14994
+		4385 10228 10258 10548 12231 14611 14651 14730 14742 14921 
 	}
 	manpower=201403
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

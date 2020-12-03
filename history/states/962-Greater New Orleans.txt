@@ -1,21 +1,26 @@
+
 state={
 	id=962
 	name="Baton Rouge"
-	history = {
+
+	history={
 		owner = NEO
 		add_core_of = NEO
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			1453 10
+			1453 10 
 		}
+
 	}
+
 	provinces={
-		1453 7524 13461 
+		1453 7524 13461 15269 15365 15494 
 	}
 	manpower=101592
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

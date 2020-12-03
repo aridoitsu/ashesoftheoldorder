@@ -1,7 +1,9 @@
+
 state={
 	id=960
 	name="Plantation"
-	history = {
+
+	history={
 		owner = NEO
 		add_core_of = NEO
 		buildings = {
@@ -9,12 +11,15 @@ state={
 			industrial_complex = 2
 			arms_factory = 3
 			air_base = 5
+
 		}
+
 	}
+
 	provinces={
-		4535 12398 13438 13443 13465 
+		4535 12398 13438 13443 13465 15330 15472 
 	}
 	manpower=1001592
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

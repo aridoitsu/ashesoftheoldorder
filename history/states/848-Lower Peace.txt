@@ -1,18 +1,23 @@
+
 state={
 	id=848
 	name="Lower Peace"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
-			infrastructure= 2
+			infrastructure = 2
 			industrial_complex = 1
+
 		}
+
 	}
+
 	provinces={
-		7766 7858 12534 15177 15209 15214 15270 15284 15291 15298 15342 15370 15373 15392 15396 15419 15427 15451 15459 15473 15480 15481 15490 15495 15503 15516 15527 15528 15530 15543 
+		7766 7858 12534 15177 15209 15214 15270 15284 15291 15298 15342 15370 15373 15392 15396 15451 15516 15530 15543 
 	}
 	manpower=21452
 	buildings_max_level_factor=2.000
-	state_category = wasteland
+	state_category=wasteland
 }

@@ -1,25 +1,30 @@
+
 state={
 	id=903
 	name="San Antonio"
-	history = {
+
+	history={
 		owner = MTX
 		add_core_of = MTX
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
+
 		}
 		victory_points = {
-			12782 15
+			12782 15 
 		}
 		victory_points = {
-			1927 3
+			1927 3 
 		}
+
 	}
+
 	provinces={
-		1927 6798 12782 13437 13442 13469 13482 13487 13493
+		1927 6798 12728 12782 13431 13436 13437 13440 13442 13469 13478 13482 13487 13492 13493 14871 15055 15123 15184 15197 15227 15232 15241 15297 15376 15377 15388 15389 15414 15427 15459 15482 15503 
 	}
 	manpower=1493101
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

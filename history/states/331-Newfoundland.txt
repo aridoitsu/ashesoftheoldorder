@@ -3,7 +3,7 @@ state={
 	id=331
 	name="Western Newfoundland"
 
-	history = {
+	history={
 		owner = CAN
 		buildings = {
 			infrastructure = 3
@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		7788 12698 14320 14321 14337 14344 14353 14381 14392 14405 14422 14436 14440 14473 14504 14531 14572 14616 14642 
+		12698 14320 14321 14337 14344 14353 14381 14392 14405 14422 14436 14440 14473 14504 14531 14572 14616 14642 
 	}
 	manpower=955060
 	buildings_max_level_factor=1.000
