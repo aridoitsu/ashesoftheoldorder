@@ -3,4 +3,6 @@ CAN_sphere_of_influence = {
 	allowed = {
 		original_tag = CAN
 	}
+
+	scripted_gui = CAN_main_ui
 }

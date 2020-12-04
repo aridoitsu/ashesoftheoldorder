@@ -512,6 +512,9 @@ NYN_reconstruction = {
 		}
 		visible = {
 			has_completed_focus = NYN_a_tax_haven
+			NOT = {
+				has_country_leader_with_trait = figurehead_for_corporations3
+			}
 		}
 		cost = 50
 		days_remove = 28
@@ -526,6 +529,7 @@ NYN_reconstruction = {
 		}
 		visible = {
 			has_completed_focus = NYN_for_the_common_man
+			has_country_leader_with_trait = figurehead_for_corporations1
 		}
 		cost = 50
 		days_remove = 28

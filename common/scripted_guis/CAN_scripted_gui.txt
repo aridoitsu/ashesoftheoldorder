@@ -1,0 +1,10 @@
+scripted_gui = {
+
+	CAN_main_ui = {
+	context_type = decision_category
+	window_name = "can_main_decision_ui_window"
+	
+	}
+
+#end
+}

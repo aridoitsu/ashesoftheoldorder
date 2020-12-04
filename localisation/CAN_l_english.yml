@@ -4,4 +4,18 @@
  CAN_test:0 "Test"
  #focus tree
  CAN_pee:0 "Pee"
+ #scripted gui
+ CAN_sphere_of_influence_desc:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ CAN_alaska:0 "Alaska"
+ CAN_alberta:0 "Alberta"
+ CAN_bc:0 "British Columbia"
+ CAN_manitoba:0 "Manitoba"
+ CAN_maritimes:0 "Maritimes"
+ CAN_new_england:0 "New England"
+ CAN_newfoundland:0 "Newfoundland"
+ CAN_ontario:0 "Ontario"
+ CAN_quebec:0 "Quebec"
+ CAN_saskatch:0 "Saskatchewan"
+ CAN_territories:0 "Northern Territories"
+ CAN_prov_govt:0 "Provisional Govt."
  #end

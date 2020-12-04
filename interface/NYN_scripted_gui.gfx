@@ -7,6 +7,10 @@ spriteTypes = {
         name = "GFX_sub_pol_idea_button"
         textureFile = "gfx//interface//sub_pol_idea_button.dds"
     }
+    spriteType = {
+        name = "GFX_nyn_piechart_overlay"
+        textureFile = "gfx//interface//nyn_piechart_overlay.dds"
+    }
 
 
 }

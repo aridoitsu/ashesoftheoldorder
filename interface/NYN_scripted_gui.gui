@@ -16,7 +16,7 @@ guiTypes = {
 			format = center
 			font = "hoi_24header"
 			maxHeight = 24
-			position = { x = 275 y = -395 }
+			position = { x = 270 y = -395 }
 		}
 
 		instantTextBoxType = {
@@ -25,7 +25,7 @@ guiTypes = {
 			format = center
 			font = "hoi_24header"
 			maxHeight = 24
-			position = { x = 275 y = -295 }
+			position = { x = 270 y = -295 }
 		}
 
 		instantTextBoxType = {
@@ -34,7 +34,7 @@ guiTypes = {
 			format = center
 			font = "hoi_24header"
 			maxHeight = 24
-			position = { x = 275 y = -235 }
+			position = { x = 270 y = -235 }
 		}
 
 		instantTextBoxType = {
@@ -43,43 +43,43 @@ guiTypes = {
 			format = center
 			font = "hoi_24header"
 			maxHeight = 24
-			position = { x = 275 y = -175 }
+			position = { x = 270 y = -175 }
 		}
 		
 		buttonType = {
 			name = "downbutton1"
 			spriteType = "GFX_rem_pol_idea_button"
-			position = { x = 250 y = -305 }
+			position = { x = 245 y = -305 }
 		}
 
 		buttonType = {
 			name = "upbutton1"
 			spriteType = "GFX_sub_pol_idea_button"
-			position = { x = 450 y = -305 }
+			position = { x = 445 y = -305 }
 		}
 
 		buttonType = {
 			name = "downbutton2"
 			spriteType = "GFX_rem_pol_idea_button"
-			position = { x = 250 y = -245 }
+			position = { x = 245 y = -245 }
 		}
 
 		buttonType = {
 			name = "upbutton2"
 			spriteType = "GFX_sub_pol_idea_button"
-			position = { x = 450 y = -245 }
+			position = { x = 445 y = -245 }
 		}
 
 		buttonType = {
 			name = "downbutton3"
 			spriteType = "GFX_rem_pol_idea_button"
-			position = { x = 250 y = -185 }
+			position = { x = 245 y = -185 }
 		}
 
 		buttonType = {
 			name = "upbutton3"
 			spriteType = "GFX_sub_pol_idea_button"
-			position = { x = 450 y = -185 }
+			position = { x = 445 y = -185 }
 		}
 
 		iconType = {
@@ -1080,6 +1080,7 @@ guiTypes = {
             rotation = 6.2203534541
               position = { x = 115 y = -220 }
 		}
+
 
     }
 

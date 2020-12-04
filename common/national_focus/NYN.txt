@@ -406,8 +406,12 @@ continuous_focus_position = { x = 50 y = 2000 }
 				picture = "Portrait_NYN_Andrew_Cuomo.dds"
 				expire = "2040.1.1"
 				ideology = junta
-				traits = { figurehead_for_corporations1 }
+				traits = { figurehead_for_corporations3 }
 				}
+			add_popularity = { 
+				ideology = neutrality
+				popularity = 0.1
+			 }
 		}
 	}
 		#the american dream
@@ -498,6 +502,10 @@ continuous_focus_position = { x = 50 y = 2000 }
 				}
 				NYN_reset_debt = yes
 				add_dynamic_modifier = { modifier = NYN_effects_of_our_debt }
+				add_popularity = { 
+					ideology = neutrality
+					popularity = 0.025
+				 }
 			}
 		}
 
@@ -519,6 +527,10 @@ continuous_focus_position = { x = 50 y = 2000 }
 				country_event = {
 					id = albany.18
 				}
+				add_popularity = { 
+					ideology = neutrality
+					popularity = 0.01
+				 }
 			}
 		}
 
@@ -541,6 +553,10 @@ continuous_focus_position = { x = 50 y = 2000 }
 				country_event = {
 					id = albany.19
 				}
+				add_popularity = { 
+					ideology = neutrality
+					popularity = 0.01
+				 }
 			}
 		}
 
@@ -562,6 +578,10 @@ continuous_focus_position = { x = 50 y = 2000 }
 				country_event = {
 					id = albany.20
 				}
+				add_popularity = { 
+					ideology = neutrality
+					popularity = 0.01
+				 }
 			}
 		}
 
@@ -583,6 +603,10 @@ continuous_focus_position = { x = 50 y = 2000 }
 				country_event = {
 					id = albany.21
 				}
+				add_popularity = { 
+					ideology = neutrality
+					popularity = 0.01
+				 }
 			}
 		}
 
@@ -607,6 +631,10 @@ continuous_focus_position = { x = 50 y = 2000 }
 					id = albany.22
 				}
 				remove_ideas = NYN_unpopular_government
+				add_popularity = { 
+					ideology = neutrality
+					popularity = 0.025
+				 }
 			}
 		}
 
@@ -688,6 +716,10 @@ continuous_focus_position = { x = 50 y = 2000 }
 				add_ideas = NYN_growing_economy
 				set_country_flag = NYN_rebounding_economy
 				mark_focus_tree_layout_dirty = yes
+				add_popularity = { 
+					ideology = neutrality
+					popularity = 0.06
+				 }
 			}
 		}
 

@@ -1,0 +1,50 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_alaska"
+        textureFile = "gfx//interface//canada_gui//alaska.dds"
+    }
+    spriteType = {
+        name = "GFX_alberta"
+        textureFile = "gfx//interface//canada_gui//alberta.dds"
+    }
+    spriteType = {
+        name = "GFX_bc"
+        textureFile = "gfx//interface//canada_gui//bc.dds"
+    }
+    spriteType = {
+        name = "GFX_manitoba"
+        textureFile = "gfx//interface//canada_gui//manitoba.dds"
+    }
+    spriteType = {
+        name = "GFX_maritimes"
+        textureFile = "gfx//interface//canada_gui//maritimes.dds"
+    }
+    spriteType = {
+        name = "GFX_new_england"
+        textureFile = "gfx//interface//canada_gui//new_england.dds"
+    }
+    spriteType = {
+        name = "GFX_newfoundland"
+        textureFile = "gfx//interface//canada_gui//newfoundland.dds"
+    }
+    spriteType = {
+        name = "GFX_ontario"
+        textureFile = "gfx//interface//canada_gui//ontario.dds"
+    }
+    spriteType = {
+        name = "GFX_quebec"
+        textureFile = "gfx//interface//canada_gui//quebec.dds"
+    }
+    spriteType = {
+        name = "GFX_saskatch"
+        textureFile = "gfx//interface//canada_gui//saskatch.dds"
+    }
+    spriteType = {
+        name = "GFX_territories"
+        textureFile = "gfx//interface//canada_gui//territories.dds"
+    }
+    spriteType = {
+        name = "GFX_prov_govt"
+        textureFile = "gfx//interface//canada_gui//prov_govt.dds"
+    }
+}

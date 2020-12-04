@@ -1,0 +1,119 @@
+guiTypes = {
+	containerWindowType = {
+		name = "can_main_decision_ui_window"
+		position = { x= 0 y = 0 }
+		clipping = no
+		Orientation = center
+		origo = center
+		scale = 1 # scale = 1 = 1024px x 1024px
+
+        buttonType = {
+			name = "alaska_button"
+			spriteType = "GFX_alaska"
+            position = { x = -30 y = -380 }
+            pdx_tooltip = CAN_alaska
+            scale = 0.3
+             
+        }
+        
+        buttonType = {
+			name = "alberta_button"
+			spriteType = "GFX_alberta"
+            position = { x = 158 y = -220 }
+            pdx_tooltip = CAN_alberta
+            scale = 0.3
+             
+        }
+        
+        buttonType = {
+			name = "bc_button"
+			spriteType = "GFX_bc"
+            position = { x = 105 y = -257 }
+            pdx_tooltip = CAN_bc
+            scale = 0.3
+             
+        }
+        
+        buttonType = {
+			name = "manitoba_button"
+			spriteType = "GFX_manitoba"
+            position = { x = 241 y = -202 }
+            pdx_tooltip = CAN_manitoba
+            scale = 0.3
+             
+        }
+        
+        buttonType = {
+			name = "new_england_button"
+			spriteType = "GFX_new_england"
+            position = { x = 383 y = -112 }
+            pdx_tooltip = CAN_new_england
+             
+            scale = 0.3
+        }
+        
+        buttonType = {
+			name = "newfoundland_button"
+			spriteType = "GFX_newfoundland"
+            position = { x = 403 y = -221 }
+            pdx_tooltip = CAN_newfoundland
+             
+            scale = 0.3
+        }
+        
+        buttonType = {
+			name = "ontario_button"
+			spriteType = "GFX_ontario"
+            position = { x = 273 y = -173 }
+            pdx_tooltip = CAN_ontario
+             
+            scale = 0.3
+        }
+        
+        buttonType = {
+			name = "quebec_button"
+			spriteType = "GFX_quebec"
+            position = { x = 345 y = -228 }
+            pdx_tooltip = CAN_quebec
+             
+            scale = 0.3
+        }
+
+        buttonType = {
+			name = "maritimes_button"
+			spriteType = "GFX_maritimes"
+            position = { x = 416 y = -123 }
+            pdx_tooltip = CAN_maritimes
+             
+            scale = 0.3
+        }
+        
+        buttonType = {
+			name = "saskatch_button"
+			spriteType = "GFX_saskatch"
+            position = { x = 195 y = -208 }
+            pdx_tooltip = CAN_saskatch
+            scale = 0.3
+             
+        }
+        
+        buttonType = {
+			name = "territories_button"
+			spriteType = "GFX_territories"
+            position = { x = 104 y = -380 }
+            pdx_tooltip = CAN_territories
+             
+            scale = 0.3
+        }
+        
+        buttonType = {
+			name = "prov_govt_button"
+			spriteType = "GFX_prov_govt"
+            position = { x = 396 y = -72 }
+            pdx_tooltip = CAN_prov_govt
+             
+            scale = 0.3
+		}
+    }
+
+}
