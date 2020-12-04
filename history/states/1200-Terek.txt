@@ -1,24 +1,22 @@
-
 state={
-	id=232
-	name="Dagestan"
+	id=1200
+	name="Terek"
 	resources={
-		oil=10
+		oil=7
 	}
 
 	history={
 		owner = DGS
 		buildings = {
 			infrastructure = 4
-
 		}
 		add_core_of = DGS
 
 	}
 
 	provinces={
-		3668 3682 6701
+		700 712 728 6730 6748 15931 15932 15933 15934
 	}
-	manpower = 899529
-	state_category=town
+	manpower=62349
+	state_category=rural
 }

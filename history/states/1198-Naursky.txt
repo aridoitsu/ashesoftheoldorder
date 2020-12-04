@@ -1,24 +1,23 @@
-
 state={
-	id=233
-	name="STATE_233"
+	id=1198
+	name="Naursky"
 	resources={
-		chromium=35.000
+		chromium=2.000
 	}
 
 	history={
 		owner = MRP
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 		}
 		victory_points = {
-			3672 5 
+			15939 1 
 		}
 		add_core_of = MRP
 	}
 
 	provinces={
-		666 1455 3667 3672 15936 15937 15938
+		683 11632 15935 15939 15940
 	}
 	manpower=1463970
 	state_category=rural

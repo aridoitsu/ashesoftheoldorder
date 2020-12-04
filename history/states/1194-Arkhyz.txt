@@ -1,0 +1,24 @@
+state={
+	id=1194
+	name="Karachay-Cherkessia"
+	resources={
+		chromium=8
+	}
+
+	history={
+		owner = MRP
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MRP
+		victory_points = {
+			11664 1 
+		}
+	}
+
+	provinces={
+		6692 11664
+	}
+	manpower=466305
+	state_category=rural
+}

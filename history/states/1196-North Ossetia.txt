@@ -1,0 +1,25 @@
+state={
+	id=1196
+	name="North Ossetia-Alania"
+	resources={
+		chromium=12.000
+	}
+
+	history={
+		owner = MRP
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = MRP
+		victory_points = {
+			11614 3 
+		}
+
+	}
+
+	provinces={
+		9647 11614
+	}
+	manpower=701765
+	state_category=town
+}

@@ -1,0 +1,22 @@
+state={
+	id=1186
+	name="Syunik"
+
+	history= {
+		owner = ARM
+		victory_points = {
+			4660 3
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ARM
+		add_claim_by = AZR
+	}
+
+	provinces={
+		4660 6642
+	}
+	manpower=186600
+	state_category=town
+}

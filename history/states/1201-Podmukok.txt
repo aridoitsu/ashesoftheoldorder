@@ -1,0 +1,25 @@
+state={
+	id=1201
+	name="Podmukok"
+	resources={
+		chromium=3.000
+	}
+
+	history={
+		owner = STV
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = STV
+		victory_points = {
+			6718 3 
+		}
+
+	}
+
+	provinces={
+		6702 6718 6733 11661 11690 15941 15942 15943 15944 15945 15946 15947 15948 15949
+	}
+	manpower=253751
+	state_category=town
+}

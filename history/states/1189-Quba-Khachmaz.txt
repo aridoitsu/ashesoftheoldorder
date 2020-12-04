@@ -1,0 +1,24 @@
+state={
+	id=1189
+	name="Quba-Khachmaz"
+	resources={
+		oil=20
+	}
+
+	history= { 
+		owner = AZR
+		victory_points = {
+			4545 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = AZR
+	}
+
+	provinces={
+		4458 4477 4545 6763 11645
+	}
+	manpower=1469500
+	state_category=town
+}

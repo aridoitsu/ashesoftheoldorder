@@ -1,0 +1,26 @@
+state={
+	id=1187
+	name="Lankaran"
+	resources={
+		oil=10
+	}
+
+	history= { 
+		owner = AZR
+		victory_points = {
+			12434 1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+		}
+		add_core_of = AZR
+
+	}
+
+	provinces={
+		4473 12434 
+	}
+	manpower=868100
+	state_category=town
+}

@@ -1,0 +1,22 @@
+state={
+	id=1192
+	name="Kakheti"
+
+	history= {
+		owner = GEO
+		victory_points = {
+			12309 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GEO
+
+	}
+
+	provinces={
+		1530 4534 4605 6436 12309 15951
+	}
+	manpower=678147
+	state_category=town
+}

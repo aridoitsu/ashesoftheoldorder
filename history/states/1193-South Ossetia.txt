@@ -1,0 +1,22 @@
+state={
+	id=1193
+	name="South Ossetia"
+
+	history= {
+		owner = GEO
+		victory_points = {
+			9626 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		9626 9632
+	}
+	manpower=53532
+	state_category=rural
+}

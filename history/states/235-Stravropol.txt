@@ -1,7 +1,7 @@
 
 state={
 	id=235
-	name="STATE_235"
+	name="Stravropol"
 	resources={
 		chromium=14.000
 	}
@@ -15,15 +15,14 @@ state={
 		}
 		add_core_of = STV
 		victory_points = {
-			11696 3 
+			11696 5
 		}
 
 	}
 
 	provinces={
-		731 748 3748 6702 6718 6733 6750 6753 9688 9705 9707 9722 9726 9742 11661 11678 11690 11693 11694 11696 11727 15941 15942 15943 15944 15945 15946 15947 15948 15949
+		748 3748 6753 9688 9726 9742 11678 11696 11727
 	}
-	manpower=1316516
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=472934
+	state_category=large_town
 }

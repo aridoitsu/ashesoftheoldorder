@@ -1,0 +1,28 @@
+state={
+	id=1195
+	name="Kabardino-Balkaria"
+	resources={
+		chromium=18.000
+	}
+
+	history={
+		owner = MRP
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MRP
+		victory_points = {
+			685 3 
+		}
+		victory_points = {
+			714 1 
+		}
+
+	}
+
+	provinces={
+		685 714 6674 9649 11633
+	}
+	manpower=865828
+	state_category = town
+}

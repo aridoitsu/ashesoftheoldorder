@@ -1,0 +1,33 @@
+state={
+	id=1202
+	name="Mashuk"
+	resources={
+		chromium=7
+	}
+
+	history={
+		owner = STV
+		buildings = {
+			infrastructure = 6
+			air_base = 2
+
+		}
+		add_core_of = STV
+		victory_points = {
+			11694 3 
+		}
+		victory_points = {
+			731 3
+		}
+		victory_points = {
+			9707 5
+		}
+
+	}
+
+	provinces={
+		731 6750 9705 9707 9722 11693 11694
+	}
+	manpower=284871
+	state_category=town
+}

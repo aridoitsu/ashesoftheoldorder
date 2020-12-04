@@ -198,8 +198,6 @@
    VICTORY_POINTS_3338:0 "Archangelsk"
    VICTORY_POINTS_3578:0 "Saratov"
    VICTORY_POINTS_3580:0 "Kursk"
-   VICTORY_POINTS_3653:0 "Batumi"
-   VICTORY_POINTS_3672:0 "Grozny"
    VICTORY_POINTS_3686:0 "Sevastopol"
    VICTORY_POINTS_3720:0 "Maikop"
    VICTORY_POINTS_4724:0 "Krasnoyarsk"
@@ -809,9 +807,7 @@
    VICTORY_POINTS_775:0 "Salsk"
    VICTORY_POINTS_11724:0 "Elitsa"
    VICTORY_POINTS_11696:0 "Stavropol"
-   VICTORY_POINTS_9628:0 "Ordzhonikidze"
    VICTORY_POINTS_9663:0 "Sochi"
-   VICTORY_POINTS_719:0 "Novorossiysk"
    VICTORY_POINTS_487:0 "Mikhaylovka"
    VICTORY_POINTS_12038:0 "Almería"
    VICTORY_POINTS_1176:0 "Granada"
@@ -1739,3 +1735,47 @@
  # Korea
 
  VICTORY_POINTS_15919:0 "Haeju"
+
+ # Armenia
+
+ VICTORY_POINTS_4460:0 "Kapan"
+
+ # Azerbaijan
+
+ VICTORY_POINTS_12434:0 "Massaly"
+ VICTORY_POINTS_11674:0 "Ganja"
+ VICTORY_POINTS_4545:0 "Quba"
+
+ # Georgia
+
+ VICTORY_POINTS_11617:0 "Sukhumi"
+ VICTORY_POINTS_3658:0 "Kutaisi"
+ VICTORY_POINTS_3653:0 "Batumi"
+ VICTORY_POINTS_772:0 "Poti"
+ VICTORY_POINTS_12309:0 "Signagi"
+ VICTORY_POINTS_9626:0 "Tskhinvali"
+
+ # Caucasus Mountains
+
+ VICTORY_POINTS_11664:0 "Zelenchukskaya"
+ VICTORY_POINTS_685:0 "Nalchik"
+ VICTORY_POINTS_714:0 "Baksan"
+ VICTORY_POINTS_11614:0 "Vladikavkaz"
+ VICTORY_POINTS_3672:0 "Grozny"
+ VICTORY_POINTS_15939:0 "Naurskaya"
+
+ # Dagestan
+
+ VICTORY_POINTS_4463:0 "Derbent"
+
+ # Stavropol
+
+ VICTORY_POINTS_6718:0 "Kislovodsk"
+ VICTORY_POINTS_11694:0 "Budyonnovsk"
+ VICTORY_POINTS_731:0 "Pyatigorsk"
+ VICTORY_POINTS_9707:0 "Mineralnye Vody"
+
+ # Krasnodar
+
+ VICTORY_POINTS_719:0 "Novorossiysk"
+ VICTORY_POINTS_9663:0 "Sochi"

@@ -1,0 +1,25 @@
+state={
+	id=1199
+	name="Lower Dagestan"
+	resources={
+		oil=3
+	}
+
+	history={
+		owner = DGS
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4463 1
+		}
+		add_core_of = DGS
+
+	}
+
+	provinces={
+		1450 3711 4463 6689 7554 7624 9645
+	}
+	manpower=131349
+	state_category=rural
+}

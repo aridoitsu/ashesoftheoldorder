@@ -1,0 +1,24 @@
+state={
+	id=1197
+	name="Ingushetia"
+	resources={
+		chromium=5.000
+	}
+
+	history={
+		owner = MRP
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = MRP
+		victory_points = {
+			9628 3 
+		}
+	}
+
+	provinces={
+		670 9628 11609 15950
+	}
+	manpower=412529
+	state_category=town
+}

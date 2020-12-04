@@ -1,0 +1,22 @@
+state={
+	id=1190
+	name="Abkhazia"
+
+	history= {
+		owner = GEO
+		victory_points = {
+			11617 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		672 11599 11617 11647
+	}
+	manpower=245246
+	state_category=town
+}
