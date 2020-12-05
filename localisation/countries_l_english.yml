@@ -3700,19 +3700,10 @@
    CGO_democratic_ADJ:0 "Chicagan"
    CGO_communism_ADJ:0 "Chicagan"
 
-   SRF_liberal:0 "Springfield"
-   SRF_liberal_DEF:0 "Springfield"
-   SRF_democratic:0 "Springfield"
-   SRF_democratic_DEF:0 "Springfield"
-   SRF_communism:0 "Springfield"
-   SRF_communism_DEF:0 "Springfield"
-   SRF_neutrality:0 "Springfield"
-   SRF_neutrality_DEF:0 "Springfield"
+   SRF:0 "Illinois"
+   SRF_DEF:0 "Illinois"
    ###############################
-   SRF_neutrality_ADJ:0 "Springfieldian"
-   SRF_liberal_ADJ:0 "Springfieldian"
-   SRF_democratic_ADJ:0 "Springfieldian"
-   SRF_communism_ADJ:0 "Springfieldian"
+   SRF_ADJ:0 "Illinoian"
 
    UPI_liberal:0 "Republic of Oceania"
    UPI_liberal_DEF:0 "Republic of Oceania"
@@ -4329,10 +4320,6 @@
  AHR_communist_DEF:0 "the Albany Humanist Republic"
  AHR_ADJ:0 "Albanian"
 
-
-
-### California ###
-
    MOD:0 "Modoc Republic"
    MOD_DEF:0 "the Modoc Republic"
    MOD_ADJ:0 "Modocian"
@@ -4346,7 +4333,7 @@
    CAL_ADJ:0 "Californian"
 
    CPA:0 "California Progressive Alliance"
-   CPA_DEF:0 "California Progressive Alliance" 
+   CPA_DEF:0 "California Progressive Alliance"
    CPA_ADJ:0 "Californian Progressive"
 
    SIL:0 "Silicon Valley"
@@ -4361,6 +4348,38 @@
    LAF_DEF:0 "the Los Angeles Federation"
    LAF_ADJ:0 "Angeleno"
 
-   NSH:0 "Bluegrass"
-   NSH_DEF:0 "the Bluegrass State"
-   NSH_ADJ:0 "Bluegrass"
+   NSH:0 "Purified American State"
+   NSH_DEF:0 "the Purified Bluegrass State"
+   NSH_ADJ:0 "Bluegrassian"
+
+   ABA:0 "Alberta"
+   ABA_DEF:0 "Alberta"
+   ABA_ADJ:0 "Albertan"
+
+   BCB:0 "British Columbia"
+   BCB_DEF:0 "British Columbia"
+   BCB_ADJ:0 "Columbian"
+
+   MBM:0 "Manitoba"
+   MBM_DEF:0 "Manitoba"
+   MBM_ADJ:0 "Manitoban"
+
+   NBN:0 "New Brunswick"
+   NBN_DEF:0 "New Brunswick"
+   NBN_ADJ:0 "Brunswickian"
+
+   NLN:0 "Newfoundland and Labrador"
+   NLN_DEF:0 "Newfoundland and Labrador"
+   NLN_ADJ:0 "Labradorian"
+
+   NSN:0 "Nova Scotia"
+   NSN_DEF:0 "Nova Scotia"
+   NSN_ADJ:0 "Scotian"
+
+   NTN:0 "Northern Union"
+   NTN_DEF:0 "Northern Union"
+   NTN_ADJ:0 "Nunavutian"
+
+   SKS:0 "Saskatchewan"
+   SKS_DEF:0 "Saskatchewan"
+   SKS_ADJ:0 "Saskatch"
