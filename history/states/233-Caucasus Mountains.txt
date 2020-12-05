@@ -1,7 +1,7 @@
 
 state={
 	id=233
-	name="STATE_233"
+	name="Chechnya"
 	resources={
 		chromium=35.000
 	}

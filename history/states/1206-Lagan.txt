@@ -1,0 +1,23 @@
+state={
+	id=1206
+	name="Lagan"
+
+	history={
+		owner = KMY
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = KMY
+		victory_points = {
+			6758 1 
+		}
+
+	}
+
+	provinces={
+		742 3726 6758 6760 6791 9720
+	}
+	manpower=15755
+	state_category=rural
+}

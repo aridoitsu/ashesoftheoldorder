@@ -1,0 +1,33 @@
+state={
+	id=1205
+	name="Khanskoye"
+	resources={
+		tungsten=3
+		oil=2
+	}
+
+	history={
+		owner = KSD
+		victory_points = {
+			6768 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			719 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = KSD
+
+	}
+
+	provinces={
+		765 3765 6768 6781 6783 9709 9744
+	}
+	manpower=143149
+	state_category=town
+}

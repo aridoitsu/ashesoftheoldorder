@@ -1,0 +1,22 @@
+state={
+	id=1209
+	name="Tsimlyansk"
+
+	history={
+		owner = KNR
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = KNR
+		victory_points = {
+			9474 5
+		}
+
+	}
+
+	provinces={
+		6490 6503 9442 9459 9474 9581 11400 11416
+	}
+	manpower=222093
+	state_category=large_town
+}

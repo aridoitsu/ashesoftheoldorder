@@ -1,0 +1,33 @@
+state={
+	id=1204
+	name="Lower Kuban"
+	resources={
+		tungsten=2
+		oil=3
+	}
+
+	history={
+		owner = KSD
+		victory_points = {
+			11668 1 
+		}
+		victory_points = {
+			735 3 
+		}
+		victory_points = {
+			3717 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = KSD
+
+	}
+
+	provinces={
+		735 3717 3720 3760 6736 6738 9691 9694 9696 11668 11681
+	}
+	manpower=389792
+	state_category=town
+}

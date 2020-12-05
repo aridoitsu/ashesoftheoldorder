@@ -8,9 +8,11 @@ state={
 
 	history={
 		owner = DGS
+		victory_points = {
+			3668 3
+		}
 		buildings = {
 			infrastructure = 4
-
 		}
 		add_core_of = DGS
 

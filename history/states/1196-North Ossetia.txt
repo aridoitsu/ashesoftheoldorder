@@ -1,6 +1,6 @@
 state={
 	id=1196
-	name="North Ossetia-Alania"
+	name="North Ossetia"
 	resources={
 		chromium=12.000
 	}

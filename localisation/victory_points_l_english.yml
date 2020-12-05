@@ -176,8 +176,8 @@
    VICTORY_POINTS_7394:0 "Cork"
    VICTORY_POINTS_6380:0 "Moscow"
    VICTORY_POINTS_525:0 "Kiev"
-   VICTORY_POINTS_3529:0 "Stalingrad"
-   VICTORY_POINTS_3151:0 "Leningrad"
+   VICTORY_POINTS_3529:0 "Volgograd"
+   VICTORY_POINTS_3151:0 "St. Petersburg"
    VICTORY_POINTS_6474:0 "Stalino"
    VICTORY_POINTS_9417:0 "Rostov"
    VICTORY_POINTS_11375:0 "Gorki"
@@ -626,7 +626,7 @@
    VICTORY_POINTS_3284:0 "Port of Spain"
    VICTORY_POINTS_10906:0 "Paramaribo"
    VICTORY_POINTS_4982:0 "Georgetown"
-   VICTORY_POINTS_8051:0 "Doha"
+   VICTORY_POINTS_15875:0 "Doha"
    VICTORY_POINTS_1384:0 "Dushanbe"
    VICTORY_POINTS_12333:0 "Ashgabat"
    VICTORY_POINTS_12583:0 "Bishkek"
@@ -1767,6 +1767,7 @@
  # Dagestan
 
  VICTORY_POINTS_4463:0 "Derbent"
+ VICTORY_POINTS_3668:0 "Makhachkala"
 
  # Stavropol
 
@@ -1779,3 +1780,16 @@
 
  VICTORY_POINTS_719:0 "Novorossiysk"
  VICTORY_POINTS_9663:0 "Sochi"
+ VICTORY_POINTS_11668:0 "Anapa"
+ VICTORY_POINTS_3717:0 "Maykop"
+ VICTORY_POINTS_735:0 "Armavir"
+ VICTORY_POINTS_6768:0 "Tikhoretsk"
+
+ # Kalmykia
+
+ VICTORY_POINTS_6758:0 "Lagan"
+
+ # Kuban
+
+ VICTORY_POINTS_585:0 "Bataysk"
+ VICTORY_POINTS_9474:0 "Volgodonsk"

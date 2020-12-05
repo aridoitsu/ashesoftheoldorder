@@ -1,41 +1,28 @@
 
 state={
 	id=234
-	name="STATE_234"
+	name="Krasnodar"
 	resources={
-		tungsten=17.000
-		oil=12.000
+		tungsten=5
+		oil=4
 	}
 
 	history={
 		owner = KSD
 		victory_points = {
-			3720 1 
-		}
-		victory_points = {
-			719 3 
-		}
-		victory_points = {
 			3734 5 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 6
 			industrial_complex = 1
-			719 = {
-				naval_base = 3
-				coastal_bunker = 1
-
-			}
-
 		}
 		add_core_of = KSD
 
 	}
 
 	provinces={
-		735 750 765 3717 3720 3734 3752 3760 3765 6736 6738 6741 6755 6768 6781 6783 9691 9694 9696 9709 9744 11668 11681 11729 
+		750 3734 3752 6741 6755 11729 
 	}
-	manpower=2903371
-	buildings_max_level_factor=1.000
+	manpower=1169403
 	state_category=city
 }

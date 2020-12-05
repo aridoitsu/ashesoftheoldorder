@@ -1,0 +1,23 @@
+state={
+	id=1208
+	name="Bataysk"
+
+	history={
+		owner = KNR
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = KNR
+		victory_points = {
+			585 3
+		}
+
+	}
+
+	provinces={
+		426 585 3587 11403 11559 
+	}
+	manpower=156345
+	state_category=town
+}

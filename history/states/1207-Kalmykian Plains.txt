@@ -1,0 +1,19 @@
+state={
+	id=1207
+	name="Kalmykian Plains"
+
+	history={
+		owner = KMY
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KMY
+
+	}
+
+	provinces={
+		481 3413 3439 3461 3475 3597 6463 9426 9440 9594 11579 15930
+	}
+	manpower=5931
+	state_category=pastoral
+}
