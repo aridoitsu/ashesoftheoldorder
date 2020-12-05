@@ -1,0 +1,9 @@
+continents = {
+	europe # Region 1
+	north_america # Region 2
+	south_america # Region 3
+	australia # Region 4
+	africa # Region 5
+	asia # Region 6
+	middle_east # Region 7
+}
