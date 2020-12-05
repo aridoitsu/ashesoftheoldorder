@@ -1,7 +1,7 @@
 
 state={
 	id=195
-	name="STATE_195"
+	name="Saint Petersburg"
 	manpower = 3750158
 	
 	state_category = metropolis

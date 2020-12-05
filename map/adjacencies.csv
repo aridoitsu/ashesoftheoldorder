@@ -27,7 +27,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6891;3838;sea;5579;-1;-1;-1;-1;;Sardinia-Corsica
 9990;4159;sea;5681;-1;-1;-1;-1;;Calabria-Sicily
 9793;9845;sea;8871;-1;-1;-1;-1;;Menorca-Mallorca
-12299;12113;sea;5539;-1;-1;-1;-1;;Singapore-Batam
+15881;12113;sea;5539;-1;-1;-1;-1;;Singapore-Batam
 7396;1401;sea;5615;-1;-1;-1;-1;;Bangka Belitung-Sumatra
 1342;10279;sea;2737;-1;-1;-1;-1;;Java-Sumatra
 7396;4211;sea;4225;-1;-1;-1;-1;;Bangka-Belitung
@@ -67,7 +67,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4252;1085;sea;5868;-1;-1;-1;-1;;Santa Isabel-Malaita
 1085;10291;sea;5868;-1;-1;-1;-1;;Malaita-Guadalcanal
 1742;7868;sea;2510;-1;-1;-1;-1;;Sakhalin-Siberia
-12661;7884;sea;8538;-1;-1;-1;-1;;Kodiak-Alaska
+15456;7884;sea;8538;-1;-1;-1;-1;;Kodiak-Alaska
 11985;1025;sea;7932;-1;-1;-1;-1;;Japan-Kyushu
 4094;7212;sea;8791;-1;-1;-1;-1;;Shikoku-Chugoku
 9965;7072;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
@@ -119,7 +119,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7003;9941;sea;7226;-1;-1;-1;-1;;Kos-Bodrum
 10007;10122;sea;7226;-1;-1;-1;-1;;Rhodes-Turkey
 9833;11829;sea;5412;-1;-1;-1;-1;;Bosphorus
-9680;6741;sea;8282;-1;-1;-1;-1;;Kerch Strait
+11649;6741;sea;8282;-1;-1;-1;-1;;Kerch Strait
 9859;3962;sea;5946;-1;-1;-1;-1;;Tsugaru Strait
 10011;7110;sea;2708;4825;1219;-1;-1;;Tushima-Kyushu
 4160;1070;sea;5244;-1;-1;-1;-1;;Hainan-Strait
@@ -137,7 +137,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13717;677;sea;5430;-1;-1;-1;-1;;Golden Gate Bridge
 13870;13869;sea;8518;-1;-1;-1;-1;;Brooklyn-Elizabeth
 13797;6892;sea;8492;-1;-1;-1;-1;;Chesapeake Bay
-788;3917;sea;8492;-1;-1;-1;-1;;Norfolk-Cape Charles
+788;15573;sea;8492;-1;-1;-1;-1;;Norfolk-Cape Charles
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
@@ -187,5 +187,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
+6692;11647;impassable;-1;-1;-1;-1;-1;;caucasus mountains
+6692;11617;impassable;-1;-1;-1;-1;-1;;caucasus mountains
+11664;11617;impassable;-1;-1;-1;-1;-1;;caucasus mountains
+11664;672;impassable;-1;-1;-1;-1;-1;;caucasus mountains
+11664;654;impassable;-1;-1;-1;-1;-1;;caucasus mountains
+6674;654;impassable;-1;-1;-1;-1;-1;;caucasus mountains
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

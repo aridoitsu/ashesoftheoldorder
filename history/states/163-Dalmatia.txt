@@ -1,21 +1,25 @@
-state=
-{
+state = {
 	id=163
-	name="STATE_163"
-	manpower = 18000
+	name = "Istanbul"
+	manpower = 	15519267
 	
-	state_category = enclave
+	state_category = metropolis
 	
 	history= { 
-		owner = CRO
+		owner = TUR
+		add_core_of = TUR
+		victory_points = {
+			9833 20
+		}
 		buildings = {
-			infrastructure = 5
-			3943 = {
-				naval_base = 1
+			infrastructure = 7
+			air_base = 4
+			9833 = {
+				naval_base = 8
 			}
 		}
 	} 
 	provinces={	
-		3943 
+		9833
 	}
 }

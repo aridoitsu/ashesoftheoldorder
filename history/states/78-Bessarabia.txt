@@ -1,8 +1,7 @@
-state=
-{
-	id=78
-	name="STATE_78"
-	manpower = 2296800
+state = {
+	id = 78
+	name = "Moldova"
+	manpower =  2640438
 	
 	state_category = town
 	

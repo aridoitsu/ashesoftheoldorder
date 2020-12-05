@@ -1,23 +1,22 @@
 state={
 	id=728
-	name="STATE_728"
-	manpower = 200000
+	name="Transnistria"
+	manpower = 549000
 	
-	state_category = enclave
+	state_category = town
 	
 	history= { 
-		owner = PRC
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = MOL
+		add_core_of = MOL
 		buildings = {
 			infrastructure = 3
-			11981 = {
-				naval_base = 1
-			}
+		}
+		victory_points = {
+			15954 1
 		}
 	}
 	
 	provinces={
-		11981 
+		15952 15953 15954 
 	}
 }
