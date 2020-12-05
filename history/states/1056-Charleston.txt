@@ -1,31 +1,36 @@
+
 state={
 	id=1056
 	name="Charleston"
-	history = {
+
+	history={
 		owner = APP
 		add_core_of = APP
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 1
 			arms_factory = 2
+
 		}
 		victory_points = {
-			13772 10
+			13772 10 
 		}
 		victory_points = {
-			13784 1
+			13784 1 
 		}
 		victory_points = {
-			13781 1
+			13781 1 
 		}
 		victory_points = {
-			13770 3
+			13770 3 
 		}
+
 	}
+
 	provinces={
-		13770 13772 13781 13784
+		801 3975 13770 13772 13781 13784 
 	}
 	manpower=520134
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

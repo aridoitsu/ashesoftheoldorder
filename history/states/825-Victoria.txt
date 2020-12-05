@@ -1,21 +1,27 @@
+
 state={
 	id=825
 	name="Victoria"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = BCB
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 4
+
 		}
 		victory_points = {
-			14387 20
+			14387 15 
 		}
+
 	}
+
 	provinces={
-		14376 14383 14387 14397
+		1544 4440 4574 7001 7151 7170 
 	}
 	manpower=921425
 	buildings_max_level_factor=1.000
-	state_category = large_city
+	state_category=large_city
 }

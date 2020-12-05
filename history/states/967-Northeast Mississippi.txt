@@ -1,20 +1,25 @@
+
 state={
 	id=967
 	name="Tupelo"
-	history = {
+
+	history={
 		owner = MIS
 		add_core_of = MIS
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
-			10753 3
+			10753 3 
 		}
+
 	}
+
 	provinces={
-		10753 11717
+		4995 10775 12757 12812 
 	}
 	manpower=50641
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

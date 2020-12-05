@@ -1,21 +1,26 @@
+
 state={
 	id=1032
 	name="Floyd"
-	history = {
+
+	history={
 		owner = NAK
 		add_core_of = NAK
 		add_claim_by = ACR
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			968 2
+			968 2 
 		}
+
 	}
+
 	provinces={
-		968 5090 
+		1213 4219 7260 12258 
 	}
 	manpower=21040
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

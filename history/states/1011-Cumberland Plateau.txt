@@ -1,20 +1,25 @@
+
 state={
 	id=1011
 	name="Fayette"
-	history = {
+
+	history={
 		owner = APP
 		add_core_of = APP
 		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
-			9727 5
+			9727 5 
 		}
+
 	}
+
 	provinces={
-		7547 9727 12637
+		6971 7547 10441 12637 
 	}
 	manpower=60124
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

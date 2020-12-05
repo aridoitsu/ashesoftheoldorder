@@ -1,17 +1,23 @@
+
 state={
 	id=823
 	name="Lower Mainland"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = BCB
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
+
 	provinces={
-		1393 1408 1858 4413 7753 7853 14507 
+		1393 1858 4343 4413 7677 7753 7853 14444 14445 14492 14507 14518 14536 14581 14593 14658 14701 
 	}
 	manpower=102452
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

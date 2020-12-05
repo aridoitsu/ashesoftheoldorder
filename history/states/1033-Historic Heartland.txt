@@ -1,25 +1,30 @@
+
 state={
 	id=1033
 	name="Macon"
-	history = {
+
+	history={
 		owner = NAK
 		add_core_of = NAK
 		add_claim_by = ACR
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
+
 		}
 		victory_points = {
-			638 3
+			638 3 
 		}
 		victory_points = {
-			7612 5
+			7612 5 
 		}
+
 	}
+
 	provinces={
-		638 7612 15203
+		1984 2009 2040 4954 12856 13137 
 	}
 	manpower=142057
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

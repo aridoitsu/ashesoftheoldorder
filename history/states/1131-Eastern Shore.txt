@@ -1,18 +1,24 @@
+
 state={
 	id=1131
 	name="Eastern Shore"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = NSN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 4
+
 		}
+
 	}
+
 	provinces={
-		7644 10244 14081 14082 14091 14100
+		1324 4251 4302 4639 10467 12447 12460 12475 
 	}
 	manpower=259822
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category=large_town
 }

@@ -1,32 +1,35 @@
-state=
-{
+
+state={
 	id=100
 	name="Reykjavik"
-	manpower = 115870
-	
-	state_category = rural
-	
-	
-	history= { 
+
+	history={
 		owner = ICE
-		victory_points = { 
-			15251 5
+		victory_points = {
+			15251 5 
 		}
-		victory_points = { 
-			15629 1
+		victory_points = {
+			15629 1 
 		}
-		victory_points = { 
-			15196 1
+		victory_points = {
+			15196 1 
 		}
 		buildings = {
 			infrastructure = 3
-			15251 ={
+			15251 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = ICE
+
 	}
+
 	provinces={
-		12674 12689 4861 10245 10636 15156 15196 15208 15216 15251 15267 15268 15280 15290 15305 15319 15323 15328 15332 15353 15356 15372 15402 15408 15541 15629 15641 15657 15669 15694 15705 15743 15753 15772 15786 15790 15815 15820 15821 15837 15838 15851 15856
+		12674 15156 15196 15251 15305 15319 15323 15541 15705 15837 15856 
 	}
+	manpower=115870
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

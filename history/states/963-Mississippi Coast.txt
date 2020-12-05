@@ -1,24 +1,29 @@
+
 state={
 	id=963
 	name="Gulfport-Biloxi Area"
-	history = {
+
+	history={
 		owner = ACR
 		add_core_of = ACR
 		buildings = {
 			infrastructure = 5
 			dockyard = 2
+
 		}
 		victory_points = {
-			7668 3
+			7668 3 
 		}
 		victory_points = {
-			4464 5
+			4464 5 
 		}
+
 	}
+
 	provinces={
-		4464 7668 15546 15550 15566
+		4464 7524 7668 15269 15546 15550 15566 
 	}
 	manpower=110254
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

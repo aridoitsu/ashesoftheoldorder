@@ -2,14 +2,13 @@
 state={
 	id=367
 	name="Birmingham"
-	manpower=846247
-	state_category=city
 	resources={
-		steel=5
-		aluminium=5
+		steel=5.000
+		aluminium=5.000
 		oil=13.000
 	}
-	history = {
+
+	history={
 		owner = ACR
 		buildings = {
 			infrastructure = 5
@@ -18,15 +17,14 @@ state={
 		}
 		add_core_of = ACR
 		victory_points = {
-			7422 10
+			7422 10 
 		}
 		victory_points = {
-			10192 3
+			10192 3 
 		}
 		victory_points = {
-			4622 1
+			4622 1 
 		}
-
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
@@ -38,9 +36,9 @@ state={
 	}
 
 	provinces={
-		1587 4622 4756 7185 7422 10192 12735 12803 15254 15278 15281 15293 15307 15324 15325 15344 15348 15359 15378 15380 15406
+		1587 4622 4756 7185 7422 10192 12735 12803 15254 15278 15281 15293 15307 15324 15325 15344 15348 15359 15378 15380 15406 
 	}
-
+	manpower=846247
 	buildings_max_level_factor=1.000
-
+	state_category=city
 }

@@ -1,18 +1,24 @@
+
 state={
 	id=1130
 	name="Northumberland Shore"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = NSN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+
 		}
+
 	}
+
 	provinces={
-		1424 14106 14120 14130 14142 14143 14170
+		957 3787 3977 6684 6838 6961 6989 9762 9926 11750 11879 
 	}
 	manpower=180402
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category=large_town
 }

@@ -1,18 +1,23 @@
+
 state={
 	id=941
 	name="Five Hills"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
+
 		}
+
 	}
+
 	provinces={
-		14450 14451 14452 14508 14519 14546 14587 14588 
+		1427 4319 4348 4566 7338 7367 7544 7559 7572 7587 10193 10221 10398 10411 12173 
 	}
 	manpower=95478
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category=large_town
 }

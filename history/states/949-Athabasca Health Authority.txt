@@ -1,17 +1,22 @@
+
 state={
 	id=949
 	name="Athabasca Health Authority"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
 	provinces={
-		4695 15474 15475 15476 15491 15499 15504 15505 15509 15531 15536 15537 15544 15545 15549 15553 15554 15555 
+		2976 4695 13167 15436 15441 15457 15474 15475 15476 15491 15499 15504 15505 15509 15531 15536 15537 15544 15545 15549 15553 15554 15555 
 	}
 	manpower=12021
 	buildings_max_level_factor=1.000
-	state_category = wasteland
+	state_category=wasteland
 }

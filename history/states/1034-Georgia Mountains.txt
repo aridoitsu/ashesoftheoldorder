@@ -1,18 +1,23 @@
+
 state={
 	id=1034
 	name="New Afrika"
-	history = {
+
+	history={
 		owner = NAK
 		add_core_of = NAK
 		add_claim_by = ACR
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
+
 	provinces={
-		9949 10394 15161
+		7912 8019 8062 10734 
 	}
 	manpower=20145
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

@@ -1,21 +1,26 @@
+
 state={
 	id=1023
 	name="Escambia"
-	history = {
+
+	history={
 		owner = ACR
 		add_core_of = ACR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			10352 3
+			10352 3 
 		}
+
 	}
+
 	provinces={
-		10352 10380 15486 15520 15538 15559
+		10352 10380 15486 15520 15538 15559 15560 
 	}
 	manpower=20154
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

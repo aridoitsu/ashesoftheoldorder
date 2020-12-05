@@ -6,6 +6,7 @@ state={
 	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = NTN
 		buildings = {
 			infrastructure = 2
 
@@ -14,7 +15,7 @@ state={
 	}
 
 	provinces={
-		1799 14924 15054 15128 15145 15329 15369 15448 15514 
+		1799 14924 15128 15145 15329 15369 15448 15514 
 	}
 	manpower=12354
 	buildings_max_level_factor=1.000

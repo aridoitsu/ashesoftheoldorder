@@ -2,17 +2,22 @@
 state={
 	id=822
 	name="Kootenay"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = BCB
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
+
 	provinces={
-		7820 12578 14446 14486 14497 14498 14543 14544 14585 14586 14623 
+		4877 7820 12578 14446 14486 14497 14498 14543 14544 14585 14586 14623 14629 14684 14766 
 	}
 	manpower=60124
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

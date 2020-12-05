@@ -1,23 +1,28 @@
+
 state={
 	id=977
 	name="Alluvial River"
-	resources = {
-		chromium = 12.000
+	resources={
+		chromium=12.000
 	}
-	history = {
+
+	history={
 		owner = IAI
 		add_core_of = IAI
 		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
-			7607 5
+			7607 5 
 		}
+
 	}
+
 	provinces={
-		1523 7607
+		1973 5074 10752 12821 
 	}
 	manpower=52143
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

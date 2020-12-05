@@ -1,18 +1,24 @@
+
 state={
 	id=1132
 	name="South Shore"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = NSN
 		buildings = {
 			infrastructure = 6
 			dockyard = 3
+
 		}
+
 	}
+
 	provinces={
-		14047 14063
+		1175 4096 9955 12027 
 	}
 	manpower=157382
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

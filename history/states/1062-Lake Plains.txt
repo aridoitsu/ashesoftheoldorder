@@ -1,23 +1,28 @@
+
 state={
 	id=1062
 	name="Defiance"
-	history = {
+
+	history={
 		owner = OHO
 		add_core_of = OHO
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			3685 3
+			3685 3 
 		}
 		victory_points = {
-			11791 2
+			11791 2 
 		}
+
 	}
+
 	provinces={
-		659 3685 3872 11791
+		1252 1404 2047 4236 4323 5226 7231 7299 7415 10181 10325 12196 12243 
 	}
 	manpower=301540
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

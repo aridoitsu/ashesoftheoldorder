@@ -15,17 +15,18 @@ state={
 
 		}
 		add_core_of = CAN
+		add_core_of = NLN
 		victory_points = {
-			12505 10 
+			12505 3
 		}
 		victory_points = {
-			12698 4 
+			12698 1
 		}
 		victory_points = {
-			7758 4 
+			7758 1
 		}
 		victory_points = {
-			12680 4 
+			12680 1
 		}
 
 	}

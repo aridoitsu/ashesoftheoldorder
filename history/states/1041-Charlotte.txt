@@ -1,33 +1,39 @@
+
 state={
 	id=1041
 	name="Charlotte"
-	history = {
+
+	history={
 		owner = CRN
 		add_core_of = CRN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
+
 		}
 		victory_points = {
-			13632 15
+			13632 15 
 		}
 		victory_points = {
-			13645 3
+			13645 3 
 		}
 		victory_points = {
-			13627 1
+			13627 1 
 		}
 		victory_points = {
-			13620 1
+			13620 1 
 		}
 		victory_points = {
-			13637 1
+			13637 1 
 		}
+
 	}
+
 	provinces={
-		7138 10096 10495 13620 13621 13627 13632 13637 13645
+		4491 7138 10096 10495 13602 13620 13627 13632 13637 13645 15244 
 	}
 	manpower=1240560
-	state_category = city
+	buildings_max_level_factor=1.000
+	state_category=city
 }

@@ -1,27 +1,32 @@
+
 state={
 	id=1005
 	name="Montgomery"
-	history = {
+
+	history={
 		owner = ACR
 		add_core_of = ACR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			492 15
+			492 15 
 		}
 		victory_points = {
-			7640 5
+			7640 5 
 		}
 		victory_points = {
-			860 3
+			860 3 
 		}
+
 	}
+
 	provinces={
-		492 860 7640 11942 15380 15437 15477 15453 15484 15506 15508 15511 15560
+		492 860 7640 11942 13500 15437 15453 15477 15484 15500 15506 15508 15511 
 	}
 	manpower=102541
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

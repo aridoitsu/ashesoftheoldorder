@@ -3,7 +3,7 @@ state={
 	id=464
 	name="Yarmouth"
 
-	history = {
+	history={
 		owner = CAN
 		buildings = {
 			infrastructure = 2
@@ -16,23 +16,24 @@ state={
 
 		}
 		add_core_of = CAN
+		add_core_of = NSN
 		victory_points = {
-			7361 3
+			7361 3 
 		}
 		victory_points = {
-			4430 1
+			4430 1 
 		}
 		victory_points = {
-			10244 1
+			10244 1 
 		}
 		victory_points = {
-			1354 1
+			1354 1 
 		}
 
 	}
 
 	provinces={
-		1354 4623 14012 14018 14029 
+		1354 4623 14012 14018 14029 14047 14063 14068 
 	}
 	manpower=990912
 	buildings_max_level_factor=1.000

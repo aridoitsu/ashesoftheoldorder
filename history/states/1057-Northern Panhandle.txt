@@ -1,27 +1,32 @@
+
 state={
 	id=1057
 	name="Kanawha"
-	resources = {
-		steel = 21.000
+	resources={
+		steel=21.000
 	}
-	history = {
+
+	history={
 		owner = APP
 		add_core_of = APP
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			3975 3
+			3975 3 
 		}
 		victory_points = {
-			801 1
+			801 1 
 		}
+
 	}
+
 	provinces={
-		801 3975
+		1248 1302 4255 4379 4397 7229 7280 10137 10180 10309 12297 
 	}
 	manpower=102104
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

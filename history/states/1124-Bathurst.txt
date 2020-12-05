@@ -1,9 +1,12 @@
+
 state={
 	id=1124
 	name="Bathurst"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = NBN
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
@@ -11,13 +14,17 @@ state={
 			dockyard = 2
 			14285 = {
 				naval_base = 3
+
 			}
+
 		}
+
 	}
+
 	provinces={
-		4432 14232 14233 14248 14255 14268 14285 14305
+		4362 4432 7379 14231 14232 14233 14248 14255 14260 14268 14273 14285 14295 14296 14297 14304 14305 14306 14307 14319 14325 
 	}
-	manpower= 598193
+	manpower=598193
 	buildings_max_level_factor=1.000
-	state_category = megalopolis
+	state_category=megalopolis
 }

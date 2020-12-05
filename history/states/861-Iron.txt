@@ -1,24 +1,29 @@
+
 state={
 	id=861
 	name="Iron"
-	resources = {
-		oil = 15.000
+	resources={
+		oil=15.000
 	}
-	history = {
+
+	history={
 		owner = IRN
 		add_core_of = IRN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			12573 3
+			12573 3 
 		}
+
 	}
+
 	provinces={
 		12573 12699 13749 
 	}
 	manpower=69125
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

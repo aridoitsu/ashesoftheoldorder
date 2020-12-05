@@ -1,18 +1,23 @@
+
 state={
 	id=956
 	name="Marquette"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+
 		}
+
 	}
+
 	provinces={
-		14559 14563 14564 14579 14589 14618 14625 
+		1148 7021 9936 10036 12011 
 	}
 	manpower=45210
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

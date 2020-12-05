@@ -1,19 +1,25 @@
+
 state={
 	id=1128
 	name="Halifax Metro"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = NSN
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 3
+
 		}
+
 	}
+
 	provinces={
-		7361
+		4430 7361 7644 10244 14081 14082 14091 14100 14147 14159 14196 
 	}
 	manpower=403390
 	buildings_max_level_factor=1.000
-	state_category = metropolis
+	state_category=metropolis
 }

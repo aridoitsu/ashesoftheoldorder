@@ -1,19 +1,25 @@
+
 state={
 	id=1121
 	name="Edmundston"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = NBN
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 1
+
 		}
+
 	}
+
 	provinces={
-		4362 14231 14260 14273 14295 14296 14304 14306 14319
+		4861 10245 15328 15356 15402 15408 15629 15641 15657 15694 15743 15772 15786 15820 
 	}
-	manpower= 129432
+	manpower=129432
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

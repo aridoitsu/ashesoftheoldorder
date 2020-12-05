@@ -1,10 +1,12 @@
+
 state={
 	id=818
 	name="Pacific Cascade"
-	resources = {
-		chromium = 6.000
+	resources={
+		chromium=6.000
 	}
-	history = {
+
+	history={
 		owner = OLY
 		add_core_of = OLY
 		buildings = {
@@ -12,15 +14,18 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			dockyard = 1
+
 		}
 		victory_points = {
-			14129 15
+			14129 15 
 		}
+
 	}
+
 	provinces={
-		7255 10271 14129 14168 12155 14160 14171 10690
+		7255 10155 10690 12155 14129 14160 14168 14171 
 	}
 	manpower=413395
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category=large_town
 }

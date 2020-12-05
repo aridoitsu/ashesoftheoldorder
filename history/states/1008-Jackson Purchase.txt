@@ -1,17 +1,22 @@
+
 state={
 	id=1008
 	name="Dyer"
-	history = {
+
+	history={
 		owner = MIS
 		add_core_of = MIS
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
+
 	provinces={
-		10586 
+		1073 1157 4119 7015 7093 7518 9948 12008 12048 12065 
 	}
 	manpower=80415
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

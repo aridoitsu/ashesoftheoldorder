@@ -1,20 +1,25 @@
+
 state={
 	id=1055
 	name="Huntington"
-	history = {
+
+	history={
 		owner = APP
 		add_core_of = APP
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			10441 5
+			10441 5 
 		}
+
 	}
+
 	provinces={
-		6971 10441
+		1546 4509 4552 7529 7542 7570 10369 10396 10990 12371 
 	}
 	manpower=60125
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

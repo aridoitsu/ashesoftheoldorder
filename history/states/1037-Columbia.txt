@@ -1,28 +1,33 @@
+
 state={
 	id=1037
 	name="Columbia"
-	history = {
+
+	history={
 		owner = CRN
 		add_core_of = CRN
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		victory_points = {
-			13591 10
+			13591 10 
 		}
 		victory_points = {
-			4491 3
+			4491 3 
 		}
 		victory_points = {
-			13602 1
+			13602 1 
 		}
+
 	}
+
 	provinces={
-		4491 13591 13602
+		15929 
 	}
 	manpower=531431
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category=large_town
 }

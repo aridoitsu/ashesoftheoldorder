@@ -2,21 +2,25 @@
 state={
 	id=1059
 	name="Wayne Forest"
-	history = {
+
+	history={
 		owner = OHO
 		add_core_of = OHO
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
+
 		}
 		victory_points = {
-			1059 1
+			1059 1 
 		}
+
 	}
+
 	provinces={
-		827 971 3829 7528 9760 
+		1291 1348 1364 1392 4310 4355 7329 7342 7399 10227 12144 12199 12215 
 	}
 	manpower=102340
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

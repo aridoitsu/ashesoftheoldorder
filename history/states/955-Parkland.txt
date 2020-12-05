@@ -1,18 +1,23 @@
+
 state={
 	id=955
 	name="Parkland"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
+
 	}
+
 	provinces={
-		4218 14603 14659 14665 14671 14696 14708 14734 14736 14737 
+		4218 12636 14559 14563 14564 14579 14589 14603 14618 14625 14659 14665 14671 14696 14708 14734 14736 14737 14792 14804 14879 14941 14944 14973 
 	}
 	manpower=35210
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

@@ -1,18 +1,23 @@
+
 state={
 	id=944
 	name="Qu'Appelle"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
+
 	}
+
 	provinces={
-		10611 14639 14653 14695 14702 14757 14789 
+		1222 1389 4393 5135 7614 10423 10954 11004 11018 12154 12240 12400 12428 
 	}
 	manpower=56471
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

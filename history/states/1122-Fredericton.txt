@@ -4,12 +4,13 @@ state={
 	history = {
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = NBN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 		}
 		victory_points = {
-			14166 20
+			14166 10
 		}
 	}
 	provinces={

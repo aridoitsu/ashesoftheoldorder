@@ -1,37 +1,42 @@
+
 state={
 	id=930
 	name="Lincoln"
-	history = {
+
+	history={
 		owner = NEB
 		add_core_of = NEB
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
 			arms_factory = 1
+
 		}
 		victory_points = {
-			13880 5
+			13880 5 
 		}
 		victory_points = {
-			13871 3
+			13871 3 
 		}
 		victory_points = {
-			13879 3
+			13879 3 
 		}
 		victory_points = {
-			13899 1
+			13899 1 
 		}
 		victory_points = {
-			13905 1
+			13905 1 
 		}
 		victory_points = {
-			13901 1
+			13901 1 
 		}
+
 	}
+
 	provinces={
-		13871 13874 13879 13880 13899 13901 13905
+		3708 10676 13865 13871 13874 13879 13880 13881 13899 13901 13905 
 	}
 	manpower=751629
 	buildings_max_level_factor=1.000
-	state_category = large_city
+	state_category=large_city
 }

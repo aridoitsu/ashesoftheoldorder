@@ -1,37 +1,42 @@
+
 state={
 	id=1004
 	name="Mobile"
-	history = {
+
+	history={
 		owner = ACR
 		add_core_of = ACR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
 			arms_factory = 2
+
 		}
 		victory_points = {
-			13496 10
+			13496 10 
 		}
 		victory_points = {
-			10520 1
+			10520 1 
 		}
 		victory_points = {
-			13498 1
+			13498 1 
 		}
 		victory_points = {
-			13489 1
+			13489 1 
 		}
 		victory_points = {
-			13502 1
+			13502 1 
 		}
 		victory_points = {
-			13499 3
+			13499 3 
 		}
+
 	}
+
 	provinces={
-		7480 10520 13489 13490 13496 13497 13498 13499 13500 13502 15500 15313
+		7480 10520 13489 13490 13496 13497 13498 13499 13502 15313 
 	}
 	manpower=1502314
 	buildings_max_level_factor=1.000
-	state_category = metropolis
+	state_category=metropolis
 }

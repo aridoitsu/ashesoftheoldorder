@@ -3,7 +3,7 @@ state={
 	id=332
 	name="Northern Labrador"
 
-	history = {
+	history={
 		owner = CAN
 		buildings = {
 			infrastructure = 1
@@ -14,17 +14,18 @@ state={
 
 		}
 		add_core_of = CAN
+		add_core_of = NLN
 		victory_points = {
-			12503 5
+			12503 1 
 		}
 		victory_points = {
-			1426 1
+			1426 1 
 		}
 
 	}
 
 	provinces={
-		1426 15102 15127 15226 15308 15360 15445 
+		1426 12503 14899 14934 14965 14979 14993 15000 15019 15044 15072 15102 15127 15226 15308 15360 15445 
 	}
 	manpower=922179
 	buildings_max_level_factor=1.000

@@ -1,19 +1,24 @@
+
 state={
 	id=954
 	name="South Westman"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
+
 	}
+
 	provinces={
-		1848 12145 14457 14458 14459 14484 14493 14494 14509 14533 14547 
+		1848 4790 12145 14457 14458 14459 14460 14461 14484 14487 14493 14494 14495 14509 14521 14533 14537 14547 
 	}
 	manpower=82014
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category=large_town
 }

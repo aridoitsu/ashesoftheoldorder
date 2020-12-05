@@ -1,22 +1,28 @@
+
 state={
 	id=1142
 	name="Labrador City"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+		add_core_of = NLN
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 3
+
 		}
 		victory_points = {
-			14904 10
+			14904 5 
 		}
+
 	}
+
 	provinces={
-		1785 14764 14812 14867 14882 14883 14904 14928 14953 14964 15042 15043 15071 15094 15155
+		1785 13165 14764 14812 14867 14882 14883 14904 14928 14953 14964 15042 15043 15071 15094 15155 
 	}
 	manpower=722012
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

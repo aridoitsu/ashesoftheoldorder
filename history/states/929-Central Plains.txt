@@ -1,18 +1,23 @@
+
 state={
 	id=929
 	name="Central Plains"
-	history = {
+
+	history={
 		owner = NEB
 		add_core_of = NEB
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
+
 		}
+
 	}
+
 	provinces={
-		3708 10676 13865 13881 
+		1306 1335 4282 4338 7358 7371 10143 10199 10212 10240 10269 12171 12186 12228 
 	}
 	manpower=124526
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

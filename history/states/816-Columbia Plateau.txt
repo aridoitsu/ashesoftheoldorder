@@ -1,20 +1,25 @@
+
 state={
 	id=816
 	name="Columbia Plateau"
-	history = {
+
+	history={
 		owner = PRT
 		add_core_of = PRT
 		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
 			12183 1 
 		}
+
 	}
+
 	provinces={
-		1414 4826 12183 
+		1414 4826 7398 12183 
 	}
 	manpower=21456
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

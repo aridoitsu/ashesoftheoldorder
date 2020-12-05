@@ -7,7 +7,7 @@ state={
 		chromium=6.000
 	}
 
-	history = {
+	history={
 		owner = CAN
 		buildings = {
 			infrastructure = 5
@@ -22,23 +22,24 @@ state={
 
 		}
 		add_core_of = CAN
+		add_core_of = BCB
 		victory_points = {
 			1408 15 
 		}
 		victory_points = {
-			7853 5 
+			7853 1 
 		}
 		victory_points = {
-			7820 4 
+			7820 1 
 		}
 		victory_points = {
-			4877 4 
+			4877 1 
 		}
 
 	}
 
 	provinces={
-		4343 4877 7677 14444 14445 14492 14518 14536 14581 14593 14629 14658 14684 14701 14766 
+		1253 1488 1990 4496 7312 7353 7492 7531 7675 8045 10371 12345 
 	}
 	manpower=438165
 	buildings_max_level_factor=1.000

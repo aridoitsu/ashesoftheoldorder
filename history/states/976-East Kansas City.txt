@@ -1,41 +1,45 @@
+
 state={
 	id=976
 	name="East Kansas City"
-	history = {
+
+	history={
 		owner = MOM
 		add_core_of = MOM
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			10717 20
+			10717 20 
 		}
 		victory_points = {
-			13803 5
+			13803 5 
 		}
 		victory_points = {
-			13796 5
+			13796 5 
 		}
 		victory_points = {
-			13790 5
+			13790 5 
 		}
 		victory_points = {
-			13783 5
+			13783 5 
 		}
 		victory_points = {
-			13769 5
+			13769 5 
 		}
 		victory_points = {
-			13764 5
+			13764 5 
 		}
+
 	}
 
 	provinces={
-		10717 13764 13769 13783 13790 13796 13803
+		10717 13758 13764 13769 13777 13783 13790 13796 13803 
 	}
 	manpower=488903
 	buildings_max_level_factor=1.000
-	state_category = metropolis
+	state_category=metropolis
 }

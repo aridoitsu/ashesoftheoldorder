@@ -1,27 +1,32 @@
+
 state={
 	id=1042
 	name="Lower Appalachian Mountains"
-	resources = {
-		chromium = 12.000
+	resources={
+		chromium=12.000
 	}
-	history = {
+
+	history={
 		owner = NAK
 		add_core_of = NAK
 		add_claim_by = ACR
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			7643 1
+			7643 1 
 		}
 		victory_points = {
-			10909 5
+			10909 5 
 		}
+
 	}
+
 	provinces={
-		7643 9967 10909 15249
+		968 5090 7643 9967 10909 15249 
 	}
 	manpower=12040
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

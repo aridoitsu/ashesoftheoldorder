@@ -1,18 +1,23 @@
+
 state={
 	id=919
 	name="Southwest Kansas"
-	history = {
+
+	history={
 		owner = ALL
 		add_core_of = ALL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
-		}	
+
+		}
+
 	}
+
 	provinces={
-		4586 
+		4435 12338 
 	}
 	manpower=9204
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

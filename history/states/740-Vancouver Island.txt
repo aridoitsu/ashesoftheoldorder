@@ -6,7 +6,7 @@ state={
 		tungsten=15.000
 	}
 
-	history = {
+	history={
 		owner = CAN
 		buildings = {
 			infrastructure = 7
@@ -14,11 +14,12 @@ state={
 
 		}
 		add_core_of = CAN
+		add_core_of = BCB
 
 	}
 
 	provinces={
-		1214 1420 7259 12259 12272 14401 
+		1214 1420 7259 12259 12272 14376 14383 14387 14397 14401 
 	}
 	manpower=259612
 	buildings_max_level_factor=1.000

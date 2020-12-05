@@ -1,26 +1,30 @@
+
 state={
 	id=1156
 	name="Grand Canyon"
 	resources={
 		steel=8.000
 		oil=5.000
-
 	}
-	history = {
+
+	history={
 		owner = IRN
 		add_core_of = IRN
 		buildings = {
 			infrastructure = 2
 			air_base = 3
+
 		}
 		victory_points = {
-			13676 5
+			13676 5 
 		}
+
 	}
+
 	provinces={
-		850 13657 13676
+		5093 8004 8060 10892 12727 12813 12870 
 	}
 	manpower=59834
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

@@ -1,19 +1,24 @@
+
 state={
 	id=952
 	name="Interlake"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
+
 		}
+
 	}
+
 	provinces={
-		5119 14672 14709 14713 14758 14781 14805 14842 14892 
+		1054 1081 4126 10085 10110 11948 11977 12085 
 	}
 	manpower=102541
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

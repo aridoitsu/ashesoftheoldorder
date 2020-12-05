@@ -2,11 +2,12 @@
 state={
 	id=364
 	name="Sumter"
-	resources = {
-		steel = 14.000
-		aluminium = 10.000
+	resources={
+		steel=14.000
+		aluminium=10.000
 	}
-	history = {
+
+	history={
 		owner = CRN
 		buildings = {
 			infrastructure = 3
@@ -15,21 +16,22 @@ state={
 		}
 		add_core_of = CRN
 		victory_points = {
-			7012 3
+			7012 3 
 		}
 		victory_points = {
-			7134 1
+			7134 1 
 		}
 		victory_points = {
-			13588 1
+			13588 1 
 		}
 		victory_points = {
-			11927 1
+			11927 1 
 		}
+
 	}
 
 	provinces={
-		7012 7134 10047 13588 14931 14946 15245 15250
+		7012 7134 10047 13578 13579 13587 13588 13591 13621 14931 14946 15245 15250 
 	}
 	manpower=1738764
 	buildings_max_level_factor=1.000

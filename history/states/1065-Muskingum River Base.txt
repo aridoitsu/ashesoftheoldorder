@@ -1,21 +1,26 @@
+
 state={
 	id=1065
 	name="Huron"
-	history = {
+
+	history={
 		owner = OHO
 		add_core_of = OHO
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			9825 1
+			9825 1 
 		}
+
 	}
+
 	provinces={
-		3853 9825 
+		3259 6283 6380 9378 
 	}
 	manpower=201450
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category=large_town
 }

@@ -1,27 +1,32 @@
+
 state={
 	id=860
 	name="Kane"
-	resources = {
-		tungsten = 15
+	resources={
+		tungsten=15.000
 	}
-	history = {
+
+	history={
 		owner = IRN
 		add_core_of = IRN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			13699 15
+			13699 15 
 		}
 		victory_points = {
-			1740 5
+			1740 5 
 		}
+
 	}
+
 	provinces={
-		1740 13699 13700
+		850 1740 13657 13676 13699 13700 
 	}
 	manpower=25147
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

@@ -1,20 +1,25 @@
+
 state={
 	id=978
 	name="Glaciated Till"
-	history = {
+
+	history={
 		owner = IAI
 		add_core_of = IAI
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
-			10391 3
+			10391 3 
 		}
+
 	}
+
 	provinces={
-		7449 10333 10391 10516 13813
+		1523 7607 
 	}
 	manpower=20154
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

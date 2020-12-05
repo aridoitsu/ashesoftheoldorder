@@ -1,18 +1,23 @@
+
 state={
 	id=843
 	name="Red Deer"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
+
 	}
+
 	provinces={
-		10684 14545 14601 14602 14632 14664 14675 14717 14732 
+		1923 2090 5006 5037 8073 10786 12883 
 	}
 	manpower=91254
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

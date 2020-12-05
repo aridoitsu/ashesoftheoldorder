@@ -1,19 +1,24 @@
+
 state={
 	id=953
 	name="Eastern Manitoba"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 3
+
 		}
+
 	}
+
 	provinces={
-		1873 4426 9615 14462 14463 14464 14500 14553 14570 14605 14619 14718 14738 14767 14775 14793 14813 14835 14863 14893 14897 14949 14950 
+		1873 4426 9615 14462 14463 14464 14500 14553 14570 14605 14619 14718 14738 14767 14775 14793 14813 14835 14863 14893 
 	}
 	manpower=142036
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }
