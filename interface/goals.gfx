@@ -3391,5 +3391,45 @@ spriteTypes = {
 		name = "ACR_UN_General_Assembly_Seat"
 		texturefile = "gfx/interface/goals/ACR_UN_General_Assembly_Seat.dds"
 	}
+	SpriteType = {
+		name = "ACR_Abolish_the_Federal_Reserve"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_Federal_Reserve.dds"
+	}
+	SpriteType = {
+		name = "ACR_the_Invisible_Hand_Knows_Best"
+		texturefile = "gfx/interface/goals/ACR_the_Invisible_Hand_Knows_Best.dds"
+	}
+	SpriteType = {
+		name = "ACR_Privitize_the_Police"
+		texturefile = "gfx/interface/goals/ACR_Privitize_the_Police.dds"
+	}
+	SpriteType = {
+		name = "ACR_Privitize_the_Miltiary"
+		texturefile = "gfx/interface/goals/ACR_Privitize_the_Miltiary.dds"
+	}
+	SpriteType = {
+		name = "ACR_Privitize_the_CIA"
+		texturefile = "gfx/interface/goals/ACR_Privitize_the_CIA.dds"
+	}
+	SpriteType = {
+		name = "ACR_Death_to_Rosevelt"
+		texturefile = "gfx/interface/goals/ACR_Death_to_Rosevelt.dds"
+	}
+	SpriteType = {
+		name = "ACR_Abolish_the_FDA"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_FDA.dds"
+	}
+	SpriteType = {
+		name = "ACR_Abolish_the_EPA"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_EPA.dds"
+	}
+	SpriteType = {
+		name = "ACR_Abolish_the_CPSC"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_CPSC.dds"
+	}
+	SpriteType = {
+		name = "ACR_UN_General_Assembly_Seat"
+		texturefile = "gfx/interface/goals/ACR_UN_General_Assembly_Seat.dds"
+	}
 	
 }
