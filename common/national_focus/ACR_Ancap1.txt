@@ -45,7 +45,7 @@ focus = {
 }
 focus = { 
       id = ACR_Start_Demobilization
-	    icon = Liberty_In_Economics
+	    icon = ACR_Start_Demobilization
 	    cost = 2
 	    x = 16
 	    y = 3
@@ -124,7 +124,7 @@ focus = {
 }
 focus = { 
       id = ACR_Attract_Foreign_Investment
-	    icon = Open_Our_Ports
+	    icon = ACR_Attract_Foreign_Investment
 	    cost = 5
 	    x = 18
 	    y = 5
@@ -843,7 +843,7 @@ focus = {
 	}
 }
 focus = { 
-      id = ACR_Negotiations_with_Louisana
+      id = ACR_Negotiations_with_Louisana #Its florida actually
 	    icon = ACR_Negotiations_with_Louisana
 	    cost = 5
 	    x = 14
@@ -1555,7 +1555,7 @@ focus = {
 }
 focus = { 
       id = ACR_Rule_Of_The_Dollar
-	    icon = ACR_Empower_the_Executives
+	    icon = ACR_Rule_Of_The_Dollar
 	    cost = 5
 	    x = 6
 	    y = 11
