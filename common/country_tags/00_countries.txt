@@ -388,7 +388,15 @@ NTN = "countries/Northwest Territories.txt"
 QBC = "countries/Quebec.txt"
 SKS = "countries/Saskatchewan.txt"
 
+# Releaseables in Caucasus/Eastern Europe
 
+TRN = "countries/Transnistrita.txt"
+CRM = "countries/Crimea.txt"
+ABK = "countries/Abhkazia.txt"
+OSS = "countries/Ossetia.txt"
+KAB = "countries/Kabardino-Balkaria.txt"
+KAC = "countries/Karachay-Cherkessia.txt"
+KUM = "countries/Kumyk.txt"
 
 
 

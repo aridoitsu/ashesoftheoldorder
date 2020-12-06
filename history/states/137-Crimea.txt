@@ -33,6 +33,7 @@ state = {
 			}
 		}
 		add_core_of = UKR
+		add_core_of = CRM
 	}
 
 	provinces={

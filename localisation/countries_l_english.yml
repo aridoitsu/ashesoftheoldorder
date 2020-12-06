@@ -4383,3 +4383,31 @@
    SKS:0 "Saskatchewan"
    SKS_DEF:0 "Saskatchewan"
    SKS_ADJ:0 "Saskatch"
+
+   TRN:0 "Transnistria"
+   TRN_DEF:0 "Transnistria"
+   TRN_ADJ:0 "Transnistrian"
+
+   CRM:0 "Crimea"
+   CRM_DEF:0 "Crimea"
+   CRM_ADJ:0 "Crimean"
+
+   ABK:0 "Abkhazia"
+   ABK_DEF:0 "Abkhazia"
+   ABK_ADJ:0 "Abkhazian"
+
+   OSS:0 "Ossetia"
+   OSS_DEF:0 "Ossetia"
+   OSS_ADJ:0 "Ossetian"
+
+   KAB:0 "Kabardino-Balkaria"
+   KAB_DEF:0 "Kabardino-Balkaria"
+   KAB_ADJ:0 "Kabardino-Balkarian"
+
+   KAC:0 "Karachay-Cherkessia"
+   KAC_DEF:0 "Karachay-Cherkessia"
+   KAC_ADJ:0 "Karachay"
+
+   KUM:0 "Kumyk"
+   KUM_DEF:0 "Kumyk"
+   KUM_ADJ:0 "Kumyk"

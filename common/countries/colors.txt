@@ -1660,3 +1660,45 @@ SIL = {
 	color = rgb { 40 175 175 }
 	color_ui = rgb { 40 175 175 }
 }
+
+# Transnistria
+TRN = {
+	color = rgb { 205 175 60 }
+	color_ui = rgb { 205 175 60 }
+}
+
+# Crimea
+CRM = {
+	color = rgb { 60 110 120 }
+	color_ui = rgb { 60 110 120 }
+}
+
+# Abkhazia
+ABK = {
+	color = rgb { 185 145 165 }
+	color_ui = rgb { 185 145 165 }
+}
+
+# Ossetia
+OSS = {
+	color = rgb { 120 25 25 }
+	color_ui = rgb { 120 25 25 }
+}
+
+# Kabardino-Balkaria
+KAB = {
+	color = rgb { 120 160 110 }
+	color_ui = rgb { 120 160 110 }
+}
+
+# Karachay-Cherkessia
+KAC = {
+	color = rgb { 215 150 90 }
+	color_ui = rgb { 215 150 90 }
+}
+
+# Kumyk
+KUM = {
+	color = rgb { 30 40 145 }
+	color_ui = rgb { 30 40 145 }
+}

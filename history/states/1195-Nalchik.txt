@@ -17,6 +17,7 @@ state={
 		victory_points = {
 			714 1 
 		}
+		add_core_of = KAB
 
 	}
 
