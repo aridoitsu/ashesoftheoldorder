@@ -1,0 +1,1886 @@
+focus_tree = {
+    id = NSH_larson
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = NSH
+        }
+    }
+focus = { 
+      id = NSH_New_Society
+        icon = NSH_New_Society
+        cost = 1
+        x = 6
+        y = 1
+
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_guns_for_the_loyal
+        icon = NSH_guns_for_the_loyal
+        cost = 5
+        x = 2      
+        y = 2
+           prerequisite = {
+            focus = NSH_New_Society
+        }
+		mutually_exclusive = {
+			focus = NSH_guns_for_all
+		}
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_guns_for_all
+        icon = NSH_guns_for_all
+        cost = 5
+        x = 4      
+        y = 2
+        mutually_exclusive = {
+            focus = ACR_Free_Helicopter_Rides
+        }   
+            prerequisite = {
+            focus = NSH_New_Society
+        }
+		mutually_exclusive = {
+			focus = NSH_guns_for_the_loyal
+		}
+        completion_reward = {
+    }
+}
+focus = { 
+      id = NSH_the_faithful_shall_be_rewarded
+        icon = NSH_the_faithful_shall_be_rewarded
+        cost = 5
+        x = 2      
+        y = 3
+           
+            prerequisite = {
+            focus = NSH_guns_for_the_loyal
+        }
+    
+        completion_reward = {
+    }
+}
+focus = { 
+      id = NSH_purge_the_intellectuals
+        icon = NSH_purge_the_intellectuals
+        cost = 5
+        x = 2      
+        y = 4
+           
+            prerequisite = {
+            focus = NSH_the_faithful_shall_be_rewarded
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_a_free_land
+        icon = NSH_a_free_land
+        cost = 5
+        x = 4      
+        y = 3
+           
+            prerequisite = {
+            focus = NSH_guns_for_all
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_necessarcy_shall_be_spared
+        icon = NSH_the_necessarcy_shall_be_spared
+        cost = 5
+        x = 4      
+        y = 4
+           
+            prerequisite = {
+            focus = NSH_a_free_land
+        }
+    
+        completion_reward = {
+    }
+}
+
+
+focus = { 
+      id = NSH_womens_rights
+        icon = NSH_womens_rights
+        cost = 5
+        x = 8      
+        y = 2
+           
+            prerequisite = {
+            focus = NSH_New_Society
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_bluegrass_family
+        icon = NSH_the_bluegrass_family
+        cost = 5
+        x = 8      
+        y = 3
+           
+            prerequisite = {
+            focus = NSH_New_Society
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_legalize_all_drug
+        icon = NSH_legalize_all_drug
+        cost = 5
+        x = 6      
+        y = 2
+           
+            prerequisite = {
+            focus = NSH_New_Society
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_white_race
+        icon = NSH_the_white_race
+        cost = 5
+        x = 10      
+        y = 2
+           
+            prerequisite = {
+            focus = NSH_New_Society
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_teaching_our_children
+        icon = NSH_teaching_our_children
+        cost = 5
+        x = 10      
+        y = 3
+           
+            prerequisite = {
+            focus = NSH_the_white_race
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_suicide_legalization
+        icon = NSH_suicide_legalization
+        cost = 5
+        x = 6      
+        y = 3
+           
+            prerequisite = {
+            focus = NSH_legalize_all_drug
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_eliminate_the_taboos
+        icon = NSH_eliminate_the_taboos
+        cost = 5
+        x = 6      
+        y = 4
+           
+            prerequisite = {
+            focus = NSH_suicide_legalization
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_lessons_from_the_germans
+        icon = NSH_lessons_from_the_germans
+        cost = 5
+        x = 10      
+        y = 4
+           
+            prerequisite = {
+            focus = NSH_teaching_our_children
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_back_to_the_kitchen
+        icon = NSH_back_to_the_kitchen
+        cost = 5
+        x = 8      
+        y = 4
+           
+            prerequisite = {
+            focus = NSH_the_bluegrass_family
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_a_new_generation
+        icon = NSH_a_new_generation
+        cost = 5
+        x = 8      
+        y = 5
+           
+            prerequisite = {
+            focus = NSH_back_to_the_kitchen
+        }
+        prerequisite = {
+            focus = NSH_lessons_from_the_germans
+        }
+        prerequisite = {
+            focus = NSH_eliminate_the_taboos
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_destroy_feminism
+        icon = NSH_suicide_destroy_feminism
+        cost = 5
+        x = 6      
+        y = 5
+           
+            prerequisite = {
+            focus = NSH_back_to_the_kitchen
+        }
+        prerequisite = {
+            focus = NSH_lessons_from_the_germans
+        }
+        prerequisite = {
+            focus = NSH_eliminate_the_taboos
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_wipe_out_the_city_dwellers
+        icon = NSH_wipe_out_the_city_dwellers
+        cost = 5
+        x = 4      
+        y = 5
+           
+            prerequisite = {
+            focus = NSH_purge_the_intellectuals
+			focus = NSH_the_necessarcy_shall_be_spared
+        }
+        prerequisite = {
+            focus = NSH_the_necessarcy_shall_be_spared
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_incel_paradise
+        icon = NSH_the_incel_paradise
+        cost = 5
+        x = 6      
+        y = 6
+           
+            prerequisite = {
+            focus = NSH_wipe_out_the_city_dwellers
+        }
+        prerequisite = {
+            focus = NSH_suicide_destroy_feminism
+        }
+        prerequisite = {
+            focus = NSH_a_new_generation
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_a_new_economy
+        icon = NSH_a_new_economy 
+        cost = 5
+        x = 17     
+        y = 1
+           
+       
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_aution_off_state_owned_property
+        icon = NSH_aution_off_state_owned_property
+        cost = 5
+        x = 14     
+        y = 2
+           
+            prerequisite = {
+            focus = NSH_a_new_economy
+        }
+		mutually_exclusive = {
+			focus = NSH_the_companies_cannot_be_trusted
+		}
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_companies_cannot_be_trusted
+        icon = NSH_the_companies_cannot_be_trusted
+        cost = 5
+        x = 16     
+        y = 2
+           
+            prerequisite = {
+            focus = NSH_a_new_economy
+        }
+		mutually_exclusive = {
+			focus = NSH_aution_off_state_owned_property
+		}
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_restrict_navigation
+        icon = NSH_restrict_navigation
+        cost = 5
+        x = 18     
+        y = 2
+           
+            prerequisite = {
+            focus = NSH_a_new_economy
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_eliminate_public_roads
+        icon = NSH_eliminate_public_roads
+        cost = 5
+        x = 20     
+        y = 2
+           
+            prerequisite = {
+            focus = NSH_a_new_economy
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_empower_arms_dealers
+        icon = NSH_empower_arms_dealers
+        cost = 5
+        x = 14    
+        y = 3
+           
+            prerequisite = {
+            focus = NSH_aution_off_state_owned_property
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_nationalize_military_contracts
+        icon = NSH_nationalize_military_contracts
+        cost = 5
+        x = 16    
+        y = 3
+           
+            prerequisite = {
+            focus = NSH_the_companies_cannot_be_trusted
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_only_necessary_industry
+        icon = NSH_only_necessary_industry
+        cost = 5
+        x = 15    
+        y = 4
+           
+            prerequisite = {
+            focus = NSH_empower_arms_dealers
+			focus = NSH_nationalize_military_contracts
+        }
+      
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_checkpoints_at_every_corner
+        icon = NSH_checkpoints_at_every_corner
+        cost = 5
+        x = 18    
+        y = 3
+           
+            prerequisite = {
+            focus = NSH_restrict_navigation
+        }
+		
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_destroy_cars
+        icon = NSH_destroy_cars
+        cost = 5
+        x = 20    
+        y = 3
+           
+            prerequisite = {
+            focus = NSH_eliminate_public_roads
+        }
+    
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_eliminate_the_last_cities
+        icon = NSH_eliminate_the_last_cities
+        cost = 5
+        x = 19    
+        y = 4
+           
+            prerequisite = {
+            focus = NSH_destroy_cars
+        }
+      prerequisite = {
+            focus = NSH_checkpoints_at_every_corner
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_a_rural_country
+        icon = NSH_a_rural_country
+        cost = 5
+        x = 17    
+        y = 5
+           
+            prerequisite = {
+            focus = NSH_eliminate_the_last_cities
+        }
+      prerequisite = {
+            focus = NSH_only_necessary_industry
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_encourage_stupidity
+        icon = NSH_encourage_stupidity
+        cost = 5
+        x = 17    
+        y = 6
+           
+       
+      prerequisite = {
+            focus = NSH_a_rural_country
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_nasville_coup
+        icon = NSH_the_nasville_coup
+        cost = 5
+        x = 12    
+        y = 7
+           
+      prerequisite = {
+            focus = NSH_encourage_stupidity
+
+        } 
+      prerequisite = {
+            focus = NSH_the_incel_paradise
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_larson_forevermore
+        icon = NSH_larson_forevermore
+        cost = 5
+        x = 6    
+        y = 8
+           
+       
+      prerequisite = {
+            focus = NSH_the_nasville_coup
+        }
+        completion_reward = {
+    }
+}
+
+
+focus = { 
+      id = NSH_the_second_great_purge
+        icon = NSH_the_second_great_purge
+        cost = 5
+        x = 6    
+        y = 9
+           
+       
+      prerequisite = {
+            focus = NSH_larson_forevermore
+        }
+        completion_reward = {
+    }
+}
+
+
+focus = { 
+      id = NSH_the_weak
+        icon = NSH_the_weak
+        x = 4    
+        y = 10
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_second_great_purge
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_sick
+        icon = NSH_the_sick
+        x = 6    
+        y = 10
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_second_great_purge
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_old
+        icon = NSH_the_old
+        x = 8    
+        y = 10
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_second_great_purge
+        }
+        completion_reward = {
+    }
+}
+
+
+focus = { 
+      id = NSH_3_generations_rule
+        icon = NSH_3_generations_rule
+        x = 5    
+        y = 11
+        cost = 5
+
+       prerequisite = {
+            focus = NSH_the_sick
+        } 
+      prerequisite = {
+            focus = NSH_the_weak
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_show_trials
+        icon = NSH_show_trials
+        x = 7    
+        y = 11
+        cost = 5
+
+       prerequisite = {
+            focus = NSH_the_old
+        } 
+      prerequisite = {
+            focus = NSH_the_weak
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_american_utopia
+        icon = NSH_the_american_utopia
+        x = 6   
+        y = 12
+        cost = 5
+
+       prerequisite = {
+            focus = NSH_3
+        } 
+      prerequisite = {
+            focus = NSH_show_trials
+        }
+		 prerequisite = {
+            focus = NSH_3_generations_rule
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_smash_industrial_argiculture
+        icon = NSH_smash_industrial_argiculture
+        x = 1    
+        y = 13
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_american_utopia
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_to_eat_is_a_luxury
+        icon = NSH_to_eat_is_a_luxury
+        x = 3    
+        y = 13
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_american_utopia
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_ultimate_weapon
+        icon = NSH_the_ultimate_weapon
+        x = 6    
+        y = 13
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_american_utopia
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_find_sources_of_funding
+        icon = NSH_find_sources_of_funding
+        x = 10    
+        y = 13
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_american_utopia
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_exploit_the_rivers
+        icon = NSH_exploit_the_rivers
+        x = 1    
+        y = 14
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_smash_industrial_argiculture
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_an_uncomfortable_society
+        icon = NSH_an_uncomfortable_society
+        x = 3    
+        y = 14
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_to_eat_is_a_luxury
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_find_the_scientists
+        icon = NSH_find_the_scientists
+        x = 5    
+        y = 14
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_ultimate_weapon
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_world_class_proccessing_facilities
+        icon = NSH_world_class_proccessing_facilities
+        x = 7    
+        y = 14
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_ultimate_weapon
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_state_sponsored_terrorism
+        icon = NSH_state_sponsored_terrorism
+        x = 9    
+        y = 14
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_find_sources_of_funding
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_encourage_drug_trafficking
+        icon = NSH_encourage_drug_trafficking
+        x = 11    
+        y = 14
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_find_sources_of_funding
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_new_farming_practices
+        icon = NSH_new_farming_practices
+        x = 1    
+        y = 15
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_exploit_the_rivers
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_appeasse_the_industrialists
+        icon = NSH_appeasse_the_industrialists
+        x = 3    
+        y = 15
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_an_uncomfortable_society
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_acquire_foregin_expertise
+        icon = NSH_acquire_foregin_expertise
+        x = 5    
+        y = 15
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_find_the_scientists
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_probe_the_appalachian_mountains
+        icon = NSH_probe_the_appalachian_mountains
+        x = 7    
+        y = 15
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_world_class_proccessing_facilities
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_enter_the_arms_market
+        icon = NSH_enter_the_arms_market
+        x = 9    
+        y = 15
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_state_sponsored_terrorism
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_increase_methamphetamine_production
+        icon = NSH_increase_methamphetamine_production
+        x = 11    
+        y = 15
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_encourage_drug_trafficking
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_dark_spot_of_america
+        icon = NSH_the_dark_spot_of_america
+        x = 2    
+        y = 16
+        cost = 5
+
+     prerequisite = {
+            focus = NSH_appeasse_the_industrialists
+        }  
+      prerequisite = {
+            focus = NSH_new_farming_practices
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_test_our_prototype
+        icon = NSH_test_our_prototype
+        x = 6    
+        y = 16
+        cost = 5
+
+     prerequisite = {
+            focus = NSH_probe_the_appalachian_mountains
+        }  
+      prerequisite = {
+            focus = NSH_acquire_foregin_expertise
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_fill_larson_pockets
+        icon = NSH_fill_larson_pockets
+        x = 10    
+        y = 16
+        cost = 5
+
+     prerequisite = {
+            focus = NSH_increase_methamphetamine_production
+        }  
+      prerequisite = {
+            focus = NSH_enter_the_arms_market
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_reclaim_america
+        icon = NSH_reclaim_america
+        x = 6    
+        y = 17
+        cost = 5
+    prerequisite = {
+            focus = NSH_fill_larson_pockets
+        }       
+     prerequisite = {
+            focus = NSH_test_our_prototype
+        }  
+      prerequisite = {
+            focus = NSH_the_dark_spot_of_america
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_mandatory_service
+        icon = NSH_mandatory_service
+        x = 4    
+        y = 18
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_reclaim_america
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_segregate_the_army
+        icon = NSH_segregate_the_army
+        x = 6    
+        y = 18
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_reclaim_america
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_polittical_commissars
+        icon = NSH_polittical_commissars
+        x = 8    
+        y = 18
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_reclaim_america
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_return_home
+        icon = NSH_return_home
+        x = 6    
+        y = 19
+        cost = 5
+      prerequisite = {
+            focus = NSH_polittical_commissars
+        }     
+      prerequisite = {
+            focus = NSH_mandatory_service
+        } 
+      prerequisite = {
+            focus = NSH_segregate_the_army
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_army_seizes_power
+        icon = NSH_the_army_seizes_power
+        x = 20
+        y = 8
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_nasville_coup
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_martial_law
+        icon = NSH_martial_law
+        x = 20
+        y = 9
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_the_army_seizes_power
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_delarsonification
+        icon = NSH_delarsonification
+        x = 20
+        y = 10
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_martial_law
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_reeducation
+        icon = NSH_reeducation
+        x = 18
+        y = 11
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_delarsonification
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_establish_public_schooling
+        icon = NSH_establish_public_schooling
+        x = 20
+        y = 11
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_delarsonification
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_import_machinery
+        icon = NSH_import_machinery
+        x = 22
+        y = 11
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_delarsonification
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_try_the_collaborators
+        icon = NSH_try_the_collaborators
+        x = 18
+        y = 12
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_reeducation
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_reopen_universities
+        icon = NSH_reopen_universities
+        x = 20
+        y = 12
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_establish_public_schooling
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_seek_international_aid
+        icon = NSH_seek_international_aid
+        x = 22
+        y = 12
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_import_machinery
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_publish_the_photos
+        icon = NSH_publish_the_photos
+        x = 22
+        y = 13
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_seek_international_aid
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_reclaim_the_cities
+        icon = NSH_reclaim_the_cities
+        x = 20
+        y = 13
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_reopen_universities
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_establish_national_remembrance
+        icon = NSH_establish_national_remembrance
+        x = 18
+        y = 13
+        cost = 5   
+       
+      prerequisite = {
+            focus = NSH_try_the_collaborators
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_question_of_the_elections
+        icon = NSH_question_of_the_elections
+        x = 20
+        y = 14
+        cost = 5
+
+        prerequisite = {
+            focus = NSH_publish_the_photos
+        }      
+      prerequisite = {
+            focus = NSH_reclaim_the_cities
+        } 
+      prerequisite = {
+            focus = NSH_establish_national_remembrance
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_second_washington
+        icon = NSH_the_second_washington
+        x = 15
+        y = 15
+        cost = 2
+    
+      prerequisite = {
+            focus = NSH_question_of_the_elections
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_independent_court
+        icon = NSH_independent_court
+        x = 13
+        y = 16
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_the_second_washington
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_separation_of_powers
+        icon = NSH_separation_of_powers
+        x = 15
+        y = 16
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_the_second_washington
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_cripple_the_executive
+        icon = NSH_cripple_the_executive
+        x = 17
+        y = 16
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_the_second_washington
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_judicaial_review
+        icon = NSH_judicaial_review
+        x = 14
+        y = 17
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_separation_of_powers
+        }
+      prerequisite = {
+            focus = NSH_independent_court
+        }
+        completion_reward = {
+    }
+}
+
+
+focus = { 
+      id = NSH_establish_the_power_of_impachment
+        icon = NSH_establish_the_power_of_impachment
+        x = 16
+        y = 17
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_separation_of_powers
+        }
+      prerequisite = {
+            focus = NSH_cripple_the_executive
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_rebuild_the_country
+        icon = NSH_rebuild_the_country
+        x = 15
+        y = 18
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_establish_the_power_of_impachment
+        }
+      prerequisite = {
+            focus = NSH_judicaial_review
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_reperations_for_the_victims
+        icon = NSH_reperations_for_the_victims
+        x = 15
+        y = 19
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_rebuild_the_country
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_develop_the_cities
+        icon = NSH_
+        x = 12
+        y = 19
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_rebuild_the_country
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_free_housing
+        icon = NSH_free_housing
+        x = 10
+        y = 20
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_develop_the_cities
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_open_the_borders
+        icon = NSH_open_the_borders
+        x = 12
+        y = 20
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_develop_the_cities
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_take_lmf_loans
+        icon = NSH_take_lmf_loans
+        x = 14
+        y = 20
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_develop_the_cities
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_open_the_markets
+        icon = NSH_open_the_markets
+        x = 14
+        y = 21
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_take_lmf_loans
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_encourage_immigration
+        icon = NSH_encourage_immigration
+        x = 12
+        y = 21
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_open_the_borders
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_hire_foregin_construction_companies
+        icon = NSH_hire_foregin_construction_companies
+        x = 10
+        y = 21
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_free_housing
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_a_country_of_hope
+        icon = NSH_a_country_of_hope
+        x = 12
+        y = 22
+        cost = 5
+
+     prerequisite = {
+            focus = NSH_open_the_markets
+        }
+      prerequisite = {
+            focus = NSH_encourage_immigration
+        }
+      prerequisite = {
+            focus = NSH_hire_foregin_construction_companies
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_Social_Delarsonification
+        icon = NSH_Social_Delarsonification
+        x = 18
+        y = 19
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_rebuild_the_country
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_reintroduce_the_19th
+        icon = NSH_reintroduce_the_19th
+        x = 16
+        y = 20
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_Social_Delarsonification
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_encourage_racial_equality
+        icon = NSH_encourage_racial_equality
+        x = 18
+        y = 20
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_Social_Delarsonification
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_ban_nazism
+        icon = NSH_ban_nazism
+        x = 20
+        y = 20
+        cost = 5
+
+      prerequisite = {
+            focus = NSH_Social_Delarsonification
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_remove_larsons_statues
+        icon = NSH_remove_larsons_statues
+        x = 20
+        y = 21
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_ban_nazism
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_invest_in_damaged_communities
+        icon = NSH_invest_in_damaged_communities
+        x = 18
+        y = 21
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_encourage_racial_equality
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_fund_female_education
+        icon = NSH_fund_female_education
+        x = 16
+        y = 21
+        cost = 5
+    
+      prerequisite = {
+            focus = NSH_reintroduce_the_19th
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_horrors_of_the_past
+        icon = NSH_
+        x = 18
+        y = 22
+        cost = 5
+
+  prerequisite = {
+            focus = NSH_invest_in_damaged_communities
+    }
+    prerequisite = {
+            focus = NSH_fund_female_education
+    }
+      prerequisite = {
+            focus = NSH_remove_larsons_statues
+        }
+        completion_reward = {
+    }
+}
+focus = { 
+      id = NSH_maintain_martial_law
+        icon = NSH_maintain_martial_law
+        x = 26
+        y = 15
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_question_of_the_elections
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_purge_the_larson_supporters
+        icon = NSH_purge_the_larson_supporters
+        x = 24
+        y = 16
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_maintain_martial_law
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_strengthen_the_army
+              icon = NSH_strengthen_the_army
+        x = 26
+        y = 16
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_maintain_martial_law
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_placate_the_liberals
+              icon = NSH_placate_the_liberals
+        x = 28
+        y = 16
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_maintain_martial_law
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_reuse_the_fields
+              icon = NSH_reuse_the_fields
+        x = 25
+        y = 17
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_strengthen_the_army
+        }
+      prerequisite = {
+            focus = NSH_purge_the_larson_supporters
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_arrest_liberal_supporters
+              icon = NSH_arrest_liberal_supporters
+        x = 27
+        y = 17
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_strengthen_the_army
+        }
+      prerequisite = {
+            focus = NSH_placate_the_liberals
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_secure_our_power
+              icon = NSH_secure_our_power
+        x = 26
+        y = 18
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_reuse_the_fields
+        }
+      prerequisite = {
+            focus = NSH_arrest_liberal_supporters
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_resource_exploitation
+              icon = NSH_resource_exploitation
+        x = 29
+        y = 19
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_secure_our_power
+        }
+        completion_reward = {
+    }
+}
+
+
+focus = { 
+      id = NSH_into_the_fields
+              icon = NSH_into_the_fields
+        x = 30
+        y = 20
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_resource_exploitation
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_into_the_mines
+              icon = NSH_into_the_mines
+        x = 28
+        y = 20
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_resource_exploitation
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_exploit_our_riches
+              icon = NSH_exploit_our_riches
+        x = 28
+        y = 21
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_into_the_mines
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_increase_ration_sizes
+              icon = NSH_increase_ration_sizes
+        x = 30
+        y = 21 
+        cost = 5
+
+
+ 
+      prerequisite = {
+            focus = NSH_into_the_fields
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_riches_of_our_land
+              icon = NSH_riches_of_our_land
+        x = 29
+        y = 22
+        cost = 5
+
+  prerequisite = {
+            focus = NSH_increase_ration_sizes
+        }
+      prerequisite = {
+            focus = NSH_exploit_our_riches
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_industrialization
+              icon = NSH_industrialization
+        x = 23
+        y = 19
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_secure_our_power
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_produce_luxury_resourcees
+              icon = NSH_produce_luxury_resourcees
+        x = 22
+        y = 20
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_industrialization
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_promised_land
+              icon = NSH_promised_land
+        x = 24
+        y = 20
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_industrialization
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_trade_with_eu
+              icon = NSH_trade_with_eu
+        x = 24
+        y = 21
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_promised_land
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_impose_the_14_hour_workday
+              icon = NSH_impose_the_14_hour_workday
+        x = 22
+        y = 21
+        cost = 5
+
+ 
+      prerequisite = {
+            focus = NSH_produce_luxury_resourcees
+        }
+        completion_reward = {
+    }
+}
+
+focus = { 
+      id = NSH_the_capitalist_dream
+              icon = NSH_the_capitalist_dream
+        x = 23
+        y = 22
+        cost = 5
+
+      prerequisite = {
+            focus = NSH_impose_the_14_hour_workday
+        }
+ 
+      prerequisite = {
+            focus = NSH_trade_with_eu
+        }
+        completion_reward = {
+    }
+}
+
+}
+
+
+
+

@@ -3231,5 +3231,208 @@ spriteTypes = {
 		name = "NAK_Expand_the_Newton_Line"
 		texturefile = "gfx/interface/goals/NAK_Expand_the_Newton_Line.dds"
 	}
-	
+	SpriteType = {
+		name = "Send_Our_Boys_Home"
+		texturefile = "gfx/interface/goals/Send_Our_Boys_Home.dds"
+	}
+	SpriteType = {
+		name = "Privitize_Truck_Companies"
+		texturefile = "gfx/interface/goals/Privitize_Truck_Companies.dds"
+	}
+	SpriteType = {
+		name = "Privitize_Lockheed_Martin"
+		texturefile = "gfx/interface/goals/Privitize_Lockheed_Martin.dds"
+	}
+	SpriteType = {
+		name = "Liberty_In_Economics"
+		texturefile = "gfx/interface/goals/Liberty_In_Economics.dds"
+	}
+	SpriteType = {
+		name = "Open_Our_Ports"
+		texturefile = "gfx/interface/goals/Open_Our_Ports.dds"
+	}
+	SpriteType = {
+		name = "Freedom_Reigns_Supreme"
+		texturefile = "gfx/interface/goals/Freedom_Reigns_Supreme.dds"
+	}
+	SpriteType = {
+		name = "Distribute_Surplus_Guns"
+		texturefile = "gfx/interface/goals/Distribute_Surplus_Guns.dds"
+	}
+	SpriteType = {
+		name = "ACR_Start_Demobilization"
+		texturefile = "gfx/interface/goals/ACR_Start_Demobilization.dds"
+	}
+	SpriteType = {
+		name = "ACR_Attract_Foreign_Investment"
+		texturefile = "gfx/interface/goals/ACR_Attract_Foreign_Investment.dds"
+	}
+	SpriteType = {
+		name = "ACR_Make_Pinochet_Blush"
+		texturefile = "gfx/interface/goals/ACR_Make_Pinochet_Blush.dds"
+	}
+	SpriteType = {
+		name = "ACR_End_Protectionism"
+		texturefile = "gfx/interface/goals/ACR_End_Protectionism.dds"
+	}
+	SpriteType = {
+		name = "ACR_Free_Floating_Currency"
+		texturefile = "gfx/interface/goals/ACR_Free_Floating_Currency.dds"
+	}
+	SpriteType = {
+		name = "ACR_Sell_State_Owned_Land"
+		texturefile = "gfx/interface/goals/ACR_Sell_State_Owned_Land.dds"
+	}
+	SpriteType = {
+		name = "ACR_Abolish_Social_Security"
+		texturefile = "gfx/interface/goals/ACR_Abolish_Social_Security.dds"
+	}
+	SpriteType = {
+		name = "ACR_End_Price_Controls"
+		texturefile = "gfx/interface/goals/ACR_End_Price_Controls.dds"
+	}
+	SpriteType = {
+		name = "ACR_Taxation_is_Theft"
+		texturefile = "gfx/interface/goals/ACR_Taxation_is_Theft.dds"
+	}
+	SpriteType = {
+		name = "ACR_Shock_Therapy"
+		texturefile = "gfx/interface/goals/ACR_Shock_Therapy.dds"
+	}
+	SpriteType = {
+		name = "ACR_Get_Rid_of_National_Parks"
+		texturefile = "gfx/interface/goals/ACR_Get_Rid_of_National_Parks.dds"
+	}
+	SpriteType = {
+		name = "ACR_No_More_Food_Stamps"
+		texturefile = "gfx/interface/goals/ACR_No_More_Food_Stamps.dds"
+	}
+	SpriteType = {
+		name = "ACR_Abolish_the_ACA"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_ACA.dds"
+	}
+	SpriteType = {
+		name = "ACR_Start_the_Ancap_Transitionary_Program"
+		texturefile = "gfx/interface/goals/ACR_Start_the_Ancap_Transitionary_Program.dds"
+	}
+	SpriteType = {
+		name = "ACR_Empower_the_Executives"
+		texturefile = "gfx/interface/goals/ACR_Empower_the_Executives.dds"
+	}
+	SpriteType = {
+		name = "ACR_Rule_Of_The_Dollar"
+		texturefile = "gfx/interface/goals/ACR_Rule_Of_The_Dollar.dds"
+	}
+	SpriteType = {
+		name = "ACR_Purge_the_Statists"
+		texturefile = "gfx/interface/goals/ACR_Purge_the_Statists.dds"
+	}
+	SpriteType = {
+		name = "ACR_Life"
+		texturefile = "gfx/interface/goals/ACR_Life.dds"
+	}
+	SpriteType = {
+		name = "ACR_Liberty"
+		texturefile = "gfx/interface/goals/ACR_Liberty.dds"
+	}
+	SpriteType = {
+		name = "ACR_The_Pursuit_of_Happiness"
+		texturefile = "gfx/interface/goals/ACR_The_Pursuit_of_Happiness.dds"
+	}
+	SpriteType = {
+		name = "UN_General_Assembly_Seat"
+		texturefile = "gfx/interface/goals/UN_General_Assembly_Seat.dds"
+	}
+	SpriteType = {
+		name = "ACR_Phase_1_Integration"
+		texturefile = "gfx/interface/goals/ACR_Phase_1_Integration.dds"
+	}
+	SpriteType = {
+		name = "ACR_Negotiations_with_Mississippi"
+		texturefile = "gfx/interface/goals/ACR_Negotiations_with_Mississippi.dds"
+	}
+	SpriteType = {
+		name = "ACR_Negotiations_with_Louisana"
+		texturefile = "gfx/interface/goals/ACR_Negotiations_with_Louisana.dds"
+	}
+	SpriteType = {
+		name = "ACR_Negotiations_with_Cajun"
+		texturefile = "gfx/interface/goals/ACR_Negotiations_with_Cajun.dds"
+	}
+	SpriteType = {
+		name = "ACR_National_Reclamation_Committee"
+		texturefile = "gfx/interface/goals/ACR_National_Reclamation_Committee.dds"
+	}
+	SpriteType = {
+		name = "ACR_International_Recognition"
+		texturefile = "gfx/interface/goals/ACR_International_Recognition.dds"
+	}
+	SpriteType = {
+		name = "ACR_Denounce_the_Old_Regieme"
+		texturefile = "gfx/interface/goals/ACR_Denounce_the_Old_Regieme.dds"
+	}
+	SpriteType = {
+		name = "ACR_Crusade_Against_Communism"
+		texturefile = "gfx/interface/goals/ACR_Crusade_Against_Communism.dds"
+	}
+	SpriteType = {
+		name = "ACR_Appeal_to_the_West"
+		texturefile = "gfx/interface/goals/ACR_Appeal_to_the_West.dds"
+	}
+	SpriteType = {
+		name = "ACR_Appeal_to_the_Third_World"
+		texturefile = "gfx/interface/goals/ACR_Appeal_to_the_Third_World.dds"
+	}
+	SpriteType = {
+		name = "ACR_Appeal_to_the_East"
+		texturefile = "gfx/interface/goals/ACR_Appeal_to_the_East.dds"
+	}
+	SpriteType = {
+		name = "ACR_UN_General_Assembly_Seat"
+		texturefile = "gfx/interface/goals/ACR_UN_General_Assembly_Seat.dds"
+	}
+	SpriteType = {
+		name = "ACR_Abolish_the_Federal_Reserve"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_Federal_Reserve.dds"
+	}
+	SpriteType = {
+		name = "ACR_the_Invisible_Hand_Knows_Best"
+		texturefile = "gfx/interface/goals/ACR_the_Invisible_Hand_Knows_Best.dds"
+	}
+	SpriteType = {
+		name = "ACR_Privitize_the_Police"
+		texturefile = "gfx/interface/goals/ACR_Privitize_the_Police.dds"
+	}
+	SpriteType = {
+		name = "ACR_Privitize_the_Miltiary"
+		texturefile = "gfx/interface/goals/ACR_Privitize_the_Miltiary.dds"
+	}
+	SpriteType = {
+		name = "ACR_Privitize_the_CIA"
+		texturefile = "gfx/interface/goals/ACR_Privitize_the_CIA.dds"
+	}
+	SpriteType = {
+		name = "ACR_Death_to_Rosevelt"
+		texturefile = "gfx/interface/goals/ACR_Death_to_Rosevelt.dds"
+	}
+	SpriteType = {
+		name = "ACR_Abolish_the_FDA"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_FDA.dds"
+	}
+	SpriteType = {
+		name = "ACR_Abolish_the_EPA"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_EPA.dds"
+	}
+	SpriteType = {
+		name = "ACR_Abolish_the_CPSC"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_CPSC.dds"
+	}
+	SpriteType = {
+		name = "ACR_Abolish_the_ATF"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_ATF.dds"
+	}
+	SpriteType = {
+		name = "ACR_Privitize_the_Postal_Service"
+		texturefile = "gfx/interface/goals/ACR_Privitize_the_Postal_Service.dds"
+	}
 }

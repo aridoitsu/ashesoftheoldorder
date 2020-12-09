@@ -693,6 +693,7 @@ NYN_mobilization = {
 		}
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = 25 }
+			custom_effect_tooltip = NYN_plus_25_debt
 		}
 	}
 	NYN_promise_benefits = {
@@ -709,6 +710,7 @@ NYN_mobilization = {
 		}
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = 25 }
+			custom_effect_tooltip = NYN_plus_25_debt
 		}
 	}
 }

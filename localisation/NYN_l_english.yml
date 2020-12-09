@@ -88,6 +88,9 @@
  NYN_minus_300_debt:0 "Debt: §G-300k§!"
  NYN_minus_1_real:0 "Real Debt Growth: §G-2%§!"
  NYN_minus_2_real:0 "Real Debt Growth: §G-6%§!"
+ NYN_target_the_schools_tt:0 "§HUnlocks decision to gain manpower over 14 days.§!"
+ NYN_target_the_poors_tt:0 "§HUnlocks decision to gain manpower over 14 days.§!"
+ NYN_plus_25_debt:0 "Debt: §R+25k§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
@@ -119,6 +122,8 @@
  NYN_accurately_report:0 "Accurately Report"
  NYN_pay_off_short_term_loan:0 "Pay Off Short Term Loan"
  NYN_pay_off_long_term_loan:0 "Pay Off Long Term Loan"
+ NYN_military_recruiting_in_schools:0 "Recruit in Schools"
+ NYN_promise_benefits:0 "Promise Benefits"
  #events
  albany.15.t:0 "[GetFate]"
  
