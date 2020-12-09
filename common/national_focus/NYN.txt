@@ -809,7 +809,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 			}
 			prerequisite = { focus = NYN_feed_it_our_young }
 			completion_reward = {
-
+				custom_effect_tooltip = NYN_target_the_schools_tt
 			}
 		}
 
@@ -827,7 +827,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 			}
 			prerequisite = { focus = NYN_feed_it_our_young }
 			completion_reward = {
-
+				custom_effect_tooltip = NYN_target_the_poors_tt
 			}
 		}
 
