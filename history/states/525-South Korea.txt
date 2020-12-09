@@ -1,25 +1,21 @@
 
 state={
 	id=525
-	name="STATE_525"
+	name="Chungcheong"
 
 	history={
 		owner = KOR
 		buildings = {
 			infrastructure = 4
-			arms_factory = 1
+			industrial_complex = 1
 			dockyard = 1
-			4056 = {
-				naval_base = 3
-
-			}
 
 		}
 		victory_points = {
-			4056 1 
+			7204 1
 		}
 		victory_points = {
-			7125 5 
+			7221 5
 		}
 		add_core_of = KOR
 
@@ -28,7 +24,7 @@ state={
 	provinces={
 		1100 7175 7204 7221 10115 11992 
 	}
-	manpower=14284105
+	manpower=15144703
 	buildings_max_level_factor=1.000
 	state_category=town
 }

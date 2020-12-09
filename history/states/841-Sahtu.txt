@@ -1,18 +1,29 @@
 
 state={
 	id=841
-	name="Sahtu"
+	name="Gyeongsang"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = KOR
+		add_core_of = KOR
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 4
+			industrial_complex = 2
+			dockyard = 2
+			4056 = {
+				naval_base = 5
+
+			}
 
 		}
 		victory_points = {
-			15806 15 
+			4056 5 
+		}
+		victory_points = {
+			12060 10 
+		}
+		victory_points = {
+			12089 5 
 		}
 
 	}
@@ -20,7 +31,7 @@ state={
 	provinces={
 		4056 4086 4103 7121 11912 12060 12089 
 	}
-	manpower=90124
+	manpower=13140940
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }

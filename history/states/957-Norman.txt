@@ -1,14 +1,19 @@
 
 state={
 	id=957
-	name="Norman"
+	name="Jeju"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = KOR
+		add_core_of = KOR
 		buildings = {
 			infrastructure = 2
-
+			1177 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1177 1
 		}
 
 	}
@@ -16,7 +21,7 @@ state={
 	provinces={
 		1177 
 	}
-	manpower=20140
+	manpower=583284
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=small_island
 }

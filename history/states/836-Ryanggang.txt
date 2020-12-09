@@ -1,15 +1,24 @@
 
 state={
 	id=836
-	name="Teslin"
+	name="Ryanggang"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = KOR
+		add_core_of = KOR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			arms_factory = 1
 
+		}
+		victory_points = {
+			6922 1
+		}
+		victory_points = {
+			6822 5
+		}
+		victory_points = {
+			6944 1
 		}
 
 	}
@@ -17,7 +26,7 @@ state={
 	provinces={
 		898 959 3803 3860 3904 6822 6922 6944 9899 11878 
 	}
-	manpower=36212
+	manpower=3652931
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

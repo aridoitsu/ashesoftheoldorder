@@ -1,14 +1,19 @@
 
 state={
 	id=840
-	name="East Northwest Territories"
+	name="Seoul"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = KOR
+		add_core_of = KOR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 3
 
+		}
+		victory_points = {
+			7125 20
 		}
 
 	}
@@ -16,7 +21,7 @@ state={
 	provinces={
 		7125 15921 
 	}
-	manpower=11032
+	manpower=17904381
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=large_city
 }

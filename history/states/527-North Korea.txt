@@ -1,7 +1,7 @@
 
 state={
 	id=527
-	name="STATE_527"
+	name="Pyongyang"
 	resources={
 		steel=18.000
 		tungsten=28.000
@@ -10,12 +10,22 @@ state={
 	history={
 		owner = KOR
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
 
 		}
 		victory_points = {
-			4052 1 
+			4052 15
+		}
+		victory_points = {
+			11775 1
+		}
+		victory_points = {
+			3912 1
+		}
+		victory_points = {
+			11835 1
 		}
 		add_core_of = KOR
 
@@ -24,7 +34,7 @@ state={
 	provinces={
 		852 906 912 978 3912 4052 6963 9790 9795 9918 11775 11828 11835 11896 
 	}
-	manpower=6774200
+	manpower=11335576
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_city
 }

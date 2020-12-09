@@ -1,27 +1,29 @@
 
 state={
-	id=952
-	name="Jeolla"
+	id=839
+	name="Hamgyong"
 
 	history={
 		owner = KOR
 		add_core_of = KOR
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			dockyard = 1
+			infrastructure = 2
+			arms_factory = 2
 
 		}
 		victory_points = {
-			4126 5
+			848 1
+		}
+		victory_points = {
+			3981 5
 		}
 
 	}
 
 	provinces={
-		1054 1081 4126 10085 10110 11948 11977 12085 
+		848 3852 3981 6928 7171 10083 11770 
 	}
-	manpower=5330190
+	manpower=3066013
 	buildings_max_level_factor=1.000
 	state_category=town
 }
