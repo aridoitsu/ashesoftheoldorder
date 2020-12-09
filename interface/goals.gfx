@@ -3428,8 +3428,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ACR_Abolish_the_CPSC.dds"
 	}
 	SpriteType = {
-		name = "ACR_UN_General_Assembly_Seat"
-		texturefile = "gfx/interface/goals/ACR_UN_General_Assembly_Seat.dds"
+		name = "ACR_Abolish_the_ATF"
+		texturefile = "gfx/interface/goals/ACR_Abolish_the_ATF.dds"
 	}
-	
+	SpriteType = {
+		name = "ACR_Privitize_the_Postal_Service"
+		texturefile = "gfx/interface/goals/ACR_Privitize_the_Postal_Service.dds"
+	}
 }
