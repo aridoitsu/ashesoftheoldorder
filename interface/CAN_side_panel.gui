@@ -1,0 +1,46 @@
+guiTypes = {
+   containerWindowType = {
+        name = can_panel_decision_ui_window
+        position = { x = 100 y = 0 }
+        size = {
+            width = 350
+            height = 400
+        }
+        Orientation = center
+        origo = center
+        fade_time = 100
+        moveable = yes
+        fade_type = linear
+        clipping = yes
+
+        background = {
+            name = "canada_bg"
+            quadTextureSprite ="GFX_tiled_window2_1b_border"
+        }
+
+        buttonType = {
+            name = "can_close_panel"
+            position = { x = 15 y = 15 }
+            orientaion = center
+            spriteType = "GFX_closebutton"
+        }
+
+        instantTextBoxType = {
+            name = "can_panel_text"
+            position = { x = 75 y = 30 }
+            orientaion = center
+            text = [CAN_panel_scripted]
+            font = "hoi_36header" #hoi_20b
+            format = center
+        }
+
+        instantTextBoxType = {
+            name = "can_panel_lib_desire"
+            position = { x = 75 y = 100 }
+            orientaion = center
+            text = "CAN_lib_desire"
+            font = "hoi_20b" 
+            format = center
+        }
+    }
+}
