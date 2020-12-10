@@ -1,20 +1,25 @@
+
 state={
 	id=854
 	name="Idaho Falls"
-	history = {
+
+	history={
 		owner = YWS
 		add_core_of = YWS
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
-			10672 5
+			10672 5 
 		}
+
 	}
+
 	provinces={
-		10672 14026
+		1105 4992 9983 11957 12000 
 	}
 	manpower=20145
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

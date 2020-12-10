@@ -1,22 +1,27 @@
+
 state={
 	id=875
 	name="Green River Region"
-	history = {
+
+	history={
 		owner = WYW
 		add_core_of = WYW
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 2
+
 		}
 		victory_points = {
-			13910 15
+			13910 15 
 		}
+
 	}
+
 	provinces={
-		7688 13910 13915 13949
+		7193 
 	}
 	manpower=125564
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

@@ -1,23 +1,28 @@
+
 state={
 	id=1058
 	name="Monongahela"
-	resources = {
-		steel = 24.000
+	resources={
+		steel=24.000
 	}
-	history = {
+
+	history={
 		owner = APP
 		add_core_of = APP
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			9923 1
+			9923 1 
 		}
+
 	}
+
 	provinces={
-		3941 6958 9923 6823
+		3941 6823 6958 7646 9923 
 	}
 	manpower=60124
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

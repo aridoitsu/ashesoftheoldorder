@@ -1,27 +1,32 @@
+
 state={
 	id=1003
 	name="Knoxville"
-	resources = {
-		steel = 34.000
-		tungsten = 25.000
+	resources={
+		steel=34.000
+		tungsten=25.000
 	}
-	history = {
+
+	history={
 		owner = APP
 		add_core_of = APP
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
-			7791 5
+			7791 5 
 		}
 		victory_points = {
-			8014 3
+			8014 3 
 		}
+
 	}
+
 	provinces={
-		913 7791 8014
+		8075 10888 
 	}
 	manpower=50132
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

@@ -6,7 +6,7 @@ state={
 		chromium=4.000
 	}
 
-	history = {
+	history={
 		owner = GUA
 		buildings = {
 			infrastructure = 4
@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		4991 10842 10886 13085 13320 13321 13323 13325 13329 13331 13334 13336 13342 13344 15766
+		10842 10886 13320 13321 13323 13325 13329 13331 15766 
 	}
 	manpower=1771000
 	buildings_max_level_factor=1.000

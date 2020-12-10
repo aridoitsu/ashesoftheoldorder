@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		734 6707 9664 11654 15643 15660 
+		734 6707 9662 9664 11648 11654 15643 15660 
 	}
 	manpower=1246908
 	buildings_max_level_factor=1.000

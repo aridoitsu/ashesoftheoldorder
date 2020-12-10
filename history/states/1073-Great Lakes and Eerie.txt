@@ -1,13 +1,12 @@
+
 state={
 	id=1073
 	name="Erie"
-	manpower=783128
-	state_category=town
 	resources={
-		oil=8.00
+		oil=8.000
 	}
 
-	history = {
+	history={
 		owner = PIT
 		buildings = {
 			infrastructure = 4
@@ -15,16 +14,21 @@ state={
 			dockyard = 2
 			3687 = {
 				naval_base = 2
+
 			}
+
 		}
 		add_core_of = PIT
 		victory_points = {
-			3687 3
+			3687 3 
 		}
+
 	}
 
 	provinces={
-		3687 6705 9662 11648 6899
+		882 3687 4442 6705 6874 9808 
 	}
+	manpower=783128
 	buildings_max_level_factor=1.000
+	state_category=town
 }

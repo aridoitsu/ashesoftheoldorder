@@ -3,7 +3,7 @@ state={
 	id=381
 	name="Wyoming"
 
-	history = {
+	history={
 		owner = WYW
 		buildings = {
 			infrastructure = 3
@@ -15,7 +15,7 @@ state={
 	}
 
 	provinces={
-		12561 13889 13890 13891 13912 13919 13924 13868
+		7688 12561 13868 13889 13890 13891 13910 13912 13915 13919 13924 13949 
 	}
 	manpower=23564
 	buildings_max_level_factor=1.000

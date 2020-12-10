@@ -1,23 +1,28 @@
+
 state={
 	id=1064
 	name="Summits"
-	history = {
+
+	history={
 		owner = PIT
 		add_core_of = PIT
 		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
-			4442 1
+			4442 1 
 		}
 		victory_points = {
-			6874 3
+			6874 3 
 		}
+
 	}
+
 	provinces={
-		882 4442 6874 9808
+		1635 4641 13352 13353 
 	}
 	manpower=301241
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

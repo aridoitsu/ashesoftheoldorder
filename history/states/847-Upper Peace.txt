@@ -1,17 +1,22 @@
+
 state={
 	id=847
 	name="Upper Peace"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
+
 	provinces={
-		1763 14925 14957 14976 15006 15024 15025 15036 15065 15104 15119 15167 15201 15233 15255 15320 
+		12878 13280 13285 13290 
 	}
 	manpower=21041
 	buildings_max_level_factor=1.000
-	state_category = wasteland
+	state_category=wasteland
 }

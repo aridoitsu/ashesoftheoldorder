@@ -1,28 +1,33 @@
+
 state={
 	id=937
 	name="Williston"
-	resources = {
-		steel = 17.000
-		oil = 7.000
+	resources={
+		steel=17.000
+		oil=7.000
 	}
-	history = {
+
+	history={
 		owner = DAK
 		add_core_of = DAK
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			14347 1
+			14347 1 
 		}
 		victory_points = {
-			10709 3
+			10709 3 
 		}
+
 	}
+
 	provinces={
-		4759 10709 14298 14299 14347 7883
+		4759 7883 10709 14206 14298 14299 14347 
 	}
 	manpower=88014
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

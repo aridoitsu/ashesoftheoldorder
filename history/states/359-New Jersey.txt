@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		891 894 11782 11900 15580 15782 
+		891 894 11740 11900 15580 
 	}
 	manpower=3041332
 	buildings_max_level_factor=1.000

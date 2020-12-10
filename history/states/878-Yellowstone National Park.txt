@@ -1,23 +1,27 @@
+
 state={
 	id=878
 	name="Yellowstone"
 	resources={
-		chromium= 5.000
+		chromium=5.000
 	}
-	history = {
+
+	history={
 		owner = YWS
 		add_core_of = YWS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			13984 3
+			13984 3 
 		}
+
 	}
 
 	provinces={
-		12651 13984 13985 14022
+		10672 12651 13984 13985 14022 14026 
 	}
 	manpower=45564
 	buildings_max_level_factor=1.000

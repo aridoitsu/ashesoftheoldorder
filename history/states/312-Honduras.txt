@@ -6,7 +6,7 @@ state={
 		chromium=1.000
 	}
 
-	history = {
+	history={
 		owner = HON
 		buildings = {
 			infrastructure = 4
@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		2031 8017 12865 13309 13310 13313 13314 13315 13316 13319 13322 13324 13326 13327 13328 13330 13332 
+		12865 13309 13310 13313 13314 13315 13319 13322 13324 
 	}
 	manpower=859761
 	buildings_max_level_factor=1.000
