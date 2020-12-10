@@ -63,13 +63,13 @@ set_autonomy = {
 
 ##vars##
 
-set_variable = { CAN_alaska_des = 40 }
+set_variable = { CAN_alaska_des = 20 }
 set_variable = { CAN_alberta_des = 80 }
-set_variable = { CAN_bc_des = 80 }
+set_variable = { CAN_bc_des = 85 }
 set_variable = { CAN_manitoba_des = 95 }
 set_variable = { CAN_maritimes_des = 90 }
 set_variable = { CAN_new_england_des = 40 }
-set_variable = { CAN_newfoundland_des = 60 }
+set_variable = { CAN_newfoundland_des = 80 }
 set_variable = { CAN_ontario_des = 100 }
 set_variable = { CAN_quebec_des = 50 }
 set_variable = { CAN_saskatch_des = 80 }
