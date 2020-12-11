@@ -1,14 +1,5 @@
 ﻿capital = 279
 
-oob = "CHL_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "CHL_1936_naval_mtg"
-	else = {
-		set_naval_oob = "CHL_1936_naval_legacy"
-	}
-}
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -47,78 +38,13 @@ if = {
 	}
 }
 
-set_country_flag = monroe_doctrine
-
 set_convoys = 20
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "CHL_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "CHL_1939_naval_mtg"
-		else = {
-			set_naval_oob = "CHL_1939_naval_legacy"
-		}
-	}
-
-	set_technology = {
-		tactical_bomber1 = 1
-		CAS1 = 1
-		interwar_artillery = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
 
 set_convoys = 5
 set_politics = {
-	ruling_party = democratic
-	last_election = "1932.10.30"
-	election_frequency = 72  #but 4 years after this one in 1938.
+	ruling_party = ultranationalism
+	last_election = "2017.12.17"
+	election_frequency = 72  
 	elections_allowed = yes
 }
 set_popularities = {
@@ -127,71 +53,14 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Arturo Alessandri"
+	name = "Sebastián Piñera"
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
-	picture = "GFX_Portrait_chile_arturo_alessandri"
-	expire = "1965.1.1"
-	ideology = liberalism
+	picture = "CHL_portrait_Sebastian_Pinera.dds"
+	expire = "2050.1.1"
+	ideology = nationalist
 	traits = {
 		#
 	}
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.10.25"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 100
-	}
-
-	create_country_leader = {
-		name = "Pedro Aguirre Cerda"
-		desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = socialism
-		traits = {
-			#
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Jorge González von Marées"
-	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Carlos Contreras Labarca"
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Escudero Oscar Otárola"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	traits = { trait_mountaineer }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
 }
 
 
