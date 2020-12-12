@@ -50,13 +50,23 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = authdem
-	last_election = "1932.11.8"
+	ruling_party = democratic 
+	last_election = "2018.10.28"
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
+
+create_country_leader = {
+	name = "Jair Bolsonaro"
+	desc = "POLITICS_JAIR_BOLSONARO_DESC"
+	picture = "BRA_portrait_Jair_Bolsonaro.dds"
+	expire = "2050.1.1"
+	ideology = conservative
+	traits = {
+		#
+	}
 }
+
 set_popularities = {
 	democratic = 20
 	neutrality = 0

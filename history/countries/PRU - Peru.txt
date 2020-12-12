@@ -1,14 +1,5 @@
 ﻿capital = 303
 
-oob = "PRU_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "PRU_1936_naval_mtg"
-	else = {
-		set_naval_oob = "PRU_1936_naval_legacy"
-	}
-}
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -41,72 +32,14 @@ if = {
 	}
 }
 
-set_country_flag = monroe_doctrine
-
 set_convoys = 5
 
-1939.1.1 = {
 
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "PRU_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "PRU_1939_naval_mtg"
-		else = {
-			set_naval_oob = "PRU_1939_naval_legacy"
-		}
-	}
-
-	set_technology = {
-		tactical_bomber1 = 1
-		interwar_artillery = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1931.10.11"
-	election_frequency = 96
+	ruling_party = demsoc
+	last_election = "2016.5.5"
+	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
@@ -114,30 +47,16 @@ set_popularities = {
 	fascism = 51
 }
 
-create_country_leader = {
-	name = "Óscar Benavides"
-	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "GFX_Portrait_peru_oscar_benavides"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
 	create_country_leader = {
-		name = "Manuel Prado Ugarteche"
-		desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		name = "Martín Vizcarra"
+		desc = "POLITICS_MARTIN_VIZCARRA_DESC"
+		picture = "PRU_portrait_Martin_Vizcarra.dds"
 		expire = "1965.1.1"
-		ideology = fascism_ideology
+		ideology = democraticsocialism
 		traits = {
 			#
 		}
 	}
-}
-
 
 ### VARIANTS ###
 # 1936 Start #
