@@ -1,28 +1,40 @@
 state=
 {
 	id=269
-	name="STATE_269"
+	name="Somaliland"
 	manpower = 344700
 
 	state_category = enclave
 
 	history= { 
 		victory_points = {
-			10833 1
+			16052 1
 		}
 		victory_points = {
-			5068 1
+			16055 3
+		}
+		victory_points = {
+			10921 3
+		}
+		victory_points = {
+			16049 3
+		}
+		victory_points = {
+			10833 3
+		}
+		victory_points = {
+			1905 1
 		}
 		owner = SOM
 		add_core_of = SOM
 		buildings = {
 			infrastructure = 3
-			10833 = {
+			16052 = {
 				naval_base = 1
 			}
 		}
 	}
 	provinces={
-		1905 5068 8094 10777 10833 10921 12759 12814
+		1905 5068 8094 10777 10833 10921 12759 12814 16046 16047 16048 16049 16050 16051 16052 16053 16054 16055 16056
 	}
 }
