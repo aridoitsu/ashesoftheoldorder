@@ -1,27 +1,32 @@
+
 state={
 	id=1035
 	name="Colleton"
-	resources = {
-		steel = 27.000
-		oil = 3.000
+	resources={
+		steel=27.000
+		oil=3.000
 	}
-	history = {
+
+	history={
 		owner = ACR
 		add_core_of = ACR
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
-			13543 1
+			13543 1 
 		}
 		victory_points = {
-			13545 1
+			13545 1 
 		}
+
 	}
+
 	provinces={
-		1547 10029 13536 13543 13545 15260
+		1547 10029 13536 13543 13545 13578 13579 15260 
 	}
 	manpower=60124
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

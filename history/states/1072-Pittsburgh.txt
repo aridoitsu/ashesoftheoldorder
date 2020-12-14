@@ -1,29 +1,32 @@
+
 state={
 	id=1072
 	name="Pittsburgh"
-	manpower = 1908372
-	state_category = metropolis
 	resources={
 		steel=94.000
 		oil=12.000
 	}
 
-	history = {
+	history={
 		owner = PIT
 		buildings = {
 			infrastructure = 9
 			industrial_complex = 5
 			arms_factory = 3
 			air_base = 3
+
 		}
 		add_core_of = PIT
 		victory_points = {
-			11800 15
+			11800 15 
 		}
+
 	}
 
 	provinces={
-		11800
+		11800 14751 14795 14810 
 	}
+	manpower=1908372
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

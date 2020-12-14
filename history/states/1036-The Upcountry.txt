@@ -1,28 +1,33 @@
+
 state={
 	id=1036
-	name= "Greenville"
-	resources = {
-		steel = 10.000
+	name="Greenville"
+	resources={
+		steel=10.000
 	}
-	history = {
+
+	history={
 		owner = NAK
 		add_core_of = NAK
 		add_claim_by = ACR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			4653 3
+			4653 3 
 		}
 		victory_points = {
-			3994 1
+			3994 1 
 		}
+
 	}
+
 	provinces={
-		1485 3994 4653 7527 15066 15067
+		1485 3994 4653 7527 13587 14981 15066 15067 
 	}
 	manpower=321405
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

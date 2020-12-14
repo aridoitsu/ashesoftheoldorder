@@ -1,21 +1,26 @@
+
 state={
 	id=1052
 	name="Rockbridge"
-	history = {
+
+	history={
 		owner = VAV
 		add_core_of = VAV
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			11873 5
+			11873 5 
 		}
+
 	}
+
 	provinces={
-		951 10343 11873 11888 15417
+		951 10343 11873 11888 14939 14952 15005 15022 15060 15061 15170 
 	}
 	manpower=130142
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

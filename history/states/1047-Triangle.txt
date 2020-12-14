@@ -1,26 +1,31 @@
+
 state={
 	id=1047
 	name="Haw"
-	history = {
+
+	history={
 		owner = CRN
 		add_core_of = CRN
 		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
-			12054 5
+			12054 5 
 		}
 		victory_points = {
-			13659 5
+			13659 5 
 		}
 		victory_points = {
-			13653 3
+			13653 3 
 		}
+
 	}
+
 	provinces={
-		7045 13653 13659 15079
+		7045 13653 13659 14988 15079 
 	}
 	manpower=62315
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

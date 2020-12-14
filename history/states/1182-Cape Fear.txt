@@ -12,20 +12,22 @@ state={
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
+
 		}
 		add_core_of = CRN
 		victory_points = {
-			11927 1
+			11927 1 
 		}
 		victory_points = {
-			7083 10
+			7083 10 
 		}
 
 	}
 
 	provinces={
-		1019 7083 10051 11927 15117 15126 15139 15165 15166 15176 15206
+		1019 7083 10051 11927 14881 15117 15126 15139 15165 15166 15176 15206 
 	}
 	manpower=2057491
+	buildings_max_level_factor=1.000
 	state_category=large_town
 }

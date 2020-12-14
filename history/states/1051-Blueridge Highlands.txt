@@ -1,10 +1,12 @@
+
 state={
 	id=1051
 	name="Greensville"
-	resources = {
-		chromium = 6.000
+	resources={
+		chromium=6.000
 	}
-	history = {
+
+	history={
 		owner = VAV
 		add_core_of = VAV
 		buildings = {
@@ -12,22 +14,26 @@ state={
 			arms_factory = 2
 			788 = {
 				naval_base = 5
+
 			}
+
 		}
 		victory_points = {
-			9931 1
+			9931 1 
 		}
 		victory_points = {
-			10412 1
+			10412 1 
 		}
 		victory_points = {
-			788 3
+			788 3 
 		}
+
 	}
+
 	provinces={
-		3925 10412 11841 9931 788 11738
+		788 3925 9931 10412 11738 11841 14908 14920 14932 14951 14987 14997 15011 15035 15096 15097 15098 15116 
 	}
 	manpower=315410
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

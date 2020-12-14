@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		968 5090 7643 9967 10909 15249 
+		968 5090 7643 7791 9967 10909 15249 
 	}
 	manpower=12040
 	buildings_max_level_factor=1.000
