@@ -6,7 +6,7 @@ state={
 		steel=15.000
 	}
 
-	history = {
+	history={
 		owner = INI
 		buildings = {
 			infrastructure = 6
@@ -15,13 +15,13 @@ state={
 		}
 		add_core_of = INI
 		victory_points = {
-			9654 1
+			9654 1 
 		}
 
 	}
 
 	provinces={
-		870 9653 9654 11637
+		870 9653 9654 11637 15248 15252 15306 15457 
 	}
 	manpower=2038501
 	buildings_max_level_factor=1.000

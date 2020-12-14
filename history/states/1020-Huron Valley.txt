@@ -1,21 +1,26 @@
+
 state={
 	id=1020
 	name="Huron Valley"
-	history = {
+
+	history={
 		owner = MCH
 		add_core_of = MCH
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			11685 3
+			11685 3 
 		}
+
 	}
+
 	provinces={
-		691 695 9684 11641 11685
+		691 695 9684 11641 11685 14829 15243 15275 15285 15315 
 	}
 	manpower=401231
 	buildings_max_level_factor=1.000
-	state_category = large_town
+	state_category=large_town
 }

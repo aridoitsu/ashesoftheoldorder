@@ -7,7 +7,7 @@ state={
 		oil=40.000
 	}
 
-	history = {
+	history={
 		owner = MCH
 		buildings = {
 			infrastructure = 6
@@ -15,18 +15,19 @@ state={
 			arms_factory = 1
 			7420 = {
 				naval_base = 2
+
 			}
 
 		}
 		add_core_of = MCH
 		victory_points = {
-			6769 1
+			6769 1 
 		}
 
 	}
 
 	provinces={
-		3766 7420 10233 10303 11731
+		3766 6779 10233 10303 11731 15423 15441 15474 15475 15476 15509 15531 15555 
 	}
 	manpower=1218511
 	buildings_max_level_factor=1.000
