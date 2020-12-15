@@ -53,15 +53,6 @@ guiTypes = {
         }
         
         buttonType = {
-			name = "newfoundland_button"
-			spriteType = "GFX_newfoundland"
-            position = { x = 424 y = -194 } #-191
-            pdx_tooltip = CAN_newfoundland
-             
-            scale = 0.35
-        }
-        
-        buttonType = {
 			name = "ontario_button"
 			spriteType = "GFX_ontario"
             position = { x = 275 y = -141 }
@@ -75,6 +66,15 @@ guiTypes = {
 			spriteType = "GFX_quebec"
             position = { x = 358 y = -204 }
             pdx_tooltip = CAN_quebec
+             
+            scale = 0.35
+        }
+
+        buttonType = {
+			name = "newfoundland_button"
+			spriteType = "GFX_newfoundland"
+            position = { x = 424 y = -194 } #-191
+            pdx_tooltip = CAN_newfoundland
              
             scale = 0.35
         }
@@ -113,6 +113,6 @@ guiTypes = {
             pdx_tooltip = CAN_prov_govt
              
             scale = 0.35
-		}
+        }
     }
 }

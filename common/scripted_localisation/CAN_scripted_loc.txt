@@ -1,0 +1,163 @@
+defined_text = {
+	name = CAN_panel_scripted
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_alaska
+		}
+		localization_key = CAN_panel_alaska
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_alaska
+		}
+		localization_key = CAN_panel_alaska
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_territories
+		}
+		localization_key = CAN_panel_territories
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_bc
+		}
+		localization_key = CAN_panel_bc
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_alberta
+		}
+		localization_key = CAN_panel_alberta
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_saskatch
+		}
+		localization_key = CAN_panel_saskatch
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_manitoba
+		}
+		localization_key = CAN_panel_manitoba
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_ontario
+		}
+		localization_key = CAN_panel_ontario
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_quebec
+		}
+		localization_key = CAN_panel_quebec
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_newfoundland
+		}
+		localization_key = CAN_panel_newfoundland
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_maritimes
+		}
+		localization_key = CAN_panel_maritimes
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_new_england
+		}
+		localization_key = CAN_panel_new_england
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_prov_govt
+		}
+		localization_key = CAN_panel_prov_govt
+	}
+}
+
+defined_text = {
+	name = CAN_scripted_desire
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_alaska
+		}
+		localization_key = CAN_scripted_alaska
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_alaska
+		}
+		localization_key = CAN_scripted_alaska
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_territories
+		}
+		localization_key = CAN_scripted_territories
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_bc
+		}
+		localization_key = CAN_scripted_bc
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_alberta
+		}
+		localization_key = CAN_scripted_alberta
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_saskatch
+		}
+		localization_key = CAN_scripted_saskatch
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_manitoba
+		}
+		localization_key = CAN_scripted_manitoba
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_ontario
+		}
+		localization_key = CAN_scripted_ontario
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_quebec
+		}
+		localization_key = CAN_scripted_quebec
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_newfoundland
+		}
+		localization_key = CAN_scripted_newfoundland
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_maritimes
+		}
+		localization_key = CAN_scripted_maritimes
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_new_england
+		}
+		localization_key = CAN_scripted_new_england
+	}
+	text = {
+		trigger = {
+			has_country_flag = CAN_gui_prov_govt
+		}
+		localization_key = CAN_scripted_prov_govt
+	}
+}

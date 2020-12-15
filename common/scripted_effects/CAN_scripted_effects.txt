@@ -1,0 +1,14 @@
+CAN_clr_other_flags = {
+		clr_country_flag = CAN_gui_alaska
+		clr_country_flag = CAN_gui_territories
+		clr_country_flag = CAN_gui_bc
+		clr_country_flag = CAN_gui_alberta
+		clr_country_flag = CAN_gui_saskatch
+		clr_country_flag = CAN_gui_manitoba
+		clr_country_flag = CAN_gui_ontario
+		clr_country_flag = CAN_gui_quebec
+		clr_country_flag = CAN_gui_newfoundland
+		clr_country_flag = CAN_gui_maritimes
+		clr_country_flag = CAN_gui_new_england
+		clr_country_flag = CAN_gui_prov_govt
+}

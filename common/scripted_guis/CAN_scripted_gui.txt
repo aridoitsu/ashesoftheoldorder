@@ -1,10 +1,82 @@
 scripted_gui = {
-
 	CAN_main_ui = {
-	context_type = decision_category
-	window_name = "can_main_decision_ui_window"
-	
-	}
+		context_type = decision_category
+		window_name = "can_main_decision_ui_window"
 
+		effects = {
+			alaska_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_alaska
+			}
+			territories_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_territories
+			}
+			bc_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_bc
+			}
+			alberta_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_alberta
+			}
+			saskatch_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_saskatch
+			}
+			manitoba_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_manitoba
+			}
+			ontario_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_ontario
+			}
+			quebec_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_quebec
+			}
+			new_england_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_new_england
+			}
+			newfoundland_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_newfoundland
+			}
+			prov_govt_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_prov_govt
+			}
+			maritimes_button_click = {
+				set_country_flag = CAN_gui_yes
+				CAN_clr_other_flags = yes
+				set_country_flag = CAN_gui_maritimes
+			}
+		}
+	}
+	CAN_panel_ui = {
+		context_type = player_context
+		window_name = "can_panel_decision_ui_window"
+		visible = {
+			has_country_flag = CAN_gui_yes
+		}
+		effects = {
+			can_close_panel_click = {
+				clr_country_flag = CAN_gui_yes
+			}
+		}
+	}
 #end
 }
