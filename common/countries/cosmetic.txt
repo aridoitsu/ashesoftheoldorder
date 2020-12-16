@@ -207,3 +207,8 @@ AK6 = {
 	color_ui = rgb { 35 126 41 }
 }
 ## 
+
+quebec = {
+	color = rgb { 27 72 255 }
+	color_ui = rgb { 27 72 255 }
+}

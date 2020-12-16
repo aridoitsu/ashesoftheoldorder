@@ -1,0 +1,65 @@
+on_actions = {
+	on_daily_CAN = {
+		effect = {
+			if = {
+				limit = { has_global_flag = canada_death }
+				add_to_variable = { can_alaska_des = -10 }
+				add_to_variable = { can_alberta_des = -10 }
+				add_to_variable = { can_bc_des = -10 }
+				add_to_variable = { can_manitoba_des = -10 }
+				add_to_variable = { can_maritimes_des = -10 }
+				add_to_variable = { can_new_england_des = -10 }
+				add_to_variable = { can_newfoundland_des = -10 }
+				add_to_variable = { can_prov_govt_des = -10 }
+				add_to_variable = { can_quebec_des = -10 }
+				add_to_variable = { can_saskatch_des = -10 }
+				add_to_variable = { can_territories_des = -10 }
+				CAN_clamp_desires = yes
+			}
+			if = {
+				limit = { check_variable = { can_alaska_des < 1 } }
+				country_event = { id = canada.1 }
+			}
+			if = {
+				limit = { check_variable = { can_quebec_des < 1 } }
+				country_event = { id = canada.2 }
+			}
+			if = {
+				limit = { check_variable = { can_alberta_des < 1 } }
+				country_event = { id = canada.3 }
+			}
+			if = {
+				limit = { check_variable = { can_bc_des < 1 } }
+				country_event = { id = canada.4 }
+			}
+			if = {
+				limit = { check_variable = { can_manitoba_des < 1 } }
+				country_event = { id = canada.5 }
+			}
+			if = {
+				limit = { check_variable = { can_maritimes_des < 1 } }
+				country_event = { id = canada.6 }
+			}
+			if = {
+				limit = { check_variable = { can_newfoundland_des < 1 } }
+				country_event = { id = canada.7 }
+			}
+			if = {
+				limit = { check_variable = { can_territories_des < 1 } }
+				country_event = { id = canada.8 }
+			}
+			if = {
+				limit = { check_variable = { can_saskatch_des < 1 } }
+				country_event = { id = canada.9 }
+			}
+			if = {
+				limit = { check_variable = { can_new_england_des < 1 } }
+				country_event = { id = canada.10 }
+			}
+			if = {
+				limit = { check_variable = { can_prov_govt_des < 1 } }
+				country_event = { id = canada.11 }
+			}
+		}
+	}
+}
