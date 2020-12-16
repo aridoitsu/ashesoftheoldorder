@@ -4,8 +4,8 @@ state={
 	name="Glaciated Till"
 
 	history={
-		owner = IAI
-		add_core_of = IAI
+		owner = MOM
+		add_core_of = MOM
 		buildings = {
 			infrastructure = 3
 

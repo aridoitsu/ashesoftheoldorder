@@ -1,20 +1,25 @@
+
 state={
 	id=804
-	name= "South Sierra"
-	resources = {
-		aluminium = 10.000
+	name="South Sierra"
+	resources={
+		aluminium=10.000
 	}
-	history = {
+
+	history={
 		owner = NEV
 		add_core_of = NEV
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
+
 	provinces={
-		1651 7667 10387 13656 1432
+		1432 1651 7667 10387 12425 13656 13684 13694 
 	}
 	manpower=121435
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

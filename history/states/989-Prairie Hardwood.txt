@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = DMO
-		add_core_of = DMO
+		owner = MNM
+		add_core_of = MNM
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -21,7 +21,7 @@ state={
 	}
 
 	provinces={
-		1831 4664 4807 14050 
+		1831 4664 4807 9910 10478 14050 
 	}
 	manpower=286101
 	buildings_max_level_factor=1.000

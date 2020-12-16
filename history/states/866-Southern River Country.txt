@@ -3,7 +3,7 @@ state={
 	id=866
 	name="Kofa"
 
-	history = {
+	history={
 		owner = PNX
 		add_core_of = PNX
 		buildings = {
@@ -15,7 +15,7 @@ state={
 	}
 
 	provinces={
-		853 8115 13563 13565 13566 13575 13576 
+		1357 1535 1548 4511 4582 7516 10384 10425 12360 12373 12388 12402 13575 
 	}
 	manpower=75572
 	buildings_max_level_factor=1.000

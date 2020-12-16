@@ -4,13 +4,13 @@ state={
 	name="Iowan Plains"
 
 	history={
-		owner = DMO
+		owner = IAI
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 4
 
 		}
-		add_core_of = DMO
+		add_core_of = IAI
 		victory_points = {
 			7306 3 
 		}
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		4691 7306 7458 7539 9910 10478 11971 12418 
+		4691 7306 7458 7539 11971 12418 
 	}
 	manpower=130938
 	buildings_max_level_factor=1.000
