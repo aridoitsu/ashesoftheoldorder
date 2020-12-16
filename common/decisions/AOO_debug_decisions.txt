@@ -346,4 +346,28 @@ aoo_debug_decisions = {
 		}
 	}
 
+	debug_end_canada = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = canada_death
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
 }

@@ -1,0 +1,370 @@
+add_namespace = canada
+
+#release alaska
+country_event = {
+	id = canada.1
+	title = canada.1.t
+	desc = canada.1.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.1.a
+		ai_chance = { base = 100 }
+
+		set_autonomy = {
+			target = AKA
+			autonomy_state = autonomy_free
+		}
+
+		AKA = { set_cosmetic_tag = AK3 }
+	}
+}
+
+#release quebec
+country_event = {
+	id = canada.2
+	title = canada.2.t
+	desc = canada.2.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.2.a
+		ai_chance = { base = 100 }
+
+		set_autonomy = {
+			target = QBC
+			autonomy_state = autonomy_free
+		}
+
+		QBC = { set_cosmetic_tag = quebec }
+	}
+}
+
+#release alberta
+country_event = {
+	id = canada.3
+	title = canada.3.t
+	desc = canada.3.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.3.a
+		ai_chance = { base = 100 }
+
+		ABA = { transfer_state = 848 }
+		ABA = { transfer_state = 845 }
+		ABA = { transfer_state = 847 }
+		ABA = { transfer_state = 846 }
+		ABA = { transfer_state = 844 }
+		ABA = { transfer_state = 843 }
+		ABA = { transfer_state = 470 }
+
+		ABA = { add_state_core = 848 }
+		ABA = { add_state_core = 845 }
+		ABA = { add_state_core = 847 }
+		ABA = { add_state_core = 846 }
+		ABA = { add_state_core = 844 }
+		ABA = { add_state_core = 843 }
+		ABA = { add_state_core = 470 }
+
+	}
+}
+
+#release bc
+country_event = {
+	id = canada.4
+	title = canada.4.t
+	desc = canada.4.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.4.a
+		ai_chance = { base = 100 }
+
+		BCB = { transfer_state = 829 }
+		BCB = { transfer_state = 827 }
+		BCB = { transfer_state = 828 }
+		BCB = { transfer_state = 826 }
+		BCB = { transfer_state = 823 }
+		BCB = { transfer_state = 473 }
+		BCB = { transfer_state = 822 }
+		BCB = { transfer_state = 740 }
+		BCB = { transfer_state = 739 }
+		BCB = { transfer_state = 824 }
+		BCB = { transfer_state = 825 }
+
+		BCB = { add_state_core = 829 }
+		BCB = { add_state_core = 827 }
+		BCB = { add_state_core = 828 }
+		BCB = { add_state_core = 826 }
+		BCB = { add_state_core = 823 }
+		BCB = { add_state_core = 473 }
+		BCB = { add_state_core = 822 }
+		BCB = { add_state_core = 740 }
+		BCB = { add_state_core = 739 }
+		BCB = { add_state_core = 824 }
+		BCB = { add_state_core = 825 }
+
+	}
+}
+
+#release manitoba
+country_event = {
+	id = canada.5
+	title = canada.5.t
+	desc = canada.5.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.5.a
+		ai_chance = { base = 100 }
+
+		MBM = { transfer_state = 951 }
+		MBM = { transfer_state = 953 }
+		MBM = { transfer_state = 957 }
+		MBM = { transfer_state = 955 }
+		MBM = { transfer_state = 952 }
+		MBM = { transfer_state = 956 }
+		MBM = { transfer_state = 954 }
+		MBM = { transfer_state = 467 }
+
+		MBM = { add_state_core = 951 }
+		MBM = { add_state_core = 953 }
+		MBM = { add_state_core = 957 }
+		MBM = { add_state_core = 955 }
+		MBM = { add_state_core = 952 }
+		MBM = { add_state_core = 956 }
+		MBM = { add_state_core = 954 }
+		MBM = { add_state_core = 467 }
+
+	}
+}
+
+#release maritimes
+country_event = {
+	id = canada.6
+	title = canada.6.t
+	desc = canada.6.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.6.a
+		ai_chance = { base = 100 }
+
+		NSN = { transfer_state = 1121 }
+		NSN = { transfer_state = 465 }
+		NSN = { transfer_state = 1122 }
+		NSN = { transfer_state = 1125 }
+		NSN = { transfer_state = 1123 }
+		NSN = { transfer_state = 1130 }
+		NSN = { transfer_state = 1129 }
+		NSN = { transfer_state = 464 }
+		NSN = { transfer_state = 1132 }
+		NSN = { transfer_state = 1128 }
+		NSN = { transfer_state = 1131 }
+		NSN = { transfer_state = 1127 }
+		NSN = { transfer_state = 1126 }
+		NSN = { transfer_state = 1124 }
+
+		NSN = { add_state_core = 1121 }
+		NSN = { add_state_core = 465 }
+		NSN = { add_state_core = 1122 }
+		NSN = { add_state_core = 1125 }
+		NSN = { add_state_core = 1123 }
+		NSN = { add_state_core = 1130 }
+		NSN = { add_state_core = 1129 }
+		NSN = { add_state_core = 464 }
+		NSN = { add_state_core = 1132 }
+		NSN = { add_state_core = 1128 }
+		NSN = { add_state_core = 1131 }
+		NSN = { add_state_core = 1127 }
+		NSN = { add_state_core = 1126 }
+		NSN = { add_state_core = 1124 }
+
+	}
+}
+
+#release newfoundland
+country_event = {
+	id = canada.7
+	title = canada.7.t
+	desc = canada.7.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.7.a
+		ai_chance = { base = 100 }
+
+		NLN = { transfer_state = 332 }
+		NLN = { transfer_state = 1142 }
+		NLN = { transfer_state = 1144 }
+		NLN = { transfer_state = 1143 }
+		NLN = { transfer_state = 331 }
+		NLN = { transfer_state = 1145 }
+		NLN = { transfer_state = 1146 }
+
+		NLN = { add_state_core = 332 }
+		NLN = { add_state_core = 1142 }
+		NLN = { add_state_core = 1144 }
+		NLN = { add_state_core = 1143 }
+		NLN = { add_state_core = 331 }
+		NLN = { add_state_core = 1145 }
+		NLN = { add_state_core = 1146 }
+
+	}
+}
+
+#release territories
+country_event = {
+	id = canada.8
+	title = canada.8.t
+	desc = canada.8.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.8.a
+		ai_chance = { base = 100 }
+
+		NTN = { transfer_state = 471 }
+		NTN = { transfer_state = 838 }
+		NTN = { transfer_state = 836 }
+		NTN = { transfer_state = 837 }
+		NTN = { transfer_state = 1151 }
+		NTN = { transfer_state = 472 }
+		NTN = { transfer_state = 839 }
+		NTN = { transfer_state = 841 }
+		NTN = { transfer_state = 842 }
+		NTN = { transfer_state = 840 }
+		NTN = { transfer_state = 950 }
+		NTN = { transfer_state = 683 }
+
+		NTN = { add_state_core = 471 }
+		NTN = { add_state_core = 838 }
+		NTN = { add_state_core = 836 }
+		NTN = { add_state_core = 837 }
+		NTN = { add_state_core = 1151 }
+		NTN = { add_state_core = 472 }
+		NTN = { add_state_core = 839 }
+		NTN = { add_state_core = 841 }
+		NTN = { add_state_core = 842 }
+		NTN = { add_state_core = 840 }
+		NTN = { add_state_core = 950 }
+		NTN = { add_state_core = 683 }
+
+	}
+}
+
+#release saskatch
+country_event = {
+	id = canada.9
+	title = canada.9.t
+	desc = canada.9.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.9.a
+		ai_chance = { base = 100 }
+
+		SKS = { transfer_state = 949 }
+		SKS = { transfer_state = 948 }
+		SKS = { transfer_state = 947 }
+		SKS = { transfer_state = 946 }
+		SKS = { transfer_state = 945 }
+		SKS = { transfer_state = 940 }
+		SKS = { transfer_state = 941 }
+		SKS = { transfer_state = 944 }
+		SKS = { transfer_state = 469 }
+		SKS = { transfer_state = 942 }
+		SKS = { transfer_state = 943 }
+		SKS = { transfer_state = 939 }
+
+		SKS = { add_state_core = 949 }
+		SKS = { add_state_core = 948 }
+		SKS = { add_state_core = 947 }
+		SKS = { add_state_core = 946 }
+		SKS = { add_state_core = 945 }
+		SKS = { add_state_core = 940 }
+		SKS = { add_state_core = 941 }
+		SKS = { add_state_core = 944 }
+		SKS = { add_state_core = 469 }
+		SKS = { add_state_core = 942 }
+		SKS = { add_state_core = 943 }
+		SKS = { add_state_core = 939 }
+
+	}
+}
+
+#release new england
+country_event = {
+	id = canada.10
+	title = canada.10.t
+	desc = canada.10.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.10.a
+		ai_chance = { base = 100 }
+
+		ADI = { transfer_state = 1092 }
+		VTV = { transfer_state = 1103 }
+		VTV = { transfer_state = 1104 }
+		SRV = { transfer_state = 1105 }
+		GMB = { transfer_state = 1106 }
+		GMB = { transfer_state = 1110 }
+		GMB = { transfer_state = 1111 }
+		NHN = { transfer_state = 1107 }
+		NHN = { transfer_state = 1108 }
+		NHN = { transfer_state = 1109 }
+		MPL = { transfer_state = 1112 }
+		MPL = { transfer_state = 1113 }
+		MEM = { transfer_state = 1115 }
+		MEM = { transfer_state = 367 }
+		MSG = { transfer_state = 1114 }
+		MSG = { transfer_state = 1116 }
+
+	}
+}
+
+#release prov govt
+country_event = {
+	id = canada.11
+	title = canada.11.t
+	desc = canada.11.d
+	picture = GFX_NYN_thatcherism
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = canada.11.a
+		ai_chance = { base = 100 }
+
+		CTC = { transfer_state = 1094 }
+		CTC = { transfer_state = 1095 }
+		CTC = { transfer_state = 1096 }
+		MAM = { transfer_state = 1098 }
+		MAM = { transfer_state = 1099 }
+		MAM = { transfer_state = 1102 }
+		RIR = { transfer_state = 1097 }
+
+	}
+}	

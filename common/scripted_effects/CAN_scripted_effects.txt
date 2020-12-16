@@ -12,3 +12,66 @@ CAN_clr_other_flags = {
 		clr_country_flag = CAN_gui_new_england
 		clr_country_flag = CAN_gui_prov_govt
 }
+
+CAN_clamp_desires = {
+	clamp_variable = {
+		var = can_alaska_des
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = can_alberta_des
+			min = 0
+			max = 100
+	}
+	clamp_variable = {
+		var = can_bc_des
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = can_manitoba_des
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = can_maritimes_des
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = can_new_england_des
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = can_newfoundland_des
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = can_ontario_des
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = can_prov_govt_des
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = can_quebec_des
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = can_saskatch_des
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = can_territories_des
+		min = 0
+		max = 100
+	}
+}

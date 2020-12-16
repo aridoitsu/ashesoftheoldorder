@@ -60,3 +60,8 @@
  ALG_OCCUPIED_DEF:0 "Algeria"
  ALG_OCCUPIED_ADJ:0 "Algerian"
  
+ # quebec
+
+ quebec:0 "Quebec"
+ quebec_def:0 "the Republic of Quebec"
+ quebec_adj:0 "Quebecois"
