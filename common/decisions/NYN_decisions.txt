@@ -660,6 +660,23 @@ NYN_debt_growth = {
 			NYN_reset_debt = yes
 		}
 	}
+	NYN_rescind_the_pensions = {
+		available = {
+			has_completed_focus = NYN_feed_it_our_old
+		}
+		visible = {
+			has_completed_focus = NYN_feed_it_our_old
+		}
+		cost = 0
+		icon = generic_decision
+		days_re_enable = 0
+		days_remove = 14
+		complete_effect = {
+			add_to_variable = {
+				NYN_total_debt = -5
+			}
+		}
+	}
 }
 NYN_mobilization = {
 	NYN_meeting_quota = {
