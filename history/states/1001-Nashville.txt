@@ -1,41 +1,46 @@
+
 state={
 	id=1001
 	name="Nashville"
-	resources = {
-		steel = 73.000
-		chromium = 8.000
+	resources={
+		steel=73.000
+		chromium=8.000
 	}
-	history = {
+
+	history={
 		owner = NSH
 		add_core_of = NSH
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
 			arms_factory = 2
+
 		}
 		victory_points = {
-			13679 15
+			13679 15 
 		}
 		victory_points = {
-			13669 5
+			13669 5 
 		}
 		victory_points = {
-			13680 3
+			13680 3 
 		}
 		victory_points = {
-			13672 3
+			13672 3 
 		}
 		victory_points = {
-			13681 1
+			13681 1 
 		}
 		victory_points = {
-			13688 1
+			13688 1 
 		}
+
 	}
+
 	provinces={
-		8083 13668 13669 13672 13679 13680 13681 13688
+		4988 8083 13668 13669 13672 13679 13680 13681 13688 14606 14613 
 	}
 	manpower=1034254
 	buildings_max_level_factor=1.000
-	state_category = metropolis
+	state_category=metropolis
 }

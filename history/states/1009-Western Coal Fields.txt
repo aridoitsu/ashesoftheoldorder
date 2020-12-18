@@ -1,21 +1,26 @@
+
 state={
 	id=1009
 	name="Daviess"
-	history = {
+
+	history={
 		owner = NSH
 		add_core_of = NSH
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			10727 3
+			10727 3 
 		}
+
 	}
+
 	provinces={
-		4402 6974 10727
+		4402 6974 10727 11571 12670 14359 14369 14415 14471 14475 14501 14516 14582 14666 
 	}
 	manpower=102345
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }
