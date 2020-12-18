@@ -791,7 +791,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 			}
 			prerequisite = { focus = NYN_the_military_industrial_complex }
 			completion_reward = {
-
+				custom_effect_tooltip = NYN_feed_it_our_old_tt
 			}
 		}
 
