@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		NSH_ghost_cities= {
+			picture = GFX_idea_NSH_ghost_cities
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.20	
+				consumer_goods_factor = 0.10
+				MONTHLY_POPULATION = -0.1
+				}
+			}
+		NSH_horse_culture= {
+			picture = GFX_idea_NSH_horse_culture
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_speed_factor = 0.07
+				}
+			}
+		NSH_lack_of_industrialization = {
+			picture = GFX_idea_NSH_lack_of_industrialization
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.5
+				production_factory_start_efficiency_factor = -0.5
+				production_factory_max_efficiency_factor = -0.5
+				production_factory_efficiency_gain_factor = -0.5
+				industry_air_damage_factor = -0.1	
+				}
+			}
+		NSH_widespread_illiteracy = {
+			picture = GFX_idea_NSH_widespread_illiteracy 
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				research_speed_factor = -0.65
+
+				}
+		}
+		
+	}
+}
