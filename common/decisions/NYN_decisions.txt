@@ -672,8 +672,12 @@ NYN_debt_growth = {
 		days_re_enable = 0
 		days_remove = 14
 		complete_effect = {
+			add_stability = -0.005
+		}
+		remove_effect = {
+			custom_effect_tooltip = NYN_rescind_the_pensions_tt
 			add_to_variable = {
-				NYN_total_debt = -5
+				NYN_total_debt = -10
 			}
 		}
 	}

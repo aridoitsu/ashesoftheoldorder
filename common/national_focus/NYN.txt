@@ -845,7 +845,11 @@ continuous_focus_position = { x = 50 y = 2000 }
 			}
 			prerequisite = { focus = NYN_feed_it_our_old }
 			completion_reward = {
-
+				add_to_variable = {
+					NYN_total_debt = -200
+				}
+				custom_effect_tooltip = NYN_cut_the_pensions_tt
+				add_stability = -0.05
 			}
 		}
 
@@ -863,7 +867,11 @@ continuous_focus_position = { x = 50 y = 2000 }
 			}
 			prerequisite = { focus = NYN_feed_it_our_old }
 			completion_reward = {
-
+				add_to_variable = {
+					NYN_total_debt = -200
+				}
+				custom_effect_tooltip = NYN_cut_the_pensions_tt
+				add_stability = -0.05
 			}
 		}
 
