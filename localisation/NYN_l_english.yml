@@ -91,7 +91,9 @@
  NYN_target_the_schools_tt:0 "§HUnlocks decision to gain manpower over 14 days.§!"
  NYN_target_the_poors_tt:0 "§HUnlocks decision to gain manpower over 14 days.§!"
  NYN_feed_it_our_old_tt:0 "§HUnlocks decisions to lose debt over 14 days.§!"
+ NYN_rescind_the_pensions_tt:0 "Debt: §G-10k§!"
  NYN_plus_25_debt:0 "Debt: §R+25k§!"
+ NYN_cut_the_pensions_tt:0 "Debt: §G-200k§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"
@@ -125,6 +127,7 @@
  NYN_pay_off_long_term_loan:0 "Pay Off Long Term Loan"
  NYN_military_recruiting_in_schools:0 "Recruit in Schools"
  NYN_promise_benefits:0 "Promise Benefits"
+ NYN_rescind_the_pensions:0 "Rescind The Pensions"
  #events
  albany.15.t:0 "[GetFate]"
  

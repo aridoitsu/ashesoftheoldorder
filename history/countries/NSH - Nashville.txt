@@ -56,6 +56,10 @@ set_politics = {
 	elections_allowed = no
 }
 add_ideas = {
+	NSH_ghost_cities
+	NSH_horse_culture
+	NSH_lack_of_industrialization
+	NSH_widespread_illiteracy 
 }
 set_popularities = {
 	democratic = 0
