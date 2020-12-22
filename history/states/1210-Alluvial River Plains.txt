@@ -1,0 +1,27 @@
+state={
+	id=1210
+	name="Alluvial River Plains"
+
+	history={
+		owner = MOM
+		add_core_of = MOM
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			15101 10 
+		}
+		victory_points = {
+			1621 1 
+		}
+	}
+
+	provinces = {
+		1621 15101 15106 15159
+	}
+	#provinces={
+	#	1621 4449 4569 12346 13697 14756 14779 14802 14816 15101 15106 15120 15157 15159 15193 15210
+	#}
+	manpower=259831
+	state_category=town
+}

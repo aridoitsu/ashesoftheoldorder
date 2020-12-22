@@ -7,8 +7,7 @@ state={
 		owner = MOM
 		add_core_of = MOM
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 6
 		}
 		victory_points = {
 			10391 3 
@@ -17,9 +16,9 @@ state={
 	}
 
 	provinces={
-		1523 7449 7607 
+		1523 3498 7449 7607 15058 15073 15089 15112 15124 15137 15143 15185 15221
 	}
-	manpower=20154
+	manpower=180463
 	buildings_max_level_factor=1.000
 	state_category=town
 }

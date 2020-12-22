@@ -8,19 +8,13 @@ state={
 	}
 
 	history={
-		owner = MOM
+		owner = LAO
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 5
 
 		}
-		add_core_of = MOM
-		victory_points = {
-			4569 10 
-		}
-		victory_points = {
-			10370 1 
-		}
+		add_core_of = LAO
 
 	}
 

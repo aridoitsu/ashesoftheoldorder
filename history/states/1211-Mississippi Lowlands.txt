@@ -1,0 +1,26 @@
+state={
+	id=1211
+	name="Mississippi Lowlands"
+
+	history={
+		owner = MOM
+		add_core_of = MOM
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			14802 1 
+		}
+
+	}
+
+	provinces = {
+		4449 12346 13697 14756 14779 14802 14816
+	}
+	#provinces={
+	#	1621 4449 4569 12346 13697 14756 14779 14802 14816 15101 15106 15120 15157 15159 15193 15210
+	#}
+	manpower=78753
+	state_category=town
+}

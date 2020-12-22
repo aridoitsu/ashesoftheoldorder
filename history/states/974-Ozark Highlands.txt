@@ -1,7 +1,7 @@
 
 state={
 	id=974
-	name="Missouri"
+	name="Osage Plains"
 
 	history={
 		owner = MOM
@@ -12,24 +12,34 @@ state={
 			arms_factory = 1
 
 		}
+		#victory_points = {
+		#	13707 10 
+		#}
+		#victory_points = {
+		#	10370 3 
+		#}
+		#victory_points = {
+		#	13695 5 
+		#}
+		#victory_points = {
+		#	1621 10 
+		#}
 		victory_points = {
-			13707 10 
+			13759 3
 		}
 		victory_points = {
-			10370 3 
-		}
-		victory_points = {
-			13695 5 
-		}
-		victory_points = {
-			1621 10 
+			14675 1
 		}
 
 	}
 
-	provinces={
-		1441 1564 10370 12361 12463 13696 13707 13759 
+	provinces = {
+		1441 1564 7761 12361 13707 13759 14552 14602 14675 14700 14765 14771 14778
 	}
+
+	#provinces={
+	#	1441 1564 7761 10370 10684 12361 12463 13696 13707 13759 14552 14602 14631 14664 14675 14700 14731 14732 14765 14771 14774 14778 14868
+	#}
 	manpower=120452
 	buildings_max_level_factor=1.000
 	state_category=town
