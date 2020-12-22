@@ -94,6 +94,7 @@
  NYN_rescind_the_pensions_tt:0 "Debt: §G-10k§!"
  NYN_plus_25_debt:0 "Debt: §R+25k§!"
  NYN_cut_the_pensions_tt:0 "Debt: §G-200k§!"
+ NYN_get_on_frontlines_tt:0 "§YUnlocks decision to spawn low equipment units.§!"
  #decisions 
  NYN_leftist_resistance:0 "Leftist Resistance"
  NYN_leftist_resistance_desc:0 "Leftists are currently [GetOrgDesc] in our nation.\nLeftist §HOrganization§!: [?NYN_leftist_org]% ([GetOrgGain])\n\nLeftists are currently [GetMilDesc] in our nation.\nLeftist §HMilitancy§!: [?NYN_leftist_mil]% ([GetMilGain])"

@@ -871,7 +871,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 					NYN_total_debt = -200
 				}
 				custom_effect_tooltip = NYN_cut_the_pensions_tt
-				add_stability = -0.05
+				add_war_support = -0.05
 			}
 		}
 
@@ -890,7 +890,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 			prerequisite = { focus = NYN_target_the_schools }
 			prerequisite = { focus = NYN_target_the_poors }
 			completion_reward = {
-
+				custom_effect_tooltip = NYN_get_on_frontlines_tt
 			}
 		}
 
@@ -928,7 +928,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 			prerequisite = { focus = NYN_get_on_frontlines }
 			prerequisite = { focus = NYN_get_back_in_factories }
 			completion_reward = {
-
+				add_political_power = 100
 			}
 		}
 
@@ -946,7 +946,14 @@ continuous_focus_position = { x = 50 y = 2000 }
 			}
 			prerequisite = { focus = NYN_secure_our_investors_interests }
 			completion_reward = {
-
+				create_wargoal = {
+					type = annex_everything
+					target = NYC
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = PHL
+				}
 			}
 		}
 
@@ -964,7 +971,14 @@ continuous_focus_position = { x = 50 y = 2000 }
 			}
 			prerequisite = { focus = NYN_secure_our_investors_interests }
 			completion_reward = {
-
+				create_wargoal = {
+					type = annex_everything
+					target = PEN
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = PIT
+				}
 			}
 		}
 

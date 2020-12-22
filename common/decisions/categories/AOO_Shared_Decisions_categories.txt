@@ -38,3 +38,16 @@ AOO_Acquire_Arms = {
 		}
 	}
 }
+
+AOO_american_unification = {
+	icon = generic_formable_nations
+
+	allowed = {
+		original_tag = {
+			is_in_array = {
+				array = usa_unifiers
+				value = THIS.id
+			}
+		}
+	}
+}

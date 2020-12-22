@@ -734,6 +734,34 @@ NYN_mobilization = {
 			custom_effect_tooltip = NYN_plus_25_debt
 		}
 	}
+	NYN_deploy = {
+		available = {
+			has_completed_focus = NYN_get_on_frontlines
+		}
+		visible = {
+			has_completed_focus = NYN_get_on_frontlines
+		}
+		cost = 30
+		days_remove = 1
+		remove_effect = {
+			random_owned_state = {
+				create_unit = {
+					division = "name = \"Militia Fella\" division_template = \"Militia\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+					owner = NYN
+					count = 1
+
+					allow_spawning_on_enemy_provs = no
+					country_score = {
+						base = 100
+						modifier = {
+							tag = NYN
+							add = 100
+						}
+					}
+				}
+			}
+		}
+	}
 }
 NYN_test_ui_cat = {
 	NYN_test_lol = {
