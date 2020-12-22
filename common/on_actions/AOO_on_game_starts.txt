@@ -2,17 +2,17 @@ on_actions = {
 	on_startup = {
 		effect = {
 			#this list is very incomplete, add to it as you see fit
-			add_to_array = { usa_unifiers = NYN.id }
-			add_to_array = { usa_unifiers = PEN.id }
-			add_to_array = { usa_unifiers = PIT.id }
-			add_to_array = { usa_unifiers = EDC.id }
-			add_to_array = { usa_unifiers = VAV.id }
-			add_to_array = { usa_unifiers = CRN.id }
-			add_to_array = { usa_unifiers = NAK.id }
-			add_to_array = { usa_unifiers = ACR.id }
-			add_to_array = { usa_unifiers = WDC.id }
-			add_to_array = { usa_unifiers = NEV.id }
-			add_to_array = { usa_unifiers = IAI.id }
+			add_to_array = { global.usa_unifiers = NYN }
+			add_to_array = { global.usa_unifiers = PEN }
+			add_to_array = { global.usa_unifiers = PIT }
+			add_to_array = { global.usa_unifiers = EDC }
+			add_to_array = { global.usa_unifiers = VAV }
+			add_to_array = { global.usa_unifiers = CRN }
+			add_to_array = { global.usa_unifiers = NAK }
+			add_to_array = { global.usa_unifiers = ACR }
+			add_to_array = { global.usa_unifiers = WDC }
+			add_to_array = { global.usa_unifiers = NEV }
+			add_to_array = { global.usa_unifiers = IAI }
 		}
 	}
 }

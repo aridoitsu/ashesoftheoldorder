@@ -14,5 +14,8 @@
   requisition_civilian_weapons:0 "Requisition of Civilian Weapons"
   requisition_civilian_aircraft:0 "Requisition of Civilian Aircraft"
 
+  AOO_american_unification:0 "American Re-Unification"
+  AOO_unify_us:0 "Re-Unify the United States of America"
+
   debug_end_canada:0 "End Canada!!!"
   debug_end_canada_desc:0 "Takes some time so be patient with it"

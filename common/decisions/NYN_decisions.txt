@@ -245,10 +245,21 @@ NYN_debug = {
 			NYN_reset_debt = yes
 			}
 		}
-		
-		
-		
+	NYN_testing_array = {
+		allowed = {
+			tag = NYN
+		}
+		visible = {
+			is_debug = yes
+		}
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			clear_array = global.usa_states
+			add_to_array = { global.usa_states = 1087 }
+		}
 	}
+}
 	
 NYN_leftist_resistance = {
 	NYN_the_fate_of_our_nation = {
