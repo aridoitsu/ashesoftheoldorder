@@ -131,6 +131,138 @@
  WFF_The_Uncertain_Future:0 "The Uncertain Future"
  WFF_The_Uncertain_Future_desc:0 ""
  
+ WFF_The_Great_Troubles:0 "The Great Troubles"
+ WFF_The_Great_Troubles_desc:0 ""
+ 
+ WFF_Separatism:0 "Separatism"
+ WFF_Separatism_desc:0 ""
+ 
+ WFF_Unionism:0 "Unionism"
+ WFF_Unionism_desc:0 ""
+ 
+ WFF_Another_Failed_Union:0 "Another Failed Union"
+ WFF_Another_Failed_Union_desc:0 ""
+ 
+ WFF_Crushing_the_Separatists:0 "Crushing the Separatists"
+ WFF_Crushing_the_Separatists_desc:0 ""
+ 
+ WFF_A_Union_Held_Together:0 "A Union Held Together"
+ WFF_A_Union_Held_Together_desc:0 ""
+ 
+ WFF_Our_Loss:0 "Our Loss"
+ WFF_Our_Loss_desc:0 ""
+ 
+ WFF_Blood_and_Fire:0 "Blood and Fire"
+ WFF_Blood_and_Fire_desc:0 ""
+ 
+ WFF_Our_Pride:0 "Our Pride"
+ WFF_Our_Pride_desc:0 ""
+ 
+ WFF_A_Dissolving_Union:0 "A Dissolving Union"
+ WFF_A_Dissolving_Union_desc:0 ""
+ 
+ WFF_The_Cold_Hard_Truth:0 "The Cold Hard Truth"
+ WFF_The_Cold_Hard_Truth_desc:0 ""
+ 
+ WFF_A_Forgotten_Country:0 "A Forgotten Country"
+ WFF_A_Forgotten_Country_desc:0 ""
+ 
+ WFF_Dreams_turned_to_Nightmares:0 "Dreams turned to Nightmares"
+ WFF_Dreams_turned_to_Nightmares_desc:0 ""
+ 
+ WFF_A_Backwater:0 "Taking the backroads"
+ WFF_A_Backwater_desc:0 ""
+ 
+ WFF_Cut_off_from_Allies:0 "Cut off from Allies"
+ WFF_Cut_off_from_Allies_desc:0 ""
+ 
+ WFF_Cut_off_from_Friends:0 "Cut off from Friends"
+ WFF_Cut_off_from_Friends_desc:0 ""
+ 
+ WFF_The_Choice:0 "The Choice"
+ WFF_The_Choice_desc:0 ""
+ 
+ WFF_A_Call_to_Democracy:0 "A Call to Democracy"
+ WFF_A_Call_to_Democracy_desc:0 ""
+ 
+ WFF_A_Call_to_our_Friends:0 "A Call to our Friends"
+ WFF_A_Call_to_our_Friends_desc:0 ""
+ 
+ WFF_Territories_Lost:0 "Territories Lost"
+ WFF_Territories_Lost_desc:0 ""
+ 
+ WFF_A_Rebounding_Union:0 "A Rebounding Union"
+ WFF_A_Rebounding_Union_desc:0 ""
+ 
+ WFF_Fight_Fire_with_Fire:0 "Fight Fire with Fire"
+ WFF_Fight_Fire_with_Fire_desc:0 ""
+ 
+ WFF_Brother_vs_Brother:0 "Brother vs Brother"
+ WFF_Brother_vs_Brother_desc:0 ""
+ 
+ WFF_For_God_and_Country:0 "For God and Country"
+ WFF_For_God_and_Country_desc:0 ""
+ 
+ WFF_We_Must_Teach_Those_Traitors:0 "We Must Teach Those Traitors"
+ WFF_We_Must_Teach_Those_Traitors_desc:0 ""
+ 
+ WFF_For_Liberty_Democracy_and_Freedom:0 "For Liberty, Democracy, and Freedom"
+ WFF_For_Liberty_Democracy_and_Freedom_desc:0 ""
+ 
+ WFF_Taking_Back_Territory:0 "Taking Back Territories"
+ WFF_Taking_Back_Territory_desc:0 ""
+ 
+ WFF_A_Country_Needs_an_Authority:0 "A Country Needs an Authority"
+ WFF_A_Country_Needs_an_Authority_desc:0 ""
+ 
+ WFF_Support_from_within_Helena:0 "Support from within Helena"
+ WFF_Support_from_within_Helena_desc:0 ""
+ 
+ WFF_A_Country_Needs_Inalienable_Rights:0 "A Country Needs Inalienable Rights"
+ WFF_A_Country_Needs_Inalienable_Rights_desc:0 ""
+ 
+ WFF_We_Fought_But_to_No_Avail:0 "We Fought But to No Avail"
+ WFF_We_Fought_But_to_No_Avail_desc:0 ""
+ 
+ WFF_Through_Fire_Blood_Sweat_and_Tears:0 "Through Fire, Blood, Sweat, and Tears"
+ WFF_Through_Fire_Blood_Sweat_and_Tears_desc:0 ""
+ 
+ WFF_Democracy_Reigns_Supreme:0 "Democracy Reigns Supreme"
+ WFF_Democracy_Reigns_Supreme_desc:0 ""
+ 
+ WFF_They_Listened_To_Reason:0 "They Listened to Reason"
+ WFF_They_Listened_To_Reason_desc:0 ""
+ 
+ WFF_They_Saw_Our_Freedom:0 "They Saw Our Freedom"
+ WFF_They_Saw_Our_Freedom_desc:0 ""
+ 
+ WFF_Economic_Benefit:0 "Economic Benefit"
+ WFF_Economic_Benefit_desc:0 ""
+ 
+ WFF_A_More_Democratic_Approach:0 "A More Democratic Approach"
+ WFF_A_More_Democratic_Approach_desc:0 ""
+ 
+ WFF_Political_Benefit:0 "Political Benefit"
+ WFF_Political_Benefit_desc:0 ""
+ 
+ WFF_The_Economic_Miracle:0 "Economic Miracle"
+ WFF_The_Economic_Miracle_desc:0 ""
+ 
+ WFF_The_Political_Miracle:0 "Political Miracle"
+ WFF_The_Political_Miracle_desc:0 ""
+ 
+ WFF_Economy_of_the_Future:0 "Economy of the Future"
+ WFF_Economy_of_the_Future_desc:0 ""
+ 
+ WFF_Our_Morals:0 "Our Morals"
+ WFF_Our_Morals_desc:0 ""
+ 
+ WFF_The_Government_of_the_Future:0 "The Government of the Future"
+ WFF_The_Government_of_the_Future_desc:0 ""
+ 
+ WFF_A_Forgotten_Name:0 "A Forgotten Name"
+ WFF_A_Forgotten_Name_desc:0 ""
+ 
  # Tooltip LOC
  
  wff_bitf_tt_1:0 "§RSeparatists begin to launch more audacious operations. They begin to sabotage, assassinate, and even engage in open fire fights. This is not over yet.§!"
