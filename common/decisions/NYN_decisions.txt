@@ -753,7 +753,7 @@ NYN_mobilization = {
 			has_completed_focus = NYN_get_on_frontlines
 		}
 		cost = 30
-		days_remove = 1
+		days_remove = 7
 		remove_effect = {
 			random_owned_state = {
 				create_unit = {

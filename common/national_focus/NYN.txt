@@ -997,7 +997,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 			prerequisite = { focus = NYN_end_the_huns }
 			prerequisite = { focus = NYN_retake_the_capital_of_the_world }
 			completion_reward = {
-
+				set_cosmetic_tag = newyorkcos
 			}
 		}
 

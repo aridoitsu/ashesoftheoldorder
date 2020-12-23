@@ -65,3 +65,7 @@
  quebec:0 "Quebec"
  quebec_def:0 "the Republic of Quebec"
  quebec_adj:0 "Quebecois"
+
+ newyorkcos:0 "New York"
+ newyorkcos_def:0 "the Republic of New York"
+ newyorkcos_adj:0 "New Yorker"
