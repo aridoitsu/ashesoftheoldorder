@@ -383,8 +383,6 @@
    VICTORY_POINTS_12586:0 "Omaha"
    VICTORY_POINTS_12735:0 "Birmingham"
    VICTORY_POINTS_12782:0 "San Antonio"
-   VICTORY_POINTS_13090:0 "Unalaska"
-   VICTORY_POINTS_13091:0 "Anchorage"
    VICTORY_POINTS_3778:0 "Ottawa"
    VICTORY_POINTS_3775:0 "Toronto"
    VICTORY_POINTS_1408:0 "Vancouver"
@@ -895,8 +893,6 @@
      VICTORY_POINTS_13489:0 "Theodore"
      VICTORY_POINTS_13502:0 "Prichard"
      VICTORY_POINTS_13499:0 "Daphne"
-   ##Alaska
-     VICTORY_POINTS_15341:0 "Juneau"
    ##Alberta
      VICTORY_POINTS_14896:0 "Edmonton"
    ##Arkansas
@@ -1092,21 +1088,7 @@
      VICTORY_POINTS_13920:0 "Cicero"
      VICTORY_POINTS_13959:0 "Waukegan"
      VICTORY_POINTS_13911:0 "East Side"
-   ##Iowa
-     VICTORY_POINTS_13939:0 "Des Moines"
-     VICTORY_POINTS_13930:0 "West Des Moines"
-     VICTORY_POINTS_13938:0 "Clive"
-     VICTORY_POINTS_13956:0 "Granger"
-     VICTORY_POINTS_13952:0 "Urbandale"
-     VICTORY_POINTS_13944:0 "Pleasant Hill"
-     VICTORY_POINTS_13954:0 "Ankeny"
-   #NoT Thick Cities
-     VICTORY_POINTS_7306:0 "Iowa City"
-     VICTORY_POINTS_9910:0 "Cedar Rapids"
-     VICTORY_POINTS_12646:0 "Sioux City"
-     VICTORY_POINTS_11971:0 "Waterloo"
-     VICTORY_POINTS_4691:0 "Mason City"
-     VICTORY_POINTS_10478:0 "Davenport"
+    #VICTORY_POINTS_10478:0 "Davenport"
    ##Kansas
      VICTORY_POINTS_13767:0 "Lawrence"
      VICTORY_POINTS_13780:0 "Topeka"
@@ -1231,7 +1213,7 @@
    ##Labrador
      VICTORY_POINTS_14904:0 "Labrador City"
    ##Manitoba
-     VICTORY_POINTS_4872:0 "Winnipeg"
+     VICTORY_POINTS_14672:0 "Winnipeg"
    ##Massachusetts
    #Boston
      VICTORY_POINTS_13961:0 "Boston"
@@ -1286,22 +1268,13 @@
      VICTORY_POINTS_13527:0 "Brandon"
      VICTORY_POINTS_13521:0 "Richland"
      VICTORY_POINTS_13523:0 "Alta Woods"
-   ##Missouri
-   #East Kansas City
-     VICTORY_POINTS_10717:0 "East Kansas City"
-     VICTORY_POINTS_13803:0 "Gladstone"
-     VICTORY_POINTS_13796:0 "Liberty"
-     VICTORY_POINTS_13790:0 "Independence"
-     VICTORY_POINTS_13783:0 "Blue Springs"
-     VICTORY_POINTS_13769:0 "Lee's Summit"
-     VICTORY_POINTS_13764:0 "Grandview"
    #Not Thick Cities
-     VICTORY_POINTS_1621:0 "Jefferson City"
-     VICTORY_POINTS_7607:0 "Columbia"
-     VICTORY_POINTS_13707:0 "Springfield"
-     VICTORY_POINTS_13695:0 "Joplin"
-     VICTORY_POINTS_10391:0 "St. Joseph"
-     VICTORY_POINTS_4569:1 "St. Louis"
+     #VICTORY_POINTS_1621:0 "Jefferson City"
+     #VICTORY_POINTS_7607:0 "Columbia"
+     #VICTORY_POINTS_13707:0 "Springfield"
+     #VICTORY_POINTS_13695:0 "Joplin"
+     #VICTORY_POINTS_10391:0 "St. Joseph"
+     #VICTORY_POINTS_4569:1 "St. Louis"
    ##Montana
      VICTORY_POINTS_14250:0 "Helena"
      VICTORY_POINTS_14213:0 "Montana City"
@@ -1842,3 +1815,94 @@
  VICTORY_POINTS_16049:0 "Haylan"
  VICTORY_POINTS_10833:0 "Burco"
  VICTORY_POINTS_1905:0 "Bohotle"
+
+ # Missouri
+
+ VICTORY_POINTS_10717:0 "East Kansas City"
+ VICTORY_POINTS_13803:0 "Gladstone"
+ VICTORY_POINTS_13796:0 "Liberty"
+ VICTORY_POINTS_13790:0 "Independence"
+ VICTORY_POINTS_13783:0 "Blue Springs"
+ VICTORY_POINTS_13769:0 "Lee's Summit"
+ VICTORY_POINTS_13764:0 "Grandview"
+
+ VICTORY_POINTS_14675:0 "Clinton"
+ VICTORY_POINTS_13759:0 "Marshall"
+
+ VICTORY_POINTS_15101:0 "Jefferson City"
+ VICTORY_POINTS_1621:0 "Rolla"
+
+ VICTORY_POINTS_15157:0 "St. Louis"
+ VICTORY_POINTS_4569:0 "Chesterfield"
+ VICTORY_POINTS_15120:0 "Florissant"
+
+ VICTORY_POINTS_14774:0 "Springfield"
+ VICTORY_POINTS_10370:0 "Branson"
+
+ VICTORY_POINTS_7607:0 "Columbia"
+
+ # Canada
+
+ VICTORY_POINTS_14874:0 "Saskatoon"
+ VICTORY_POINTS_4765:0 "Calgary"
+ VICTORY_POINTS_4877:0 "Canmore"
+ VICTORY_POINTS_7820:0 "Cranbrook"
+ VICTORY_POINTS_1262:0 "Lethbridge"
+ VICTORY_POINTS_7718:0 "Medicine Hat"
+ VICTORY_POINTS_7853:0 "Kamloops"
+ VICTORY_POINTS_15617:0 "Whitehorse"
+ VICTORY_POINTS_7869:0 "Carmacks"
+ VICTORY_POINTS_10703:0 "Norman Wells"
+ VICTORY_POINTS_7696:0 "Deline"
+ VICTORY_POINTS_9740:0 "Moosonee"
+ VICTORY_POINTS_14686:0 "Ogoki"
+ VICTORY_POINTS_3775:0 "Oshawa"
+ VICTORY_POINTS_9711:0 "London"
+ VICTORY_POINTS_9667:0 "Chatham-Kent"
+ VICTORY_POINTS_3208:0 "Kawawachikamach"
+ VICTORY_POINTS_14904:0 "Labrador City"
+ VICTORY_POINTS_14979:0 "Rigolet"
+ VICTORY_POINTS_1426:0 "Hopedale"
+ VICTORY_POINTS_12698:0 "Baie Verte"
+ VICTORY_POINTS_12680:0 "Marystown"
+ VICTORY_POINTS_7758:0 "Clarenville"
+ VICTORY_POINTS_12505:0 "Grates Cove"
+ VICTORY_POINTS_14166:0 "Oromocto"
+ VICTORY_POINTS_634:0 "Fredericton"
+ VICTORY_POINTS_1424:0 "Amherst"
+ VICTORY_POINTS_1354:0 "Caledonia"
+ VICTORY_POINTS_7361:0 "Halifax"
+ VICTORY_POINTS_10244:0 "Port Hawkesbury"
+ VICTORY_POINTS_14159:0 "Chéticamp"
+ VICTORY_POINTS_4432:0 "Caraquet"
+
+ # Alaska
+
+ VICTORY_POINTS_15791:0 "Nome"
+ VICTORY_POINTS_1830:0 "Bethel"
+ VICTORY_POINTS_7884:0 "Kodiak"
+ VICTORY_POINTS_4833:0 "Seward"
+ VICTORY_POINTS_15679:0 "Kenai"
+ VICTORY_POINTS_13090:0 "Unalaska"
+ VICTORY_POINTS_13091:0 "Anchorage"
+ VICTORY_POINTS_15811:0 "Fairbanks"
+ VICTORY_POINTS_13203:0 "Skagway"
+ VICTORY_POINTS_15576:0 "Sitka"
+ VICTORY_POINTS_13202:0 "Ketchikan"
+ VICTORY_POINTS_15341:0 "Juneau"
+
+ # Iowa
+
+ VICTORY_POINTS_10391:0 "St Joseph"
+ VICTORY_POINTS_13939:0 "Des Moines"
+ VICTORY_POINTS_13930:0 "West Des Moines"
+ VICTORY_POINTS_13938:0 "Clive"
+ VICTORY_POINTS_13956:0 "Granger"
+ VICTORY_POINTS_13952:0 "Urbandale"
+ VICTORY_POINTS_13944:0 "Pleasant Hill"
+ VICTORY_POINTS_13954:0 "Ankeny"
+ VICTORY_POINTS_7306:0 "Iowa City"
+ VICTORY_POINTS_9910:0 "Cedar Rapids"
+ VICTORY_POINTS_12646:0 "Sioux City"
+ VICTORY_POINTS_11971:0 "Waterloo"
+ VICTORY_POINTS_4691:0 "Mason City"

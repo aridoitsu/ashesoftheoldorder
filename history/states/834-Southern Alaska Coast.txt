@@ -1,7 +1,7 @@
 
 state={
 	id=834
-	name="Juneau"
+	name="Inside Passage"
 
 	history={
 		owner = AKA
@@ -13,6 +13,15 @@ state={
 		}
 		victory_points = {
 			15341 5 
+		}
+		victory_points = {
+			13203 1
+		}
+		victory_points = {
+			15576 3
+		}
+		victory_points = {
+			13202 2
 		}
 
 	}

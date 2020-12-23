@@ -8,9 +8,15 @@ state={
 		add_core_of = AKA
 		buildings = {
 			infrastructure = 3
-
 		}
 
+		victory_points = {
+			1830 3
+		}
+
+		victory_points = {
+			7884 1
+		}
 	}
 
 	provinces={

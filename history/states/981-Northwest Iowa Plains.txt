@@ -1,7 +1,7 @@
 
 state={
 	id=981
-	name="Iowa"
+	name="Sioux"
 
 	history={
 		owner = IAI
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		1770 9892 10666 11788 12646 
+		1770 4218 9892 10666 11788 12646 14579 14603 14625 14659 14671 14696 14718 14737 15048
 	}
 	manpower=125405
 	buildings_max_level_factor=1.000

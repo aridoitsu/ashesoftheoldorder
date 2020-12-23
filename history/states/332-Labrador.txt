@@ -7,7 +7,7 @@ state={
 		owner = CAN
 		buildings = {
 			infrastructure = 1
-			12503 = {
+			14979 = {
 				naval_base = 1
 
 			}
@@ -16,7 +16,7 @@ state={
 		add_core_of = CAN
 		add_core_of = NLN
 		victory_points = {
-			12503 1 
+			14979 1 
 		}
 		victory_points = {
 			1426 1 

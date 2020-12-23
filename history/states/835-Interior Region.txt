@@ -7,8 +7,15 @@ state={
 		owner = AKA
 		add_core_of = AKA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+		}
 
+		victory_points = {
+			15791 3
+		}
+
+		victory_points = {
+			15811 10
 		}
 
 	}

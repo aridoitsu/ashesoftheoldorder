@@ -1,4 +1,4 @@
-﻿capital = 981
+﻿capital = 980
 
 set_research_slots = 3
 
@@ -55,8 +55,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
+
 set_popularities = {
 	democratic = 0
 	neutrality = 0
