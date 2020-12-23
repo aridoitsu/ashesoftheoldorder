@@ -2,17 +2,57 @@
 
  # Parties
 
- IAI_democratic_party:0 "ILP"
- IAI_democratic_party_long:0 "Iowan Libertarian Party"
+ 
+ IAI_totalsoc_party:0 "--"
+ IAI_totalsoc_party_long:0 "--"
+ IAI_anarchy_party:0 "--"
+ IAI_anarchy_party_long:0 "--"
+ IAI_communism_party:0 "WU"
+ IAI_communism_party_long:0 "Worker's Union"
+ IAI_libsoc_party:0 "WU"
+ IAI_libsoc_party_long:0 "Worker's Union"
+ IAI_demsoc_party:0 "WU"
+ IAI_demsoc_party_long:0 "Worker's Union"
+ IAI_prodem_party:0 "LCC"
+ IAI_prodem_party_long:0 "Liberal-Conservative Coalition"
+ IAI_liberal_party:0 "LCC"
+ IAI_liberal_party_long:0 "Liberal-Conservative Coalition"
+ IAI_democratic_party:0 "LCC"
+ IAI_democratic_party_long:0 "Liberal-Conservative Coalition"
  IAI_authdem_party:0 "UPG"
  IAI_authdem_party_long:0 "Unity Pact Government"
- IAI_neutrality_party:0 "UPG"
- IAI_neutrality_party_long:0 "Unity Pact Government"
+ IAI_neutrality_party:0 "--"
+ IAI_neutrality_party_long:0 "--"
  IAI_fascism_party:0 "UG"
  IAI_fascism_party_long:0 "Unity Guard"
+ IAI_ultranationalism_party:0 "UG"
+ IAI_ultranationalism_party_long:0 "Unity Guard"
+
+ #IAI_democratic_party:0 "ILP"
+ #IAI_democratic_party_long:0 "Iowan Libertarian Party"
+ #IAI_authdem_party:0 "UPG"
+ #IAI_authdem_party_long:0 "Unity Pact Government"
+ #IAI_neutrality_party:0 "UPG"
+ #IAI_neutrality_party_long:0 "Unity Pact Government"
+ #IAI_fascism_party:0 "UG"
+ #IAI_fascism_party_long:0 "Unity Guard"
 
  # Country Name
+
 
  IAI:0 "Iowa"
  IAI_DEF:0 "Iowa"
  IAI_ADJ:0 "Iowan"
+ IAI_authdem:0 "Iowan National State"
+ IAI_authdem_DEF:0 "the Iowan National State"
+ IAI_ADJ:0 "Iowan"
+
+ # Spirits
+
+ 
+ IAI_Frontlines_Define_Borders:0 "Our Frontlines Define Our Borders"
+ IAI_Frontlines_Define_Borders_desc:0 " During the violent collapse of the Midwestern Federal Forces, our precious Iowan State only managed to survive the calamity through an extensive policy of defense."
+ IAI_Inevitable_Chaos:0 "The Inevitable Tide of Chaos"
+ IAI_Inevitable_Chaos_desc:0 "With the upcoming 15th and final Unity-Pact convention, one of the two major parties must be decided. No matter who is chosen, there will be blood."
+ IAI_Built_Upon_Rifles:0 "A State Built Upon Rifles"
+ IAI_Built_Upon_Rifles_desc:0 "The Unity-Guards claim to legitimacy is securing Iowa's volatile situation during its initial months of existence. In order to keep our state protected, extensive armament budgets had to be amended."

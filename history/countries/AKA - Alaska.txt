@@ -4,7 +4,7 @@ oob = "AKA_1936"
 
 set_research_slots = 3
 
-set_cosmetic_tag = AK2
+set_cosmetic_tag = AK3
 
 # Starting tech
 set_technology = {
@@ -62,25 +62,33 @@ set_politics = {
 	elections_allowed = yes
 }
 
-add_ideas = {
-	home_of_the_free
-}
-
 set_popularities = {
-	democratic = 98
-	communism = 1
-	fascism = 1
+	democratic = 41
+	liberal = 27
+	neutrality = 19
+	prodem = 6
+	authdem = 4
+	fascism = 2
+	anarchy = 1
 }
 
 create_country_leader = {
-	name = "Ernest Gruening"
-	desc = "POLITICS_ERNEST_GRUENING_DESC"
-	picture = "Portrait_AKA_Ernest_Gruening.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-	}
+	name = "Sarah Palin"
+	desc = "POLITICS_SARAH_PALIN_DESC"
+	picture = "Portrait_Sarah_Palin.tga"
+	expire = "3000.1.1"
+	ideology = conservative
 }
+
+#create_country_leader = {
+#	name = "Ernest Gruening"
+#	desc = "POLITICS_ERNEST_GRUENING_DESC"
+#	picture = "Portrait_AKA_Ernest_Gruening.dds"
+#	expire = "1965.1.1"
+#	ideology = liberalism
+#	traits = {
+#	}
+#}
 
 ### Ship Variants ###
 

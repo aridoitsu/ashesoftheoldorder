@@ -50,23 +50,49 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = anarchy
+	ruling_party = authdem
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	democratic = 0
-	neutrality = 0
-	authdem = 0
-	liberal = 0
-	demsoc = 0
-	prodem = 0
-	communism = 0
-	totalsoc = 0
-	libsoc = 40
-	anarchy = 40
-	fascism = 10
-	ultranationalism = 10
+add_ideas = {
+	IAI_Frontlines_Define_Borders
+	IAI_Inevitable_Chaos
+	IAI_Built_Upon_Rifles
 }
+
+if = {
+	limit = {
+		has_idea = IAI_Inevitable_Chaos
+	}
+
+	country_lock_all_division_template = yes
+}
+
+set_popularities = {
+	fascism = 39 # Unity Guard
+	democratic = 14 # Liberal-Conservative Coalition
+	ultranationalism = 12 # Unity Guard 
+	authdem = 11 # Coalition Government
+	liberal = 10 # Liberal-Conservative Coalition
+	prodem = 6 # Liberal-Conservative Coalition
+	demsoc = 5 # Worker's Union
+	communism = 3 # Worker's Union
+}
+
+create_country_leader = {
+	name = "Unity Pact Government"
+	desc = "POLITICS_UNITY_PACT_DESC"
+	picture = "Portrait_Unity_Pact_Government.tga"
+	expire = "3000.1.1"
+	ideology = reactionary
+}
+
+#create_country_leader = {
+#	name = "Pete Buttigieg"
+#	desc = "POLITICS_PETE_BUTTIGIEG_DESC"
+#	picture = "Portrait_Pete_Buttigieg.tga"
+#	expire = "3000.1.1"
+#	ideology = reactionary
+#}
