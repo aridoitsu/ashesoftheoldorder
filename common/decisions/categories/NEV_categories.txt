@@ -1,0 +1,7 @@
+NEV_debug = {
+	icon = generic_research
+	allowed = {
+		original_tag = NEV
+		is_debug = yes
+		}
+}

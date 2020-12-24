@@ -284,3 +284,12 @@ NYN_effects_of_our_debt = { #Used as National Spirit
 	political_power_factor = NYN_temp_modifier
 	
 }
+
+momentum_effects = {
+	enable = { always = yes }
+
+	army_speed_factor = momentum_speed
+	dig_in_speed_factor = momentum_entrench_speed
+	planning_speed = momentum_plan_speed
+
+}

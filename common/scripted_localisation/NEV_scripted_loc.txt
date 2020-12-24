@@ -1,0 +1,64 @@
+defined_text = {
+	name = NEV_momentum_text
+	text = {
+		trigger = {
+			check_variable = {
+				var = NEV_momentum
+				value = 0
+				compare = equals
+			}
+		}
+		localization_key = NEV_momentum_text_zero
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = NEV_momentum
+				value = 0
+				compare = greater_than
+			}
+			NOT = {
+				check_variable = {
+					var = NEV_momentum 
+					value = 24
+					compare = greater_than
+				}
+			}
+		}
+		localization_key = NEV_momentum_text_min
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = NEV_momentum
+				value = 25
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = NEV_momentum 
+					value = 49
+					compare = greater_than
+				}
+			}
+		}
+		localization_key = NEV_momentum_text_med
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = NEV_momentum
+				value = 50
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = NEV_momentum 
+					value = 100
+					compare = greater_than
+				}
+			}
+		}
+		localization_key = NEV_momentum_text_high
+	}
+}
