@@ -1,24 +1,30 @@
 
 state={
 	id=1130
-	name="Northumberland Shore"
+	name="Vladivostok"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
-		add_core_of = NSN
+		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+			dockyard = 1
+			air_base = 5
+			957 = {
+				naval_base = 8
+				coastal_bunker = 3
 
+			}
 		}
-
+		victory_points = {
+			957 20
+		}
 	}
 
 	provinces={
 		957 3787 3977 6684 6838 6961 6989 9762 9895 9926 11750 11879 
 	}
-	manpower=180402
-	buildings_max_level_factor=1.000
-	state_category=large_town
+	manpower=1179322
+	state_category=city
 }

@@ -4,13 +4,10 @@ state={
 	name="Campbellton"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
-		add_core_of = NBN
+		owner = ICE
+		add_core_of = ICE
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 3
+			infrastructure = 3
 
 		}
 
@@ -19,7 +16,6 @@ state={
 	provinces={
 		10636 12689 15208 15216 15267 15268 15280 15290 15332 15353 15372 15669 15753 15790 15815 15821 15838 15851 
 	}
-	manpower=248271
-	buildings_max_level_factor=1.000
-	state_category=city
+	manpower=23344
+	state_category=rural
 }

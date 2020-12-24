@@ -9,9 +9,6 @@ state={
 			15251 5 
 		}
 		victory_points = {
-			15629 1 
-		}
-		victory_points = {
 			15196 1 
 		}
 		buildings = {
@@ -29,7 +26,6 @@ state={
 	provinces={
 		12674 15156 15196 15251 15305 15319 15323 15541 15705 15837 15856 
 	}
-	manpower=115870
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=284640
+	state_category=town
 }

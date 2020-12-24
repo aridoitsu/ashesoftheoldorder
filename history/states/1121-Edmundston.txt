@@ -1,25 +1,23 @@
 
 state={
 	id=1121
-	name="Edmundston"
+	name="Northern Iceland"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
-		add_core_of = NBN
+		owner = ICE
+		add_core_of = ICE
 		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 1
-
+			infrastructure = 3
 		}
 
+		victory_points = {
+			15629 1 
+		}
 	}
 
 	provinces={
 		4861 10245 15328 15356 15402 15408 15629 15641 15657 15694 15743 15772 15786 15820 
 	}
-	manpower=129432
-	buildings_max_level_factor=1.000
+	manpower=21952
 	state_category=rural
 }
