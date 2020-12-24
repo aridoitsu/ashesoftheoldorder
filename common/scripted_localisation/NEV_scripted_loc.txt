@@ -62,3 +62,23 @@ defined_text = {
 		localization_key = NEV_momentum_text_high
 	}
 }
+
+defined_text = {
+	name = NEV_war_state
+	text = {
+		trigger = {
+			check_variable = {
+				NEV_war = 0
+			}
+		}
+		localization_key = NEV_war_state_no
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				NEV_war > 0
+			}
+		}
+		localization_key = NEV_war_state_yes
+	}
+}

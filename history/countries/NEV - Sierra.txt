@@ -71,6 +71,7 @@ set_variable = { momentum_supply_grace = 0 }
 set_variable = { momentum_org_loss = 0 }
 set_variable = { momentum_breakthrough = 0 }
 set_variable = { momentum_attack = 0 }
+set_variable = { NEV_war = 0 }
 
 NEV_reset_momentum = yes
 

@@ -27,6 +27,9 @@
  NEV_momentum_text_med:0 "§O[?NEV_momentum]%§!"
  NEV_momentum_text_high:0 "§R[?NEV_momentum]%§!"
  NEV_momentum_text_max:0 "§b[?NEV_momentum]%§!"
- momentum_tooltip:0 "§HMomentum§!\n§HEffects from our current Momentum:§!\nDivisions Speed: [?momentum_speed|+=2%]\nPlanning Speed: [?momentum_plan_speed|+=2%]\nEntrenchment Speed: [?momentum_entrench_speed|+=2%]"
+ momentum_tooltip:0 "§HMomentum§!\n§HCurrently affected by:§!\n[NEV_war_state]\n\n§HEffects from our current Momentum:§!\nDivisions Speed: [?momentum_speed|+=2%]\nPlanning Speed: [?momentum_plan_speed|+=2%]\nEntrenchment Speed: [?momentum_entrench_speed|+=2%]\nReinforce Rate: [?momentum_reinforce_rate|+=2%]\nSupply Grace: [?momentum_supply_grace|+=1] H\nOrg Loss when Moving: [?momentum_org_loss|+=2%]\nBreakthrough: [?momentum_breakthrough|+=2%]\nAttack: [?momentum_attack|+=2%]"
  momentum_tooltip_delayed:0 "§HMomentum§! is a measure of how fast the Sierran state makes conquests and how much longer it can sustain them. Being at peace greatly decreases §HMomentum§!, being at war decreases it more slowly, and annexing territory increases it as well as certain §HNational Focuses§! and §HDecisions§!."
  momentum_effects:0 "Momentum Effects"
+ NEV_war_state_no:0 "At Peace: §R-5%§!/day"
+ NEV_war_state_yes:0 "At War: §R-2.5%§!/day"
+ 
