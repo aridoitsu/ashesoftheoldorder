@@ -467,7 +467,7 @@ focus_tree = {
 
 shared_focus = {
 	id = WFF_The_Great_Troubles
-	icon = GFX_Placeholder
+	icon = WFF_The_Great_Troubles
 	cost = 3
 	x = 6
 	y = 0
@@ -478,7 +478,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Separatism
-	icon = GFX_Placeholder
+	icon = WFF_Separatism
 	prerequisite = { focus = WFF_The_Great_Troubles }
 	cost = 3
 	x = 4
@@ -490,7 +490,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Unionism
-	icon = GFX_Placeholder
+	icon = WFF_Unionism
 	prerequisite = { focus = WFF_The_Great_Troubles }
 	cost = 3
 	x = 8
@@ -502,7 +502,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Another_Failed_Union
-	icon = GFX_Placeholder
+	icon = WFF_Another_Failed_Union
 	prerequisite = { focus = WFF_Separatism }
 	prerequisite = { focus = WFF_Unionism }
 	cost = 3
@@ -515,7 +515,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Crushing_the_Separatists
-	icon = GFX_Placeholder
+	icon = WFF_Crushing_the_Separatists
 	prerequisite = { focus = WFF_Separatism }
 	prerequisite = { focus = WFF_Unionism }
 	cost = 3
@@ -528,7 +528,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_Union_Held_Together
-	icon = GFX_Placeholder
+	icon = WFF_A_Union_Held_Together
 	prerequisite = { focus = WFF_Separatism }
 	prerequisite = { focus = WFF_Unionism }
 	cost = 3
@@ -541,7 +541,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Our_Loss
-	icon = GFX_Placeholder
+	icon = WFF_Our_Loss
 	prerequisite = { focus = WFF_Another_Failed_Union }
 	cost = 3
 	x = 2
@@ -553,7 +553,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Blood_and_Fire
-	icon = GFX_Placeholder
+	icon = WFF_Blood_and_Fire
 	prerequisite = { focus = WFF_Crushing_the_Separatists }
 	cost = 3
 	x = 6
@@ -565,7 +565,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Our_Pride
-	icon = GFX_Placeholder
+	icon = WFF_Our_Pride
 	prerequisite = { focus = WFF_A_Union_Held_Together }
 	cost = 3
 	x = 10
@@ -592,7 +592,7 @@ focus_tree = {
 
 shared_focus = {
 	id = WFF_A_Dissolving_Union
-	icon = GFX_Placeholder
+	icon = WFF_A_Dissolving_Union
 	cost = 3
 	x = 4
 	y = 0
@@ -603,7 +603,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_The_Cold_Hard_Truth
-	icon = GFX_Placeholder
+	icon = WFF_The_Cold_Hard_Truth
 	prerequisite = { focus = WFF_A_Dissolving_Union }
 	cost = 3
 	x = 2
@@ -615,7 +615,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_Forgotten_Country
-	icon = GFX_Placeholder
+	icon = WFF_A_Forgotten_Country
 	prerequisite = { focus = WFF_A_Dissolving_Union }
 	cost = 3
 	x = 6
@@ -627,7 +627,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Dreams_turned_to_Nightmares
-	icon = GFX_Placeholder
+	icon = WFF_Dreams_turned_to_Nightmares
 	prerequisite = { focus = WFF_The_Cold_Hard_Truth }
 	cost = 3
 	x = 2
@@ -639,7 +639,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_Backwater
-	icon = GFX_Placeholder
+	icon = WFF_A_Backwater
 	prerequisite = { focus = WFF_A_Forgotten_Country }
 	cost = 3
 	x = 6
@@ -651,7 +651,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Cut_off_from_Allies
-	icon = GFX_Placeholder
+	icon = WFF_Cut_off_from_Allies
 	prerequisite = { focus = WFF_Dreams_turned_to_Nightmares }
 	prerequisite = { focus = WFF_A_Backwater }
 	cost = 3
@@ -664,7 +664,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Cut_off_from_Friends
-	icon = GFX_Placeholder
+	icon = WFF_Cut_off_from_Friends
 	prerequisite = { focus = WFF_Cut_off_from_Allies }
 	cost = 3
 	x = 4
@@ -676,7 +676,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_The_Choice
-	icon = GFX_Placeholder
+	icon = WFF_The_Choice
 	prerequisite = { focus = WFF_Cut_off_from_Friends }
 	cost = 3
 	x = 4
@@ -688,7 +688,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_Call_to_Democracy
-	icon = GFX_Placeholder
+	icon = WFF_A_Call_to_Democracy
 	prerequisite = { focus = WFF_The_Choice }
 	mutually_exclusive = { focus = WFF_A_Call_to_our_Friends }
 	cost = 3
@@ -701,7 +701,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_Call_to_our_Friends
-	icon = GFX_Placeholder
+	icon = WFF_A_Call_to_our_Friends
 	prerequisite = { focus = WFF_The_Choice }
 	mutually_exclusive = { focus = WFF_A_Call_to_Democracy }
 	cost = 3
@@ -714,7 +714,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Territories_Lost
-	icon = GFX_Placeholder
+	icon = WFF_Territories_Lost
 	prerequisite = { focus = WFF_A_Call_to_Democracy OR = WFF_A_Call_to_our_Friends }
 	cost = 3
 	x = 2
@@ -726,7 +726,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_Rebounding_Union
-	icon = GFX_Placeholder
+	icon = WFF_A_Rebounding_Union
 	prerequisite = { focus = WFF_A_Call_to_our_Friends OR = WFF_A_Call_to_Democracy }
 	cost = 3
 	x = 6
@@ -753,7 +753,7 @@ focus_tree = {
 
 shared_focus = {
 	id = WFF_Fight_Fire_with_Fire
-	icon = GFX_Placeholder
+	icon = WFF_Fight_Fire_with_Fire
 	cost = 3
 	x = 6
 	y = 0
@@ -764,7 +764,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Brother_vs_Brother
-	icon = GFX_Placeholder
+	icon = WFF_Brother_vs_Brother
 	prerequisite = { focus = WFF_Fight_Fire_with_Fire }
 	cost = 3
 	x = 4
@@ -776,7 +776,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_For_God_and_Country
-	icon = GFX_Placeholder
+	icon = WFF_For_God_and_Country
 	prerequisite = { focus = WFF_Fight_Fire_with_Fire }
 	cost = 3
 	x = 8
@@ -788,7 +788,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_Quest_For_Order
-	icon = GFX_Placeholder
+	icon = WFF_A_Quest_For_Order
 	prerequisite = { focus = WFF_Brother_vs_Brother }
 	prerequisite = { focus = WFF_For_God_and_Country }
 	cost = 3
@@ -801,7 +801,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_We_Must_Teach_Those_Traitors
-	icon = GFX_Placeholder
+	icon = WFF_We_Must_Teach_Those_Traitors
 	prerequisite = { focus = WFF_A_Quest_For_Order }
 	mutually_exclusive = { focus = WFF_For_Liberty_Democracy_and_Freedom }
 	cost = 3
@@ -814,7 +814,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_For_Liberty_Democracy_and_Freedom
-	icon = GFX_Placeholder
+	icon = WFF_For_Liberty_Democracy_and_Freedom
 	prerequisite = { focus = WFF_A_Quest_For_Order }
 	mutually_exclusive = { focus = WFF_We_Must_Teach_Those_Traitors }
 	cost = 3
@@ -827,7 +827,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Taking_Back_Territory
-	icon = GFX_Placeholder
+	icon = WFF_Taking_Back_Territory
 	prerequisite = { focus = WFF_We_Must_Teach_Those_Traitors OR = WFF_For_Liberty_Democracy_and_Freedom }
 	cost = 3
 	x = 6
@@ -839,7 +839,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_Country_Needs_an_Authority
-	icon = GFX_Placeholder
+	icon = WFF_A_Country_Needs_an_Authority
 	prerequisite = { focus = WFF_We_Must_Teach_Those_Traitors }
 	cost = 3
 	x = 4
@@ -851,7 +851,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Support_from_within_Helena
-	icon = GFX_Placeholder
+	icon = WFF_Support_from_within_Helena
 	prerequisite = { focus = WFF_Taking_Back_Territory }
 	cost = 3
 	x = 6
@@ -863,7 +863,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_Country_Needs_Inalienable_Rights
-	icon = GFX_Placeholder
+	icon = WFF_A_Country_Needs_Inalienable_Rights
 	prerequisite = { focus = WFF_For_Liberty_Democracy_and_Freedom }
 	cost = 3
 	x = 8
@@ -875,7 +875,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_We_Fought_But_to_No_Avail
-	icon = GFX_Placeholder
+	icon = WFF_We_Fought_But_to_No_Avail
 	prerequisite = { focus = WFF_A_Country_Needs_an_Authority OR = WFF_A_Country_Needs_Inalienable_Rights }
 	prerequisite = { focus = WFF_Support_from_within_Helena }
 	cost = 3
@@ -888,7 +888,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Through_Fire_Blood_Sweat_and_Tears
-	icon = GFX_Placeholder
+	icon = WFF_Through_Fire_Blood_Sweat_and_Tears
 	prerequisite = { focus = WFF_A_Country_Needs_an_Authority OR = WFF_A_Country_Needs_Inalienable_Rights }
 	prerequisite = { focus = WFF_Support_from_within_Helena }
 	cost = 3
@@ -916,7 +916,7 @@ focus_tree = {
 
 shared_focus = {
 	id = WFF_Democracy_Reigns_Supreme
-	icon = GFX_Placeholder
+	icon = WFF_Democracy_Reigns_Supreme
 	cost = 3
 	x = 8
 	y = 0
@@ -927,7 +927,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_They_Listened_To_Reason
-	icon = GFX_Placeholder
+	icon = WFF_They_Listened_To_Reason
 	prerequisite = { focus = WFF_Democracy_Reigns_Supreme }
 	cost = 3
 	x = 6
@@ -939,7 +939,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_They_Saw_Our_Freedom
-	icon = GFX_Placeholder
+	icon = WFF_They_Saw_Our_Freedom
 	prerequisite = { focus = WFF_Democracy_Reigns_Supreme }
 	cost = 3
 	x = 10
@@ -951,7 +951,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Economic_Benefit
-	icon = GFX_Placeholder
+	icon = WFF_Economic_Benefit
 	prerequisite = { focus = WFF_They_Listened_To_Reason }
 	prerequisite = { focus = WFF_They_Saw_Our_Freedom }
 	cost = 3
@@ -964,7 +964,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_More_Democratic_Approach
-	icon = GFX_Placeholder
+	icon = WFF_A_More_Democratic_Approach
 	prerequisite = { focus = WFF_They_Listened_To_Reason }
 	prerequisite = { focus = WFF_They_Saw_Our_Freedom }
 	cost = 3
@@ -977,7 +977,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Political_Benefit
-	icon = GFX_Placeholder
+	icon = WFF_Political_Benefit
 	prerequisite = { focus = WFF_They_Listened_To_Reason }
 	prerequisite = { focus = WFF_They_Saw_Our_Freedom }
 	cost = 3
@@ -990,7 +990,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_The_Economic_Miracle
-	icon = GFX_Placeholder
+	icon = WFF_The_Economic_Miracle
 	prerequisite = { focus = WFF_Economic_Benefit }
 	cost = 3
 	x = 6
@@ -1002,7 +1002,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_The_Political_Miracle
-	icon = GFX_Placeholder
+	icon = WFF_The_Political_Miracle
 	prerequisite = { focus = WFF_Political_Benefit }
 	cost = 3
 	x = 10
@@ -1014,7 +1014,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Economy_of_the_Future
-	icon = GFX_Placeholder
+	icon = WFF_Economy_of_the_Future
 	prerequisite = { focus = WFF_The_Economic_Miracle }
 	cost = 3
 	x = 4
@@ -1026,7 +1026,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_Our_Morals
-	icon = GFX_Placeholder
+	icon = WFF_Our_Morals
 	prerequisite = { focus = WFF_A_More_Democratic_Approach }
 	cost = 3
 	x = 8
@@ -1038,7 +1038,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_The_Government_of_the_Future
-	icon = GFX_Placeholder
+	icon = WFF_The_Government_of_the_Future
 	prerequisite = { focus = WFF_The_Political_Miracle }
 	cost = 3
 	x = 12
@@ -1050,7 +1050,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WFF_A_Forgotten_Name
-	icon = GFX_Placeholder
+	icon = WFF_A_Forgotten_Name
 	prerequisite = { focus = WFF_Economy_of_the_Future }
 	prerequisite = { focus = WFF_Our_Morals }
 	prerequisite = { focus = WFF_The_Government_of_the_Future }

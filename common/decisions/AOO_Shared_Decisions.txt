@@ -223,3 +223,27 @@ AOO_Acquire_Arms = {
 		}
 	}
 }
+
+AOO_american_unification = {
+	AOO_unify_us = {
+		visible = {
+			always = yes
+		}
+		
+		available = {
+				all_of_scopes = {
+					array = global.usa_states
+
+					fully_controlled_by = ROOT
+				}
+		}
+		
+		icon = generic_form_nation 
+		
+		fire_only_once = yes
+		cost = 0
+		complete_effect = {
+			#
+		}
+	}
+}

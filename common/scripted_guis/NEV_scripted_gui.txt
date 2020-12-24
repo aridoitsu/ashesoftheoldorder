@@ -1,0 +1,12 @@
+scripted_gui = {
+	NEV_momentum_ui = {
+		window_name = momentum_container
+		context_type = player_context
+		parent_window_token = top_bar 
+
+		visible = {
+			original_tag = NEV
+		}
+
+	}
+}

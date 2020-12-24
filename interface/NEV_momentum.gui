@@ -1,0 +1,32 @@
+guiTypes = {
+    containerWindowType = {
+        name = "momentum_container"
+        position = { x = 1000 y = 5 }
+
+        iconType = {
+            name = "momentum_container_bg"
+            spriteType = "GFX_generic_box_smallest"
+            position = { x = 0 y = 0 }
+        }
+
+        iconType = {
+            name = "momentum_icon"
+            spriteType = "GFX_MODIFIER_ARMY_SPEED_FACTOR"
+            position = { x = 2 y = 3 }
+        }
+
+        instantTextBoxType = {
+            name = "momentum_text"
+            position = { x = 26 y = 4 }
+            font = "hoi_18mbs"
+            text = "[NEV_momentum_text]"
+            format = center
+            maxWidth = 46
+            maxHeight = 24
+            fixedsize = yes
+            
+            pdx_tooltip = "momentum_tooltip"
+            pdx_tooltip_delayed = "momentum_tooltip_delayed"
+        }
+    }
+}

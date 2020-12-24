@@ -3435,4 +3435,316 @@ spriteTypes = {
 		name = "ACR_Privitize_the_Postal_Service"
 		texturefile = "gfx/interface/goals/ACR_Privitize_the_Postal_Service.dds"
 	}
+	
+	SpriteType = {
+		name = "WFF_Legacy_of_the_Founding_Fathers"
+		texturefile = "gfx/interface/goals/WFF_Legacy_of_the_Founding_Fathers.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Bastion_of_Liberty"
+		texturefile = "gfx/interface/goals/WFF_A_Bastion_of_Liberty.dds"
+	}
+	SpriteType = {
+		name = "WFF_The_Light_of_Hope"
+		texturefile = "gfx/interface/goals/WFF_The_Light_of_Hope.dds"
+	}
+	SpriteType = {
+		name = "WFF_Life"
+		texturefile = "gfx/interface/goals/WFF_Life.dds"
+	}
+	SpriteType = {
+		name = "WFF_Liberty"
+		texturefile = "gfx/interface/goals/WFF_Liberty.dds"
+	}
+	SpriteType = {
+		name = "WFF_Pursuit_of_Happiness"
+		texturefile = "gfx/interface/goals/WFF_Pursuit_of_Happiness.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Crippled_Nation"
+		texturefile = "gfx/interface/goals/WFF_A_Crippled_Nation.dds"
+	}
+	SpriteType = {
+		name = "WFF_The_American_Dream"
+		texturefile = "gfx/interface/goals/WFF_The_American_Dream.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Failed_Union"
+		texturefile = "gfx/interface/goals/WFF_A_Failed_Union.dds"
+	}
+	SpriteType = {
+		name = "WFF_Liberty_and_Justice_for_All"
+		texturefile = "gfx/interface/goals/WFF_Liberty_and_Justice_for_All.dds"
+	}
+	SpriteType = {
+		name = "WFF_What_Little_We_Have_Left"
+		texturefile = "gfx/interface/goals/WFF_What_Little_We_Have_Left.dds"
+	}
+	SpriteType = {
+		name = "WFF_Born_in_the_Fire"
+		texturefile = "gfx/interface/goals/WFF_Born_in_the_Fire.dds"
+	}
+	SpriteType = {
+		name = "WFF_Separatist_Movements"
+		texturefile = "gfx/interface/goals/WFF_Separatist_Movements.dds"
+	}
+	SpriteType = {
+		name = "WFF_The_Binding_Union"
+		texturefile = "gfx/interface/goals/WFF_The_Binding_Union.dds"
+	}
+	SpriteType = {
+		name = "WFF_Helens_in_the_North"
+		texturefile = "gfx/interface/goals/WFF_Helens_in_the_North.dds"
+	}
+	SpriteType = {
+		name = "WFF_I_Dont_Know"
+		texturefile = "gfx/interface/goals/WFF_I_Dont_Know.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Dream_Built_1775"
+		texturefile = "gfx/interface/goals/WFF_A_Dream_Built_1775.dds"
+	}
+	SpriteType = {
+		name = "WFF_Founded_in_1870"
+		texturefile = "gfx/interface/goals/WFF_Founded_in_1870.dds"
+	}
+	SpriteType = {
+		name = "WFF_Widespread_Famine"
+		texturefile = "gfx/interface/goals/WFF_Widespread_Famine.dds"
+	}
+	SpriteType = {
+		name = "WFF_Calm_Down_the_Populace"
+		texturefile = "gfx/interface/goals/WFF_Calm_Down_the_Populace.dds"
+	}
+	SpriteType = {
+		name = "WFF_Continuous_Raids"
+		texturefile = "gfx/interface/goals/WFF_Continuous_Raids.dds"
+	}
+	SpriteType = {
+		name = "WFF_Legacy_of_the_Fathers"
+		texturefile = "gfx/interface/goals/WFF_Legacy_of_the_Fathers.dds"
+	}
+	SpriteType = {
+		name = "WFF_Our_Duty"
+		texturefile = "gfx/interface/goals/WFF_Our_Duty.dds"
+	}
+	SpriteType = {
+		name = "WFF_Legacy_of_the_Dream"
+		texturefile = "gfx/interface/goals/WFF_Legacy_of_the_Dream.dds"
+	}
+	SpriteType = {
+		name = "WFF_Agricultural_Innovations"
+		texturefile = "gfx/interface/goals/WFF_Agricultural_Innovations.dds"
+	}
+	SpriteType = {
+		name = "WFF_Fighting_Fire_with_Fire"
+		texturefile = "gfx/interface/goals/WFF_Fighting_Fire_with_Fire.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Divided_Union"
+		texturefile = "gfx/interface/goals/WFF_A_Divided_Union.dds"
+	}
+	SpriteType = {
+		name = "WFF_Republicans_vs_Democrats"
+		texturefile = "gfx/interface/goals/WFF_Republicans_vs_Democrats.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Looming_Problem"
+		texturefile = "gfx/interface/goals/WFF_A_Looming_Problem.dds"
+	}
+	SpriteType = {
+		name = "WFF_Held_Together_with_Tape"
+		texturefile = "gfx/interface/goals/WFF_Held_Together_with_Tape.dds"
+	}
+	SpriteType = {
+		name = "WFF_Separatist_Movements_Increasing"
+		texturefile = "gfx/interface/goals/WFF_Separatist_Movements_Increasing.dds"
+	}
+	SpriteType = {
+		name = "WFF_The_Uncertain_Future"
+		texturefile = "gfx/interface/goals/WFF_The_Uncertain_Future.dds"
+	}
+	SpriteType = {
+		name = "WFF_The_Great_Troubles"
+		texturefile = "gfx/interface/goals/WFF_The_Great_Troubles.dds"
+	}
+	SpriteType = {
+		name = "WFF_Separatism"
+		texturefile = "gfx/interface/goals/WFF_Separatism.dds"
+	}
+	SpriteType = {
+		name = "WFF_Unionism"
+		texturefile = "gfx/interface/goals/WFF_Unionism.dds"
+	}
+	SpriteType = {
+		name = "WFF_Another_Failed_Union"
+		texturefile = "gfx/interface/goals/WFF_Another_Failed_Union.dds"
+	}
+	SpriteType = {
+		name = "WFF_Crushing_the_Separatists"
+		texturefile = "gfx/interface/goals/WFF_Crushing_the_Separatists.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Union_Held_Together"
+		texturefile = "gfx/interface/goals/WFF_A_Union_Held_Together.dds"
+	}
+	SpriteType = {
+		name = "WFF_Our_Loss"
+		texturefile = "gfx/interface/goals/WFF_Our_Loss.dds"
+	}
+	SpriteType = {
+		name = "WFF_Blood_and_Fire"
+		texturefile = "gfx/interface/goals/WFF_Blood_and_Fire.dds"
+	}
+	SpriteType = {
+		name = "WFF_Our_Pride"
+		texturefile = "gfx/interface/goals/WFF_Our_Pride.dds"
+	}
+	
+	SpriteType = {
+		name = "WFF_A_Dissolving_Union"
+		texturefile = "gfx/interface/goals/WFF_A_Dissolving_Union.dds"
+	}
+	SpriteType = {
+		name = "WFF_The_Cold_Hard_Truth"
+		texturefile = "gfx/interface/goals/WFF_The_Cold_Hard_Truth.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Forgotten_Country"
+		texturefile = "gfx/interface/goals/WFF_A_Forgotten_Country.dds"
+	}
+	SpriteType = {
+		name = "WFF_Dreams_turned_to_Nightmares"
+		texturefile = "gfx/interface/goals/WFF_Dreams_turned_to_Nightmares.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Backwater"
+		texturefile = "gfx/interface/goals/WFF_A_Backwater.dds"
+	}
+	SpriteType = {
+		name = "WFF_Cut_off_from_Allies"
+		texturefile = "gfx/interface/goals/WFF_Cut_off_from_Allies.dds"
+	}
+	SpriteType = {
+		name = "WFF_Cut_off_from_Friends"
+		texturefile = "gfx/interface/goals/WFF_Cut_off_from_Friends.dds"
+	}
+	SpriteType = {
+		name = "WFF_The_Choice"
+		texturefile = "gfx/interface/goals/WFF_The_Choice.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Call_to_Democracy"
+		texturefile = "gfx/interface/goals/WFF_A_Call_to_Democracy.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Call_to_our_Friends"
+		texturefile = "gfx/interface/goals/WFF_A_Call_to_our_Friends.dds"
+	}
+	SpriteType = {
+		name = "WFF_Territories_Lost"
+		texturefile = "gfx/interface/goals/WFF_Territories_Lost.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Rebounding_Union"
+		texturefile = "gfx/interface/goals/WFF_A_Rebounding_Union.dds"
+	}
+	
+	SpriteType = {
+		name = "WFF_Fight_Fire_with_Fire"
+		texturefile = "gfx/interface/goals/WFF_Fight_Fire_with_Fire.dds"
+	}
+	SpriteType = {
+		name = "WFF_Brother_vs_Brother"
+		texturefile = "gfx/interface/goals/WFF_Brother_vs_Brother.dds"
+	}
+	SpriteType = {
+		name = "WFF_For_God_and_Country"
+		texturefile = "gfx/interface/goals/WFF_For_God_and_Country.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Quest_For_Order"
+		texturefile = "gfx/interface/goals/WFF_A_Quest_For_Order.dds"
+	}
+	SpriteType = {
+		name = "WFF_We_Must_Teach_Those_Traitors"
+		texturefile = "gfx/interface/goals/WFF_We_Must_Teach_Those_Traitors.dds"
+	}
+	SpriteType = {
+		name = "WFF_For_Liberty_Democracy_and_Freedom"
+		texturefile = "gfx/interface/goals/WFF_For_Liberty_Democracy_and_Freedom.dds"
+	}
+	SpriteType = {
+		name = "WFF_Taking_Back_Territory"
+		texturefile = "gfx/interface/goals/WFF_Taking_Back_Territory.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Country_Needs_an_Authority"
+		texturefile = "gfx/interface/goals/WFF_A_Country_Needs_an_Authority.dds"
+	}
+	SpriteType = {
+		name = "WFF_Support_from_within_Helena"
+		texturefile = "gfx/interface/goals/WFF_Support_from_within_Helena.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Country_Needs_Inalienable_Rights"
+		texturefile = "gfx/interface/goals/WFF_A_Country_Needs_Inalienable_Rights.dds"
+	}
+	SpriteType = {
+		name = "WFF_We_Fought_But_to_No_Avail"
+		texturefile = "gfx/interface/goals/WFF_We_Fought_But_to_No_Avail.dds"
+	}
+	SpriteType = {
+		name = "WFF_Through_Fire_Blood_Sweat_and_Tears"
+		texturefile = "gfx/interface/goals/WFF_Through_Fire_Blood_Sweat_and_Tears.dds"
+	}
+	
+	SpriteType = {
+		name = "WFF_Democracy_Reigns_Supreme"
+		texturefile = "gfx/interface/goals/WFF_Democracy_Reigns_Supreme.dds"
+	}
+	SpriteType = {
+		name = "WFF_They_Listened_To_Reason"
+		texturefile = "gfx/interface/goals/WFF_They_Listened_To_Reason.dds"
+	}
+	SpriteType = {
+		name = "WFF_They_Saw_Our_Freedom"
+		texturefile = "gfx/interface/goals/WFF_They_Saw_Our_Freedom.dds"
+	}
+	SpriteType = {
+		name = "WFF_Economic_Benefit"
+		texturefile = "gfx/interface/goals/WFF_Economic_Benefit.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_More_Democratic_Approach"
+		texturefile = "gfx/interface/goals/WFF_A_More_Democratic_Approach.dds"
+	}
+	SpriteType = {
+		name = "WFF_Political_Benefit"
+		texturefile = "gfx/interface/goals/WFF_Political_Benefit.dds"
+	}
+	SpriteType = {
+		name = "WFF_The_Economic_Miracle"
+		texturefile = "gfx/interface/goals/WFF_The_Economic_Miracle.dds"
+	}
+	SpriteType = {
+		name = "WFF_The_Political_Miracle"
+		texturefile = "gfx/interface/goals/WFF_The_Political_Miracle.dds"
+	}
+	SpriteType = {
+		name = "WFF_Economy_of_the_Future"
+		texturefile = "gfx/interface/goals/WFF_Economy_of_the_Future.dds"
+	}
+	SpriteType = {
+		name = "WFF_Our_Morals"
+		texturefile = "gfx/interface/goals/WFF_Our_Morals.dds"
+	}
+	SpriteType = {
+		name = "WFF_The_Government_of_the_Future"
+		texturefile = "gfx/interface/goals/WFF_The_Government_of_the_Future.dds"
+	}
+	SpriteType = {
+		name = "WFF_A_Forgotten_Name"
+		texturefile = "gfx/interface/goals/WFF_A_Forgotten_Name.dds"
+	}
 }

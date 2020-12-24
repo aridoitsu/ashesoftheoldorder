@@ -1,5 +1,5 @@
 ﻿l_english:
-
+ #focuses
  NEV_the_social_darwinist_principle:0 "The Social Darwinist Principle"
  NEV_the_social_darwinist_principle_desc:0 ""
  NEV_the_market_shall_decide_your_fate:0 "The Market Shall Decide Your Fate"
@@ -20,3 +20,13 @@
  NEV_conscript_them_into_the_army_desc:0 ""
  NEV_the_end_of_decadence:0 "The End Of Decadence"
  NEV_the_end_of_decadence_desc:0 "" 
+
+ #gui stuff
+ NEV_momentum_text_zero:0 "[?NEV_momentum]%"
+ NEV_momentum_text_min:0 "§H[?NEV_momentum]%§!"
+ NEV_momentum_text_med:0 "§O[?NEV_momentum]%§!"
+ NEV_momentum_text_high:0 "§R[?NEV_momentum]%§!"
+ NEV_momentum_text_max:0 "§b[?NEV_momentum]%§!"
+ momentum_tooltip:0 "§HMomentum§!\n§HEffects from our current Momentum:§!\nDivisions Speed: [?momentum_speed|+=2%]\nPlanning Speed: [?momentum_plan_speed|+=2%]\nEntrenchment Speed: [?momentum_entrench_speed|+=2%]"
+ momentum_tooltip_delayed:0 "§HMomentum§! is a measure of how fast the Sierran state makes conquests and how much longer it can sustain them. Being at peace greatly decreases §HMomentum§!, being at war decreases it more slowly, and annexing territory increases it as well as certain §HNational Focuses§! and §HDecisions§!."
+ momentum_effects:0 "Momentum Effects"

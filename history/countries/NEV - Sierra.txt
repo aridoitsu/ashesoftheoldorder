@@ -59,12 +59,32 @@ set_politics = {
 add_ideas = {
 	#
 }
+
+##vars##
+
+set_variable = { NEV_momentum = 0 } #
+set_variable = { momentum_speed = 0 } #
+set_variable = { momentum_plan_speed = 0 } #
+set_variable = { momentum_entrench_speed = 0 } #
+set_variable = { momentum_reinforce_rate = 0 }
+set_variable = { momentum_supply_grace = 0 }
+set_variable = { momentum_org_loss = 0 }
+set_variable = { momentum_breakthrough = 0 }
+set_variable = { momentum_attack = 0 }
+
+NEV_reset_momentum = yes
+
+########
 set_popularities = {
 	democratic = 26
 	authdem = 15
 	liberal = 6
 	fascism = 16
 	ultranationalism = 37
+}
+
+add_dynamic_modifier = {
+	modifier = momentum_effects
 }
 
 create_country_leader = {

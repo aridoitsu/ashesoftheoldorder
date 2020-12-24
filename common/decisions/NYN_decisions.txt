@@ -245,10 +245,21 @@ NYN_debug = {
 			NYN_reset_debt = yes
 			}
 		}
-		
-		
-		
+	NYN_testing_array = {
+		allowed = {
+			tag = NYN
+		}
+		visible = {
+			is_debug = yes
+		}
+		days_re_enable = 0
+		cost = 0
+		complete_effect = {
+			clear_array = global.usa_states
+			add_to_array = { global.usa_states = 1087 }
+		}
 	}
+}
 	
 NYN_leftist_resistance = {
 	NYN_the_fate_of_our_nation = {
@@ -732,6 +743,34 @@ NYN_mobilization = {
 		complete_effect = {
 			add_to_variable = { NYN_total_debt = 25 }
 			custom_effect_tooltip = NYN_plus_25_debt
+		}
+	}
+	NYN_deploy = {
+		available = {
+			has_completed_focus = NYN_get_on_frontlines
+		}
+		visible = {
+			has_completed_focus = NYN_get_on_frontlines
+		}
+		cost = 30
+		days_remove = 7
+		remove_effect = {
+			random_owned_state = {
+				create_unit = {
+					division = "name = \"Militia Fella\" division_template = \"Militia\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+					owner = NYN
+					count = 1
+
+					allow_spawning_on_enemy_provs = no
+					country_score = {
+						base = 100
+						modifier = {
+							tag = NYN
+							add = 100
+						}
+					}
+				}
+			}
 		}
 	}
 }
