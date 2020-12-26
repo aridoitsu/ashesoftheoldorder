@@ -1,3 +1,4 @@
+﻿l_english:
  # Country Name
 
  JAP:0 "Japan"
@@ -34,8 +35,8 @@
 
  JAP_totalsoc_party:0 "OS"
  JAP_totalsoc_party_long:0 "Oumu Shinrikyō"
- JAP_anarchy_party:0 "--"
- JAP_anarchy_party_long:0 "--"
+ JAP_anarchy_party:0 "SNAR"
+ JAP_anarchy_party_long:0 "Shin Nihon Anakisuto Renmei"
  JAP_communism_party:0 "NK"
  JAP_communism_party_long:0 "Nihon Kyōsan-tō"
  JAP_libsoc_party:0 "NK"
@@ -48,11 +49,11 @@
  JAP_liberal_party_long:0 "Rikken-minshutō"
  JAP_democratic_party:0 "JM"
  JAP_democratic_party_long:0 "Jiyū-Minshutō"
- JAP_authdem_party:0 "Shinseitō"
- JAP_authdem_party_long:0 "Shinseitō"
+ JAP_authdem_party:0 "NK"
+ JAP_authdem_party_long:0 "Nippon no Kokoro"
  JAP_neutrality_party:0 "--"
  JAP_neutrality_party_long:0 "--"
  JAP_fascism_party:0 "ND"
  JAP_fascism_party_long:0 "Nippon Daiichitō"
- JAP_ultranationalism_party:0 "Zaitokukai"
+ JAP_ultranationalism_party:0 "ZTYSK"
  JAP_ultranationalism_party_long:0 "Zainichi Tokken o Yurusanai Shimin no Kai"

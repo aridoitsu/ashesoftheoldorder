@@ -56,20 +56,151 @@ set_politics = {
 	elections_allowed = no
 }
 
-add_ideas = {
+set_popularities = {
+	democratic = 49
+	liberal = 34
+	libsoc = 13
+	authdem = 2
+	demsoc = 2
 }
 
-set_popularities = {
-	democratic = 41
-	neutrality = 0
-	authdem = 11
-	liberal = 37
-	demsoc = 0
-	prodem = 0
-	communism = 0
-	totalsoc = 3
-	libsoc = 5
-	anarchy = 0
-	fascism = 0
-	ultranationalism = 3
+# Abe (Cons) - 48%
+# Kaieda (Lib) - 23%
+# Eda (Lib) - 8%
+# Yamaguchi (Cons) - 1%
+# Shii (LibSoc/Commie) - 13%
+# Hiranuma (AuthDem) - 2%
+# Yoshida (SocDem) - 1%
+# Ozawa (Lib) - 1%
+
+# Cons Total - 49
+# Lib Total - 32
+# LibSoc/Commie Total - 13
+# AuthDem Total - 2
+# SocDem Total - 1
+# Remaining: 3%
+
+# Rounded Numbers
+
+# Cons - 49
+# Lib - 34
+# LibSoc/Commie - 13
+# AuthDem - 2
+# SocDem - 2
+
+# Cons Coalition
+create_country_leader = {
+	name = "Shinzo Abe"
+	desc = "POLITICS_SHINZO_ABE_DESC"
+	picture = "Portrait_Shinzo_Abe.tga"
+	expire = "3000.1.1"
+	ideology = conservative
+}
+
+# Lib Coalition
+
+create_country_leader = {
+	name = "Banri Kaieda"
+	desc = "POLITICS_BANRI_KAIEDA"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = sociallib
+}
+
+# Commie
+
+create_country_leader = {
+	name = "Kazuo Shii"
+	desc = "POLITICS_KAZUO_SHII_DESC"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = libsoc_temporary
+}
+
+create_country_leader = {
+	name = "Kazuo Shii"
+	desc = "POLITICS_KAZUO_SHII_DESC"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = authsoc
+}
+
+# Auth Dem
+
+create_country_leader = {
+	name = "Takeo Hiranuma"
+	desc = "POLITICS_TAKEO_HIRANUMA_DESC"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = reactionary
+}
+
+# Soc Dem
+
+create_country_leader = {
+	name = "Tadatomo Yoshida"
+	desc = "POLITICS_TADATOMO_YOSHIDA_DESC"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = democraticsocialism
+}
+
+### Non-Elected Leaders ###
+
+# UltraNat
+
+create_country_leader = {
+	name = "Makoto Sakurai"
+	desc = "POLITICS_MAKOTO_SAKURAI_DESC"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = nationalist
+}
+
+# Fascist
+
+create_country_leader = {
+	name = "Makoto Sakurai"
+	desc = "POLITICS_MAKOTO_SAKURAI_DESC"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = theodictator
+}
+
+# Progressive
+
+create_country_leader = {
+	name = "Taro Yamamoto"
+	desc = "POLITICS_TARO_YAMAMOTO_DESC"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = progressive
+}
+
+# Utopian
+
+create_country_leader = {
+	name = "Kazuhiro Kusakabe"
+	desc = "POLITICS_KAZUHIRO_KUSAKABE_DESC"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = japanese_utopia
+}
+
+create_country_leader = {
+	name = "Shoko Asahara"
+	desc = "POLITICS_SHOKO_ASAHARA_DESC"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = japanese_utopia
+}
+
+# Anarchy
+
+create_country_leader = {
+	name = "Koichi Toyama"
+	desc = "POLITICS_KOICHI_TOYAMA"
+	picture = ""
+	expire = "3000.1.1"
+	ideology = anarchy_commune
 }
