@@ -1,6 +1,6 @@
 state={
 	id=865
-	name="Tuscon"
+	name="Tucson"
 	resources={
 		steel=20.000
 		aluminium=8.000
