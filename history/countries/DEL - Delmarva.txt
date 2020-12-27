@@ -71,3 +71,11 @@ set_popularities = {
 	fascism = 0
 	ultranationalism = 0
 }
+
+create_country_leader = {
+	name = "Richard Brown"
+	desc = "POLITICS_RICHARD_BROWN_DESC"
+	picture = "Portraits_Richard_Brown.tga"
+	expire = "3000.1.1"
+	ideology = despot
+}

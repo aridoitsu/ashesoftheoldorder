@@ -55,8 +55,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
+
 set_popularities = {
 	democratic = 35
 	neutrality = 5
@@ -70,4 +69,12 @@ set_popularities = {
 	anarchy = 0
 	fascism = 0
 	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Mark J. Green"
+	desc = "POLITICS_MARK_GREEN_DESC"
+	picture = "Portrait_Mark_Green.tga"
+	expire = "3000.1.1"
+	ideology = progressive
 }
