@@ -1,0 +1,1701 @@
+focus_tree = {
+    id = NAK_Libsoc1
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = N03
+        }
+    }
+focus = { 
+      id = NAK_In_the_Footsteps_of_the_Forefathers
+	    icon = NAK_In_the_Footsteps_of_the_Forefathers
+	    cost = 1
+	    x = 18
+	    y = 1
+        
+	    completion_reward = {
+			add_popularity = {
+					ideology = libsoc
+					popularity = 0.025
+				}
+	}
+}
+focus = { 
+      id = NAK_Independence_Day
+	    icon = NAK_In_the_Footsteps_of_the_Forefathers
+	    cost = 1
+	    x = 18
+	    y = 2
+        
+        prerequisite = {
+            focus = NAK_In_the_Footsteps_of_the_Forefathers
+        }
+	    completion_reward = {
+			add_popularity = {
+					ideology = libsoc
+					popularity = 0.025
+				}
+            add_stability = 0.05
+	}
+}
+focus = { 
+      id = NAK_Social_Reform
+	    icon = NAK_Social_Reform
+	    cost = 3
+	    x = 5
+	    y = 3
+        
+        prerequisite = {
+            focus = NAK_Independence_Day
+        }
+	    completion_reward = {
+            add_stability = 0.05
+	}
+}
+focus = { 
+      id = NAK_Increase_Abortion_Access
+	    icon = NAK_Increase_Abortion_Access
+	    cost = 5
+	    x = 3
+	    y = 4
+        
+        prerequisite = {
+            focus = NAK_Social_Reform
+        }
+	    completion_reward = {
+            add_ideas = NAK_Abortion_Access
+	}
+}
+focus = { 
+      id = NAK_LGBT_History_Classes
+	    icon = NAK_LGBT_History_Classes
+	    cost = 5
+	    x = 5
+	    y = 4
+        
+        prerequisite = {
+            focus = NAK_Social_Reform
+        }
+	    completion_reward = {
+            add_popularity = {
+					ideology = liberal 
+					popularity = 0.025
+				}
+            add_popularity = {
+					ideology = prodem 
+					popularity = 0.025
+                }
+        add_stability = 0.025
+        country_event = {
+        		    id = NAK.21
+          		    days = 1
+	    		 }
+	}
+}
+focus = { 
+      id = NAK_Decriminalize_Drug_Use
+	    icon = NAK_Decriminalize_Drug_Use
+	    cost = 5
+	    x = 7
+	    y = 4
+        
+        prerequisite = {
+            focus = NAK_Social_Reform
+        }
+	    completion_reward = {
+            add_ideas = NAK_Legal_Drugs
+	}
+}
+focus = { 
+      id = NAK_Encourage_Women_in_the_Workforce
+	    icon = NAK_Decriminalize_Drug_Use
+	    cost = 5
+	    x = 3
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Increase_Abortion_Access
+        }
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Pass_Anti_Discrimination_Laws
+	    icon = NAK_Pass_Anti_Discrimination_Laws
+	    cost = 5
+	    x = 5
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_LGBT_History_Classes
+        }
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Construct_Rehabiliation_Centers
+	    icon = NAK_Construct_Rehabiliation_Centers
+	    cost = 5
+	    x = 7
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Decriminalize_Drug_Use
+        }
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Affirmative_Action
+	    icon = NAK_Affirmative_Action
+	    cost = 5
+	    x = 4
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_Encourage_Women_in_the_Workforce
+        }
+		prerequisite = {
+            focus = NAK_Pass_Anti_Discrimination_Laws
+        }
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Spread_Mental_Health_Awareness
+	    icon = NAK_Spread_Mental_Health_Awareness
+	    cost = 5
+	    x = 6
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_Construct_Rehabiliation_Centers
+        }
+		prerequisite = {
+            focus = NAK_Pass_Anti_Discrimination_Laws
+        }
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Impose_Racial_Quotas
+	    icon = NAK_Impose_Racial_Quotas
+	    cost = 5
+	    x = 2
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Affirmative_Action
+        }
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Prioritize_African_Americans
+	    icon = NAK_Prioritize_African_Americans
+	    cost = 5
+	    x = 4
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Affirmative_Action
+        }
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Political_Correctness
+	    icon = NAK_Political_Correctness
+	    cost = 5
+	    x = 4
+	    y = 8
+        
+        prerequisite = {
+            focus = NAK_Impose_Racial_Quotas
+        }
+		prerequisite = {
+			focus = NAK_Prioritize_African_Americans
+		}
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Train_More_Therapists
+	    icon = NAK_Train_More_Therapists
+	    cost = 5
+	    x = 6
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Spread_Mental_Health_Awareness
+        }
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Deal_With_The_PTSD_Epidemic
+	    icon = NAK_Deal_With_The_PTSD_Epidemic
+	    cost = 5
+	    x = 8
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Spread_Mental_Health_Awareness
+        }
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_An_Accepting_Society
+	    icon = NAK_An_Accepting_Society
+	    cost = 5
+	    x = 6
+	    y = 8
+        
+        prerequisite = {
+            focus = NAK_Deal_With_The_PTSD_Epidemic
+        }
+		prerequisite = {
+			focus = NAK_Train_More_Therapists
+		}
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_A_Progressive_Society
+	    icon = NAK_A_Progressive_Society
+	    cost = 5
+	    x = 5
+	    y = 9
+        
+        prerequisite = {
+            focus = NAK_An_Accepting_Society
+        }
+		prerequisite = {
+			focus = NAK_Political_Correctness
+		}
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Criminal_Reform
+	    icon = NAK_Criminal_Reform
+	    cost = 5
+	    x = 18
+	    y = 3
+        
+        prerequisite = {
+            focus = NAK_Independence_Day
+        }
+	    completion_reward = {
+            add_stability = 0.05
+	}
+}
+focus = { 
+      id = NAK_Appease_The_Moderates
+	    icon = NAK_Appease_The_Moderates
+	    cost = 5
+	    x = 14
+	    y = 4
+        
+        prerequisite = {
+            focus = NAK_Criminal_Reform
+        }
+		mutually_exclusive = {
+			focus = NAK_Trust_In_The_Radicals
+		}
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Trust_In_The_Radicals
+	    icon = NAK_Trust_In_The_Radicals
+	    cost = 5
+	    x = 22
+	    y = 4
+        
+        prerequisite = {
+            focus = NAK_Criminal_Reform
+        }
+		mutually_exclusive = {
+			focus = NAK_Appease_The_Moderates
+		}
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Defund_the_Police
+	    icon = NAK_Defund_the_Police
+	    cost = 5
+	    x = 12
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Appease_The_Moderates
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Encourage_Diversity_Programs
+	    icon = NAK_Encourage_Diversity_Programs
+	    cost = 5
+	    x = 12
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_Defund_the_Police
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_More_Female_Prison_Guards
+	    icon = NAK_More_Female_Prison_Guards
+	    cost = 5
+	    x = 12
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Encourage_Diversity_Programs
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Sideline_the_Communists
+	    icon = NAK_Sideline_the_Communists
+	    cost = 5
+	    x = 14
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Appease_The_Moderates
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Expand_Domestic_Operations
+	    icon = NAK_Expand_Domestic_Operations
+	    cost = 5
+	    x = 14
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_Sideline_the_Communists
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Discredit_Communist_Contributions
+	    icon = NAK_Discredit_Communist_Contributions
+	    cost = 5
+	    x = 14
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Expand_Domestic_Operations
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_More_Humane_Prisons
+	    icon = NAK_More_Humane_Prisons
+	    cost = 5
+	    x = 16
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Appease_The_Moderates
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Study_the_Nordic_Model
+	    icon = NAK_Study_the_Nordic_Model
+	    cost = 5
+	    x = 16
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_More_Humane_Prisons
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Rehabilitative_Justice
+	    icon = NAK_Rehabilitative_Justice
+	    cost = 5
+	    x = 16
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Study_the_Nordic_Model
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Extend_Forgiveness
+	    icon = NAK_Extend_Forgiveness
+	    cost = 5
+	    x = 14
+	    y = 8
+        
+        prerequisite = {
+            focus = NAK_Rehabilitative_Justice
+        }
+		prerequisite = {
+            focus = NAK_Discredit_Communist_Contributions
+        }
+		prerequisite = {
+            focus = NAK_More_Female_Prison_Guards
+        }
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Police_Abolition
+	    icon = NAK_Police_Abolition
+	    cost = 5
+	    x = 20
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Trust_In_The_Radicals
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Encourage_Community_Militias
+	    icon = NAK_Encourage_Community_Militias
+	    cost = 5
+	    x = 20
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_Police_Abolition
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Divert_Funds_Elsewhere
+	    icon = NAK_Divert_Funds_Elsewhere
+	    cost = 5
+	    x = 20
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Encourage_Community_Militias
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Divert_Funds_Elsewhere
+	    icon = NAK_Divert_Funds_Elsewhere
+	    cost = 5
+	    x = 20
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Encourage_Community_Militias
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Trial_of_the_15
+	    icon = NAK_Trial_of_the_15
+	    cost = 5
+	    x = 22
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Trust_In_The_Radicals
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Deport_Confederate_Sympathizers
+	    icon = NAK_Deport_Confederate_Sympathizers
+	    cost = 5
+	    x = 22
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_Trial_of_the_15
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Anti_Liberal_Propoganda
+	    icon = NAK_Anti_Liberal_Propoganda
+	    cost = 5
+	    x = 22
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Deport_Confederate_Sympathizers
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Prison_Abolition
+	    icon = NAK_Prison_Abolition
+	    cost = 5
+	    x = 24
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Trust_In_The_Radicals
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Civilizing_Saftey
+	    icon = NAK_Civilizing_Saftey
+	    cost = 5
+	    x = 24
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_Prison_Abolition
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Issue_of_the_Death_Penalty
+	    icon = NAK_Issue_of_the_Death_Penalty
+	    cost = 5
+	    x = 24
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Civilizing_Saftey
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_The_POW_Question
+	    icon = NAK_The_POW_Question
+	    cost = 5
+	    x = 22
+	    y = 8
+        
+        prerequisite = {
+            focus = NAK_Issue_of_the_Death_Penalty
+        }
+		prerequisite = {
+            focus = NAK_Anti_Liberal_Propoganda
+        }
+		prerequisite = {
+            focus = NAK_Divert_Funds_Elsewhered
+        }
+
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Economic_Reform
+	    icon = NAK_Economic_Reform
+	    cost = 3
+	    x = 31
+	    y = 3
+        
+        prerequisite = {
+            focus = NAK_Independence_Day
+        }
+		
+
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Question_of_Collectivization
+	    icon = NAK_Question_of_Collectivization
+	    cost = 5
+	    x = 31
+	    y = 4
+        
+        prerequisite = {
+            focus = NAK_Economic_Reform
+        }
+		
+
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Ban_Workplace_Dictatorship
+	    icon = NAK_Ban_Workplace_Dictatorship
+	    cost = 5
+	    x = 31
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Question_of_Collectivization
+        }
+		
+
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Increase_Healthcare_Funding
+	    icon = NAK_Increase_Healthcare_Funding
+	    cost = 5
+	    x = 29
+	    y = 4
+        
+        prerequisite = {
+            focus = NAK_Economic_Reform
+        }
+		
+
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Increase_Education_Funding
+	    icon = NAK_Increase_Education_Funding
+	    cost = 5
+	    x = 29
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Increase_Healthcare_Funding
+        }
+		
+
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Question_of_the_Rich
+	    icon = NAK_Question_of_the_Rich
+	    cost = 5
+	    x = 33
+	    y = 4
+        
+        prerequisite = {
+            focus = NAK_Economic_Reform
+        }
+		
+
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Question_of_the_Rich
+	    icon = NAK_Question_of_the_Rich
+	    cost = 5
+	    x = 33
+	    y = 4
+        
+        prerequisite = {
+            focus = NAK_Economic_Reform
+        }
+		
+
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Wealth_Redistribution
+	    icon = NAK_Wealth_Redistribution
+	    cost = 5
+	    x = 33
+	    y = 5
+        
+        prerequisite = {
+            focus = NAK_Question_of_the_Rich
+        }
+		
+
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Paying_For_It_All
+	    icon = NAK_Paying_For_It_All
+	    cost = 5
+	    x = 31
+	    y = 6
+        
+        prerequisite = {
+            focus = NAK_Wealth_Redistribution
+        }
+		prerequisite = {
+            focus = NAK_Ban_Workplace_Dictatorship
+        }
+		prerequisite = {
+            focus = NAK_Increase_Education_Funding
+        }
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Open_Trade_Schools
+	    icon = NAK_Open_Trade_Schools
+	    cost = 5
+	    x = 28
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Paying_For_It_All
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Hire_Foreign_Expertise
+	    icon = NAK_Hire_Foreign_Expertise
+	    cost = 5
+	    x = 30
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Paying_For_It_All
+        }
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_The_Davis_Plan
+	    icon = NAK_The_Davis_Plan
+	    cost = 5
+	    x = 29
+	    y = 8
+        
+        prerequisite = {
+            focus = NAK_Open_Trade_Schools
+        }
+		prerequisite = {
+			NAK_Hire_Foreign_Expertise
+		}
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Create_Public_Housing
+	    icon = NAK_Create_Public_Housing
+	    cost = 5
+	    x = 32
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Paying_For_It_All
+        }
+		
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Dr_Kings_Dream
+	    icon = NAK_Dr_Kings_Dream
+	    cost = 5
+	    x = 34
+	    y = 7
+        
+        prerequisite = {
+            focus = NAK_Paying_For_It_All
+        }
+		
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_Provide_For_All
+	    icon = NAK_Provide_For_All
+	    cost = 5
+	    x = 33
+	    y = 8
+        
+        prerequisite = {
+            focus = NAK_Create_Public_Housing
+        }
+		prerequisite = {
+			focus = NAK_Dr_Kings_Dream
+		}
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_A_Socialist_New_Afrika
+	    icon = NAK_A_Socialist_New_Afrika
+	    cost = 5
+	    x = 31
+	    y = 9
+        
+        prerequisite = {
+            focus = NAK_The_Davis_Plan
+        }
+		prerequisite = {
+			focus = NAK_Provide_For_All
+		}
+		
+	    completion_reward = {
+
+	}
+}
+focus = { 
+      id = NAK_The_COVID_Pandemic
+	    icon = NAK_The_COVID_Pandemic
+	    cost = 1
+	    x = 10
+	    y = 10
+        
+        
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Start_Vaccine_Research
+	    icon = NAK_Start_Vaccine_Research
+	    cost = 3
+	    x = 8
+	    y = 11
+        
+        prerequisite = {
+			focus = NAK_The_COVID_Pandemic
+		}
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Shut_Down_Buisnesses
+	    icon = NAK_Shut_Down_Buisnesses
+	    cost = 3
+	    x = 10
+	    y = 11
+        
+        prerequisite = {
+			focus = NAK_The_COVID_Pandemic
+		}
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Shut_Down_the_Borders
+	    icon = NAK_Shut_Down_the_Borders
+	    cost = 3
+	    x = 12
+	    y = 11
+        
+        prerequisite = {
+			focus = NAK_The_COVID_Pandemic
+		}
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Private_National_Cooperation
+	    icon = NAK_Private_National_Cooperation
+	    cost = 5
+	    x = 5
+	    y = 12
+        
+        prerequisite = {
+			focus = NAK_Start_Vaccine_Research
+		}
+		
+		mutually_exclusive = {
+			focus = NAK_A_National_Project
+		}
+
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Foreign_Cooperation
+	    icon = NAK_Foreign_Cooperation
+	    cost = 5
+	    x = 5
+	    y = 13
+        
+        prerequisite = {
+			focus = NAK_Private_National_Cooperation
+		}
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_A_National_Project
+	    icon = NAK_A_National_Project
+	    cost = 5
+	    x = 7
+	    y = 12
+
+		mutually_exclusive = {
+			focus = NAK_Private_National_Cooperation
+		}
+        
+        
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_The_Ends_Justify_the_Means
+	    icon = NAK_The_Ends_Justify_the_Means
+	    cost = 5
+	    x = 7
+	    y = 13
+        
+        prerequisite = {
+			focus = NAK_A_National_Project
+		}
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Distribute_the_Vaccine
+	    icon = NAK_Distribute_the_Vaccine
+	    cost = 5
+	    x = 6
+	    y = 14
+        
+        prerequisite = {
+			focus = NAK_The_Ends_Justify_the_Means
+			focus = NAK_Foreign_Cooperation
+		}
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Deny_Deny_Deny
+	    icon = NAK_Deny_Deny_Deny
+	    cost = 3
+	    x = 9
+	    y = 12
+
+		mutually_exclusive = {
+			focus = NAK_Lockdown_the_Country
+		}
+        
+        prerequisite = {
+			focus = NAK_Shut_Down_Buisnesses
+		}
+		
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Censor_Conspiracy_Theories
+	    icon = NAK_Censor_Conspiracy_Theories
+	    cost = 3
+	    x = 9
+	    y = 13
+
+		
+        
+        prerequisite = {
+			focus = NAK_Deny_Deny_Deny
+		}
+		
+	    completion_reward = {
+            
+	}
+}
+
+focus = { 
+      id = NAK_Lockdown_the_Country
+	    icon = NAK_Lockdown_the_Country
+	    cost = 3
+	    x = 11
+	    y = 12
+
+		prerequisite = {
+			focus = NAK_Shut_Down_the_Borders
+		}
+        
+        prerequisite = {
+			focus = NAK_Shut_Down_Buisnesses
+		}
+		
+		mutually_exclusive = {
+			focus = NAK_Deny_Deny_Deny
+		}
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Collective_Responsibility
+	    icon = NAK_Collective_Responsibility
+	    cost = 4
+	    x = 11
+	    y = 13
+
+		prerequisite = {
+			focus = NAK_Lockdown_the_Country
+		}
+        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Enforce_the_Lockdown
+	    icon = NAK_Enforce_the_Lockdown
+	    cost = 3
+	    x = 10
+	    y = 14
+
+		prerequisite = {
+			focus = NAK_Collective_Responsibility
+			focus = NAK_Censor_Conspiracy_Theories
+		}
+        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Enforce_the_Lockdown
+	    icon = NAK_Enforce_the_Lockdown
+	    cost = 4
+	    x = 10
+	    y = 14
+
+		prerequisite = {
+			focus = NAK_Collective_Responsibility
+			focus = NAK_Censor_Conspiracy_Theories
+		}
+        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Protect_the_People
+	    icon = NAK_Protect_the_People
+	    cost = 4
+	    x = 13
+	    y = 12
+
+		prerequisite = {
+			focus = NAK_Shut_Down_the_Borders
+		}
+        mutually_exclusive = {
+			focus = NAK_Protect_the_Economy
+		}
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Suspend_Evictions
+	    icon = NAK_Suspend_Evictions
+	    cost = 4
+	    x = 13
+	    y = 13
+
+		prerequisite = {
+			focus = NAK_Protect_the_People
+		}
+        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Protect_the_Economy
+	    icon = NAK_Protect_the_Economy
+	    cost = 4
+	    x = 15
+	    y = 12
+
+		prerequisite = {
+			focus = NAK_Shut_Down_the_Borders
+		}
+        mutually_exclusive = {
+			focus = NAK_Protect_the_People
+		}
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Suspend_Foreclosures
+	    icon = NAK_Suspend_Foreclosures
+	    cost = 4
+	    x = 15
+	    y = 13
+
+		prerequisite = {
+			focus = NAK_Protect_the_Economy
+		}
+        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Issue_Stimulus_Checks
+	    icon = NAK_Issue_Stimulus_Checks
+	    cost = 4
+	    x = 14
+	    y = 14
+
+		prerequisite = {
+			focus = NAK_Suspend_Foreclosures
+			focus = NAK_Suspend_Evictions
+		}
+        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Reopen_the_Country
+	    icon = NAK_Reopen_the_Country
+	    cost = 4
+	    x = 10
+	    y = 15
+
+		prerequisite = {
+			focus = NAK_Issue_Stimulus_Checks
+		}
+        prerequisite = {
+			focus = NAK_Enforce_the_Lockdown
+		}
+		prerequisite = {
+			focus = NAK_Distribute_the_Vaccine
+		}
+        
+	    completion_reward = {
+            
+	}
+}
+
+focus = { 
+      id = NAK_Back_to_Normal
+	    icon = NAK_Back_to_Normal
+	    cost = 4
+	    x = 10
+	    y = 16
+
+		prerequisite = {
+			focus = NAK_Reopen_the_Country
+		}
+        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Deal_With_the_Race_Riots
+	    icon = NAK_Deal_With_the_Race_Riots
+	    cost = 4
+	    x = 26
+	    y = 10        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Listen_to_the_Radicals
+	    icon = NAK_Listen_to_the_Radicals
+	    cost = 3
+	    x = 23
+	    y = 11
+
+		prerequisite = {
+			focus = NAK_Deal_With_the_Race_Riots
+		}        
+        mutually_exclusive = {
+			focus = NAK_Calm_The_Nation_Down
+		}
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Revolutionary_Anarchy
+	    icon = NAK_Revolutionary_Anarchy
+	    cost = 3
+	    x = 21
+	    y = 12
+
+		prerequisite = {
+			focus = NAK_Listen_to_the_Radicals
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Enforce_Collective_Guilt
+	    icon = NAK_Enforce_Collective_Guilt
+	    cost = 5
+	    x = 21
+	    y = 13
+
+		prerequisite = {
+			focus = NAK_Revolutionary_Anarchy
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Sieze_White_Buisnesses
+	    icon = NAK_Sieze_White_Buisnesses
+	    cost = 5
+	    x = 21
+	    y = 14
+
+		prerequisite = {
+			focus = NAK_Enforce_Collective_Guilt
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Invest_In_Black_Communities
+	    icon = NAK_Invest_In_Black_Communities
+	    cost = 5
+	    x = 23
+	    y = 12
+
+		prerequisite = {
+			focus = NAK_Listen_to_the_Radicals
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Rediscover_Black_History
+	    icon = NAK_Rediscover_Black_History
+	    cost = 5
+	    x = 23
+	    y = 13
+
+		prerequisite = {
+			focus = NAK_Invest_In_Black_Communities
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Ban_Reunificationist_Sentiments
+	    icon = NAK_Ban_Reunificationist_Sentiments
+	    cost = 5
+	    x = 23
+	    y = 14
+
+		prerequisite = {
+			focus = NAK_Rediscover_Black_History
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Empower_Black_Hammer_Leaders
+	    icon = NAK_Empower_Black_Hammer_Leaders
+	    cost = 5
+	    x = 25
+	    y = 12
+
+		prerequisite = {
+			focus = NAK_Listen_to_the_Radicals
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Attract_Socialists
+	    icon = NAK_Attract_Socialists
+	    cost = 5
+	    x = 25
+	    y = 13
+
+		prerequisite = {
+			focus = NAK_Empower_Black_Hammer_Leaders
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Start_Deportations
+	    icon = NAK_Start_Deportations
+	    cost = 4
+	    x = 25
+	    y = 14
+
+		prerequisite = {
+			focus = NAK_Attract_Socialists
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_The_Kodzo_Manifesto
+	    icon = NAK_The_Kodzo_Manifesto
+	    cost = 4
+	    x = 23
+	    y = 15
+
+		prerequisite = {
+			focus = NAK_Start_Deportations
+		}
+		prerequisite = {
+			focus = NAK_Ban_Reunificationist_Sentiments
+		}      
+		prerequisite = {
+			focus = NAK_Sieze_White_Buisnesses
+		}             
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Calm_The_Nation_Down
+	    icon = NAK_Calm_The_Nation_Down
+	    cost = 3
+	    x = 29
+	    y = 11
+
+		prerequisite = {
+			focus = NAK_Deal_With_the_Race_Riots
+		}        
+        mutually_exclusive = {
+			focus = NAK_Listen_to_the_Radicals
+		}
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Negotiate_With_Student_Leaders
+	    icon = NAK_Negotiate_With_Student_Leaders
+	    cost = 3
+	    x = 27
+	    y = 12
+
+		prerequisite = {
+			focus = NAK_Calm_The_Nation_Down
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_The_June_14th_Proposal
+	    icon = NAK_The_June_14th_Proposal
+	    cost = 3
+	    x = 27
+	    y = 13
+
+		prerequisite = {
+			focus = NAK_Negotiate_With_Student_Leaders
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Declare_Martial_Law
+	    icon = NAK_Declare_Martial_Law
+	    cost = 3
+	    x = 29
+	    y = 12
+
+		prerequisite = {
+			focus = NAK_Calm_The_Nation_Down
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Send_In_The_Army
+	    icon = NAK_Send_In_The_Army
+	    cost = 3
+	    x = 29
+	    y = 13
+
+		prerequisite = {
+			focus = NAK_Declare_Martial_Law
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Negotiate_With_White_Representatives
+	    icon = NAK_Negotiate_With_White_Representatives
+	    cost = 3
+	    x = 31
+	    y = 12
+
+		prerequisite = {
+			focus = NAK_Calm_The_Nation_Down
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_Encourage_Americanism
+	    icon = NAK_Encourage_Americanism
+	    cost = 5
+	    x = 31
+	    y = 13
+
+		prerequisite = {
+			focus = NAK_Calm_The_Nation_Down
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_The_Chairwoman_Resigns
+	    icon = NAK_The_Chairwoman_Resigns
+	    cost = 2
+	    x = 28
+	    y = 14
+
+		prerequisite = {
+			focus = NAK_The_June_14th_Proposal
+		}        
+        prerequisite = {
+			focus = NAK_Send_In_The_Army
+		}   
+		prerequisite = {
+			focus = NAK_Encourage_Americanism
+		}   
+		mutually_exclusive = {
+			NAK_No_Turning_Back
+		}
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_The_Coalition_Government
+	    icon = NAK_The_Coalition_Government
+	    cost = 3
+	    x = 28
+	    y = 15
+
+		prerequisite = {
+			focus = NAK_The_Chairwoman_Resigns
+		}        
+        
+	
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_No_Turning_Back
+	    icon = NAK_No_Turning_Back
+	    cost = 2
+	    x = 30
+	    y = 14
+
+		prerequisite = {
+			focus = NAK_The_June_14th_Proposal
+		}        
+        prerequisite = {
+			focus = NAK_Send_In_The_Army
+		}   
+		prerequisite = {
+			focus = NAK_Encourage_Americanism
+		}   
+		mutually_exclusive = {
+			focus = NAK_The_Chairwoman_Resigns
+		}
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_No_Turning_Back
+	    icon = NAK_No_Turning_Back
+	    cost = 2
+	    x = 30
+	    y = 14
+
+		prerequisite = {
+			focus = NAK_The_June_14th_Proposal
+		}        
+        prerequisite = {
+			focus = NAK_Send_In_The_Army
+		}   
+		prerequisite = {
+			focus = NAK_Encourage_Americanism
+		}   
+		mutually_exclusive = {
+			focus = NAK_The_Chairwoman_Resigns
+		}
+	    completion_reward = {
+            
+	}
+}
+focus = { 
+      id = NAK_The_Day_after
+	    icon = NAK_The_Day_after
+	    cost = 1
+	    x = 30
+	    y = 15
+
+		prerequisite = {
+			focus = NAK_No_Turning_Back
+		}        
+        
+	    completion_reward = {
+            
+	}
+}
+}
+
