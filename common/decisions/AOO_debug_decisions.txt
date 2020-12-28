@@ -369,5 +369,29 @@ aoo_debug_decisions = {
 			base = 0
 		}
 	}
+	
+	debug_ai_aggressive = {
 
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ROOT = { add_ideas = ai_aggressive }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
 }

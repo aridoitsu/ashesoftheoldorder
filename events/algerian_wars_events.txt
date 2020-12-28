@@ -67,11 +67,8 @@ country_event = {
     picture = GFX_report_event_election_vote
     
 	trigger = {
-		has_country_flag = algeria_civil_war
 		has_country_flag = republic_defeated
 		has_country_flag = islamists_defeated
-		NOT = { has_country_flag = algeria_angered }
-		NOT = { has_country_flag = algeria_not_angered }
 	}
 	
 	fire_only_once = yes
@@ -220,7 +217,7 @@ country_event = {
     }
 }
 
-# Tunisia New Leader
+# Algeria New Leader
 country_event = {
     id = algeria.4
     title = algeria.4.t
