@@ -1007,14 +1007,6 @@
      VICTORY_POINTS_13814:0 "Dover"
      VICTORY_POINTS_13825:0 "Kenton"
      VICTORY_POINTS_13814:0 "Pearson's Corner"
-   ##Florida
-     VICTORY_POINTS_12752:0 "Cape Coral"
-     VICTORY_POINTS_7388:0 "Tampa"
-     VICTORY_POINTS_1843:0 "Miami"
-     VICTORY_POINTS_9834:0 "Fort Lauderdale"
-     VICTORY_POINTS_12439:0 "Orlando"
-     VICTORY_POINTS_1556:0 "Gainesville"
-     VICTORY_POINTS_10352:0 "Pensacola"
    #Tallahassee
      VICTORY_POINTS_13476:0 "Tallahassee"
      VICTORY_POINTS_13477:0 "Perkins"
@@ -1917,3 +1909,16 @@
  VICTORY_POINTS_4188:0 "Chiba"
  VICTORY_POINTS_7016:0 "Hitachinaka"
  VICTORY_POINTS_11908:0 "Takasaki"
+
+ # Florida
+
+ VICTORY_POINTS_12752:0 "Fort Myers"
+ VICTORY_POINTS_7388:0 "Tampa"
+ VICTORY_POINTS_1843:0 "Miami"
+ VICTORY_POINTS_9834:0 "West Palm Beach"
+ VICTORY_POINTS_12439:0 "Daytona Beach"
+ VICTORY_POINTS_15349:0 "St. Petersburg"
+ VICTORY_POINTS_15362:0 "Orlando"
+ VICTORY_POINTS_1556:0 "Gainesville"
+ VICTORY_POINTS_10352:0 "Pensacola"
+ VICTORY_POINTS_15525:0 "Fort Lauderdale"
