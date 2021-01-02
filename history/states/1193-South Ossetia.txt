@@ -1,23 +1,26 @@
+
 state={
 	id=1193
 	name="South Ossetia"
 
-	history= {
+	history={
 		owner = GEO
 		victory_points = {
-			9626 1
+			9626 1 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = OSS
-
 		set_demilitarized_zone = yes
+
 	}
 
 	provinces={
-		9626 9632
+		9626 9632 
 	}
 	manpower=53532
+	buildings_max_level_factor=1.000
 	state_category=rural
 }

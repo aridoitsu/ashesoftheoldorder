@@ -1,0 +1,17 @@
+state={
+	id=1214
+	name="Ogallala"
+	provinces={
+		7762 10798 13640 13687 14374 14399 14411 14426 14433 14468 14489 
+	}
+
+	history = {
+		owner = OKC
+		add_core_of = OKC
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	manpower = 112423
+	state_category = town
+}

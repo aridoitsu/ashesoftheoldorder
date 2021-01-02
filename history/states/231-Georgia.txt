@@ -1,23 +1,27 @@
+
 state={
 	id=231
 	name="Tbilisi"
 
-	history= {
+	history={
 		owner = GEO
 		victory_points = {
-			1599 5
+			1599 5 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 3
+
 		}
 		add_core_of = GEO
+
 	}
 
 	provinces={
-		1599 6669 6671 9626 9702
+		1599 6669 6671 9702 
 	}
 	manpower=1755348
+	buildings_max_level_factor=1.000
 	state_category=city
 }
