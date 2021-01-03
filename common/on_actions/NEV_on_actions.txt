@@ -1,0 +1,23 @@
+on_actions = {
+	on_war = {
+		effect = {
+			if = {
+				limit = {
+					THIS = { tag = NEV }
+				}
+				THIS = { add_to_variable = { NEV_war = 1 } }
+			}
+		}
+	}
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { tag = NEV }
+				}
+				FROM = { subtract_from_variable = { NEV_war = 1 } }
+			}
+
+		}
+	}
+}

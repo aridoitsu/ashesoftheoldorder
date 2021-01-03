@@ -1,6 +1,6 @@
 NEV_reset_momentum = {
 	force_update_dynamic_modifier = yes
-	
+
 	set_variable = { momentum_speed = NEV_momentum }
 	multiply_variable = { momentum_speed = 1.15 }
 	subtract_from_variable = { momentum_speed = 15 }
@@ -15,4 +15,28 @@ NEV_reset_momentum = {
 	multiply_variable = { momentum_entrench_speed = 2.20 }
 	subtract_from_variable = { momentum_entrench_speed = 20 }
 	divide_variable = { momentum_entrench_speed = 100 }
+
+	set_variable = { momentum_reinforce_rate = NEV_momentum }
+	multiply_variable = { momentum_reinforce_rate = 0.07 }
+	subtract_from_variable = { momentum_reinforce_rate = 2 }
+	divide_variable = { momentum_reinforce_rate = 100 }
+
+	set_variable = { momentum_supply_grace = NEV_momentum }
+	multiply_variable = { momentum_supply_grace = 0.96 }
+	subtract_from_variable = { momentum_supply_grace = 24 }
+
+	set_variable = { momentum_org_loss = NEV_momentum }
+	multiply_variable = { momentum_org_loss = 0.45 }
+	subtract_from_variable = { momentum_org_loss = 15 }
+	divide_variable = { momentum_org_loss = 100 }
+
+	set_variable = { momentum_breakthrough = NEV_momentum }
+	multiply_variable = { momentum_breakthrough = 0.40 }
+	subtract_from_variable = { momentum_breakthrough = 10 }
+	divide_variable = { momentum_breakthrough = 100 }
+
+	set_variable = { momentum_attack = NEV_momentum }
+	multiply_variable = { momentum_attack = 0.60 }
+	subtract_from_variable = { momentum_attack = 10 }
+	divide_variable = { momentum_attack = 100 }
 }

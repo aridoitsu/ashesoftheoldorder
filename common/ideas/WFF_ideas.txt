@@ -125,6 +125,16 @@ ideas = {
 				political_power_factor = -0.25
 			}
 		}
+		
+		ai_aggressive = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				ai_focus_aggressive_factor = 4.0
+			}
+		}
 	}
 }	
 	

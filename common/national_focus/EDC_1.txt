@@ -1,0 +1,1022 @@
+focus_tree = {
+    id = EDC_1
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = EDC
+        }
+    }
+
+focus = { 
+      id = EDC_The_FBI
+        icon = EDC_The_FBI
+        cost = 2
+        x = 4
+        y = 1
+
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_raid_rebel_cells 
+        icon = EDC_raid_rebel_cells
+        x = 2
+        y = 2
+      prerequisite = {
+            focus = EDC_The_FBI
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_expand_the_armories
+        icon = EDC_expand_the_armories
+        x = 4
+        y = 2
+      prerequisite = {
+            focus = EDC_The_FBI
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_raise_funds
+        icon = EDC_raise_funds
+        x = 6
+        y = 2
+      prerequisite = {
+            focus = EDC_The_FBI
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_contact_local_dealers
+        icon = EDC_contact_local_dealers
+        x = 6
+        y = 3
+      prerequisite = {
+            focus = EDC_raise_funds
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_fund_rd
+        icon = EDC_fund_rd
+        x = 4
+        y = 3
+      prerequisite = {
+            focus = EDC_expand_the_armories
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_expand_cointelpro
+        icon = EDC_expand_cointelpro
+        x = 2
+        y = 3
+      prerequisite = {
+            focus = EDC_raid_rebel_cells
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_the_bishop
+        icon = EDC_the_bishop
+        x = 4
+        y = 4
+      prerequisite = {
+            focus = EDC_expand_cointelpro
+      }
+       prerequisite = {
+            focus = EDC_fund_rd
+      }
+       prerequisite = {
+            focus = EDC_contact_local_dealers
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+    id = EDC_deal_with_the_devil
+        icon = EDC_deal_with_the_devil
+        x = 8
+        y = 5
+      prerequisite = {
+            focus = EDC_the_bishop
+      }
+        prerequisite = {
+            focus = EDC_the_knight
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_the_nsa
+        icon = EDC_nsa 
+        x = 12
+        y = 1
+     
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_hire_more_censore
+        icon = EDC_hire_more_censore
+        x = 10
+        y = 2
+      prerequisite = {
+            focus = EDC_the_nsa
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_expand_the_labor_camps
+        icon = EDC_expand_the_labor_camps
+        x = 12
+        y = 2
+      prerequisite = {
+            focus = EDC_the_nsa
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_eyes_everywhere
+        icon = EDC_eyes_everywhere
+        x = 14
+        y = 2
+      prerequisite = {
+            focus = EDC_the_nsa
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_the_mockingbird_sings
+        icon = EDC_the_mockingbird_sings
+        x = 14
+        y = 3
+      prerequisite = {
+            focus = EDC_eyes_everywhere
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_enhanced_interrogation
+        icon = EDC_enhanced_interrogation
+        x = 12
+        y = 3
+      prerequisite = {
+            focus = EDC_expand_the_labor_camps
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_goverment_misinformation
+        icon = EDC_goverment_misinformation
+        x = 10
+        y = 3
+      prerequisite = {
+            focus = EDC_hire_more_censore
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_the_knight
+        icon = EDC_the_knight
+        x = 12
+        y = 4
+      prerequisite = {
+            focus = EDC_goverment_misinformation
+      }
+        prerequisite = {
+            focus = EDC_enhanced_interrogation
+      }
+            prerequisite = {
+            focus = EDC_the_mockingbird_sings
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_collect_blackmail
+        icon = EDC_collect_blackmail
+        x = 4
+        y = 6
+      prerequisite = {
+            focus = EDC_deal_with_the_devil
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_bribe_the_generals
+        icon = EDC_bribe_the_generals
+        x = 8
+        y = 6
+      prerequisite = {
+            focus = EDC_deal_with_the_devil
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_the_midnight_knock
+        icon = EDC_the_midnight_knock
+        x = 12
+        y = 6
+      prerequisite = {
+            focus = EDC_deal_with_the_devil
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_intimidate_their_sympathizers
+        icon = EDC_intimidate_their_sympathizers
+        x = 4
+        y = 7
+      prerequisite = {
+            focus = EDC_collect_blackmail
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_learn_their_tactics
+        icon = EDC_learn_their_tactics
+        x = 6
+        y = 7
+      prerequisite = {
+            focus = EDC_bribe_the_generals
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_expose_their_crimes
+        icon = EDC_expose_their_crimes
+        x = 8
+        y = 7
+      prerequisite = {
+            focus = EDC_bribe_the_generals
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_turn_their_agents
+        icon = EDC_turn_their_agents
+        x = 10
+        y = 7
+      prerequisite = {
+            focus = EDC_bribe_the_generals
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_arrange_accidents
+        icon = EDC_arrange_accidents
+        x = 12
+        y = 7
+      prerequisite = {
+            focus = EDC_the_midnight_knock
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_hide_our_alliance
+        icon = EDC_hide_our_alliance
+        x = 4
+        y = 8
+      prerequisite = {
+            focus = EDC_intimidate_their_sympathizers
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_divert_their_funding
+        icon = EDC_divert_their_funding
+        x = 8
+        y = 8
+      prerequisite = {
+            focus = EDC_learn_their_tactics
+      }
+        prerequisite = {
+            focus = EDC_expose_their_crimes
+      }
+        prerequisite = {
+            focus = EDC_turn_their_agents
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_the_one_who_knows_too_much
+        icon = EDC_the_one_who_knows_too_much
+        x = 12
+        y = 8
+      prerequisite = {
+            focus = EDC_arrange_accidents
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_checkmate
+        icon = EDC_checkmate
+        x = 8
+        y = 9
+      prerequisite = {
+            focus = EDC_hide_our_alliance
+      }
+        prerequisite = {
+            focus = EDC_divert_their_funding
+      }
+        prerequisite = {
+            focus = EDC_the_one_who_knows_too_much
+      }
+        completion_reward = {
+
+    }
+}
+
+
+
+
+focus = { 
+      id = EDC_the_cia
+        icon = EDC_the_cia
+        x = 21
+        y = 1
+     
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_a_tangled_web_we_weave
+        icon = EDC_a_tangled_web_we_weave
+        x = 19
+        y = 2
+      prerequisite = {
+            focus = EDC_the_cia
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_recruit_new_operatives
+        icon = EDC_recruit_new_operatives
+        x = 21
+        y = 2
+      prerequisite = {
+            focus = EDC_the_cia
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_we_lied_we_cheated_we_stole
+        icon = EDC_we_lied_we_cheated_we_stole
+        x = 23
+        y = 2
+      prerequisite = {
+            focus = EDC_the_cia
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_divert_funding
+        icon = EDC_divert_their_funding
+        x = 23
+        y = 3
+      prerequisite = {
+            focus = EDC_we_lied_we_cheated_we_stole
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_boots_on_the_ground
+        icon = EDC_boots_on_the_ground
+        x = 21
+        y = 3
+      prerequisite = {
+            focus = EDC_recruit_new_operatives
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_eyes_within_the_commission
+        icon = EDC_eyes_within_the_commission
+        x = 19
+        y = 3
+      prerequisite = {
+            focus = EDC_a_tangled_web_we_weave
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_project_hummingbird
+        icon = EDC_project_hummingbird
+        x = 21
+        y = 4
+      prerequisite = {
+            focus = EDC_boots_on_the_ground
+      }
+        prerequisite = {
+            focus = EDC_eyes_within_the_commission
+      }
+        prerequisite = {
+            focus = EDC_divert_funding
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_the_king
+        icon = EDC_the_king
+        x = 17
+        y = 5
+      prerequisite = {
+            focus = EDC_project_hummingbird
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_investigate_the_fbi
+        icon = EDC_investigate_the_fbi
+        x = 15
+        y = 6
+      prerequisite = {
+            focus = EDC_the_king
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_investigate_the_cia
+        icon = EDC_investigate_the_cia
+        x = 19
+        y = 6
+      prerequisite = {
+            focus = EDC_the_king
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_use_the_prisons
+        icon = EDC_use_the_prisons
+        x = 19
+        y = 7
+      prerequisite = {
+            focus = EDC_investigate_the_cia
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_arrest_drug_dealers
+        icon = EDC_arrest_drug_dealers
+        x = 15
+        y = 7
+      prerequisite = {
+            focus = EDC_investigate_the_fbi
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_pay_whistleblower
+        icon = EDC_pay_whistleblower
+        x = 17
+        y = 7
+      prerequisite = {
+            focus = EDC_investigate_the_fbi
+      }
+         prerequisite = {
+            focus = EDC_investigate_the_cia
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_crush_the_blackmarket
+        icon = EDC_crush_the_blackmarket
+        x = 15
+        y = 8
+      prerequisite = {
+            focus = EDC_arrest_drug_dealers
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_pay_the_media
+        icon = EDC_pay_the_media
+        x = 17
+        y = 8
+      prerequisite = {
+            focus = EDC_pay_whistleblower
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_claw_out_their_eyes
+        icon = EDC_claw_out_their_eyes
+        x = 19
+        y = 8
+      prerequisite = {
+            focus = EDC_use_the_prisons
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_one_agency_indivisible
+        icon = EDC_
+        x = 17
+        y = 9
+      prerequisite = {
+            focus = EDC_crush_the_blackmarket
+      }
+
+       prerequisite = {
+            focus = EDC_pay_the_media
+      }
+          prerequisite = {
+            focus = EDC_claw_out_their_eyes
+      }
+ 
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_infiltrate_deleware
+        icon = EDC_infiltrate_deleware
+        x = 24
+        y = 5
+      prerequisite = {
+            focus = EDC_project_hummingbird
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_use_brown
+        icon = EDC_use_brown
+        x = 22
+        y = 6
+      prerequisite = {
+            focus = EDC_infiltrate_deleware
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_good_cop
+        icon = EDC_good_cop
+        x = 21
+        y = 7
+      prerequisite = {
+            focus = EDC_use_brown
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_bad_cop
+        icon = EDC_bad_cop
+        x = 23
+        y = 7
+      prerequisite = {
+            focus = EDC_use_brown
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_flex_our_muscles
+        icon = EDC_flex_our_muscles
+        x = 23
+        y = 8
+      prerequisite = {
+            focus = EDC_bad_cop
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_a_good_life
+        icon = EDC_a_good_life
+        x = 21
+        y = 8
+      prerequisite = {
+            focus = EDC_good_cop
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_move_in
+        icon = EDC_move_in
+        x = 22
+        y = 9
+      prerequisite = {
+            focus = EDC_flex_our_muscles
+      }
+        prerequisite = {
+            focus = EDC_a_good_life
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_the_next_step
+        icon = EDC_the_next_step
+        x = 22
+        y = 10
+      prerequisite = {
+            focus = EDC_one_agency_indivisible
+      }
+       prerequisite = {
+            focus = EDC_move_in
+			focus = EDC_the_first_step
+      }
+        
+        completion_reward = {
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+focus = { 
+      id = EDC_use_the_board
+        icon = EDC_use_the_board
+        x = 26
+        y = 6
+      prerequisite = {
+            focus = EDC_infiltrate_deleware
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_talk_to_the_cooperative_ones
+        icon = EDC_talk_to_the_cooperative_ones
+        x = 25
+        y = 7
+      prerequisite = {
+            focus = EDC_use_the_board
+      }
+        completion_reward = {
+
+    }
+}
+
+
+focus = { 
+      id = EDC_disappear_the_bad_ones
+        icon = EDC_disappear_the_bad_ones
+        x = 25
+        y = 8
+      prerequisite = {
+            focus = EDC_talk_to_the_cooperative_ones
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_the_dover_papers
+        icon = EDC_the_dover_papers
+        x = 27
+        y = 7
+      prerequisite = {
+            focus = EDC_use_the_board
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_negotiations_with_the_army
+        icon = EDC_negotiations_with_the_army
+        x = 27
+        y = 8
+      prerequisite = {
+            focus = EDC_the_dover_papers
+      }
+        completion_reward = {
+
+    }
+}
+
+focus = { 
+      id = EDC_the_first_step
+        icon = EDC_the_first_step
+        x = 26
+        y = 9
+      prerequisite = {
+            focus = EDC_disappear_the_bad_ones
+      }
+        prerequisite = {
+            focus = EDC_negotiations_with_the_army
+      }
+        completion_reward = {
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

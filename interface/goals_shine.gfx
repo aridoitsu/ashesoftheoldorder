@@ -24351,4 +24351,4293 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+	SpriteType = {
+	name = “goal_unknown_shine“ 
+	texturefile = "gfx/interface/goals/goals_unknown.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “NSH_New_Society_shine“ 
+	texturefile = "gfx/interface/goals/NSH_New_Society.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_New_Society.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_New_Society.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+SpriteType = {
+	name = “NSH_guns_for_the_loyal_shine“ 
+	texturefile = "gfx/interface/goals/NSH_guns_for_the_loyal.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_guns_for_the_loyaly.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_guns_for_the_loyal.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+SpriteType = {
+	name = “NSH_guns_for_all_shine“ 
+	texturefile = "gfx/interface/goals/NSH_guns_for_all.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_guns_for_all.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_guns_for_all.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_faithful_shall_be_rewarded_shine“ 
+	texturefile = "gfx/interface/goals/NSH_guns_for_all.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_faithful_shall_be_rewarded.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_faithful_shall_be_rewarded.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_purge_the_intellectuals_shine“ 
+	texturefile = "gfx/interface/goals/NSH_purge_the_intellectuals.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_purge_the_intellectuals.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_purge_the_intellectuals.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “NSH_a_free_land_shine“ 
+	texturefile = "gfx/interface/goals/NSH_a_free_land.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_a_free_land.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_a_free_land.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_necessarcy_shall_be_spared_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_necessarcy_shall_be_spared.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_necessarcy_shall_be_spared.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_necessarcy_shall_be_spared.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “NSH_womens_rights_shine“ 
+	texturefile = "gfx/interface/goals/NSH_womens_rights.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_womens_rights.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_womens_rights.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_the_bluegrass_family_shine“ 
+	texturefile = "gfx/interface/goals/NSH_womens_rights.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_bluegrass_family.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_bluegrass_family.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “NSH_legalize_all_drug_shine“ 
+	texturefile = "gfx/interface/goals/NSH_legalize_all_drug.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_legalize_all_drug.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_legalize_all_drug.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_white_race_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_white_race.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_white_race.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_white_race.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+SpriteType = {
+	name = “NSH_the_white_race_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_white_race.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_white_race.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_white_race.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “NSH_suicide_legalization_shine“ 
+	texturefile = "gfx/interface/goals/NSH_suicide_legalization.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_suicide_legalization.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_suicide_legalization.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+SpriteType = {
+	name = “NSH_the_white_race_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_white_race.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_white_race.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_white_race.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_eliminate_the_taboos_shine“ 
+	texturefile = "gfx/interface/goals/NSH_eliminate_the_taboos.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_eliminate_the_taboos.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_eliminate_the_taboos.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_lessons_from_the_germans_shine“ 
+	texturefile = "gfx/interface/goals/NSH_lessons_from_the_germans.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_lessons_from_the_germans.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_lessons_from_the_germans.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “NSH_back_to_the_kitchen_shine“ 
+	texturefile = "gfx/interface/goals/NSH_back_to_the_kitchen.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_back_to_the_kitchen.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_back_to_the_kitchen.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+SpriteType = {
+	name = “NSH_a_new_generation_shine“ 
+	texturefile = "gfx/interface/goals/NSH_a_new_generation.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_a_new_generation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_a_new_generation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_destroy_feminism_shine“ 
+	texturefile = "gfx/interface/goals/NSH_destroy_feminism.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_destroy_feminism.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_destroy_feminism.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_wipe_out_the_city_dwellers_shine“ 
+	texturefile = "gfx/interface/goals/NSH_wipe_out_the_city_dwellers.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_wipe_out_the_city_dwellers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_wipe_out_the_city_dwellers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_a_new_economy_shine“ 
+	texturefile = "gfx/interface/goals/NSH_a_new_economy.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_a_new_economy.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_a_new_economy.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_aution_off_state_owned_property_shine“ 
+	texturefile = "gfx/interface/goals/NSH_aution_off_state_owned_property.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_aution_off_state_owned_property.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_aution_off_state_owned_property.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_companies_cannot_be_trusted_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_companies_cannot_be_trusted.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_companies_cannot_be_trusted.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_companies_cannot_be_trusted.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_restrict_navigation_shine“ 
+	texturefile = "gfx/interface/goals/NSH_restrict_navigation.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_restrict_navigation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_restrict_navigation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_eliminate_public_roads_shine“ 
+	texturefile = "gfx/interface/goals/NSH_eliminate_public_roads.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_eliminate_public_roads.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_eliminate_public_roads.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_empower_arms_dealers_shine“ 
+	texturefile = "gfx/interface/goals/NSH_empower_arms_dealers.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_empower_arms_dealers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_empower_arms_dealers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_nationalize_military_contracts_shine“ 
+	texturefile = "gfx/interface/goals/NSH_nationalize_military_contracts.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_nationalize_military_contracts.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_nationalize_military_contracts.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_only_necessary_industrys_shine“ 
+	texturefile = "gfx/interface/goals/NSH_only_necessary_industry.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_only_necessary_industry.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_only_necessary_industry.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_checkpoints_at_every_corner_shine“ 
+	texturefile = "gfx/interface/goals/NSH_checkpoints_at_every_corner.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_checkpoints_at_every_corner.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_checkpoints_at_every_corner.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_destroy_cars_shine“ 
+	texturefile = "gfx/interface/goals/NSH_destroy_cars.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_destroy_cars.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_destroy_carsr.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+SpriteType = {
+	name = “NSH_destroy_cars_shine“ 
+	texturefile = "gfx/interface/goals/NSH_destroy_cars.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_destroy_cars.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_destroy_cars.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_eliminate_the_last_cities_shine“ 
+	texturefile = "gfx/interface/goals/NSH_eliminate_the_last_cities.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_eliminate_the_last_cities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_eliminate_the_last_cities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_a_rural_country_shine“ 
+	texturefile = "gfx/interface/goals/NSH_a_rural_country.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_a_rural_country.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_a_rural_country.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_encourage_stupidity_shine“ 
+	texturefile = "gfx/interface/goals/NSH_encourage_stupidity.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_encourage_stupidity.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_encourage_stupidity.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+SpriteType = {
+	name = “NSH_the_nasville_coup_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_nasville_coup.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_nasville_coup.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_nasville_coup.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_larson_forevermore_shine“ 
+	texturefile = "gfx/interface/goals/NSH_larson_forevermore.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_larson_forevermore.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_larson_forevermore.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_second_great_purge_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_second_great_purge.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_second_great_purge.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_second_great_purge.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_weak_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_weak.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_weak.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_weak.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_sick_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_sick.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_sick.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_sick.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_old_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_old.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_old.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_old.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_3_generations_rule_shine“ 
+	texturefile = "gfx/interface/goals/NSH_3_generations_rule.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_3_generations_rule.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_3_generations_rule.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_show_trials_shine“ 
+	texturefile = "gfx/interface/goals/NSH_show_trials.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_show_trials.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_show_trials.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_the_american_utopia_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_american_utopia.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_american_utopia.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_american_utopia.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_smash_industrial_argiculture_shine“ 
+	texturefile = "gfx/interface/goals/NSH_smash_industrial_argiculture.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_smash_industrial_argiculture.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_smash_industrial_argiculture.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_to_eat_is_a_luxury_shine“ 
+	texturefile = "gfx/interface/goals/NSH_to_eat_is_a_luxury.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_to_eat_is_a_luxury.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_to_eat_is_a_luxury.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_ultimate_weapon_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_ultimate_weapon.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_ultimate_weapon.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_ultimate_weapon.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_exploit_the_rivers_shine“ 
+	texturefile = "gfx/interface/goals/NSH_exploit_the_rivers.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_exploit_the_rivers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_exploit_the_rivers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_an_uncomfortable_society_shine“ 
+	texturefile = "gfx/interface/goals/NSH_an_uncomfortable_society.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_an_uncomfortable_society.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_an_uncomfortable_society.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “NSH_find_the_scientists_shine“ 
+	texturefile = "gfx/interface/goals/NSH_find_the_scientists.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_find_the_scientists.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_find_the_scientists.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_world_class_proccessing_facilities_shine“ 
+	texturefile = "gfx/interface/goals/NSH_world_class_proccessing_facilities.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_world_class_proccessing_facilities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_world_class_proccessing_facilities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_state_sponsored_terrorism_shine“ 
+	texturefile = "gfx/interface/goals/NSH_state_sponsored_terrorism.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_state_sponsored_terrorism.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_state_sponsored_terrorism.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_encourage_drug_trafficking_shine“ 
+	texturefile = "gfx/interface/goals/NSH_encourage_drug_trafficking.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_encourage_drug_trafficking.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_encourage_drug_trafficking.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_new_farming_practices_shine“ 
+	texturefile = "gfx/interface/goals/NSH_new_farming_practices.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_new_farming_practices.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_new_farming_practices.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_appeasse_the_industrialists_shine“ 
+	texturefile = "gfx/interface/goals/NSH_appeasse_the_industrialists.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_appeasse_the_industrialists.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_appeasse_the_industrialists.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_acquire_foregin_expertise_shine“ 
+	texturefile = "gfx/interface/goals/NSH_acquire_foregin_expertise.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_acquire_foregin_expertise.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_acquire_foregin_expertise.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_probe_the_appalachian_mountains_shine“ 
+	texturefile = "gfx/interface/goals/NSH_probe_the_appalachian_mountains.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_probe_the_appalachian_mountains.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_probe_the_appalachian_mountains.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_enter_the_arms_market_shine“ 
+	texturefile = "gfx/interface/goals/NSH_probe_the_appalachian_mountains.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_enter_the_arms_market.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_enter_the_arms_market.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_the_dark_spot_of_america_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_dark_spot_of_america.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_dark_spot_of_america.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_dark_spot_of_america.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_test_our_prototype_shine“ 
+	texturefile = "gfx/interface/goals/NSH_test_our_prototype.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_test_our_prototype.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_test_our_prototype.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “NSH_fill_larson_pockets_shine“ 
+	texturefile = "gfx/interface/goals/NSH_fill_larson_pockets.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_fill_larson_pockets.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_fill_larson_pockets.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_reclaim_america_shine“ 
+	texturefile = "gfx/interface/goals/NSH_reclaim_america.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_reclaim_america.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_reclaim_america.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_mandatory_service_shine“ 
+	texturefile = "gfx/interface/goals/NSH_mandatory_service.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_mandatory_service.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_mandatory_service.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_segregate_the_army_shine“ 
+	texturefile = "gfx/interface/goals/NSH_segregate_the_army.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_segregate_the_army.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_segregate_the_army.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “NSH_polittical_commissars_shine“ 
+	texturefile = "gfx/interface/goals/NSH_polittical_commissars.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_polittical_commissars.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_polittical_commissars.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_return_home_shine“ 
+	texturefile = "gfx/interface/goals/NSH_return_home.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_return_home.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_return_home.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_army_seizes_power_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_army_seizes_power.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_army_seizes_power.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_army_seizes_power.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_martial_law_shine“ 
+	texturefile = "gfx/interface/goals/NSH_martial_law.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_martial_law.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_martial_law.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_delarsonification_shine“ 
+	texturefile = "gfx/interface/goals/NSH_delarsonification.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_delarsonification.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_delarsonification.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_reeducation_shine“ 
+	texturefile = "gfx/interface/goals/NSH_reeducation.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_reeducation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_reeducation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_establish_public_schooling_shine“ 
+	texturefile = "gfx/interface/goals/NSH_establish_public_schooling.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_establish_public_schooling.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_establish_public_schooling.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_import_machinery_shine“ 
+	texturefile = "gfx/interface/goals/NSH_import_machinery.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_import_machinery.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_import_machinery.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_try_the_collaborators_shine“ 
+	texturefile = "gfx/interface/goals/NSH_try_the_collaborators.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_try_the_collaborators.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_try_the_collaborators.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_reopen_universities_shine“ 
+	texturefile = "gfx/interface/goals/NSH_reopen_universities.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_reopen_universities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_reopen_universities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_seek_international_aid_shine“ 
+	texturefile = "gfx/interface/goals/NSH_seek_international_aid.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_seek_international_aid.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_seek_international_aid.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_publish_the_photos_shine“ 
+	texturefile = "gfx/interface/goals/NSH_publish_the_photos.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_publish_the_photos.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_publish_the_photos.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_reclaim_the_cities_shine“ 
+	texturefile = "gfx/interface/goals/NSH_reclaim_the_cities.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_reclaim_the_cities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_reclaim_the_cities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_establish_national_remembrance_shine“ 
+	texturefile = "gfx/interface/goals/NSH_establish_national_remembrance.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_establish_national_remembrance.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_establish_national_remembrance.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_question_of_the_elections_shine“ 
+	texturefile = "gfx/interface/goals/NSH_question_of_the_elections.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_question_of_the_elections.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_question_of_the_elections.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_the_second_washington_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_second_washington.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_second_washington.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_second_washington.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_separation_of_powers_shine“ 
+	texturefile = "gfx/interface/goals/NSH_separation_of_powers.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_separation_of_powers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_separation_of_powers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_cripple_the_executive_shine“ 
+	texturefile = "gfx/interface/goals/NSH_cripple_the_executive.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_cripple_the_executive.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_cripple_the_executive.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_judicaial_review_shine“ 
+	texturefile = "gfx/interface/goals/NSH_judicaial_review.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_judicaial_review.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_judicaial_review.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_establish_the_power_of_impachment_shine“ 
+	texturefile = "gfx/interface/goals/NSH_establish_the_power_of_impachment.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_establish_the_power_of_impachment.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_establish_the_power_of_impachment.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_rebuild_the_country_shine“ 
+	texturefile = "gfx/interface/goals/NSH_rebuild_the_country.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_rebuild_the_country.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_rebuild_the_country.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “NSH_reperations_for_the_victims_shine“ 
+	texturefile = "gfx/interface/goals/NSH_reperations_for_the_victims.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_reperations_for_the_victims.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_reperations_for_the_victims.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_develop_the_cities_shine“ 
+	texturefile = "gfx/interface/goals/NSH_develop_the_cities.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_develop_the_cities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_develop_the_cities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_free_housing_shine“ 
+	texturefile = "gfx/interface/goals/NSH_free_housing.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_free_housing.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_free_housing.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_open_the_borders_shine“ 
+	texturefile = "gfx/interface/goals/NSH_open_the_borders.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_open_the_borders.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_open_the_borders.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_take_lmf_loans_shine“ 
+	texturefile = "gfx/interface/goals/NSH_take_lmf_loans.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_take_lmf_loans.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_take_lmf_loans.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_open_the_markets_shine“ 
+	texturefile = "gfx/interface/goals/NSH_open_the_markets.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_open_the_markets.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_open_the_markets.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_encourage_immigration_shine“ 
+	texturefile = "gfx/interface/goals/NSH_encourage_immigration.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_encourage_immigration.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_encourage_immigration.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_hire_foregin_construction_companies_shine“ 
+	texturefile = "gfx/interface/goals/NSH_hire_foregin_construction_companies.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_hire_foregin_construction_companies.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_hire_foregin_construction_companies.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_Social_Delarsonification_shine“ 
+	texturefile = "gfx/interface/goals/NSH_Social_Delarsonification.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_Social_Delarsonification.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_Social_Delarsonification.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_a_country_of_hope_shine“ 
+	texturefile = "gfx/interface/goals/NSH_a_country_of_hope.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_a_country_of_hope.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_a_country_of_hope.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_reintroduce_the_19th_shine“ 
+	texturefile = "gfx/interface/goals/NSH_reintroduce_the_19th.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_reintroduce_the_19th.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_reintroduce_the_19th.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_encourage_racial_equality_shine“ 
+	texturefile = "gfx/interface/goals/NSH_encourage_racial_equality.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_encourage_racial_equality.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_encourage_racial_equality.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_remove_larsons_statues_shine“ 
+	texturefile = "gfx/interface/goals/NSH_remove_larsons_statues.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_remove_larsons_statues.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_remove_larsons_statues.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_ban_nazism_shine“ 
+	texturefile = "gfx/interface/goals/NSH_ban_nazism.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_ban_nazism.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_ban_nazism.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_invest_in_damaged_communities_shine“ 
+	texturefile = "gfx/interface/goals/NSH_invest_in_damaged_communities.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_invest_in_damaged_communities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_invest_in_damaged_communities.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_fund_female_education_shine“ 
+	texturefile = "gfx/interface/goals/NSH_fund_female_education.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_fund_female_education.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_fund_female_education.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_horrors_of_the_past_shine“ 
+	texturefile = "gfx/interface/goals/NSH_horrors_of_the_past.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_horrors_of_the_past.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_horrors_of_the_past.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_maintain_martial_law_shine“ 
+	texturefile = "gfx/interface/goals/NSH_maintain_martial_law.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_maintain_martial_law.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_maintain_martial_law.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_purge_the_larson_supporters_shine“ 
+	texturefile = "gfx/interface/goals/NSH_purge_the_larson_supporters.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_purge_the_larson_supporters.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_purge_the_larson_supporters.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_strengthen_the_army_shine“ 
+	texturefile = "gfx/interface/goals/NSH_strengthen_the_army.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_strengthen_the_army.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_purge_the_larson_supporters.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_placate_the_liberals_shine“ 
+	texturefile = "gfx/interface/goals/NSH_placate_the_liberals.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_placate_the_liberals.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_placate_the_liberals.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_reuse_the_fields_shine“ 
+	texturefile = "gfx/interface/goals/NSH_reuse_the_fields.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_reuse_the_fields.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_reuse_the_fields.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_arrest_liberal_supporters_shine“ 
+	texturefile = "gfx/interface/goals/NSH_arrest_liberal_supporters.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_arrest_liberal_supporters.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_arrest_liberal_supporters.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_secure_our_power_shine“ 
+	texturefile = "gfx/interface/goals/NSH_secure_our_power.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_secure_our_power.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_secure_our_power.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_resource_exploitation_shine“ 
+	texturefile = "gfx/interface/goals/NSH_resource_exploitation.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_resource_exploitation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_resource_exploitation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_into_the_fields_shine“ 
+	texturefile = "gfx/interface/goals/NSH_into_the_fields.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_into_the_fields.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_into_the_fields.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_into_the_mines_shine“ 
+	texturefile = "gfx/interface/goals/NSH_into_the_mines.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_into_the_mines.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_into_the_mines.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_exploit_our_riches_shine“ 
+	texturefile = "gfx/interface/goals/NSH_exploit_our_riches.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_exploit_our_riches.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_exploit_our_riches.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_increase_ration_sizes_shine“ 
+	texturefile = "gfx/interface/goals/NSH_increase_ration_sizes.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_increase_ration_sizes.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_increase_ration_sizes.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_riches_of_our_land_shine“ 
+	texturefile = "gfx/interface/goals/NSH_riches_of_our_land.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_riches_of_our_land.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_riches_of_our_land.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_industrialization_shine“ 
+	texturefile = "gfx/interface/goals/NSH_industrialization.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_industrialization.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_industrialization.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_produce_luxury_resourcees_shine“ 
+	texturefile = "gfx/interface/goals/NSH_produce_luxury_resourcees.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_produce_luxury_resourcees.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_produce_luxury_resourcees.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_promised_land_shine“ 
+	texturefile = "gfx/interface/goals/NSH_promised_land.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_promised_land.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_promised_land.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+
+SpriteType = {
+	name = “NSH_trade_with_eu_shine“ 
+	texturefile = "gfx/interface/goals/NSH_trade_with_eu.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_trade_with_eu.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_trade_with_eu.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “NSH_impose_the_14_hour_workday_shine“ 
+	texturefile = "gfx/interface/goals/NSH_impose_the_14_hour_workday.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_impose_the_14_hour_workday.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_impose_the_14_hour_workday.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “NSH_the_capitalist_dream_shine“ 
+	texturefile = "gfx/interface/goals/NSH_the_capitalist_dream.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/NSH_the_capitalist_dream.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/NSH_the_capitalist_dream.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
 }

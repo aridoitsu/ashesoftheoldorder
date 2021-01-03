@@ -19,6 +19,8 @@ on_actions = {
 						target = ISA
 						transfer_troops = no
 					}
+				}
+				ALG = {
 					set_country_flag = islamists_defeated
 				}
 				
@@ -39,6 +41,8 @@ on_actions = {
 						target = TRA
 						transfer_troops = no
 					}
+				}
+				ALG = {
 					set_country_flag = republic_defeated
 				}
 			}
@@ -216,7 +220,7 @@ on_actions = {
 					add_to_faction = TUN
 				}
 				ALG = {
-					country_event = { id = algeria.3 }
+					country_event = { id = algeria.4 }
 				}
 			}
 
