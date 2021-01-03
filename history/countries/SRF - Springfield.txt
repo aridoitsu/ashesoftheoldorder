@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = liberal
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,16 +58,45 @@ set_politics = {
 add_ideas = {
 }
 set_popularities = {
-	democratic = 0
+	democratic = 35
 	neutrality = 0
-	authdem = 0
-	liberal = 33
-	demsoc = 33
-	prodem = 33
+	authdem = 10
+	liberal = 15
+	demsoc = 16
+	prodem = 13
 	communism = 0
 	totalsoc = 0
-	libsoc = 1
+	libsoc = 6
 	anarchy = 0
-	fascism = 0
+	fascism = 5
 	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Tim Davlin"
+	desc = "POLITICS_TIM_DAVLIN_DESC"
+	picture = "Portrait_Tim_Davlin.dds"
+	expire = "2040.1.1"
+	ideology = conservative
+}
+create_country_leader = {
+	name = "Barack Obama"
+	desc = "POLITICS_BARACK_OBAMA_DESC"
+	picture = "Portrait_Barack_Obama.dds"
+	expire = "2040.1.1"
+	ideology = progressive
+}
+create_country_leader = {
+	name = "Rich Whitney"
+	desc = "POLITICS_RICH_WHITNEY_DESC"
+	picture = "Portrait_Rich_Whitney.dds"
+	expire = "2040.1.1"
+	ideology = democraticsocialism
+}
+create_country_leader = {
+	name = "Bruce Rauner"
+	desc = "POLITICS_BRUCE_RAUNER_DESC"
+	picture = "Portrait_Bruce_Rauner.dds"
+	expire = "2040.1.1"
+	ideology = marketlib
 }
