@@ -1,21 +1,29 @@
+
 state={
 	id=913
 	name="Frontier"
-	history = {
+
+	history={
 		owner = SEQ
 		add_core_of = SEQ
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+
 		}
 		victory_points = {
-			5103 3
+			5103 3 
 		}
+		victory_points = {
+			13646 3
+		}
+
 	}
+
 	provinces={
-		1618 5103 13642 13646
+		1618 4869 5103 13642 13646 14180 14215 14230 14341 
 	}
 	manpower=214530
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

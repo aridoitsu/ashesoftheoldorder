@@ -1,0 +1,32 @@
+
+state={
+	id=1215
+	name="Topeka"
+
+	history={
+		owner = SEQ
+		add_core_of = SEQ
+		buildings = {
+			infrastructure = 6
+		}
+
+		victory_points = {
+			13767 3 
+		}
+
+		victory_points = {
+			6676 3 
+		}
+
+		victory_points = {
+			15487 10 
+		}
+	}
+
+	provinces={
+		1352 6676 7834 13767 13768 13780 14204 15430 15478 15487 15557 15568 15608 
+	}
+	manpower=666546
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

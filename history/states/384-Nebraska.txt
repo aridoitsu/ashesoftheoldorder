@@ -3,7 +3,7 @@ state={
 	id=384
 	name="Omaha"
 
-	history = {
+	history={
 		owner = NEB
 		buildings = {
 			infrastructure = 4
@@ -12,15 +12,16 @@ state={
 		}
 		add_core_of = NEB
 		victory_points = {
-			12586 12
+			12586 12 
 		}
 		victory_points = {
-			13904 3
+			13904 3 
 		}
+
 	}
 
 	provinces={
-		1683 12586 13929 13904 13943
+		1683 7364 12586 13904 13929 13943 15135 15141 15171 15182 15191 15266 15295 15301 15318 15335 15367 15375 15407 
 	}
 	manpower=377962
 	buildings_max_level_factor=1.000

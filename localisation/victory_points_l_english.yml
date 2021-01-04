@@ -771,8 +771,6 @@
    VICTORY_POINTS_485:0 "Dieppe"
    VICTORY_POINTS_4611:0 "San José de David"
    VICTORY_POINTS_10879:0 "Ciudad Guayana"
-   VICTORY_POINTS_4740:0 "Wichita"
-   VICTORY_POINTS_7834:0 "Topeka"
    VICTORY_POINTS_9616:0 "Boise"
    VICTORY_POINTS_9515:0 "Regensburg"
    VICTORY_POINTS_11234:0 "Velikiye Luki"
@@ -1081,22 +1079,13 @@
      VICTORY_POINTS_13911:0 "East Side"
     #VICTORY_POINTS_10478:0 "Davenport"
    ##Kansas
-     VICTORY_POINTS_13767:0 "Lawrence"
-     VICTORY_POINTS_13780:0 "Topeka"
      VICTORY_POINTS_13799:0 "Manhattan"
      VICTORY_POINTS_12024:0 "Dodge City"
      VICTORY_POINTS_13744:0 "Garden City"
    #Wichita
-     VICTORY_POINTS_13724:0 "Wichita"
-     VICTORY_POINTS_13727:0 "Bel Aire"
-     VICTORY_POINTS_13716:0 "Oakland-Sunview"
-     VICTORY_POINTS_13719:0 "Oatville"
-     VICTORY_POINTS_13731:0 "Park City"
    #Kansas City Kansas
      VICTORY_POINTS_13777:0 "West Kansas City"
      VICTORY_POINTS_13758:0 "Overland Park"
-     VICTORY_POINTS_13768:0 "Olathe"
-     VICTORY_POINTS_13789:0 "Shawnee"
    #Kentucky
      VICTORY_POINTS_4988:0 "Bowling Green"
      VICTORY_POINTS_6696:0 "Louisville"
@@ -1147,6 +1136,7 @@
      VICTORY_POINTS_13471:0 "Fort Stockton"
      VICTORY_POINTS_10894:0 "Pecos"
      VICTORY_POINTS_2055:0 "Perryton"
+     VICTORY_POINTS_12624:0 "Guymon"
      VICTORY_POINTS_2082:0 "Wichita Falls"
      VICTORY_POINTS_10778:0 "Tyler"
      VICTORY_POINTS_6968:0 "Longview"
@@ -1426,21 +1416,6 @@
 
    ##Ontario
      VICTORY_POINTS_14024:0 "Toronto"
-   ##Oklahoma
-   #Oklahoma City
-     VICTORY_POINTS_13641:0 "Oklahoma City"
-     VICTORY_POINTS_13651:0 "Edmond"
-     VICTORY_POINTS_13650:0 "Bethany"
-     VICTORY_POINTS_13636:0 "Mustang"
-     VICTORY_POINTS_13634:0 "Moore"
-   #Not Thick Cities
-     VICTORY_POINTS_13664:0 "Tulsa"
-     VICTORY_POINTS_5103:0 "Norman"
-     VICTORY_POINTS_7904:0 "Stillwater"
-     VICTORY_POINTS_8025:0 "Ardmore"
-     VICTORY_POINTS_13596:0 "Lawton"
-     VICTORY_POINTS_12624:0 "Guymon"
-     VICTORY_POINTS_7762:0 "Woodward"
    ##Oregon
    #Portland
      VICTORY_POINTS_14113:0 "Portland"
@@ -1922,3 +1897,33 @@
  VICTORY_POINTS_1556:0 "Gainesville"
  VICTORY_POINTS_10352:0 "Pensacola"
  VICTORY_POINTS_15525:0 "Fort Lauderdale"
+
+ # Wasteland
+
+ VICTORY_POINTS_13767:0 "Lawrence"
+ VICTORY_POINTS_6676:0 "Olathe"
+ VICTORY_POINTS_15487:0 "Topeka"
+ VICTORY_POINTS_14203:0 "Emporia"
+ VICTORY_POINTS_13646:0 "Sapulpa"
+ VICTORY_POINTS_14340:0 "Broken Arrow"
+ VICTORY_POINTS_13664:0 "Tulsa"
+ VICTORY_POINTS_5103:0 "Norman"
+ VICTORY_POINTS_13724:0 "Wichita"
+ VICTORY_POINTS_13727:0 "Bel Aire"
+ VICTORY_POINTS_13716:0 "Oakland-Sunview"
+ VICTORY_POINTS_13719:0 "Oatville"
+ VICTORY_POINTS_13731:0 "Park City"
+ VICTORY_POINTS_13789:0 "Beatrice"
+
+ # Oklahoma
+
+ VICTORY_POINTS_13641:0 "Oklahoma City"
+ VICTORY_POINTS_13651:0 "Edmond"
+ VICTORY_POINTS_13650:0 "Bethany"
+ VICTORY_POINTS_13636:0 "Mustang"
+ VICTORY_POINTS_13634:0 "Moore"
+ VICTORY_POINTS_14466:0 "Choctaw"
+ VICTORY_POINTS_7904:0 "Stillwater"
+ VICTORY_POINTS_8025:0 "Ardmore"
+ VICTORY_POINTS_13596:0 "Lawton"
+ VICTORY_POINTS_7762:0 "Woodward"
