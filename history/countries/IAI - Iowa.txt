@@ -1,5 +1,7 @@
 ﻿capital = 981
 
+load_focus_tree = IAI_starting_tree
+
 set_research_slots = 3
 
 set_technology = {

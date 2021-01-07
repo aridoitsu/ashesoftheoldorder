@@ -1,0 +1,20 @@
+add_namespace = IAI
+
+country_event = {
+  id = IAI.1
+  title = IAI.1.t
+  desc = IAI.1.d
+  picture = GFX_report_event_kansas_city.dds
+
+  is_triggered_only = yes
+
+  option = {
+    name = IAI.1.a
+    load_focus_tree = IAI_fascist_tree
+  }
+
+  option = {
+    name = IAI.1.b
+    load_focus_tree = IAI_lcc_tree
+  }
+}
