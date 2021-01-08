@@ -3299,12 +3299,15 @@
 
   OLY_neutrality:0 "Olympia"
   OLY_neutrality_DEF:0 "Olympia"
+  OLY_prodem:0 "Cascadia"
+  OLY_prodem_DEF:0 "Cascadia"
   OLY_democratic:0 "Olympia"
   OLY_democratic_DEF:0 "Olympia"
   OLY_authdem:0 "Olympia"
   OLY_authdem_DEF:0 "Olympia"
   ##################################
   OLY_neutrality_ADJ:0 "Olympian"
+  OLY_prodem_ADJ:0 "Cascadian"
   OLY_authdem_ADJ:0 "Olympian"
   OLY_democratic_ADJ:0 "Olympian"
 
@@ -3619,16 +3622,16 @@
 
    OZR_fascism:0 "Ozark"
    OZR_fascism_DEF:0 "Ozark"
-   OZR_democratic:0 "Ozark"
-   OZR_democratic_DEF:0 "Ozark"
+   OZR_democratic:0 "Arkansas"
+   OZR_democratic_DEF:0 "Arkansas"
    OZR_ultranationalism:0 "Ozark"
    OZR_ultranationalism_DEF:0 "Ozark"
-   OZR_neutrality:0 "Ozark"
-   OZR_neutrality_DEF:0 "Ozark"
+   OZR_neutrality:0 "Ozark Military"
+   OZR_neutrality_DEF:0 "Ozark Military"
    ###############################
    OZR_neutrality_ADJ:0 "Ozarkian"
    OZR_fascism_ADJ:0 "Ozarkian"
-   OZR_democratic_ADJ:0 "Ozarkian"
+   OZR_democratic_ADJ:0 "Arkansasan"
    OZR_ultranationalism_ADJ:0 "Ozarkian"
 
    VAT_fascism:0 "Vatican City"

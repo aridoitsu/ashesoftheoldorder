@@ -1,12 +1,23 @@
 ﻿l_english:
  #chicago meltdown focuses
  CGO_an_emergency_meeting:0 "An Emergency Meeting"
+ CGO_an_emergency_meeting_desc:0 "It's not shutting down, I can't shut it down, its not working- I-
+ \nA smokey plume of ash is seen rising violently in the air in the distance. 
+ \nA local guard nearby sees the site workers running out of the facility
+ \nCode Faded Giant I repeat, we have a Code Faded Giant in Byron.
  CGO_a_national_crisis:0 "Organizing Our Priorities"
+ CGO_a_national_crisis_desc:0 "The entire Chicago area is at threat from this nuclear crisis, we, the council need to step up and do something about this! For our city!
  CGO_the_ai:0 "The Machine"
+ CGO_the_ai_desc:0 "C.A.G.A is our sacred supercomputer that no one else has or will ever design again in a hundred years! To simply ignore it and leave it to rot in the wake of nuclear radiation is insane! Without it our peaceful nation would burn to the ground! We are immediately quarantining the site pronto!
  CGO_the_people:0 "The People"
+ CGO_the_people_desc:0 "Our people are more important than sheltering a machine. We  are more capable of leading our people and helping them in times of crisis than a glorified OGAS could ever hope to accomplish. 
  CGO_formulate_a_plan:0 "Formulate A Plan"
+ CGO_formulate_a_plan_desc:0 "Gather 'round men we got some work to do! Call in the CDF, we're sending a taskforce to deal with the probkem in Byron.
  CGO_a_hidden_monster:0 "A Hidden Monster"
+ CGO_a_hidden_monster_desc:0 "The people at the Byron Nuclear Facility didn’t really much care for the city itself did they? How could have they messed this up so badly?
+ \nunless..."
  CGO_rears_ugly_head:0 "...Rears it's Ugly Head"
+ CGO_rears_ugly_head_desc:0 "Gray snow falls upon Chicago. People all around Byron are getting sick and dying. Our  weather team has already picked up signs of radiation poisoning in the atmosphere. This is going to be a long winter."
 
  #focus tooltips
  CGO_emergency_meeting_tt:0 "Jorge Mujica, the President of Chicago, will call an emergency meeting"
@@ -17,8 +28,11 @@
 
  #ideas and spirits
  CGO_citywide_fortress:0 "The City-Wide Fortress"
+ CGO_citywide_fortress_desc:0 "Our future lies in the cities. We must guard them at all times to scare off any potential invaders, such as the degenerates down south. Our nation shall not topple!"
  CGO_caga_supercomputer:0 "C.A.G.A."
+ CGO_caga_supercomputer_desc:0 " The Chicago Administrator of Government Activities is our own supercomputer that we use to keep our nation in the best of shape. Some of our scientists see potential in C.A.G.A and seek to further its utilities."
  CGO_human_military:0 "Incompetent Human Military"
+ CGO_human_military_desc:0 " Our current military force is made up of veterans and militias formed during the start of the second american civil war. Since then they haven’t seen much action and we aren’t training them that much either."
  CGO_nuclear_disaster_start:0 "The Byron Incident"
 
  #decisions
@@ -62,8 +76,8 @@
  CGO_neutrality_party_long:0 "Chicago Defense Force"
  CGO_democratic_party_long:0 "the Reformist Faction"
  CGO_democratic_party_short:0 "Reformists"
- CGO_libdem_party_long:0 "the Traditionalist Faction"
- CGO_libdem_party_short:0 "Traditionalists"
+ CGO_libsoc_party_long:0 "the Traditionalist Faction"
+ CGO_libsoc_party_short:0 "Traditionalists"
  CGO_communism_party_long:0 "the Technocratic Faction"
  CGO_communism_party_short:0 "Technocrats"
  CGO_prodem_party_long:0 "the Dualist Faction"

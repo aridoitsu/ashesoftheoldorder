@@ -92,6 +92,9 @@ create_country_leader = {
 	picture = "Portrait_Rich_Whitney.dds"
 	expire = "2040.1.1"
 	ideology = democraticsocialism
+	traits = {
+	dreams_of_a_new_byzantium leader_of_the_agrarian_union
+	}
 }
 create_country_leader = {
 	name = "Bruce Rauner"

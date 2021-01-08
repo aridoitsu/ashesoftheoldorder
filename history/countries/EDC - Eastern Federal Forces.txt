@@ -76,3 +76,45 @@ set_popularities = {
 	fascism = 0
 	ultranationalism = 0
 }
+create_country_leader = {
+	name = "Andrew Basiago"
+	desc = "POLITICS_ANDREW_BASIAGO_DESC"
+	picture = "Portrait_Andrew_Basiago.dds"
+	expire = "2040.1.1"
+	ideology = green
+}
+create_country_leader = {
+	name = "Charles H Ramsey"
+	desc = "POLITICS_CHARLES_H_RAMSEY_DESC"
+	picture = "Portrait_Charles_H_Ramsey.dds"
+	expire = "2040.1.1"
+	ideology = junta
+}
+create_country_leader = {
+	name = "Edward Snowden"
+	desc = "POLITICS_EDWARD_SNOWDEN_DESC"
+	picture = "Portrait_Edward_Snowden.dds"
+	expire = "2040.1.1"
+	ideology = despot
+}
+create_country_leader = {
+	name = "Michael Hayden"
+	desc = "POLITICS_MICHAEL_HAYDEN_DESC"
+	picture = "Portrait_Michael_Hayden.dds"
+	expire = "2040.1.1"
+	ideology = despot
+}
+create_country_leader = {
+	name = "Porter Goss"
+	desc = "POLITICS_PORTER_GOSS_DESC"
+	picture = "Portrait_Porter_Goss.dds"
+	expire = "2040.1.1"
+	ideology = despot
+}
+create_country_leader = {
+	name = "Robert Mueller"
+	desc = "POLITICS_ROBERT_MUELLER_DESC"
+	picture = "Portrait_Robert_Mueller.dds"
+	expire = "2040.1.1"
+	ideology = despot
+}
