@@ -100,3 +100,17 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = marketlib
 }
+create_country_leader = {
+	name = "Old Illinois National Guard"
+	desc = "POLITICS_ILL_GUARD_DESC"
+	picture = "Portrait_Illinois_Guard.dds"
+	expire = "2040.1.1"
+	ideology = junta
+}
+create_country_leader = {
+	name = "Rob Sherman"
+	desc = "POLITICS_ROB_SHERMAN_DESC"
+	picture = "Portrait_Rob_Sherman.dds"
+	expire = "2040.1.1"
+	ideology = libsoc_temporary
+}

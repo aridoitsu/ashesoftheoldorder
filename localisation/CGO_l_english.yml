@@ -53,6 +53,13 @@
  CGO_meltdown_status_normal:0 "§GRelatively Normal§!"
 
  #politcal parties
+ CGO_ultranationalism_party:0 "CNU"
+ CGO_ultranationalism_party_long:0 "Chicago National Union"
+ CGO_fascism_party:0 "Elim Romanian Pentecostal Church"
+ CGO_fascism_party_short:0 "Elim Church"
+ CGO_authdem:0 "Wisconsin Seperatists"
+ CGO_neutrality_party:0 "The CDF"
+ CGO_neutrality_party_long:0 "Chicago Defense Force"
  CGO_democratic_party_long:0 "the Reformist Faction"
  CGO_democratic_party_short:0 "Reformists"
  CGO_libdem_party_long:0 "the Traditionalist Faction"
@@ -61,6 +68,8 @@
  CGO_communism_party_short:0 "Technocrats"
  CGO_prodem_party_long:0 "the Dualist Faction"
  CGO_prodem_party_short:0 "Dualists"
+ CGO_anarchy_party:0 "Lazy cunts"
+ CGO_anarchy_party_long:0 "Free Virtuas of Chicago"
  CGO_totalsoc_party_long:0 "the Technological Progress Faction"
  CGO_totalsoc_party_short:0 "Technological Progressives"
  #end
