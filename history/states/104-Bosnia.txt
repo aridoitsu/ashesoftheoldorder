@@ -12,7 +12,8 @@ state={
 	}
 
 	history= { 
-		owner = BOS
+		owner = SER
+		add_claim_by = SER
 		victory_points = {
 			11899 5 
 		}

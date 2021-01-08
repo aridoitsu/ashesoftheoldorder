@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = ALL
-		add_core_of = ALL
+		owner = MTX
+		add_core_of = MTX
 		buildings = {
 			infrastructure = 4
 

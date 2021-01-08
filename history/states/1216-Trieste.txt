@@ -1,0 +1,21 @@
+state={
+	id=1216
+	name="Trieste"
+	provinces={
+		6626 
+	}
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 7
+			6626 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			6626 3 
+		}
+	}
+	manpower=277790
+}
