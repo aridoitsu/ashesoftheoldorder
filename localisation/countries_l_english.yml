@@ -3695,10 +3695,10 @@
    CGO_neutrality:0 "Chicago"
    CGO_neutrality_DEF:0 "Chicago"
    ###############################
-   CGO_neutrality_ADJ:0 "Chicagan"
-   CGO_authdem_ADJ:0 "Chicagan"
-   CGO_democratic_ADJ:0 "Chicagan"
-   CGO_communism_ADJ:0 "Chicagan"
+   CGO_neutrality_ADJ:0 "Chicagoan"
+   CGO_authdem_ADJ:0 "Chicagoan"
+   CGO_democratic_ADJ:0 "Chicagoan"
+   CGO_communism_ADJ:0 "Chicagoan"
 
    SRF:0 "Illinois"
    SRF_DEF:0 "Illinois"
