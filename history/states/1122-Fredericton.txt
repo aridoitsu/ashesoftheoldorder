@@ -1,7 +1,9 @@
+
 state={
 	id=1122
 	name="Fredericton"
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
 		add_core_of = NBN
@@ -10,16 +12,13 @@ state={
 			industrial_complex = 2
 		}
 		victory_points = {
-			14166 3
-		}
-		victory_points = {
-			634 10
+			14255 10 
 		}
 	}
+
 	provinces={
-		634 14158 14165 14166 14188 14209
+		14255
 	}
 	manpower=248392
-	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=town
 }

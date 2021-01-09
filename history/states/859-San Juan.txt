@@ -1,24 +1,29 @@
+
 state={
 	id=859
 	name="Moab"
-	history = {
+
+	history={
 		owner = NVJ
 		add_core_of = NVJ
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
+
 		}
 		victory_points = {
-			7764 3
+			7764 3 
 		}
 		victory_points = {
-			13685 1
+			13685 1 
 		}
+
 	}
+
 	provinces={
-		7818 13701 7764 13685 13678
+		7764 7818 12503 13678 13685 13701 14799 14831 14832 14851 14884 15000 15019 15044 15072 
 	}
 	manpower=25312
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

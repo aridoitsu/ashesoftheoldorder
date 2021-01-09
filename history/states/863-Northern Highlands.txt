@@ -1,25 +1,30 @@
+
 state={
 	id=863
 	name="Apache"
 	resources={
-		chromium= 2.000
-		aluminium= 10.000
+		chromium=2.000
+		aluminium=10.000
 	}
-	history = {
+
+	history={
 		owner = PNX
 		add_core_of = PNX
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
 		victory_points = {
 			7747 5 
 		}
+
 	}
+
 	provinces={
-		4796 7747 13550 13553 13583 13589 13594
+		4342 4432 4796 7747 12289 13550 13553 13583 13589 13594 14099 14102 14125 14141 14167 14189 14233 14285 14305 
 	}
 	manpower=159723
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

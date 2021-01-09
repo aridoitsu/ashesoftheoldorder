@@ -1,31 +1,36 @@
+
 state={
 	id=881
 	name="Mesa Verde"
-	resources = {
-		oil = 5.000
+	resources={
+		oil=5.000
 	}
-	history = {
+
+	history={
 		owner = NVJ
 		add_core_of = NVJ
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		victory_points = {
-			9792 1
+			9792 1 
 		}
 		victory_points = {
-			13702 5
+			13702 5 
 		}
 		victory_points = {
-			7999 1
+			7999 1 
 		}
+
 	}
+
 	provinces={
-		7999 9792 13702 7684
+		4720 7684 7999 9792 13702 14801 14833 14852 14940 
 	}
 	manpower=35790
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

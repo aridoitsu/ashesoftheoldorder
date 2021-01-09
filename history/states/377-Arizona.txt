@@ -8,25 +8,28 @@ state={
 		aluminium=8.000
 	}
 
-	history = {
+	history={
 		owner = NVJ
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+
 		}
 		add_core_of = NVJ
 		victory_points = {
-			12765 8
+			12765 8 
 		}
 		victory_points = {
-			13611 1
+			13611 1 
 		}
 		victory_points = {
-			13609 10
+			13609 10 
 		}
+
 	}
+
 	provinces={
-		7821 10573 12765 13611 6897 13609
+		1785 6897 7821 10573 12765 13609 13611 14867 14883 14928 14953 14964 14993 15042 15043 15094 15102 15155 15226 15360 15445 
 	}
 	manpower=412572
 	buildings_max_level_factor=1.000

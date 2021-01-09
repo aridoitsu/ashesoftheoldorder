@@ -1,3 +1,4 @@
+
 state={
 	id=865
 	name="Tucson"
@@ -5,25 +6,29 @@ state={
 		steel=20.000
 		aluminium=8.000
 	}
-	history = {
+
+	history={
 		owner = TCN
 		add_core_of = TCN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		victory_points = {
-			3834 15
+			3834 15 
 		}
 		victory_points = {
-			13506 3
+			13506 3 
 		}
+
 	}
+
 	provinces={
-		3834 7920 13506 13510 13520 13522 13528 13534
+		3834 7920 10534 13506 13510 13520 13522 13528 13534 14473 14531 14572 14600 14616 14662 14663 14674 14706 14716 14741 14744 14745 14746 
 	}
 	manpower=215612
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

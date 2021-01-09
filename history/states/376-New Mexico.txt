@@ -1,3 +1,4 @@
+
 state={
 	id=376
 	name="Navajo Desert"
@@ -6,22 +7,25 @@ state={
 		aluminium=30.000
 	}
 
-	history = {
+	history={
 		owner = NVJ
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		add_core_of = NVJ
 		victory_points = {
-			13670 5
+			13670 5 
 		}
 		victory_points = {
-			1972 5
+			1972 5 
 		}
+
 	}
+
 	provinces={
-		1972 10645 12552 13670 13674
+		1972 7758 10645 12552 13670 13674 14243 14256 14261 14280 14312 14315 14322 14338 14354 14358 14362 14382 14396 14422 14423 14469 14846 
 	}
 	manpower=53316
 	buildings_max_level_factor=1.000
