@@ -8,9 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	shared_focus = IAI_convention_preparations
 	shared_focus = IAI_iowas_liberty
-	shared_focus = IAI_iowas_vanguard
 }
 
 focus_tree = {
