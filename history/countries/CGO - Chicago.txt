@@ -126,3 +126,13 @@ create_country_leader = {
 		
 	}
 }
+create_country_leader = {
+	name = "Neko Shota"
+	desc = "POLITICS_NEKO_SHOTA_DESC"
+	picture = "Portrait_Neko_Shota.dds"
+	expire = "2040.1.1"
+	ideology = total_anarchy
+	traits = {
+		
+	}
+}
