@@ -14,10 +14,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_prepare_for_the_worst
 	icon = GFX_goal_unknown
-	x = 13
+	x = 0
 	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_convention_preparations
 	prerequisite = {
 		focus = IAI_convention_preparations
 	}
@@ -29,25 +30,30 @@ shared_focus = {
 shared_focus = {
 	id = IAI_mobilize_dmpd
 	icon = GFX_goal_unknown
-	x = 13
-	y = 2
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_prepare_for_the_worst
 	prerequisite = {
 		focus = IAI_prepare_for_the_worst
 	}
 	ai_will_do = {
 		factor = 1
 	}
+	completion_reward = {
+		country_event = { id = IAI.2 hours = 1 }
+	}
 }
 
 shared_focus = {
 	id = IAI_invite_delegates
 	icon = GFX_goal_unknown
-	x = 13
-	y = 3
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_mobilize_dmpd
 	prerequisite = {
 		focus = IAI_mobilize_dmpd
 	}
@@ -59,10 +65,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_finalize_voting_infrastructure
 	icon = GFX_goal_unknown
-	x = 13
-	y = 4
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_invite_delegates
 	prerequisite = {
 		focus = IAI_invite_delegates
 	}
@@ -73,10 +80,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_broadcast_campaigns
 	icon = GFX_goal_unknown
-	x = 13
-	y = 5
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_finalize_voting_infrastructure
 	prerequisite = {
 		focus = IAI_finalize_voting_infrastructure
 	}
@@ -88,10 +96,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_fifteenth_unity_pact_convention
 	icon = GFX_goal_unknown
-	x = 13
-	y = 6
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_broadcast_campaigns
 	prerequisite = {
 		focus = IAI_broadcast_campaigns
 	}
@@ -107,10 +116,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_voting_preparations
 	icon = GFX_goal_unknown
-	x = 13
-	y = 7
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_fifteenth_unity_pact_convention
 	prerequisite = {
 		focus = IAI_fifteenth_unity_pact_convention
 	}
@@ -135,10 +145,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_cooperate_with_dmpd
 	icon = GFX_goal_unknown
-	x = 4
+	x = -2
 	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_iowas_liberty
 	prerequisite = {
 		focus = IAI_iowas_liberty
 	}
@@ -150,10 +161,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_expand_their_budget
 	icon = GFX_goal_unknown
-	x = 4
-	y = 2
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_cooperate_with_dmpd
 	prerequisite = {
 		focus = IAI_cooperate_with_dmpd
 	}
@@ -165,10 +177,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_resist_the_guard_together
 	icon = GFX_goal_unknown
-	x = 4
-	y = 3
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_expand_their_budget
 	prerequisite = {
 		focus = IAI_expand_their_budget
 	}
@@ -180,10 +193,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_appeal_to_companies
 	icon = GFX_goal_unknown
-	x = 8
+	x = 2
 	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_iowas_liberty
 	prerequisite = {
 		focus = IAI_iowas_liberty
 	}
@@ -195,10 +209,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_backchannel_funding
 	icon = GFX_goal_unknown
-	x = 8
-	y = 2
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_appeal_to_companies
 	prerequisite = {
 		focus = IAI_appeal_to_companies
 	}
@@ -210,10 +225,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_arm_our_own_militias
 	icon = GFX_goal_unknown
-	x = 8
-	y = 3
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_backchannel_funding
 	prerequisite = {
 		focus = IAI_backchannel_funding
 	}
@@ -225,10 +241,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_our_democratic_unity
 	icon = GFX_goal_unknown
-	x = 6
-	y = 4
+	x = -2
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_arm_our_own_militias
 	prerequisite = {
 		focus = IAI_resist_the_guard_together
 	}
@@ -243,10 +260,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_accept_the_leftists
 	icon = GFX_goal_unknown
-	x = 6
-	y = 5
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_our_democratic_unity
 	prerequisite = {
 		focus = IAI_our_democratic_unity
 	}
@@ -258,10 +276,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_recruit_prowff_veterans
 	icon = GFX_goal_unknown
-	x = 6
-	y = 6
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_accept_the_leftists
 	prerequisite = {
 		focus = IAI_accept_the_leftists
 	}
@@ -273,10 +292,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_harass_ug_convoys
 	icon = GFX_goal_unknown
-	x = 6
-	y = 7
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_recruit_prowff_veterans
 	prerequisite = {
 		focus = IAI_recruit_prowff_veterans
 	}
@@ -288,10 +308,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_clock_ticks_for_progress
 	icon = GFX_goal_unknown
-	x = 6
-	y = 8
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_harass_ug_convoys
 	prerequisite = {
 		focus = IAI_harass_ug_convoys
 	}
@@ -303,10 +324,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_label_ug_as_fascist
 	icon = GFX_goal_unknown
-	x = 6
-	y = 9
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_clock_ticks_for_progress
 	prerequisite = {
 		focus = IAI_clock_ticks_for_progress
 	}
@@ -318,25 +340,30 @@ shared_focus = {
 shared_focus = {
 	id = IAI_fight_them_streets
 	icon = GFX_goal_unknown
-	x = 6
-	y = 10
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_label_ug_as_fascist
 	prerequisite = {
 		focus = IAI_label_ug_as_fascist
 	}
 	ai_will_do = {
 		factor = 1
 	}
+	completion_reward = {
+		country_event = { id = IAI.4 hours = 1 }
+	}
 }
 
 shared_focus = {
 	id = IAI_and_in_the_booths
 	icon = GFX_goal_unknown
-	x = 6
-	y = 11
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_fight_them_streets
 	prerequisite = {
 		focus = IAI_fight_them_streets
 	}
@@ -348,10 +375,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_coalition_bleeds_unity
 	icon = GFX_goal_unknown
-	x = 6
-	y = 12
+	x = 0
+	y = 1
 	cost = 2
 	available_if_capitulated = yes
+	relative_position_id = IAI_and_in_the_booths
 	prerequisite = {
 		focus = IAI_and_in_the_booths
 	}
@@ -363,10 +391,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_deploy_swat
 	icon = GFX_goal_unknown
-	x = 6
-	y = 13
+	x = 0
+	y = 1
 	cost = 1.5
 	available_if_capitulated = yes
+	relative_position_id = IAI_coalition_bleeds_unity
 	prerequisite = {
 		focus = IAI_coalition_bleeds_unity
 	}
@@ -378,10 +407,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_anti_ug_protests
 	icon = GFX_goal_unknown
-	x = 6
-	y = 14
+	x = 0
+	y = 1
 	cost = 1.5
 	available_if_capitulated = yes
+	relative_position_id = IAI_deploy_swat
 	prerequisite = {
 		focus = IAI_deploy_swat
 	}
@@ -393,10 +423,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_militiamen_by_people
 	icon = GFX_goal_unknown
-	x = 6
-	y = 15
+	x = 0
+	y = 1
 	cost = 1.5
 	available_if_capitulated = yes
+	relative_position_id = IAI_anti_ug_protests
 	prerequisite = {
 		focus = IAI_anti_ug_protests
 	}
@@ -408,10 +439,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_votes_finalized
 	icon = GFX_goal_unknown
-	x = 6
-	y = 16
+	x = 0
+	y = 1
 	cost = 0.1
 	available_if_capitulated = yes
+	relative_position_id = IAI_militiamen_by_people
 	prerequisite = {
 		focus = IAI_militiamen_by_people
 	}
@@ -423,10 +455,11 @@ shared_focus = {
 shared_focus = {
 	id = IAI_iowas_flame_burns_bright
 	icon = GFX_goal_unknown
-	x = 6
-	y = 17
+	x = 0
+	y = 1
 	cost = 10
 	available_if_capitulated = yes
+	relative_position_id = IAI_votes_finalized
 	prerequisite = {
 		focus = IAI_votes_finalized
 	}
@@ -643,6 +676,9 @@ shared_focus = {
 	prerequisite = { focus = IAI_unexpected_road_work }
 	ai_will_do = {
 		factor = 1
+	}
+	completion_reward = {
+		country_event = { id = IAI.3 hours = 1 }
 	}
 }
 
