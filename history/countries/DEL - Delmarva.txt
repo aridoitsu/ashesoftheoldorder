@@ -79,6 +79,6 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = despot 
     traits = {
-		feminist_ultranationalist figurehead_for_corporations1
+		figurehead_for_corporations1
     }
 }
