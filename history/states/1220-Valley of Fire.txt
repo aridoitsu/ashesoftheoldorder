@@ -1,0 +1,16 @@
+state={
+	id=1220
+	name="Valley of Fire"
+	provinces={
+		4799 13662 13673 13682 13693 15869 16263 16266 16268 16271 16273 16278 16279 
+	}
+	history = {
+		owner = MJV
+		add_core_of = MJV
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=39933
+	state_category = rural
+}

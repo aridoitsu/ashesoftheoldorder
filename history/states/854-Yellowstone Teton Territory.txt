@@ -1,17 +1,13 @@
 
 state={
 	id=854
-	name="Idaho Falls"
+	name="Tataouine"
 
 	history={
-		owner = YWS
-		add_core_of = YWS
+		owner = TUN
+		add_core_of = TUN
 		buildings = {
 			infrastructure = 3
-
-		}
-		victory_points = {
-			10672 5 
 		}
 
 	}

@@ -1,29 +1,34 @@
+
 state={
 	id=856
 	name="Cache"
-	history = {
+
+	history={
 		owner = SLC
 		add_core_of = SLC
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
-			13898 10
+			13898 10 
 		}
 		victory_points = {
-			10582 5
+			10582 5 
 		}
 		victory_points = {
-			7888 1
+			7888 1 
 		}
 		victory_points = {
-			13888 1
+			13888 1 
 		}
+
 	}
+
 	provinces={
-		10582 13898 7888 13888
+		7888 10582 13888 13898 14012 14018 16058 16059 16060 16061 16062 16063 16065 16067 
 	}
 	manpower=24391
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

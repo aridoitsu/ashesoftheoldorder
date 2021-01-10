@@ -1,3 +1,4 @@
+
 state={
 	id=801
 	name="Mojave"
@@ -5,20 +6,23 @@ state={
 		oil=15.000
 	}
 
-	history = {
+	history={
 		owner = MJV
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 			arms_factory = 1
 			air_base = 4
+
 		}
 		add_core_of = MJV
+
 	}
+
 	provinces={
-		823 4657 4727 7517 7986 11757 11795 12303 13564 13618 
+		4657 4727 13618 16245 16246 16248 16249 16251 16252 16253 16255 16256 16258 16260 16262 
 	}
 	manpower=1871365
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

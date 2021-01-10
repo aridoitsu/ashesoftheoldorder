@@ -1,7 +1,9 @@
+
 state={
 	id=807
 	name="Las Vegas"
-	history = {
+
+	history={
 		owner = MJV
 		add_core_of = MJV
 		buildings = {
@@ -9,37 +11,33 @@ state={
 			industrial_complex = 3
 			arms_factory = 1
 			air_base = 3
+
 		}
-		#Las Vegas
 		victory_points = {
-			13649 20
+			13649 20 
 		}
-		#Paradise
 		victory_points = {
-			13269 3
+			13269 3 
 		}
-		#Henderson
 		victory_points = {
-			13647 3
+			13647 3 
 		}
-		#Enterprise
 		victory_points = {
-			13648 10
+			13648 10 
 		}
-		#Summerlin South
 		victory_points = {
-			4799 3
+			4799 3 
 		}
-		#Nellis Air Force Base
 		victory_points = {
-			13673 1
+			13673 1 
 		}
+
 	}
 
 	provinces={
-		4799 13629 13647 13648 13649 13662 13663 13673 13682 13693 15869
+		13629 13647 13648 13649 13663 
 	}
 	manpower=125810
 	buildings_max_level_factor=1.000
-	state_category = large_city
+	state_category=large_city
 }

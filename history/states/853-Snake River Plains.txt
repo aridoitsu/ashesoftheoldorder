@@ -1,20 +1,25 @@
+
 state={
 	id=853
 	name="Snake River Plains"
-	history = {
+
+	history={
 		owner = SLC
 		add_core_of = SLC
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
-			13958 15
+			13958 15 
 		}
+
 	}
+
 	provinces={
-		12535 13942 13958 13937
+		12535 13937 13942 13958 16064 16066 16068 16069 16070 16071 16072 16073 16074 16075 16076 16079 
 	}
 	manpower=21452
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

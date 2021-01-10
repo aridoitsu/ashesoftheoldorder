@@ -1,0 +1,21 @@
+state={
+	id=1219
+	name="Joshua Tree"
+	provinces={
+		7986 13564 16231 16232 16233 16234 16235 16236 16240 16242 
+	}
+	history = {
+		victory_points = {
+			16231 3 
+		}
+
+		owner = MJV
+		add_core_of = MJV
+
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=276876
+	state_category = town
+}

@@ -1,7 +1,9 @@
+
 state={
 	id=803
 	name="Los Angeles"
-	history = {
+
+	history={
 		owner = LAF
 		add_core_of = LAF
 		buildings = {
@@ -10,29 +12,32 @@ state={
 			arms_factory = 3
 			9814 = {
 				naval_base = 3
+
 			}
+
 		}
 		victory_points = {
-			9814 35
+			9814 35 
 		}
 		victory_points = {
-			13585 5
+			13585 5 
 		}
 		victory_points = {
-			13574 5
+			13574 5 
 		}
 		victory_points = {
-			13597 5
+			13597 5 
 		}
 		victory_points = {
-			13592 5
+			13592 5 
 		}
+
 	}
 
 	provinces={
-		9814 13574 13585 13592 13597
+		9814 13574 13585 13592 13597 
 	}
 	manpower=349051
 	buildings_max_level_factor=1.000
-	state_category = megalopolis
+	state_category=megalopolis
 }

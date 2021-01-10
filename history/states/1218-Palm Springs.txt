@@ -1,0 +1,28 @@
+state={
+	id=1218
+	name="Palm Springs"
+	provinces={
+		823 7517 11757 11795 12303 16237 16238 16239 16241 16243 16244 16247 16250 
+	}
+	history = {
+		owner = MJV
+		add_core_of = MJV
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			11757 5
+		}
+		victory_points = {
+			16237 5
+		}
+		victory_points = {
+			16239 10
+		}
+		victory_points = {
+			823 3
+		}
+	}
+	manpower=1453893
+	state_category = city
+}

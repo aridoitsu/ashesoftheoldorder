@@ -1,7 +1,7 @@
 
 state={
 	id=878
-	name="Yellowstone"
+	name="Bonneville"
 	resources={
 		chromium=5.000
 	}
@@ -12,18 +12,15 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
 		}
 		victory_points = {
-			13984 3 
+			10672 5 
 		}
-
 	}
 
 	provinces={
-		10672 12651 13984 13985 14022 14026 
+		10672 14026 16080 16085 16087 16088 16090 16092 16094 16095 16096 16102 
 	}
-	manpower=45564
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=316368
+	state_category=town
 }

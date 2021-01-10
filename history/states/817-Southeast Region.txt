@@ -1,7 +1,9 @@
+
 state={
 	id=817
 	name="Spokane"
-	history = {
+
+	history={
 		owner = SPK
 		add_core_of = SPK
 		buildings = {
@@ -9,21 +11,24 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 5
+
 		}
 		victory_points = {
-			4747 5
+			4747 5 
 		}
 		victory_points = {
-			1690 10
+			1690 10 
 		}
 		victory_points = {
-			14222 5
+			14222 5 
 		}
+
 	}
+
 	provinces={
-		4747 10327 12673 14211 14222 10693 1690
+		1690 4747 10327 10693 12673 14211 14222 16197 16200 16202 16203 16204 16206 16207 16208 16209 16212 16213 16214 16217 16219 16221 16222 16224 16225 16228 
 	}
 	manpower=233295
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

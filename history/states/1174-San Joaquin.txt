@@ -1,29 +1,32 @@
+
 state={
 	id=1174
 	name="San Joaquin"
 	resources={
-		oil=5
-		aluminium=8
-		steel=9
+		oil=5.000
+		aluminium=8.000
+		steel=9.000
 	}
 
-	history = {
+	history={
 		owner = CAL
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 			dockyard = 1
+
 		}
 		victory_points = {
-			6694 5
+			6694 5 
 		}
 		add_core_of = CAL
+
 	}
 
 	provinces={
-		6694 6699 6876 13709 15916 15917
+		6694 6699 6876 13709 15916 15917 
 	}
 	manpower=677248
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

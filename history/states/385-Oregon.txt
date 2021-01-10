@@ -7,25 +7,27 @@ state={
 		steel=11.000
 	}
 
-	history = {
+	history={
 		owner = SNK
 		add_core_of = SNK
 		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
-			12553 3
+			12553 3 
 		}
 		victory_points = {
-			14069 3
+			14069 3 
 		}
 		victory_points = {
-			10687 5
+			10687 5 
 		}
+
 	}
 
 	provinces={
-  		12553 14069 7865 10687
+		7865 10687 12553 14069 16180 16181 16182 16183 16184 16185 16186 16187 16188 16189 16190 16191 16192 16193 
 	}
 	manpower=323783
 	buildings_max_level_factor=1.000

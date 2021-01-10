@@ -8,22 +8,24 @@ state={
 		tungsten=18.000
 	}
 
-	history = {
+	history={
 		owner = SPK
 		add_core_of = SPK
 		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
-			4778 5
+			4778 5 
 		}
 		victory_points = {
-			12124 5
+			12124 5 
 		}
+
 	}
 
 	provinces={
-		1832 3781 4778 12124 14244
+		1832 3781 4778 12124 14244 16194 16195 16196 16198 16199 16201 16205 16210 16211 16215 16216 16218 16220 16223 16226 16227 16229 16230 
 	}
 	manpower=445031
 	buildings_max_level_factor=1.000
