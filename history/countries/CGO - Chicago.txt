@@ -55,37 +55,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-set_party_name = {
-    ideology = totalsoc
-    long_name = CGO_totalsoc_party_long
-    name = CGO_totalsoc_party_short
-}
-set_party_name = {
-    ideology = communism
-    long_name = CGO_communism_party_long
-    name = CGO_communism_party_short
-}
-set_party_name = {
-    ideology = prodem
-    long_name = CGO_prodem_party_long
-    name = CGO_prodem_party_short
-}
-set_party_name = {
-    ideology = demsoc
-    long_name = CGO_demsoc_party_long
-    name = CGO_demsoc_party_short
-}
-set_party_name = {
-    ideology = liberal
-    long_name = CGO_liberal_party_long
-    name = CGO_liberal_party_short
-}
-set_party_name = {
-    ideology = democratic
-    long_name = CGO_democratic_party_long
-    name = CGO_democratic_party_short
-}
-
 add_ideas = {
 	CGO_citywide_fortress
 	CGO_caga_supercomputer
@@ -123,7 +92,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = techno
 	traits = {
-		
+	incognito	
 	}
 }
 create_country_leader = {
@@ -133,6 +102,19 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = total_anarchy
 	traits = {
-		
+		red_army_organizer nationalist_symbol
 	}
+}
+create_field_marshal = {
+	name = "Neko Shota"
+	desc = "POLITICS_NEKO_SHOTA_DESC"
+	picture = "Portrait_Neko_Shota.dds"
+	traits = {
+	trickster trait_engineer commando urban_assault_specialist infantry_leader	
+	}
+        skill = 9
+        attack_skill = 9
+        defense_skill = 1
+        planning_skill = 1
+        logistics_skill = 9
 }

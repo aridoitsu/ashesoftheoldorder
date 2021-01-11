@@ -92,6 +92,9 @@ create_country_leader = {
 	picture = "Portrait_Rich_Whitney.dds"
 	expire = "2040.1.1"
 	ideology = democraticsocialism
+	traits = {
+	dreams_of_a_new_byzantium leader_of_the_agrarian_union
+	}
 }
 create_country_leader = {
 	name = "Bruce Rauner"
@@ -99,4 +102,18 @@ create_country_leader = {
 	picture = "Portrait_Bruce_Rauner.dds"
 	expire = "2040.1.1"
 	ideology = marketlib
+}
+create_country_leader = {
+	name = "Old Illinois National Guard"
+	desc = "POLITICS_ILL_GUARD_DESC"
+	picture = "Portrait_Illinois_Guard.dds"
+	expire = "2040.1.1"
+	ideology = junta
+}
+create_country_leader = {
+	name = "Rob Sherman"
+	desc = "POLITICS_ROB_SHERMAN_DESC"
+	picture = "Portrait_Rob_Sherman.dds"
+	expire = "2040.1.1"
+	ideology = libsoc_temporary
 }

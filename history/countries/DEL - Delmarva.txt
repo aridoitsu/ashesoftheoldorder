@@ -73,9 +73,12 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Richard Brown"
-	desc = "POLITICS_RICHARD_BROWN_DESC"
-	picture = "Portraits_Richard_Brown.tga"
-	expire = "3000.1.1"
-	ideology = despot
+	name = "Richard H Brown"
+	desc = "POLITICS_RICHARD_H_BROWN_DESC"
+	picture = "Portrait_Richard_H_Brown.dds"
+	expire = "2040.1.1"
+	ideology = despot 
+    traits = {
+		figurehead_for_corporations1
+    }
 }

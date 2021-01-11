@@ -22,10 +22,10 @@
  SRF_libsoc_party_long:0 "New Socialist Party of Illinois"
  SRF_communism_party:0 "CPI"
  SRF_communism_party_long:0 "Communist Party of Illinois"
- SRF_anarchy_party:0 "Soulists"
- SRF_anarchy_party_long:0 "Followers of the Soul"
- SRF_totalsoc_party:0 "Red Union"
- SRF_totalsoc_party_long:0 "Red Union of Illinois"
+ SRF_anarchy_party:0 "RU"
+ SRF_anarchy_party_long:0 "Red Union of Illinois"
+ SRF_totalsoc_party:0 "Soulists"
+ SRF_totalsoc_party_long:0 "Followers of the Soul"
 
 
  # Country
