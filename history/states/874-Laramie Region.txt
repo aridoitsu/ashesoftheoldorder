@@ -1,22 +1,27 @@
+
 state={
 	id=874
 	name="Bamforth"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = WYW
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			13916 8
+			13916 8 
 		}
+
 	}
+
 	provinces={
-		4723 10640 13916 13927 13936
+		4723 10640 13916 13927 13936 16487 16488 16491 16493 16494 16495 16496 16497 16498 16499 16500 16501 16502 
 	}
 	manpower=102546
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

@@ -1,21 +1,26 @@
+
 state={
 	id=917
 	name="Finney"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			13744 1
+			13744 1 
 		}
+
 	}
+
 	provinces={
-		4871 10532 13744 13747 13791 13820
+		4871 10532 13744 13747 13791 13820 16370 16373 16379 16389 16394 16395 16405 16406 16407 16408 16419 16420 16422 16424 16430 16432 16433 16441 16444 16445 16453 
 	}
 	manpower=52147
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

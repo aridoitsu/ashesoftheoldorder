@@ -1,25 +1,30 @@
+
 state={
 	id=928
 	name="Red Willow"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		victory_points = {
-			13853 3
+			13853 3 
 		}
 		victory_points = {
-			13858 1
+			13858 1 
 		}
+
 	}
+
 	provinces={
-		4830 10606 13853 13858
+		4830 10606 13853 13858 16448 16452 16454 16456 16461 16462 16463 16464 16468 16470 16472 16473 16480 16482 16486 
 	}
 	manpower=134572
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

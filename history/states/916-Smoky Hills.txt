@@ -1,20 +1,25 @@
+
 state={
 	id=916
 	name="Riley"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		buildings = {
 			infrastructure = 4
+
 		}
 		victory_points = {
-			13799 5
+			13799 5 
 		}
+
 	}
+
 	provinces={
-		1753 13792 13799 13822 13826 15925
+		1753 13792 13799 13822 13826 15925 16402 16409 16410 16411 16417 16423 16425 16429 16434 16437 16438 16442 16446 
 	}
 	manpower=105487
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }
