@@ -1,0 +1,59 @@
+add_namespace = IAI
+
+country_event = {
+  id = IAI.1
+  title = IAI.1.t
+  desc = IAI.1.d
+  picture = GFX_report_event_kansas_city.dds
+
+  is_triggered_only = yes
+
+  option = {
+    name = IAI.1.a
+    load_focus_tree = IAI_fascist_tree
+  }
+
+  option = {
+    name = IAI.1.b
+    load_focus_tree = IAI_lcc_tree
+  }
+}
+
+country_event = {
+  id = IAI.2
+  title = IAI.2.t
+  desc = IAI.2.d
+  picture = GFX_report_event_kansas_city.dds
+
+  is_triggered_only = yes
+
+  option = {
+    name = IAI.2.a
+  }
+}
+
+country_event = {
+  id = IAI.3
+  title = IAI.3.t
+  desc = IAI.3.d
+  picture = GFX_report_event_kansas_city.dds
+
+  is_triggered_only = yes
+
+  option = {
+    name = IAI.3.a
+  }
+}
+
+country_event = {
+  id = IAI.4
+  title = IAI.4.t
+  desc = IAI.4.d
+  picture = GFX_report_event_kansas_city.dds
+
+  is_triggered_only = yes
+
+  option = {
+    name = IAI.4.a
+  }
+}

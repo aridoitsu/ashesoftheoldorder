@@ -1,0 +1,40 @@
+focus_tree = {
+	id = IAI_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IAI
+		}
+	}
+	default = no
+	shared_focus = IAI_iowas_liberty
+}
+
+focus_tree = {
+	id = IAI_lcc_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IAI
+		}
+	}
+	default = no
+	shared_focus = IAI_iowas_liberty
+	shared_focus = IAI_convention_preparations
+}
+
+focus_tree = {
+	id = IAI_fascist_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IAI
+		}
+	}
+	default = no
+	shared_focus = IAI_iowas_vanguard
+	shared_focus = IAI_convention_preparations
+}

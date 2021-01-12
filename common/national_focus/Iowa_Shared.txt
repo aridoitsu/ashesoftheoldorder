@@ -1,0 +1,767 @@
+# Starting Iowa tree
+shared_focus = {
+	id = IAI_convention_preparations
+	icon = GFX_goal_unknown
+	x = 13
+	y = 0
+	cost = 2
+	available_if_capitulated = yes
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_prepare_for_the_worst
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_convention_preparations
+	prerequisite = {
+		focus = IAI_convention_preparations
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_mobilize_dmpd
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_prepare_for_the_worst
+	prerequisite = {
+		focus = IAI_prepare_for_the_worst
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		country_event = { id = IAI.2 hours = 1 }
+	}
+}
+
+shared_focus = {
+	id = IAI_invite_delegates
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_mobilize_dmpd
+	prerequisite = {
+		focus = IAI_mobilize_dmpd
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_finalize_voting_infrastructure
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_invite_delegates
+	prerequisite = {
+		focus = IAI_invite_delegates
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+shared_focus = {
+	id = IAI_broadcast_campaigns
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_finalize_voting_infrastructure
+	prerequisite = {
+		focus = IAI_finalize_voting_infrastructure
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_fifteenth_unity_pact_convention
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_broadcast_campaigns
+	prerequisite = {
+		focus = IAI_broadcast_campaigns
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+	completion_reward = {
+		country_event = { id = IAI.1 hours = 1 }
+	}
+}
+
+shared_focus = {
+	id = IAI_voting_preparations
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_fifteenth_unity_pact_convention
+	prerequisite = {
+		focus = IAI_fifteenth_unity_pact_convention
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# LCC tree
+shared_focus = {
+	id = IAI_iowas_liberty
+	icon = GFX_goal_unknown
+	x = 6
+	y = 0
+	cost = 0.1
+	available_if_capitulated = yes
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_cooperate_with_dmpd
+	icon = GFX_goal_unknown
+	x = -2
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_iowas_liberty
+	prerequisite = {
+		focus = IAI_iowas_liberty
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_expand_their_budget
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_cooperate_with_dmpd
+	prerequisite = {
+		focus = IAI_cooperate_with_dmpd
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_resist_the_guard_together
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_expand_their_budget
+	prerequisite = {
+		focus = IAI_expand_their_budget
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_appeal_to_companies
+	icon = GFX_goal_unknown
+	x = 2
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_iowas_liberty
+	prerequisite = {
+		focus = IAI_iowas_liberty
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_backchannel_funding
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_appeal_to_companies
+	prerequisite = {
+		focus = IAI_appeal_to_companies
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_arm_our_own_militias
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_backchannel_funding
+	prerequisite = {
+		focus = IAI_backchannel_funding
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_our_democratic_unity
+	icon = GFX_goal_unknown
+	x = -2
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_arm_our_own_militias
+	prerequisite = {
+		focus = IAI_resist_the_guard_together
+	}
+	prerequisite = {
+		focus = IAI_arm_our_own_militias
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_accept_the_leftists
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_our_democratic_unity
+	prerequisite = {
+		focus = IAI_our_democratic_unity
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_recruit_prowff_veterans
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_accept_the_leftists
+	prerequisite = {
+		focus = IAI_accept_the_leftists
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_harass_ug_convoys
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_recruit_prowff_veterans
+	prerequisite = {
+		focus = IAI_recruit_prowff_veterans
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_clock_ticks_for_progress
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_harass_ug_convoys
+	prerequisite = {
+		focus = IAI_harass_ug_convoys
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_label_ug_as_fascist
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_clock_ticks_for_progress
+	prerequisite = {
+		focus = IAI_clock_ticks_for_progress
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_fight_them_streets
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_label_ug_as_fascist
+	prerequisite = {
+		focus = IAI_label_ug_as_fascist
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		country_event = { id = IAI.4 hours = 1 }
+	}
+}
+
+shared_focus = {
+	id = IAI_and_in_the_booths
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_fight_them_streets
+	prerequisite = {
+		focus = IAI_fight_them_streets
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_coalition_bleeds_unity
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 2
+	available_if_capitulated = yes
+	relative_position_id = IAI_and_in_the_booths
+	prerequisite = {
+		focus = IAI_and_in_the_booths
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_deploy_swat
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 1.5
+	available_if_capitulated = yes
+	relative_position_id = IAI_coalition_bleeds_unity
+	prerequisite = {
+		focus = IAI_coalition_bleeds_unity
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_anti_ug_protests
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 1.5
+	available_if_capitulated = yes
+	relative_position_id = IAI_deploy_swat
+	prerequisite = {
+		focus = IAI_deploy_swat
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_militiamen_by_people
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 1.5
+	available_if_capitulated = yes
+	relative_position_id = IAI_anti_ug_protests
+	prerequisite = {
+		focus = IAI_anti_ug_protests
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_votes_finalized
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_militiamen_by_people
+	prerequisite = {
+		focus = IAI_militiamen_by_people
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_iowas_flame_burns_bright
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 10
+	available_if_capitulated = yes
+	relative_position_id = IAI_votes_finalized
+	prerequisite = {
+		focus = IAI_votes_finalized
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Fascist tree
+shared_focus = {
+	id = IAI_iowas_vanguard
+	icon = GFX_goal_unknown
+	x = 20
+	y = 0
+	cost = 0.1
+	available_if_capitulated = yes
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+shared_focus = {
+	id = IAI_intimidate_dmpd
+	icon = GFX_goal_unknown
+	x = -2
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_iowas_vanguard
+	prerequisite = { focus = IAI_iowas_vanguard }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_recruit_sympathetic_officers
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_intimidate_dmpd
+	prerequisite = { focus = IAI_intimidate_dmpd }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_intercept_dmpd_operations
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_recruit_sympathetic_officers
+	prerequisite = { focus = IAI_recruit_sympathetic_officers }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_influence_patriot_groups
+	icon = GFX_goal_unknown
+	x = 2
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_iowas_vanguard
+	prerequisite = { focus = IAI_iowas_vanguard }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_integrate_the_patriots
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_influence_patriot_groups
+	prerequisite = { focus = IAI_influence_patriot_groups }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_threaten_liberal_influencers
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_integrate_the_patriots
+	prerequisite = { focus = IAI_integrate_the_patriots }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_our_presence_reinforced
+	icon = GFX_goal_unknown
+	x = -2
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_threaten_liberal_influencers
+	prerequisite = { focus = IAI_intercept_dmpd_operations }
+	prerequisite = { focus = IAI_threaten_liberal_influencers }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_recruit_young_legionnaires
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_our_presence_reinforced
+	prerequisite = { focus = IAI_our_presence_reinforced }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_convert_lcc_conservatives
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_recruit_young_legionnaires
+	prerequisite = { focus = IAI_recruit_young_legionnaires }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_deploy_our_engineers
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_convert_lcc_conservatives
+	prerequisite = { focus = IAI_convert_lcc_conservatives }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_clock_keeps_ticking
+	icon = GFX_goal_unknown
+	x = 0
+	y = 2
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_deploy_our_engineers
+	prerequisite = { focus = IAI_deploy_our_engineers }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_slander_lcc
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_clock_keeps_ticking
+	prerequisite = { focus = IAI_clock_keeps_ticking }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_unexpected_road_work
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_slander_lcc
+	prerequisite = { focus = IAI_slander_lcc }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_scare_weak_politicians
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_unexpected_road_work
+	prerequisite = { focus = IAI_unexpected_road_work }
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		country_event = { id = IAI.3 hours = 1 }
+	}
+}
+
+shared_focus = {
+	id = IAI_they_will_fear_us
+	icon = GFX_goal_unknown
+	x = 0
+	y = 2
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_scare_weak_politicians
+	prerequisite = { focus = IAI_scare_weak_politicians }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_deploy_ug_tanks
+	icon = GFX_goal_unknown
+	x = 0
+	y = 2
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_they_will_fear_us
+	prerequisite = { focus = IAI_they_will_fear_us }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_unity_guard_drills
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_deploy_ug_tanks
+	prerequisite = { focus = IAI_deploy_ug_tanks }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_infantry_by_voters
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_unity_guard_drills
+	prerequisite = { focus = IAI_unity_guard_drills }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_votes_are_finalized
+	icon = GFX_goal_unknown
+	x = 0
+	y = 2
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_infantry_by_voters
+	prerequisite = { focus = IAI_infantry_by_voters }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = IAI_iowas_savior_once_more
+	icon = GFX_goal_unknown
+	x = 0
+	y = 2
+	cost = 0.1
+	available_if_capitulated = yes
+	relative_position_id = IAI_votes_are_finalized
+	prerequisite = { focus = IAI_votes_are_finalized }
+	ai_will_do = {
+		factor = 1
+	}
+}
