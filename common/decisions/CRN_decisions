@@ -1,0 +1,42 @@
+CRN_repayment = {
+	CRN_send_gun = {
+		visible = {
+			always = yes
+		}
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 99
+			}
+		}
+		custom_cost_text = infantry_equipment_more_than_100
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -100
+			}
+			set_country_flag = CRN_has_sent
+		}
+	}
+	CRN_or_else = {
+		visible = {
+			always = yes
+		}
+		available = {
+			has_country_flag = CRN_has_sent
+		}
+		is_good = no
+		days_mission_timeout = 14
+		days_re_enable = 0
+		timeout_effect = {
+			VAV = {
+				declare_war_on = {
+					target = CRN
+					type = annex_everything
+				}
+			}
+		}
+		complete_effect = {
+			clr_country_flag = CRN_has_sent
+		}
+	}
+}
