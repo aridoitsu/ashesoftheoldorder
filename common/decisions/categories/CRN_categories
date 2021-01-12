@@ -1,9 +1,9 @@
 CRN_repayment = {
 	icon = generic_research
 	visible = {
-		always = yes
+		
 	}
 	allowed = {
-		always = yes
+		tag = CRN
 	}
 }

@@ -47,6 +47,6 @@
  CRN_repayment_desc:0 "Ever since the end of the revolution we are indebted to the Virginia Red Army for the forseeable future, for their past help in liberating our people."
  CRN_send_gun:0 "Send Rifles"
  CRN_or_else:0 "Or Else"
- infantry_equipment_more_than_100:0 "§H100§!£GFX_divisions"
- infantry_equipment_more_than_100_blocked:0 "§R100§!£GFX_divisions"
+ infantry_equipment_more_than_100:0 "§H100§!£infantry_equipment_texticon"
+ infantry_equipment_more_than_100_blocked:0 "§R100§!£infantry_equipment_texticon"
  CRN_has_sent:0 "Has sent payment"
