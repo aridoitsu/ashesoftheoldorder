@@ -138,6 +138,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13870;13869;sea;8518;-1;-1;-1;-1;;Brooklyn-Elizabeth
 13797;6892;sea;8492;-1;-1;-1;-1;;Chesapeake Bay
 788;15573;sea;8492;-1;-1;-1;-1;;Norfolk-Cape Charles
+10157;14496;sea;5257;-1;-1;-1;-1;;Puget Sound
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
@@ -193,5 +194,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11664;672;impassable;-1;-1;-1;-1;-1;;caucasus mountains
 11664;654;impassable;-1;-1;-1;-1;-1;;caucasus mountains
 6674;654;impassable;-1;-1;-1;-1;-1;;caucasus mountains
-3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

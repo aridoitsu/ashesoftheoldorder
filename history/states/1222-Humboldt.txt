@@ -1,0 +1,16 @@
+state={
+	id=1222
+	name="Humboldt"
+	provinces={
+		1862 4736 7827 13845 13855 13883 13906 16149 16152 16156 16159 16160 16333 16335 16336 16338 16339 16341 16344 16345 16348 16349 16351 16354 16355 16356 16357 16358 
+	}
+	history = {
+		owner = NEV
+		add_core_of = NEV
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=16865
+	state_category = rural
+}

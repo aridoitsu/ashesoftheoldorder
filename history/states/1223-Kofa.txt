@@ -1,0 +1,16 @@
+state={
+	id=1223
+	name="Kofa"
+	provinces={
+		634 8115 13563 13565 14133 14158 14165 14166 14188 14209 
+	}
+	manpower=26050
+	history = {
+		owner = PNX
+		add_core_of = PNX
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	state_category = rural
+}

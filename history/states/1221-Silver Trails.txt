@@ -1,0 +1,16 @@
+state={
+	id=1221
+	name="Silver Trails"
+	provinces={
+		1432 4521 12399 13712 13728 13748 13771 13774 13817 16289 16290 16292 16294 16295 16296 16298 16300 16302 16304 16308 16312 16314 16315 16316 16317 16319 16323 16324 16328 16329 16332 
+	}
+	history = {
+		owner = NEV
+		add_core_of = NEV
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=14310
+	state_category = rural
+}
