@@ -28,11 +28,14 @@ CRN_repayment = {
 		days_mission_timeout = 14
 		days_re_enable = 0
 		timeout_effect = {
-			VAV = {
-				declare_war_on = {
-					target = CRN
-					type = annex_everything
-				}
+			if = {
+				limit = { check_variable = { CRN_pain > 4 } }
+				country_event = { id = carolina.1 days = 5 }
+			}
+			else_if = {
+				limit = { check_variable = { CRN_pain < 5 } }
+				add_to_variable = { CRN_pain = 1 }
+				custom_effect_tooltip = CRN_or_else_tt
 			}
 		}
 		complete_effect = {

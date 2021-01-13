@@ -42,11 +42,16 @@
  
  #Events
 
+carolina.1.t:0 "Failure of the Compromise"
+carolina.1.d:0 "To the Carolina Liberation Front:\n\nIt has come to our attention that you haven't payed off your debt to the Virginia Red Army in these past few months. In the Treaty of Raleigh, you agreed that you would give us equipment to further fuel the spread of the worker's revolution in this new warlord era of America. As stated in the treaty, we must send our military to occupy your nation permanently. Let this be a reminder to you that the Red Army should not be messed with.\n\nSincerely, the Chairman of Virginia"
+carolina.1.a:0 "Not if we have anything to say about it!"
+
  #decisions
- CRN_repayment:0 "Repayment"
- CRN_repayment_desc:0 "Ever since the end of the revolution we are indebted to the Virginia Red Army for the forseeable future, for their past help in liberating our people."
+ CRN_repayment:0 "The Ultimatum"
+ CRN_repayment_desc:0 "Ever since the end of the revolution we have been indebted and will be to the Virginia Red Army for the forseeable future, for their past help in liberating our people."
  CRN_send_gun:0 "Send Rifles"
  CRN_or_else:0 "Or Else"
  infantry_equipment_more_than_100:0 "§H100§!£infantry_equipment_texticon"
  infantry_equipment_more_than_100_blocked:0 "§R100§!£infantry_equipment_texticon"
  CRN_has_sent:0 "Has sent payment"
+ CRN_or_else_tt:0 "§OVirginia will be upset with this.§!"
