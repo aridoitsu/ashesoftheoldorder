@@ -1,22 +1,27 @@
+
 state={
 	id=925
 	name="Richland"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = NEB
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
+
 		}
 		victory_points = {
-			10706 1
+			10706 1 
 		}
+
 	}
+
 	provinces={
-		7880 10706 14190 14252
+		7880 10706 14190 14252 16750 16758 16759 16770 16782 16783 16786 16792 16797 16799 16800 16808 16815 16816 16817 16821 16828 16829 16832 16833 
 	}
 	manpower=34029
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

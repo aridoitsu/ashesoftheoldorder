@@ -1,27 +1,33 @@
+
 state={
 	id=870
 	name="Belknap"
-	resources = {
-		tungsten = 11.000
+	resources={
+		tungsten=11.000
 	}
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = HEL
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
+
 		}
 		victory_points = {
-			14308 3
+			14308 3 
 		}
 		victory_points = {
-			10593 1
+			10593 1 
 		}
+
 	}
+
 	provinces={
-		1857 10593 10624 11712 14308 14326 14346
+		1857 10593 10624 11712 14308 14326 14346 16774 16789 16795 16807 16810 16813 16823 16824 16825 16826 16831 16834 16835 16836 16837 16840 16841 16842 16844 16845 16846 16847 16852 16854 16855 16856 
 	}
 	manpower=98321
-	state_category = rural
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,21 +1,27 @@
+
 state={
 	id=923
 	name="Ferguson"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = HEL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			14223 1
+			14223 1 
 		}
+
 	}
+
 	provinces={
-		12572 14218 14219 14223 14275
+		12572 14218 14219 14223 14275 16763 16764 16765 16775 16780 16781 16787 16790 16791 16796 16798 16803 16804 16805 16806 16811 16812 16814 16819 
 	}
 	manpower=84120
-	state_category = town
+	buildings_max_level_factor=1.000
+	state_category=town
 }

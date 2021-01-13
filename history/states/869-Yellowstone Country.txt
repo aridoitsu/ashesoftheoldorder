@@ -2,20 +2,25 @@
 state={
 	id=869
 	name="Billings"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = YWS
 		buildings = {
 			infrastructure = 6
+
 		}
 		victory_points = {
-			12585 5
+			12585 5 
 		}
+
 	}
+
 	provinces={
-		4741 4857 12585 14127
+		4741 4857 12585 14127 16661 16681 16696 16707 16716 16717 16722 16729 16730 16731 16734 16735 16737 16742 16743 16745 16749 16753 16754 16766 
 	}
 	manpower=109550
-	state_category = town
+	buildings_max_level_factor=1.000
+	state_category=town
 }

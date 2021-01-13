@@ -3,21 +3,23 @@ state={
 	id=877
 	name="Wind River"
 
-	history = {
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = WYW
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			1815 3
+			1815 3 
 		}
+
 	}
 
 	provinces={
-		1815 7660 10711 13998
+		1815 7660 10711 13998 16544 16552 16555 16559 16566 16579 16584 16586 16588 16600 16606 16610 16623 16630 16639 16649 
 	}
 	manpower=20145
 	buildings_max_level_factor=1.000

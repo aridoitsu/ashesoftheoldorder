@@ -1,29 +1,34 @@
+
 state={
 	id=936
 	name="Burleigh"
-	history = {
+
+	history={
 		owner = WDC
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		add_core_of = WDC
 		add_core_of = SOI
 		victory_points = {
-			14224 8
+			14224 8 
 		}
 		victory_points = {
-			14205 3
+			14205 3 
 		}
 		victory_points = {
-			6722 1
+			6722 1 
 		}
+
 	}
+
 	provinces={
-		6722 7877 12566 14161 14162 14205 14224 14262
+		6722 7877 12566 14161 14162 14205 14224 14262 16721 16724 16732 16733 16740 16741 16744 16746 16748 16752 16756 16757 16760 16762 16767 16768 16771 16772 16773 16777 16778 16779 16785 16788 16793 16794 16801 16802 16809 16818 16822 16830 
 	}
 	manpower=124550
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

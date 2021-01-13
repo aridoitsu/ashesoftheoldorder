@@ -1,18 +1,23 @@
+
 state={
 	id=1178
 	name="Carbon"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = YWS
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
+
 	provinces={
-		1851 7760 14087 14114
+		1851 7760 14087 14114 16676 16677 16680 16682 16683 16684 16690 16694 16697 16698 16700 16701 16702 16708 16712 16715 16718 16723 16726 
 	}
 	manpower=21031
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

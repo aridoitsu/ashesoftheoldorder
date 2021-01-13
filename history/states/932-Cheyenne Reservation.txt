@@ -1,25 +1,30 @@
+
 state={
 	id=932
 	name="Revheim"
-	history = {
+
+	history={
 		owner = WDC
 		add_core_of = WDC
 		add_core_of = SOI
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			3750 3
+			3750 3 
 		}
 		victory_points = {
-			14072 1
+			14072 1 
 		}
+
 	}
+
 	provinces={
-		1747 3750 4839 14051 14072 14073 14089
+		1747 3750 4839 14051 14072 14073 14089 16657 16659 16668 16669 16670 16674 16675 16679 16686 16687 16688 16689 16693 16695 16699 16703 16706 16710 16711 16714 16719 16720 16725 
 	}
 	manpower=835572
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }
