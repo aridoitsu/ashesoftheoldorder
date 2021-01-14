@@ -1,0 +1,9 @@
+CRN_repayment = {
+	icon = generic_research
+	visible = {
+		
+	}
+	allowed = {
+		tag = CRN
+	}
+}

@@ -71,3 +71,14 @@ set_popularities = {
 	fascism = 0
 	ultranationalism = 0
 }
+
+create_country_leader = {
+	name = "Richard H Brown"
+	desc = "POLITICS_RICHARD_H_BROWN_DESC"
+	picture = "Portrait_Richard_H_Brown.dds"
+	expire = "2040.1.1"
+	ideology = despot 
+    traits = {
+		figurehead_for_corporations1
+    }
+}

@@ -1,0 +1,77 @@
+﻿l_english:
+
+ # Parties
+
+ SRF_ultranationalism_party:0 "MWOV"
+ SRF_ultranationalism_party_long:0 "Midwestern Chapter Wolves of Vinland"
+ SRF_fascism_party:0 "The Church"
+ SRF_fascism_party_long:0 "Church of Illinois"
+ SRF_neutrality_party:0 "The Millitary"
+ SRF_neutrality_party_long:0 "Illinois National Guard"
+ SRF_authdem_party:0 "ISP"
+ SRF_authdem_party_long:0 "Illinois Solidarity Pact"
+ SRF_democratic_party:0 "RP"
+ SRF_democratic_party_long:0 "Republican Party"
+ SRF_liberal_party:0 "LP"
+ SRF_liberal_party_long:0 "Libertarian Party"
+ SRF_prodem_party:0 "BP"
+ SRF_prodem_party_long:0 "Beacon Party"
+ SRF_demsoc_party:0 "IGP"
+ SRF_demsoc_party_long:0 "Illinois Green Party"
+ SRF_libsoc_party:0 "NSPI"
+ SRF_libsoc_party_long:0 "New Socialist Party of Illinois"
+ SRF_communism_party:0 "CPI"
+ SRF_communism_party_long:0 "Communist Party of Illinois"
+ SRF_anarchy_party:0 "RU"
+ SRF_anarchy_party_long:0 "Red Union of Illinois"
+ SRF_totalsoc_party:0 "Soulists"
+ SRF_totalsoc_party_long:0 "Followers of the Soul"
+
+
+ # Country
+
+   SRF:0 "Illinois"
+   SRF_DEF:0 "Illinois"
+   SRF_ADJ:0 "Illinoisan"
+   
+ SRF_ultranationalism:0 "Volkist Illinois"
+ SRF_ultranationalism_DEF:0 "Illinois"
+ SRF_fascism:0 "Holy State of Illinois"
+ SRF_fascism_DEF:0 "Holy State of Illinois"
+ SRF_neutrality:0 "Illinois"
+ SRF_neutrality_DEF:0 "Illinois"
+ SRF_authdem:0 "Illinois"
+ SRF_authdem_DEF:0 "Illinois"
+ SRF_democratic:0 "Illinois"
+ SRF_democratic_DEF:0 "Illinois"
+ SRF_democratic_ADJ:0 "Illinoisan"
+ SRF_liberal:0 "Illinois"
+ SRF_liberal_DEF:0 "Illinois"
+ SRF_liberal_ADJ:0 "llinoisan"
+ SRF_prodem:0 "New Illinois"
+ SRF_prodem_DEF:0 "New Illinois"
+ SRF_prodem_ADJ:0 "New Illinoisan"
+ SRF_demsoc:0 "Green Illinois"
+ SRF_demsoc_DEF:0 "Green Illinois"
+ SRF_demsoc_ADJ:0 "Green Illinoisan"
+ SRF_libsoc:0 "Socialist State of Illinois"
+ SRF_libsoc_DEF:0 "the Socialist State of Illinois"
+ SRF_libsoc_ADJ:0 "Illinoisan"
+ SRF_communism:0 "Commune of Illinois"
+ SRF_communism_DEF:0 "the Commune of Illinois"
+ SRF_communism_ADJ:0 "Illinoian"
+ SRF_anarchy:0 "Union of Illinois"
+ SRF_anarchy_DEF:0 "the Union of Illinois"
+ SRF_anarchy_ADJ:0 "Unionite Illinoisan"
+ SRF_totalsoc:0 "Soulist Front of Earth"
+ SRF_totalsoc_DEF:0 "the Monarcho-Anarchist Soulist Commune of Illinois"
+ SRF_totalsoc_ADJ:0 "Soulist"
+
+
+ #Leader Descriptions
+
+ POLITICS_TIM_DAVLIN_DESC:0 "Fuck you IRS Haha can't get me now BITCHES."
+ POLITICS_BARACK_OBAMA_DESC:0 "Hope"
+ POLITICS_RICH_WHITNEY_DESC:0 "Don't blame me I voted Green!"
+ POLITICS_BRUCE_RAUNER_DESC:0 "Wake up and smell the ashes"
+ 

@@ -71,3 +71,10 @@ set_popularities = {
 	fascism = 0
 	ultranationalism = 0
 }
+create_country_leader = {
+	name = "Mark J Green"
+	desc = "POLITICS_MARK_J_GREEN_DESC"
+	picture = "Portrait_Mark_J_Green.dds"
+	expire = "2040.1.1"
+	ideology = green
+}

@@ -50,7 +50,7 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = anarchy
+	ruling_party = authdem
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,14 +60,28 @@ add_ideas = {
 set_popularities = {
 	democratic = 0
 	neutrality = 0
-	authdem = 0
-	liberal = 0
+	authdem = 42
+	liberal = 39
 	demsoc = 0
 	prodem = 0
 	communism = 0
 	totalsoc = 0
-	libsoc = 40
-	anarchy = 40
-	fascism = 10
-	ultranationalism = 10
+	libsoc = 0
+	anarchy = 0
+	fascism = 19
+	ultranationalism = 0
+}
+create_country_leader = {
+	name = "Pete Buttigieg"
+	desc = "POLITICS_PETE_BUTT_DESC"
+	picture = "Portrait_Pete_Butt.dds"
+	expire = "2040.1.1"
+	ideology = pan_europe
+}
+create_country_leader = {
+	name = "Unity-Pact"
+	desc = "POLITICS_UNITY_PACT_DESC"
+	picture = "Portrait_Unity_Pact.dds"
+	expire = "2040.1.1"
+	ideology = reactionary
 }

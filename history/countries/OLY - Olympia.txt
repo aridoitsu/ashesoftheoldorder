@@ -59,15 +59,22 @@ add_ideas = {
 }
 set_popularities = {
 	democratic = 28
-	neutrality = 7
-	authdem = 30
-	liberal = 26
-	demsoc = 9
-	prodem = 0
+	neutrality = 0
+	authdem = 33
+	liberal = 0
+	demsoc = 16
+	prodem = 23
 	communism = 0
 	totalsoc = 0
 	libsoc = 0
 	anarchy = 0
 	fascism = 0
 	ultranationalism = 0
+}
+create_country_leader = {
+	name = "Andrew Basiago"
+	desc = "POLITICS_ANDREW_BASIAGO_DESC"
+	picture = "Portrait_Andrew_Basiago.dds"
+	expire = "2040.1.1"
+	ideology = green
 }

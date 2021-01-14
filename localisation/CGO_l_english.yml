@@ -1,12 +1,25 @@
 ﻿l_english:
  #chicago meltdown focuses
  CGO_an_emergency_meeting:0 "An Emergency Meeting"
+ CGO_an_emergency_meeting_desc:0 "It's not shutting down, I can't shut it down, its not working- I-.                                    A smokey plume of ash is seen rising violently in the air in the distance.                                  A local guard nearby sees the site workers running out of the facility.                         Code Faded Giant I repeat, we have a Code Faded Giant in Byron."
+ 
  CGO_a_national_crisis:0 "Organizing Our Priorities"
+ CGO_a_national_crisis_desc:0 "The entire Chicago area is at threat from this nuclear crisis, we, the council need to step up and do something about this! For our city!"
+ 
  CGO_the_ai:0 "The Machine"
+ CGO_the_ai_desc:0 "C.A.G.A is our sacred supercomputer that no one else has or will ever design again in a hundred years! To simply ignore it and leave it to rot in the wake of nuclear radiation is insane! Without it our peaceful nation would burn to the ground! We are immediately quarantining the site pronto!"
+ 
  CGO_the_people:0 "The People"
+ CGO_the_people_desc:0 "Our people are more important than sheltering a machine. We  are more capable of leading our people and helping them in times of crisis than a glorified OGAS could ever hope to accomplish."
+ 
  CGO_formulate_a_plan:0 "Formulate A Plan"
+ CGO_formulate_a_plan_desc:0 "For the mean time, call in the CDF, we're sending a taskforce to deal with the problem in Byron. While they're out there our president will direct plans for people to evacuate the site and issue a curfew in the coming days to cities that are projected to be hit by the oncoming radiation."
+ 
  CGO_a_hidden_monster:0 "A Hidden Monster"
+ CGO_a_hidden_monster_desc:0 "The people at the Byron Nuclear Facility didn’t really care for would happen to their city did they? How could have they messed this up so badly?                 Unless..."
+ 
  CGO_rears_ugly_head:0 "...Rears it's Ugly Head"
+ CGO_rears_ugly_head_desc:0 "Gray snow falls upon Chicago. People all around Byron are getting sick and dying. Our  weather team has already picked up signs of radiation poisoning in the atmosphere. This is going to be a long winter."
 
  #focus tooltips
  CGO_emergency_meeting_tt:0 "Jorge Mujica, the President of Chicago, will call an emergency meeting"
@@ -17,8 +30,11 @@
 
  #ideas and spirits
  CGO_citywide_fortress:0 "The City-Wide Fortress"
+ CGO_citywide_fortress_desc:0 "Our future lies in the cities. We must guard them at all times to ward off any potential invaders, such as the degenerates down south and the hopeless dictators to the north and west. Our nation shall not fall to these despots!"
  CGO_caga_supercomputer:0 "C.A.G.A."
+ CGO_caga_supercomputer_desc:0 " The Chicago Administrator of Government Activities is our own supercomputer that we use to keep our nation in the best of shape. Some of our scientists see potential in C.A.G.A and seek to further its utilities."
  CGO_human_military:0 "Incompetent Human Military"
+ CGO_human_military_desc:0 "Our current military force is made up of veterans and militias formed during the start of the second american civil war. Since then they haven’t seen much action and they are only for guarding the cities and our borders."
  CGO_nuclear_disaster_start:0 "The Byron Incident"
 
  #decisions
@@ -53,14 +69,62 @@
  CGO_meltdown_status_normal:0 "§GRelatively Normal§!"
 
  #politcal parties
+ CGO_ultranationalism_party:0 "CNU"
+ CGO_ultranationalism_party_long:0 "Chicago National Union"
+ CGO_fascism_party:0 "Elim Romanian Pentecostal Church"
+ CGO_fascism_party_short:0 "Elim Church"
+ CGO_authdem_party:0 "Wisconsin Seperatists"
+ CGO_neutrality_party:0 "The CDF"
+ CGO_neutrality_party_long:0 "Chicago Defense Force"
  CGO_democratic_party_long:0 "the Reformist Faction"
- CGO_democratic_party_short:0 "Reformists"
- CGO_libdem_party_long:0 "the Traditionalist Faction"
- CGO_libdem_party_short:0 "Traditionalists"
+ CGO_democratic_party:0 "Reformists"
+ CGO_liberal_party:0 "Left Reformist Faction"
+ CGO_liberal_party_long:0 "the Left Reformists"
+ CGO_demsoc_party:0 "Chicago River Foundation"
+ CGO_demsoc_party_short:0 "CRF"
+ CGO_libsoc_party_long:0 "the Traditionalist Faction"
+ CGO_libsoc_party:0 "Traditionalists"
  CGO_communism_party_long:0 "the Technocratic Faction"
- CGO_communism_party_short:0 "Technocrats"
+ CGO_communism_party:0 "Technocrats"
  CGO_prodem_party_long:0 "the Dualist Faction"
- CGO_prodem_party_short:0 "Dualists"
+ CGO_prodem_party:0 "Dualists"
+ CGO_anarchy_party:0 "Lazy cunts"
+ CGO_anarchy_party_long:0 "Free Virtuas of Chicago"
  CGO_totalsoc_party_long:0 "the Technological Progress Faction"
- CGO_totalsoc_party_short:0 "Technological Progressives"
+ CGO_totalsoc_party:0 "Technological Progressives"
+ 
+ #Country
+ CGO_ultranationalism:0 "Directorate of Chicago"
+ CGO_ultranationalism_DEF:0 "Chicago"
+ CGO_fascism:0 "Divine State of Chicago"
+ CGO_fascism_DEF:0 "Divine State of Chicago"
+ CGO_neutrality:0 "Chicago Area Administration"
+ CGO_neutrality_DEF:0 "Chicago"
+ CGO_authdem:0 "Great Lakes Command"
+ CGO_authdem_DEF:0 "Great Lakes Command"
+ CGO_authdem_ADJ:0 "Great Lakes Commandant"
+ CGO_democratic:0 "Chicago"
+ CGO_democratic_DEF:0 "Chicago"
+ CGO_democratic_ADJ:0 "Chicagoan"
+ CGO_liberal:0 "Chicago"
+ CGO_liberal_DEF:0 "Chicago"
+ CGO_liberal_ADJ:0 "Chicagoan"
+ CGO_prodem:0 "Chicago"
+ CGO_prodem_DEF:0 "Chicago"
+ CGO_prodem_ADJ:0 "Chicagoan"
+ CGO_demsoc:0 "Lake Council"
+ CGO_demsoc_DEF:0 "Lake Council"
+ CGO_demsoc_ADJ:0 "Great Lakean"
+ CGO_libsoc:0 "Free Workers of Chicago"
+ CGO_libsoc_DEF:0 "the Workers of Chicago"
+ CGO_libsoc_ADJ:0 "Chicagoan"
+ CGO_communism:0 "Technate of Chicago"
+ CGO_communism_DEF:0 "Chicago"
+ CGO_communism_ADJ:0 "Chicagoan"
+ CGO_anarchy:0 "Free Virtuas"
+ CGO_anarchy_DEF:0 "the Free Virtuas"
+ CGO_anarchy_ADJ:0 "Virtuan"
+ CGO_totalsoc:0 "All-Encompassing Territory of Greater Chicago"
+ CGO_totalsoc_DEF:0 "the All-Encompassing Territory of Greater Chicago"
+ CGO_totalsoc_ADJ:0 "Chicagoan"
  #end
