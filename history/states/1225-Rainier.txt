@@ -1,0 +1,17 @@
+state={
+	id=1225
+	name="Rainier"
+	provinces={
+		7442 10155 10271 14168 14210 17156 17161 17168 17170 17173 17176 17180 17182 
+	}
+	history = {
+		buildings = {
+			infrastructure = 5
+		}
+
+		owner = OLY
+		add_core_of = OLY
+	}
+	manpower=142844
+	state_category = town
+}

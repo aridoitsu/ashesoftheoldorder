@@ -2,26 +2,28 @@
 state={
 	id=386
 	name="North Washington"
-	manpower=863395
-	state_category=large_town
 	resources={
 		steel=7.000
 		tungsten=2.000
 	}
-	history = {
+
+	history={
 		owner = SEA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 5
+
 		}
 		add_core_of = SEA
+
 	}
+
 	provinces={
-		1320 10198 14323 14332
+		1320 10198 14323 14332 17197 17199 17201 17203 17204 17205 17207 17208 17209 17210 17211 17213 17214 17216 17218 17219 17220 17222 17223 
 	}
-
+	manpower=863395
 	buildings_max_level_factor=1.000
-
+	state_category=large_town
 }

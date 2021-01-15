@@ -1,25 +1,30 @@
+
 state={
 	id=810
 	name="Reno"
-	history = {
+
+	history={
 		owner = MOD
 		add_core_of = MOD
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			15421 10
+			15421 10 
 		}
 		victory_points = {
-			14998 3
+			14998 3 
 		}
+
 	}
+
 	provinces={
-		10422 13834 14998 15421
+		10422 13834 14998 15421 16959 16967 16970 16976 16977 16980 
 	}
 	manpower=1222179
-	state_category = city
 	buildings_max_level_factor=1.000
+	state_category=city
 }

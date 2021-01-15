@@ -1,16 +1,22 @@
+
 state={
 	id=1173
 	name="Black Rock"
-	history = {
+
+	history={
 		owner = MOD
 		add_core_of = MOD
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
+
 	provinces={
-		10305 10625 12134 13896
+		10305 10625 12134 13896 16988 16990 16991 16992 16996 17000 17005 17006 17008 17011 17012 17017 17019 17022 17024 17030 17033 17037 17041 
 	}
 	manpower=7641
-	state_category = pastoral
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

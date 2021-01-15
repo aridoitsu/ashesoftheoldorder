@@ -6,7 +6,7 @@ state={
 		chromium=6.000
 	}
 
-	history = {
+	history={
 		owner = MEX
 		buildings = {
 			infrastructure = 3
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		1892 7964 12461 12859 13215 13216 13467 
+		1892 3678 7964 9637 12461 12859 13215 13216 13467 16862 
 	}
 	manpower=685841
 	buildings_max_level_factor=1.000

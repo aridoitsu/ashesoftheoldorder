@@ -1,3 +1,4 @@
+
 state={
 	id=798
 	name="Sacramento"
@@ -6,7 +7,7 @@ state={
 		aluminium=8.000
 	}
 
-	history = {
+	history={
 		owner = CAL
 		buildings = {
 			infrastructure = 7
@@ -16,25 +17,27 @@ state={
 		}
 		add_core_of = CAL
 		victory_points = {
-			13760 25
+			13760 25 
 		}
 		victory_points = {
-			13756 5
+			13756 5 
 		}
 		victory_points = {
-			13779 5
+			13779 5 
 		}
 		victory_points = {
-			13773 5
+			13773 5 
 		}
 		victory_points = {
-			9713 5
+			9713 5 
 		}
+
 	}
+
 	provinces={
-		9713 13756 13760 13773 13779 13798
+		9713 13756 13760 13773 13779 13798 16933 
 	}
 	manpower=501901
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

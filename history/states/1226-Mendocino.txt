@@ -1,0 +1,16 @@
+state={
+	id=1226
+	name="Mendocino"
+	provinces={
+		610 768 781 6772 9730 16946 16947 16948 16949 16951 16953 16955 16956 16957 16958 16964 16965 16966 16969 16972 16974 16975 16979 16985 
+	}
+	history = {
+		owner = JEF
+		add_core_of = JEF
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=30007
+	state_category = town
+}

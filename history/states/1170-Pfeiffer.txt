@@ -1,21 +1,27 @@
+
 state={
 	id=1170
 	name="Pfeiffer"
-	resources = {
-		oil = 3.000
-		tungsten = 4.000
+	resources={
+		oil=3.000
+		tungsten=4.000
 	}
-	history = {
+
+	history={
 		owner = GOL
-		buildings ={
+		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
+
 		}
 		add_core_of = GOL
+
 	}
+
 	provinces={
-		3840 6861 9637
+		16878 16883 16884 16887 16888 16890 16893 16894 16896 
 	}
 	manpower=94310
-	state_category = town
+	buildings_max_level_factor=1.000
+	state_category=town
 }

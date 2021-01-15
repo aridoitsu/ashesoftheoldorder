@@ -1,7 +1,9 @@
+
 state={
 	id=800
 	name="South Bay"
-	history = {
+
+	history={
 		owner = CPA
 		buildings = {
 			infrastructure = 6
@@ -9,21 +11,22 @@ state={
 			industrial_complex = 2
 			dockyard = 2
 			air_base = 10
-		}
 
+		}
 		add_core_of = CPA
+		victory_points = {
+			13711 7 
+		}
+		victory_points = {
+			9671 30 
+		}
 
-		victory_points = {
-			13711 7
-		}
-		victory_points = {
-			9671 30
-		}
 	}
+
 	provinces={
-		3678 9671 13711
+		16899 16904 16911 16915 
 	}
 	manpower=584363
 	buildings_max_level_factor=1.000
-	state_category = city
+	state_category=city
 }

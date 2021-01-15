@@ -3,7 +3,7 @@ state={
 	id=378
 	name="Six Rivers"
 
-	history = {
+	history={
 		owner = JEF
 		buildings = {
 			infrastructure = 6
@@ -12,22 +12,27 @@ state={
 			arms_factory = 1
 			610 = {
 				naval_base = 3
+
 			}
+
 		}
 		add_core_of = JEF
 		victory_points = {
-			768 5
+			768 5 
 		}
 		victory_points = {
-			610 3
+			610 3 
 		}
 		victory_points = {
-			3644 1
+			3644 1 
 		}
+
 	}
+
 	provinces={
-		610 768 781 3644 6482 6772 9730
+		3644 6482 16978 16984 16987 16989 16994 16997 16999 17004 
 	}
 	manpower=1086031
+	buildings_max_level_factor=1.000
 	state_category=town
 }

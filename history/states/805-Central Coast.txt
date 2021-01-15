@@ -22,7 +22,7 @@ state={
 		}
 	}
 	provinces={
-		986 3784 6881 11859 11876 14966 15912
+		16864 16865 16866 16869 16872 16873 16876 
 	}
 	manpower=704310
 	state_category = large_town

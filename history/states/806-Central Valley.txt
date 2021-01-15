@@ -1,23 +1,29 @@
+
 state={
 	id=806
 	name="Kern"
-	history = {
+
+	history={
 		owner = CAL
 		add_core_of = CAL
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
+
 		}
 		victory_points = {
-			15913 3
+			15913 3 
 		}
 		victory_points = {
-			9911 5
+			9911 5 
 		}
+
 	}
+
 	provinces={
-		941 9855 9911 10483 11763 13633 15913
+		941 9855 9911 10483 11763 13633 15913 16863 16867 16868 16870 16871 16874 16875 16877 16879 16880 16881 16882 16885 16886 16889 16891 16892 16895 16898 16903 
 	}
 	manpower=517379
-	state_category = town
+	buildings_max_level_factor=1.000
+	state_category=town
 }

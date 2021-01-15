@@ -1,10 +1,12 @@
+
 state={
 	id=812
 	name="Douglas"
-	resources = {
-		chromium = 8.000
+	resources={
+		chromium=8.000
 	}
-	history = {
+
+	history={
 		owner = DUG
 		add_core_of = DUG
 		buildings = {
@@ -13,25 +15,29 @@ state={
 			dockyard = 1
 			505 = {
 				naval_base = 1
+
 			}
+
 		}
 		victory_points = {
-			505 3
+			505 3 
 		}
 		victory_points = {
-			528 10
+			528 10 
 		}
 		victory_points = {
-			11495 1
+			11495 1 
 		}
 		victory_points = {
-			3471 5
+			3471 5 
 		}
+
 	}
+
 	provinces={
-		505 528 3471 10151 11733 11495 12281
+		505 528 3471 10151 11495 11733 12281 17013 17015 17020 17023 17025 17027 17028 17031 17034 17035 17036 17038 17039 17042 17043 17045 17046 17047 17048 17049 17051 17054 17055 17058 17059 17060 17063 17064 17065 17068 17069 17073 17077 
 	}
 	manpower=142576
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

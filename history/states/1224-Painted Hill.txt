@@ -1,0 +1,22 @@
+
+state={
+	id=1224
+	name="Painted Hill"
+
+	history={
+		owner = DUG
+		add_core_of = DUG
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		4826 14013 17071 17076 17081 17084 17089 17091 17093 17099 17102 17109 17117 17118 17224 
+	}
+	manpower=18531
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

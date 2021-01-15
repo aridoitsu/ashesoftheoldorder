@@ -1,23 +1,28 @@
+
 state={
 	id=1171
 	name="Sonoma"
 
-	history = {
+	history={
 		owner = JEF
 		buildings = {
 			infrastructure = 7
 			dockyard = 2
 			air_base = 4
 			arms_factory = 1
+
 		}
 		add_core_of = JEF
 		victory_points = {
-			6681 10
+			6681 10 
 		}
+
 	}
+
 	provinces={
-		677 6681 6745 6757 11658 13755 13778 13785
+		677 6681 6745 6757 11658 13755 13778 13785 16921 16923 16925 16926 16930 16932 16935 16936 16939 16941 16943 16944 
 	}
 	manpower=503631
+	buildings_max_level_factor=1.000
 	state_category=city
 }

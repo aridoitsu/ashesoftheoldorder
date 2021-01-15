@@ -1,0 +1,16 @@
+state={
+	id=1227
+	name="Klamath"
+	provinces={
+		4331 4347 6665 16993 16995 16998 17001 17002 17003 17007 17009 17010 17014 17016 17018 17021 17026 17029 17032 
+	}
+	history = {
+		owner = MOD
+		add_core_of = MOD
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=108892
+	state_category = town
+}
