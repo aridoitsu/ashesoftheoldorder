@@ -28637,6 +28637,1420 @@ animationtexturescale = { x = 1.0 y = 1.0 }
 legacy_lazy_load = no
 }
 
+SpriteType = {
+	name = "EDC_The_FBI_shine" 
+	texturefile = "gfx/interface/goals/EDC_The_FBI.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_The_FBI.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_The_FBI.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_raid_rebel_cells_shine“ 
+	texturefile = "gfx/interface/goals/EDC_raid_rebel_cells.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_raid_rebel_cells.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_raid_rebel_cells.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “EDC_expand_the_armories_shine“ 
+	texturefile = "gfx/interface/goals/EDC_expand_the_armories.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_raid_rebel_cells.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_expand_the_armories.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_raise_funds_shine“ 
+	texturefile = "gfx/interface/goals/EDC_raise_funds.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_raise_funds.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_raise_funds.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “EDC_contact_local_dealers_shine“ 
+	texturefile = "gfx/interface/goals/EDC_contact_local_dealers.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_contact_local_dealers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_contact_local_dealers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+SpriteType = {
+	name = “EDC_fund_rd_shine“ 
+	texturefile = "gfx/interface/goals/EDC_fund_rd.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_fund_rd.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_fund_rd.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “EDC_expand_cointelpro_shine“ 
+	texturefile = "gfx/interface/goals/EDC_expand_cointelpro.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_expand_cointelpro.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_expand_cointelpro.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “EDC_the_bishop_shine“ 
+	texturefile = "gfx/interface/goals/EDC_the_bishop.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_the_bishop.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_the_bishop.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “EDC_deal_with_the_devil_shine“ 
+	texturefile = "gfx/interface/goals/EDC_deal_with_the_devil.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_deal_with_the_devil.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_deal_with_the_devil.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+
+
+SpriteType = {
+	name = “EDC_the_nsa_shine“ 
+	texturefile = "gfx/interface/goals/EDC_the_nsa.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_the_nsa.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_the_nsa.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_hire_more_censore_shine“ 
+	texturefile = "gfx/interface/goals/EDC_hire_more_censore.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_hire_more_censore.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_hire_more_censore.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_expand_the_labor_camps_shine“ 
+	texturefile = "gfx/interface/goals/EDC_expand_the_labor_camps.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_expand_the_labor_camps.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_expand_the_labor_camps.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “EDC_eyes_everywhere_shine“ 
+	texturefile = "gfx/interface/goals/EDC_eyes_everywhere.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_eyes_everywhere.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_eyes_everywhere.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_the_mockingbird_sings_shine“ 
+	texturefile = "gfx/interface/goals/EDC_the_mockingbird_sings.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_the_mockingbird_sings.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_the_mockingbird_sings.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_enhanced_interrogation_shine“ 
+	texturefile = "gfx/interface/goals/EDC_enhanced_interrogation.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_enhanced_interrogation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_enhanced_interrogation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_goverment_misinformation_shine“ 
+	texturefile = "gfx/interface/goals/EDC_goverment_misinformation.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_goverment_misinformation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_goverment_misinformation.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+SpriteType = {
+	name = “EDC_the_knight_shine“ 
+	texturefile = "gfx/interface/goals/EDC_the_knight.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_the_knight.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_the_knight.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_collect_blackmail_shine“ 
+	texturefile = "gfx/interface/goals/EDC_collect_blackmail.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_collect_blackmail.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_collect_blackmail.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “EDC_bribe_the_generals_shine“ 
+	texturefile = "gfx/interface/goals/EDC_bribe_the_generals.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_bribe_the_generals.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_bribe_the_generals.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “EDC_the_midnight_knock_shine“ 
+	texturefile = "gfx/interface/goals/EDC_the_midnight_knock.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_the_midnight_knock.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_the_midnight_knock.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_intimidate_their_sympathizers_shine“ 
+	texturefile = "gfx/interface/goals/EDC_intimidate_their_sympathizers.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_intimidate_their_sympathizers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_intimidate_their_sympathizers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_learn_their_tactics_shine“ 
+	texturefile = "gfx/interface/goals/EDC_learn_their_tactics.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_learn_their_tactics.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_learn_their_tactics.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_expose_their_crimes_shine“ 
+	texturefile = "gfx/interface/goals/EDC_expose_their_crimes.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_expose_their_crimes.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_expose_their_crimes.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_turn_their_agents_shine“ 
+	texturefile = "gfx/interface/goals/EDC_turn_their_agents.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_turn_their_agents.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_turn_their_agents.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_arrange_accidents_shine“ 
+	texturefile = "gfx/interface/goals/EDC_arrange_accidents.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_arrange_accidents.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_arrange_accidents.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_hide_our_alliance_shine“ 
+	texturefile = "gfx/interface/goals/EDC_hide_our_alliance.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_hide_our_alliance.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_hide_our_alliance.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_divert_their_funding_shine“ 
+	texturefile = "gfx/interface/goals/EDC_divert_their_funding.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_divert_their_funding.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_divert_their_funding.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_the_one_who_knows_too_much_shine“ 
+	texturefile = "gfx/interface/goals/EDC_the_one_who_knows_too_much.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_the_one_who_knows_too_much.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_the_one_who_knows_too_much.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_checkmate_shine“ 
+	texturefile = "gfx/interface/goals/EDC_checkmate.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_checkmate.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_checkmate.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_a_tangled_web_we_weave_shine“ 
+	texturefile = "gfx/interface/goals/EDC_a_tangled_web_we_weave.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_a_tangled_web_we_weave.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_a_tangled_web_we_weave.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_recruit_new_operatives_shine“ 
+	texturefile = "gfx/interface/goals/EDC_recruit_new_operatives.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_recruit_new_operatives.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_recruit_new_operatives.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+
+SpriteType = {
+	name = “EDC_we_lied_we_cheated_we_stole_shine“ 
+	texturefile = "gfx/interface/goals/EDC_we_lied_we_cheated_we_stole.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_we_lied_we_cheated_we_stole.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_we_lied_we_cheated_we_stole.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_divert_funding_shine“ 
+	texturefile = "gfx/interface/goals/EDC_divert_funding.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_divert_funding.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_divert_funding.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_boots_on_the_ground_shine“ 
+	texturefile = "gfx/interface/goals/EDC_boots_on_the_ground.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_boots_on_the_ground.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_boots_on_the_ground.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_eyes_within_the_commission_shine“ 
+	texturefile = "gfx/interface/goals/EDC_eyes_within_the_commission.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_eyes_within_the_commission.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_eyes_within_the_commission.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+SpriteType = {
+	name = “EDC_project_hummingbird_shine“ 
+	texturefile = "gfx/interface/goals/EDC_project_hummingbird.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_project_hummingbird.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_project_hummingbird.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_the_king_shine“ 
+	texturefile = "gfx/interface/goals/EDC_the_king.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_the_king.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_the_king.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_investigate_the_fbi_shine“ 
+	texturefile = "gfx/interface/goals/EDC_investigate_the_fbi.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_investigate_the_fbi.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_investigate_the_fbi.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_investigate_the_cia_shine“ 
+	texturefile = "gfx/interface/goals/EDC_investigate_the_cia.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_investigate_the_cia.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_investigate_the_cia.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_use_the_prisons_shine“ 
+	texturefile = "gfx/interface/goals/EDC_use_the_prisons.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_use_the_prisons.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_use_the_prisons.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_arrest_drug_dealers_shine“ 
+	texturefile = "gfx/interface/goals/EDC_arrest_drug_dealers.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_arrest_drug_dealers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_arrest_drug_dealers.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+SpriteType = {
+	name = “EDC_pay_whistleblower_shine“ 
+	texturefile = "gfx/interface/goals/EDC_pay_whistleblower.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_pay_whistleblower.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_pay_whistleblower.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
+
+SpriteType = {
+	name = “EDC_crush_the_blackmarket_shine“ 
+	texturefile = "gfx/interface/goals/EDC_crush_the_blackmarket.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+animation = {
+animationmaskfile = "gfx/interface/goals/EDC_crush_the_blackmarket.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = -90.0
+animationlooping = no
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+
+animation = {
+	animationmaskfile = "gfx/interface/goals/EDC_crush_the_blackmarket.dds"
+animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+animationrotation = 90.0
+Animationtime = 0.75
+animationdelay = 0
+animationblendmode = "add"
+animationtype = "scrolling"
+animationrotationoffset = { x = 0.0 y = 0.0 }
+animationtexturescale = { x = 1.0 y = 1.0 } 
+}
+legacy_lazy_load = no
+}
+
+
 
 
 

@@ -13,4 +13,17 @@ NAK_debug = {
 			load_focus_tree = NAK_War1
 		}
 	}
+	NAK_load_socialist = {
+		allowed = {
+			tag = NAK
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		complete_effect = {
+			load_focus_tree = NAK_Libsoc
+		}
+	}
 }

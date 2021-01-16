@@ -4255,6 +4255,387 @@ spriteType = {
  name = "NSH_the_capitalist_dream" 
 texturefile = "gfx/interface/goals/NSH_the_capitalist_dream.dds"
  }
+spriteType = {
+ name = "Edc_the_cia" 
+texturefile = "gfx/interface/goals/Edc_the_cia.dds"
+}
+
+spriteType = {
+ name = "EDC_The_FBI" 
+texturefile = "gfx/interface/goals/EDC_The_FBI.dds"
+}
+
+spriteType = {
+ name = "EDC_raid_rebel_cells" 
+texturefile = "gfx/interface/goals/EDC_raid_rebel_cells.dds"
+}
+
+spriteType = {
+ name = "EDC_expand_the_armories" 
+texturefile = "gfx/interface/goals/EDC_expand_the_armories.dds"
+}
+
+
+spriteType = {
+ name = "EDC_raise_funds" 
+texturefile = "gfx/interface/goals/EDC_raise_funds.dds"
+}
+
+spriteType = {
+ name = "EDC_contact_local_dealers" 
+texturefile = "gfx/interface/goals/EDC_contact_local_dealers.dds"
+}
+
+
+spriteType = {
+ name = "EDC_fund_rd" 
+texturefile = "gfx/interface/goals/EDC_fund_rd.dds"
+}
+
+
+spriteType = {
+ name = "EDC_expand_cointelpro" 
+texturefile = "gfx/interface/goals/EDC_expand_cointelpro.dds"
+}
+
+
+spriteType = {
+ name = "EDC_the_bishop" 
+texturefile = "gfx/interface/goals/EDC_the_bishop.dds"
+}
+
+
+spriteType = {
+ name = "EDC_deal_with_the_devil" 
+texturefile = "gfx/interface/goals/EDC_deal_with_the_devil.dds"
+}
+
+
+spriteType = {
+ name = "EDC_the_nsa" 
+texturefile = "gfx/interface/goals/EDC_the_nsa.dds"
+}
+
+
+spriteType = {
+ name = "EDC_hire_more_censore" 
+texturefile = "gfx/interface/goals/EDC_hire_more_censore.dds"
+}
+
+
+spriteType = {
+ name = "EDC_expand_the_labor_camps" 
+texturefile = "gfx/interface/goals/EDC_expand_the_labor_camps.dds"
+}
+
+
+spriteType = {
+ name = "EDC_eyes_everywhere" 
+texturefile = "gfx/interface/goals/EDC_eyes_everywhere.dds"
+}
+
+
+spriteType = {
+ name = "EDC_the_mockingbird_sings" 
+texturefile = "gfx/interface/goals/EDC_the_mockingbird_sings.dds"
+}
+
+
+spriteType = {
+ name = "EDC_enhanced_interrogation" 
+texturefile = "gfx/interface/goals/EDC_enhanced_interrogation.dds"
+}
+
+
+
+spriteType = {
+ name = "EDC_goverment_misinformation" 
+texturefile = "gfx/interface/goals/EDC_goverment_misinformation.dds"
+}
+
+
+
+spriteType = {
+ name = "EDC_the_knight" 
+texturefile = "gfx/interface/goals/EDC_the_knight.dds"
+}
+
+
+spriteType = {
+ name = "EDC_collect_blackmail" 
+texturefile = "gfx/interface/goals/EDC_collect_blackmail.dds"
+}
+
+
+spriteType = {
+ name = "EDC_bribe_the_generals" 
+texturefile = "gfx/interface/goals/EDC_bribe_the_generals.dds"
+}
+
+
+
+
+spriteType = {
+ name = "EDC_the_midnight_knock" 
+texturefile = "gfx/interface/goals/EDC_the_midnight_knock.dds"
+}
+
+
+spriteType = {
+ name = "EDC_intimidate_their_sympathizers" 
+texturefile = "gfx/interface/goals/EDC_intimidate_their_sympathizers.dds"
+}
+
+
+spriteType = {
+ name = "EDC_learn_their_tactics" 
+texturefile = "gfx/interface/goals/EDC_learn_their_tactics.dds"
+}
+
+
+
+spriteType = {
+ name = "EDC_expose_their_crimes" 
+texturefile = "gfx/interface/goals/EDC_expose_their_crimes.dds"
+}
+
+
+spriteType = {
+ name = "EDC_turn_their_agents" 
+texturefile = "gfx/interface/goals/EDC_turn_their_agents.dds"
+}
+
+
+
+spriteType = {
+ name = "EDC_arrange_accidents" 
+texturefile = "gfx/interface/goals/EDC_arrange_accidents.dds"
+}
+
+
+
+
+spriteType = {
+ name = "EDC_hide_our_alliance" 
+texturefile = "gfx/interface/goals/EDC_hide_our_alliance.dds"
+}
+
+spriteType = {
+ name = "EDC_divert_their_funding" 
+texturefile = "gfx/interface/goals/EDC_divert_their_funding.dds"
+}
+
+
+spriteType = {
+ name = "EDC_the_one_who_knows_too_much" 
+texturefile = "gfx/interface/goals/EDC_the_one_who_knows_too_much.dds"
+}
+
+
+
+
+spriteType = {
+ name = "EDC_checkmate" 
+texturefile = "gfx/interface/goals/EDC_checkmate.dds"
+}
+
+
+
+
+spriteType = {
+ name = "EDC_a_tangled_web_we_weave" 
+texturefile = "gfx/interface/goals/EDC_a_tangled_web_we_weave.dds"
+}
+
+
+spriteType = {
+ name = "EDC_recruit_new_operatives" 
+texturefile = "gfx/interface/goals/EDC_recruit_new_operatives.dds"
+}
+
+
+
+spriteType = {
+ name = "EDC_we_lied_we_cheated_we_stole" 
+texturefile = "gfx/interface/goals/EDC_we_lied_we_cheated_we_stole.dds"
+}
+
+
+spriteType = {
+ name = "EDC_divert_funding" 
+texturefile = "gfx/interface/goals/EDC_divert_funding.dds"
+}
+
+
+spriteType = {
+ name = "EDC_boots_on_the_ground" 
+texturefile = "gfx/interface/goals/EDC_boots_on_the_ground.dds"
+}
+
+
+spriteType = {
+ name = "EDC_eyes_within_the_commission" 
+texturefile = "gfx/interface/goals/EDC_eyes_within_the_commission.dds"
+}
+
+
+spriteType = {
+ name = "EDC_project_hummingbird" 
+texturefile = "gfx/interface/goals/EDC_project_hummingbird.dds"
+}
+
+
+
+spriteType = {
+ name = "EDC_the_king" 
+texturefile = "gfx/interface/goals/EDC_the_king.dds"
+}
+
+
+
+
+
+spriteType = {
+ name = "EDC_investigate_the_fbi" 
+texturefile = "gfx/interface/goals/EDC_investigate_the_fbi.dds"
+}
+
+
+spriteType = {
+ name = "EDC_investigate_the_cia" 
+texturefile = "gfx/interface/goals/EDC_investigate_the_cia.dds"
+}
+
+
+spriteType = {
+ name = "EDC_use_the_prisons" 
+texturefile = "gfx/interface/goals/EDC_use_the_prisons.dds"
+}
+
+
+spriteType = {
+ name = "EDC_arrest_drug_dealers" 
+texturefile = "gfx/interface/goals/EDC_arrest_drug_dealers.dds"
+}
+
+
+
+spriteType = {
+ name = "EDC_pay_whistleblower" 
+texturefile = "gfx/interface/goals/EDC_pay_whistleblower.dds"
+}
+
+
+
+spriteType = {
+ name = "EDC_crush_the_blackmarket" 
+texturefile = "gfx/interface/goals/EDC_crush_the_blackmarket.dds"
+}
+
+
+
+
+spriteType = {
+ name = "EDC_pay_the_media" 
+texturefile = "gfx/interface/goals/EDC_pay_the_media.dds"
+}
+
+spriteType = {
+ name = "EDC_claw_out_their_eyes" 
+texturefile = "gfx/interface/goals/EDC_claw_out_their_eyes.dds"
+}
+
+
+spriteType = {
+ name = "EDC_one_agency_indivisible" 
+texturefile = "gfx/interface/goals/EDC_one_agency_indivisible.dds"
+}
+
+
+spriteType = {
+ name = "EDC_infiltrate_deleware" 
+texturefile = "gfx/interface/goals/EDC_infiltrate_deleware.dds"
+}
+
+
+spriteType = {
+ name = "EDC_use_brown" 
+texturefile = "gfx/interface/goals/EDC_use_brown.dds"
+}
+
+
+spriteType = {
+ name = "EDC_good_cop" 
+texturefile = "gfx/interface/goals/EDC_good_cop.dds"
+}
+
+
+spriteType = {
+ name = "EDC_bad_cop" 
+texturefile = "gfx/interface/goals/EDC_bad_cop.dds"
+}
+
+spriteType = {
+ name = "EDC_flex_our_muscles" 
+texturefile = "gfx/interface/goals/EDC_flex_our_muscles.dds"
+}
+
+
+spriteType = {
+ name = "EDC_a_good_life" 
+texturefile = "gfx/interface/goals/EDC_a_good_life.dds"
+}
+
+
+
+spriteType = {
+ name = "EDC_move_in" 
+texturefile = "gfx/interface/goals/EDC_move_in.dds"
+}
+
+
+spriteType = {
+ name = "EDC_the_next_step" 
+texturefile = "gfx/interface/goals/EDC_the_next_step.dds"
+}
+
+spriteType = {
+ name = "EDC_use_the_board" 
+texturefile = "gfx/interface/goals/EDC_use_the_board.dds"
+}
+
+
+
+spriteType = {
+ name = "EDC_talk_to_the_cooperative_ones" 
+texturefile = "gfx/interface/goals/EDC_talk_to_the_cooperative_ones.dds"
+}
+
+
+
+
+
+spriteType = {
+ name = "EDC_disappear_the_bad_ones" 
+texturefile = "gfx/interface/goals/EDC_disappear_the_bad_ones.dds"
+}
+
+spriteType = {
+ name = "EDC_the_dover_papers" 
+texturefile = "gfx/interface/goals/EDC_the_dover_papers.dds"
+}
+
+
+spriteType = {
+ name = "EDC_negotiations_with_the_army" 
+texturefile = "gfx/interface/goals/EDC_negotiations_with_the_army.dds"
+}
+
+spriteType = {
+ name = "EDC_the_first_step" 
+texturefile = "gfx/interface/goals/EDC_the_first_step.dds"
+}
+
 
 
 }
