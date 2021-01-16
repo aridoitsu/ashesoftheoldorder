@@ -1,7 +1,7 @@
 
 strategic_region={
 	id=219
-	name="Baja Ca;ifornia"
+	name="Baja California"
 	provinces={
 		1892 1904 3678 7964 8119 9637 12461 12736 12859 13215 13216 13395 13404 13419 13467 16862 
 	}

@@ -18,4 +18,5 @@ state={
 		}
 	}
 	manpower=277790
+	state_category = city
 }

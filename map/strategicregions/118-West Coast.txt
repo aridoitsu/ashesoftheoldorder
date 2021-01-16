@@ -3,7 +3,7 @@ strategic_region={
 	id=118
 	name="Oregon"
 	provinces={
-		17104 
+		# 
 	}
 	weather={
 		period={
