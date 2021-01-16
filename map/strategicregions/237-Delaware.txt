@@ -3,7 +3,7 @@ strategic_region={
 	id=237
 	name="Delmarva"
 	provinces={
-		3917 6892 9758 9786 13066 13753 13806 13812 13814 13825 13837 15573 
+		# 
 	}
 	weather={
 	}
