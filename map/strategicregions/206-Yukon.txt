@@ -1,0 +1,10 @@
+
+strategic_region={
+	id=206
+	name="Yukon"
+	provinces={
+		7869 15617 15618 15625 15690 15734 15735 
+	}
+	weather={
+	}
+}

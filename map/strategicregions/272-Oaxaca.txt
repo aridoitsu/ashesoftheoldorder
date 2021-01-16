@@ -1,9 +1,0 @@
-strategic_region={
-	id=272
-	name="Oaxaca"
-	provinces={
-		8236 10773 12712 13337 13343 
-	}
-	weather={
-	}
-}

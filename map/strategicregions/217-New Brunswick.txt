@@ -1,0 +1,10 @@
+
+strategic_region={
+	id=217
+	name="New Brunswick"
+	provinces={
+		14155 14176 14248 14255 14268 14295 14296 
+	}
+	weather={
+	}
+}

@@ -1,0 +1,10 @@
+
+strategic_region={
+	id=214
+	name="Newfoundland"
+	provinces={
+		373	 12505 12680 12698 14282 14286 14337 14381 14386 14406 14419 14504 14642
+	}
+	weather={
+	}
+}
