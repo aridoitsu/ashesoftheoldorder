@@ -61,6 +61,10 @@ set_politics = {
 #add_to_faction = WDC
 
 add_ideas = {
+EDC_Inter_Agency_Rivalry_CIA 
+EDC_Thought_Crime 
+EDC_Country_Wide_Camp 
+EDC_Last_Thread_of_America 
 }
 set_popularities = {
 	democratic = 20
