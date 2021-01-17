@@ -9,8 +9,8 @@ state={
 			16231 3 
 		}
 
-		owner = MJV
-		add_core_of = MJV
+		owner = SDG
+		add_core_of = SDG
 
 		buildings = {
 			infrastructure = 4

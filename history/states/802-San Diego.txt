@@ -2,7 +2,7 @@ state={
 	id=802
 	name="San Diego"
 	history = {
-		owner = MJV
+		owner = SDG
 		buildings = {
 			infrastructure = 7
 			dockyard = 2
@@ -11,7 +11,7 @@ state={
 				naval_base = 10
 			}
 		}
-		add_core_of = MJV
+		add_core_of = SDG
 		victory_points = {
 			1562 20
 		}

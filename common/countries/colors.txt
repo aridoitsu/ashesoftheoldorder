@@ -1678,3 +1678,9 @@ PAI = {
 	color = rgb { 145 150 80 }
 	color_ui = rgb { 145 150 80 }
 }
+
+# San Diego
+SDG = {
+	color = rgb { 120 150 170 }
+	color_ui = rgb { 120 150 170 }
+}

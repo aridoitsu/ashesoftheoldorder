@@ -271,8 +271,6 @@ NVJ = "countries/Navajo.txt"
 PRV = "countries/Wasatch.txt"
 PNX = "countries/Phoenix.txt"
 TCN = "countries/Tusca.txt"
-MJV = "countries/Mojave.txt"
-NEV = "countries/Sierra Nevada.txt"
 BOI = "countries/Boise.txt"
 WDC = "countries/West Federal Forces.txt"
 YWS = "countries/Yellowstone.txt"
@@ -390,6 +388,12 @@ UNI = "countries/Pacific Northwest.txt" # Union
 CLU = "countries/Pacific Northwest.txt" # Columbia
 MLA = "countries/Pacific Northwest.txt" # Malheur
 PAI = "countries/Pacific Northwest.txt" # Painted Hill Complex
+
+# Western Sunbelt
+
+MJV = "countries/Mojave.txt"
+NEV = "countries/Sierra Nevada.txt"
+SDG = "countries/San Diego.txt"
 
 # Releaseables in Canada
 

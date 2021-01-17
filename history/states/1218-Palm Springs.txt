@@ -5,8 +5,8 @@ state={
 		823 7517 11757 11795 12303 16237 16238 16239 16241 16243 16244 16247 16250 
 	}
 	history = {
-		owner = MJV
-		add_core_of = MJV
+		owner = SDG
+		add_core_of = SDG
 		buildings = {
 			infrastructure = 6
 		}
