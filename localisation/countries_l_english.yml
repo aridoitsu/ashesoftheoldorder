@@ -4020,20 +4020,6 @@
    DEL_democratic_ADJ:0 "Delmarvan"
    DEL_prodem_ADJ:0 "Delmarvan"
 
-   EDC_liberal:0 "Federal Forces"
-   EDC_liberal_DEF:0 "Federal Forces"
-   EDC_democratic:0 "Federal Forces"
-   EDC_democratic_DEF:0 "Federal Forces"
-   EDC_prodem:0 "Federal Forces"
-   EDC_prodem_DEF:0 "Federal Forces"
-   EDC_neutrality:0 "Federal Forces"
-   EDC_neutrality_DEF:0 "Federal Forces"
-   ###############################
-   EDC_neutrality_ADJ:0 "American"
-   EDC_liberal_ADJ:0 "American"
-   EDC_democratic_ADJ:0 "American"
-   EDC_prodem_ADJ:0 "American"
-
    PHL_liberal:0 "Philadelphia"
    PHL_liberal_DEF:0 "Philadelphia"
    PHL_democratic:0 "Philadelphia"

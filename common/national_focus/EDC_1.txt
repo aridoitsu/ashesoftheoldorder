@@ -143,7 +143,7 @@ focus = {
 
 focus = { 
       id = EDC_the_nsa
-        icon = EDC_nsa 
+        icon = EDC_the_nsa 
          cost = 2
         x = 12
         y = 1
@@ -597,8 +597,8 @@ focus = {
 
 
 focus = { 
-      id = EDC_investigate_the_cia
-        icon = EDC_investigate_the_cia
+      id = EDC_investigate_the_nsa
+        icon = EDC_investigate_the_nsa
          cost = 2
         x = 19
         y = 6
@@ -617,7 +617,7 @@ focus = {
         x = 19
         y = 7
       prerequisite = {
-            focus = EDC_investigate_the_cia
+            focus = EDC_investigate_the_nsa
       }
         completion_reward = {
 
@@ -649,7 +649,7 @@ focus = {
             focus = EDC_investigate_the_fbi
       }
          prerequisite = {
-            focus = EDC_investigate_the_cia
+            focus = EDC_investigate_the_nsa
       }
         completion_reward = {
 
@@ -849,7 +849,7 @@ focus = {
 focus = { 
       id = EDC_use_the_board
         icon = EDC_use_the_board
-         cost =  cost = 2
+         cost = 2
         x = 26
         y = 6
       prerequisite = {
