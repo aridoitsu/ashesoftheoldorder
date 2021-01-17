@@ -1,4 +1,4 @@
-capital = 1
+capital = 385
 
 set_research_slots = 3
 
@@ -55,19 +55,10 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
+
 set_popularities = {
-	democratic = 0
 	neutrality = 11
 	authdem = 3
-	liberal = 0
-	demsoc = 0
-	prodem = 0
-	communism = 0
-	totalsoc = 0
-	libsoc = 0
-	anarchy = 0
 	fascism = 18
 	ultranationalism = 68
 }

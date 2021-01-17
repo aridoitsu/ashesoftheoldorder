@@ -9,8 +9,8 @@ state={
 			infrastructure = 5
 		}
 
-		owner = OLY
-		add_core_of = OLY
+		owner = CHE
+		add_core_of = CHE
 	}
 	manpower=142844
 	state_category = town

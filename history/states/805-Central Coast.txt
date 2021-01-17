@@ -15,10 +15,10 @@ state={
 		}
 		add_core_of = GOL
 		victory_points = {
-			14966 5
+			16865 5
 		}
 		victory_points = {
-			11859 10
+			16866 10
 		}
 	}
 	provinces={

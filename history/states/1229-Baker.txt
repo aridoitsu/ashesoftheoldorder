@@ -1,0 +1,16 @@
+state={
+	id=1229
+	name="Baker"
+	provinces={
+		7721 13990 16173 16175 16176 16177 16178 16179 
+	}
+	history = {
+		owner = UNI
+		add_core_of = UNI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=44589
+	state_category = rural
+}

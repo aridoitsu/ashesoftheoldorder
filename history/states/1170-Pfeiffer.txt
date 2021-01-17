@@ -12,10 +12,14 @@ state={
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-
 		}
 		add_core_of = GOL
-
+		victory_points = {
+			16878 5 
+		}
+		victory_points = {
+			16890 3
+		}
 	}
 
 	provinces={

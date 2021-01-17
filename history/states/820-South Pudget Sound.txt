@@ -4,8 +4,8 @@ state={
 	name="Pudget Sound"
 
 	history={
-		owner = OLY
-		add_core_of = OLY
+		owner = SEA
+		add_core_of = SEA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -16,9 +16,6 @@ state={
 		}
 		victory_points = {
 			14234 18 
-		}
-		victory_points = {
-			14287 12 
 		}
 
 	}

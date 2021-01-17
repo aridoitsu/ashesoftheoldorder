@@ -1,0 +1,32 @@
+﻿l_english:
+ SEA:0 "Seattle"
+ SEA_DEF:0 "Seattle"
+ SEA_ADJ:0 "Seattlite"
+
+ CHE:0 "Chelan"
+ CHE_DEF:0 "Chelan"
+ CHE_ADJ:0 "Chelanan"
+
+ SPK:0 "Spokane"
+ SPK_DEF:0 "Spokane"
+ SPK_ADJ:0 "Spokanite"
+
+ SNK:0 "Snake"
+ SNK_DEF:0 "Snake"
+ SNK_ADJ:0 "Snake"
+
+ UNI:0 "Union"
+ UNI_DEF:0 "Union"
+ UNI_ADJ:0 "Unioner"
+
+ CLU:0 "Columbia"
+ CLU_DEF:0 "Columbia"
+ CLU_ADJ:0 "Columbian"
+
+ MLA:0 "Malheur"
+ MLA_DEF:0 "Malheur"
+ MLA_ADJ:0 "Malheuran"
+
+ PAI:0 "Painted Hills Complex"
+ PAI_DEF:0 "the Painted Hills Complex"
+ PAI_ADJ:0 "Worshipper"

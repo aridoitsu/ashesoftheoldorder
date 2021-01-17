@@ -1,4 +1,4 @@
-capital = 814
+capital = 1224
 
 set_research_slots = 3
 
@@ -50,24 +50,15 @@ set_technology = {
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = prodem
+	ruling_party = ultranationalism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
+
 set_popularities = {
-	democratic = 9
-	neutrality = 0
-	authdem = 0
-	liberal = 18
-	demsoc = 34
-	prodem = 37
-	communism = 0
-	totalsoc = 0
-	libsoc = 2
-	anarchy = 0
-	fascism = 0
-	ultranationalism = 0
+	neutrality = 11
+	authdem = 3
+	fascism = 18
+	ultranationalism = 68
 }

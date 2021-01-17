@@ -15,10 +15,10 @@ state={
 		}
 		add_core_of = CPA
 		victory_points = {
-			13711 7 
+			16911 10 
 		}
 		victory_points = {
-			9671 30 
+			16904 20 
 		}
 
 	}

@@ -55,19 +55,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = {
-}
+
 set_popularities = {
-	democratic = 0
-	neutrality = 0
-	authdem = 0
-	liberal = 0
 	demsoc = 6
-	prodem = 0
 	communism = 19
 	totalsoc = 7
 	libsoc = 24
 	anarchy = 44
-	fascism = 0
-	ultranationalism = 0
 }

@@ -1,5 +1,5 @@
 ﻿l_english:
-  VICTORY_POINTS_9671:0 "San Jose"
+  VICTORY_POINTS_16904:0 "San Jose"
   VICTORY_POINTS_10370:0 "Branson"
   VICTORY_POINTS_4569:0 "St. Louis"
    VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
@@ -367,7 +367,6 @@
    VICTORY_POINTS_6890:0 "Cleveland"
    VICTORY_POINTS_7138:0 "Charlotte"
    VICTORY_POINTS_7202:0 "Charleston"
-   VICTORY_POINTS_7315:0 "Seattle"
    VICTORY_POINTS_7480:0 "Mobile"
    VICTORY_POINTS_7552:0 "New Orleans"
    VICTORY_POINTS_9713:0 "Sacramento"
@@ -383,7 +382,6 @@
    VICTORY_POINTS_12782:0 "San Antonio"
    VICTORY_POINTS_3778:0 "Ottawa"
    VICTORY_POINTS_3775:0 "Toronto"
-   VICTORY_POINTS_1408:0 "Vancouver"
    VICTORY_POINTS_4345:0 "Montréal"
    VICTORY_POINTS_7361:0 "Halifax"
    VICTORY_POINTS_12149:0 "Québec"
@@ -935,17 +933,18 @@
      VICTORY_POINTS_9713:0 "Elk Grove"
    #San Francisco
      VICTORY_POINTS_13717:0 "San Francisco"
-     VICTORY_POINTS_13711:0 "Oakland"
+     VICTORY_POINTS_16911:0 "Oakland"
      VICTORY_POINTS_13698:0 "Palo Alto"
-     VICTORY_POINTS_9671:2 "San Jose"
    #Los Angeles
      VICTORY_POINTS_13585:0 "Anaheim"
      VICTORY_POINTS_13574:0 "Long Beach"
      VICTORY_POINTS_13597:0 "Pasadena"
      VICTORY_POINTS_13592:0 "Santa Monica"
    #Not Thick Cities
-     VICTORY_POINTS_11859:0 "Ventura"
-     VICTORY_POINTS_14966:0 "Santa Barbara"
+     VICTORY_POINTS_16866:0 "Ventura"
+     VICTORY_POINTS_16865:0 "Santa Barbara"
+     VICTORY_POINTS_16878:0 "Santa Maria"
+     VICTORY_POINTS_16890:0 "Salinas"
      VICTORY_POINTS_4518:0 "Fresno"
      VICTORY_POINTS_15915:0 "Clovis"
      VICTORY_POINTS_15914:0 "Selma"
@@ -1530,10 +1529,10 @@
      VICTORY_POINTS_14059:0 "East Montpelier"
      VICTORY_POINTS_14066:0 "Calais"
    ##Washington
-     VICTORY_POINTS_14234:0 "Olympia"
-     VICTORY_POINTS_14287:0 "Tacoma"
-     VICTORY_POINTS_7315:0 "Seattle"
-     VICTORY_POINTS_10157:0 "Everett"
+     #VICTORY_POINTS_14234:0 "Olympia"
+     #VICTORY_POINTS_14287:0 "Tacoma"
+     #VICTORY_POINTS_7315:0 "Seattle"
+     #VICTORY_POINTS_10157:0 "Everett"
      VICTORY_POINTS_10155:0 "Yakima"
      VICTORY_POINTS_4747:0 "Kennewick"
      VICTORY_POINTS_1690:0 "Spokane"
@@ -1594,8 +1593,6 @@
      VICTORY_POINTS_13829:0 "Duchesne"
      VICTORY_POINTS_13838:0 "Payson"
      VICTORY_POINTS_13609:0 "Window Rock"
-     VICTORY_POINTS_4296:0 "Sequim"
-     VICTORY_POINTS_4398:0 "Aberdeen"
      VICTORY_POINTS_12183:0 "Dalles"
      VICTORY_POINTS_12573:0 "Delta"
      VICTORY_POINTS_15265:0 "Vatican City"
@@ -1834,6 +1831,11 @@
  VICTORY_POINTS_10244:0 "Port Hawkesbury"
  VICTORY_POINTS_14159:0 "Chéticamp"
  VICTORY_POINTS_4432:0 "Caraquet"
+ VICTORY_POINTS_14441:0 "Vancouver"
+ VICTORY_POINTS_14442:0 "Surrey"
+ VICTORY_POINTS_4428:0 "Abbotsford"
+ VICTORY_POINTS_14443:0 "Chilliwack"
+ VICTORY_POINTS_1408:0 "Coquitlam"
 
  # Alaska
 
@@ -1934,3 +1936,21 @@
  VICTORY_POINTS_16239:0 "Palm Springs"
  VICTORY_POINTS_823:0 "Palm Desert"
  VICTORY_POINTS_16231:0 "Imperial"
+
+ # Painted Hill
+
+ VICTORY_POINTS_17102:0 "Dawngate"
+ VICTORY_POINTS_14013:0 "Ironheart"
+
+ # Seattle
+
+ VICTORY_POINTS_14287:0 "Seattle"
+ VICTORY_POINTS_6881:0 "Tacoma"
+ VICTORY_POINTS_11859:0 "Everett"
+ VICTORY_POINTS_7315:0 "Lynnwood"
+ VICTORY_POINTS_14966:0 "Redmond"
+ VICTORY_POINTS_10157:0 "Bellingham"
+ VICTORY_POINTS_17196:0 "Ozette"
+ VICTORY_POINTS_14234:0 "Olympia"
+ VICTORY_POINTS_4398:0 "Aberdeen"
+ VICTORY_POINTS_4296:0 "Sequim"

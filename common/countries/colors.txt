@@ -1255,30 +1255,6 @@ NEV = {
 	color = rgb { 158 63 63 }
 	color_ui = { 158 63 63 }
 }
-DUG = {
-	color = rgb { 204 110 39 }
-	color_ui = { 204 110 39 }
-}
-SNK = {
-	color = rgb { 191 40 40 }
-	color_ui = { 191 40 40 }
-}
-PRT = {
-	color = rgb { 49 65 158 }
-	color_ui = { 49 65 158 }
-}
-OLY = {
-	color = rgb { 27 71 50 }
-	color_ui = { 27 71 50 }
-}
-SEA = {
-	color = rgb { 7 116 171 }
-	color_ui = { 7 116 171 }
-}
-SPK = {
-	color = rgb { 194 171 87 }
-	color_ui = { 194 171 87 }
-}
 BOI = {
 	color = rgb { 184 167 44 }
 	color_ui = { 184 167 44 }
@@ -1535,54 +1511,6 @@ AKA = {
 	color = rgb { 20 100 120 }
 	color_ui = rgb { 20 100 120 }
 }
-ADI = {
-	color = rgb { 105 135 6 }
-	color_ui = rgb { 105 135 6 }
-}
-SRV = {
-	color = rgb { 207 38 77 }
-	color_ui = rgb { 207 38 77 }
-}
-GMB = {
-	color = rgb { 138 113 48 }
-	color_ui = rgb { 138 113 48 }
-}
-MPL = {
-	color = rgb { 158 45 45 }
-	color_ui = rgb { 158 45 45 }
-}
-MSG = {
-	color = rgb { 211 212 176 }
-	color_ui = rgb { 211 212 176 }
-}
-BSN = {
-	color = rgb { 130 21 52 }
-	color_ui = rgb { 130 21 52 }
-}
-MEM = {
-	color = rgb { 133 62 0 }
-	color_ui = rgb { 133 62 0 }
-}
-RIR = {
-	color = rgb { 191 159 31 }
-	color_ui = rgb { 191 159 31 }
-}
-MAM = {
-	color = rgb { 94 72 122 }
-	color_ui = rgb { 94 72 122 }
-}
-NHN = {
-	color = rgb { 68 109 148 }
-	color_ui = rgb { 68 109 148 }
-}
-CTC = {
-	color = rgb { 96 143 142 }
-	color_ui = rgb { 96 143 142 }
-}
-VTV = {
-	color = rgb { 61 92 39 }
-	color_ui = rgb { 61 92 39 }
-}
 NSM = {
 	color = rgb { 96 96 96 }
 	color_ui = rgb { 96 96 96 }
@@ -1701,4 +1629,52 @@ KAC = {
 KUM = {
 	color = rgb { 30 40 145 }
 	color_ui = rgb { 30 40 145 }
+}
+
+# Seattle
+SEA = {
+	color = rgb { 7 116 171 }
+	color_ui = { 7 116 171 }
+}
+
+# Chelan
+CHE = {
+	color = rgb { 25 65 30 }
+	color_ui = rgb { 25 65 30 }
+}
+
+# Spokane
+SPK = {
+	color = rgb { 194 171 87 }
+	color_ui = { 194 171 87 }
+}
+
+# Columbia
+CLU = {
+	color = rgb { 204 110 39 }
+	color_ui = { 204 110 39 }
+}
+
+# Malheur
+MLA = {
+	color = rgb { 50 70 125 }
+	color_ui = rgb { 50 70 125 }
+}
+
+# Snake
+SNK = {
+	color = rgb { 191 40 40 }
+	color_ui = { 191 40 40 }
+}
+
+# Union
+UNI = {
+	color = rgb { 140 100 120 }
+	color_ui = rgb { 140 100 120 }
+}
+
+# Painted Hill
+PAI = {
+	color = rgb { 145 150 80 }
+	color_ui = rgb { 145 150 80 }
 }

@@ -4,8 +4,8 @@ state={
 	name="Columbia Delta"
 
 	history={
-		owner = PRT
-		add_core_of = PRT
+		owner = CLU
+		add_core_of = CLU
 		buildings = {
 			infrastructure = 5
 			dockyard = 2

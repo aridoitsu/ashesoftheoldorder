@@ -273,12 +273,6 @@ PNX = "countries/Phoenix.txt"
 TCN = "countries/Tusca.txt"
 MJV = "countries/Mojave.txt"
 NEV = "countries/Sierra Nevada.txt"
-DUG = "countries/Douglas.txt"
-SNK = "countries/Snake.txt"
-PRT = "countries/Portland.txt"
-OLY = "countries/Olympia.txt"
-SEA = "countries/Seattle.txt"
-SPK = "countries/Spokane.txt"
 BOI = "countries/Boise.txt"
 WDC = "countries/West Federal Forces.txt"
 YWS = "countries/Yellowstone.txt"
@@ -347,6 +341,35 @@ TRA = "countries/Algerian Republic.txt"
 LSG = "countries/Lansing.txt"
 MCH = "countries/Michigan.txt"
 AHR = "countries/AHR.txt"
+AKA = "countries/Alaska.txt"
+LIE = "countries/Liechtenstein.txt"
+NSM = "countries/North Salmon Militia.txt"
+
+#NE Collapse tags
+#MAM = "countries/Massachusetts.txt"
+#BSN = "countries/Boston.txt"
+#RIR = "countries/Rhode Island.txt"
+#CTC = "countries/Connecticut.txt"
+#MEM = "countries/Maine.txt"
+#VTV = "countries/Vermont.txt"
+#NHN = "countries/New Hampshire.txt"
+#ADI = "countries/Adirondacks.txt"
+#SRV = "countries/Socialist Vermont.txt"
+#MSG = "countries/Salvation Government of Maine.txt"
+#GMB = "countries/Green Mountain Boys.txt"
+#MPL = "countries/Portland Maine.txt"
+
+# Caucasus
+
+KNR = "countries/Kuban National Republic.txt"
+KSD = "countries/Kransnodar.txt"
+STV = "countries/Stavropol.txt"
+KMY = "countries/Kalmykia Republic.txt"
+MRP = "countries/Mountain Republic.txt"
+DGS = "countries/Dagestan.txt"
+
+# California
+
 LAF = "countries/Los Angeles.txt"
 CAL = "countries/Free California.txt"
 JEF = "countries/Jefferson.txt"
@@ -354,30 +377,22 @@ MOD = "countries/Modoc.txt"
 CPA = "countries/CPA.txt"
 SIL = "countries/Silicon Valley.txt"
 GOL = "countries/Golden Coast.txt"
-AKA = "countries/Alaska.txt"
-LIE = "countries/Liechtenstein.txt"
-NSM = "countries/North Salmon Militia.txt"
-#NE Collapse tags
-MAM = "countries/Massachusetts.txt"
-BSN = "countries/Boston.txt"
-RIR = "countries/Rhode Island.txt"
-CTC = "countries/Connecticut.txt"
-MEM = "countries/Maine.txt"
-VTV = "countries/Vermont.txt"
-NHN = "countries/New Hampshire.txt"
-ADI = "countries/Adirondacks.txt"
-SRV = "countries/Socialist Vermont.txt"
-MSG = "countries/Salvation Government of Maine.txt"
-GMB = "countries/Green Mountain Boys.txt"
-MPL = "countries/Portland Maine.txt"
-#Cockasses Tags :troll:
-KNR = "countries/Kuban National Republic.txt"
-KSD = "countries/Kransnodar.txt"
-STV = "countries/Stavropol.txt"
-KMY = "countries/Kalmykia Republic.txt"
-MRP = "countries/Mountain Republic.txt"
-DGS = "countries/Dagestan.txt"
-#Canada Tags
+
+# Pacific Northwest
+
+SEA = "countries/Pacific Northwest.txt" # Seattle
+CHE = "countries/Pacific Northwest.txt" # Chelan
+SPK = "countries/Pacific Northwest.txt" # Spokane
+#OLY = "countries/Olympia.txt"
+#PRT = "countries/Portland.txt"
+SNK = "countries/Pacific Northwest.txt" # Snake
+UNI = "countries/Pacific Northwest.txt" # Union
+CLU = "countries/Pacific Northwest.txt" # Columbia
+MLA = "countries/Pacific Northwest.txt" # Malheur
+PAI = "countries/Pacific Northwest.txt" # Painted Hill Complex
+
+# Releaseables in Canada
+
 ABA = "countries/Alberta.txt"
 BCB = "countries/British Columbia.txt"
 MBM = "countries/Manitoba.txt"

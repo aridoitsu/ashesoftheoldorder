@@ -8,9 +8,32 @@ state={
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 2
-			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 3
+			14441 = {
+				naval_base = 5
+			}
+		}
 
+		victory_points = {
+			14441 20
+		}
+
+		victory_points = {
+			14442 15
+		}
+
+		victory_points = {
+			4428 10
+		}
+
+		victory_points = {
+			14443 5
+		}
+		
+		victory_points = {
+			1408 3
 		}
 
 	}

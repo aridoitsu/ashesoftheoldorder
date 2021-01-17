@@ -4,11 +4,21 @@ state={
 	name="Painted Hill"
 
 	history={
-		owner = DUG
-		add_core_of = DUG
+		owner = PAI
+		add_core_of = PAI
 		buildings = {
 			infrastructure = 2
+			14013 = {
+				bunker = 5
+			}
+		}
 
+		victory_points = {
+			14013 10
+		}
+		
+		victory_points = {
+			17102 3
 		}
 
 	}

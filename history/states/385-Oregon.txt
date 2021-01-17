@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = SNK
-		add_core_of = SNK
+		owner = UNI
+		add_core_of = UNI
 		buildings = {
 			infrastructure = 4
 

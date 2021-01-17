@@ -4,8 +4,8 @@ state={
 	name="Columbia Plateau"
 
 	history={
-		owner = PRT
-		add_core_of = PRT
+		owner = MLA
+		add_core_of = MLA
 		buildings = {
 			infrastructure = 4
 
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		1414 12183 17096 17098 17101 17106 17108 17110 17112 17116 17119 17120 17123 17124 17125 17126 17129 17225 
+		1414 7398 12183 14103 17095 17096 17097 17098 17101 17106 17108 17110 17112 17114 17116 17119 17120 17123 17124 17125 17126 17129 17225 
 	}
 	manpower=21456
 	buildings_max_level_factor=1.000

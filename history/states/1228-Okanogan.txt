@@ -1,0 +1,16 @@
+state={
+	id=1228
+	name="Okanogan"
+	provinces={
+		986 3784 3840 6861 7414 12214 14284 14316 14335 15912 17187 17189 17190 17195 17198 17206 17212 17215 17217 17221 
+	}
+	history = {
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=112349
+	state_category = town
+}
