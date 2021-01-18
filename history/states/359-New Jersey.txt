@@ -13,10 +13,14 @@ state={
 
 		}
 		add_core_of = PHL
+
 		victory_points = {
-			11782 10 
+			891 3
 		}
 
+		victory_points = {
+			11900 1
+		}
 	}
 
 	provinces={

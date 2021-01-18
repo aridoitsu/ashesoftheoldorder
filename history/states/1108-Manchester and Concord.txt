@@ -19,7 +19,7 @@ state={
 		}
 		add_core_of = NHN
 		victory_points = {
-			13988 3
+			13988 5
 		}
 		victory_points = {
 			733 10
@@ -31,7 +31,7 @@ state={
 			14007 1
 		}
 		victory_points = {
-			13997 1
+			13997 10
 		}
 		victory_points = {
 			13989 1

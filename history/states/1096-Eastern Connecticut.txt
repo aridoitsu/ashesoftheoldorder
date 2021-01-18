@@ -12,12 +12,14 @@ state={
 			dockyard = 3
 			9832 = {
 				naval_base = 4
-
 			}
-
 		}
+
+		victory_points = {
+			9832 3
+		}
+
 		add_core_of = CRA
-		add_core_of = CTC
 
 	}
 

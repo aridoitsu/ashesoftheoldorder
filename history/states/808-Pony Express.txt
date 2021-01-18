@@ -13,12 +13,7 @@ state={
 		add_core_of = NEV
 		buildings = {
 			infrastructure = 4
-
 		}
-		victory_points = {
-			13775 5 
-		}
-
 	}
 
 	provinces={

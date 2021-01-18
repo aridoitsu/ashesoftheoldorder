@@ -21,8 +21,21 @@ state={
 		}
 		add_core_of = PHL
 		victory_points = {
-			9864 15 
+			9864 10
 		}
+
+		victory_points = {
+			15782 15 
+		}
+
+		victory_points = {
+			11782 5
+		}
+
+		victory_points = {
+			9801 3
+		}
+
 
 	}
 

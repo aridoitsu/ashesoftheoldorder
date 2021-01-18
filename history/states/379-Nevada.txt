@@ -16,7 +16,11 @@ state={
 		}
 		add_core_of = NEV
 		victory_points = {
-			7879 3 
+			13775 5 
+		}
+
+		victory_points = {
+			16318 1
 		}
 
 	}

@@ -8,10 +8,8 @@ state={
 
 	history={
 		owner = CRA
-		add_core_of = BSN
-		add_core_of = MAM
 		buildings = {
-			infrastructure = 6
+			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 1
 			dockyard = 4
@@ -24,24 +22,26 @@ state={
 		}
 		add_core_of = CRA
 		victory_points = {
-			13961 20 
+			13961 25
+		}
+		victory_points = {
+			6732 15
+		}
+		victory_points = {
+			13960 10
 		}
 		victory_points = {
 			13964 3 
 		}
 		victory_points = {
-			13969 1 
-		}
-		victory_points = {
-			6739 1 
+			13969 5
 		}
 
 	}
 
 	provinces={
-		905 3906 6732 13908 13918 13948 13960 13961 13964 13969 15812 15858 
+		6732 13960 13961 13964 13969 
 	}
-	manpower=952773
-	buildings_max_level_factor=1.000
+	manpower=2709676
 	state_category=megalopolis
 }

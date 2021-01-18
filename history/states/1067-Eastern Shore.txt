@@ -17,7 +17,7 @@ state={
 			9758 1 
 		}
 		victory_points = {
-			13806 3 
+			13806 8 
 		}
 		victory_points = {
 			13814 5 
@@ -28,7 +28,15 @@ state={
 		victory_points = {
 			13812 1 
 		}
-
+		victory_points = {
+			6892 3
+		}
+		victory_points = {
+			15573 1
+		}
+		victory_points = {
+			9786 5
+		}
 	}
 
 	provinces={

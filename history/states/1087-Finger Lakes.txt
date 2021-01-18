@@ -20,6 +20,15 @@ state={
 		victory_points = {
 			11817 1 
 		}
+		victory_points = {
+			3747 1
+		}
+		victory_points = {
+			15849 3
+		}
+		victory_points = {
+			15831 1
+		}
 		add_core_of = PEN
 
 	}

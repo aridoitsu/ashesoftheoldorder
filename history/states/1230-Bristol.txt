@@ -1,0 +1,37 @@
+state={
+	id=1230
+	name="Bristol"
+	provinces={
+		905 3906 13908 13918 13948 15812 15858 
+	}
+	history = {
+		owner = CRA
+		add_core_of = CRA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			13948 3
+		}
+
+		victory_points = {
+			15858 5
+		}
+
+		victory_points = {
+			13918 5
+		}
+
+		victory_points = {
+			3906 10
+		}
+
+		victory_points = {
+			905 10
+		}
+	}
+	manpower=1298825
+	state_category = metropolis
+}

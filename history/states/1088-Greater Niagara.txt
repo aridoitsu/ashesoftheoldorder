@@ -16,7 +16,15 @@ state={
 		}
 		add_core_of = PIT
 		victory_points = {
-			11654 10 
+			11654 8
+		}
+
+		victory_points = {
+			14772 10
+		}
+
+		victory_points = {
+			14697 1
 		}
 
 	}

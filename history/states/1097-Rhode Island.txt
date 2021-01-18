@@ -14,17 +14,22 @@ state={
 			industrial_complex = 5
 			dockyard = 4
 			air_base = 2
-			13909 = {
+			5239 = {
 				naval_base = 3
 
 			}
 
 		}
 		victory_points = {
-			11830 5 
+			11830 10
+		}
+		victory_points = {
+			13909 5
+		}
+		victory_points = {
+			5239 3
 		}
 		add_core_of = CRA
-		add_core_of = RIR
 
 	}
 

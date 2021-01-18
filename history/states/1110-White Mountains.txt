@@ -15,8 +15,10 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = NHN
-		add_core_of = GMB
+
+		victory_points = {
+			14046 1
+		}
 
 	}
 

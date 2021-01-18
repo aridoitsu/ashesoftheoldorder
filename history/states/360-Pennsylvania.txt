@@ -19,15 +19,17 @@ state={
 		}
 		add_core_of = PEN
 		victory_points = {
-			822 1 
+			822 5
 		}
 		victory_points = {
-			3850 8 
+			3850 10
 		}
 		victory_points = {
-			11888 3 
+			15590 3
 		}
-
+		victory_points = {
+			11758 1
+		}
 	}
 
 	provinces={

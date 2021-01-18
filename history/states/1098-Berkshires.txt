@@ -15,8 +15,10 @@ state={
 
 		}
 		add_core_of = CRA
-		add_core_of = MAM
-
+		
+		victory_points = {
+			15678 5
+		}
 	}
 
 	provinces={

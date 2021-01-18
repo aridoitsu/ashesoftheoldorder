@@ -13,11 +13,12 @@ state={
 			dockyard = 3
 			3712 = {
 				naval_base = 1
-
 			}
-
 		}
-		add_core_of = NHN
+
+		victory_points = {
+			15583 1
+		}
 
 	}
 

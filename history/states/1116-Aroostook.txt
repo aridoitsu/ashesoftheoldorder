@@ -15,9 +15,11 @@ state={
 			infrastructure = 4
 			arms_factory = 1
 		}
-		add_core_of = MEM
 		add_core_of = CAN
-		add_core_of = MSG
+
+		victory_points = {
+			14193 3
+		}
 	}
 
 	provinces={

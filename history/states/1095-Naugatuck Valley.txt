@@ -13,7 +13,26 @@ state={
 
 		}
 		add_core_of = CRA
-		add_core_of = CTC
+		
+		victory_points = {
+			6909 5
+		}
+
+		victory_points = {
+			15561 3
+		}
+
+		victory_points = {
+			9847 1
+		}
+
+		victory_points = {
+			15826 1
+		}
+
+		victory_points = {
+			15746 1
+		}
 
 	}
 

@@ -11,10 +11,11 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = MEM
-		add_core_of = MPL
 		add_core_of = CAN
 
+		victory_points = {
+			15622 3
+		}
 	}
 
 	provinces={
