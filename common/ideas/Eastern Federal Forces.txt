@@ -1,0 +1,140 @@
+ideas = {
+	country = {
+		EFF_Interagency_Rivalry_Balanaced = {
+			picture = GFX_idea_EFF_Agency_Rivalry
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+			}
+		}
+
+		EFF_Interagency_Rivalry_FBI = {
+
+			picture = GFX_idea_EFF_Agency_Rivalry
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+			}
+		}
+
+		EFF_Interagency_Rivalry_NSA = {
+
+			picture = GFX_idea_EFF_Agency_Rivalry
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+			}
+		}
+
+		EFF_Interagency_Rivalry_CIA = {
+
+			picture = GFX_idea_EFF_Agency_Rivalry
+			allowed = {
+				always = yes
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+			}
+		}
+
+		EFF_Thought_Crime = {
+			picture = GFX_idea_EFF_Thought_Crime
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				authdem_drift = -0.01
+				democratic_drift = -0.01
+				liberal_drift = -0.01
+				prodem_drift = -0.01
+				demsoc_drift = -0.01
+				libsoc_drift = -0.01
+				communism_drift = -0.01
+				anarchy_drift = -0.01
+				totalsoc_drift = -0.01
+			}
+		}
+
+		EFF_Countrywide_Camp = {
+			picture = GFX_idea_EFF_Countrywide_Camp
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				monthly_population = -0.20
+				stability_factor = -0.10
+			}
+		}
+
+		EFF_Last_Thread_Of_America = {
+			picture = GFX_idea_EFF_Last_Thread_Of_America
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.10
+			}
+		}
+	}
+}

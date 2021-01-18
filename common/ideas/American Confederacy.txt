@@ -1,0 +1,287 @@
+ideas = {
+	country = {
+		CON_Ruined_Nation = {
+			picture = GFX_idea_CON_Ruined_Nation
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10	
+				consumer_goods_factor = 0.10
+				production_factory_start_efficiency_factor = -0.1
+				}
+			}
+		CON_Martial_Law = {
+			picture = GFX_idea_CON_Martial_Law
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				resistance_target = -0.05
+				compliance_gain = -0.25
+				root_out_resistance_effectiveness_factor = 0.1
+				stability_factor = 0.20
+				stability_weekly = -0.01
+				}
+		}
+		CON_Legacy_of_the_US = {
+		picture = GFX_idea_CON_Legacy_of_the_US
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				authdem_drift = 0.01
+				liberal_drift = 0.01
+				}
+			}
+		CON_Separate_But_Equal = {
+		picture = GFX_idea_CON_Separate_But_Equal
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				fascism_drift = 0.02
+				stability_factor = -0.10
+				conscription_factor = -0.25
+				}
+			}
+		CON_Divided_Cabinet = {
+		picture = GFX_idea_CON_Divided_Cabinet
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_factor = -0.25
+				}
+			}
+		ACR_Harsh_Rationing = {
+		picture = GFX_idea_Harsh_Rationing
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				consumer_goods_factor = -0.10
+				}
+			}
+		Confederate_Nostalgia = {
+		picture = GFX_idea_Confederate_Nostalgia
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				war_support_factor = 0.05
+				fascism_drift = 0.01
+				neutrality_drift = 0.01
+				conscription_factor = 0.05
+				}
+			}
+		Project_Neptune = {
+		picture = GFX_idea_Project_Neptune
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.1
+				}
+			}
+		Dixies_Land_Ill_Take_My_Stand = {
+			picture = GFX_idea_Dixies_Land_Ill_Take_My_Stand
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_core_defence_factor = 0.05
+				}
+			}
+		ACR_Winter_Offensive = {
+			picture = GFX_idea_ACR_Winter_Offensive
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = 0.10
+				army_speed_factor = 0.10
+				army_org_factor = 0.10
+				}
+			}
+		ACR_Utilize_Our_Strengths = {
+			picture = GFX_idea_ACR_Utilize_Our_Strengths
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				planning_speed = 0.10
+				}
+			}
+		ACR_Supremacy_Of_American_Engineering1 = {
+			picture = GFX_idea_ACR_Supremacy_Of_American_Engineering1
+			allowed_civil_war = {
+				always = yes
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+			}
+		ACR_Supremacy_Of_American_Engineering2 = {
+			picture = GFX_idea_ACR_Supremacy_Of_American_Engineering1
+			allowed_civil_war = {
+				always = yes
+			}
+			effect = {
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = -0.1
+					soft_attack = 0.1
+					instant = yes
+				}
+			}
+			}
+			}
+		Motorization_Effort1 = {
+			picture = GFX_idea_Motorization_Effort1
+			allowed_civil_war = {
+				always = yes
+			}
+				equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+			modifier = {
+				}	
+		}
+		Motorization_Effort2 = {
+			picture = GFX_idea_Motorization_Effort1
+			allowed_civil_war = {
+				always = yes
+			}
+				equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.1
+					soft_attack = 0.2
+					instant = yes
+				}
+			}
+		}
+		Afrikan_Aerial_Supremacy = {
+			picture = GFX_idea_Afrikan_Aerial_Supremacy
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				air_air_superiority_attack_factor = 0.1
+			}	
+		}
+		ACR_No_Parley = {
+		picture = GFX_idea_ACR_No_Parley
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = 0.2
+			}	
+		}
+		ACR_Fire_and_Fury = {
+			picture = GFX_idea_ACR_Fire_and_Fury
+			allowed_civil_war = {
+				always = yes
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					soft_attack = 0.2
+					instant = yes
+				}	
+		}
+		}
+		ACR_Project_Neptune = {
+		picture = GFX_idea_ACR_Project_Neptune
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_org_factor = 0.1
+				enemy_partisan_effect = -0.25
+				army_attack_factor = 0.15
+			}
+		}
+		Charleston_Supply_Runs = {
+		picture = GFX_idea_Charleston_Supply_Runs
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				supply_consumption_factor = -0.10
+			}
+		}
+		Reclaim_our_beaches = {
+		picture = GFX_idea_Reclaim_our_beaches
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				amphibious_invasion = 0.10
+				invasion_preparation = -0.3
+			}
+		}
+		Ramped_Up_Bomber_Production1 = {
+		picture = GFX_idea_Ramped_Up_Bomber_Production1
+			allowed_civil_war = {
+				always = yes
+			}
+			equipment_bonus = {
+			tac_bomber_equipment = {
+					air_ground_attack = 0.15
+					instant = yes
+				}
+			CAS_equipment = {
+					air_ground_attack = 0.15
+					instant = yes
+				}
+			}
+			modifier = {
+				
+			}
+		}
+		Burn_Their_Cities = {
+		picture = GFX_idea_Burn_Their_Cities
+			allowed_civil_war = {
+				always = yes
+			}
+			equipment_bonus = {
+			tac_bomber_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			CAS_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+			modifier = {
+				
+			}
+		}
+		Provisional_Civilian_Administrations = {
+		picture = GFX_idea_Provisional_Civilian_Administrations
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				compliance_gain = 0.2
+			}
+		}
+	}
+}	
+	
+	
+	
+	
+	

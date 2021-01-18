@@ -47,7 +47,15 @@ set_technology = {
 	fighter1 = 1
 }
 
-set_stability = 0.50
+set_stability = 0.56
+set_war_support = 0.51
+
+add_ideas = {
+	EFF_Interagency_Rivalry_Balanaced
+	EFF_Thought_Crime
+	EFF_Countrywide_Camp
+	EFF_Last_Thread_Of_America
+}
 
 set_politics = {
 	ruling_party = neutrality
@@ -69,17 +77,10 @@ EDC_Last_Thread_of_America
 set_popularities = {
 	democratic = 20
 	neutrality = 50
-	authdem = 0
+	fascism = 10
 	liberal = 20
-	demsoc = 10
-	prodem = 0
-	communism = 0
-	totalsoc = 0
-	libsoc = 0
-	anarchy = 0
-	fascism = 0
-	ultranationalism = 0
 }
+
 create_country_leader = {
 	name = "Andrew Basiago"
 	desc = "POLITICS_ANDREW_BASIAGO_DESC"
@@ -87,6 +88,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = green
 }
+
 create_country_leader = {
 	name = "Charles H Ramsey"
 	desc = "POLITICS_CHARLES_H_RAMSEY_DESC"
@@ -94,6 +96,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = junta
 }
+
 create_country_leader = {
 	name = "Edward Snowden"
 	desc = "POLITICS_EDWARD_SNOWDEN_DESC"
@@ -101,6 +104,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = despot
 }
+
 create_country_leader = {
 	name = "Michael Hayden"
 	desc = "POLITICS_MICHAEL_HAYDEN_DESC"
@@ -108,6 +112,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = despot
 }
+
 create_country_leader = {
 	name = "Porter Goss"
 	desc = "POLITICS_PORTER_GOSS_DESC"
@@ -115,6 +120,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = despot
 }
+
 create_country_leader = {
 	name = "Robert Mueller"
 	desc = "POLITICS_ROBERT_MUELLER_DESC"
