@@ -5746,4 +5746,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/NYN_idea_growing_economy.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_EFF_Thought_Crime"
+		texturefile = "gfx/interface/ideas/EFF_Thought_Crime.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EFF_Countrywide_Camp"
+		texturefile = "gfx/interface/ideas/EFF_Countrywide_Camp.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EFF_Last_Thread_Of_America"
+		texturefile = "gfx/interface/ideas/EFF_Last_Thread_Of_America.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EFF_Agency_Rivalry"
+		texturefile = "gfx/interface/ideas/EFF_Interagency_Rivalry.dds"
+	}
 }
