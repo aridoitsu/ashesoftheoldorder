@@ -1,7 +1,7 @@
 
 state={
 	id=430
-	name="STATE_430"
+	name="Dhaka"
 
 	history={
 		add_core_of = BAN
@@ -22,9 +22,8 @@ state={
 	}
 
 	provinces={
-		4616 7662 9993 10389 10416 10443 12423 13208 
+		2843 4162 7078 7124 7179 9935 9991 10035 11911 11929 11968 12010 
 	}
-	manpower=31973300
-	buildings_max_level_factor=1.000
-	state_category=town
+	manpower=88869949
+	state_category=city
 }

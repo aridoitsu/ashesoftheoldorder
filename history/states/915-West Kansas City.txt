@@ -1,25 +1,13 @@
 
 state={
 	id=915
-	name="West Missouri City"
+	name="Rakhaing"
 
 	history={
-		owner = MOM
-		add_core_of = MOM
+		owner = BRM
+		add_core_of = BRM
 		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 1
-
-		}
-		victory_points = {
-			13777 15 
-		}
-		victory_points = {
-			13789 3 
-		}
-		victory_points = {
-			13758 1 
+			infrastructure = 4
 		}
 
 	}
@@ -29,5 +17,5 @@ state={
 	}
 	manpower=1520361
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=rural
 }

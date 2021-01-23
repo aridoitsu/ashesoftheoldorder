@@ -1,7 +1,7 @@
 
 state={
 	id=292
-	name="STATE_292"
+	name="Riyadh"
 	resources={
 		oil=3.000
 	}
@@ -9,14 +9,9 @@ state={
 	history={
 		owner = SAU
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 1
-			12702 = {
-				naval_base = 6
-
-			}
-
 		}
 		victory_points = {
 			12727 5 
@@ -26,9 +21,8 @@ state={
 	}
 
 	provinces={
-		1955 5024 7995 10791 10850 10923 12702 12749 
+		5093 8004 8060 10892 12727 12813 12870 
 	}
-	manpower=1440000
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=8216284
+	state_category=town
 }

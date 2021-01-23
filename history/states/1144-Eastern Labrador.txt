@@ -1,23 +1,20 @@
 
 state={
 	id=1144
-	name="Eastern Labrador"
+	name="Al-Basrah"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
-		add_core_of = NLN
+		owner = IRQ
+		add_core_of = IRQ
 		buildings = {
 			infrastructure = 3
-
 		}
 
 	}
 
 	provinces={
-		2097 3795 7994 10876 12046 12839 12855 
+		78 2004 2089 7977 8001 12726
 	}
-	manpower=21416
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=4901000
+	state_category=town
 }

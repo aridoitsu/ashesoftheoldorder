@@ -1,27 +1,21 @@
 
 state={
 	id=825
-	name="Victoria"
+	name="Ma'am"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
-		add_core_of = BCB
+		owner = JOR
+		add_core_of = JOR
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 			industrial_complex = 4
-
-		}
-		victory_points = {
-			14387 15 
 		}
 
 	}
 
 	provinces={
-		1544 4440 4574 7001 7151 7170 
+		4017 4115 4562 4591 4603 10089 11976 
 	}
-	manpower=921425
-	buildings_max_level_factor=1.000
-	state_category=large_city
+	manpower=497591
+	state_category=rural
 }

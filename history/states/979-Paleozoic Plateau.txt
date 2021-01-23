@@ -1,33 +1,23 @@
 
 state={
 	id=979
-	name="Paleozoic"
+	name="Biosfera"
 	resources={
 		steel=29.000
 	}
 
 	history={
-		owner = DMO
+		owner = HON
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
-
 		}
-		victory_points = {
-			9910 3 
-		}
-		victory_points = {
-			10478 3 
-		}
-		add_core_of = DMO
+		add_core_of = HON
 
 	}
 
 	provinces={
 		2031 8017 13316 13326 13327 13328 13330 13332 
 	}
-	manpower=45213
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=3088062
+	state_category=town
 }

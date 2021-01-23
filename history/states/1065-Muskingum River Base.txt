@@ -1,18 +1,18 @@
 
 state={
 	id=1065
-	name="Huron"
+	name="Moscow"
 
 	history={
-		owner = OHO
-		add_core_of = OHO
+		owner = RUS
+		add_core_of = RUS
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 2
-
+			infrastructure = 7
+			arms_factory = 7
+			air_base = 10
 		}
 		victory_points = {
-			9825 1 
+			6380 50 
 		}
 
 	}
@@ -20,7 +20,6 @@ state={
 	provinces={
 		3259 6283 6380 9378 
 	}
-	manpower=201450
-	buildings_max_level_factor=1.000
-	state_category=large_town
+	manpower=12506468
+	state_category=megalopolis
 }

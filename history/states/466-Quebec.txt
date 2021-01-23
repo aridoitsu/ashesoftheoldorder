@@ -1,29 +1,29 @@
 
 state={
 	id=466
-	name="Nord-du-Québec"
+	name="San Juan"
 	resources={
 		aluminium=4.000
 		oil=11.000
 	}
 
 	history={
-		owner = QBC
+		owner = DOM
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = QBC
+		add_core_of = DOM
+
 		victory_points = {
-			3208 5 
+			4598 1 
 		}
 
 	}
 
 	provinces={
-		3721 10484 13354 13355 13358 13361 
+		4598 7632 13347 13356 13363
 	}
-	manpower=318860
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+	manpower=549288
+	state_category=town
 }

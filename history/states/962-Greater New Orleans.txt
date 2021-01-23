@@ -1,26 +1,20 @@
 
 state={
 	id=962
-	name="Baton Rouge"
+	name="Tigray Afar"
 
 	history={
-		owner = NEO
-		add_core_of = NEO
+		owner = ETH
+		add_core_of = ETH
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-
 		}
-		victory_points = {
-			1453 10 
-		}
-
 	}
 
 	provinces={
 		2072 5041 7944 
 	}
-	manpower=101592
-	buildings_max_level_factor=1.000
-	state_category=city
+	manpower=5779000
+	state_category=town
 }

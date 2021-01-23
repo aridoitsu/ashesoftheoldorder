@@ -1,25 +1,19 @@
 
 state={
 	id=967
-	name="Tupelo"
+	name="Somali"
 
 	history={
-		owner = MIS
-		add_core_of = MIS
+		owner = ETH
+		add_core_of = ETH
 		buildings = {
 			infrastructure = 3
-
 		}
-		victory_points = {
-			10753 3 
-		}
-
 	}
 
 	provinces={
 		4995 10775 12757 12812 
 	}
-	manpower=50641
-	buildings_max_level_factor=1.000
+	manpower=9654421
 	state_category=rural
 }

@@ -1,7 +1,7 @@
 
 state={
 	id=422
-	name="STATE_422"
+	name="Sri Lanka"
 	resources={
 		rubber=60.000
 	}
@@ -33,7 +33,6 @@ state={
 	provinces={
 		7344 10201 10229 10287 
 	}
-	manpower=5500000
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=8798501
+	state_category=large_town
 }

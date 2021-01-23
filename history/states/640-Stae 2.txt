@@ -1,7 +1,7 @@
 
 state={
 	id=640
-	name="STATE_640"
+	name="Mandalay"
 	resources={
 		tungsten=120.000
 	}

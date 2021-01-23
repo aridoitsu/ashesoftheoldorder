@@ -1,14 +1,9 @@
 
 state={
 	id=311
-	name="STATE_311"
+	name="Belize"
 
 	history={
-		1936.1.3 = {
-			owner = BLZ
-			controller = BLZ
-
-		}
 		add_core_of = BLZ
 		owner = BLZ
 		victory_points = {
@@ -18,17 +13,13 @@ state={
 			infrastructure = 4
 			2077 = {
 				naval_base = 1
-
 			}
-
 		}
-
 	}
 
 	provinces={
 		13339 13345 
 	}
-	manpower=51000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+	manpower=132731
+	state_category=town
 }

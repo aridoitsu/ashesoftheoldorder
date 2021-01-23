@@ -1,11 +1,11 @@
 
 state={
 	id=847
-	name="Upper Peace"
+	name="Puntarenas"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = COS
+		add_core_of = COS
 		buildings = {
 			infrastructure = 2
 
@@ -16,7 +16,6 @@ state={
 	provinces={
 		12878 13280 13285 13290 
 	}
-	manpower=21041
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+	manpower=787415
+	state_category=rural
 }

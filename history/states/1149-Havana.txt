@@ -1,6 +1,6 @@
 state={
 	id=1149
-	name="Havana"
+	name="La Habana"
 	resources = {
 		steel = 112.000
 	}

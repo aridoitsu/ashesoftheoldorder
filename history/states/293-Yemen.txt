@@ -1,7 +1,7 @@
 
 state={
 	id=293
-	name="STATE_293"
+	name="Amant Al Asimah"
 	resources={
 		oil=1.000
 	}
@@ -14,9 +14,7 @@ state={
 			industrial_complex = 1
 			10840 = {
 				naval_base = 1
-
 			}
-
 		}
 		victory_points = {
 			10840 3 
@@ -28,7 +26,6 @@ state={
 	provinces={
 		1920 4924 10840 
 	}
-	manpower=2489500
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=10203974
+	state_category=town
 }

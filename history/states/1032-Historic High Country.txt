@@ -1,18 +1,13 @@
 
 state={
 	id=1032
-	name="Floyd"
+	name="Sabaragamuwa"
 
 	history={
-		owner = NAK
-		add_core_of = NAK
-		add_claim_by = ACR
+		owner = SRL
+		add_core_of = SRL
 		buildings = {
 			infrastructure = 2
-
-		}
-		victory_points = {
-			968 2 
 		}
 
 	}
@@ -20,7 +15,6 @@ state={
 	provinces={
 		1213 4219 7260 12258 
 	}
-	manpower=21040
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=11465122
+	state_category=town
 }

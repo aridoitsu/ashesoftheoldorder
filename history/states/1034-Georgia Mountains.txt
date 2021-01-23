@@ -1,23 +1,19 @@
 
 state={
 	id=1034
-	name="New Afrika"
+	name="Southern Nations"
 
 	history={
-		owner = NAK
-		add_core_of = NAK
-		add_claim_by = ACR
+		owner = ETH
+		add_core_of = ETH
 		buildings = {
 			infrastructure = 2
-
 		}
-
 	}
 
 	provinces={
 		7912 8019 8062 10734 
 	}
-	manpower=20145
-	buildings_max_level_factor=1.000
+	manpower=13711200
 	state_category=town
 }

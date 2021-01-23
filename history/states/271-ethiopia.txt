@@ -1,7 +1,7 @@
 
 state={
 	id=271
-	name="STATE_271"
+	name="Oromiya"
 	resources={
 		rubber=2.000
 	}
@@ -31,7 +31,6 @@ state={
 	provinces={
 		5010 5097 7980 8036 12714 
 	}
-	manpower=10000000
-	buildings_max_level_factor=1.000
-	state_category=town
+	manpower=26953600
+	state_category=large_town
 }

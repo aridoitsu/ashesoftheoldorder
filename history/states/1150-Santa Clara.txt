@@ -1,6 +1,6 @@
 state={
 	id=1150
-	name="Santa Clara"
+	name="Matanzas"
 	resources = {
 		chromium = 47.000
 		tungsten = 53.000

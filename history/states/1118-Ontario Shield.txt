@@ -1,11 +1,11 @@
 
 state={
 	id=1118
-	name="Ontario Shield"
+	name="Veraguas"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = PAN
+		add_core_of = PAN
 		buildings = {
 			infrastructure = 2
 
@@ -14,9 +14,8 @@ state={
 	}
 
 	provinces={
-		7630 10482 13270 13291 
+		1633 4611 4624 13269 13281 
 	}
-	manpower=102365
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+	manpower=1618129
+	state_category=town
 }

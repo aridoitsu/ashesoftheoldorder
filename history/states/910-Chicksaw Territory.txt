@@ -1,18 +1,15 @@
 
 state={
 	id=910
-	name="Ardmore"
+	name="Kachin"
 
 	history={
-		owner = OKC
-		add_core_of = OKC
+		owner = BRM
+		add_core_of = BRM
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
-		}
-		victory_points = {
-			8025 1 
 		}
 
 	}
@@ -20,7 +17,6 @@ state={
 	provinces={
 		1082 1197 1934 4087 4318 4425 4588 4996 8063 10920 
 	}
-	manpower=35214
-	buildings_max_level_factor=1.000
+	manpower=2747149
 	state_category=rural
 }

@@ -1,7 +1,7 @@
 
 state={
 	id=316
-	name="STATE_316"
+	name="San Jose"
 	resources={
 		chromium=1.000
 	}
@@ -15,21 +15,17 @@ state={
 			air_base = 1
 			13087 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = COS
 		victory_points = {
 			13087 3 
 		}
-
 	}
 
 	provinces={
 		13087 13092 13297 13299 
 	}
-	manpower=503856
-	buildings_max_level_factor=1.000
+	manpower=4333241
 	state_category=town
 }

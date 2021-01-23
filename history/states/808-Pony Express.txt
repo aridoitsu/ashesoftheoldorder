@@ -1,7 +1,7 @@
 
 state={
 	id=808
-	name="Ely"
+	name="Costa"
 	resources={
 		steel=70.000
 		tungsten=32.000
@@ -9,17 +9,23 @@ state={
 	}
 
 	history={
-		owner = NEV
-		add_core_of = NEV
+		owner = ECU
+		add_core_of = ECU
 		buildings = {
 			infrastructure = 4
+			8252 = {
+				naval_base = 4
+			}
+		}
+
+		victory_points = {
+			8252 1 
 		}
 	}
 
 	provinces={
-		5051 11020 12798 
+		5120 8047 8252 
 	}
-	manpower=31057
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=6427218
+	state_category=town
 }

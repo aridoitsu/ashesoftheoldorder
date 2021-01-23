@@ -1,7 +1,7 @@
 
 state={
 	id=313
-	name="STATE_313"
+	name="Suroriental"
 	resources={
 		chromium=4.000
 	}
@@ -33,7 +33,6 @@ state={
 	provinces={
 		10842 10886 13320 13321 13323 13325 13329 13331 15766 
 	}
-	manpower=1771000
-	buildings_max_level_factor=1.000
+	manpower=11635770
 	state_category=town
 }

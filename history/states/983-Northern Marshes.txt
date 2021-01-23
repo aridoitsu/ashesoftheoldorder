@@ -1,17 +1,14 @@
 
 state={
 	id=983
-	name="Marshes"
+	name="Nororiental"
 
 	history={
-		owner = MNM
-		add_core_of = MNM
+		owner = GUA
+		add_core_of = GUA
 		buildings = {
 			infrastructure = 3
 
-		}
-		victory_points = {
-			12588 3 
 		}
 
 	}
@@ -19,7 +16,6 @@ state={
 	provinces={
 		4991 13085 13334 13336 13342 13344 
 	}
-	manpower=34120
-	buildings_max_level_factor=1.000
+	manpower=1721860
 	state_category=rural
 }

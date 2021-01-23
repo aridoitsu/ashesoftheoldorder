@@ -1,7 +1,7 @@
 
 state={
 	id=183
-	name="STATE_183"
+	name="Northern Cyprus"
 	resources={
 		chromium=3.000
 	}
@@ -30,7 +30,6 @@ state={
 	provinces={
 		11984 
 	}
-	manpower=347959
-	buildings_max_level_factor=1.000
+	manpower=304452
 	state_category=rural
 }

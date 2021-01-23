@@ -1,20 +1,13 @@
 
 state={
 	id=927
-	name="High Plains"
+	name="Shan"
 
 	history={
-		owner = WDC
-		add_core_of = WDC
+		owner = BRM
+		add_core_of = BRM
 		buildings = {
 			infrastructure = 3
-
-		}
-		victory_points = {
-			13895 5 
-		}
-		victory_points = {
-			4760 3 
 		}
 
 	}
@@ -22,7 +15,6 @@ state={
 	provinces={
 		4175 4210 7400 7647 7909 7974 
 	}
-	manpower=21045
-	buildings_max_level_factor=1.000
+	manpower=899441
 	state_category=rural
 }

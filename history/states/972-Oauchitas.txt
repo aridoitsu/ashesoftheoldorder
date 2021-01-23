@@ -1,28 +1,19 @@
 
 state={
 	id=972
-	name="Ouicitas"
+	name="Cayo"
 
 	history={
-		owner = LOI
-		add_core_of = LOI
-		victory_points = {
-			13619 1 
-		}
-		victory_points = {
-			13615 3 
-		}
+		owner = BLZ
+		add_core_of = BLZ
 		buildings = {
 			infrastructure = 4
-
 		}
-
 	}
 
 	provinces={
 		2077 15489 
 	}
-	manpower=32541
-	buildings_max_level_factor=1.000
+	manpower=80431
 	state_category=rural
 }

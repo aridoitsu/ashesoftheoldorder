@@ -1,7 +1,7 @@
 
 state={
 	id=455
-	name="STATE_455"
+	name="Amman"
 
 	history={
 		owner = JOR
@@ -18,9 +18,8 @@ state={
 	}
 
 	provinces={
-		4017 4115 4562 4591 4603 10089 11976 
+		1544 4440 4574 7001 7151 7170 
 	}
-	manpower=932000
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=5194788
+	state_category=town
 }

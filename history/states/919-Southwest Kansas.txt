@@ -1,11 +1,11 @@
 
 state={
 	id=919
-	name="Southwest Kansas"
+	name="Sikkim"
 
 	history={
-		owner = ALL
-		add_core_of = ALL
+		owner = IND
+		add_core_of = IND
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -17,7 +17,6 @@ state={
 	provinces={
 		4435 12338 
 	}
-	manpower=9204
-	buildings_max_level_factor=1.000
+	manpower=793750
 	state_category=rural
 }

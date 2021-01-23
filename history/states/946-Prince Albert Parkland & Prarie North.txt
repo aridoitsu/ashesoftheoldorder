@@ -1,14 +1,13 @@
 
 state={
 	id=946
-	name="Prince Albert Parkland & Praire North"
+	name="Jawf"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = SAU
+		add_core_of = SAU
 		buildings = {
 			infrastructure = 2
-
 		}
 
 	}
@@ -16,7 +15,6 @@ state={
 	provinces={
 		2057 4968 4974 5027 5058 5099 7970 8101 10815 10901 12455 
 	}
-	manpower=54214
-	buildings_max_level_factor=1.000
+	manpower=1583559
 	state_category=rural
 }

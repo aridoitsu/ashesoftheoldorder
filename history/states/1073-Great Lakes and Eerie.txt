@@ -14,13 +14,19 @@ state={
 			dockyard = 2
 			3687 = {
 				naval_base = 2
-
 			}
 
 		}
 		add_core_of = PIT
 		victory_points = {
 			3687 3 
+		}
+
+		victory_points = {
+			4442 1 
+		}
+		victory_points = {
+			6874 3 
 		}
 
 	}

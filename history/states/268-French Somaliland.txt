@@ -1,6 +1,6 @@
 state={
 	id=268
-	name="STATE_268"
+	name="Djibouti"
 	manpower = 85232
 
 

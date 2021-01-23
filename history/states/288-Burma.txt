@@ -1,7 +1,7 @@
 
 state={
 	id=288
-	name="STATE_288"
+	name="Yangon"
 	resources={
 		rubber=3.000
 		tungsten=92.000

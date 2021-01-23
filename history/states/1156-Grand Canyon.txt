@@ -1,30 +1,31 @@
 
 state={
 	id=1156
-	name="Grand Canyon"
+	name="Dammam"
 	resources={
 		steel=8.000
 		oil=5.000
 	}
 
 	history={
-		owner = IRN
-		add_core_of = IRN
+		owner = SAU
+		add_core_of = SAU
 		buildings = {
-			infrastructure = 2
-			air_base = 3
-
+			infrastructure = 3
+			12702 = {
+				naval_base = 6
+			}
 		}
+
 		victory_points = {
-			13676 5 
+			12702 3
 		}
 
 	}
 
 	provinces={
-		5093 8004 8060 10892 12727 12813 12870 
+		1955 5024 7995 10791 10850 10923 12702 12749 
 	}
-	manpower=59834
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=4900325
+	state_category=town
 }

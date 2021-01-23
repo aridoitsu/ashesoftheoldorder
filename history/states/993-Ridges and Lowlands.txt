@@ -1,29 +1,21 @@
 
 state={
 	id=993
-	name="Madison"
+	name="Rangpur"
 
 	history={
-		owner = CGO
-		add_core_of = CGO
+		owner = BAN
+		add_core_of = BAN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
-		}
-		victory_points = {
-			12456 5 
-		}
-		victory_points = {
-			926 1 
 		}
 
 	}
 
 	provinces={
-		2843 4162 7078 7124 7179 9935 9991 10035 11911 11929 11968 12010 
+		4616 7662 9993 10389 10416 10443 12423 13208 
 	}
-	manpower=31424
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=57744941
+	state_category=large_town
 }

@@ -1,36 +1,29 @@
 
 state={
 	id=938
-	name="Glaciated Plains"
+	name="Atlantico"
 	resources={
 		steel=23.000
 		chromium=19.000
 	}
 
 	history={
-		owner = DAK
-		add_core_of = DAK
+		owner = NIC
+		add_core_of = NIC
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 
 		}
 		victory_points = {
-			14206 3 
-		}
-		victory_points = {
-			14200 3 
-		}
-		victory_points = {
-			14220 1 
+			1988 1
 		}
 
 	}
 
 	provinces={
-		10728 12738 13139 13178 13303 13305 13307 13311 
+		1988 2075 13302 13304 13306 13308 13317
 	}
-	manpower=51423
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=776388
+	state_category=town
 }
