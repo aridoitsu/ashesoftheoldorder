@@ -1,7 +1,7 @@
 
 state={
 	id=336
-	name="Malaysia"
+	name="Johor"
 	resources={
 		rubber=342.000
 		steel=20.000
@@ -12,22 +12,14 @@ state={
 	history={
 		owner = MAL
 		victory_points = {
-			7329 5 
-		}
-		victory_points = {
 			10297 5 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 6
-			7329 = {
-				naval_base = 1
-
-			}
 			10297 = {
 				naval_base = 5
-
 			}
 
 		}
@@ -38,7 +30,6 @@ state={
 	provinces={
 		1376 4367 4384 4412 4424 7427 10297 10313 12255 12271 
 	}
-	manpower=2893200
-	buildings_max_level_factor=1.000
+	manpower=3812584
 	state_category=large_town
 }

@@ -1,12 +1,12 @@
 
 state={
 	id=1127
-	name="Cape Breton"
+	name="Kratie"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
-		add_core_of = NSN
+		owner = VIN
+		add_core_of = VIN
+		add_core_of = CAM
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -19,7 +19,6 @@ state={
 	provinces={
 		1620 4330 4596 7645 10204 12167 12260 
 	}
-	manpower=132339
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=3523488
+	state_category=town
 }

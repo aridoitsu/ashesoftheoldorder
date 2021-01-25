@@ -1,11 +1,11 @@
 
 state={
 	id=866
-	name="Kofa"
+	name="Isan"
 
 	history={
-		owner = PNX
-		add_core_of = PNX
+		owner = SIA
+		add_core_of = SIA
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -17,7 +17,6 @@ state={
 	provinces={
 		1357 1535 1548 4511 4582 7516 10384 10425 12360 12373 12388 12402 
 	}
-	manpower=75572
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=22240574
+	state_category=town
 }

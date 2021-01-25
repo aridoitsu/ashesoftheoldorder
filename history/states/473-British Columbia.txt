@@ -1,37 +1,24 @@
 
 state={
 	id=473
-	name="South British Columbia"
+	name="Khon Muang"
 	resources={
 		oil=1.000
 		chromium=6.000
 	}
 
 	history={
-		owner = CAN
+		owner = SIA
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 		}
-		add_core_of = CAN
-		add_core_of = BCB
-		
-		victory_points = {
-			7853 1 
-		}
-		victory_points = {
-			7820 1 
-		}
-		victory_points = {
-			4877 1 
-		}
-
+		add_core_of = SIA
 	}
 
 	provinces={
 		1253 1488 1990 4496 7312 7353 7492 7531 7675 8045 10371 12345 
 	}
-	manpower=438165
-	buildings_max_level_factor=1.000
-	state_category=city
+	manpower=6341973
+	state_category=town
 }

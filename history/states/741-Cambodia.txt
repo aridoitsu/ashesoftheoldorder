@@ -1,13 +1,14 @@
 
 state={
 	id=741
-	name="STATE_741"
+	name="Phnom Penh"
 
 	history={
 		add_core_of = VIN
 		owner = VIN
+		add_core_of = CAM
 		victory_points = {
-			7376 1 
+			7376 3
 		}
 		buildings = {
 			infrastructure = 1
@@ -23,7 +24,6 @@ state={
 	provinces={
 		1353 4359 5236 7319 7376 7404 7432 10134 10177 10289 12191 
 	}
-	manpower=5245000
-	buildings_max_level_factor=1.000
+	manpower=6858931
 	state_category=town
 }

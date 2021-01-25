@@ -1,7 +1,7 @@
 
 state={
 	id=671
-	name="STATE_671"
+	name="Tonkin"
 	resources={
 		chromium=6.000
 		tungsten=27.000
@@ -11,7 +11,7 @@ state={
 		add_core_of = VIN
 		owner = VIN
 		victory_points = {
-			4075 1 
+			4075 10
 		}
 		buildings = {
 			infrastructure = 4
@@ -29,7 +29,6 @@ state={
 	provinces={
 		1185 4075 4529 9988 10016 10075 10103 10129 11909 11936 12075 12319 
 	}
-	manpower=11528000
-	buildings_max_level_factor=1.000
-	state_category=town
+	manpower=22879110
+	state_category=large_town
 }

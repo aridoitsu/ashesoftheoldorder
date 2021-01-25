@@ -1,7 +1,7 @@
 
 state={
 	id=289
-	name="STATE_289"
+	name="Sankamphaeng"
 	resources={
 		rubber=8.000
 		tungsten=2.000
@@ -36,7 +36,6 @@ state={
 	provinces={
 		1244 4433 7225 7292 7408 7601 10250 10293 10438 12195 12224 12264 12417 12431 
 	}
-	manpower=12422400
-	buildings_max_level_factor=1.000
+	manpower=17442969
 	state_category=city
 }

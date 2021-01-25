@@ -1,22 +1,23 @@
 
 state={
 	id=1008
-	name="Dyer"
+	name="Red River Delta"
 
 	history={
-		owner = MIS
-		add_core_of = MIS
+		owner = VIN
+		add_core_of = VIN
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 6
 		}
 
+		victory_points = {
+			4119 5
+		}
 	}
 
 	provinces={
 		1073 1157 4119 7015 7093 7518 9948 12008 12048 12065 
 	}
-	manpower=80415
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=11064930
+	state_category=town
 }
