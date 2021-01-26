@@ -1,17 +1,13 @@
 
 state={
 	id=1015
-	name="Evansville"
+	name="Barat"
 
 	history={
-		owner = INI
-		add_core_of = INI
+		owner = INS
+		add_core_of = INS
 		buildings = {
 			infrastructure = 3
-
-		}
-		victory_points = {
-			11635 3 
 		}
 
 	}
@@ -19,7 +15,6 @@ state={
 	provinces={
 		1230 1304 1316 2170 2222 4279 4335 4409 7227 7424 10282 12129 12955 
 	}
-	manpower=102340
-	buildings_max_level_factor=1.000
-	state_category=town
+	manpower=1697955
+	state_category=rural
 }

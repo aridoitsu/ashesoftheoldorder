@@ -1,15 +1,13 @@
 
 state={
 	id=831
-	name="Alaskan Arctic"
+	name="Khentii"
 
 	history={
-		owner = AKA
-		add_core_of = AKA
+		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-
 		}
 
 	}
@@ -17,7 +15,6 @@ state={
 	provinces={
 		4792 4862 7823 7885 10554 10708 12533 12665 
 	}
-	manpower=80141
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+	manpower=112607
+	state_category=pastoral
 }

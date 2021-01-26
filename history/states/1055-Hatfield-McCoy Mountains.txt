@@ -1,17 +1,13 @@
 
 state={
 	id=1055
-	name="Huntington"
+	name="Jayapura"
 
 	history={
-		owner = APP
-		add_core_of = APP
+		owner = INS
+		add_core_of = INS
 		buildings = {
-			infrastructure = 2
-
-		}
-		victory_points = {
-			10441 5 
+			infrastructure = 3
 		}
 
 	}
@@ -19,7 +15,6 @@ state={
 	provinces={
 		1546 4509 4552 7529 7542 7570 10369 10396 10990 12371 
 	}
-	manpower=60125
-	buildings_max_level_factor=1.000
+	manpower=1205685
 	state_category=rural
 }

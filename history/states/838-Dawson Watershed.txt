@@ -1,18 +1,13 @@
 
 state={
 	id=838
-	name="Dawson Watershed"
+	name="Bulgan"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-
-		}
-		victory_points = {
-			15617 15 
 		}
 
 	}
@@ -20,7 +15,6 @@ state={
 	provinces={
 		1689 1791 1834 4882 7676 7717 12579 12649 
 	}
-	manpower=90120
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=431410
+	state_category=town
 }

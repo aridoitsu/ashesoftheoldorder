@@ -1,11 +1,11 @@
 
 state={
 	id=944
-	name="Qu'Appelle"
+	name="Momase"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = PNG
+		add_core_of = PNG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -17,7 +17,6 @@ state={
 	provinces={
 		1222 1389 4393 5135 7614 10423 10954 11004 11018 12154 12240 12400 12428 
 	}
-	manpower=56471
-	buildings_max_level_factor=1.000
+	manpower=2148369
 	state_category=town
 }

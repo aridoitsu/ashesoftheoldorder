@@ -1,14 +1,14 @@
 
 state={
 	id=721
-	name="East Timor"
+	name="Timor-Leste"
 	manpower = 1183643
 
 	state_category = town
 
 	history= {
-		owner = ETM
-		add_core_of = ETM
+		owner = INS
+		add_core_of = INS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -22,6 +22,6 @@ state={
 	}
 
 	provinces={
-		1326 12178 12190 12206 13001
+		1326 1339 1355 4358 12178 12190 12206 13001
 	}
 }

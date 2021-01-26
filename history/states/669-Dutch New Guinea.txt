@@ -1,7 +1,7 @@
 
 state={
 	id=669
-	name="STATE_669"
+	name="Papua Barot"
 
 	history={
 		owner = INS
@@ -13,7 +13,6 @@ state={
 			infrastructure = 1
 			12371 = {
 				naval_base = 2
-
 			}
 
 		}
@@ -23,7 +22,6 @@ state={
 	provinces={
 		1602 1617 1629 4468 4524 4593 7269 7487 7512 7585 7627 8235 8250 10436 10505 12315 12386 12457 
 	}
-	manpower=314300
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+	manpower=1220647
+	state_category=rural
 }

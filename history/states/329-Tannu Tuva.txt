@@ -1,7 +1,7 @@
 
 state={
 	id=329
-	name="STATE_329"
+	name="Tuvan Republic"
 	manpower = 85000
 	resources={
 		chromium=2 # was: 2

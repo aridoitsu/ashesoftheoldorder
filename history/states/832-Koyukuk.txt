@@ -1,16 +1,13 @@
 
 state={
 	id=832
-	name="Koyukuk"
+	name="Dornogovi"
 
 	history={
-		owner = AKA
-		add_core_of = AKA
+		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
-
 		}
 
 	}
@@ -18,7 +15,6 @@ state={
 	provinces={
 		1723 1743 1787 1853 1868 4655 4856 4873 7749 10575 10578 10632 10647 12539 12557 12612 12629 
 	}
-	manpower=32102
-	buildings_max_level_factor=1.000
+	manpower=258737
 	state_category=rural
 }

@@ -1,16 +1,13 @@
 
 state={
 	id=1151
-	name="Kaska Dena"
+	name="Gobi"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
-
 		}
 
 	}
@@ -18,7 +15,6 @@ state={
 	provinces={
 		1781 1855 4729 4786 4858 7806 7864 10558 10560 10634 10689 10695 12541 12669 
 	}
-	manpower=60412
-	buildings_max_level_factor=1.000
-	state_category=town
+	manpower=47354
+	state_category=pastoral
 }
