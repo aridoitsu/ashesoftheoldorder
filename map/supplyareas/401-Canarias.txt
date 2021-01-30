@@ -1,0 +1,9 @@
+
+supply_area={
+	id=401
+	name="Canarais"
+	value=1
+	states={
+		178
+	}
+}

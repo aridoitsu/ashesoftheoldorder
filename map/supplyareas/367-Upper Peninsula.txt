@@ -3,6 +3,6 @@ supply_area={
 	name="Upper Peninsula"
 	value=12
 	states={
-		1021 
+		857 858 860 861 882
 	}
 }

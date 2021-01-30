@@ -1,0 +1,9 @@
+
+supply_area={
+	id=380
+	name="Oregon"
+	value=1
+	states={
+		811 812 813 814 816
+	}
+}

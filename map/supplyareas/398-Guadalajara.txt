@@ -1,0 +1,9 @@
+
+supply_area={
+	id=398
+	name="Guadalajara"
+	value=15
+	states={
+		478 481 485
+	}
+}

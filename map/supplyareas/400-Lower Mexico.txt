@@ -1,0 +1,9 @@
+
+supply_area={
+	id=400
+	name="Lower Mexico"
+	value=8
+	states={
+		474 475
+	}
+}

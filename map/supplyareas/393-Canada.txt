@@ -1,0 +1,9 @@
+
+supply_area={
+	id=393
+	name="Central Canada"
+	value=1
+	states={
+		845 848 947 948 949 951
+	}
+}

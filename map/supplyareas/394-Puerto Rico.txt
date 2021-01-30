@@ -1,0 +1,9 @@
+
+supply_area={
+	id=394
+	name="Caribbean"
+	value=3
+	states={
+		308 686 691 692 694
+	}
+}

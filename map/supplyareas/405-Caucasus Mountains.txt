@@ -1,0 +1,9 @@
+
+supply_area={
+	id=405
+	name="Caucasus Mountains"
+	value=4
+	states={
+		233 1193 1194 1195 1196 1197 1198 1201 1203 
+	}
+}

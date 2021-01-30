@@ -1,0 +1,9 @@
+
+supply_area={
+	id=387
+	name="Vancouver Island"
+	value=1
+	states={
+		740
+	}
+}

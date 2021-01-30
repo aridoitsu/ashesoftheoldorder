@@ -1,0 +1,9 @@
+
+supply_area={
+	id=390
+	name="Canadian Provinces"
+	value=1
+	states={
+		472 683 837 950
+	}
+}

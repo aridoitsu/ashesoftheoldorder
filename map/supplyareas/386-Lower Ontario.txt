@@ -1,0 +1,9 @@
+
+supply_area={
+	id=386
+	name="Lower Ontario"
+	value=1
+	states={
+		682 1135
+	}
+}

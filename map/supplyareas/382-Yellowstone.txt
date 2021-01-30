@@ -1,0 +1,9 @@
+
+supply_area={
+	id=382
+	name="Yellowstone"
+	value=1
+	states={
+		869 878 1178 1217
+	}
+}

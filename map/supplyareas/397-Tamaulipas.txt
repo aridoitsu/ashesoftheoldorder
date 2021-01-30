@@ -1,0 +1,9 @@
+
+supply_area={
+	id=397
+	name="Tamaulipas"
+	value=12
+	states={
+		479 480
+	}
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=389
+	name="Haida Gwaii"
+	value=1
+	states={
+		739
+	}
+}

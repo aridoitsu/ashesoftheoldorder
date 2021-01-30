@@ -1,0 +1,9 @@
+
+supply_area={
+	id=368
+	name="Temporary"
+	value=1
+	states={
+		809 852 1222
+	}
+}

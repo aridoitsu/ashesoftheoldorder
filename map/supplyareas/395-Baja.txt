@@ -1,0 +1,9 @@
+
+supply_area={
+	id=395
+	name="Baja California"
+	value=8
+	states={
+		484 1147
+	}
+}

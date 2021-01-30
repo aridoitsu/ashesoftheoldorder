@@ -1,8 +1,8 @@
 supply_area={
 	id=366
-	name="Montreal"
+	name="Saint Lawrence"
 	value=16
 	states={
-		1139 
+		468 1136 1139 1140 1141
 	}
 }

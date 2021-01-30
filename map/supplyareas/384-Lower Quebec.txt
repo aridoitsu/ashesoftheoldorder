@@ -1,0 +1,9 @@
+
+supply_area={
+	id=384
+	name="Lower Quebec"
+	value=1
+	states={
+		1134 1137
+	}
+}

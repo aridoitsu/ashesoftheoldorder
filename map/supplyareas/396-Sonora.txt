@@ -1,0 +1,9 @@
+
+supply_area={
+	id=396
+	name="Sonora"
+	value=11
+	states={
+		482 483 1148 
+	}
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=379
+	name="Northern California"
+	value=1
+	states={
+		378 797 798 799 810 1171 1173 1226 1227
+	}
+}

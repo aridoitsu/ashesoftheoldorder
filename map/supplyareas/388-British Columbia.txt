@@ -1,0 +1,9 @@
+
+supply_area={
+	id=388
+	name="British Columbia"
+	value=1
+	states={
+		822 823 824 826 827 828 829
+	}
+}

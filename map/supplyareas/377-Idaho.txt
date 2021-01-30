@@ -1,0 +1,9 @@
+
+supply_area={
+	id=377
+	name="Idaho"
+	value=1
+	states={
+		387 849 850 851 867 868 
+	}
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=402
+	name="Kalimantan"
+	value=5
+	states={
+		334 1015 1062
+	}
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=392
+	name="Lower Canada"
+	value=11
+	states={
+		467 469 470 844 846 939 940 942 943 945 953 954 955 
+	}
+}

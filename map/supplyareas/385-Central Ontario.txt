@@ -1,0 +1,9 @@
+
+supply_area={
+	id=385
+	name="Central Ontario"
+	value=1
+	states={
+		276 1120 1138
+	}
+}

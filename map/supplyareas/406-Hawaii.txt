@@ -1,0 +1,9 @@
+
+supply_area={
+	id=406
+	name="Hawaii"
+	value=6
+	states={
+		629 1152 1153 1154
+	}
+}

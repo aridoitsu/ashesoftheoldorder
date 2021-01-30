@@ -1,0 +1,9 @@
+
+supply_area={
+	id=378
+	name="Painted Hills"
+	value=1
+	states={
+		385 1224 1229
+	}
+}

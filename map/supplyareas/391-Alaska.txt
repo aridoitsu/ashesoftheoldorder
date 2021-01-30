@@ -1,0 +1,9 @@
+
+supply_area={
+	id=391
+	name="Alaska"
+	value=1
+	states={
+		463 830 833 834 835
+	}
+}

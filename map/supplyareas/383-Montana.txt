@@ -1,0 +1,9 @@
+
+supply_area={
+	id=383
+	name="Montana"
+	value=1
+	states={
+		388 870 872 923 925
+	}
+}

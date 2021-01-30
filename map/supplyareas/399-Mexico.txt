@@ -1,0 +1,9 @@
+
+supply_area={
+	id=399
+	name="Mexico"
+	value=18
+	states={
+		277 476 477 
+	}
+}

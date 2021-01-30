@@ -1,0 +1,9 @@
+
+supply_area={
+	id=404
+	name="Georgia"
+	value=6
+	states={
+		231 1190 1191 1192 
+	}
+}
