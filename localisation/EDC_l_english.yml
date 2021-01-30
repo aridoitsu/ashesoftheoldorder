@@ -6,11 +6,6 @@
  EDC_ADJ:0 "American Remnant"
 
 # EFF Ideas
- EFF_Interagency_Rivalry_Balanaced:0 "Interagency Rivalry - Balanced"
- EFF_Interagency_Rivalry_FBI:0 "Interagency Rivalry - FBI Dominance"
- EFF_Interagency_Rivalry_NSA:0 "Interagency Rivalry - NSA Dominance"
- EFF_Interagency_Rivalry_CIA:0 "Interagency Rivalry - CIA Dominance"
- EFF_Interagency_Rivalry_Balanaced_desc:0 ""
  EFF_Interagency_Rivalry_FBI_desc:0 ""
  EFF_Interagency_Rivalry_NSA_desc:0 ""
  EFF_Interagency_Rivalry_CIA_desc:0 ""
@@ -20,6 +15,8 @@
  EFF_Countrywide_Camp_desc:0 ""
  EFF_Last_Thread_Of_America:0 "The Last Thread Of America"
  EFF_Last_Thread_Of_America_desc:0 ""
+ EFF_Inter_Agency_Rivalry:0 "Inter-Argency Rivalry"
+ EFF_Inter_Agency_Rivalry_desc:0 ""
 
 # EFF Focuses
  EDC_the_cia:0 "The CIA"

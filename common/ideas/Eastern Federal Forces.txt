@@ -1,80 +1,5 @@
 ideas = {
 	country = {
-		EFF_Interagency_Rivalry_Balanaced = {
-			picture = GFX_idea_EFF_Agency_Rivalry
-			allowed = {
-				always = yes
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				stability_factor = 0.05
-				political_power_factor = 0.05
-			}
-		}
-
-		EFF_Interagency_Rivalry_FBI = {
-
-			picture = GFX_idea_EFF_Agency_Rivalry
-			allowed = {
-				always = yes
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				stability_factor = 0.05
-				political_power_factor = 0.05
-			}
-		}
-
-		EFF_Interagency_Rivalry_NSA = {
-
-			picture = GFX_idea_EFF_Agency_Rivalry
-			allowed = {
-				always = yes
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				stability_factor = 0.05
-				political_power_factor = 0.05
-			}
-		}
-
-		EFF_Interagency_Rivalry_CIA = {
-
-			picture = GFX_idea_EFF_Agency_Rivalry
-			allowed = {
-				always = yes
-
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				stability_factor = 0.05
-				political_power_factor = 0.05
-			}
-		}
 
 		EFF_Thought_Crime = {
 			picture = GFX_idea_EFF_Thought_Crime
@@ -134,6 +59,24 @@ ideas = {
 
 			modifier = {
 				war_support_factor = 0.10
+			}
+		}
+
+		EFF_Inter_Agency_Rivalry = {
+			picture = GFX_idea_EFF_Inter_Agency_Rivalry
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
 			}
 		}
 	}

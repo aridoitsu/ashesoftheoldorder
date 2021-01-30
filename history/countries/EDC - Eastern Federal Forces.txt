@@ -51,7 +51,7 @@ set_stability = 0.56
 set_war_support = 0.51
 
 add_ideas = {
-	EFF_Interagency_Rivalry_Balanaced
+	EFF_Inter_Agency_Rivalry
 	EFF_Thought_Crime
 	EFF_Countrywide_Camp
 	EFF_Last_Thread_Of_America
@@ -68,12 +68,6 @@ set_politics = {
 #add_to_faction = EDC
 #add_to_faction = WDC
 
-add_ideas = {
-EDC_Inter_Agency_Rivalry_CIA 
-EDC_Thought_Crime 
-EDC_Country_Wide_Camp 
-EDC_Last_Thread_of_America 
-}
 set_popularities = {
 	democratic = 20
 	neutrality = 50
