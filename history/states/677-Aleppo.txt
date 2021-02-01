@@ -2,27 +2,27 @@
 state={
 	id=677
 	name="STATE_677"
-	manpower = 1325594
-	
-	state_category = town
-	
-	history= { 
+
+	history={
 		owner = SYR
 		victory_points = {
-			12473 3
+			12473 3 
 		}
 		victory_points = {
-			1056 1
+			1056 1 
 		}
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = SYR
 
 	}
 
-	
 	provinces={
-		1056 1072 1088 7140 7671 10087 12473 
+		1056 1072 1088 7140 7671 10087 12473 17266 17268 17270 17272 17274 17275 17283 17285 17287 17292 17293 17294 17300 17302 17304 17310 17313 17315 17316 17319 17320 17327 17328 17330 17334 17335 17340 17343 17346 17348 17351 
 	}
+	manpower=1325594
+	buildings_max_level_factor=1.000
+	state_category=town
 }

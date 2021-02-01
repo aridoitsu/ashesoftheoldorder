@@ -3,7 +3,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8642;13157;sea;4345;-1;-1;-1;-1;ST_LAWRENCE_CANAL;St-Lawrence-Canal
 13154;13199;sea;749;-1;-1;-1;-1;LAKE_ERIE_CANAL;Lake-Erie-Canal
 13155;13159;sea;5205;-1;-1;-1;-1;LAKE_SUPERIOR_CANAL;Lake-Superior-Canal
-8518;13154;sea;11654;-1;-1;-1;-1;ERIE_CANAL;Erie-Canal
+13157;13154;sea;11654;-1;-1;-1;-1;ERIE_CANAL;Erie-Canal
+1889;15878;sea;2919;-1;-1;-1;-1;;HORMUZ_STRAIT;Straight of Hormuz
 
 
 
@@ -109,7 +110,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9377;4450;sea;2887;-1;-1;-1;-1;;Guadeloupe-Montserrat
 4450;13084;sea;2887;-1;-1;-1;-1;;Montserrat-Anguilla
 13084;4155;sea;5507;-1;-1;-1;-1;;Anguilla-Virgin Islands
-1440;4155;sea;5507;-1;-1;-1;-1;;Puerto Rico-Virgin Islands
+13350;4155;sea;5507;-1;-1;-1;-1;;Puerto Rico-Virgin Islands
 10203;9805;sea;5864;-1;-1;-1;-1;;Corfu-Epirus
 1106;12001;sea;5913;-1;-1;-1;-1;;Lefkada-Epirus
 3401;7127;sea;6801;-1;-1;-1;-1;;Cyclades-Greece
@@ -124,7 +125,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4160;1070;sea;5244;-1;-1;-1;-1;;Hainan-Strait
 1712;12147;sea;8978;-1;-1;-1;-1;;Quebec-Strait
 3691;7813;sea;6261;-1;-1;-1;-1;;Cold Ass-Strait
-7259;1393;sea;5257;-1;-1;-1;-1;;Vancouver-Strait
+14401;1393;sea;5257;-1;-1;-1;-1;;Vancouver-Strait
 11047;198;sea;8370;-1;-1;-1;-1;;Barents-Strait
 11157;3145;sea;5792;-1;-1;-1;-1;;Northern-Straits
 11090;91;sea;5792;-1;-1;-1;-1;;Northern-Straits
@@ -193,4 +194,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11664;672;impassable;-1;-1;-1;-1;-1;;caucasus mountains
 11664;654;impassable;-1;-1;-1;-1;-1;;caucasus mountains
 6674;654;impassable;-1;-1;-1;-1;-1;;caucasus mountains
+15877;12702;sea;2691;-1;-1;-1;-1;;Bahrain-Saudi
 -1;-1;;-1;-1;-1;-1;-1;-1

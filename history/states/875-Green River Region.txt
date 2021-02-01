@@ -12,11 +12,13 @@ state={
 			arms_factory = 2
 
 		}
+
 	}
 
 	provinces={
-		7193 
+		7193 17282 17286 17289 17291 
 	}
 	manpower=876000
+	buildings_max_level_factor=1.000
 	state_category=rural
 }
