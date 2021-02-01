@@ -2,8 +2,8 @@ state={
 	id=1039
 	name="Bir Tawil"
 	history = {
-		owner = AAA
-		add_core_of = AAA
+		owner = SUD
+		add_claim_by = SUD
 		buildings = {
 			infrastructure = 1
 		}

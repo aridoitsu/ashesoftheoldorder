@@ -10,19 +10,11 @@ state={
 		owner = CYP
 		add_core_of = CYP
 		victory_points = {
-			11984 5 
-		}
-		victory_points = {
-			7193 3 
+			11984 3
 		}
 		buildings = {
 			infrastructure = 4
 			air_base = 1
-			7193 = {
-				naval_base = 2
-
-			}
-
 		}
 
 	}
@@ -31,6 +23,5 @@ state={
 		11984 17299 17303 17309 17314 
 	}
 	manpower=304452
-	buildings_max_level_factor=1.000
 	state_category=rural
 }

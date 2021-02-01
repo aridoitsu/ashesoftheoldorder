@@ -16857,8 +16857,8 @@
 16856;104;26;141;land;false;hills;2
 16857;110;17;47;land;false;forest;2
 16858;192;115;140;land;false;plains;2
-16859;108;33;42;land;false;plains;0
-16860;105;140;53;land;false;plains;0
+16859;108;33;42;land;false;plains;1
+16860;105;140;53;land;false;plains;1
 16861;81;81;116;land;true;plains;2
 16862;92;123;188;land;false;hills;2
 16863;149;181;74;land;false;mountain;2
