@@ -1,19 +1,22 @@
+
 state={
 	id=675
 	name="STATE_675"
-	manpower = 122093
-	
-	state_category = wasteland
 
-	history= { 
+	history={
 		owner = IRQ
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = IRQ
+
 	}
-	
+
 	provinces={
-		1631 4951 10744 12413 12879 
+		1631 4951 10744 10876 12413 12839 12879 17361 17362 17363 17364 17365 17366 17367 17368 17371 17372 17375 17376 17377 17379 17380 17389 17391 17393 17395 17399 17402 17403 17406 17409 17410 17414 17416 17420 17422 17423 17426 17427 17432 17433 17436 17440 17444 17445 17450 17455 17456 17458 
 	}
+	manpower=122093
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

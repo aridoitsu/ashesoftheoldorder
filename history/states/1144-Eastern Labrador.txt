@@ -8,16 +8,18 @@ state={
 		add_core_of = IRQ
 		buildings = {
 			infrastructure = 3
-		}
 
+		}
 		victory_points = {
 			2089 1 
 		}
+
 	}
 
 	provinces={
-		78 2004 2089 7977 8001 12726
+		78 2004 2089 7977 8001 12726 17369 17370 17373 17374 17378 17381 17382 17383 17384 17385 17386 17387 17388 17390 17392 17396 17397 17398 17404 17405 17408 17411 17413 17415 17419 
 	}
 	manpower=4901000
+	buildings_max_level_factor=1.000
 	state_category=town
 }
